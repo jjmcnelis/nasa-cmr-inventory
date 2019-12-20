@@ -1,0 +1,154 @@
+{
+  "hits": 1,
+  "took": 12,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1581605805-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Arctic_Wildlife_Refuge_Veg_Map.vegtm30.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-01-02T18:20:24Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1982-06-01T00:00:00.000Z",
+            "EndingDateTime": "1993-08-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Arctic_Wildlife_Refuge_Veg_Map.vegtm30.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "DIGITAL ELEVATION/TERRAIN MODEL (DEM)"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -147.051,
+                  "EastBoundingCoordinate": -140.322,
+                  "NorthBoundingCoordinate": 70.7117,
+                  "SouthBoundingCoordinate": 68.8981
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-01-02T18:20:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Arctic_Wildlife_Refuge_Veg_Map_1384",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Arctic_Wildlife_Refuge_Veg_Map/data//vegtm30.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Arctic_Wildlife_Refuge_Veg_Map.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1384",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Arctic_Wildlife_Refuge_Veg_Map/comp/Arctic_Wildlife_Refuge_Veg_Map.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Arctic_Wildlife_Refuge_Veg_Map/comp/Jorgenson_1994_Arctic_National_Wildlife_Refuge.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1384_1.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Arctic National Wildlife Refuge Coastal Plain Landcover",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 8.365433,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LANDSAT",
+            "Instruments": [
+              {
+                "ShortName": "TM"
+              }
+            ]
+          },
+          {
+            "ShortName": "HELICOPTER",
+            "Instruments": [
+              {
+                "ShortName": "CAMERA"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          },
+          {
+            "ShortName": "DEM",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

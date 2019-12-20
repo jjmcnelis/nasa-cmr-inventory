@@ -1,0 +1,3456 @@
+{
+  "hits": 30,
+  "took": 29,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816797-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_2001.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2001-01-01T00:00:00.000Z",
+            "EndingDateTime": "2001-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_2001.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -178.851,
+                  "EastBoundingCoordinate": -27.5605,
+                  "NorthBoundingCoordinate": 79.6247,
+                  "SouthBoundingCoordinate": 28.8967
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_2001.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.325498,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816804-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2001.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2001-01-01T00:00:00.000Z",
+            "EndingDateTime": "2001-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2001.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -154.054,
+                  "EastBoundingCoordinate": -39.1757,
+                  "NorthBoundingCoordinate": 74.3944,
+                  "SouthBoundingCoordinate": 44.5161
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_MODIS_Active_Fires_2001.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.096451,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816785-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_2002.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2002-01-01T00:00:00.000Z",
+            "EndingDateTime": "2002-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_2002.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -169.709,
+                  "EastBoundingCoordinate": -28.3421,
+                  "NorthBoundingCoordinate": 79.268,
+                  "SouthBoundingCoordinate": 39.4956
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_2002.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 18.748241,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816808-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2002.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2002-01-01T00:00:00.000Z",
+            "EndingDateTime": "2002-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2002.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -168.529,
+                  "EastBoundingCoordinate": -28.9974,
+                  "NorthBoundingCoordinate": 78.9465,
+                  "SouthBoundingCoordinate": 39.8279
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_MODIS_Active_Fires_2002.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1.499025,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816800-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2003.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2003-01-01T00:00:00.000Z",
+            "EndingDateTime": "2003-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2003.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -167.744,
+                  "EastBoundingCoordinate": -29.5627,
+                  "NorthBoundingCoordinate": 79.1624,
+                  "SouthBoundingCoordinate": 36.7171
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_MODIS_Active_Fires_2003.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 2.215597,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816811-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_2003.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2003-01-01T00:00:00.000Z",
+            "EndingDateTime": "2003-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_2003.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -169.876,
+                  "EastBoundingCoordinate": -26.0811,
+                  "NorthBoundingCoordinate": 80.2571,
+                  "SouthBoundingCoordinate": 36.6377
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_2003.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 23.999936,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816795-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_2004.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2004-01-01T00:00:00.000Z",
+            "EndingDateTime": "2004-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_2004.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -167.477,
+                  "EastBoundingCoordinate": -28.9261,
+                  "NorthBoundingCoordinate": 79.5159,
+                  "SouthBoundingCoordinate": 37.2682
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_2004.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 87.785442,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816803-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2004.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2004-01-01T00:00:00.000Z",
+            "EndingDateTime": "2004-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2004.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -167.444,
+                  "EastBoundingCoordinate": -32.0034,
+                  "NorthBoundingCoordinate": 79.5089,
+                  "SouthBoundingCoordinate": 40.9367
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_MODIS_Active_Fires_2004.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 8.249027,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816805-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_2005.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2005-01-01T00:00:00.000Z",
+            "EndingDateTime": "2005-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_2005.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.308,
+                  "EastBoundingCoordinate": -30.6583,
+                  "NorthBoundingCoordinate": 79.2122,
+                  "SouthBoundingCoordinate": 35.1107
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_2005.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 38.788933,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816812-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2005.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2005-01-01T00:00:00.000Z",
+            "EndingDateTime": "2005-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2005.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.25,
+                  "EastBoundingCoordinate": -30.7358,
+                  "NorthBoundingCoordinate": 79.1859,
+                  "SouthBoundingCoordinate": 39.2215
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_MODIS_Active_Fires_2005.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.532654,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816791-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2006.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-01-01T00:00:00.000Z",
+            "EndingDateTime": "2006-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2006.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -166.325,
+                  "EastBoundingCoordinate": -34.6674,
+                  "NorthBoundingCoordinate": 76.3625,
+                  "SouthBoundingCoordinate": 39.0942
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_MODIS_Active_Fires_2006.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1.34628,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816794-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_2006.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-01-01T00:00:00.000Z",
+            "EndingDateTime": "2006-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_2006.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -166.337,
+                  "EastBoundingCoordinate": -33.8209,
+                  "NorthBoundingCoordinate": 76.3707,
+                  "SouthBoundingCoordinate": 36.0908
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_2006.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 16.927179,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816786-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2007.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2007-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2007.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -168.828,
+                  "EastBoundingCoordinate": -29.8921,
+                  "NorthBoundingCoordinate": 79.1653,
+                  "SouthBoundingCoordinate": 40.1474
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_MODIS_Active_Fires_2007.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1.418372,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816813-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_2007.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:41Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2007-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_2007.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -169.671,
+                  "EastBoundingCoordinate": -28.9521,
+                  "NorthBoundingCoordinate": 79.6456,
+                  "SouthBoundingCoordinate": 39.5135
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_2007.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 18.378458,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816787-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2008.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2008-01-01T00:00:00.000Z",
+            "EndingDateTime": "2008-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2008.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -168.26,
+                  "EastBoundingCoordinate": -29.5268,
+                  "NorthBoundingCoordinate": 78.4134,
+                  "SouthBoundingCoordinate": 40.2121
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_MODIS_Active_Fires_2008.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1.13723,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816809-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_2008.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2008-01-01T00:00:00.000Z",
+            "EndingDateTime": "2008-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_2008.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -168.261,
+                  "EastBoundingCoordinate": -29.5072,
+                  "NorthBoundingCoordinate": 78.4175,
+                  "SouthBoundingCoordinate": 40.216
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_2008.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 14.760482,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816806-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2009.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2009-01-01T00:00:00.000Z",
+            "EndingDateTime": "2009-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2009.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -166.813,
+                  "EastBoundingCoordinate": -29.0617,
+                  "NorthBoundingCoordinate": 78.7237,
+                  "SouthBoundingCoordinate": 40.5456
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_MODIS_Active_Fires_2009.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 2.514412,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816814-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_2009.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:41Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2009-01-01T00:00:00.000Z",
+            "EndingDateTime": "2009-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_2009.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -168.375,
+                  "EastBoundingCoordinate": -29.0477,
+                  "NorthBoundingCoordinate": 78.7255,
+                  "SouthBoundingCoordinate": 39.8044
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_2009.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 28.566359,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816793-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2010.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2010-01-01T00:00:00.000Z",
+            "EndingDateTime": "2010-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2010.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.139,
+                  "EastBoundingCoordinate": -36.777,
+                  "NorthBoundingCoordinate": 79.6987,
+                  "SouthBoundingCoordinate": 36.0277
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_MODIS_Active_Fires_2010.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 2.59922,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816801-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_2010.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2010-01-01T00:00:00.000Z",
+            "EndingDateTime": "2010-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_2010.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.136,
+                  "EastBoundingCoordinate": -30.8742,
+                  "NorthBoundingCoordinate": 79.6977,
+                  "SouthBoundingCoordinate": 36.0245
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_2010.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 61.210824,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816792-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2011.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2011-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2011.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -164.732,
+                  "EastBoundingCoordinate": -32.9378,
+                  "NorthBoundingCoordinate": 78.8415,
+                  "SouthBoundingCoordinate": 41.5653
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_MODIS_Active_Fires_2011.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1.955384,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816807-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_2011.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2011-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_2011.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -165.643,
+                  "EastBoundingCoordinate": -31.2824,
+                  "NorthBoundingCoordinate": 79.3231,
+                  "SouthBoundingCoordinate": 41.5503
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_2011.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 29.191235,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816796-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2012.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2012-01-01T00:00:00.000Z",
+            "EndingDateTime": "2012-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2012.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -171.646,
+                  "EastBoundingCoordinate": -25.8889,
+                  "NorthBoundingCoordinate": 80.4476,
+                  "SouthBoundingCoordinate": 39.9066
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_MODIS_Active_Fires_2012.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1.851783,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816802-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_2012.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2012-01-01T00:00:00.000Z",
+            "EndingDateTime": "2012-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_2012.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -171.771,
+                  "EastBoundingCoordinate": -25.851,
+                  "NorthBoundingCoordinate": 80.4565,
+                  "SouthBoundingCoordinate": 39.8439
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_2012.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 27.197057,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816789-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2013.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-01-01T00:00:00.000Z",
+            "EndingDateTime": "2013-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2013.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -165.75,
+                  "EastBoundingCoordinate": -33.2133,
+                  "NorthBoundingCoordinate": 77.7275,
+                  "SouthBoundingCoordinate": 41.6669
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_MODIS_Active_Fires_2013.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.481058,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816810-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_2013.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-01-01T00:00:00.000Z",
+            "EndingDateTime": "2013-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_2013.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -166.481,
+                  "EastBoundingCoordinate": -32.3789,
+                  "NorthBoundingCoordinate": 78.1437,
+                  "SouthBoundingCoordinate": 40.5311
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_2013.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 54.150146,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816798-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2014.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2014-01-01T00:00:00.000Z",
+            "EndingDateTime": "2014-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2014.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -167.803,
+                  "EastBoundingCoordinate": -30.0751,
+                  "NorthBoundingCoordinate": 79.3698,
+                  "SouthBoundingCoordinate": 41.9564
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_MODIS_Active_Fires_2014.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.864594,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816799-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_2014.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2014-01-01T00:00:00.000Z",
+            "EndingDateTime": "2014-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_2014.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -168.146,
+                  "EastBoundingCoordinate": -28.788,
+                  "NorthBoundingCoordinate": 79.3739,
+                  "SouthBoundingCoordinate": 40.6006
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_2014.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 50.455774,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816788-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_2015.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2015-01-01T00:00:00.000Z",
+            "EndingDateTime": "2015-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_2015.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -171.476,
+                  "EastBoundingCoordinate": -22.1843,
+                  "NorthBoundingCoordinate": 80.0744,
+                  "SouthBoundingCoordinate": 39.5368
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_2015.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 70.696095,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1452816790-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2015.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-05T21:43:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2015-01-01T00:00:00.000Z",
+            "EndingDateTime": "2015-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_Date_of_Burning.ABoVE_DoB_MODIS_Active_Fires_2015.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -171.25,
+                  "EastBoundingCoordinate": -27.8063,
+                  "NorthBoundingCoordinate": 80.0629,
+                  "SouthBoundingCoordinate": 39.7341
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_Date_of_Burning_1559",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/data/ABoVE_DoB_MODIS_Active_Fires_2015.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_Date_of_Burning.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1559",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_Date_of_Burning/comp/Wildfires_Date_of_Burning.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.437669,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

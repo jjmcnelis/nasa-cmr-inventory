@@ -1,0 +1,1478 @@
+{
+  "hits": 8,
+  "took": 24,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1517447668-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_NWT_Canada.2015_NWT_fireprogression.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-06T14:59:52Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2015-05-20T00:00:00.000Z",
+            "EndingDateTime": "2015-08-13T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_NWT_Canada.2015_NWT_fireprogression.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "DOMINANT SPECIES"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "PLANT CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -135.543,
+                  "EastBoundingCoordinate": -106.759,
+                  "NorthBoundingCoordinate": 68.327,
+                  "SouthBoundingCoordinate": 59.927
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-09-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-06T14:59:51.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_NWT_Canada_1548",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/data//2015_NWT_fireprogression.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_NWT_Canada.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1548",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_geo.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_geo_FOV.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_photos.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_geo.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_geo_FOV.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_photos.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/2015_NWT_fire_progression.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/Wildfires_NWT_Canada.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/Wildfires_NWT_Canada_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2017-09-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.556769,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SOIL TEMPERATURE PROBE"
+              },
+              {
+                "ShortName": "SOIL MOISTURE PROBE"
+              }
+            ]
+          },
+          {
+            "ShortName": "AQUA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "TERRA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1517447669-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_NWT_Canada.NWT_wildfires_seedlings_sprouting_2016.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-06T14:59:52Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-07-09T00:00:00.000Z",
+            "EndingDateTime": "2016-08-08T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_NWT_Canada.NWT_wildfires_seedlings_sprouting_2016.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "DOMINANT SPECIES"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "PLANT CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -117.405,
+                  "EastBoundingCoordinate": -113.016,
+                  "NorthBoundingCoordinate": 62.501,
+                  "SouthBoundingCoordinate": 60.7481
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-09-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-06T14:59:51.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_NWT_Canada_1548",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/data//NWT_wildfires_seedlings_sprouting_2016.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_NWT_Canada.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1548",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_geo.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_geo_FOV.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_photos.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_geo.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_geo_FOV.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_photos.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/2015_NWT_fire_progression.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/Wildfires_NWT_Canada.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/Wildfires_NWT_Canada_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2017-09-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.07735,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SOIL TEMPERATURE PROBE"
+              },
+              {
+                "ShortName": "SOIL MOISTURE PROBE"
+              }
+            ]
+          },
+          {
+            "ShortName": "AQUA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "TERRA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1517447670-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_NWT_Canada.NWT_wildfires_burn_severity_2016.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-06T14:59:52Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-07-09T00:00:00.000Z",
+            "EndingDateTime": "2016-08-08T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_NWT_Canada.NWT_wildfires_burn_severity_2016.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "DOMINANT SPECIES"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "PLANT CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -135.543,
+                  "EastBoundingCoordinate": -106.759,
+                  "NorthBoundingCoordinate": 68.327,
+                  "SouthBoundingCoordinate": 59.927
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-09-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-06T14:59:51.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_NWT_Canada_1548",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/data//NWT_wildfires_burn_severity_2016.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_NWT_Canada.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1548",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_geo.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_geo_FOV.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_photos.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_geo.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_geo_FOV.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_photos.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/2015_NWT_fire_progression.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/Wildfires_NWT_Canada.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/Wildfires_NWT_Canada_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2017-09-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.046701,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SOIL TEMPERATURE PROBE"
+              },
+              {
+                "ShortName": "SOIL MOISTURE PROBE"
+              }
+            ]
+          },
+          {
+            "ShortName": "AQUA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "TERRA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1517447671-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_NWT_Canada.NWT_wildfires_soil_moisture_hydrosense_2_2016.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-06T14:59:52Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-07-09T00:00:00.000Z",
+            "EndingDateTime": "2016-08-08T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_NWT_Canada.NWT_wildfires_soil_moisture_hydrosense_2_2016.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "DOMINANT SPECIES"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "PLANT CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -135.543,
+                  "EastBoundingCoordinate": -106.759,
+                  "NorthBoundingCoordinate": 68.327,
+                  "SouthBoundingCoordinate": 59.927
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-09-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-06T14:59:51.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_NWT_Canada_1548",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/data//NWT_wildfires_soil_moisture_hydrosense_2_2016.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_NWT_Canada.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1548",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_geo.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_geo_FOV.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_photos.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_geo.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_geo_FOV.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_photos.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/2015_NWT_fire_progression.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/Wildfires_NWT_Canada.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/Wildfires_NWT_Canada_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2017-09-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.052374,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SOIL TEMPERATURE PROBE"
+              },
+              {
+                "ShortName": "SOIL MOISTURE PROBE"
+              }
+            ]
+          },
+          {
+            "ShortName": "AQUA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "TERRA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1517447672-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_NWT_Canada.NWT_wildfires_biophysical_2016.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-06T14:59:52Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-07-09T00:00:00.000Z",
+            "EndingDateTime": "2016-08-08T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_NWT_Canada.NWT_wildfires_biophysical_2016.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "DOMINANT SPECIES"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "PLANT CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -117.405,
+                  "EastBoundingCoordinate": -113.016,
+                  "NorthBoundingCoordinate": 62.501,
+                  "SouthBoundingCoordinate": 60.7481
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-09-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-06T14:59:51.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_NWT_Canada_1548",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/data//NWT_wildfires_biophysical_2016.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_NWT_Canada.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1548",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_geo.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_geo_FOV.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_photos.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_geo.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_geo_FOV.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_photos.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/2015_NWT_fire_progression.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/Wildfires_NWT_Canada.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/Wildfires_NWT_Canada_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2017-09-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.048719,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SOIL TEMPERATURE PROBE"
+              },
+              {
+                "ShortName": "SOIL MOISTURE PROBE"
+              }
+            ]
+          },
+          {
+            "ShortName": "AQUA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "TERRA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1517447673-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_NWT_Canada.NWT_wildfires_soil_moisture_hydrosense_1_2016.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-06T14:59:53Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-07-09T00:00:00.000Z",
+            "EndingDateTime": "2016-08-08T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_NWT_Canada.NWT_wildfires_soil_moisture_hydrosense_1_2016.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "DOMINANT SPECIES"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "PLANT CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -135.543,
+                  "EastBoundingCoordinate": -106.759,
+                  "NorthBoundingCoordinate": 68.327,
+                  "SouthBoundingCoordinate": 59.927
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-09-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-06T14:59:51.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_NWT_Canada_1548",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/data//NWT_wildfires_soil_moisture_hydrosense_1_2016.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_NWT_Canada.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1548",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_geo.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_geo_FOV.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_photos.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_geo.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_geo_FOV.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_photos.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/2015_NWT_fire_progression.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/Wildfires_NWT_Canada.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/Wildfires_NWT_Canada_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2017-09-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.06945,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SOIL TEMPERATURE PROBE"
+              },
+              {
+                "ShortName": "SOIL MOISTURE PROBE"
+              }
+            ]
+          },
+          {
+            "ShortName": "AQUA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "TERRA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1517447674-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_NWT_Canada.NWT_wildfires_fieldvalidation_2016.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-06T14:59:53Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-07-09T00:00:00.000Z",
+            "EndingDateTime": "2016-08-08T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_NWT_Canada.NWT_wildfires_fieldvalidation_2016.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "DOMINANT SPECIES"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "PLANT CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -117.768,
+                  "EastBoundingCoordinate": -113.113,
+                  "NorthBoundingCoordinate": 64.4981,
+                  "SouthBoundingCoordinate": 60.5135
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-09-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-06T14:59:51.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_NWT_Canada_1548",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/data//NWT_wildfires_fieldvalidation_2016.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_NWT_Canada.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1548",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_geo.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_geo_FOV.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_photos.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_geo.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_geo_FOV.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_photos.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/2015_NWT_fire_progression.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/Wildfires_NWT_Canada.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/Wildfires_NWT_Canada_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2017-09-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.008932,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SOIL TEMPERATURE PROBE"
+              },
+              {
+                "ShortName": "SOIL MOISTURE PROBE"
+              }
+            ]
+          },
+          {
+            "ShortName": "AQUA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "TERRA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1517447675-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Wildfires_NWT_Canada.NWT_wildfires_inventory_2016.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-06T14:59:53Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-07-09T00:00:00.000Z",
+            "EndingDateTime": "2016-08-08T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Wildfires_NWT_Canada.NWT_wildfires_inventory_2016.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE OCCURRENCE"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "DOMINANT SPECIES"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "PLANT CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -117.405,
+                  "EastBoundingCoordinate": -113.016,
+                  "NorthBoundingCoordinate": 62.501,
+                  "SouthBoundingCoordinate": 60.7481
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-09-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-06T14:59:51.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Wildfires_NWT_Canada_1548",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/data//NWT_wildfires_inventory_2016.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Wildfires_NWT_Canada.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1548",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_geo.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_geo_FOV.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1326_photos.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_geo.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_geo_FOV.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/1327_photos.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/2015_NWT_fire_progression.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/Wildfires_NWT_Canada.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Wildfires_NWT_Canada/comp/Wildfires_NWT_Canada_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2017-09-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.368905,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SOIL TEMPERATURE PROBE"
+              },
+              {
+                "ShortName": "SOIL MOISTURE PROBE"
+              }
+            ]
+          },
+          {
+            "ShortName": "AQUA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "TERRA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

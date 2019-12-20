@@ -1,0 +1,3490 @@
+{
+  "hits": 26,
+  "took": 39,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764372-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.bare_soil_evap_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:19Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.bare_soil_evap_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/bare_soil_evap_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 24.684449,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764373-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.snow_depth_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.snow_depth_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/snow_depth_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 49.554963,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764375-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.surface_albedo_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.surface_albedo_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/surface_albedo_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 43.011429,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764376-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.ground_heat_flux_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.ground_heat_flux_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/ground_heat_flux_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 64.942574,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764377-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.soil_moisture_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.soil_moisture_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/soil_moisture_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 179.481263,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764378-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.upward_sensible_heat_flux_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.upward_sensible_heat_flux_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/upward_sensible_heat_flux_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 63.460373,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764379-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.runoff_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.runoff_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/runoff_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 35.808528,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764380-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.precipitation_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.precipitation_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/precipitation_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 62.406367,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764381-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.downward_shortwave_flux_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.downward_shortwave_flux_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/downward_shortwave_flux_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 61.599949,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764382-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.Precipitation_Climate_Normal_1979-2010.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2010-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.Precipitation_Climate_Normal_1979-2010.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.125,
+                  "EastBoundingCoordinate": -53.4255,
+                  "NorthBoundingCoordinate": 83.125,
+                  "SouthBoundingCoordinate": 41.9792
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/Precipitation_Climate_Normal_1979-2010.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.159396,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764384-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.moisture_intercept_storage_monthy.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.moisture_intercept_storage_monthy.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/moisture_intercept_storage_monthy.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 31.485426,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764385-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.aerodynamic_resistance_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.aerodynamic_resistance_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/aerodynamic_resistance_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 62.951925,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764386-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.evapotranspiration_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.evapotranspiration_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/evapotranspiration_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 65.134964,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764387-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.net_snow_sublimation_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.net_snow_sublimation_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/net_snow_sublimation_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 55.68541,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764388-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.canopy_evap_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.canopy_evap_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/canopy_evap_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 31.272667,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764389-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.surface_temperature_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.surface_temperature_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/surface_temperature_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 64.254843,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764390-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.snow_water_equivalent_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.snow_water_equivalent_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/snow_water_equivalent_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 50.000684,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764391-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.radiative_surface_temp_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.radiative_surface_temp_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/radiative_surface_temp_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 56.076558,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764392-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.canopy_snow_sublimation_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.canopy_snow_sublimation_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/canopy_snow_sublimation_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 24.911451,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764394-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.upward_latent_heat_flux_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.upward_latent_heat_flux_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/upward_latent_heat_flux_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 39.561362,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764396-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.vegetation_transpiration_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.vegetation_transpiration_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/vegetation_transpiration_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 28.046011,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764397-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.baseflow_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.baseflow_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/baseflow_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 51.227957,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764398-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.downward_radiation_flux_monthly.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2018-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.downward_radiation_flux_monthly.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/downward_radiation_flux_monthly.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 63.673773,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764383-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.precip_evapo_water_year.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-10-01T00:00:00.000Z",
+            "EndingDateTime": "2017-10-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.precip_evapo_water_year.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/precip_evapo_water_year.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.066055,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764393-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.precipitation_water_year.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-10-01T00:00:00.000Z",
+            "EndingDateTime": "2017-10-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.precipitation_water_year.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/precipitation_water_year.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.93286,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1619764395-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Monthly_Hydrological_Fluxes.evapotranspiration_water_year.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-17T23:48:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-10-01T00:00:00.000Z",
+            "EndingDateTime": "2017-10-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Monthly_Hydrological_Fluxes.evapotranspiration_water_year.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVAPOTRANSPIRATION"
+          },
+          {
+            "ParameterName": "DRAINAGE"
+          },
+          {
+            "ParameterName": "SNOW WATER EQUIVALENT"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -172.25,
+                  "EastBoundingCoordinate": -53.4997,
+                  "NorthBoundingCoordinate": 83.0008,
+                  "SouthBoundingCoordinate": 41.7508
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-17T23:48:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Monthly_Hydrological_Fluxes_1647",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/data/evapotranspiration_water_year.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Monthly_Hydrological_Fluxes.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1647",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Monthly_Hydrological_Fluxes/comp/Monthly_Hydrological_Fluxes.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.937331,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

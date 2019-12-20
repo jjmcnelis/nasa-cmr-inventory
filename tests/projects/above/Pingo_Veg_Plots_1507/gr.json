@@ -1,0 +1,424 @@
+{
+  "hits": 2,
+  "took": 18,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1581605697-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Pingo_Veg_Plots.pingos_species_data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-01-02T18:18:00Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1983-01-01T00:00:00.000Z",
+            "EndingDateTime": "1983-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Pingo_Veg_Plots.pingos_species_data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PINGO"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          },
+          {
+            "ParameterName": "ACTIVE LAYER"
+          },
+          {
+            "ParameterName": "PERIGLACIAL PROCESSES"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -149.949,
+                  "EastBoundingCoordinate": -147.657,
+                  "NorthBoundingCoordinate": 70.4996,
+                  "SouthBoundingCoordinate": 69.7116
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-01-02T18:17:58.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Pingo_Veg_Plots_1507",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Pingo_Veg_Plots/data//pingos_species_data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Pingo_Veg_Plots.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1507",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Pingo_Veg_Plots/comp/pingos_veg_plots_report.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Pingo_Veg_Plots/comp/Pingo_Veg_Plots.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Pingo_Veg_Plots/comp/Pingo_Veg_Plots_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Pingo_Veg_Plots/comp/scalar_value_tables_pingos_env_data.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.246998,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1581605698-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Pingo_Veg_Plots.pingos_environmental_data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-01-02T18:18:00Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1983-01-01T00:00:00.000Z",
+            "EndingDateTime": "1983-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Pingo_Veg_Plots.pingos_environmental_data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PINGO"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          },
+          {
+            "ParameterName": "ACTIVE LAYER"
+          },
+          {
+            "ParameterName": "PERIGLACIAL PROCESSES"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "Points": [
+                {
+                  "Longitude": -148.787766,
+                  "Latitude": 70.325539
+                },
+                {
+                  "Longitude": -148.787674,
+                  "Latitude": 70.327263
+                },
+                {
+                  "Longitude": -148.902374,
+                  "Latitude": 70.29377
+                },
+                {
+                  "Longitude": -148.574249,
+                  "Latitude": 70.269875
+                },
+                {
+                  "Longitude": -148.759857,
+                  "Latitude": 70.290001
+                },
+                {
+                  "Longitude": -149.134613,
+                  "Latitude": 69.782471
+                },
+                {
+                  "Longitude": -148.010239,
+                  "Latitude": 70.037697
+                },
+                {
+                  "Longitude": -147.906326,
+                  "Latitude": 69.795151
+                },
+                {
+                  "Longitude": -147.912689,
+                  "Latitude": 69.826523
+                },
+                {
+                  "Longitude": -147.656754,
+                  "Latitude": 69.938919
+                },
+                {
+                  "Longitude": -149.516861,
+                  "Latitude": 70.499619
+                },
+                {
+                  "Longitude": -149.18956,
+                  "Latitude": 70.286392
+                },
+                {
+                  "Longitude": -148.769348,
+                  "Latitude": 70.253265
+                },
+                {
+                  "Longitude": -148.762421,
+                  "Latitude": 70.005531
+                },
+                {
+                  "Longitude": -149.466141,
+                  "Latitude": 70.307549
+                },
+                {
+                  "Longitude": -148.764694,
+                  "Latitude": 70.253868
+                },
+                {
+                  "Longitude": -148.892426,
+                  "Latitude": 70.336021
+                },
+                {
+                  "Longitude": -149.400864,
+                  "Latitude": 70.315895
+                },
+                {
+                  "Longitude": -149.584167,
+                  "Latitude": 70.337265
+                },
+                {
+                  "Longitude": -149.948807,
+                  "Latitude": 70.283592
+                },
+                {
+                  "Longitude": -149.195984,
+                  "Latitude": 70.20153
+                },
+                {
+                  "Longitude": -149.203232,
+                  "Latitude": 70.307686
+                },
+                {
+                  "Longitude": -149.506989,
+                  "Latitude": 70.316376
+                },
+                {
+                  "Longitude": -149.793716,
+                  "Latitude": 70.468575
+                },
+                {
+                  "Longitude": -149.120392,
+                  "Latitude": 69.770103
+                },
+                {
+                  "Longitude": -149.110168,
+                  "Latitude": 69.769424
+                },
+                {
+                  "Longitude": -149.086456,
+                  "Latitude": 69.78231
+                },
+                {
+                  "Longitude": -149.084213,
+                  "Latitude": 69.770889
+                },
+                {
+                  "Longitude": -149.111969,
+                  "Latitude": 69.796326
+                },
+                {
+                  "Longitude": -149.084427,
+                  "Latitude": 69.760445
+                },
+                {
+                  "Longitude": -149.139069,
+                  "Latitude": 69.79335
+                },
+                {
+                  "Longitude": -149.699203,
+                  "Latitude": 70.465271
+                },
+                {
+                  "Longitude": -149.185562,
+                  "Latitude": 70.310028
+                },
+                {
+                  "Longitude": -148.667389,
+                  "Latitude": 70.292007
+                },
+                {
+                  "Longitude": -148.803894,
+                  "Latitude": 69.711594
+                },
+                {
+                  "Longitude": -149.187332,
+                  "Latitude": 70.292107
+                },
+                {
+                  "Longitude": -149.178131,
+                  "Latitude": 70.288292
+                },
+                {
+                  "Longitude": -149.170319,
+                  "Latitude": 70.296692
+                },
+                {
+                  "Longitude": -147.680527,
+                  "Latitude": 70.020821
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-01-02T18:17:58.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Pingo_Veg_Plots_1507",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Pingo_Veg_Plots/data//pingos_environmental_data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Pingo_Veg_Plots.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1507",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Pingo_Veg_Plots/comp/pingos_veg_plots_report.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Pingo_Veg_Plots/comp/Pingo_Veg_Plots.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Pingo_Veg_Plots/comp/Pingo_Veg_Plots_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Pingo_Veg_Plots/comp/scalar_value_tables_pingos_env_data.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.060639,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

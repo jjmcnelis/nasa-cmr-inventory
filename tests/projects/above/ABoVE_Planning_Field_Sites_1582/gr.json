@@ -1,0 +1,490 @@
+{
+  "hits": 4,
+  "took": 16,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1548592407-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ABoVE_Planning_Field_Sites.above_airborne_campaign_polygon_locations.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-09-18T19:04:03Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2017-04-01T00:00:00.000Z",
+            "EndingDateTime": "2017-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ABoVE_Planning_Field_Sites.above_airborne_campaign_polygon_locations.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AEROSOL PARTICLE PROPERTIES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -166.008,
+                  "EastBoundingCoordinate": -103.596,
+                  "NorthBoundingCoordinate": 71.328,
+                  "SouthBoundingCoordinate": 56.2856
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-18T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-09-18T19:04:02.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ABoVE_Planning_Field_Sites_1582",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/ABoVE_Planning_Field_Sites/data/above_airborne_campaign_polygon_locations.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/ABoVE_Planning_Field_Sites.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1582",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/ABoVE_Planning_Field_Sites/comp/above_airborne_campaing_all_locations.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/ABoVE_Planning_Field_Sites/comp/ABoVE_Planning_Field_Sites.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-18T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.707989,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "SAR"
+              },
+              {
+                "ShortName": "LVIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1548592411-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ABoVE_Planning_Field_Sites.above_airborne_campaign_point_locations.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-09-18T19:04:04Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2017-04-01T00:00:00.000Z",
+            "EndingDateTime": "2017-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ABoVE_Planning_Field_Sites.above_airborne_campaign_point_locations.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AEROSOL PARTICLE PROPERTIES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -165.619,
+                  "EastBoundingCoordinate": -104.618,
+                  "NorthBoundingCoordinate": 71.3243,
+                  "SouthBoundingCoordinate": 52.7117
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-18T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-09-18T19:04:02.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ABoVE_Planning_Field_Sites_1582",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/ABoVE_Planning_Field_Sites/data/above_airborne_campaign_point_locations.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/ABoVE_Planning_Field_Sites.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1582",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/ABoVE_Planning_Field_Sites/comp/above_airborne_campaing_all_locations.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/ABoVE_Planning_Field_Sites/comp/ABoVE_Planning_Field_Sites.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-18T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 2.499821,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "SAR"
+              },
+              {
+                "ShortName": "LVIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1548592412-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ABoVE_Planning_Field_Sites.above_airborne_campaign_line_locations.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-09-18T19:04:04Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2017-04-01T00:00:00.000Z",
+            "EndingDateTime": "2017-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ABoVE_Planning_Field_Sites.above_airborne_campaign_line_locations.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AEROSOL PARTICLE PROPERTIES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -164.875,
+                  "EastBoundingCoordinate": -120.668,
+                  "NorthBoundingCoordinate": 69.536,
+                  "SouthBoundingCoordinate": 59.6745
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-18T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-09-18T19:04:02.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ABoVE_Planning_Field_Sites_1582",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/ABoVE_Planning_Field_Sites/data/above_airborne_campaign_line_locations.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/ABoVE_Planning_Field_Sites.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1582",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/ABoVE_Planning_Field_Sites/comp/above_airborne_campaing_all_locations.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/ABoVE_Planning_Field_Sites/comp/ABoVE_Planning_Field_Sites.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-18T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.111012,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "SAR"
+              },
+              {
+                "ShortName": "LVIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1548592413-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ABoVE_Planning_Field_Sites.above_airborne_campaign_point_locations.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-09-18T19:04:04Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2017-04-01T00:00:00.000Z",
+            "EndingDateTime": "2017-04-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ABoVE_Planning_Field_Sites.above_airborne_campaign_point_locations.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AEROSOL PARTICLE PROPERTIES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -165.619,
+                  "EastBoundingCoordinate": -104.618,
+                  "NorthBoundingCoordinate": 71.3243,
+                  "SouthBoundingCoordinate": 52.7117
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-18T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-09-18T19:04:02.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ABoVE_Planning_Field_Sites_1582",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/ABoVE_Planning_Field_Sites/data/above_airborne_campaign_point_locations.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/ABoVE_Planning_Field_Sites.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1582",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/ABoVE_Planning_Field_Sites/comp/above_airborne_campaing_all_locations.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/ABoVE_Planning_Field_Sites/comp/ABoVE_Planning_Field_Sites.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-18T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.383609,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "SAR"
+              },
+              {
+                "ShortName": "LVIS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

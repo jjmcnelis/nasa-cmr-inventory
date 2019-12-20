@@ -1,0 +1,304 @@
+{
+  "hits": 2,
+  "took": 19,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1568168437-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Dall_Sheep_Population_Dynamics.mountainunits.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-02T13:48:43Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+            "EndingDateTime": "2015-12-31T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "Dall_Sheep_Population_Dynamics.mountainunits.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVEN-TOED UNGULATES"
+          },
+          {
+            "ParameterName": "SNOW"
+          },
+          {
+            "ParameterName": "POPULATION DYNAMICS"
+          },
+          {
+            "ParameterName": "SPECIES RECRUITMENT"
+          },
+          {
+            "ParameterName": "RANGE CHANGES"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW COVER"
+          },
+          {
+            "ParameterName": "RANGE CHANGES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -163.281,
+                  "EastBoundingCoordinate": -123.547,
+                  "NorthBoundingCoordinate": 69.7074,
+                  "SouthBoundingCoordinate": 59.5978
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-11-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-02T13:48:43.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Dall_Sheep_Population_Dynamics_1640",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Dall_Sheep_Population_Dynamics/data/mountainunits.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Dall_Sheep_Population_Dynamics.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1640",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Dall_Sheep_Population_Dynamics/comp/Dall_Sheep_Population_Dynamics.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Dall_Sheep_Population_Dynamics/comp/mountainunits.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-11-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.162713,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1568168439-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Dall_Sheep_Population_Dynamics.lamb_ewe_ratios_by_mountainunit.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-02T13:48:50Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+            "EndingDateTime": "2015-12-31T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "Dall_Sheep_Population_Dynamics.lamb_ewe_ratios_by_mountainunit.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EVEN-TOED UNGULATES"
+          },
+          {
+            "ParameterName": "SNOW"
+          },
+          {
+            "ParameterName": "POPULATION DYNAMICS"
+          },
+          {
+            "ParameterName": "SPECIES RECRUITMENT"
+          },
+          {
+            "ParameterName": "RANGE CHANGES"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW COVER"
+          },
+          {
+            "ParameterName": "RANGE CHANGES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -163.281,
+                  "EastBoundingCoordinate": -123.547,
+                  "NorthBoundingCoordinate": 69.7074,
+                  "SouthBoundingCoordinate": 59.5978
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-11-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-02T13:48:43.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Dall_Sheep_Population_Dynamics_1640",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Dall_Sheep_Population_Dynamics/data/lamb_ewe_ratios_by_mountainunit.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Dall_Sheep_Population_Dynamics.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1640",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Dall_Sheep_Population_Dynamics/comp/Dall_Sheep_Population_Dynamics.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Dall_Sheep_Population_Dynamics/comp/mountainunits.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-11-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.021182,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

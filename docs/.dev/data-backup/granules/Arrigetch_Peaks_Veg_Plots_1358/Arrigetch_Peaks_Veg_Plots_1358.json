@@ -1,0 +1,226 @@
+{
+  "hits": 2,
+  "took": 13,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1581605420-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Arrigetch_Peaks_Veg_Plots.Arrigetch_Peaks_Environmental_Data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-01-02T18:15:05Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1978-01-01T00:00:00.000Z",
+            "EndingDateTime": "1981-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Arrigetch_Peaks_Veg_Plots.Arrigetch_Peaks_Environmental_Data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -154.5,
+                  "EastBoundingCoordinate": -154.218,
+                  "NorthBoundingCoordinate": 67.5583,
+                  "SouthBoundingCoordinate": 67.2667
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-01-02T18:15:05.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Arrigetch_Peaks_Veg_Plots_1358",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Arrigetch_Peaks_Veg_Plots/data//Arrigetch_Peaks_Environmental_Data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Arrigetch_Peaks_Veg_Plots.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1358",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Arrigetch_Peaks_Veg_Plots/comp/Arrigetch_Peaks_Veg_Plots.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.178859,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1581605421-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Arrigetch_Peaks_Veg_Plots.Arrigetch_Peaks_Species_Data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-01-02T18:15:06Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1978-01-01T00:00:00.000Z",
+            "EndingDateTime": "1981-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Arrigetch_Peaks_Veg_Plots.Arrigetch_Peaks_Species_Data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -154.5,
+                  "EastBoundingCoordinate": -154.218,
+                  "NorthBoundingCoordinate": 67.5583,
+                  "SouthBoundingCoordinate": 67.2667
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-01-02T18:15:05.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Arrigetch_Peaks_Veg_Plots_1358",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Arrigetch_Peaks_Veg_Plots/data//Arrigetch_Peaks_Species_Data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Arrigetch_Peaks_Veg_Plots.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1358",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Arrigetch_Peaks_Veg_Plots/comp/Arrigetch_Peaks_Veg_Plots.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.403667,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

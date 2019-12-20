@@ -1,0 +1,742 @@
+{
+  "hits": 4,
+  "took": 15,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1581736244-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Imnavait_Creek_Veg_Plots.Imnavait_Creek_Soil_Data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-01-03T19:22:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1984-08-01T00:00:00.000Z",
+            "EndingDateTime": "1985-09-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Imnavait_Creek_Veg_Plots.Imnavait_Creek_Soil_Data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "VEGETATION INDEX"
+          },
+          {
+            "ParameterName": "SOIL CHEMISTRY"
+          },
+          {
+            "ParameterName": "SOIL HORIZONS/PROFILE"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "SOIL PH"
+          },
+          {
+            "ParameterName": "SOIL DEPTH"
+          },
+          {
+            "ParameterName": "VEGETATION INDEX"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          },
+          {
+            "ParameterName": "ORGANIC MATTER"
+          },
+          {
+            "ParameterName": "SOIL TEXTURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -149.325,
+                  "EastBoundingCoordinate": -149.23,
+                  "NorthBoundingCoordinate": 68.625,
+                  "SouthBoundingCoordinate": 68.6
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-01-03T19:22:17.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Imnavait_Creek_Veg_Plots_1356",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/data//Imnavait_Creek_Soil_Data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Imnavait_Creek_Veg_Plots.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1356",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Env_Legend.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Plot_Photos.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Veg_Plots.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Veg_Plots_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Veg_Plots_Report_Walker_1987.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/USFWS_Bioreport_Arctic_Wetland_Soil_Veg_WalkerM_1989.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.021156,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SOIL SAMPLER"
+              }
+            ]
+          },
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "LICOR PLANT CANOPY ANALYZER"
+              },
+              {
+                "ShortName": "SPECTROMETERS"
+              },
+              {
+                "ShortName": "PROBES"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1581736245-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Imnavait_Creek_Veg_Plots.Imnavait_Creek_Spectral_Biomass_Data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-01-03T19:22:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1984-08-01T00:00:00.000Z",
+            "EndingDateTime": "1985-09-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Imnavait_Creek_Veg_Plots.Imnavait_Creek_Spectral_Biomass_Data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "VEGETATION INDEX"
+          },
+          {
+            "ParameterName": "SOIL CHEMISTRY"
+          },
+          {
+            "ParameterName": "SOIL HORIZONS/PROFILE"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "SOIL PH"
+          },
+          {
+            "ParameterName": "SOIL DEPTH"
+          },
+          {
+            "ParameterName": "VEGETATION INDEX"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          },
+          {
+            "ParameterName": "ORGANIC MATTER"
+          },
+          {
+            "ParameterName": "SOIL TEXTURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -149.325,
+                  "EastBoundingCoordinate": -149.23,
+                  "NorthBoundingCoordinate": 68.625,
+                  "SouthBoundingCoordinate": 68.6
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-01-03T19:22:17.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Imnavait_Creek_Veg_Plots_1356",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/data//Imnavait_Creek_Spectral_Biomass_Data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Imnavait_Creek_Veg_Plots.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1356",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Env_Legend.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Plot_Photos.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Veg_Plots.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Veg_Plots_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Veg_Plots_Report_Walker_1987.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/USFWS_Bioreport_Arctic_Wetland_Soil_Veg_WalkerM_1989.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.021688,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SOIL SAMPLER"
+              }
+            ]
+          },
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "LICOR PLANT CANOPY ANALYZER"
+              },
+              {
+                "ShortName": "SPECTROMETERS"
+              },
+              {
+                "ShortName": "PROBES"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1581736246-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Imnavait_Creek_Veg_Plots.Imnavait_Creek_Environmental_Data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-01-03T19:22:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1984-08-01T00:00:00.000Z",
+            "EndingDateTime": "1985-09-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Imnavait_Creek_Veg_Plots.Imnavait_Creek_Environmental_Data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "VEGETATION INDEX"
+          },
+          {
+            "ParameterName": "SOIL CHEMISTRY"
+          },
+          {
+            "ParameterName": "SOIL HORIZONS/PROFILE"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "SOIL PH"
+          },
+          {
+            "ParameterName": "SOIL DEPTH"
+          },
+          {
+            "ParameterName": "VEGETATION INDEX"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          },
+          {
+            "ParameterName": "ORGANIC MATTER"
+          },
+          {
+            "ParameterName": "SOIL TEXTURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -149.325,
+                  "EastBoundingCoordinate": -149.23,
+                  "NorthBoundingCoordinate": 68.625,
+                  "SouthBoundingCoordinate": 68.6
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-01-03T19:22:17.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Imnavait_Creek_Veg_Plots_1356",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/data//Imnavait_Creek_Environmental_Data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Imnavait_Creek_Veg_Plots.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1356",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Env_Legend.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Plot_Photos.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Veg_Plots.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Veg_Plots_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Veg_Plots_Report_Walker_1987.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/USFWS_Bioreport_Arctic_Wetland_Soil_Veg_WalkerM_1989.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.103322,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SOIL SAMPLER"
+              }
+            ]
+          },
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "LICOR PLANT CANOPY ANALYZER"
+              },
+              {
+                "ShortName": "SPECTROMETERS"
+              },
+              {
+                "ShortName": "PROBES"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1581736247-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Imnavait_Creek_Veg_Plots.Imnavait_Creek_Species_Data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-01-03T19:22:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1984-08-01T00:00:00.000Z",
+            "EndingDateTime": "1985-09-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Imnavait_Creek_Veg_Plots.Imnavait_Creek_Species_Data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "VEGETATION INDEX"
+          },
+          {
+            "ParameterName": "SOIL CHEMISTRY"
+          },
+          {
+            "ParameterName": "SOIL HORIZONS/PROFILE"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "SOIL PH"
+          },
+          {
+            "ParameterName": "SOIL DEPTH"
+          },
+          {
+            "ParameterName": "VEGETATION INDEX"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          },
+          {
+            "ParameterName": "ORGANIC MATTER"
+          },
+          {
+            "ParameterName": "SOIL TEXTURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -149.325,
+                  "EastBoundingCoordinate": -149.23,
+                  "NorthBoundingCoordinate": 68.625,
+                  "SouthBoundingCoordinate": 68.6
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-01-03T19:22:17.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Imnavait_Creek_Veg_Plots_1356",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/data//Imnavait_Creek_Species_Data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Imnavait_Creek_Veg_Plots.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1356",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Env_Legend.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Plot_Photos.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Veg_Plots.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Veg_Plots_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/Imnavait_Creek_Veg_Plots_Report_Walker_1987.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Imnavait_Creek_Veg_Plots/comp/USFWS_Bioreport_Arctic_Wetland_Soil_Veg_WalkerM_1989.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.083779,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SOIL SAMPLER"
+              }
+            ]
+          },
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "LICOR PLANT CANOPY ANALYZER"
+              },
+              {
+                "ShortName": "SPECTROMETERS"
+              },
+              {
+                "ShortName": "PROBES"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

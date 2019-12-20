@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "revision-id": true,
+    "deleted": false,
+    "format": false,
+    "provider-id": true,
+    "user-id": false,
+    "has-formats": false,
+    "associations": {
+      "services": true
+    },
+    "has-spatial-subsetting": true,
+    "native-id": true,
+    "has-transforms": true,
+    "has-variables": true,
+    "concept-id": true,
+    "revision-date": true,
+    "granule-count": true,
+    "has-temporal-subsetting": true,
+    "concept-type": true
+  },
+  "umm": {
+    "DataLanguage": false,
+    "CollectionCitations": [
+      {
+        "DOI": {
+          "Authority": true,
+          "DOI": true
+        },
+        "OtherCitationDetails": true
+      }
+    ],
+    "AdditionalAttributes": true,
+    "SpatialExtent": {
+      "SpatialCoverageType": true,
+      "HorizontalSpatialDomain": {
+        "Geometry": {
+          "CoordinateSystem": true,
+          "BoundingRectangles": [
+            {
+              "WestBoundingCoordinate": true,
+              "NorthBoundingCoordinate": true,
+              "EastBoundingCoordinate": true,
+              "SouthBoundingCoordinate": true
+            }
+          ]
+        }
+      },
+      "GranuleSpatialRepresentation": true
+    },
+    "Distributions": [
+      {
+        "Sizes": false,
+        "DistributionFormat": false,
+        "Fees": false
+      }
+    ],
+    "CollectionProgress": true,
+    "ScienceKeywords": true,
+    "TemporalExtents": [
+      {
+        "EndsAtPresentFlag": true,
+        "RangeDateTimes": [
+          {
+            "BeginningDateTime": true,
+            "EndingDateTime": true
+          }
+        ]
+      }
+    ],
+    "ProcessingLevel": {
+      "ProcessingLevelDescription": true,
+      "Id": true
+    },
+    "ShortName": true,
+    "EntryTitle": true,
+    "ISOTopicCategories": true,
+    "RelatedUrls": true,
+    "ContactGroups": true,
+    "Abstract": true,
+    "Purpose": true,
+    "LocationKeywords": true,
+    "MetadataDates": true,
+    "DataDates": true,
+    "Version": "1",
+    "Projects": true,
+    "ContactPersons": true,
+    "DataCenters": true,
+    "Platforms": true
+  }
+}

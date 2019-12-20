@@ -1,0 +1,470 @@
+{
+  "hits": 4,
+  "took": 17,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1657953131-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ABoVE_reference_grid_v2.ABoVE_240m_30m_5m_grid_tiles.kmz",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-19T13:55:37Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2014-01-01T00:00:00.000Z",
+            "EndingDateTime": "2021-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ABoVE_reference_grid_v2.ABoVE_240m_30m_5m_grid_tiles.kmz",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BURNED AREA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -177.469,
+                  "EastBoundingCoordinate": -16.7922,
+                  "NorthBoundingCoordinate": 82.484,
+                  "SouthBoundingCoordinate": 34.0585
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-11-18T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-19T13:55:36.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ABoVE_reference_grid_v2_1527",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/ABoVE_reference_grid_v2/data/ABoVE_240m_30m_5m_grid_tiles.kmz",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/ABoVE_reference_grid_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1527",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/ABoVE_reference_grid_v2/comp/ABoVE_reference_grid_v2.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-11-18T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 2.265959,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1657953132-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ABoVE_reference_grid_v2.ABoVE_Study_Domain.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-19T13:55:37Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2014-01-01T00:00:00.000Z",
+            "EndingDateTime": "2021-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ABoVE_reference_grid_v2.ABoVE_Study_Domain.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BURNED AREA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -176.119,
+                  "EastBoundingCoordinate": -66.9319,
+                  "NorthBoundingCoordinate": 80.1356,
+                  "SouthBoundingCoordinate": 39.4067
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-11-18T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-19T13:55:36.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ABoVE_reference_grid_v2_1527",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/ABoVE_reference_grid_v2/data/ABoVE_Study_Domain.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/ABoVE_reference_grid_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1527",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/ABoVE_reference_grid_v2/comp/ABoVE_reference_grid_v2.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-11-18T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.448474,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1657953133-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ABoVE_reference_grid_v2.ABoVE_240m_30m_5m_grid_tiles.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-19T13:55:37Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2014-01-01T00:00:00.000Z",
+            "EndingDateTime": "2021-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ABoVE_reference_grid_v2.ABoVE_240m_30m_5m_grid_tiles.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BURNED AREA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -177.469,
+                  "EastBoundingCoordinate": -16.7922,
+                  "NorthBoundingCoordinate": 82.484,
+                  "SouthBoundingCoordinate": 34.0585
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-11-18T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-19T13:55:36.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ABoVE_reference_grid_v2_1527",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/ABoVE_reference_grid_v2/data/ABoVE_240m_30m_5m_grid_tiles.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/ABoVE_reference_grid_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1527",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/ABoVE_reference_grid_v2/comp/ABoVE_reference_grid_v2.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-11-18T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1.04404,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1657953135-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ABoVE_reference_grid_v2.ABoVE_Study_Domain.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-19T13:55:37Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2014-01-01T00:00:00.000Z",
+            "EndingDateTime": "2021-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ABoVE_reference_grid_v2.ABoVE_Study_Domain.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BURNED AREA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -176.12,
+                  "EastBoundingCoordinate": -66.92,
+                  "NorthBoundingCoordinate": 81.61,
+                  "SouthBoundingCoordinate": 39.42
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-11-18T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-19T13:55:36.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ABoVE_reference_grid_v2_1527",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/ABoVE_reference_grid_v2/data/ABoVE_Study_Domain.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/ABoVE_reference_grid_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1527",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/ABoVE_reference_grid_v2/comp/ABoVE_reference_grid_v2.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-11-18T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.557337,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

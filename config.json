@@ -1,0 +1,30 @@
+{
+  "options": {
+    "project": "above"
+  },
+  "cmr": {
+    "datasets": {
+      "update": true,
+      "search": {
+        "endpoint": "collections.umm_json_v1_4?",
+        "parameters": {
+          "page_size": "1000",
+          "project": null
+        }
+      }
+    },
+    "granules": {
+      "update": true,
+      "search": {
+        "endpoint": "granules.umm_json_v1_4?",
+        "parameters": {
+          "page_size": "2000",
+          "collection_concept_id": null
+        }
+      }
+    }
+  },
+  "paths": {
+    "projects": "tests/projects/"
+  }
+}

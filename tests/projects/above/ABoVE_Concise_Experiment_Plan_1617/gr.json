@@ -1,0 +1,132 @@
+{
+  "hits": 1,
+  "took": 16,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1546816353-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ABoVE_Concise_Experiment_Plan.Concise_Experiment_Plan_for_NASA_ABoVE.pdf",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-09-10T13:48:39Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2014-01-01T00:00:00.000Z",
+            "EndingDateTime": "2021-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ABoVE_Concise_Experiment_Plan.Concise_Experiment_Plan_for_NASA_ABoVE.pdf",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "METHANE"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -176.125,
+                  "EastBoundingCoordinate": -66.9178,
+                  "NorthBoundingCoordinate": 81.6086,
+                  "SouthBoundingCoordinate": 39.415
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-07-19T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-09-10T13:48:39.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ABoVE_Concise_Experiment_Plan_1617",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/ABoVE_Concise_Experiment_Plan/data/Concise_Experiment_Plan_for_NASA_ABoVE.pdf",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/ABoVE_Concise_Experiment_Plan.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1617",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/ABoVE_Concise_Experiment_Plan/comp/ABoVE_Concise_Experiment_Plan.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/ABoVE_Concise_Experiment_Plan/comp/ACEP_Erratum.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/ABoVE_Concise_Experiment_Plan/comp/ACEP_Figures.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-07-19T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 10.40636,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

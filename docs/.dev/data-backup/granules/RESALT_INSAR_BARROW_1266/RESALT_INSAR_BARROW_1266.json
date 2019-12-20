@@ -1,0 +1,115 @@
+{
+  "hits": 1,
+  "took": 13,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422937712-ORNL_DAAC",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "RESALT_INSAR_BARROW.ReSALT_barrow.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "ACTIVE LAYER"
+          },
+          {
+            "ParameterName": "TERRAIN ELEVATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.89,
+                  "EastBoundingCoordinate": -156.39,
+                  "NorthBoundingCoordinate": 71.35,
+                  "SouthBoundingCoordinate": 71.2
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2015-01-23T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2015-01-23T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "RESALT_INSAR_BARROW_1266",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/ReSALT_InSAR_Barrow//data/ReSALT_barrow.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/ReSALT_InSAR_Barrow.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1266",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/ReSALT_InSAR_Barrow/comp/ReSALT_barrow.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/ReSALT_InSAR_Barrow/comp/ReSALT_InSAR_Barrow.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2015-01-23T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 11.597268,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "ALOS",
+            "Instruments": [
+              {
+                "ShortName": "PALSAR"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
