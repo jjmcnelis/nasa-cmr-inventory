@@ -1,0 +1,3324 @@
+{
+  "hits": 14,
+  "took": 36,
+  "items": [
+    {
+      "meta": {
+        "revision-id": 34,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "Canopy Chemistry (OTTER)",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003589-ORNL_DAAC",
+        "revision-date": "2019-09-11T12:37:02Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/26"
+            },
+            "OtherCitationDetails": "Matson, P.A. 1994. Canopy Chemistry (OTTER) . ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/26"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.94,
+                  "NorthBoundingCoordinate": 45.06,
+                  "EastBoundingCoordinate": -121.33,
+                  "SouthBoundingCoordinate": 44.29
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "ECOLOGICAL DYNAMICS",
+            "VariableLevel1": "ECOSYSTEM FUNCTIONS",
+            "VariableLevel2": "BIOMASS DYNAMICS"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "ECOLOGICAL DYNAMICS",
+            "VariableLevel1": "ECOSYSTEM FUNCTIONS",
+            "VariableLevel2": "PRIMARY PRODUCTION"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "BIOMASS"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "LEAF CHARACTERISTICS"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1989-08-23T00:00:00.000Z",
+                "EndingDateTime": "1991-06-04T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "OTTER_CHEM_26",
+        "EntryTitle": "Canopy Chemistry (OTTER)",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/chem/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/OTTER/guides/Canopy_Characteristics.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/26"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/chem/comp/Canopy_Characteristics.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/chem/comp/metchem.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/project/square/otter_logo_square.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-09-11T12:36:59.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "Canopy characteristics: leaf chemistry, specific leaf area, LAI, PAR, IPAR, NPP, standing biomass--see also: Meteorology (OTTER) for associated meteorological conditions",
+        "MetadataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OTTER",
+            "LongName": "Oregon Transect Ecosystem Research Project"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "SUNFLECK CEPTOMETER"
+              },
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              },
+              {
+                "ShortName": "COLORIMETERS"
+              },
+              {
+                "ShortName": "LICOR LEAF AREA METER"
+              },
+              {
+                "ShortName": "SPECTROPHOTOMETERS"
+              },
+              {
+                "ShortName": "AUTOANALYZER"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 37,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "Forest-BGC Model (OTTER)",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003681-ORNL_DAAC",
+        "revision-date": "2019-09-11T12:37:14Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/36"
+            },
+            "OtherCitationDetails": "Running, S.W., J.C. Coughlan, and J. Glassy. 1994. Forest-BGC Model (OTTER) . ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/36"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.95,
+                  "NorthBoundingCoordinate": 45.07,
+                  "EastBoundingCoordinate": -121.68,
+                  "SouthBoundingCoordinate": 44.38
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC WATER VAPOR",
+            "VariableLevel1": "WATER VAPOR PROCESSES",
+            "VariableLevel2": "EVAPORATION"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC WATER VAPOR",
+            "VariableLevel1": "WATER VAPOR PROCESSES",
+            "VariableLevel2": "EVAPOTRANSPIRATION"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "ECOLOGICAL DYNAMICS",
+            "VariableLevel1": "ECOSYSTEM FUNCTIONS",
+            "VariableLevel2": "DECOMPOSITION"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "ECOLOGICAL DYNAMICS",
+            "VariableLevel1": "ECOSYSTEM FUNCTIONS",
+            "VariableLevel2": "PHOTOSYNTHESIS"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "ECOLOGICAL DYNAMICS",
+            "VariableLevel1": "ECOSYSTEM FUNCTIONS",
+            "VariableLevel2": "RESPIRATION RATE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "SOILS",
+            "VariableLevel1": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+                "EndingDateTime": "1990-12-31T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "model products",
+          "Id": "4"
+        },
+        "ShortName": "OTTER_MODEL_36",
+        "EntryTitle": "Forest-BGC Model (OTTER)",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/model/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/OTTER/guides/Runnings_Forest_BGC_Model.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/36"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/model/comp/dayfile.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/model/comp/running.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/model/comp/Runnings_Forest_BGC_Model.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/project/square/otter_logo_square.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-09-11T12:37:13.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "Steve Running's Forest-BGC Model (v.1991)",
+        "MetadataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OTTER",
+            "LongName": "Oregon Transect Ecosystem Research Project"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "NOT APPLICABLE",
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 34,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "Leaf Area Index Data (OTTER)",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003691-ORNL_DAAC",
+        "revision-date": "2019-09-11T12:38:55Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/45"
+            },
+            "OtherCitationDetails": "Ustin, S.L. 1994. Leaf Area Index Data (OTTER) . ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/45"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.27,
+                  "NorthBoundingCoordinate": 44.67,
+                  "EastBoundingCoordinate": -121.33,
+                  "SouthBoundingCoordinate": 44.29
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "LEAF CHARACTERISTICS",
+            "VariableLevel2": "LEAF AREA INDEX (LAI)"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1991-05-13T00:00:00.000Z",
+                "EndingDateTime": "1991-05-15T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "OTTER_LAI_45",
+        "EntryTitle": "Leaf Area Index Data (OTTER)",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/lai/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/OTTER/guides/LAI_Data.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/45"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/lai/comp/lai.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/lai/comp/LAI_Data.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/project/square/otter_logo_square.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-09-11T12:38:53.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "LAI estimates computed from unweighted openness by the CANOPY program from digitized canopy photographs",
+        "MetadataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OTTER",
+            "LongName": "Oregon Transect Ecosystem Research Project"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "CAMERAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 35,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "Leaf Reflectances: LICOR (OTTER)",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003294-ORNL_DAAC",
+        "revision-date": "2019-04-15T17:43:51Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/47"
+            },
+            "OtherCitationDetails": "Ustin, S.L. 1994. Leaf Reflectances: LICOR (OTTER). ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/47"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -122.61,
+                  "NorthBoundingCoordinate": 44.67,
+                  "EastBoundingCoordinate": -121.33,
+                  "SouthBoundingCoordinate": 44.29
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC RADIATION",
+            "VariableLevel1": "REFLECTANCE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1990-06-19T00:00:00.000Z",
+                "EndingDateTime": "1990-06-21T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "OTTER_LICOR_47",
+        "EntryTitle": "Leaf Reflectances: LICOR (OTTER)",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/OTTER/guides/LICOR_Spectral_Reflectance_Data.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/47"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_licor/comp/licor.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_licor/comp/LICOR_Spectral_Reflectance_Data.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/project/square/otter_logo_square.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T17:43:51.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The variability of bi-directional spectral reflectance of cut conifer foliage between age classes, species and sites, measured by LICOR",
+        "MetadataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OTTER",
+            "LongName": "Oregon Transect Ecosystem Research Project"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "SPECTRORADIOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 34,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "Leaf Reflectances: Perkin-Elmer (OTTER)",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003642-ORNL_DAAC",
+        "revision-date": "2019-09-11T12:39:03Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/48"
+            },
+            "OtherCitationDetails": "Johnson, L.F. 1994. Leaf Reflectances: Perkin-Elmer (OTTER). ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/48"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.95,
+                  "NorthBoundingCoordinate": 45.07,
+                  "EastBoundingCoordinate": -122.61,
+                  "SouthBoundingCoordinate": 44.6
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC RADIATION",
+            "VariableLevel1": "REFLECTANCE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1991-06-14T00:00:00.000Z",
+                "EndingDateTime": "1991-06-18T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "OTTER_PERKIN_ELMER_48",
+        "EntryTitle": "Leaf Reflectances: Perkin-Elmer (OTTER)",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_perkin/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/OTTER/guides/PE_Absolute_Reflectance_Data.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/48"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_perkin/comp/perkin.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_perkin/comp/PE_Absolute_Reflectance_Data.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/project/square/otter_logo_square.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-09-11T12:39:02.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "Absolute (diffuse & specular) reflectance of leaves measured in the lab by Perkin-Elmer spectrophotometer to aid in understanding remotely sensed spectral data",
+        "MetadataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OTTER",
+            "LongName": "Oregon Transect Ecosystem Research Project"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "SPECTROPHOTOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 36,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "Meteorology (OTTER)",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003059-ORNL_DAAC",
+        "revision-date": "2019-09-11T12:39:14Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/50"
+            },
+            "OtherCitationDetails": "Runyon, J. 1994. Meteorology (OTTER). ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/50"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.94,
+                  "NorthBoundingCoordinate": 45.06,
+                  "EastBoundingCoordinate": -121.68,
+                  "SouthBoundingCoordinate": 44.38
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "AGRICULTURE",
+            "Term": "SOILS",
+            "VariableLevel1": "SOIL TEMPERATURE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC RADIATION",
+            "VariableLevel1": "SOLAR RADIATION"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC TEMPERATURE",
+            "VariableLevel1": "SURFACE TEMPERATURE",
+            "VariableLevel2": "AIR TEMPERATURE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC WATER VAPOR",
+            "VariableLevel1": "WATER VAPOR INDICATORS",
+            "VariableLevel2": "WATER VAPOR"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "PRECIPITATION",
+            "VariableLevel1": "PRECIPITATION AMOUNT"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "SOILS",
+            "VariableLevel1": "SOIL TEMPERATURE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1989-05-27T00:00:00.000Z",
+                "EndingDateTime": "1991-01-07T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "OTTER_MET_50",
+        "EntryTitle": "Meteorology (OTTER)",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/meteo/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/OTTER/guides/Hourly_Meteorology_Data.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/50"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/meteo/comp/Hourly_Meteorology_Data.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/meteo/comp/metchem.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/project/square/otter_logo_square.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-09-11T12:39:12.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "Meteorology data collected on an hourly basis from stations located near the OTTER sites in 1990 and summarized to monthly data--see also: Canopy Chemistry (OTTER)",
+        "MetadataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OTTER",
+            "LongName": "Oregon Transect Ecosystem Research Project"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "THERMOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 34,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "Optical Thickness Data: Aircraft (OTTER)",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003656-ORNL_DAAC",
+        "revision-date": "2019-09-11T12:39:23Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/61"
+            },
+            "OtherCitationDetails": "Spanner, M.A. 1994. Optical Thickness Data: Aircraft (OTTER). ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/61"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.02,
+                  "NorthBoundingCoordinate": 46.13,
+                  "EastBoundingCoordinate": -123.22,
+                  "SouthBoundingCoordinate": 43.97
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC RADIATION",
+            "VariableLevel1": "OPTICAL DEPTH/THICKNESS"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1990-08-13T00:00:00.000Z",
+                "EndingDateTime": "1990-08-15T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "OTTER_AIR_SUN_61",
+        "EntryTitle": "Optical Thickness Data: Aircraft (OTTER)",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/airsunp/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/OTTER/guides/Airborne_Sun_Photometer_Data.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/61"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/airsunp/comp/Airborne_Sun_Photometer_Data.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/airsunp/comp/airsunp.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/project/square/otter_logo_square.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-09-11T12:39:22.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "Airborne sunphotometer data collected on 8/13-15/90 used to provide quantitative atmospheric correction to remotely sensed data of forest reflectance and radiance",
+        "MetadataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OTTER",
+            "LongName": "Oregon Transect Ecosystem Research Project"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Aircraft",
+            "ShortName": "C-130",
+            "LongName": "Lockheed C-130 Hercules",
+            "Instruments": [
+              {
+                "ShortName": "SUN PHOTOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 34,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "Optical Thickness Data: Ground (OTTER)",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003172-ORNL_DAAC",
+        "revision-date": "2019-09-11T12:39:30Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/65"
+            },
+            "OtherCitationDetails": "Spanner, M.A. 1994. Optical Thickness Data: Ground (OTTER). ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/65"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.95,
+                  "NorthBoundingCoordinate": 45.07,
+                  "EastBoundingCoordinate": -121.33,
+                  "SouthBoundingCoordinate": 44.29
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC RADIATION",
+            "VariableLevel1": "OPTICAL DEPTH/THICKNESS"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1990-02-22T00:00:00.000Z",
+                "EndingDateTime": "1991-06-10T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "OTTER_FIELD_SUN_65",
+        "EntryTitle": "Optical Thickness Data: Ground (OTTER)",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/fieldsunp/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/OTTER/guides/Field_Sun_Photometer_Data.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/65"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/fieldsunp/comp/Field_Sun_Photometer_Data.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/fieldsunp/comp/fldsunp.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/project/square/otter_logo_square.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-09-11T12:39:29.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "Field sunphotometer data collected on 8/13-15/90 used to provide quantitative atmospheric correction to remotely sensed data of forest reflectance and radiance",
+        "MetadataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OTTER",
+            "LongName": "Oregon Transect Ecosystem Research Project"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SUN PHOTOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 36,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "Reflectance Reference Targets (OTTER)",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003535-ORNL_DAAC",
+        "revision-date": "2019-09-11T12:39:39Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/74"
+            },
+            "OtherCitationDetails": "Miller, J.R., J.R. Freemantle, M. Belanger, and Y. Awaya. 1990. Reflectance Reference Targets (OTTER). ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/74"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.95,
+                  "NorthBoundingCoordinate": 45.07,
+                  "EastBoundingCoordinate": -121.33,
+                  "SouthBoundingCoordinate": 44.29
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC RADIATION",
+            "VariableLevel1": "REFLECTANCE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1991-05-15T00:00:00.000Z",
+                "EndingDateTime": "1991-08-24T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "OTTER_SE590_MILLER_74",
+        "EntryTitle": "Reflectance Reference Targets (OTTER)",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_target/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/OTTER/guides/SE590_Flat_Field_Reflectance_Data.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/74"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_target/comp/miller.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_target/comp/se590.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_target/comp/SE590_Flat_Field_Reflectance_Data.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/project/square/otter_logo_square.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-09-11T12:39:37.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "Spectral reflectance measurements of flat field targets as reference points representative of pseudo-invariant targets as measured by Spectron SE590 spectrophotometer",
+        "MetadataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OTTER",
+            "LongName": "Oregon Transect Ecosystem Research Project"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SPECTRORADIOMETERS"
+              }
+            ]
+          },
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "SPECTRORADIOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 34,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "SE-590 Field-Meas. Reflectances (OTTER)",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179002726-ORNL_DAAC",
+        "revision-date": "2019-09-11T12:39:53Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/80"
+            },
+            "OtherCitationDetails": "Strahler, A.H. 1990. SE-590 Field-Meas. Reflectances (OTTER). ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/80"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.95,
+                  "NorthBoundingCoordinate": 45.07,
+                  "EastBoundingCoordinate": -121.33,
+                  "SouthBoundingCoordinate": 44.29
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC RADIATION",
+            "VariableLevel1": "REFLECTANCE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1990-06-19T00:00:00.000Z",
+                "EndingDateTime": "1990-06-21T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "OTTER_SE590_STRAHLER_80",
+        "EntryTitle": "SE-590 Field-Meas. Reflectances (OTTER)",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_se590_field/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/OTTER/guides/SE590_BRDF_Reflectance_Data.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/80"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_se590_field/comp/se590.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_se590_field/comp/SE590_BRDF_Reflectance_Data.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_se590_field/comp/strahler.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/project/square/otter_logo_square.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-09-11T12:39:51.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "Spectral reflectance measurements made by Spectron SE590 instruments in the context of validation of geometric-optical BRDF models",
+        "MetadataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OTTER",
+            "LongName": "Oregon Transect Ecosystem Research Project"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SPECTRORADIOMETERS"
+              }
+            ]
+          },
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "SPECTRORADIOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 33,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "SE-590 Lab-Measured Reflectances (OTTER)",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003381-ORNL_DAAC",
+        "revision-date": "2019-09-11T12:40:29Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/83"
+            },
+            "OtherCitationDetails": "Johnson, L.F. 1994. SE-590 Lab-Measured Reflectances (OTTER). ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/83"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.95,
+                  "NorthBoundingCoordinate": 45.07,
+                  "EastBoundingCoordinate": -121.33,
+                  "SouthBoundingCoordinate": 44.29
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC RADIATION",
+            "VariableLevel1": "REFLECTANCE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1990-08-17T00:00:00.000Z",
+                "EndingDateTime": "1990-12-04T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "OTTER_SE590_JOHNSON_83",
+        "EntryTitle": "SE-590 Lab-Measured Reflectances (OTTER)",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_se590_lab/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/OTTER/guides/SE590_Laboratory_Reflectance_Data.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/83"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_se590_lab/comp/aug90.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_se590_lab/comp/dec90.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_se590_lab/comp/se590.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_se590_lab/comp/SE590_Laboratory_Reflectance_Data.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/project/square/otter_logo_square.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-09-11T12:40:28.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "Laboratory hemispherical reflectance spectra measurements taken to eliminate the effects of atmosphere, understory, exposed soils, mixed species and canopy architecture",
+        "MetadataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OTTER",
+            "LongName": "Oregon Transect Ecosystem Research Project"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "SPECTRORADIOMETERS"
+              }
+            ]
+          },
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "SPECTRORADIOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 34,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "SE-590 Landscape Reflectances (OTTER)",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003263-ORNL_DAAC",
+        "revision-date": "2019-09-11T12:40:43Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/84"
+            },
+            "OtherCitationDetails": "Goward, S.N., J. Yang, and K.F. Huemmrich. 1994. SE-590 Landscape Reflectances (OTTER). ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/84"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.95,
+                  "NorthBoundingCoordinate": 45.07,
+                  "EastBoundingCoordinate": -121.33,
+                  "SouthBoundingCoordinate": 44.29
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC RADIATION",
+            "VariableLevel1": "REFLECTANCE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1990-10-06T00:00:00.000Z",
+                "EndingDateTime": "1990-10-11T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "OTTER_SE590_GOWARD_84",
+        "EntryTitle": "SE-590 Landscape Reflectances (OTTER)",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_se590_landscape/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/OTTER/guides/SE590_Landscape_Reflectance_Data.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/84"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_se590_landscape/comp/goward.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_se590_landscape/comp/se590.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_se590_landscape/comp/SE590_Landscape_Reflectance_Data.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/project/square/otter_logo_square.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-09-11T12:40:41.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "Bidirectional spectal reflectance factors of landscape elements (litter, soil, bark, scrubs & grasses, leaves) measured by Spectron SE590 spectroradiometer",
+        "MetadataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OTTER",
+            "LongName": "Oregon Transect Ecosystem Research Project"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SPECTRORADIOMETERS"
+              }
+            ]
+          },
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "SPECTRORADIOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 35,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "SE-590 Low Altitude Reflectances (OTTER)",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003455-ORNL_DAAC",
+        "revision-date": "2019-09-11T12:41:02Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/86"
+            },
+            "OtherCitationDetails": "McCreight, R.W., and R.H. Waring. 1994. SE-590 Low Altitude Reflectances (OTTER). ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/86"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.95,
+                  "NorthBoundingCoordinate": 45.07,
+                  "EastBoundingCoordinate": -121.33,
+                  "SouthBoundingCoordinate": 44.29
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC RADIATION",
+            "VariableLevel1": "REFLECTANCE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1990-08-13T00:00:00.000Z",
+                "EndingDateTime": "1991-07-03T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "OTTER_SE590_ULTRALT_86",
+        "EntryTitle": "SE-590 Low Altitude Reflectances (OTTER)",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_se590_altitude/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/OTTER/guides/SE590_Low_Altitude_Reflectance_Data.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/86"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_se590_altitude/comp/mccreigh.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_se590_altitude/comp/se590.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/spectra_se590_altitude/comp/SE590_Low_Altitude_Reflectance_Data.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/project/square/otter_logo_square.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-09-11T12:41:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "Low altitude (Ultralight) spectral reflectances of OTTER research sites measured by Spectron SE590 spectrophotometer",
+        "MetadataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OTTER",
+            "LongName": "Oregon Transect Ecosystem Research Project"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SPECTRORADIOMETERS"
+              }
+            ]
+          },
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "SPECTRORADIOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 33,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "Timber Measurements (OTTER)",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003396-ORNL_DAAC",
+        "revision-date": "2019-09-11T12:41:16Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/125"
+            },
+            "OtherCitationDetails": "Strahler, A.H. 1994. Timber Measurements (OTTER) . ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/125"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.92,
+                  "NorthBoundingCoordinate": 45.05,
+                  "EastBoundingCoordinate": -121.33,
+                  "SouthBoundingCoordinate": 44.29
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "CROWN"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "FOREST COMPOSITION/VEGETATION STRUCTURE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1990-08-01T00:00:00.000Z",
+                "EndingDateTime": "1990-08-01T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "OTTER_TIMBER_125",
+        "EntryTitle": "Timber Measurements (OTTER)",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/timber/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/OTTER/guides/Timber_Data.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/125"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/timber/comp/timber.txt"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/otter/timber/comp/Timber_Data.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/project/square/otter_logo_square.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-09-11T12:41:11.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "Height, crown width, DBH, and height-to-crown distance collected using variable-radius plot sampling with steel tape and hand-held compass to locate points along transect",
+        "MetadataDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OTTER",
+            "LongName": "Oregon Transect Ecosystem Research Project"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "CLINOMETERS"
+              },
+              {
+                "ShortName": "STEEL MEASURING TAPE"
+              },
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

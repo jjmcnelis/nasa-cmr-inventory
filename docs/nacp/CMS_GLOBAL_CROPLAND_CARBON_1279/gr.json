@@ -1,0 +1,886 @@
+{
+  "hits": 8,
+  "took": 26,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422941791-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_GLOBAL_CROPLAND_CARBON.lvstk_2005_2011_MgC.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:57:15Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2005-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_GLOBAL_CROPLAND_CARBON.lvstk_2005_2011_MgC.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "EMISSIONS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 83.637,
+                  "SouthBoundingCoordinate": -59.463
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2015-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2015-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_GLOBAL_CROPLAND_CARBON_1279",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Global_Cropland_Carbon//data/lvstk_2005_2011_MgC.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Global_Cropland_Carbon.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1279",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Global_Cropland_Carbon/comp/CMS_Global_Cropland_Carbon.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2015-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 434.599865,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422941799-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_GLOBAL_CROPLAND_CARBON.crop_2005_2011_MgC.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:57:16Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2005-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_GLOBAL_CROPLAND_CARBON.crop_2005_2011_MgC.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "EMISSIONS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 83.637,
+                  "SouthBoundingCoordinate": -59.463
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2015-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2015-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_GLOBAL_CROPLAND_CARBON_1279",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Global_Cropland_Carbon//data/crop_2005_2011_MgC.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Global_Cropland_Carbon.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1279",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Global_Cropland_Carbon/comp/CMS_Global_Cropland_Carbon.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2015-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 201.683363,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422941807-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_GLOBAL_CROPLAND_CARBON.human_2005_2011_gCm2.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:57:16Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2005-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_GLOBAL_CROPLAND_CARBON.human_2005_2011_gCm2.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "EMISSIONS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 83.637,
+                  "SouthBoundingCoordinate": -59.463
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2015-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2015-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_GLOBAL_CROPLAND_CARBON_1279",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Global_Cropland_Carbon//data/human_2005_2011_gCm2.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Global_Cropland_Carbon.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1279",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Global_Cropland_Carbon/comp/CMS_Global_Cropland_Carbon.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2015-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 181.088948,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422941816-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_GLOBAL_CROPLAND_CARBON.human_2005_2011_MgC.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:57:17Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2005-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_GLOBAL_CROPLAND_CARBON.human_2005_2011_MgC.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "EMISSIONS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 83.637,
+                  "SouthBoundingCoordinate": -59.463
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2015-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2015-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_GLOBAL_CROPLAND_CARBON_1279",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Global_Cropland_Carbon//data/human_2005_2011_MgC.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Global_Cropland_Carbon.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1279",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Global_Cropland_Carbon/comp/CMS_Global_Cropland_Carbon.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2015-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 183.35917,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422941822-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_GLOBAL_CROPLAND_CARBON.NCE_2005_2011_MgC.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:57:17Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2005-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_GLOBAL_CROPLAND_CARBON.NCE_2005_2011_MgC.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "EMISSIONS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 83.637,
+                  "SouthBoundingCoordinate": -59.463
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2015-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2015-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_GLOBAL_CROPLAND_CARBON_1279",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Global_Cropland_Carbon//data/NCE_2005_2011_MgC.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Global_Cropland_Carbon.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1279",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Global_Cropland_Carbon/comp/CMS_Global_Cropland_Carbon.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2015-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 144.784831,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422941829-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_GLOBAL_CROPLAND_CARBON.NCE_2005_2011_gCm2.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:57:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2005-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_GLOBAL_CROPLAND_CARBON.NCE_2005_2011_gCm2.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "EMISSIONS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 83.637,
+                  "SouthBoundingCoordinate": -59.463
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2015-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2015-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_GLOBAL_CROPLAND_CARBON_1279",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Global_Cropland_Carbon//data/NCE_2005_2011_gCm2.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Global_Cropland_Carbon.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1279",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Global_Cropland_Carbon/comp/CMS_Global_Cropland_Carbon.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2015-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 146.295895,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422941836-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_GLOBAL_CROPLAND_CARBON.crop_2005_2011_gCm2.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:57:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2005-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_GLOBAL_CROPLAND_CARBON.crop_2005_2011_gCm2.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "EMISSIONS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 83.637,
+                  "SouthBoundingCoordinate": -59.463
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2015-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2015-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_GLOBAL_CROPLAND_CARBON_1279",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Global_Cropland_Carbon//data/crop_2005_2011_gCm2.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Global_Cropland_Carbon.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1279",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Global_Cropland_Carbon/comp/CMS_Global_Cropland_Carbon.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2015-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 239.379783,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422941841-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_GLOBAL_CROPLAND_CARBON.lvstk_2005_2011_gCm2.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:57:19Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2005-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_GLOBAL_CROPLAND_CARBON.lvstk_2005_2011_gCm2.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "EMISSIONS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 83.637,
+                  "SouthBoundingCoordinate": -59.463
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2015-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2015-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_GLOBAL_CROPLAND_CARBON_1279",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Global_Cropland_Carbon//data/lvstk_2005_2011_gCm2.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Global_Cropland_Carbon.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1279",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Global_Cropland_Carbon/comp/CMS_Global_Cropland_Carbon.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2015-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 430.270793,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

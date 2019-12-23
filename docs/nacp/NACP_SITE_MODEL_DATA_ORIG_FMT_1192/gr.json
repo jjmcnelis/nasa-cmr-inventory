@@ -1,0 +1,3744 @@
+{
+  "hits": 24,
+  "took": 36,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422923995-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.CLM4.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:32Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.CLM4.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/CLM4.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 716.662654,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924024-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.SiBCASA.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:32Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.SiBCASA.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/SiBCASA.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1715.942853,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924055-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.ECLUEEDCM.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:33Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.ECLUEEDCM.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/ECLUEEDCM.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 11.655747,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924095-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.SiBCrop.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:33Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.SiBCrop.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/SiBCrop.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 28.982198,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924129-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.Can-IBIS.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:34Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.Can-IBIS.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/Can-IBIS.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 621.752303,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924161-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.LPJ.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:34Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.LPJ.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/LPJ.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 14.950122,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924191-ORNL_DAAC",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.EPIC.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/EPIC.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 2.049534,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924225-ORNL_DAAC",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.TRIPLEX.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/TRIPLEX.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 10.819603,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924261-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.SSiB2.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:36Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.SSiB2.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/SSiB2.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 485.268149,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924300-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.ORCHIDEE.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:36Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.ORCHIDEE.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/ORCHIDEE.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 384.565299,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924323-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.BEPS.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:37Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.BEPS.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/BEPS.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 18.391083,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924341-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.CLM4VIC.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:37Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.CLM4VIC.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/CLM4VIC.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 643.563381,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924353-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.TECO.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:38Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.TECO.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/TECO.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 813.963568,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924368-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.ED2.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:38Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.ED2.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/ED2.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 523.038274,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924380-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.BIOME-BGC.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:38Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.BIOME-BGC.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/BIOME-BGC.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 10.519367,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924401-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.DLEM.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:39Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.DLEM.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/DLEM.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.280857,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924419-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.SiB3.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:39Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.SiB3.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/SiB3.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 558.325901,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924433-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.LoTEC.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.LoTEC.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/LoTEC.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 69.862794,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924441-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.ECOSYS.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.ECOSYS.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/ECOSYS.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 37.332987,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924448-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.Agro-IBIS.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:41Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.Agro-IBIS.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/Agro-IBIS.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 70.118786,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924455-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.ISAM.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:41Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.ISAM.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/ISAM.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 415.575262,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924461-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.ISOLSM.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:42Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.ISOLSM.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/ISOLSM.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 628.034958,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924466-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.DNDC.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:42Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.DNDC.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/DNDC.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.885559,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422924472-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_SITE_MODEL_DATA_ORIG_FMT.CN-CLASS.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:45:42Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_SITE_MODEL_DATA_ORIG_FMT.CN-CLASS.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "GRASSLANDS"
+          },
+          {
+            "ParameterName": "SAVANNAS"
+          },
+          {
+            "ParameterName": "SHRUBLAND/SCRUB"
+          },
+          {
+            "ParameterName": "ECOSYSTEM FUNCTIONS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -170.0,
+                  "EastBoundingCoordinate": -50.0,
+                  "NorthBoundingCoordinate": 84.0,
+                  "SouthBoundingCoordinate": 10.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-01T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_SITE_MODEL_DATA_ORIG_FMT_1192",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt//data/CN-CLASS.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1192",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/NACP_Site_Model_Data_Orig_Fmt.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_basic.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_information_extended.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_location_summary.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_documentation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Site_Model_Data_Orig_Fmt/comp/site_synthesis_protocol_v7.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 446.39838,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

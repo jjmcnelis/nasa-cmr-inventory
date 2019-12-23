@@ -1,0 +1,948 @@
+{
+  "hits": 6,
+  "took": 16,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422948730-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_TERRA-PNW.NACP_TERRA_PNW_soil.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T19:02:24Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1999-05-27T00:00:00.000Z",
+            "EndingDateTime": "2014-07-23T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_TERRA-PNW.NACP_TERRA_PNW_soil.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NITROGEN"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "SOIL DEPTH"
+          },
+          {
+            "ParameterName": "SOIL BULK DENSITY"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "SOIL CHEMISTRY"
+          },
+          {
+            "ParameterName": "FOREST COMPOSITION/VEGETATION STRUCTURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.904,
+                  "EastBoundingCoordinate": -117.131,
+                  "NorthBoundingCoordinate": 45.9477,
+                  "SouthBoundingCoordinate": 37.7844
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2015-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2015-12-17T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_TERRA-PNW_1292",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/data//NACP_TERRA_PNW_soil.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_TERRA-PNW.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1292",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA-PNW.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA-PNW.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_forest_biomass_productivity.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_leaf_trait.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_soil.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2015-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.0292,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "LASERS"
+              },
+              {
+                "ShortName": "HYDROMETERS"
+              },
+              {
+                "ShortName": "CHN ANALYZERS"
+              },
+              {
+                "ShortName": "LICOR PLANT CANOPY ANALYZER"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422948731-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_TERRA-PNW.NACP_TERRA_PNW_leaf_trait.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T19:02:24Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1999-05-27T00:00:00.000Z",
+            "EndingDateTime": "2014-07-23T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_TERRA-PNW.NACP_TERRA_PNW_leaf_trait.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NITROGEN"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "SOIL DEPTH"
+          },
+          {
+            "ParameterName": "SOIL BULK DENSITY"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "SOIL CHEMISTRY"
+          },
+          {
+            "ParameterName": "FOREST COMPOSITION/VEGETATION STRUCTURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.904,
+                  "EastBoundingCoordinate": -117.131,
+                  "NorthBoundingCoordinate": 45.9477,
+                  "SouthBoundingCoordinate": 37.7844
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2015-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2015-12-17T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_TERRA-PNW_1292",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/data//NACP_TERRA_PNW_leaf_trait.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_TERRA-PNW.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1292",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA-PNW.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA-PNW.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_forest_biomass_productivity.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_leaf_trait.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_soil.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2015-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.279987,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "LASERS"
+              },
+              {
+                "ShortName": "HYDROMETERS"
+              },
+              {
+                "ShortName": "CHN ANALYZERS"
+              },
+              {
+                "ShortName": "LICOR PLANT CANOPY ANALYZER"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422948732-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_TERRA-PNW.NACP_TERRA_PNW_forest_biomass_productivity.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T19:02:25Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1999-05-27T00:00:00.000Z",
+            "EndingDateTime": "2014-07-23T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_TERRA-PNW.NACP_TERRA_PNW_forest_biomass_productivity.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NITROGEN"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "SOIL DEPTH"
+          },
+          {
+            "ParameterName": "SOIL BULK DENSITY"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "SOIL CHEMISTRY"
+          },
+          {
+            "ParameterName": "FOREST COMPOSITION/VEGETATION STRUCTURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.904,
+                  "EastBoundingCoordinate": -117.131,
+                  "NorthBoundingCoordinate": 45.9477,
+                  "SouthBoundingCoordinate": 37.7844
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2015-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2015-12-17T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_TERRA-PNW_1292",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/data//NACP_TERRA_PNW_forest_biomass_productivity.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_TERRA-PNW.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1292",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA-PNW.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA-PNW.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_forest_biomass_productivity.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_leaf_trait.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_soil.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2015-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.0315,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "LASERS"
+              },
+              {
+                "ShortName": "HYDROMETERS"
+              },
+              {
+                "ShortName": "CHN ANALYZERS"
+              },
+              {
+                "ShortName": "LICOR PLANT CANOPY ANALYZER"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422948733-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_TERRA-PNW.NACP_TERRA_PNW_leaf_trait.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T19:02:25Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1999-05-27T00:00:00.000Z",
+            "EndingDateTime": "2014-07-23T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_TERRA-PNW.NACP_TERRA_PNW_leaf_trait.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NITROGEN"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "SOIL DEPTH"
+          },
+          {
+            "ParameterName": "SOIL BULK DENSITY"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "SOIL CHEMISTRY"
+          },
+          {
+            "ParameterName": "FOREST COMPOSITION/VEGETATION STRUCTURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.904,
+                  "EastBoundingCoordinate": -117.131,
+                  "NorthBoundingCoordinate": 45.9477,
+                  "SouthBoundingCoordinate": 37.7844
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2015-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2015-12-17T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_TERRA-PNW_1292",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/data//NACP_TERRA_PNW_leaf_trait.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_TERRA-PNW.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1292",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA-PNW.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA-PNW.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_forest_biomass_productivity.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_leaf_trait.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_soil.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2015-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.090586,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "LASERS"
+              },
+              {
+                "ShortName": "HYDROMETERS"
+              },
+              {
+                "ShortName": "CHN ANALYZERS"
+              },
+              {
+                "ShortName": "LICOR PLANT CANOPY ANALYZER"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422948734-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_TERRA-PNW.NACP_TERRA_PNW_forest_biomass_productivity.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T19:02:26Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1999-05-27T00:00:00.000Z",
+            "EndingDateTime": "2014-07-23T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_TERRA-PNW.NACP_TERRA_PNW_forest_biomass_productivity.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NITROGEN"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "SOIL DEPTH"
+          },
+          {
+            "ParameterName": "SOIL BULK DENSITY"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "SOIL CHEMISTRY"
+          },
+          {
+            "ParameterName": "FOREST COMPOSITION/VEGETATION STRUCTURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.904,
+                  "EastBoundingCoordinate": -117.131,
+                  "NorthBoundingCoordinate": 45.9477,
+                  "SouthBoundingCoordinate": 37.7844
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2015-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2015-12-17T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_TERRA-PNW_1292",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/data//NACP_TERRA_PNW_forest_biomass_productivity.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_TERRA-PNW.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1292",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA-PNW.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA-PNW.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_forest_biomass_productivity.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_leaf_trait.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_soil.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2015-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.05408,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "LASERS"
+              },
+              {
+                "ShortName": "HYDROMETERS"
+              },
+              {
+                "ShortName": "CHN ANALYZERS"
+              },
+              {
+                "ShortName": "LICOR PLANT CANOPY ANALYZER"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422948735-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_TERRA-PNW.NACP_TERRA_PNW_soil.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T19:02:26Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1999-05-27T00:00:00.000Z",
+            "EndingDateTime": "2014-07-23T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_TERRA-PNW.NACP_TERRA_PNW_soil.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NITROGEN"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "SOIL DEPTH"
+          },
+          {
+            "ParameterName": "SOIL BULK DENSITY"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "SOIL CHEMISTRY"
+          },
+          {
+            "ParameterName": "FOREST COMPOSITION/VEGETATION STRUCTURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.904,
+                  "EastBoundingCoordinate": -117.131,
+                  "NorthBoundingCoordinate": 45.9477,
+                  "SouthBoundingCoordinate": 37.7844
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2015-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2015-12-17T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_TERRA-PNW_1292",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/data//NACP_TERRA_PNW_soil.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_TERRA-PNW.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1292",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA-PNW.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA-PNW.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_forest_biomass_productivity.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_leaf_trait.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_TERRA-PNW/comp/NACP_TERRA_PNW_soil.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2015-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.066366,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "LASERS"
+              },
+              {
+                "ShortName": "HYDROMETERS"
+              },
+              {
+                "ShortName": "CHN ANALYZERS"
+              },
+              {
+                "ShortName": "LICOR PLANT CANOPY ANALYZER"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

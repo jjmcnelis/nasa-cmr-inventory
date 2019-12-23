@@ -20,5 +20,5 @@ Process NASA CMR metadata (by project) into tabular and spatial data formats for
 * npp
 * otter
 * prove
-* safari2000
+* safari2000 (FAIL)
 * snf

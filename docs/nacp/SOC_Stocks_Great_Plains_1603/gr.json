@@ -1,0 +1,816 @@
+{
+  "hits": 6,
+  "took": 23,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367208-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "SOC_Stocks_Great_Plains.particulate_organic_carbon_random_forest.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:07:51Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2007-05-01T00:00:00.000Z",
+            "EndingDateTime": "2010-10-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "SOC_Stocks_Great_Plains.particulate_organic_carbon_random_forest.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "TOPOGRAPHIC EFFECTS"
+          },
+          {
+            "ParameterName": "ORGANIC MATTER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.927,
+                  "EastBoundingCoordinate": -94.435,
+                  "NorthBoundingCoordinate": 45.8283,
+                  "SouthBoundingCoordinate": 31.2184
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-18T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:07:49.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SOC_Stocks_Great_Plains_1603",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/data/particulate_organic_carbon_random_forest.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/SOC_Stocks_Great_Plains.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1603",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/comp/SOC_great_plains.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/comp/SOC_Stocks_Great_Plains.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1603_3.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Particulate organic carbon",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-18T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.906653,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "CARBON ANALYZERS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SOIL SAMPLER"
+              }
+            ]
+          },
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367209-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "SOC_Stocks_Great_Plains.soil_organic_c_great_plains.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:07:51Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2007-05-01T00:00:00.000Z",
+            "EndingDateTime": "2010-10-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "SOC_Stocks_Great_Plains.soil_organic_c_great_plains.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "TOPOGRAPHIC EFFECTS"
+          },
+          {
+            "ParameterName": "ORGANIC MATTER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.012,
+                  "EastBoundingCoordinate": -94.9154,
+                  "NorthBoundingCoordinate": 44.9897,
+                  "SouthBoundingCoordinate": 31.5064
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-18T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:07:49.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SOC_Stocks_Great_Plains_1603",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/data/soil_organic_c_great_plains.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/SOC_Stocks_Great_Plains.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1603",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/comp/SOC_great_plains.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/comp/SOC_Stocks_Great_Plains.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-18T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.107859,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "CARBON ANALYZERS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SOIL SAMPLER"
+              }
+            ]
+          },
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367210-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "SOC_Stocks_Great_Plains.other_SOC_random_forest.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:07:51Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2007-05-01T00:00:00.000Z",
+            "EndingDateTime": "2010-10-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "SOC_Stocks_Great_Plains.other_SOC_random_forest.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "TOPOGRAPHIC EFFECTS"
+          },
+          {
+            "ParameterName": "ORGANIC MATTER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.927,
+                  "EastBoundingCoordinate": -94.435,
+                  "NorthBoundingCoordinate": 45.8283,
+                  "SouthBoundingCoordinate": 31.2184
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-18T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:07:49.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SOC_Stocks_Great_Plains_1603",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/data/other_SOC_random_forest.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/SOC_Stocks_Great_Plains.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1603",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/comp/SOC_great_plains.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/comp/SOC_Stocks_Great_Plains.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1603_2.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Other organic soil carbon",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-18T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.224283,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "CARBON ANALYZERS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SOIL SAMPLER"
+              }
+            ]
+          },
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367211-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "SOC_Stocks_Great_Plains.SOC_random_forest.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:07:51Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2007-05-01T00:00:00.000Z",
+            "EndingDateTime": "2010-10-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "SOC_Stocks_Great_Plains.SOC_random_forest.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "TOPOGRAPHIC EFFECTS"
+          },
+          {
+            "ParameterName": "ORGANIC MATTER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.927,
+                  "EastBoundingCoordinate": -94.435,
+                  "NorthBoundingCoordinate": 45.8283,
+                  "SouthBoundingCoordinate": 31.2184
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-18T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:07:49.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SOC_Stocks_Great_Plains_1603",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/data/SOC_random_forest.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/SOC_Stocks_Great_Plains.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1603",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/comp/SOC_great_plains.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/comp/SOC_Stocks_Great_Plains.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1603_1.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Total organic soil carbon",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-18T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.683424,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "CARBON ANALYZERS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SOIL SAMPLER"
+              }
+            ]
+          },
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367212-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "SOC_Stocks_Great_Plains.SOC_great_plains.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:07:51Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2007-05-01T00:00:00.000Z",
+            "EndingDateTime": "2010-10-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "SOC_Stocks_Great_Plains.SOC_great_plains.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "TOPOGRAPHIC EFFECTS"
+          },
+          {
+            "ParameterName": "ORGANIC MATTER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.012,
+                  "EastBoundingCoordinate": -94.9154,
+                  "NorthBoundingCoordinate": 44.9897,
+                  "SouthBoundingCoordinate": 31.5064
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-18T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:07:49.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SOC_Stocks_Great_Plains_1603",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/data/SOC_great_plains.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/SOC_Stocks_Great_Plains.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1603",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/comp/SOC_great_plains.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/comp/SOC_Stocks_Great_Plains.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-18T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.057526,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "CARBON ANALYZERS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SOIL SAMPLER"
+              }
+            ]
+          },
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367213-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "SOC_Stocks_Great_Plains.pyrogenic_carbon_random_forest.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:07:51Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2007-05-01T00:00:00.000Z",
+            "EndingDateTime": "2010-10-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "SOC_Stocks_Great_Plains.pyrogenic_carbon_random_forest.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "TOPOGRAPHIC EFFECTS"
+          },
+          {
+            "ParameterName": "ORGANIC MATTER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.927,
+                  "EastBoundingCoordinate": -94.435,
+                  "NorthBoundingCoordinate": 45.8283,
+                  "SouthBoundingCoordinate": 31.2184
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-18T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:07:49.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SOC_Stocks_Great_Plains_1603",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/data/pyrogenic_carbon_random_forest.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/SOC_Stocks_Great_Plains.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1603",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/comp/SOC_great_plains.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/SOC_Stocks_Great_Plains/comp/SOC_Stocks_Great_Plains.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1603_4.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Pyrogenic carbon",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-18T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.997739,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "CARBON ANALYZERS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SOIL SAMPLER"
+              }
+            ]
+          },
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

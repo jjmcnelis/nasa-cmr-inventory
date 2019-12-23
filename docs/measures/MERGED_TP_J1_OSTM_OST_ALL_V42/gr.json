@@ -1,0 +1,85 @@
+{
+  "hits": 1,
+  "took": 15,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1652981578-PODAAC",
+        "revision-id": 1,
+        "native-id": "Merged_TOPEX_Jason_OSTM_Jason-3_Version_V4.2.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-06T18:14:06Z"
+      },
+      "umm": {
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/merged_alt/L2/TP_J1_OSTM/all//Merged_TOPEX_Jason_OSTM_Jason-3_Version_V4.2.nc.gz",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/merged_alt/L2/TP_J1_OSTM/all//Merged_TOPEX_Jason_OSTM_Jason-3_Version_V4.2.nc.gz.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 66.15,
+                  "SouthBoundingCoordinate": -66.15
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 66.15,
+                  "SouthBoundingCoordinate": -66.15
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-10-11T22:24:48.210Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-06T18:14:03.829Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "MERGED_TP_J1_OSTM_OST_ALL_V42",
+          "Version": "4.2"
+        },
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-10-09T12:19:31.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1958.8044624328613,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "OrbitCalculatedSpatialDomains": [],
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1992-09-25T04:49:31.000Z",
+            "EndingDateTime": "2019-07-30T17:49:36.000Z"
+          }
+        },
+        "GranuleUR": "Merged_TOPEX_Jason_OSTM_Jason-3_Version_V4.2.nc"
+      }
+    }
+  ]
+}
