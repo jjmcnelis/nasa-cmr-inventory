@@ -1,0 +1,132 @@
+{
+  "hits": 1,
+  "took": 17,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422724946-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "FIFE_SOILSURV.1987mult.ssv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:07:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1989-10-31T00:00:00.000Z",
+            "EndingDateTime": "1989-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_SOILSURV.1987mult.ssv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "ORGANIC MATTER"
+          },
+          {
+            "ParameterName": "SOIL COLOR"
+          },
+          {
+            "ParameterName": "SOIL HORIZONS/PROFILE"
+          },
+          {
+            "ParameterName": "SOIL STRUCTURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -102.0,
+                  "EastBoundingCoordinate": -95.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "SouthBoundingCoordinate": 37.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_SOILSURV_115",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife/data/soilprop/soilsurv/1987mult.ssv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/guides/Soil_Survey_Ref.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/115",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/soilprop/soilsurv.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/data/soilprop/soilsurv/soilsurv.tdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/soilprop/Soil_Survey_Ref.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.014968,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              },
+              {
+                "ShortName": "CORING DEVICES"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

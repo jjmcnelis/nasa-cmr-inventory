@@ -1,0 +1,1122 @@
+{
+  "hits": 9,
+  "took": 21,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646355377-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_CanopyHeight_Mean_30m.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T21:35:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2004-01-01T00:00:00.000Z",
+            "EndingDateTime": "2014-12-31T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_CanopyHeight_Mean_30m.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -81.2256,
+                  "EastBoundingCoordinate": -74.0294,
+                  "NorthBoundingCoordinate": 42.7071,
+                  "SouthBoundingCoordinate": 37.7992
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-11-08T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T21:35:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_LiDAR_Biomass_MD_PA_DE_1538",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/data/TriState_CanopyHeight_Mean_30m.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_LiDAR_Biomass_MD_PA_DE.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1538",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/comp/CMS_LiDAR_Biomass_MD_PA_DE.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1538_5.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LIDAR-derived canopy height (30-m) for Maryland, Pennsylvania, and Delaware, 2004-2014",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-11-08T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 203.872953,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646355378-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_LidarCoverage_90m.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T21:35:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2004-01-01T00:00:00.000Z",
+            "EndingDateTime": "2014-12-31T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_LidarCoverage_90m.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -81.2256,
+                  "EastBoundingCoordinate": -74.0294,
+                  "NorthBoundingCoordinate": 42.7071,
+                  "SouthBoundingCoordinate": 37.7992
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-11-08T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T21:35:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_LiDAR_Biomass_MD_PA_DE_1538",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/data/TriState_LidarCoverage_90m.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_LiDAR_Biomass_MD_PA_DE.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1538",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/comp/CMS_LiDAR_Biomass_MD_PA_DE.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1538_7.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR coverage map (90-m) for Maryland, Pennsylvania, and Delaware, 2004-2014",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-11-08T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.240735,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646355379-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_BiomassJKS_RF_Predicts_30m.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T21:35:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2004-01-01T00:00:00.000Z",
+            "EndingDateTime": "2014-12-31T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_BiomassJKS_RF_Predicts_30m.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -81.2256,
+                  "EastBoundingCoordinate": -74.0294,
+                  "NorthBoundingCoordinate": 42.7071,
+                  "SouthBoundingCoordinate": 37.7992
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-11-08T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T21:35:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_LiDAR_Biomass_MD_PA_DE_1538",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/data/TriState_BiomassJKS_RF_Predicts_30m.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_LiDAR_Biomass_MD_PA_DE.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1538",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/comp/CMS_LiDAR_Biomass_MD_PA_DE.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1538_3.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LIDAR-derived aboveground biomass (30-m) for Maryland, Pennsylvania, and Delaware, 2004-2014",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-11-08T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 195.642203,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646355380-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_LidarYear_30m.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T21:35:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2004-01-01T00:00:00.000Z",
+            "EndingDateTime": "2014-12-31T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_LidarYear_30m.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -81.2256,
+                  "EastBoundingCoordinate": -74.0294,
+                  "NorthBoundingCoordinate": 42.7071,
+                  "SouthBoundingCoordinate": 37.7992
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-11-08T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T21:35:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_LiDAR_Biomass_MD_PA_DE_1538",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/data/TriState_LidarYear_30m.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_LiDAR_Biomass_MD_PA_DE.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1538",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/comp/CMS_LiDAR_Biomass_MD_PA_DE.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1538_8.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR survey year (30-m) for Maryland, Pennsylvania, and Delaware, 2004-2014",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-11-08T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.851998,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646355381-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_LidarCoverage_30m.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T21:35:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2004-01-01T00:00:00.000Z",
+            "EndingDateTime": "2014-12-31T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_LidarCoverage_30m.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -81.2256,
+                  "EastBoundingCoordinate": -74.0294,
+                  "NorthBoundingCoordinate": 42.7071,
+                  "SouthBoundingCoordinate": 37.7992
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-11-08T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T21:35:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_LiDAR_Biomass_MD_PA_DE_1538",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/data/TriState_LidarCoverage_30m.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_LiDAR_Biomass_MD_PA_DE.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1538",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/comp/CMS_LiDAR_Biomass_MD_PA_DE.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1538_6.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR coverage map (30-m) for Maryland, Pennsylvania, and Delaware, 2004-2014",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-11-08T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.523331,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646355382-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_BiomassJKS_QRF_Low_30m.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T21:35:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2004-01-01T00:00:00.000Z",
+            "EndingDateTime": "2014-12-31T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_BiomassJKS_QRF_Low_30m.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -81.2256,
+                  "EastBoundingCoordinate": -74.0294,
+                  "NorthBoundingCoordinate": 42.7071,
+                  "SouthBoundingCoordinate": 37.7992
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-11-08T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T21:35:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_LiDAR_Biomass_MD_PA_DE_1538",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/data/TriState_BiomassJKS_QRF_Low_30m.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_LiDAR_Biomass_MD_PA_DE.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1538",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/comp/CMS_LiDAR_Biomass_MD_PA_DE.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1538_2.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LIDAR-derived 95th percentile of mean AGB (30-m) for Maryland, Pennsylvania, and Delaware, 2004-2014",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-11-08T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 142.623307,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646355383-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_TreeCover_Percent_30m.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T21:35:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2004-01-01T00:00:00.000Z",
+            "EndingDateTime": "2014-12-31T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_TreeCover_Percent_30m.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -81.2256,
+                  "EastBoundingCoordinate": -74.0294,
+                  "NorthBoundingCoordinate": 42.7071,
+                  "SouthBoundingCoordinate": 37.7992
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-11-08T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T21:35:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_LiDAR_Biomass_MD_PA_DE_1538",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/data/TriState_TreeCover_Percent_30m.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_LiDAR_Biomass_MD_PA_DE.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1538",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/comp/CMS_LiDAR_Biomass_MD_PA_DE.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1538_9.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR-derived percent tree cover (30-m) for Maryland, Pennsylvania, and Delaware, 2004-2014",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-11-08T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 87.33165,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646355384-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_Biomass_v4e_rf_fia_jks_ht50_90m.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T21:35:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2004-01-01T00:00:00.000Z",
+            "EndingDateTime": "2014-12-31T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_Biomass_v4e_rf_fia_jks_ht50_90m.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -81.2256,
+                  "EastBoundingCoordinate": -74.0294,
+                  "NorthBoundingCoordinate": 42.7071,
+                  "SouthBoundingCoordinate": 37.7992
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-11-08T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T21:35:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_LiDAR_Biomass_MD_PA_DE_1538",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/data/TriState_Biomass_v4e_rf_fia_jks_ht50_90m.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_LiDAR_Biomass_MD_PA_DE.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1538",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/comp/CMS_LiDAR_Biomass_MD_PA_DE.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1538_4.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LIDAR-derived aboveground biomass (90-m) for Maryland, Pennsylvania, and Delaware, 2004-2014",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-11-08T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 41.744992,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646355385-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_BiomassJKS_QRF_High_30m.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T21:35:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2004-01-01T00:00:00.000Z",
+            "EndingDateTime": "2014-12-31T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "CMS_LiDAR_Biomass_MD_PA_DE.TriState_BiomassJKS_QRF_High_30m.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -81.2256,
+                  "EastBoundingCoordinate": -74.0294,
+                  "NorthBoundingCoordinate": 42.7071,
+                  "SouthBoundingCoordinate": 37.7992
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-11-08T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T21:35:16.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_LiDAR_Biomass_MD_PA_DE_1538",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/data/TriState_BiomassJKS_QRF_High_30m.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_LiDAR_Biomass_MD_PA_DE.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1538",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_MD_PA_DE/comp/CMS_LiDAR_Biomass_MD_PA_DE.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1538_1.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LIDAR-derived 5th percentile of mean AGB (30-m) for Maryland, Pennsylvania, and Delaware, 2004-2014",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-11-08T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 170.149003,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

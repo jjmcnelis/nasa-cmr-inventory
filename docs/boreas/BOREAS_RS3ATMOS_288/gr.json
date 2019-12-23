@@ -1,0 +1,128 @@
+{
+  "hits": 1,
+  "took": 18,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422748296-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_RS3ATMOS.rss03_helo_sun_photo.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:31:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-05-31T00:00:00.000Z",
+            "EndingDateTime": "1994-09-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_RS3ATMOS.rss03_helo_sun_photo.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "AEROSOL OPTICAL DEPTH/THICKNESS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -106.198,
+                  "EastBoundingCoordinate": -97.3355,
+                  "NorthBoundingCoordinate": 56.0034,
+                  "SouthBoundingCoordinate": 53.591
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_RS3ATMOS_288",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/RSS/rs3atmos/data/rss03_helo_sun_photo.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/RSS03_Helo_Sun_Photo.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/288",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/RSS/rs3atmos/comp/rs3atmos.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/RSS/rs3atmos/comp/RSS03_Helo_Sun_Photo.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/RSS/rs3atmos/comp/RSS03_Helo_Sun_Photo.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/RSS/rs3atmos/comp/RSS03_Helo_Sun_Photo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.048026,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "HELICOPTER",
+            "Instruments": [
+              {
+                "ShortName": "SUN PHOTOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

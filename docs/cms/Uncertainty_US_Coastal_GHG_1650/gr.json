@@ -1,0 +1,1626 @@
+{
+  "hits": 12,
+  "took": 19,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1674157267-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Uncertainty_US_Coastal_GHG.MHHWS_MHHW_datum_error.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-12-18T12:58:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Uncertainty_US_Coastal_GHG.MHHWS_MHHW_datum_error.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "COASTAL PROCESSES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -134.602,
+                  "EastBoundingCoordinate": -56.9279,
+                  "NorthBoundingCoordinate": 46.4228,
+                  "SouthBoundingCoordinate": 20.5782
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-12-18T12:58:55.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Uncertainty_US_Coastal_GHG_1650",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/data/MHHWS_MHHW_datum_error.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Uncertainty_US_Coastal_GHG.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1650",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A1_Supplemental_Information.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A2_Supplemental_Table_1.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.tif.vat.dbf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHWS_MHHW_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHW_NAVD88_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/Uncertainty_US_Coastal_GHG.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 371.333176,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1674157268-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Uncertainty_US_Coastal_GHG.MHHW_NAVD88_datum_error.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-12-18T12:58:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Uncertainty_US_Coastal_GHG.MHHW_NAVD88_datum_error.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "COASTAL PROCESSES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -135.028,
+                  "EastBoundingCoordinate": -56.6627,
+                  "NorthBoundingCoordinate": 46.4598,
+                  "SouthBoundingCoordinate": 20.3831
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-12-18T12:58:55.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Uncertainty_US_Coastal_GHG_1650",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/data/MHHW_NAVD88_datum_error.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Uncertainty_US_Coastal_GHG.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1650",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A1_Supplemental_Information.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A2_Supplemental_Table_1.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.tif.vat.dbf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHWS_MHHW_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHW_NAVD88_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/Uncertainty_US_Coastal_GHG.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 189.832555,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1674157269-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Uncertainty_US_Coastal_GHG.MHHWS_MHHW_interpolated.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-12-18T12:58:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Uncertainty_US_Coastal_GHG.MHHWS_MHHW_interpolated.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "COASTAL PROCESSES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -134.602,
+                  "EastBoundingCoordinate": -56.9279,
+                  "NorthBoundingCoordinate": 46.4228,
+                  "SouthBoundingCoordinate": 20.5782
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-12-18T12:58:55.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Uncertainty_US_Coastal_GHG_1650",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/data/MHHWS_MHHW_interpolated.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Uncertainty_US_Coastal_GHG.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1650",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A1_Supplemental_Information.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A2_Supplemental_Table_1.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.tif.vat.dbf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHWS_MHHW_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHW_NAVD88_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/Uncertainty_US_Coastal_GHG.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 196.567173,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1674157270-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Uncertainty_US_Coastal_GHG.coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-12-18T12:58:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Uncertainty_US_Coastal_GHG.coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "COASTAL PROCESSES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -127.985,
+                  "EastBoundingCoordinate": -64.9672,
+                  "NorthBoundingCoordinate": 48.2078,
+                  "SouthBoundingCoordinate": 22.7187
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-12-18T12:58:55.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Uncertainty_US_Coastal_GHG_1650",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/data/coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Uncertainty_US_Coastal_GHG.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1650",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A1_Supplemental_Information.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A2_Supplemental_Table_1.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.tif.vat.dbf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHWS_MHHW_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHW_NAVD88_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/Uncertainty_US_Coastal_GHG.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.072297,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1674157271-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Uncertainty_US_Coastal_GHG.MHHW_NAVD88_interpolation_error.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-12-18T12:58:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Uncertainty_US_Coastal_GHG.MHHW_NAVD88_interpolation_error.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "COASTAL PROCESSES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -135.028,
+                  "EastBoundingCoordinate": -56.6627,
+                  "NorthBoundingCoordinate": 46.4598,
+                  "SouthBoundingCoordinate": 20.3831
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-12-18T12:58:55.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Uncertainty_US_Coastal_GHG_1650",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/data/MHHW_NAVD88_interpolation_error.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Uncertainty_US_Coastal_GHG.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1650",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A1_Supplemental_Information.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A2_Supplemental_Table_1.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.tif.vat.dbf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHWS_MHHW_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHW_NAVD88_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/Uncertainty_US_Coastal_GHG.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 213.067591,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1674157272-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Uncertainty_US_Coastal_GHG.MHHW_NAVD88_interpolated.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-12-18T12:58:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Uncertainty_US_Coastal_GHG.MHHW_NAVD88_interpolated.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "COASTAL PROCESSES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -135.028,
+                  "EastBoundingCoordinate": -56.6627,
+                  "NorthBoundingCoordinate": 46.4598,
+                  "SouthBoundingCoordinate": 20.3831
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-12-18T12:58:55.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Uncertainty_US_Coastal_GHG_1650",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/data/MHHW_NAVD88_interpolated.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Uncertainty_US_Coastal_GHG.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1650",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A1_Supplemental_Information.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A2_Supplemental_Table_1.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.tif.vat.dbf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHWS_MHHW_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHW_NAVD88_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/Uncertainty_US_Coastal_GHG.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 198.263336,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1674157273-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Uncertainty_US_Coastal_GHG.MHHWS_MHHW_gauges.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-12-18T12:58:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Uncertainty_US_Coastal_GHG.MHHWS_MHHW_gauges.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "COASTAL PROCESSES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.612,
+                  "EastBoundingCoordinate": -66.9829,
+                  "NorthBoundingCoordinate": 48.8633,
+                  "SouthBoundingCoordinate": 24.5557
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-12-18T12:58:55.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Uncertainty_US_Coastal_GHG_1650",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/data/MHHWS_MHHW_gauges.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Uncertainty_US_Coastal_GHG.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1650",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A1_Supplemental_Information.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A2_Supplemental_Table_1.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.tif.vat.dbf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHWS_MHHW_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHW_NAVD88_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/Uncertainty_US_Coastal_GHG.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.012471,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1674157274-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Uncertainty_US_Coastal_GHG.probability_elevation_is_below_MHHWS.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-12-18T12:58:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Uncertainty_US_Coastal_GHG.probability_elevation_is_below_MHHWS.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "COASTAL PROCESSES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -128.298,
+                  "EastBoundingCoordinate": -64.9247,
+                  "NorthBoundingCoordinate": 48.1974,
+                  "SouthBoundingCoordinate": 22.6716
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-12-18T12:58:55.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Uncertainty_US_Coastal_GHG_1650",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/data/probability_elevation_is_below_MHHWS.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Uncertainty_US_Coastal_GHG.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1650",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A1_Supplemental_Information.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A2_Supplemental_Table_1.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.tif.vat.dbf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHWS_MHHW_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHW_NAVD88_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/Uncertainty_US_Coastal_GHG.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1305.364518,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1674157275-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Uncertainty_US_Coastal_GHG.MHHWS_NAVD88_propagated_uncertainty.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-12-18T12:58:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Uncertainty_US_Coastal_GHG.MHHWS_NAVD88_propagated_uncertainty.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "COASTAL PROCESSES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -134.602,
+                  "EastBoundingCoordinate": -56.9279,
+                  "NorthBoundingCoordinate": 46.4228,
+                  "SouthBoundingCoordinate": 20.5782
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-12-18T12:58:55.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Uncertainty_US_Coastal_GHG_1650",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/data/MHHWS_NAVD88_propagated_uncertainty.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Uncertainty_US_Coastal_GHG.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1650",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A1_Supplemental_Information.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A2_Supplemental_Table_1.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.tif.vat.dbf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHWS_MHHW_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHW_NAVD88_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/Uncertainty_US_Coastal_GHG.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 206.862483,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1674157276-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Uncertainty_US_Coastal_GHG.MHHW_NAVD88_gauges.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-12-18T12:58:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Uncertainty_US_Coastal_GHG.MHHW_NAVD88_gauges.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "COASTAL PROCESSES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.612,
+                  "EastBoundingCoordinate": -66.9829,
+                  "NorthBoundingCoordinate": 48.9917,
+                  "SouthBoundingCoordinate": 24.545
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-12-18T12:58:55.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Uncertainty_US_Coastal_GHG_1650",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/data/MHHW_NAVD88_gauges.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Uncertainty_US_Coastal_GHG.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1650",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A1_Supplemental_Information.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A2_Supplemental_Table_1.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.tif.vat.dbf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHWS_MHHW_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHW_NAVD88_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/Uncertainty_US_Coastal_GHG.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.048281,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1674157277-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Uncertainty_US_Coastal_GHG.coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-12-18T12:58:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Uncertainty_US_Coastal_GHG.coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "COASTAL PROCESSES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -127.985,
+                  "EastBoundingCoordinate": -64.9672,
+                  "NorthBoundingCoordinate": 48.2078,
+                  "SouthBoundingCoordinate": 22.7187
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-12-18T12:58:55.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Uncertainty_US_Coastal_GHG_1650",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/data/coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Uncertainty_US_Coastal_GHG.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1650",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A1_Supplemental_Information.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A2_Supplemental_Table_1.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.tif.vat.dbf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHWS_MHHW_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHW_NAVD88_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/Uncertainty_US_Coastal_GHG.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 238.092531,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1674157278-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Uncertainty_US_Coastal_GHG.MHHWS_MHHW_interpolation_error.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-12-18T12:58:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Uncertainty_US_Coastal_GHG.MHHWS_MHHW_interpolation_error.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "COASTAL PROCESSES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -134.602,
+                  "EastBoundingCoordinate": -56.9279,
+                  "NorthBoundingCoordinate": 46.4228,
+                  "SouthBoundingCoordinate": 20.5782
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-12-18T12:58:55.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Uncertainty_US_Coastal_GHG_1650",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/data/MHHWS_MHHW_interpolation_error.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Uncertainty_US_Coastal_GHG.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1650",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A1_Supplemental_Information.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/A2_Supplemental_Table_1.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/coastal_wetland_downscaled_carbon_fluxes_2006_to_2011.tif.vat.dbf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHWS_MHHW_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/MHHW_NAVD88_gauges.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Uncertainty_US_Coastal_GHG/comp/Uncertainty_US_Coastal_GHG.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 208.068975,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -153,41 +153,47 @@ def get_df(cmr_data: dict, cmr_keys: dict, max_proj: int=1):
         
         # Capture record metadata in a dictionary.
         row_data = {}
-
-        # If there are too many projects for this record, skip it.
-        if not len(ds['umm']["Projects"]) > max_proj:
+        
+        # # Try to validate by project count for this dataset.
+        # try:
+        #     proj_num = len(ds['umm']["Projects"])
+        # except:
+        #     return pd.DataFrame({})
             
-            # Loop over the CMR fields keyset and grab metadata values.
-            for k, v in cmr_keys.items():
-                row_data[k] = cmr_selector(ds, v)
+        # # If there are too many projects for this record, skip it.
+        # if not proj_num > max_proj:
+        
+        # Loop over the CMR fields keyset and grab metadata values.
+        for k, v in cmr_keys.items():
+            row_data[k] = cmr_selector(ds, v)
+        
+        # Get geometry from spatial extent components.
+        try:  
             
-            # Get geometry from spatial extent components.
-            try:  
-                
-                # A few collections do not have bounding boxes, so try.
-                row_data['geometry'] = box(
-                    minx=row_data['lon_min'],
-                    maxx=row_data['lon_max'],
-                    miny=row_data['lat_min'],
-                    maxy=row_data['lat_max'], )
-            except:      
-                
-                # Fall back to global.
-                extent = { 'lon_min': -180., 
-                           'lon_max': 180., 
-                           'lat_min': -90., 
-                           'lat_max':  90., }
-                
-                # Update the row_data and get a geometry.
-                row_data.update(extent)
-                row_data['geometry'] = box(
-                    minx=row_data['lon_min'],
-                    maxx=row_data['lon_max'],
-                    miny=row_data['lat_min'],
-                    maxy=row_data['lat_max'], )
+            # A few collections do not have bounding boxes, so try.
+            row_data['geometry'] = box(
+                minx=row_data['lon_min'],
+                maxx=row_data['lon_max'],
+                miny=row_data['lat_min'],
+                maxy=row_data['lat_max'], )
+        except:      
+            
+            # Fall back to global.
+            extent = { 'lon_min': -180., 
+                        'lon_max': 180., 
+                        'lat_min': -90., 
+                        'lat_max':  90., }
+            
+            # Update the row_data and get a geometry.
+            row_data.update(extent)
+            row_data['geometry'] = box(
+                minx=row_data['lon_min'],
+                maxx=row_data['lon_max'],
+                miny=row_data['lat_min'],
+                maxy=row_data['lat_max'], )
 
-            # Append the values of the dictionary as a new row.
-            rows.append(list(row_data.values()))
+        # Append the values of the dictionary as a new row.
+        rows.append(list(row_data.values()))
 
     # Get the list of column names.
     colnames = list(cmr_keys.keys()) + ['geometry']

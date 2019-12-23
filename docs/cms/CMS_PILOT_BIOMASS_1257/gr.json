@@ -1,0 +1,1292 @@
+{
+  "hits": 11,
+  "took": 22,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422933950-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_PILOT_BIOMASS.Maryland_Biomass_OLS_low.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:52:48Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2011-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_PILOT_BIOMASS.Maryland_Biomass_OLS_low.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.61,
+                  "EastBoundingCoordinate": -76.36,
+                  "NorthBoundingCoordinate": 43.96,
+                  "SouthBoundingCoordinate": 35.78
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_PILOT_BIOMASS_1257",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass//data/Maryland_Biomass_OLS_low.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Pilot_Biomass.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1257",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/CMS_Pilot_Biomass.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/Maryland_Biomass_methods.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1257_9.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR-derived Aboveground Biomass OLS low, Anne Arundel and Howard Counties, MD",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2014-10-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 24.734342,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "ALOS",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422933957-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_PILOT_BIOMASS.Maryland_Biomass_OLS_high.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:52:49Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2011-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_PILOT_BIOMASS.Maryland_Biomass_OLS_high.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.61,
+                  "EastBoundingCoordinate": -76.36,
+                  "NorthBoundingCoordinate": 43.96,
+                  "SouthBoundingCoordinate": 35.78
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_PILOT_BIOMASS_1257",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass//data/Maryland_Biomass_OLS_high.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Pilot_Biomass.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1257",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/CMS_Pilot_Biomass.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/Maryland_Biomass_methods.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1257_8.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR-derived Aboveground Biomass OLS high, Anne Arundel and Howard Counties, MD",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2014-10-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 24.734342,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "ALOS",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422933966-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_PILOT_BIOMASS.Maryland_Biomass_RF.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:52:49Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2011-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_PILOT_BIOMASS.Maryland_Biomass_RF.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.61,
+                  "EastBoundingCoordinate": -76.36,
+                  "NorthBoundingCoordinate": 43.96,
+                  "SouthBoundingCoordinate": 35.78
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_PILOT_BIOMASS_1257",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass//data/Maryland_Biomass_RF.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Pilot_Biomass.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1257",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/CMS_Pilot_Biomass.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/Maryland_Biomass_methods.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1257_10.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR-derived Aboveground Biomass RF, Anne Arundel and Howard Counties, MD",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2014-10-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 24.446729,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "ALOS",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422933972-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_PILOT_BIOMASS.Maryland_Biomass_BMA_high.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:52:49Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2011-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_PILOT_BIOMASS.Maryland_Biomass_BMA_high.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.61,
+                  "EastBoundingCoordinate": -76.36,
+                  "NorthBoundingCoordinate": 43.96,
+                  "SouthBoundingCoordinate": 35.78
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_PILOT_BIOMASS_1257",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass//data/Maryland_Biomass_BMA_high.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Pilot_Biomass.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1257",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/CMS_Pilot_Biomass.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/Maryland_Biomass_methods.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1257_4.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR-derived Aboveground Biomass BMA high, Anne Arundel and Howard Counties, MD",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2014-10-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 24.609249,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "ALOS",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422933980-ORNL_DAAC",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2011-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_PILOT_BIOMASS.Maryland_Biomass_BMA.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.61,
+                  "EastBoundingCoordinate": -76.36,
+                  "NorthBoundingCoordinate": 43.96,
+                  "SouthBoundingCoordinate": 35.78
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_PILOT_BIOMASS_1257",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass//data/Maryland_Biomass_BMA.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Pilot_Biomass.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1257",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/CMS_Pilot_Biomass.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/Maryland_Biomass_methods.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1257_3.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR-derived Aboveground Biomass BMA, Anne Arundel and Howard Counties, MD",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2014-10-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 24.603016,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "ALOS",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422933988-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_PILOT_BIOMASS.ParkerTract_Biomass.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:52:50Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2011-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_PILOT_BIOMASS.ParkerTract_Biomass.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.61,
+                  "EastBoundingCoordinate": -76.36,
+                  "NorthBoundingCoordinate": 43.96,
+                  "SouthBoundingCoordinate": 35.78
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_PILOT_BIOMASS_1257",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass//data/ParkerTract_Biomass.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Pilot_Biomass.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1257",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/CMS_Pilot_Biomass.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/Maryland_Biomass_methods.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1257_11.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR-derived Aboveground Biomass, Parker Tract, NC",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2014-10-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.671188,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "ALOS",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422933996-ORNL_DAAC",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2011-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_PILOT_BIOMASS.Maryland_Biomass_BMA_low.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.61,
+                  "EastBoundingCoordinate": -76.36,
+                  "NorthBoundingCoordinate": 43.96,
+                  "SouthBoundingCoordinate": 35.78
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_PILOT_BIOMASS_1257",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass//data/Maryland_Biomass_BMA_low.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Pilot_Biomass.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1257",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/CMS_Pilot_Biomass.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/Maryland_Biomass_methods.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1257_5.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR-derived Aboveground Biomass BMA low, Anne Arundel and Howard Counties, MD",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2014-10-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 24.901692,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "ALOS",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422934003-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_PILOT_BIOMASS.Maryland_Biomass_ED.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:52:51Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2011-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_PILOT_BIOMASS.Maryland_Biomass_ED.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.61,
+                  "EastBoundingCoordinate": -76.36,
+                  "NorthBoundingCoordinate": 43.96,
+                  "SouthBoundingCoordinate": 35.78
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_PILOT_BIOMASS_1257",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass//data/Maryland_Biomass_ED.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Pilot_Biomass.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1257",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/CMS_Pilot_Biomass.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/Maryland_Biomass_methods.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1257_6.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR-derived Aboveground Biomass ED, Anne Arundel and Howard Counties, MD",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2014-10-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 7.779553,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "ALOS",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422934011-ORNL_DAAC",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2011-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_PILOT_BIOMASS.Maryland_Biomass_OLS.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.61,
+                  "EastBoundingCoordinate": -76.36,
+                  "NorthBoundingCoordinate": 43.96,
+                  "SouthBoundingCoordinate": 35.78
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_PILOT_BIOMASS_1257",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass//data/Maryland_Biomass_OLS.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Pilot_Biomass.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1257",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/CMS_Pilot_Biomass.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/Maryland_Biomass_methods.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1257_7.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR-derived Aboveground Biomass OLS, Anne Arundel and Howard Counties, MD",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2014-10-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 24.772756,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "ALOS",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422934018-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_PILOT_BIOMASS.HubbardBrook_Biomass.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:52:52Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2011-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_PILOT_BIOMASS.HubbardBrook_Biomass.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.61,
+                  "EastBoundingCoordinate": -76.36,
+                  "NorthBoundingCoordinate": 43.96,
+                  "SouthBoundingCoordinate": 35.78
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_PILOT_BIOMASS_1257",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass//data/HubbardBrook_Biomass.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Pilot_Biomass.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1257",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/CMS_Pilot_Biomass.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/Maryland_Biomass_methods.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1257_2.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR-derived Aboveground Biomass, Hubbard Brook Experimental Forest, NH",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2014-10-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.175736,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "ALOS",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422934024-ORNL_DAAC",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2011-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_PILOT_BIOMASS.GarciaTract_Biomass.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.61,
+                  "EastBoundingCoordinate": -76.36,
+                  "NorthBoundingCoordinate": 43.96,
+                  "SouthBoundingCoordinate": 35.78
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2014-10-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_PILOT_BIOMASS_1257",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass//data/GarciaTract_Biomass.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Pilot_Biomass.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1257",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/CMS_Pilot_Biomass.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Pilot_Biomass/comp/Maryland_Biomass_methods.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1257_1.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR-derived Aboveground Biomass, Garcia Tract, CA",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2014-10-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 2.944628,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "ALOS",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

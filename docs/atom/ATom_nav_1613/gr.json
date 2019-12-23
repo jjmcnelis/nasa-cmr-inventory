@@ -1,0 +1,822 @@
+{
+  "hits": 8,
+  "took": 57,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1546816325-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_nav.ATom1_flight_tracks.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-09-10T13:48:33Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-07-29T00:00:00.000Z",
+            "EndingDateTime": "2016-08-23T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_nav.ATom1_flight_tracks.csv",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -178.997,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 80.0086,
+                  "SouthBoundingCoordinate": -65.3316
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-06T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-09-10T13:48:32.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_nav_1613",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_nav/data/ATom1_flight_tracks.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_nav.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1613",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_nav/comp/ATom_nav.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-06T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 2.910603,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "MMS"
+              },
+              {
+                "ShortName": "GPS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1546816326-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_nav.ATom1_flight_tracks.kml",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-09-10T13:48:33Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-07-29T00:00:00.000Z",
+            "EndingDateTime": "2016-08-23T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_nav.ATom1_flight_tracks.kml",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -178.997,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 80.0086,
+                  "SouthBoundingCoordinate": -65.3316
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-06T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-09-10T13:48:32.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_nav_1613",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_nav/data/ATom1_flight_tracks.kml",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_nav.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1613",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_nav/comp/ATom_nav.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-06T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 38.744318,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "MMS"
+              },
+              {
+                "ShortName": "GPS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1546816332-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_nav.ATom2_flight_tracks.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-09-10T13:48:33Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2017-01-26T00:00:00.000Z",
+            "EndingDateTime": "2017-02-21T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_nav.ATom2_flight_tracks.csv",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -179.999,
+                  "EastBoundingCoordinate": 179.999,
+                  "NorthBoundingCoordinate": 80.5222,
+                  "SouthBoundingCoordinate": -65.2783
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-06T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-09-10T13:48:32.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_nav_1613",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_nav/data/ATom2_flight_tracks.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_nav.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1613",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_nav/comp/ATom_nav.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-06T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.018193,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "MMS"
+              },
+              {
+                "ShortName": "GPS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1546816334-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_nav.ATom2_flight_tracks.kml",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-09-10T13:48:34Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2017-01-26T00:00:00.000Z",
+            "EndingDateTime": "2017-02-21T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_nav.ATom2_flight_tracks.kml",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -179.999,
+                  "EastBoundingCoordinate": 179.999,
+                  "NorthBoundingCoordinate": 80.5222,
+                  "SouthBoundingCoordinate": -65.2783
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-06T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-09-10T13:48:32.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_nav_1613",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_nav/data/ATom2_flight_tracks.kml",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_nav.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1613",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_nav/comp/ATom_nav.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-06T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 40.142724,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "MMS"
+              },
+              {
+                "ShortName": "GPS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1546816328-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_nav.ATom3_flight_tracks.kml",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-09-10T13:48:33Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2017-09-28T00:00:00.000Z",
+            "EndingDateTime": "2017-10-27T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_nav.ATom3_flight_tracks.kml",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -179.997,
+                  "EastBoundingCoordinate": 179.999,
+                  "NorthBoundingCoordinate": 79.9869,
+                  "SouthBoundingCoordinate": -80.1176
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-06T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-09-10T13:48:32.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_nav_1613",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_nav/data/ATom3_flight_tracks.kml",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_nav.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1613",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_nav/comp/ATom_nav.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-06T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 53.253264,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "MMS"
+              },
+              {
+                "ShortName": "GPS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1546816331-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_nav.ATom3_flight_tracks.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-09-10T13:48:33Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2017-09-28T00:00:00.000Z",
+            "EndingDateTime": "2017-10-27T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_nav.ATom3_flight_tracks.csv",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -179.997,
+                  "EastBoundingCoordinate": 179.999,
+                  "NorthBoundingCoordinate": 79.9869,
+                  "SouthBoundingCoordinate": -80.1176
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-06T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-09-10T13:48:32.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_nav_1613",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_nav/data/ATom3_flight_tracks.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_nav.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1613",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_nav/comp/ATom_nav.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-06T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.008695,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "MMS"
+              },
+              {
+                "ShortName": "GPS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1546816329-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_nav.ATom4_flight_tracks.kml",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-09-10T13:48:33Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-04-24T00:00:00.000Z",
+            "EndingDateTime": "2018-05-21T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_nav.ATom4_flight_tracks.kml",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -179.998,
+                  "EastBoundingCoordinate": 179.998,
+                  "NorthBoundingCoordinate": 82.9404,
+                  "SouthBoundingCoordinate": -86.1768
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-06T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-09-10T13:48:32.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_nav_1613",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_nav/data/ATom4_flight_tracks.kml",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_nav.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1613",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_nav/comp/ATom_nav.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-06T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 54.083924,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "MMS"
+              },
+              {
+                "ShortName": "GPS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1546816330-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_nav.ATom4_flight_tracks.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-09-10T13:48:33Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-04-24T00:00:00.000Z",
+            "EndingDateTime": "2018-05-21T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_nav.ATom4_flight_tracks.csv",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -179.998,
+                  "EastBoundingCoordinate": 179.998,
+                  "NorthBoundingCoordinate": 82.9404,
+                  "SouthBoundingCoordinate": -86.1768
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-09-06T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-09-10T13:48:32.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_nav_1613",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_nav/data/ATom4_flight_tracks.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_nav.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1613",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_nav/comp/ATom_nav.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-09-06T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.076077,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "MMS"
+              },
+              {
+                "ShortName": "GPS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

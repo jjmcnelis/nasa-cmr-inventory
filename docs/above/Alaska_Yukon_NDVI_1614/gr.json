@@ -1,0 +1,2012 @@
+{
+  "hits": 17,
+  "took": 107,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367355-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Alaska_Yukon_NDVI.long_term_max_NDVI.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:08:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2002-06-01T00:00:00.000Z",
+            "EndingDateTime": "2017-08-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Alaska_Yukon_NDVI.long_term_max_NDVI.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -175.755,
+                  "EastBoundingCoordinate": -97.9306,
+                  "NorthBoundingCoordinate": 68.9582,
+                  "SouthBoundingCoordinate": 52.1771
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-26T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:08:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Alaska_Yukon_NDVI_1614",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/data/long_term_max_NDVI.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Alaska_Yukon_NDVI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1614",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/comp/Alaska_Yukon_NDVI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1614_1.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Maximum NDVI between 2002 and 2017",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-10-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 7.227186,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367362-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Alaska_Yukon_NDVI.max_NDVI_2002.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:08:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2002-06-01T00:00:00.000Z",
+            "EndingDateTime": "2002-08-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Alaska_Yukon_NDVI.max_NDVI_2002.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -175.755,
+                  "EastBoundingCoordinate": -97.9306,
+                  "NorthBoundingCoordinate": 68.9582,
+                  "SouthBoundingCoordinate": 52.1771
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-26T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:08:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Alaska_Yukon_NDVI_1614",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/data/max_NDVI_2002.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Alaska_Yukon_NDVI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1614",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/comp/Alaska_Yukon_NDVI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1614_2.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Maximum NDVI 2002",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-10-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.720484,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367349-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Alaska_Yukon_NDVI.max_NDVI_2003.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:08:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2003-06-01T00:00:00.000Z",
+            "EndingDateTime": "2003-08-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Alaska_Yukon_NDVI.max_NDVI_2003.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -175.755,
+                  "EastBoundingCoordinate": -97.9306,
+                  "NorthBoundingCoordinate": 68.9582,
+                  "SouthBoundingCoordinate": 52.1771
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-26T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:08:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Alaska_Yukon_NDVI_1614",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/data/max_NDVI_2003.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Alaska_Yukon_NDVI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1614",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/comp/Alaska_Yukon_NDVI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1614_3.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Maximum NDVI 2003",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-10-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.849014,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367359-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Alaska_Yukon_NDVI.max_NDVI_2004.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:08:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2004-06-01T00:00:00.000Z",
+            "EndingDateTime": "2004-08-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Alaska_Yukon_NDVI.max_NDVI_2004.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -175.755,
+                  "EastBoundingCoordinate": -97.9306,
+                  "NorthBoundingCoordinate": 68.9582,
+                  "SouthBoundingCoordinate": 52.1771
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-26T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:08:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Alaska_Yukon_NDVI_1614",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/data/max_NDVI_2004.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Alaska_Yukon_NDVI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1614",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/comp/Alaska_Yukon_NDVI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1614_4.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Maximum NDVI 2004",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-10-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.816769,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367354-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Alaska_Yukon_NDVI.max_NDVI_2005.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:08:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2005-06-01T00:00:00.000Z",
+            "EndingDateTime": "2005-08-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Alaska_Yukon_NDVI.max_NDVI_2005.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -175.755,
+                  "EastBoundingCoordinate": -97.9306,
+                  "NorthBoundingCoordinate": 68.9582,
+                  "SouthBoundingCoordinate": 52.1771
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-26T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:08:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Alaska_Yukon_NDVI_1614",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/data/max_NDVI_2005.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Alaska_Yukon_NDVI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1614",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/comp/Alaska_Yukon_NDVI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1614_5.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Maximum NDVI 2005",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-10-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.728823,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367357-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Alaska_Yukon_NDVI.max_NDVI_2006.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:08:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-06-01T00:00:00.000Z",
+            "EndingDateTime": "2006-08-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Alaska_Yukon_NDVI.max_NDVI_2006.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -175.755,
+                  "EastBoundingCoordinate": -97.9306,
+                  "NorthBoundingCoordinate": 68.9582,
+                  "SouthBoundingCoordinate": 52.1771
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-26T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:08:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Alaska_Yukon_NDVI_1614",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/data/max_NDVI_2006.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Alaska_Yukon_NDVI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1614",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/comp/Alaska_Yukon_NDVI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1614_6.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Maximum NDVI 2006",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-10-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.592717,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367352-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Alaska_Yukon_NDVI.max_NDVI_2007.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:08:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2007-06-01T00:00:00.000Z",
+            "EndingDateTime": "2007-08-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Alaska_Yukon_NDVI.max_NDVI_2007.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -175.755,
+                  "EastBoundingCoordinate": -97.9306,
+                  "NorthBoundingCoordinate": 68.9582,
+                  "SouthBoundingCoordinate": 52.1771
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-26T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:08:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Alaska_Yukon_NDVI_1614",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/data/max_NDVI_2007.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Alaska_Yukon_NDVI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1614",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/comp/Alaska_Yukon_NDVI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1614_7.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Maximum NDVI 2007",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-10-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.609973,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367353-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Alaska_Yukon_NDVI.max_NDVI_2008.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:08:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2008-06-01T00:00:00.000Z",
+            "EndingDateTime": "2008-08-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Alaska_Yukon_NDVI.max_NDVI_2008.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -175.755,
+                  "EastBoundingCoordinate": -97.9306,
+                  "NorthBoundingCoordinate": 68.9582,
+                  "SouthBoundingCoordinate": 52.1771
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-26T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:08:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Alaska_Yukon_NDVI_1614",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/data/max_NDVI_2008.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Alaska_Yukon_NDVI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1614",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/comp/Alaska_Yukon_NDVI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1614_8.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Maximum NDVI 2008",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-10-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.530217,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367345-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Alaska_Yukon_NDVI.max_NDVI_2009.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:08:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2009-06-01T00:00:00.000Z",
+            "EndingDateTime": "2009-08-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Alaska_Yukon_NDVI.max_NDVI_2009.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -175.755,
+                  "EastBoundingCoordinate": -97.9306,
+                  "NorthBoundingCoordinate": 68.9582,
+                  "SouthBoundingCoordinate": 52.1771
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-26T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:08:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Alaska_Yukon_NDVI_1614",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/data/max_NDVI_2009.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Alaska_Yukon_NDVI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1614",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/comp/Alaska_Yukon_NDVI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1614_9.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Maximum NDVI 2009",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-10-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.578431,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367346-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Alaska_Yukon_NDVI.max_NDVI_2010.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:08:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2010-06-01T00:00:00.000Z",
+            "EndingDateTime": "2010-08-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Alaska_Yukon_NDVI.max_NDVI_2010.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -175.755,
+                  "EastBoundingCoordinate": -97.9306,
+                  "NorthBoundingCoordinate": 68.9582,
+                  "SouthBoundingCoordinate": 52.1771
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-26T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:08:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Alaska_Yukon_NDVI_1614",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/data/max_NDVI_2010.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Alaska_Yukon_NDVI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1614",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/comp/Alaska_Yukon_NDVI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1614_10.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Maximum NDVI 2010",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-10-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.602868,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367347-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Alaska_Yukon_NDVI.max_NDVI_2011.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:08:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2011-06-01T00:00:00.000Z",
+            "EndingDateTime": "2011-08-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Alaska_Yukon_NDVI.max_NDVI_2011.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -175.755,
+                  "EastBoundingCoordinate": -97.9306,
+                  "NorthBoundingCoordinate": 68.9582,
+                  "SouthBoundingCoordinate": 52.1771
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-26T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:08:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Alaska_Yukon_NDVI_1614",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/data/max_NDVI_2011.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Alaska_Yukon_NDVI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1614",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/comp/Alaska_Yukon_NDVI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1614_11.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Maximum NDVI 2011",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-10-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.468429,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367350-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Alaska_Yukon_NDVI.max_NDVI_2012.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:08:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2012-06-01T00:00:00.000Z",
+            "EndingDateTime": "2012-08-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Alaska_Yukon_NDVI.max_NDVI_2012.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -175.755,
+                  "EastBoundingCoordinate": -97.9306,
+                  "NorthBoundingCoordinate": 68.9582,
+                  "SouthBoundingCoordinate": 52.1771
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-26T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:08:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Alaska_Yukon_NDVI_1614",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/data/max_NDVI_2012.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Alaska_Yukon_NDVI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1614",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/comp/Alaska_Yukon_NDVI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1614_12.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Maximum NDVI 2012",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-10-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.247044,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367348-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Alaska_Yukon_NDVI.max_NDVI_2013.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:08:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-06-01T00:00:00.000Z",
+            "EndingDateTime": "2013-08-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Alaska_Yukon_NDVI.max_NDVI_2013.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -175.755,
+                  "EastBoundingCoordinate": -97.9306,
+                  "NorthBoundingCoordinate": 68.9582,
+                  "SouthBoundingCoordinate": 52.1771
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-26T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:08:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Alaska_Yukon_NDVI_1614",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/data/max_NDVI_2013.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Alaska_Yukon_NDVI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1614",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/comp/Alaska_Yukon_NDVI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1614_13.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Maximum NDVI 2013",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-10-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.851247,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367351-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Alaska_Yukon_NDVI.max_NDVI_2014.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:08:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2014-06-01T00:00:00.000Z",
+            "EndingDateTime": "2014-08-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Alaska_Yukon_NDVI.max_NDVI_2014.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -175.755,
+                  "EastBoundingCoordinate": -97.9306,
+                  "NorthBoundingCoordinate": 68.9582,
+                  "SouthBoundingCoordinate": 52.1771
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-26T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:08:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Alaska_Yukon_NDVI_1614",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/data/max_NDVI_2014.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Alaska_Yukon_NDVI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1614",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/comp/Alaska_Yukon_NDVI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1614_14.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Maximum NDVI 2014",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-10-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.668523,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367356-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Alaska_Yukon_NDVI.max_NDVI_2015.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:08:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2015-06-01T00:00:00.000Z",
+            "EndingDateTime": "2015-08-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Alaska_Yukon_NDVI.max_NDVI_2015.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -175.755,
+                  "EastBoundingCoordinate": -97.9306,
+                  "NorthBoundingCoordinate": 68.9582,
+                  "SouthBoundingCoordinate": 52.1771
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-26T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:08:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Alaska_Yukon_NDVI_1614",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/data/max_NDVI_2015.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Alaska_Yukon_NDVI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1614",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/comp/Alaska_Yukon_NDVI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1614_15.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Maximum NDVI 2015",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-10-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.880978,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367360-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Alaska_Yukon_NDVI.max_NDVI_2016.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:08:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-06-01T00:00:00.000Z",
+            "EndingDateTime": "2016-08-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Alaska_Yukon_NDVI.max_NDVI_2016.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -175.755,
+                  "EastBoundingCoordinate": -97.9306,
+                  "NorthBoundingCoordinate": 68.9582,
+                  "SouthBoundingCoordinate": 52.1771
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-26T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:08:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Alaska_Yukon_NDVI_1614",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/data/max_NDVI_2016.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Alaska_Yukon_NDVI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1614",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/comp/Alaska_Yukon_NDVI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1614_16.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Maximum NDVI 2016",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-10-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.526691,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1646367361-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Alaska_Yukon_NDVI.max_NDVI_2017.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T22:08:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2017-06-01T00:00:00.000Z",
+            "EndingDateTime": "2017-08-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Alaska_Yukon_NDVI.max_NDVI_2017.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -175.755,
+                  "EastBoundingCoordinate": -97.9306,
+                  "NorthBoundingCoordinate": 68.9582,
+                  "SouthBoundingCoordinate": 52.1771
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-26T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T22:08:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Alaska_Yukon_NDVI_1614",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/data/max_NDVI_2017.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Alaska_Yukon_NDVI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1614",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Alaska_Yukon_NDVI/comp/Alaska_Yukon_NDVI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1614_17.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Maximum NDVI 2017",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-10-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.903118,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

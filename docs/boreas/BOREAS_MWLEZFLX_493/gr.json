@@ -1,0 +1,174 @@
+{
+  "hits": 1,
+  "took": 17,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422764067-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_MWLEZFLX.afm01_flux_aircraft_mvwin.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:44:37Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-05-25T00:00:00.000Z",
+            "EndingDateTime": "1994-09-15T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_MWLEZFLX.afm01_flux_aircraft_mvwin.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -106.321,
+                  "EastBoundingCoordinate": -104.237,
+                  "NorthBoundingCoordinate": 54.321,
+                  "SouthBoundingCoordinate": 53.42
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2000-01-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2000-01-27T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_MWLEZFLX_493",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/AFM/mwlezflx/data/afm01_flux_aircraft_mvwin.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AFM01_Moving_Window.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/493",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/mwlezflx/comp/AFM01_Moving_Window.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/mwlezflx/comp/AFM01_Moving_Window.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/mwlezflx/comp/AFM01_Moving_Window.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/mwlezflx/comp/longez_fast.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/mwlezflx/comp/longez_slow.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/mwlezflx/comp/mwlezflx.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "2000-01-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 16.609761,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              },
+              {
+                "ShortName": "GUST PROBES"
+              },
+              {
+                "ShortName": "IRGA"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "THERMISTORS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

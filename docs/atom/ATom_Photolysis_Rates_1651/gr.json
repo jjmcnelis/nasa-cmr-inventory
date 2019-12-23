@@ -1,0 +1,5109 @@
+{
+  "hits": 27,
+  "took": 70,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834336-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_O3col.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:42:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2005-08-01T00:00:00.000Z",
+            "EndingDateTime": "2012-08-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_O3col.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_O3col.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.027824,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834347-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_TPac_subsample.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:43:00Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2005-08-01T00:00:00.000Z",
+            "EndingDateTime": "2017-08-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_TPac_subsample.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_TPac_subsample.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.134045,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834326-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_RMcldyclr.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:42:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2005-08-16T00:00:00.000Z",
+            "EndingDateTime": "2005-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_RMcldyclr.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_RMcldyclr.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1.103207,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834327-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Cmodel_UCI_CFcompliant.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:42:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2005-08-16T00:00:00.000Z",
+            "EndingDateTime": "2005-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Cmodel_UCI_CFcompliant.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Cmodel_UCI_CFcompliant.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 374.833732,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834346-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Imodel_UCIb_CFcompliant.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:43:00Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2005-08-16T00:00:00.000Z",
+            "EndingDateTime": "2005-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Imodel_UCIb_CFcompliant.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Imodel_UCIb_CFcompliant.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 374.827583,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834351-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_ODmetUCI.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:43:00Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2005-08-16T00:00:00.000Z",
+            "EndingDateTime": "2005-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_ODmetUCI.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_ODmetUCI.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 156.425311,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834330-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Dmodel_NCAR_CFcompliant.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:42:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2008-08-16T00:00:00.000Z",
+            "EndingDateTime": "2008-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Dmodel_NCAR_CFcompliant.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Dmodel_NCAR_CFcompliant.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1364.430939,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834335-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Emodel_UKCA_CFcompliant.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:42:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2008-08-17T00:00:00.000Z",
+            "EndingDateTime": "2008-08-17T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Emodel_UKCA_CFcompliant.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Emodel_UKCA_CFcompliant.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 133.158694,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834325-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Imodel_UCIb.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:42:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-08-16T00:00:00.000Z",
+            "EndingDateTime": "2013-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Imodel_UCIb.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Imodel_UCIb.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 374.796335,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834333-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Dmodel_NCAR.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:42:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-08-16T00:00:00.000Z",
+            "EndingDateTime": "2013-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Dmodel_NCAR.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Dmodel_NCAR.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1364.438759,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834334-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Fmodel_MOCA.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:42:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-08-16T00:00:00.000Z",
+            "EndingDateTime": "2013-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Fmodel_MOCA.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Fmodel_MOCA.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 479.055808,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834337-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Gmodel_IFS.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:42:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-08-16T00:00:00.000Z",
+            "EndingDateTime": "2013-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Gmodel_IFS.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Gmodel_IFS.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1097.944476,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834338-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Hmodel_GFDL_CFcompliant.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:42:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-08-16T00:00:00.000Z",
+            "EndingDateTime": "2013-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Hmodel_GFDL_CFcompliant.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Hmodel_GFDL_CFcompliant.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1379.488772,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834339-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Amodel_GC.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:42:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-08-16T00:00:00.000Z",
+            "EndingDateTime": "2013-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Amodel_GC.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Amodel_GC.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 100.8892,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834341-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Kmodel_GMI.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:43:00Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-08-16T00:00:00.000Z",
+            "EndingDateTime": "2013-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Kmodel_GMI.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Kmodel_GMI.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 378.7949,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834342-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Emodel_UKCA.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:43:00Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-08-16T00:00:00.000Z",
+            "EndingDateTime": "2013-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Emodel_UKCA.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Emodel_UKCA.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 133.147257,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834343-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_cosSZA.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:43:00Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-08-16T00:00:00.000Z",
+            "EndingDateTime": "2013-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_cosSZA.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_cosSZA.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.029924,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834344-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Hmodel_GFDL.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:43:00Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-08-16T00:00:00.000Z",
+            "EndingDateTime": "2013-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Hmodel_GFDL.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Hmodel_GFDL.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1379.435186,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834345-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Bmodel_GISS_CFcompliant.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:43:00Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-08-16T00:00:00.000Z",
+            "EndingDateTime": "2013-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Bmodel_GISS_CFcompliant.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Bmodel_GISS_CFcompliant.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 76.822268,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834348-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_cloudODCF.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:43:00Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-08-16T00:00:00.000Z",
+            "EndingDateTime": "2013-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_cloudODCF.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_cloudODCF.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.202582,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834349-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Amodel_GC_CFcompliant.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:43:00Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-08-16T00:00:00.000Z",
+            "EndingDateTime": "2013-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Amodel_GC_CFcompliant.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Amodel_GC_CFcompliant.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 100.896173,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834350-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Cmodel_UCI.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:43:00Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-08-16T00:00:00.000Z",
+            "EndingDateTime": "2013-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Cmodel_UCI.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Cmodel_UCI.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 374.799401,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834332-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_obs_CAFS.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:42:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-08-01T00:00:00.000Z",
+            "EndingDateTime": "2016-08-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_obs_CAFS.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_obs_CAFS.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.908529,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834340-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Gmodel_IFS_CFcompliant.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:43:00Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-08-15T00:00:00.000Z",
+            "EndingDateTime": "2016-08-15T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Gmodel_IFS_CFcompliant.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Gmodel_IFS_CFcompliant.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1097.935253,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834328-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Kmodel_GMI_CFcompliant.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:42:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-08-16T00:00:00.000Z",
+            "EndingDateTime": "2016-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Kmodel_GMI_CFcompliant.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Kmodel_GMI_CFcompliant.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 378.838058,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834329-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Bmodel_GISS.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:42:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-08-16T00:00:00.000Z",
+            "EndingDateTime": "2016-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Bmodel_GISS.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Bmodel_GISS.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 76.816753,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834331-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ATom_Photolysis_Rates.Jstat_Fmodel_MOCA_CFcompliant.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:42:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2017-08-16T00:00:00.000Z",
+            "EndingDateTime": "2017-08-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ATom_Photolysis_Rates.Jstat_Fmodel_MOCA_CFcompliant.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "NITROGEN DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOLYSIS RATES"
+          },
+          {
+            "ParameterName": "TRACE GASES/TRACE SPECIES"
+          },
+          {
+            "ParameterName": "CLOUD DYNAMICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:42:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ATom_Photolysis_Rates_1651",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/data/Jstat_Fmodel_MOCA_CFcompliant.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ATOM/guides/ATom_Photolysis_Rates.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1651",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/ATom_Photolysis_Rates.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Jstats_final-figs.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_10rlnJ-COD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_11freqSZA.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_12TPac-subsample.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_1obs_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_2mdl_input.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_3stats.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_4plots.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_5O3colm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_6OSAlbedo.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_7ODmetUCI.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_8cldy-rates.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/atom/ATom_Photolysis_Rates/comp/Pmat_Jstat_9cloudODCF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ATom"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 479.06327,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NASA DC-8",
+            "Instruments": [
+              {
+                "ShortName": "SAFS"
+              }
+            ]
+          },
+          {
+            "ShortName": "CLIMATE MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "hits": 1,
+  "took": 18,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422764068-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_AFM2AS94.afm02_sound_aircraft.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:44:39Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-05-24T00:00:00.000Z",
+            "EndingDateTime": "1994-09-17T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_AFM2AS94.afm02_sound_aircraft.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "DEW POINT TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -106.321,
+                  "EastBoundingCoordinate": -97.234,
+                  "NorthBoundingCoordinate": 56.249,
+                  "SouthBoundingCoordinate": 53.42
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2000-01-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2000-01-27T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_AFM2AS94_494",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/AFM/afm2as94/data/afm02_sound_aircraft.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AFM02_Sounding.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/494",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/afm2as94/comp/AFM02_Sounding.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/afm2as94/comp/AFM02_Sounding.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/afm2as94/comp/AFM02_Sounding.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/afm2as94/comp/afm2as94.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "2000-01-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.842456,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "KINGAIR",
+            "Instruments": [
+              {
+                "ShortName": "GUST PROBES"
+              },
+              {
+                "ShortName": "PYRGEOMETER"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "IRGA"
+              },
+              {
+                "ShortName": "THERMISTORS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

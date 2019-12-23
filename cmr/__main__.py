@@ -83,18 +83,21 @@ if config['cmr']['granules']['update']:
         # Write granule reference json to the dataset directory.
         with open(pjoin(dsgrdir, "gr.json".format(dsname)), "w") as f:
             f.write(json.dumps(granules, indent=2))
-            
-            
 
         # Get dataset dictionary as a pandas.DataFrame and write to CSV.
         grdf = get_df(granules, gran_fields)
-        grdf.to_csv(pjoin(dsgrdir, "gr.csv"), index=False)
-
-        # Get the pandas.DataFrame as a GeoDataFrame, write to ESRI Shapefile.
-        grgdf = get_gdf(grdf)
-        grgdf.to_file( driver="ESRI Shapefile", 
-                       filename=pjoin(dsgrdir, "gr.shp"))
         
+        # If the number of granules is > 0, write to CSV and Shapefile.
+        if grdf.index.size > 0:
+            grdf.to_csv(pjoin(dsgrdir, "gr.csv"), index=False)
+
+            # Get the pandas.DataFrame as a GeoDataFrame.
+            grgdf = get_gdf(grdf)
+            
+            # Write to ESRI Shapefile.
+            grgdf.to_file( driver="ESRI Shapefile", 
+                           filename=pjoin(dsgrdir, "gr.shp"))
+            
         # Add the granule count to the granule counter.
         gran_counter+=int(grdf.index.size)
 

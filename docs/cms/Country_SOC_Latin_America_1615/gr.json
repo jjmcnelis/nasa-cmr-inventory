@@ -1,0 +1,937 @@
+{
+  "hits": 7,
+  "took": 19,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1597890210-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Country_SOC_Latin_America.uncertainty_quantile_regression_forest_regional.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-03-08T12:03:28Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-06-14T00:00:00.000Z",
+            "EndingDateTime": "2018-06-14T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "Country_SOC_Latin_America.uncertainty_quantile_regression_forest_regional.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "SOIL BULK DENSITY"
+          },
+          {
+            "ParameterName": "SOIL TEXTURE"
+          },
+          {
+            "ParameterName": "ORGANIC MATTER"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -121.288,
+                  "EastBoundingCoordinate": -31.2372,
+                  "NorthBoundingCoordinate": 35.5592,
+                  "SouthBoundingCoordinate": -58.5761
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-03-07T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-03-08T12:03:27.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Country_SOC_Latin_America_1615",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/data/uncertainty_quantile_regression_forest_regional.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Country_SOC_Latin_America.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1615",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/background_variables.tif",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/background_variables_description.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/Country_SOC_Latin_America.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/SOC_estimates_LatinAmerica.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/SOC_estimates_LatinAmerica.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-03-07T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 7.272648,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1597890211-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Country_SOC_Latin_America.SOC_estimates_LatinAmerica.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-03-08T12:03:28Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-06-14T00:00:00.000Z",
+            "EndingDateTime": "2018-06-14T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "Country_SOC_Latin_America.SOC_estimates_LatinAmerica.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "SOIL BULK DENSITY"
+          },
+          {
+            "ParameterName": "SOIL TEXTURE"
+          },
+          {
+            "ParameterName": "ORGANIC MATTER"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -116.715,
+                  "EastBoundingCoordinate": -34.8273,
+                  "NorthBoundingCoordinate": 32.5961,
+                  "SouthBoundingCoordinate": -54.9097
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-03-07T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-03-08T12:03:27.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Country_SOC_Latin_America_1615",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/data/SOC_estimates_LatinAmerica.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Country_SOC_Latin_America.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1615",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/background_variables.tif",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/background_variables_description.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/Country_SOC_Latin_America.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/SOC_estimates_LatinAmerica.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/SOC_estimates_LatinAmerica.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-03-07T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.717018,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1597890212-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Country_SOC_Latin_America.mean_absolute_error_probable_country_specific.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-03-08T12:03:28Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-06-14T00:00:00.000Z",
+            "EndingDateTime": "2018-06-14T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "Country_SOC_Latin_America.mean_absolute_error_probable_country_specific.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "SOIL BULK DENSITY"
+          },
+          {
+            "ParameterName": "SOIL TEXTURE"
+          },
+          {
+            "ParameterName": "ORGANIC MATTER"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -118.373,
+                  "EastBoundingCoordinate": -31.2372,
+                  "NorthBoundingCoordinate": 32.7286,
+                  "SouthBoundingCoordinate": -55.9997
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-03-07T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-03-08T12:03:27.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Country_SOC_Latin_America_1615",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/data/mean_absolute_error_probable_country_specific.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Country_SOC_Latin_America.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1615",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/background_variables.tif",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/background_variables_description.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/Country_SOC_Latin_America.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/SOC_estimates_LatinAmerica.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/SOC_estimates_LatinAmerica.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-03-07T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.952361,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1597890213-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Country_SOC_Latin_America.SOC_predictions_regional.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-03-08T12:03:29Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-06-14T00:00:00.000Z",
+            "EndingDateTime": "2018-06-14T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "Country_SOC_Latin_America.SOC_predictions_regional.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "SOIL BULK DENSITY"
+          },
+          {
+            "ParameterName": "SOIL TEXTURE"
+          },
+          {
+            "ParameterName": "ORGANIC MATTER"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -121.288,
+                  "EastBoundingCoordinate": -31.2372,
+                  "NorthBoundingCoordinate": 35.5592,
+                  "SouthBoundingCoordinate": -58.5761
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-03-07T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-03-08T12:03:27.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Country_SOC_Latin_America_1615",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/data/SOC_predictions_regional.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Country_SOC_Latin_America.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1615",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/background_variables.tif",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/background_variables_description.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/Country_SOC_Latin_America.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/SOC_estimates_LatinAmerica.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/SOC_estimates_LatinAmerica.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-03-07T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 7.286223,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1597890214-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Country_SOC_Latin_America.mean_absolute_error_95_percent_country_specific.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-03-08T12:03:29Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-06-14T00:00:00.000Z",
+            "EndingDateTime": "2018-06-14T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "Country_SOC_Latin_America.mean_absolute_error_95_percent_country_specific.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "SOIL BULK DENSITY"
+          },
+          {
+            "ParameterName": "SOIL TEXTURE"
+          },
+          {
+            "ParameterName": "ORGANIC MATTER"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -118.373,
+                  "EastBoundingCoordinate": -31.2372,
+                  "NorthBoundingCoordinate": 32.7286,
+                  "SouthBoundingCoordinate": -55.9997
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-03-07T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-03-08T12:03:27.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Country_SOC_Latin_America_1615",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/data/mean_absolute_error_95_percent_country_specific.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Country_SOC_Latin_America.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1615",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/background_variables.tif",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/background_variables_description.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/Country_SOC_Latin_America.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/SOC_estimates_LatinAmerica.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/SOC_estimates_LatinAmerica.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-03-07T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.605146,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1597890215-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Country_SOC_Latin_America.SOC_predictions_country_specific.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-03-08T12:03:29Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-06-14T00:00:00.000Z",
+            "EndingDateTime": "2018-06-14T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "Country_SOC_Latin_America.SOC_predictions_country_specific.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "SOIL BULK DENSITY"
+          },
+          {
+            "ParameterName": "SOIL TEXTURE"
+          },
+          {
+            "ParameterName": "ORGANIC MATTER"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -118.373,
+                  "EastBoundingCoordinate": -31.2372,
+                  "NorthBoundingCoordinate": 32.7286,
+                  "SouthBoundingCoordinate": -55.9997
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-03-07T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-03-08T12:03:27.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Country_SOC_Latin_America_1615",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/data/SOC_predictions_country_specific.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Country_SOC_Latin_America.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1615",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/background_variables.tif",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/background_variables_description.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/Country_SOC_Latin_America.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/SOC_estimates_LatinAmerica.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/SOC_estimates_LatinAmerica.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-03-07T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.693052,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1597890216-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Country_SOC_Latin_America.uncertainty_quantile_regression_forest_country_specific.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-03-08T12:03:29Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-06-14T00:00:00.000Z",
+            "EndingDateTime": "2018-06-14T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "Country_SOC_Latin_America.uncertainty_quantile_regression_forest_country_specific.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "SOIL BULK DENSITY"
+          },
+          {
+            "ParameterName": "SOIL TEXTURE"
+          },
+          {
+            "ParameterName": "ORGANIC MATTER"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -118.373,
+                  "EastBoundingCoordinate": -31.2372,
+                  "NorthBoundingCoordinate": 32.7286,
+                  "SouthBoundingCoordinate": -55.9997
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-03-07T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-03-08T12:03:27.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Country_SOC_Latin_America_1615",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/data/uncertainty_quantile_regression_forest_country_specific.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/Country_SOC_Latin_America.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1615",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/background_variables.tif",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/background_variables_description.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/Country_SOC_Latin_America.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/SOC_estimates_LatinAmerica.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/Country_SOC_Latin_America/comp/SOC_estimates_LatinAmerica.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-03-07T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.638827,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

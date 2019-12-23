@@ -1,0 +1,157 @@
+{
+  "hits": 1,
+  "took": 13,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422723191-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "FIFE_FFOAMS89.ffoams89.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:04:36Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1989-01-01T00:00:00.000Z",
+            "EndingDateTime": "1989-11-10T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_FFOAMS89.ffoams89.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "REFLECTANCE"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -96.611,
+                  "EastBoundingCoordinate": -96.4728,
+                  "NorthBoundingCoordinate": 39.1161,
+                  "SouthBoundingCoordinate": 38.9758
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_FFOAMS89_91",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife-follow-on/files/ffoams89.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/Follow_On/guides/Betts_AMS_data_89.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/91",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife-follow-on/docs/Betts_AMS_data_89.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife-follow-on/docs/ffo_ams.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.113301,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "THERMOMETERS"
+              },
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "ANEMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

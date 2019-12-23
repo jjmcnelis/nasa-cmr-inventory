@@ -1,0 +1,787 @@
+{
+  "hits": 5,
+  "took": 17,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1581605785-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Prudhoe_Bay_Veg_Maps.prudhoe_b_geobotanical.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-01-02T18:19:58Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1949-01-01T00:00:00.000Z",
+            "EndingDateTime": "2010-07-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Prudhoe_Bay_Veg_Maps.prudhoe_b_geobotanical.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FLOOD PLAIN"
+          },
+          {
+            "ParameterName": "PINGO"
+          },
+          {
+            "ParameterName": "DUNES"
+          },
+          {
+            "ParameterName": "RESOURCE DEVELOPMENT SITE"
+          },
+          {
+            "ParameterName": "SOIL CLASSIFICATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -148.67,
+                  "EastBoundingCoordinate": -148.546,
+                  "NorthBoundingCoordinate": 70.283,
+                  "SouthBoundingCoordinate": 70.2411
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-01-02T18:19:57.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Prudhoe_Bay_Veg_Maps_1387",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/data//prudhoe_b_geobotanical.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Prudhoe_Bay_Veg_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1387",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/geobotanical_atlas.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/geobotanical_atlas_boundary.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_a_geobotanical.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/Prudhoe_Bay_Veg_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/Prudhoe_Bay_Veg_Maps_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_b_geobotanical.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_c_geobotanical.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_geobotanical_images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 8.705772,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS"
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION"
+          },
+          {
+            "ShortName": "LANDSAT"
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1581605787-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Prudhoe_Bay_Veg_Maps.prudhoe_c_geobotanical.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-01-02T18:19:58Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1949-01-01T00:00:00.000Z",
+            "EndingDateTime": "2010-07-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Prudhoe_Bay_Veg_Maps.prudhoe_c_geobotanical.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FLOOD PLAIN"
+          },
+          {
+            "ParameterName": "PINGO"
+          },
+          {
+            "ParameterName": "DUNES"
+          },
+          {
+            "ParameterName": "RESOURCE DEVELOPMENT SITE"
+          },
+          {
+            "ParameterName": "SOIL CLASSIFICATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -148.428,
+                  "EastBoundingCoordinate": -148.304,
+                  "NorthBoundingCoordinate": 70.281,
+                  "SouthBoundingCoordinate": 70.239
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-01-02T18:19:57.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Prudhoe_Bay_Veg_Maps_1387",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/data//prudhoe_c_geobotanical.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Prudhoe_Bay_Veg_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1387",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/geobotanical_atlas.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/geobotanical_atlas_boundary.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_a_geobotanical.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/Prudhoe_Bay_Veg_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/Prudhoe_Bay_Veg_Maps_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_b_geobotanical.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_c_geobotanical.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_geobotanical_images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 8.684372,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS"
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION"
+          },
+          {
+            "ShortName": "LANDSAT"
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1581605789-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Prudhoe_Bay_Veg_Maps.prudhoe_a_geobotanical.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-01-02T18:19:58Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1949-01-01T00:00:00.000Z",
+            "EndingDateTime": "2010-07-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Prudhoe_Bay_Veg_Maps.prudhoe_a_geobotanical.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FLOOD PLAIN"
+          },
+          {
+            "ParameterName": "PINGO"
+          },
+          {
+            "ParameterName": "DUNES"
+          },
+          {
+            "ParameterName": "RESOURCE DEVELOPMENT SITE"
+          },
+          {
+            "ParameterName": "SOIL CLASSIFICATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -148.789,
+                  "EastBoundingCoordinate": -148.665,
+                  "NorthBoundingCoordinate": 70.3248,
+                  "SouthBoundingCoordinate": 70.283
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-01-02T18:19:57.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Prudhoe_Bay_Veg_Maps_1387",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/data//prudhoe_a_geobotanical.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Prudhoe_Bay_Veg_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1387",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/geobotanical_atlas.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/geobotanical_atlas_boundary.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_a_geobotanical.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/Prudhoe_Bay_Veg_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/Prudhoe_Bay_Veg_Maps_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_b_geobotanical.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_c_geobotanical.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_geobotanical_images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 7.81196,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS"
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION"
+          },
+          {
+            "ShortName": "LANDSAT"
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1581605788-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Prudhoe_Bay_Veg_Maps.geobotanical_atlas_boundary.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-01-02T18:19:58Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1973-01-01T00:00:00.000Z",
+            "EndingDateTime": "1973-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Prudhoe_Bay_Veg_Maps.geobotanical_atlas_boundary.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FLOOD PLAIN"
+          },
+          {
+            "ParameterName": "PINGO"
+          },
+          {
+            "ParameterName": "DUNES"
+          },
+          {
+            "ParameterName": "RESOURCE DEVELOPMENT SITE"
+          },
+          {
+            "ParameterName": "SOIL CLASSIFICATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -148.969,
+                  "EastBoundingCoordinate": -148.297,
+                  "NorthBoundingCoordinate": 70.3465,
+                  "SouthBoundingCoordinate": 70.1943
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-01-02T18:19:57.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Prudhoe_Bay_Veg_Maps_1387",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/data//geobotanical_atlas_boundary.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Prudhoe_Bay_Veg_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1387",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/geobotanical_atlas.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/geobotanical_atlas_boundary.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_a_geobotanical.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/Prudhoe_Bay_Veg_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/Prudhoe_Bay_Veg_Maps_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_b_geobotanical.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_c_geobotanical.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_geobotanical_images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.001477,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS"
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION"
+          },
+          {
+            "ShortName": "LANDSAT"
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1581605786-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Prudhoe_Bay_Veg_Maps.beecheypoint_landcover.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-01-02T18:19:58Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-07-15T00:00:00.000Z",
+            "EndingDateTime": "1979-07-15T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Prudhoe_Bay_Veg_Maps.beecheypoint_landcover.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FLOOD PLAIN"
+          },
+          {
+            "ParameterName": "PINGO"
+          },
+          {
+            "ParameterName": "DUNES"
+          },
+          {
+            "ParameterName": "RESOURCE DEVELOPMENT SITE"
+          },
+          {
+            "ParameterName": "SOIL CLASSIFICATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -150.167,
+                  "EastBoundingCoordinate": -146.974,
+                  "NorthBoundingCoordinate": 71.0271,
+                  "SouthBoundingCoordinate": 69.9702
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-01-02T18:19:57.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Prudhoe_Bay_Veg_Maps_1387",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/data//beecheypoint_landcover.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Prudhoe_Bay_Veg_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1387",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/geobotanical_atlas.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/geobotanical_atlas_boundary.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_a_geobotanical.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/Prudhoe_Bay_Veg_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/Prudhoe_Bay_Veg_Maps_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_b_geobotanical.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_c_geobotanical.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Prudhoe_Bay_Veg_Maps/comp/prudhoe_geobotanical_images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1387_1.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Beechey Point land cover classification map",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.693002,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS"
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION"
+          },
+          {
+            "ShortName": "LANDSAT"
+          }
+        ]
+      }
+    }
+  ]
+}

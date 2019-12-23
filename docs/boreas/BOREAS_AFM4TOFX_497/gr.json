@@ -1,0 +1,185 @@
+{
+  "hits": 1,
+  "took": 17,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422764073-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_AFM4TOFX.afm04_flux_aircraft.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:44:45Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-05-25T00:00:00.000Z",
+            "EndingDateTime": "1994-09-19T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_AFM4TOFX.afm04_flux_aircraft.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "REFLECTANCE"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -104.81,
+                  "EastBoundingCoordinate": -98.397,
+                  "NorthBoundingCoordinate": 55.947,
+                  "SouthBoundingCoordinate": 53.787
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2000-01-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2000-01-27T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_AFM4TOFX_497",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/AFM/afm4tofx/data/afm04_flux_aircraft.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AFM04_AC_Flux.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/497",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/afm4tofx/comp/AFM04_AC_Flux.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/afm4tofx/comp/AFM04_AC_Flux.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/afm4tofx/comp/AFM04_AC_Flux.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/afm4tofx/comp/afm4tofx.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/afm4tofx/comp/twinotter.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/afm4tofx/comp/twinotter96.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/afm4tofx/comp/twinotter96_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "2000-01-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1.857586,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "DHC-6",
+            "Instruments": [
+              {
+                "ShortName": "UV OZONE DETECTORS"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "MVI"
+              },
+              {
+                "ShortName": "MMR"
+              },
+              {
+                "ShortName": "IRGA"
+              },
+              {
+                "ShortName": "INFRARED RADIOMETERS"
+              },
+              {
+                "ShortName": "GUST PROBES"
+              },
+              {
+                "ShortName": "PRESSURE TRANSDUCERS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "hits": 1,
+  "took": 15,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1631354041-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Active_Layer_Thaw_Depths.Thaw_depth_four_sites_near_fairbanks.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-08-29T10:05:33Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2014-10-15T00:00:00.000Z",
+            "EndingDateTime": "2018-10-15T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Active_Layer_Thaw_Depths.Thaw_depth_four_sites_near_fairbanks.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "ALPINE/TUNDRA"
+          },
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "ACTIVE LAYER"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -147.74,
+                  "EastBoundingCoordinate": -147.612,
+                  "NorthBoundingCoordinate": 64.9511,
+                  "SouthBoundingCoordinate": 64.8677
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-08-28T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-08-29T10:05:33.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Active_Layer_Thaw_Depths_1701",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Active_Layer_Thaw_Depths/data/Thaw_depth_four_sites_near_fairbanks.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Active_Layer_Thaw_Depths.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1701",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Active_Layer_Thaw_Depths/comp/Active_Layer_Thaw_Depths.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Active_Layer_Thaw_Depths/comp/active_layer_thaw_depths_all_sites.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Active_Layer_Thaw_Depths/comp/active_layer_thaw_depths_all_sites.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-08-28T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.199231,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SOIL DEPTH PROBE"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

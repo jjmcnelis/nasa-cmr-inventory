@@ -1,0 +1,83 @@
+{
+  "hits": 1,
+  "took": 14,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1652768720-GES_DISC",
+        "revision-id": 1,
+        "native-id": "CMSLakeSuperiorPPY.1:CMS_Lake_Superior_PP_Yearly_2010-2013.nc",
+        "provider-id": "GES_DISC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-06T15:46:43Z"
+      },
+      "umm": {
+        "RelatedUrls": [
+          {
+            "URL": "https://acdisc.gesdisc.eosdis.nasa.gov/data//CMS/CMSLakeSuperiorPPY.1/CMS_Lake_Superior_PP_Yearly_2010-2013.nc",
+            "Type": "GET DATA"
+          },
+          {
+            "URL": "https://acdisc.gesdisc.eosdis.nasa.gov/opendap/CMS/CMSLakeSuperiorPPY.1/CMS_Lake_Superior_PP_Yearly_2010-2013.nc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "application/x-netcdf"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -92.195,
+                  "EastBoundingCoordinate": -84.205,
+                  "NorthBoundingCoordinate": 49.085,
+                  "SouthBoundingCoordinate": 46.305
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-11-06T15:43:09.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-06T15:43:09.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMSLakeSuperiorPPY",
+          "Version": "1"
+        },
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "Identifiers": [
+            {
+              "Identifier": "CMS_Lake_Superior_PP_Yearly_2010-2013.nc",
+              "IdentifierType": "ProducerGranuleId"
+            }
+          ],
+          "ProductionDateTime": "2018-12-03T21:29:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.494082450866699,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2010-01-01T00:00:00.000Z",
+            "EndingDateTime": "2013-12-31T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "CMSLakeSuperiorPPY.1:CMS_Lake_Superior_PP_Yearly_2010-2013.nc"
+      }
+    }
+  ]
+}

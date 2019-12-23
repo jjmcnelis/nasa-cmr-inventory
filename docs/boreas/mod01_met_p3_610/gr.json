@@ -1,0 +1,4236 @@
+{
+  "hits": 30,
+  "took": 93,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631183-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.ta_94_min_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.ta_94_min_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/ta_94_min_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.020669,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631184-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.pres_96_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.pres_96_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/pres_96_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.385423,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631185-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.lwi_94_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.lwi_94_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/lwi_94_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.331825,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631186-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.td_94_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.td_94_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/td_94_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.005303,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631187-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.precip_94_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.precip_94_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/precip_94_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 2.151748,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631188-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.ud_94_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.ud_94_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/ud_94_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.911992,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631189-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.ta_95_avg_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.ta_95_avg_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/ta_95_avg_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.93697,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631190-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.u_95_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.u_95_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/u_95_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.078218,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631191-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.ta_95_min_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.ta_95_min_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/ta_95_min_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.015072,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631192-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.ta_96_min_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.ta_96_min_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/ta_96_min_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.014543,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631193-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.td_95_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.td_95_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/td_95_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.992543,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631194-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.rsi_94_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.rsi_94_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/rsi_94_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.978342,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631195-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.u_94_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.u_94_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/u_94_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.076099,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631196-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.pres_94_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.pres_94_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/pres_94_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.3739,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631197-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.ta_96_max_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.ta_96_max_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/ta_96_max_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.979848,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631198-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.rsi_95_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.rsi_95_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/rsi_95_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.913306,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631199-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.ud_96_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.ud_96_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/ud_96_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.937118,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631200-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.lwi_96_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.lwi_96_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/lwi_96_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.230602,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631201-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.ta_95_max_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.ta_95_max_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/ta_95_max_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.942578,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631202-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.u_96_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.u_96_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/u_96_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.080483,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631203-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.lwi_95_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.lwi_95_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/lwi_95_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.593025,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631204-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.td_96_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.td_96_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/td_96_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.972377,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631205-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.ud_95_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.ud_95_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/ud_95_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.914846,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631206-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.precip_96_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.precip_96_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/precip_96_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 2.34479,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631207-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.ta_94_avg_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.ta_94_avg_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/ta_94_avg_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.945297,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631208-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.ta_94_max_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.ta_94_max_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/ta_94_max_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.951867,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631209-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.rsi_96_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.rsi_96_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/rsi_96_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.531174,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631210-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.precip_95_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.precip_95_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/precip_95_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 2.025553,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631211-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.pres_95_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.pres_95_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/pres_95_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.372637,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1574631212-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "mod01_met_p3.ta_96_avg_day.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-11-28T23:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1997-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "mod01_met_p3.ta_96_avg_day.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SHORTWAVE RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-11-28T23:46:54.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "mod01_met_p3_610",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/data/ta_96_avg_day.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/mod01_met_p3_daily.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/610",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/mod01/gridded_met_p3_daily/comp/mod01_met_p3_daily.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.954989,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VAS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

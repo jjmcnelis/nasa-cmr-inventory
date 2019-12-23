@@ -1,0 +1,979 @@
+{
+  "hits": 7,
+  "took": 18,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1440973812-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "AirMOSS_L4_Daily_NEE.L4ANEE_AssmltdL23_Moisst_v1_daily.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-11-28T17:35:52Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2012-01-01T00:00:00.000Z",
+            "EndingDateTime": "2014-10-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "AirMOSS_L4_Daily_NEE.L4ANEE_AssmltdL23_Moisst_v1_daily.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "ParameterName": "TERRESTRIAL ECOSYSTEMS"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "GPolygons": [
+                {
+                  "Boundary": {
+                    "Points": [
+                      {
+                        "Longitude": -96.491905,
+                        "Latitude": 35.616234
+                      },
+                      {
+                        "Longitude": -96.491905,
+                        "Latitude": 36.999863
+                      },
+                      {
+                        "Longitude": -99.249565,
+                        "Latitude": 36.999863
+                      },
+                      {
+                        "Longitude": -99.249565,
+                        "Latitude": 35.616234
+                      },
+                      {
+                        "Longitude": -96.491905,
+                        "Latitude": 35.616234
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-11-22T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2016-11-22T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "AirMOSS_L4_Daily_NEE_1422",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/data//L4ANEE_AssmltdL23_Moisst_v1_daily.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule.",
+            "MimeType": "application/x-netcdf"
+          },
+          {
+            "URL": "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L4_Daily_NEE.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1422",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/comp/AirMOSS_L4NEE_ATBD_V2.0_160928.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/comp/AirMOSS_L4_Daily_NEE.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "AirMOSS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2016-11-22T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 24.414222,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "C-130",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1440973807-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "AirMOSS_L4_Daily_NEE.L4ANEE_AssmltdL23_Walnut_v1_daily.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-11-28T17:35:50Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2012-09-01T00:00:00.000Z",
+            "EndingDateTime": "2014-10-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "AirMOSS_L4_Daily_NEE.L4ANEE_AssmltdL23_Walnut_v1_daily.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "ParameterName": "TERRESTRIAL ECOSYSTEMS"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "GPolygons": [
+                {
+                  "Boundary": {
+                    "Points": [
+                      {
+                        "Longitude": -109.366356,
+                        "Latitude": 31.491236
+                      },
+                      {
+                        "Longitude": -109.366356,
+                        "Latitude": 32.124584
+                      },
+                      {
+                        "Longitude": -111.499168,
+                        "Latitude": 32.124584
+                      },
+                      {
+                        "Longitude": -111.499168,
+                        "Latitude": 31.491236
+                      },
+                      {
+                        "Longitude": -109.366356,
+                        "Latitude": 31.491236
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-11-22T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2016-11-22T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "AirMOSS_L4_Daily_NEE_1422",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/data//L4ANEE_AssmltdL23_Walnut_v1_daily.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule.",
+            "MimeType": "application/x-netcdf"
+          },
+          {
+            "URL": "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L4_Daily_NEE.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1422",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/comp/AirMOSS_L4NEE_ATBD_V2.0_160928.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/comp/AirMOSS_L4_Daily_NEE.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "AirMOSS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2016-11-22T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 12.628436,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "C-130",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1440973808-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "AirMOSS_L4_Daily_NEE.L4ANEE_AssmltdL23_howland_v2.0_daily.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-11-28T17:35:51Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2012-10-15T00:00:00.000Z",
+            "EndingDateTime": "2014-08-26T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "AirMOSS_L4_Daily_NEE.L4ANEE_AssmltdL23_howland_v2.0_daily.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "ParameterName": "TERRESTRIAL ECOSYSTEMS"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "GPolygons": [
+                {
+                  "Boundary": {
+                    "Points": [
+                      {
+                        "Longitude": -68.335915,
+                        "Latitude": 44.66917
+                      },
+                      {
+                        "Longitude": -68.335915,
+                        "Latitude": 45.786076
+                      },
+                      {
+                        "Longitude": -69.094063,
+                        "Latitude": 45.786076
+                      },
+                      {
+                        "Longitude": -69.094063,
+                        "Latitude": 44.66917
+                      },
+                      {
+                        "Longitude": -68.335915,
+                        "Latitude": 44.66917
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-11-22T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2016-11-22T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "AirMOSS_L4_Daily_NEE_1422",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/data//L4ANEE_AssmltdL23_howland_v2.0_daily.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule.",
+            "MimeType": "application/x-netcdf"
+          },
+          {
+            "URL": "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L4_Daily_NEE.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1422",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/comp/AirMOSS_L4NEE_ATBD_V2.0_160928.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/comp/AirMOSS_L4_Daily_NEE.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "AirMOSS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2016-11-22T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 11.452729,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "C-130",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1440973810-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "AirMOSS_L4_Daily_NEE.L4ANEE_AssmltdL23_duke_v2.0_daily.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-11-28T17:35:51Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2012-10-15T00:00:00.000Z",
+            "EndingDateTime": "2014-08-26T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "AirMOSS_L4_Daily_NEE.L4ANEE_AssmltdL23_duke_v2.0_daily.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "ParameterName": "TERRESTRIAL ECOSYSTEMS"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "GPolygons": [
+                {
+                  "Boundary": {
+                    "Points": [
+                      {
+                        "Longitude": -66.937119,
+                        "Latitude": 35.304173
+                      },
+                      {
+                        "Longitude": -66.937119,
+                        "Latitude": 36.51276
+                      },
+                      {
+                        "Longitude": -79.964165,
+                        "Latitude": 36.51276
+                      },
+                      {
+                        "Longitude": -79.964165,
+                        "Latitude": 35.304173
+                      },
+                      {
+                        "Longitude": -66.937119,
+                        "Latitude": 35.304173
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-11-22T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2016-11-22T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "AirMOSS_L4_Daily_NEE_1422",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/data//L4ANEE_AssmltdL23_duke_v2.0_daily.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule.",
+            "MimeType": "application/x-netcdf"
+          },
+          {
+            "URL": "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L4_Daily_NEE.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1422",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/comp/AirMOSS_L4NEE_ATBD_V2.0_160928.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/comp/AirMOSS_L4_Daily_NEE.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "AirMOSS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2016-11-22T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 16.116846,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "C-130",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1440973811-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "AirMOSS_L4_Daily_NEE.L4ANEE_AssmltdL23_harvard_v2.0_daily.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-11-28T17:35:52Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2012-10-15T00:00:00.000Z",
+            "EndingDateTime": "2014-08-26T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "AirMOSS_L4_Daily_NEE.L4ANEE_AssmltdL23_harvard_v2.0_daily.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "ParameterName": "TERRESTRIAL ECOSYSTEMS"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "GPolygons": [
+                {
+                  "Boundary": {
+                    "Points": [
+                      {
+                        "Longitude": -71.604408,
+                        "Latitude": 42.004169
+                      },
+                      {
+                        "Longitude": -71.604408,
+                        "Latitude": 43.504494
+                      },
+                      {
+                        "Longitude": -72.604164,
+                        "Latitude": 43.504494
+                      },
+                      {
+                        "Longitude": -72.604164,
+                        "Latitude": 42.004169
+                      },
+                      {
+                        "Longitude": -71.604408,
+                        "Latitude": 42.004169
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-11-22T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2016-11-22T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "AirMOSS_L4_Daily_NEE_1422",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/data//L4ANEE_AssmltdL23_harvard_v2.0_daily.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule.",
+            "MimeType": "application/x-netcdf"
+          },
+          {
+            "URL": "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L4_Daily_NEE.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1422",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/comp/AirMOSS_L4NEE_ATBD_V2.0_160928.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/comp/AirMOSS_L4_Daily_NEE.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "AirMOSS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2016-11-22T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 15.949692,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "C-130",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1440973809-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "AirMOSS_L4_Daily_NEE.L4ANEE_AssmltdL23_metolius_v2.0_daily.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-11-28T17:35:51Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-06-22T00:00:00.000Z",
+            "EndingDateTime": "2014-08-26T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "AirMOSS_L4_Daily_NEE.L4ANEE_AssmltdL23_metolius_v2.0_daily.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "ParameterName": "TERRESTRIAL ECOSYSTEMS"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "GPolygons": [
+                {
+                  "Boundary": {
+                    "Points": [
+                      {
+                        "Longitude": -120.875488,
+                        "Latitude": 43.883331
+                      },
+                      {
+                        "Longitude": -120.875488,
+                        "Latitude": 44.64183
+                      },
+                      {
+                        "Longitude": -122.883331,
+                        "Latitude": 44.64183
+                      },
+                      {
+                        "Longitude": -122.883331,
+                        "Latitude": 43.883331
+                      },
+                      {
+                        "Longitude": -120.875488,
+                        "Latitude": 43.883331
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-11-22T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2016-11-22T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "AirMOSS_L4_Daily_NEE_1422",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/data//L4ANEE_AssmltdL23_metolius_v2.0_daily.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule.",
+            "MimeType": "application/x-netcdf"
+          },
+          {
+            "URL": "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L4_Daily_NEE.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1422",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/comp/AirMOSS_L4NEE_ATBD_V2.0_160928.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/comp/AirMOSS_L4_Daily_NEE.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "AirMOSS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2016-11-22T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 11.032732,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "C-130",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1440973806-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "AirMOSS_L4_Daily_NEE.L4ANEE_AssmltdL23_Tonzi_v1_daily.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-11-28T17:35:50Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-10-01T00:00:00.000Z",
+            "EndingDateTime": "2014-10-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "AirMOSS_L4_Daily_NEE.L4ANEE_AssmltdL23_Tonzi_v1_daily.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "ParameterName": "TERRESTRIAL ECOSYSTEMS"
+          },
+          {
+            "ParameterName": "CARBON"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "GPolygons": [
+                {
+                  "Boundary": {
+                    "Points": [
+                      {
+                        "Longitude": -119.99514,
+                        "Latitude": 37.495335
+                      },
+                      {
+                        "Longitude": -119.99514,
+                        "Latitude": 38.628906
+                      },
+                      {
+                        "Longitude": -121.253166,
+                        "Latitude": 38.628906
+                      },
+                      {
+                        "Longitude": -121.253166,
+                        "Latitude": 37.495335
+                      },
+                      {
+                        "Longitude": -119.99514,
+                        "Latitude": 37.495335
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-11-22T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2016-11-22T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "AirMOSS_L4_Daily_NEE_1422",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/data//L4ANEE_AssmltdL23_Tonzi_v1_daily.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule.",
+            "MimeType": "application/x-netcdf"
+          },
+          {
+            "URL": "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L4_Daily_NEE.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1422",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/comp/AirMOSS_L4NEE_ATBD_V2.0_160928.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/comp/AirMOSS_L4_Daily_NEE.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "AirMOSS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2016-11-22T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.514246,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "C-130",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
