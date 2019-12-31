@@ -9,6 +9,13 @@ readme_template = '''# nasa-cmr-inventory
 
 Process CMR metadata (by project) into tabular and spatial formats for spatial db index.
 
+README contents:
+
+* [projects](#projects): projects table and statistics (below)
+* [contents](#contents): list of files included for each project and dataset
+* [usage](#usage): example invocation of python module `cmr` as script
+* [updates](#updates): details about update tracking
+
 ## projects
 
 The first column (*project*) contains the strings passed to CMR collections API:
@@ -23,6 +30,8 @@ The first column (*project*) contains the strings passed to CMR collections API:
   </tr>
 {proj_rows}
 </table>
+
+## contents
 
 Each **project** has the following files (e.g. [`{proj_dir}/`]({proj_dir}/)):
 

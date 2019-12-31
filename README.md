@@ -2,6 +2,13 @@
 
 Process CMR metadata (by project) into tabular and spatial formats for spatial db index.
 
+README contents:
+
+* [projects](#projects): projects table and statistics (below)
+* [contents](#contents): list of files included for each project and dataset
+* [usage](#usage): example invocation of python module `cmr` as script
+* [updates](#updates): details about update tracking
+
 ## projects
 
 The first column (*project*) contains the strings passed to CMR collections API:
@@ -33,7 +40,7 @@ The first column (*project*) contains the strings passed to CMR collections API:
     <td><a href="projects/act-america/">projects/act-america/</a></td>
     <td>8</td>
     <td>2377</td>
-    <td>2019-12-31 14:30:42</td>
+    <td>2019-12-31 14:52:05</td>
   </tr>
   <tr>
     <td>airmoss</td>
@@ -136,6 +143,8 @@ The first column (*project*) contains the strings passed to CMR collections API:
 
 </table>
 
+## contents
+
 Each **project** has the following files (e.g. [`projects/above/`](projects/above/)):
 
 * [`projects/above/ds.json`](projects/above/ds.json): UMM-C records for all datasets (API response as JSON)
@@ -166,4 +175,5 @@ python -m cmr above
 
 Update history is tracked by project in [`projects/projects.json`](projects/projects.json).
 
-*This README is regenerated with every successful run. Last update on `2019-12-31 14:30:42`.*
+*This README is regenerated with every successful run. Last update on `2019-12-31 14:52:05`.*
+
