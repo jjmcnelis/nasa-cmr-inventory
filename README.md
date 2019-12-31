@@ -32,5 +32,24 @@ And each **dataset** in a project has the following files (e.g. [`docs/above/ABo
 * [npp](docs/npp/)
 * [otter](docs/otter/)
 * [prove](docs/prove/)
-* safari2000 (FAIL/)
+* safari2000 (FAIL)
 * [snf](docs/snf/)
+
+## usage
+
+1. Update [`config.json`](config.json) to the desired project identifier:
+
+```json
+{
+  "options": {
+    "project": "above"
+  },
+  ...
+}
+```
+
+2. Run [`cmr`](cmr/) as a Python module:
+
+```shell
+python -m cmr config.json
+```
