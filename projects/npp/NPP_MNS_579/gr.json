@@ -1,0 +1,720 @@
+{
+  "hits": 6,
+  "took": 20,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422813918-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NPP_MNS.mns_cli.txt",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:34:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1910-01-01T00:00:00.000Z",
+            "EndingDateTime": "1993-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NPP_MNS.mns_cli.txt",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOMASS DYNAMICS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -60.12,
+                  "EastBoundingCoordinate": -59.97,
+                  "NorthBoundingCoordinate": -2.5,
+                  "SouthBoundingCoordinate": -3.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-17T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NPP_MNS_579",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/npp/tropical_forest/NPP_MNS/data/mns_cli.txt",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NPP/guides/NPP_MNS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/579",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/npp/tropical_forest/NPP_MNS/comp/NPP_MNS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NPP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.018874,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "CORING DEVICES"
+              },
+              {
+                "ShortName": "STEEL MEASURING TAPE"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422813926-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NPP_MNS.mns1_npp_r1.txt",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:34:22Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1963-01-01T00:00:00.000Z",
+            "EndingDateTime": "1975-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NPP_MNS.mns1_npp_r1.txt",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOMASS DYNAMICS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -60.12,
+                  "EastBoundingCoordinate": -59.97,
+                  "NorthBoundingCoordinate": -2.5,
+                  "SouthBoundingCoordinate": -3.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-17T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NPP_MNS_579",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/npp/tropical_forest/NPP_MNS/data/mns1_npp_r1.txt",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NPP/guides/NPP_MNS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/579",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/npp/tropical_forest/NPP_MNS/comp/NPP_MNS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NPP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.006317,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "CORING DEVICES"
+              },
+              {
+                "ShortName": "STEEL MEASURING TAPE"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422813947-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NPP_MNS.mns3_npp.txt",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:34:23Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1976-09-01T00:00:00.000Z",
+            "EndingDateTime": "1977-07-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NPP_MNS.mns3_npp.txt",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOMASS DYNAMICS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -60.12,
+                  "EastBoundingCoordinate": -59.97,
+                  "NorthBoundingCoordinate": -2.5,
+                  "SouthBoundingCoordinate": -3.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-17T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NPP_MNS_579",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/npp/tropical_forest/NPP_MNS/data/mns3_npp.txt",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NPP/guides/NPP_MNS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/579",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/npp/tropical_forest/NPP_MNS/comp/NPP_MNS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NPP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.001939,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "CORING DEVICES"
+              },
+              {
+                "ShortName": "STEEL MEASURING TAPE"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422813941-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NPP_MNS.mns2_npp.txt",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:34:23Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1976-11-01T00:00:00.000Z",
+            "EndingDateTime": "1980-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NPP_MNS.mns2_npp.txt",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOMASS DYNAMICS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -60.12,
+                  "EastBoundingCoordinate": -59.97,
+                  "NorthBoundingCoordinate": -2.5,
+                  "SouthBoundingCoordinate": -3.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-17T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NPP_MNS_579",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/npp/tropical_forest/NPP_MNS/data/mns2_npp.txt",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NPP/guides/NPP_MNS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/579",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/npp/tropical_forest/NPP_MNS/comp/NPP_MNS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NPP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.002231,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "CORING DEVICES"
+              },
+              {
+                "ShortName": "STEEL MEASURING TAPE"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422813954-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NPP_MNS.mns4_npp_r1.txt",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:34:24Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "1979-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NPP_MNS.mns4_npp_r1.txt",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOMASS DYNAMICS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -60.12,
+                  "EastBoundingCoordinate": -59.97,
+                  "NorthBoundingCoordinate": -2.5,
+                  "SouthBoundingCoordinate": -3.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-17T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NPP_MNS_579",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/npp/tropical_forest/NPP_MNS/data/mns4_npp_r1.txt",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NPP/guides/NPP_MNS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/579",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/npp/tropical_forest/NPP_MNS/comp/NPP_MNS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NPP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.002045,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "CORING DEVICES"
+              },
+              {
+                "ShortName": "STEEL MEASURING TAPE"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422813934-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NPP_MNS.mns5_npp.txt",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:34:22Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1990-10-31T00:00:00.000Z",
+            "EndingDateTime": "1990-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NPP_MNS.mns5_npp.txt",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOMASS DYNAMICS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -60.12,
+                  "EastBoundingCoordinate": -59.97,
+                  "NorthBoundingCoordinate": -2.5,
+                  "SouthBoundingCoordinate": -3.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-10-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-10-17T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NPP_MNS_579",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/npp/tropical_forest/NPP_MNS/data/mns5_npp.txt",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NPP/guides/NPP_MNS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/579",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/npp/tropical_forest/NPP_MNS/comp/NPP_MNS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NPP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-10-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.001318,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "CORING DEVICES"
+              },
+              {
+                "ShortName": "STEEL MEASURING TAPE"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

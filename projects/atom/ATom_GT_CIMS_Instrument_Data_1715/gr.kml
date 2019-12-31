@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gr" id="gr">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="gran_name" type="string"></SimpleField>
+	<SimpleField name="gran_size_mb" type="float"></SimpleField>
+	<SimpleField name="gran_parameters" type="string"></SimpleField>
+	<SimpleField name="gran_day_night" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>gr</name>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309755-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170126_R1.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170126_R1.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.410475</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-01-26T17:11:51.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-01-27T03:32:08.000Z</SimpleData>
+		<SimpleData name="time_min">0.90979</SimpleData>
+		<SimpleData name="time_max">34.6992</SimpleData>
+		<SimpleData name="lat_min">-121.751</SimpleData>
+		<SimpleData name="lat_max">-117.846</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-117.846,0.90979 -117.846,34.6992 -121.751,34.6992 -121.751,0.90979 -117.846,0.90979</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309751-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170129_R1.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170129_R1.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.460674</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-01-29T17:39:35.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-01-30T03:21:47.000Z</SimpleData>
+		<SimpleData name="time_min">34.6304</SimpleData>
+		<SimpleData name="time_max">71.28579999999999</SimpleData>
+		<SimpleData name="lat_min">-157.409</SimpleData>
+		<SimpleData name="lat_max">-118.107</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-118.107,34.6304 -118.107,71.2858 -157.409,71.2858 -157.409,34.6304 -118.107,34.6304</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309747-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170201_R1.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170201_R1.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.408086</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-02-01T20:09:13.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-02-02T04:20:14.000Z</SimpleData>
+		<SimpleData name="time_min">19.525</SimpleData>
+		<SimpleData name="time_max">61.2645</SimpleData>
+		<SimpleData name="lat_min">-162.862</SimpleData>
+		<SimpleData name="lat_max">-146.342</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-146.342,19.525 -146.342,61.2645 -162.862,61.2645 -162.862,19.525 -146.342,19.525</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309756-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170203_R1.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170203_R1.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.445089</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-02-03T19:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-02-04T04:27:50.000Z</SimpleData>
+		<SimpleData name="time_min">-17.9558</SimpleData>
+		<SimpleData name="time_max">19.7272</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-17.9558 180.0,19.7272 -180.0,19.7272 -180.0,-17.9558 180.0,-17.9558</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309770-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170205_R1.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170205_R1.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.414047</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-02-05T20:32:26.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-02-06T05:07:40.000Z</SimpleData>
+		<SimpleData name="time_min">-56.0611</SimpleData>
+		<SimpleData name="time_max">-17.7735</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-56.0611 180.0,-17.7735 -180.0,-17.7735 -180.0,-56.0611 180.0,-56.0611</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309743-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170210_R1.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170210_R1.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.450302</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-02-10T18:54:25.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-02-11T04:46:34.000Z</SimpleData>
+		<SimpleData name="time_min">-65.2784</SimpleData>
+		<SimpleData name="time_max">-43.4959</SimpleData>
+		<SimpleData name="lat_min">-179.999</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-65.2784 180.0,-43.4959 -179.999,-43.4959 -179.999,-65.2784 180.0,-65.2784</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309763-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170213_R1.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170213_R1.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.410471</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-02-13T11:01:12.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-02-13T20:01:30.000Z</SimpleData>
+		<SimpleData name="time_min">-53.0015</SimpleData>
+		<SimpleData name="time_max">-7.75668</SimpleData>
+		<SimpleData name="lat_min">-70.9671</SimpleData>
+		<SimpleData name="lat_max">-14.3961</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-14.3961,-53.0015 -14.3961,-7.75668 -70.9671,-7.75668 -70.9671,-53.0015 -14.3961,-53.0015</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309750-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170215_R1.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170215_R1.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.391119</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-02-15T08:51:27.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-02-15T17:29:37.000Z</SimpleData>
+		<SimpleData name="time_min">-8.06049</SimpleData>
+		<SimpleData name="time_max">39.2065</SimpleData>
+		<SimpleData name="lat_min">-35.4417</SimpleData>
+		<SimpleData name="lat_max">-14.326</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-14.326,-8.06049 -14.326,39.2065 -35.4417,39.2065 -35.4417,-8.06049 -14.326,-8.06049</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309752-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170219_R0.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170219_R0.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.351795</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-02-19T16:25:51.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-02-20T00:02:49.000Z</SimpleData>
+		<SimpleData name="time_min">61.1662</SimpleData>
+		<SimpleData name="time_max">80.5222</SimpleData>
+		<SimpleData name="lat_min">-157.445</SimpleData>
+		<SimpleData name="lat_max">-68.7654</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-68.7654,61.1662 -68.7654,80.5222 -157.445,80.5222 -157.445,61.1662 -68.7654,61.1662</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309753-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170928_R0.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20170928_R0.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.620256</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-09-28T14:36:16.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-09-29T00:53:40.000Z</SimpleData>
+		<SimpleData name="time_min">-0.39192</SimpleData>
+		<SimpleData name="time_max">34.7074</SimpleData>
+		<SimpleData name="lat_min">-121.636</SimpleData>
+		<SimpleData name="lat_max">-117.731</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-117.731,-0.39192 -117.731,34.7074 -121.636,34.7074 -121.636,-0.39192 -117.731,-0.39192</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309745-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171001_R0.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171001_R0.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.580295</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-10-01T16:06:10.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-02T02:05:32.000Z</SimpleData>
+		<SimpleData name="time_min">34.5993</SimpleData>
+		<SimpleData name="time_max">72.7287</SimpleData>
+		<SimpleData name="lat_min">-157.179</SimpleData>
+		<SimpleData name="lat_max">-118.087</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-118.087,34.5993 -118.087,72.7287 -157.179,72.7287 -157.179,34.5993 -118.087,34.5993</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309729-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171004_R0.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:51Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171004_R0.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.428057</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-10-04T17:59:17.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-05T01:23:47.000Z</SimpleData>
+		<SimpleData name="time_min">19.7351</SimpleData>
+		<SimpleData name="time_max">61.2653</SimpleData>
+		<SimpleData name="lat_min">-162.853</SimpleData>
+		<SimpleData name="lat_max">-150.015</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-150.015,19.7351 -150.015,61.2653 -162.853,61.2653 -162.853,19.7351 -150.015,19.7351</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309769-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171006_R0.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171006_R0.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.5118470000000001</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-10-06T18:56:20.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-07T03:51:49.000Z</SimpleData>
+		<SimpleData name="time_min">-17.9219</SimpleData>
+		<SimpleData name="time_max">19.7285</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">179.999</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>179.999,-17.9219 179.999,19.7285 -180.0,19.7285 -180.0,-17.9219 179.999,-17.9219</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309767-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171008_R0.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171008_R0.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.538859</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-10-08T20:01:48.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-09T05:13:01.000Z</SimpleData>
+		<SimpleData name="time_min">-55.9444</SimpleData>
+		<SimpleData name="time_max">-17.7726</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-55.9444 180.0,-17.7726 -180.0,-17.7726 -180.0,-55.9444 180.0,-55.9444</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309761-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171011_R0.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171011_R0.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.572145</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-10-11T17:57:34.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-12T03:50:01.000Z</SimpleData>
+		<SimpleData name="time_min">-65.27849999999999</SimpleData>
+		<SimpleData name="time_max">-43.4954</SimpleData>
+		<SimpleData name="lat_min">-179.999</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-65.2785 180.0,-43.4954 -179.999,-43.4954 -179.999,-65.2785 180.0,-65.2785</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309757-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171014_R0.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171014_R0.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.604137</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-10-14T11:35:26.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-14T22:15:51.000Z</SimpleData>
+		<SimpleData name="time_min">-80.11790000000001</SimpleData>
+		<SimpleData name="time_max">-52.9564</SimpleData>
+		<SimpleData name="lat_min">-70.9703</SimpleData>
+		<SimpleData name="lat_max">-19.6432</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-19.6432,-80.1179 -19.6432,-52.9564 -70.9703,-52.9564 -70.9703,-80.1179 -19.6432,-80.1179</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309758-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171017_R0.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171017_R0.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.534695</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-10-17T09:57:25.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-17T19:25:10.000Z</SimpleData>
+		<SimpleData name="time_min">-53.0012</SimpleData>
+		<SimpleData name="time_max">-7.74978</SimpleData>
+		<SimpleData name="lat_min">-70.9383</SimpleData>
+		<SimpleData name="lat_max">-14.3748</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-14.3748,-53.0012 -14.3748,-7.74978 -70.9383,-7.74978 -70.9383,-53.0012 -14.3748,-53.0012</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309760-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171019_R0.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171019_R0.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.264226</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-10-19T08:36:01.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-19T13:10:45.000Z</SimpleData>
+		<SimpleData name="time_min">-8.03754</SimpleData>
+		<SimpleData name="time_max">16.733</SimpleData>
+		<SimpleData name="lat_min">-22.9503</SimpleData>
+		<SimpleData name="lat_max">-14.3645</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-14.3645,-8.03754 -14.3645,16.733 -22.9503,16.733 -22.9503,-8.03754 -14.3645,-8.03754</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309744-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171020_R0.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171020_R0.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.403992</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-10-20T09:18:40.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-20T16:59:33.000Z</SimpleData>
+		<SimpleData name="time_min">9.1351</SimpleData>
+		<SimpleData name="time_max">39.1869</SimpleData>
+		<SimpleData name="lat_min">-27.7256</SimpleData>
+		<SimpleData name="lat_max">-22.9419</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-22.9419,9.1351 -22.9419,39.1869 -27.7256,39.1869 -27.7256,9.1351 -22.9419,9.1351</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309749-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171023_R0.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171023_R0.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.554187</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-10-23T09:33:07.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-23T18:59:29.000Z</SimpleData>
+		<SimpleData name="time_min">38.5713</SimpleData>
+		<SimpleData name="time_max">67.0094</SimpleData>
+		<SimpleData name="lat_min">-68.9548</SimpleData>
+		<SimpleData name="lat_max">-26.8159</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-26.8159,38.5713 -26.8159,67.0094 -68.9548,67.0094 -68.9548,38.5713 -26.8159,38.5713</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1643309759-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171027_R0.ict</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_GT_CIMS_Instrument_Data.GTCIMSPANS_DC8_20171027_R0.ict</SimpleData>
+		<SimpleData name="coll_shortname">0.378912</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-10-27T18:24:35.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-28T00:53:16.000Z</SimpleData>
+		<SimpleData name="time_min">34.5787</SimpleData>
+		<SimpleData name="time_max">61.1757</SimpleData>
+		<SimpleData name="lat_min">-150.135</SimpleData>
+		<SimpleData name="lat_max">-118.085</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-118.085,34.5787 -118.085,61.1757 -150.135,61.1757 -150.135,34.5787 -118.085,34.5787</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

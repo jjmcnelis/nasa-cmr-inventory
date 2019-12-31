@@ -1,0 +1,1414 @@
+{
+  "hits": 11,
+  "took": 25,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1621367456-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_Forest_Conservation.IPSL_1979_2014_merge.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-26T12:25:47Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2014-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_Forest_Conservation.IPSL_1979_2014_merge.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "FOREST HARVESTING AND ENGINEERING"
+          },
+          {
+            "ParameterName": "DROUGHTS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.812,
+                  "EastBoundingCoordinate": -101.961,
+                  "NorthBoundingCoordinate": 49.0351,
+                  "SouthBoundingCoordinate": 31.1875
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-25T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-26T12:25:44.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_Forest_Conservation_1662",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/data/IPSL_1979_2014_merge.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Forest_Conservation.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1662",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/comp/NACP_Forest_Conservation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-25T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 149.183268,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1621367457-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_Forest_Conservation.FMEC_1979_2014_merge.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-26T12:25:47Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2014-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_Forest_Conservation.FMEC_1979_2014_merge.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "FOREST HARVESTING AND ENGINEERING"
+          },
+          {
+            "ParameterName": "DROUGHTS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.812,
+                  "EastBoundingCoordinate": -101.961,
+                  "NorthBoundingCoordinate": 49.0351,
+                  "SouthBoundingCoordinate": 31.1875
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-25T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-26T12:25:44.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_Forest_Conservation_1662",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/data/FMEC_1979_2014_merge.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Forest_Conservation.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1662",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/comp/NACP_Forest_Conservation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-25T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 148.893112,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1621367460-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_Forest_Conservation.MIROC_1979_2014_merge.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-26T12:25:47Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1979-01-01T00:00:00.000Z",
+            "EndingDateTime": "2014-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_Forest_Conservation.MIROC_1979_2014_merge.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "FOREST HARVESTING AND ENGINEERING"
+          },
+          {
+            "ParameterName": "DROUGHTS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.812,
+                  "EastBoundingCoordinate": -101.961,
+                  "NorthBoundingCoordinate": 49.0351,
+                  "SouthBoundingCoordinate": 31.1875
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-25T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-26T12:25:44.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_Forest_Conservation_1662",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/data/MIROC_1979_2014_merge.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Forest_Conservation.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1662",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/comp/NACP_Forest_Conservation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-25T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 147.003076,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1621367449-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_Forest_Conservation.IPSL_2015_2099_const_all_merge.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-26T12:25:47Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2015-01-01T00:00:00.000Z",
+            "EndingDateTime": "2099-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_Forest_Conservation.IPSL_2015_2099_const_all_merge.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "FOREST HARVESTING AND ENGINEERING"
+          },
+          {
+            "ParameterName": "DROUGHTS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.812,
+                  "EastBoundingCoordinate": -101.961,
+                  "NorthBoundingCoordinate": 49.0351,
+                  "SouthBoundingCoordinate": 31.1875
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-25T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-26T12:25:44.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_Forest_Conservation_1662",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/data/IPSL_2015_2099_const_all_merge.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Forest_Conservation.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1662",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/comp/NACP_Forest_Conservation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-25T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 350.623938,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1621367450-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_Forest_Conservation.MIROC_2015_2099_const_all_merge.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-26T12:25:47Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2015-01-01T00:00:00.000Z",
+            "EndingDateTime": "2099-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_Forest_Conservation.MIROC_2015_2099_const_all_merge.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "FOREST HARVESTING AND ENGINEERING"
+          },
+          {
+            "ParameterName": "DROUGHTS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.812,
+                  "EastBoundingCoordinate": -101.961,
+                  "NorthBoundingCoordinate": 49.0351,
+                  "SouthBoundingCoordinate": 31.1875
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-25T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-26T12:25:44.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_Forest_Conservation_1662",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/data/MIROC_2015_2099_const_all_merge.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Forest_Conservation.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1662",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/comp/NACP_Forest_Conservation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-25T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 346.883217,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1621367451-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_Forest_Conservation.IPSL_2015_2099_BAU_merge.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-26T12:25:47Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2015-01-01T00:00:00.000Z",
+            "EndingDateTime": "2099-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_Forest_Conservation.IPSL_2015_2099_BAU_merge.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "FOREST HARVESTING AND ENGINEERING"
+          },
+          {
+            "ParameterName": "DROUGHTS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.812,
+                  "EastBoundingCoordinate": -101.961,
+                  "NorthBoundingCoordinate": 49.0351,
+                  "SouthBoundingCoordinate": 31.1875
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-25T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-26T12:25:44.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_Forest_Conservation_1662",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/data/IPSL_2015_2099_BAU_merge.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Forest_Conservation.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1662",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/comp/NACP_Forest_Conservation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-25T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 408.95815,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1621367452-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_Forest_Conservation.MIROC_2015_2099_noharvest_merge.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-26T12:25:47Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2015-01-01T00:00:00.000Z",
+            "EndingDateTime": "2099-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_Forest_Conservation.MIROC_2015_2099_noharvest_merge.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "FOREST HARVESTING AND ENGINEERING"
+          },
+          {
+            "ParameterName": "DROUGHTS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.812,
+                  "EastBoundingCoordinate": -101.961,
+                  "NorthBoundingCoordinate": 49.0351,
+                  "SouthBoundingCoordinate": 31.1875
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-25T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-26T12:25:44.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_Forest_Conservation_1662",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/data/MIROC_2015_2099_noharvest_merge.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Forest_Conservation.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1662",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/comp/NACP_Forest_Conservation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-25T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 349.441299,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1621367453-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_Forest_Conservation.MIROC_2015_2099_BAU_merge.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-26T12:25:47Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2015-01-01T00:00:00.000Z",
+            "EndingDateTime": "2099-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_Forest_Conservation.MIROC_2015_2099_BAU_merge.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "FOREST HARVESTING AND ENGINEERING"
+          },
+          {
+            "ParameterName": "DROUGHTS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.812,
+                  "EastBoundingCoordinate": -101.961,
+                  "NorthBoundingCoordinate": 49.0351,
+                  "SouthBoundingCoordinate": 31.1875
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-25T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-26T12:25:44.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_Forest_Conservation_1662",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/data/MIROC_2015_2099_BAU_merge.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Forest_Conservation.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1662",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/comp/NACP_Forest_Conservation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-25T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 349.53839,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1621367455-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_Forest_Conservation.IPSL_2015_2099_const_CO2_merge.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-26T12:25:47Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2015-01-01T00:00:00.000Z",
+            "EndingDateTime": "2099-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_Forest_Conservation.IPSL_2015_2099_const_CO2_merge.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "FOREST HARVESTING AND ENGINEERING"
+          },
+          {
+            "ParameterName": "DROUGHTS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.812,
+                  "EastBoundingCoordinate": -101.961,
+                  "NorthBoundingCoordinate": 49.0351,
+                  "SouthBoundingCoordinate": 31.1875
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-25T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-26T12:25:44.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_Forest_Conservation_1662",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/data/IPSL_2015_2099_const_CO2_merge.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Forest_Conservation.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1662",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/comp/NACP_Forest_Conservation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-25T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 349.598673,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1621367458-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_Forest_Conservation.IPSL_2015_2099_noharvest_merge.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-26T12:25:47Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2015-01-01T00:00:00.000Z",
+            "EndingDateTime": "2099-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_Forest_Conservation.IPSL_2015_2099_noharvest_merge.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "FOREST HARVESTING AND ENGINEERING"
+          },
+          {
+            "ParameterName": "DROUGHTS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.812,
+                  "EastBoundingCoordinate": -101.961,
+                  "NorthBoundingCoordinate": 49.0351,
+                  "SouthBoundingCoordinate": 31.1875
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-25T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-26T12:25:44.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_Forest_Conservation_1662",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/data/IPSL_2015_2099_noharvest_merge.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Forest_Conservation.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1662",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/comp/NACP_Forest_Conservation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-25T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 351.383413,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1621367459-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_Forest_Conservation.MIROC_2015_2099_const_CO2_merge.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-26T12:25:47Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2015-01-01T00:00:00.000Z",
+            "EndingDateTime": "2099-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_Forest_Conservation.MIROC_2015_2099_const_CO2_merge.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "BURNED AREA"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "FOREST HARVESTING AND ENGINEERING"
+          },
+          {
+            "ParameterName": "DROUGHTS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.812,
+                  "EastBoundingCoordinate": -101.961,
+                  "NorthBoundingCoordinate": 49.0351,
+                  "SouthBoundingCoordinate": 31.1875
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-25T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-26T12:25:44.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_Forest_Conservation_1662",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/data/MIROC_2015_2099_const_CO2_merge.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Forest_Conservation.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1662",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Forest_Conservation/comp/NACP_Forest_Conservation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-25T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 348.194964,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

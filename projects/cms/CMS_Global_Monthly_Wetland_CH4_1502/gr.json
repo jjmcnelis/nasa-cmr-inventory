@@ -1,0 +1,226 @@
+{
+  "hits": 2,
+  "took": 16,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422976701-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_Global_Monthly_Wetland_CH4.WetCHARTs_extended_ensemble.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T19:31:34Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2001-01-01T00:00:00.000Z",
+            "EndingDateTime": "2015-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_Global_Monthly_Wetland_CH4.WetCHARTs_extended_ensemble.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "METHANE"
+          },
+          {
+            "ParameterName": "EMISSIONS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-06-05T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2017-06-05T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_Global_Monthly_Wetland_CH4_1502",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Global_Monthly_Wetland_CH4/data//WetCHARTs_extended_ensemble.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Global_Monthly_Wetland_CH4.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1502",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Global_Monthly_Wetland_CH4/comp/CMS_Global_Monthly_Wetland_CH4.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2017-06-05T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1007.456994,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422976702-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_Global_Monthly_Wetland_CH4.WetCHARTs_full_ensemble.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T19:31:35Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2009-01-01T00:00:00.000Z",
+            "EndingDateTime": "2010-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_Global_Monthly_Wetland_CH4.WetCHARTs_full_ensemble.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "METHANE"
+          },
+          {
+            "ParameterName": "EMISSIONS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-06-05T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2017-06-05T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_Global_Monthly_Wetland_CH4_1502",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Global_Monthly_Wetland_CH4/data//WetCHARTs_full_ensemble.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Global_Monthly_Wetland_CH4.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1502",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Global_Monthly_Wetland_CH4/comp/CMS_Global_Monthly_Wetland_CH4.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2017-06-05T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1825.700073,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

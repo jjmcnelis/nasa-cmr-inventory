@@ -1,0 +1,126 @@
+{
+  "hits": 1,
+  "took": 78,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422738118-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "SNF_SITE_86.site_86.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:20:05Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1984-05-10T00:00:00.000Z",
+            "EndingDateTime": "1984-06-12T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "SNF_SITE_86.site_86.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "SCATTERING"
+          },
+          {
+            "ParameterName": "FOREST COMPOSITION/VEGETATION STRUCTURE"
+          },
+          {
+            "ParameterName": "LITTER CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -92.5058,
+                  "EastBoundingCoordinate": -91.7658,
+                  "NorthBoundingCoordinate": 48.1697,
+                  "SouthBoundingCoordinate": 47.6575
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1996-10-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1996-10-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SNF_SITE_86_188",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/snf/files/site_86.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/SNF/guides/site_char_valid.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/188",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/snf/files/site_86.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/snf/docs/site_86.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/snf/docs/site_char_valid.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "SNF"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1996-10-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.581959,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

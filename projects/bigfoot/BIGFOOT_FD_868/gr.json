@@ -1,0 +1,1175 @@
+{
+  "hits": 7,
+  "took": 20,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1456812840-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BIGFOOT_FD.nobs.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-21T12:03:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1999-01-01T00:00:00.000Z",
+            "EndingDateTime": "2003-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BIGFOOT_FD.nobs.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.613,
+                  "EastBoundingCoordinate": -72.25,
+                  "NorthBoundingCoordinate": 71.2719,
+                  "SouthBoundingCoordinate": 34.32
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2008-06-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2008-06-27T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BIGFOOT_FD_868",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/data/nobs.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BIGFOOT_VAL/guides/BigFoot_Field_Data.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/868",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/AGRO_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/BigFoot_Field_Data.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/BigFoot_Field_Manual_1999.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/HARV_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/KONZ_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/NOBS_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/sevi_plot_pictures.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/SEVI_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/tund_plot_pictures.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/TUND_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BIGFOOT"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2008-06-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.1642,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "IR CO2 ANALYZER"
+              },
+              {
+                "ShortName": "LICOR LEAF AREA METER"
+              },
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1456812841-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BIGFOOT_FD.konz.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-21T12:03:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1999-01-01T00:00:00.000Z",
+            "EndingDateTime": "2003-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BIGFOOT_FD.konz.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.613,
+                  "EastBoundingCoordinate": -72.25,
+                  "NorthBoundingCoordinate": 71.2719,
+                  "SouthBoundingCoordinate": 34.32
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2008-06-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2008-06-27T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BIGFOOT_FD_868",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/data/konz.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BIGFOOT_VAL/guides/BigFoot_Field_Data.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/868",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/AGRO_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/BigFoot_Field_Data.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/BigFoot_Field_Manual_1999.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/HARV_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/KONZ_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/NOBS_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/sevi_plot_pictures.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/SEVI_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/tund_plot_pictures.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/TUND_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BIGFOOT"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2008-06-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.1947,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "IR CO2 ANALYZER"
+              },
+              {
+                "ShortName": "LICOR LEAF AREA METER"
+              },
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1456812842-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BIGFOOT_FD.harv.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-21T12:03:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1999-01-01T00:00:00.000Z",
+            "EndingDateTime": "2003-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BIGFOOT_FD.harv.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.613,
+                  "EastBoundingCoordinate": -72.25,
+                  "NorthBoundingCoordinate": 71.2719,
+                  "SouthBoundingCoordinate": 34.32
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2008-06-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2008-06-27T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BIGFOOT_FD_868",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/data/harv.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BIGFOOT_VAL/guides/BigFoot_Field_Data.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/868",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/AGRO_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/BigFoot_Field_Data.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/BigFoot_Field_Manual_1999.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/HARV_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/KONZ_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/NOBS_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/sevi_plot_pictures.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/SEVI_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/tund_plot_pictures.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/TUND_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BIGFOOT"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2008-06-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.161,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "IR CO2 ANALYZER"
+              },
+              {
+                "ShortName": "LICOR LEAF AREA METER"
+              },
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1456812843-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BIGFOOT_FD.agro.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-21T12:03:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1999-01-01T00:00:00.000Z",
+            "EndingDateTime": "2003-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BIGFOOT_FD.agro.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.613,
+                  "EastBoundingCoordinate": -72.25,
+                  "NorthBoundingCoordinate": 71.2719,
+                  "SouthBoundingCoordinate": 34.32
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2008-06-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2008-06-27T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BIGFOOT_FD_868",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/data/agro.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BIGFOOT_VAL/guides/BigFoot_Field_Data.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/868",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/AGRO_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/BigFoot_Field_Data.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/BigFoot_Field_Manual_1999.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/HARV_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/KONZ_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/NOBS_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/sevi_plot_pictures.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/SEVI_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/tund_plot_pictures.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/TUND_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BIGFOOT"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2008-06-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.126,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "IR CO2 ANALYZER"
+              },
+              {
+                "ShortName": "LICOR LEAF AREA METER"
+              },
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1456812844-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BIGFOOT_FD.tund.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-21T12:03:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1999-01-01T00:00:00.000Z",
+            "EndingDateTime": "2003-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BIGFOOT_FD.tund.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.613,
+                  "EastBoundingCoordinate": -72.25,
+                  "NorthBoundingCoordinate": 71.2719,
+                  "SouthBoundingCoordinate": 34.32
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2008-06-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2008-06-27T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BIGFOOT_FD_868",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/data/tund.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BIGFOOT_VAL/guides/BigFoot_Field_Data.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/868",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/AGRO_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/BigFoot_Field_Data.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/BigFoot_Field_Manual_1999.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/HARV_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/KONZ_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/NOBS_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/sevi_plot_pictures.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/SEVI_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/tund_plot_pictures.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/TUND_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BIGFOOT"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2008-06-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.0271,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "IR CO2 ANALYZER"
+              },
+              {
+                "ShortName": "LICOR LEAF AREA METER"
+              },
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1456812845-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BIGFOOT_FD.BigFoot_site_locations.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-21T12:03:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1999-01-01T00:00:00.000Z",
+            "EndingDateTime": "2003-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BIGFOOT_FD.BigFoot_site_locations.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.613,
+                  "EastBoundingCoordinate": -72.25,
+                  "NorthBoundingCoordinate": 71.2719,
+                  "SouthBoundingCoordinate": 34.32
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2008-06-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2008-06-27T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BIGFOOT_FD_868",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/data/BigFoot_site_locations.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BIGFOOT_VAL/guides/BigFoot_Field_Data.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/868",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/AGRO_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/BigFoot_Field_Data.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/BigFoot_Field_Manual_1999.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/HARV_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/KONZ_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/NOBS_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/sevi_plot_pictures.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/SEVI_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/tund_plot_pictures.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/TUND_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BIGFOOT"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2008-06-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.0014,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "IR CO2 ANALYZER"
+              },
+              {
+                "ShortName": "LICOR LEAF AREA METER"
+              },
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1456812846-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BIGFOOT_FD.sevi.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-02-21T12:03:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1999-01-01T00:00:00.000Z",
+            "EndingDateTime": "2003-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BIGFOOT_FD.sevi.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.613,
+                  "EastBoundingCoordinate": -72.25,
+                  "NorthBoundingCoordinate": 71.2719,
+                  "SouthBoundingCoordinate": 34.32
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2008-06-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2008-06-27T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BIGFOOT_FD_868",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/data/sevi.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BIGFOOT_VAL/guides/BigFoot_Field_Data.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/868",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/AGRO_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/BigFoot_Field_Data.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/BigFoot_Field_Manual_1999.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/HARV_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/KONZ_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/NOBS_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/sevi_plot_pictures.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/SEVI_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/tund_plot_pictures.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/TUND_README.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BIGFOOT"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2008-06-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.0568,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "IR CO2 ANALYZER"
+              },
+              {
+                "ShortName": "LICOR LEAF AREA METER"
+              },
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

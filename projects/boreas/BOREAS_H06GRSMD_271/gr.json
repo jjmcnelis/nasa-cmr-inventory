@@ -1,0 +1,134 @@
+{
+  "hits": 1,
+  "took": 17,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422744350-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_H06GRSMD.hyd06_grnd_soil_moist.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:28:15Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1993-09-08T00:00:00.000Z",
+            "EndingDateTime": "1994-09-05T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_H06GRSMD.hyd06_grnd_soil_moist.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "LITTER CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -106.326,
+                  "EastBoundingCoordinate": -98.2303,
+                  "NorthBoundingCoordinate": 56.9962,
+                  "SouthBoundingCoordinate": 53.3777
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_H06GRSMD_271",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/HYD/h06grsmd/data/hyd06_grnd_soil_moist.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/HYD06_GRNDSM.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/271",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/HYD/h06grsmd/comp/h06grsmd.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/HYD/h06grsmd/comp/HYD06_GRNDSM.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/HYD/h06grsmd/comp/HYD06_GRNDSM.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/HYD/h06grsmd/comp/HYD06_GRNDSM.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.205033,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SNOW TUBE"
+              },
+              {
+                "ShortName": "CORING DEVICES"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

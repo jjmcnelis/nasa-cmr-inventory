@@ -1,0 +1,128 @@
+{
+  "hits": 1,
+  "took": 25,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422744307-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_H03DBHD.hyd03_dbh.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:28:02Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1996-03-08T00:00:00.000Z",
+            "EndingDateTime": "1996-03-08T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_H03DBHD.hyd03_dbh.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "PLANT CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -106.198,
+                  "EastBoundingCoordinate": -105.118,
+                  "NorthBoundingCoordinate": 53.9872,
+                  "SouthBoundingCoordinate": 53.6289
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_H03DBHD_264",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/HYD/h03dbhd/data/hyd03_dbh.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/HYD03_DBH.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/264",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/HYD/h03dbhd/comp/h03dbhd.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/HYD/h03dbhd/comp/HYD03_DBH.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/HYD/h03dbhd/comp/HYD03_Tree_Meas.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/HYD/h03dbhd/comp/HYD03_Tree_Meas.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.003768,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "STEEL MEASURING TAPE"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

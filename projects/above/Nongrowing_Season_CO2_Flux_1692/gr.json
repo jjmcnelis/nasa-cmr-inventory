@@ -1,0 +1,169 @@
+{
+  "hits": 1,
+  "took": 14,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633595841-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Nongrowing_Season_CO2_Flux.nongrowing_season_CO2_flux.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-15T14:01:29Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1989-09-01T00:00:00.000Z",
+            "EndingDateTime": "2017-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Nongrowing_Season_CO2_Flux.nongrowing_season_CO2_flux.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PERMAFROST"
+          },
+          {
+            "ParameterName": "SOIL CLASSIFICATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -163.711,
+                  "EastBoundingCoordinate": 161.992,
+                  "NorthBoundingCoordinate": 78.917,
+                  "SouthBoundingCoordinate": 53.876
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-13T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-15T14:01:23.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Nongrowing_Season_CO2_Flux_1692",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Nongrowing_Season_CO2_Flux/data/nongrowing_season_CO2_flux.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Nongrowing_Season_CO2_Flux.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1692",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Nongrowing_Season_CO2_Flux/comp/Nongrowing_Season_CO2_Flux.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Nongrowing_Season_CO2_Flux/comp/Sources_nongrowing_season_CO2_flux.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-13T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.345736,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "TEMPERATURE LOGGERS"
+              },
+              {
+                "ShortName": "THERMOMETERS"
+              },
+              {
+                "ShortName": "SOIL SAMPLER"
+              },
+              {
+                "ShortName": "IR CO2 ANALYZER"
+              },
+              {
+                "ShortName": "LICOR SOIL GAS CHAMBER"
+              },
+              {
+                "ShortName": "CO2 ANALYZERS"
+              }
+            ]
+          },
+          {
+            "ShortName": "ADEOS-II",
+            "Instruments": [
+              {
+                "ShortName": "AMSR"
+              }
+            ]
+          },
+          {
+            "ShortName": "SATELLITES",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "MERRA-2",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

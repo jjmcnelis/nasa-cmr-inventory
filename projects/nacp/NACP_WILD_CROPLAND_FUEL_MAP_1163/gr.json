@@ -1,0 +1,381 @@
+{
+  "hits": 3,
+  "took": 20,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422918371-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_WILD_CROPLAND_FUEL_MAP.cdl_fccs_merge2010.tar.gz",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:42:49Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2010-01-01T00:00:00.000Z",
+            "EndingDateTime": "2010-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_WILD_CROPLAND_FUEL_MAP.cdl_fccs_merge2010.tar.gz",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE ECOLOGY"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -126.46,
+                  "EastBoundingCoordinate": -67.96,
+                  "NorthBoundingCoordinate": 49.79,
+                  "SouthBoundingCoordinate": 26.52
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-06-06T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-06-06T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_WILD_CROPLAND_FUEL_MAP_1163",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Wild_Cropland_Fuel_Map/data/cdl_fccs_merge2010.tar.gz",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Wild_Cropland_Fuel_Map.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1163",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Wild_Cropland_Fuel_Map/comp/CDL-FCCS_Crosswalk.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Wild_Cropland_Fuel_Map/comp/Double_crop_codes.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Wild_Cropland_Fuel_Map/comp/FuelbedCodes.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Wild_Cropland_Fuel_Map/comp/NACP_Wild_Cropland_Fuel_Map.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-06-06T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3487.438997,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422918379-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_WILD_CROPLAND_FUEL_MAP.fccs_30m.tar.gz",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:42:50Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2010-01-01T00:00:00.000Z",
+            "EndingDateTime": "2010-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_WILD_CROPLAND_FUEL_MAP.fccs_30m.tar.gz",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE ECOLOGY"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -126.46,
+                  "EastBoundingCoordinate": -67.96,
+                  "NorthBoundingCoordinate": 49.79,
+                  "SouthBoundingCoordinate": 26.52
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-06-06T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-06-06T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_WILD_CROPLAND_FUEL_MAP_1163",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Wild_Cropland_Fuel_Map/data/fccs_30m.tar.gz",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Wild_Cropland_Fuel_Map.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1163",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Wild_Cropland_Fuel_Map/comp/CDL-FCCS_Crosswalk.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Wild_Cropland_Fuel_Map/comp/Double_crop_codes.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Wild_Cropland_Fuel_Map/comp/FuelbedCodes.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Wild_Cropland_Fuel_Map/comp/NACP_Wild_Cropland_Fuel_Map.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-06-06T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3017.965089,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422918386-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_WILD_CROPLAND_FUEL_MAP.cdl_conus_2010.tar.gz",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:42:50Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2010-01-01T00:00:00.000Z",
+            "EndingDateTime": "2010-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_WILD_CROPLAND_FUEL_MAP.cdl_conus_2010.tar.gz",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FIRE ECOLOGY"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -126.46,
+                  "EastBoundingCoordinate": -67.96,
+                  "NorthBoundingCoordinate": 49.79,
+                  "SouthBoundingCoordinate": 26.52
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-06-06T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-06-06T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_WILD_CROPLAND_FUEL_MAP_1163",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Wild_Cropland_Fuel_Map/data/cdl_conus_2010.tar.gz",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Wild_Cropland_Fuel_Map.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1163",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Wild_Cropland_Fuel_Map/comp/CDL-FCCS_Crosswalk.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Wild_Cropland_Fuel_Map/comp/Double_crop_codes.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Wild_Cropland_Fuel_Map/comp/FuelbedCodes.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Wild_Cropland_Fuel_Map/comp/NACP_Wild_Cropland_Fuel_Map.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-06-06T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 2221.705651,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

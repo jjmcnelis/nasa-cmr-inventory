@@ -1,0 +1,601 @@
+{
+  "hits": 5,
+  "took": 16,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422925659-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_MCI_CO2_INVERSIONS.CSU_inversion_boundary_GV_inflow_corrected.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:46:58Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2007-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_MCI_CO2_INVERSIONS.CSU_inversion_boundary_GV_inflow_corrected.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON AND HYDROCARBON COMPOUNDS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -105.0,
+                  "EastBoundingCoordinate": -81.0,
+                  "NorthBoundingCoordinate": 50.0,
+                  "SouthBoundingCoordinate": 36.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2014-02-06T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2014-02-06T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_MCI_CO2_INVERSIONS_1204",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions//data/CSU_inversion_boundary_GV_inflow_corrected.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_MCI_CO2_Inversions.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1204",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_Boundary_Shapefile.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_CO2_Inversions.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_US_County_Boundaries_Shapefile.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_US_County_Names.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2014-02-06T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.645278,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422925666-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_MCI_CO2_INVERSIONS.PSU_WRF_2007_20KM.013013.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2007-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_MCI_CO2_INVERSIONS.PSU_WRF_2007_20KM.013013.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON AND HYDROCARBON COMPOUNDS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -105.0,
+                  "EastBoundingCoordinate": -81.0,
+                  "NorthBoundingCoordinate": 50.0,
+                  "SouthBoundingCoordinate": 36.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2014-02-06T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2014-02-06T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_MCI_CO2_INVERSIONS_1204",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions//data/PSU_WRF_2007_20KM.013013.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_MCI_CO2_Inversions.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1204",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_Boundary_Shapefile.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_CO2_Inversions.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_US_County_Boundaries_Shapefile.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_US_County_Names.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2014-02-06T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 41.549359,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422925673-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_MCI_CO2_INVERSIONS.CSU_RAMS_2007.1000KM.0.20SD.wr2aTF.111412.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2007-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_MCI_CO2_INVERSIONS.CSU_RAMS_2007.1000KM.0.20SD.wr2aTF.111412.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON AND HYDROCARBON COMPOUNDS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -105.0,
+                  "EastBoundingCoordinate": -81.0,
+                  "NorthBoundingCoordinate": 50.0,
+                  "SouthBoundingCoordinate": 36.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2014-02-06T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2014-02-06T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_MCI_CO2_INVERSIONS_1204",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions//data/CSU_RAMS_2007.1000KM.0.20SD.wr2aTF.111412.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_MCI_CO2_Inversions.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1204",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_Boundary_Shapefile.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_CO2_Inversions.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_US_County_Boundaries_Shapefile.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_US_County_Names.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2014-02-06T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 50.533788,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422925681-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_MCI_CO2_INVERSIONS.PSU_inversion_boundary_inflow.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:46:59Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2007-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_MCI_CO2_INVERSIONS.PSU_inversion_boundary_inflow.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON AND HYDROCARBON COMPOUNDS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -105.0,
+                  "EastBoundingCoordinate": -81.0,
+                  "NorthBoundingCoordinate": 50.0,
+                  "SouthBoundingCoordinate": 36.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2014-02-06T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2014-02-06T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_MCI_CO2_INVERSIONS_1204",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions//data/PSU_inversion_boundary_inflow.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_MCI_CO2_Inversions.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1204",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_Boundary_Shapefile.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_CO2_Inversions.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_US_County_Boundaries_Shapefile.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_US_County_Names.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2014-02-06T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.634643,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422925687-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_MCI_CO2_INVERSIONS.CSU_inversion_boundary_inflow.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T18:47:00Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2007-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_MCI_CO2_INVERSIONS.CSU_inversion_boundary_inflow.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON AND HYDROCARBON COMPOUNDS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -105.0,
+                  "EastBoundingCoordinate": -81.0,
+                  "NorthBoundingCoordinate": 50.0,
+                  "SouthBoundingCoordinate": 36.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2014-02-06T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2014-02-06T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_MCI_CO2_INVERSIONS_1204",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions//data/CSU_inversion_boundary_inflow.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_MCI_CO2_Inversions.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/1204",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_Boundary_Shapefile.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_CO2_Inversions.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_US_County_Boundaries_Shapefile.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_MCI_CO2_Inversions/comp/NACP_MCI_US_County_Names.csv",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2014-02-06T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.6672,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2260 @@
+{
+  "hits": 14,
+  "took": 26,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755760-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_AMS_CS96.aescs96_ssa999wlv01.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:37:12Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1996-01-01T00:00:00.000Z",
+            "EndingDateTime": "1996-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_AMS_CS96.aescs96_ssa999wlv01.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "DEW POINT TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "PRESSURE TENDENCY"
+          },
+          {
+            "ParameterName": "SEA LEVEL PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.517,
+                  "EastBoundingCoordinate": -94.7,
+                  "NorthBoundingCoordinate": 58.183,
+                  "SouthBoundingCoordinate": 50.95
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_AMS_CS96_406",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/data/aescs96_ssa999wlv01.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AES_CS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/406",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/ams_cs96.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.760043,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "THERMISTORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "ANEMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755761-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_AMS_CS96.aescs96_reg999wgx01.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:37:12Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1996-01-01T00:00:00.000Z",
+            "EndingDateTime": "1996-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_AMS_CS96.aescs96_reg999wgx01.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "DEW POINT TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "PRESSURE TENDENCY"
+          },
+          {
+            "ParameterName": "SEA LEVEL PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.517,
+                  "EastBoundingCoordinate": -94.7,
+                  "NorthBoundingCoordinate": 58.183,
+                  "SouthBoundingCoordinate": 50.95
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_AMS_CS96_406",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/data/aescs96_reg999wgx01.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AES_CS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/406",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/ams_cs96.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.718579,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "THERMISTORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "ANEMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755765-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_AMS_CS96.aescs96_reg999wle01.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:37:13Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1996-01-01T00:00:00.000Z",
+            "EndingDateTime": "1996-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_AMS_CS96.aescs96_reg999wle01.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "DEW POINT TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "PRESSURE TENDENCY"
+          },
+          {
+            "ParameterName": "SEA LEVEL PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.517,
+                  "EastBoundingCoordinate": -94.7,
+                  "NorthBoundingCoordinate": 58.183,
+                  "SouthBoundingCoordinate": 50.95
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_AMS_CS96_406",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/data/aescs96_reg999wle01.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AES_CS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/406",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/ams_cs96.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.766342,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "THERMISTORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "ANEMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755766-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_AMS_CS96.aescs96_reg999wff01.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:37:13Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1996-01-01T00:00:00.000Z",
+            "EndingDateTime": "1996-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_AMS_CS96.aescs96_reg999wff01.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "DEW POINT TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "PRESSURE TENDENCY"
+          },
+          {
+            "ParameterName": "SEA LEVEL PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.517,
+                  "EastBoundingCoordinate": -94.7,
+                  "NorthBoundingCoordinate": 58.183,
+                  "SouthBoundingCoordinate": 50.95
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_AMS_CS96_406",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/data/aescs96_reg999wff01.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AES_CS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/406",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/ams_cs96.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.68861,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "THERMISTORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "ANEMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755767-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_AMS_CS96.aescs96_reg999wsr01.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:37:13Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1996-01-01T00:00:00.000Z",
+            "EndingDateTime": "1996-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_AMS_CS96.aescs96_reg999wsr01.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "DEW POINT TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "PRESSURE TENDENCY"
+          },
+          {
+            "ParameterName": "SEA LEVEL PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.517,
+                  "EastBoundingCoordinate": -94.7,
+                  "NorthBoundingCoordinate": 58.183,
+                  "SouthBoundingCoordinate": 50.95
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_AMS_CS96_406",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/data/aescs96_reg999wsr01.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AES_CS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/406",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/ams_cs96.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.682001,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "THERMISTORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "ANEMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755768-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_AMS_CS96.aescs96_trn999ffn01.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:37:14Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1996-01-01T00:00:00.000Z",
+            "EndingDateTime": "1996-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_AMS_CS96.aescs96_trn999ffn01.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "DEW POINT TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "PRESSURE TENDENCY"
+          },
+          {
+            "ParameterName": "SEA LEVEL PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.517,
+                  "EastBoundingCoordinate": -94.7,
+                  "NorthBoundingCoordinate": 58.183,
+                  "SouthBoundingCoordinate": 50.95
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_AMS_CS96_406",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/data/aescs96_trn999ffn01.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AES_CS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/406",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/ams_cs96.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.697719,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "THERMISTORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "ANEMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755769-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_AMS_CS96.aescs96_ssa999wbu01.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:37:14Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1996-01-01T00:00:00.000Z",
+            "EndingDateTime": "1996-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_AMS_CS96.aescs96_ssa999wbu01.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "DEW POINT TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "PRESSURE TENDENCY"
+          },
+          {
+            "ParameterName": "SEA LEVEL PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.517,
+                  "EastBoundingCoordinate": -94.7,
+                  "NorthBoundingCoordinate": 58.183,
+                  "SouthBoundingCoordinate": 50.95
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_AMS_CS96_406",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/data/aescs96_ssa999wbu01.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AES_CS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/406",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/ams_cs96.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.704017,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "THERMISTORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "ANEMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755770-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_AMS_CS96.aescs96_reg999wlj01.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:37:15Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1996-01-01T00:00:00.000Z",
+            "EndingDateTime": "1996-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_AMS_CS96.aescs96_reg999wlj01.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "DEW POINT TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "PRESSURE TENDENCY"
+          },
+          {
+            "ParameterName": "SEA LEVEL PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.517,
+                  "EastBoundingCoordinate": -94.7,
+                  "NorthBoundingCoordinate": 58.183,
+                  "SouthBoundingCoordinate": 50.95
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_AMS_CS96_406",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/data/aescs96_reg999wlj01.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AES_CS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/406",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/ams_cs96.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.680713,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "THERMISTORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "ANEMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755771-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_AMS_CS96.aescs96_reg999wiw01.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:37:15Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1996-01-01T00:00:00.000Z",
+            "EndingDateTime": "1996-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_AMS_CS96.aescs96_reg999wiw01.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "DEW POINT TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "PRESSURE TENDENCY"
+          },
+          {
+            "ParameterName": "SEA LEVEL PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.517,
+                  "EastBoundingCoordinate": -94.7,
+                  "NorthBoundingCoordinate": 58.183,
+                  "SouthBoundingCoordinate": 50.95
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_AMS_CS96_406",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/data/aescs96_reg999wiw01.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AES_CS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/406",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/ams_cs96.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.692862,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "THERMISTORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "ANEMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755772-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_AMS_CS96.aescs96_reg999wjh01.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:37:16Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1996-01-01T00:00:00.000Z",
+            "EndingDateTime": "1996-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_AMS_CS96.aescs96_reg999wjh01.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "DEW POINT TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "PRESSURE TENDENCY"
+          },
+          {
+            "ParameterName": "SEA LEVEL PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.517,
+                  "EastBoundingCoordinate": -94.7,
+                  "NorthBoundingCoordinate": 58.183,
+                  "SouthBoundingCoordinate": 50.95
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_AMS_CS96_406",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/data/aescs96_reg999wjh01.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AES_CS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/406",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/ams_cs96.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.746969,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "THERMISTORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "ANEMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755773-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_AMS_CS96.aescs96_reg999wrj01.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:37:16Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1996-01-01T00:00:00.000Z",
+            "EndingDateTime": "1996-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_AMS_CS96.aescs96_reg999wrj01.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "DEW POINT TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "PRESSURE TENDENCY"
+          },
+          {
+            "ParameterName": "SEA LEVEL PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.517,
+                  "EastBoundingCoordinate": -94.7,
+                  "NorthBoundingCoordinate": 58.183,
+                  "SouthBoundingCoordinate": 50.95
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_AMS_CS96_406",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/data/aescs96_reg999wrj01.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AES_CS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/406",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/ams_cs96.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.889375,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "THERMISTORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "ANEMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755774-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_AMS_CS96.aescs96_reg999wwc01.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:37:17Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1996-01-01T00:00:00.000Z",
+            "EndingDateTime": "1996-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_AMS_CS96.aescs96_reg999wwc01.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "DEW POINT TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "PRESSURE TENDENCY"
+          },
+          {
+            "ParameterName": "SEA LEVEL PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.517,
+                  "EastBoundingCoordinate": -94.7,
+                  "NorthBoundingCoordinate": 58.183,
+                  "SouthBoundingCoordinate": 50.95
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_AMS_CS96_406",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/data/aescs96_reg999wwc01.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AES_CS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/406",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/ams_cs96.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.711399,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "THERMISTORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "ANEMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755775-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_AMS_CS96.aescs96_reg999wbl01.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:37:17Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1996-01-01T00:00:00.000Z",
+            "EndingDateTime": "1996-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_AMS_CS96.aescs96_reg999wbl01.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "DEW POINT TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "PRESSURE TENDENCY"
+          },
+          {
+            "ParameterName": "SEA LEVEL PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.517,
+                  "EastBoundingCoordinate": -94.7,
+                  "NorthBoundingCoordinate": 58.183,
+                  "SouthBoundingCoordinate": 50.95
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_AMS_CS96_406",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/data/aescs96_reg999wbl01.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AES_CS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/406",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/ams_cs96.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.708762,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "THERMISTORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "ANEMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755777-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_AMS_CS96.aescs96_reg999whh01.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:37:17Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1996-01-01T00:00:00.000Z",
+            "EndingDateTime": "1996-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_AMS_CS96.aescs96_reg999whh01.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "DEW POINT TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "PRESSURE TENDENCY"
+          },
+          {
+            "ParameterName": "SEA LEVEL PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.517,
+                  "EastBoundingCoordinate": -94.7,
+                  "NorthBoundingCoordinate": 58.183,
+                  "SouthBoundingCoordinate": 50.95
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_AMS_CS96_406",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/data/aescs96_reg999whh01.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AES_CS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/406",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/AES_CS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/ams_cs96/comp/ams_cs96.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.72993,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "THERMISTORS"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "ANEMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

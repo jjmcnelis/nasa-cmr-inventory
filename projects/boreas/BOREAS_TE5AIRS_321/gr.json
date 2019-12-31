@@ -1,0 +1,134 @@
+{
+  "hits": 1,
+  "took": 51,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422748604-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_TE5AIRS.te05_air_stable_isotope.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:34:03Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-05-25T00:00:00.000Z",
+            "EndingDateTime": "1994-09-08T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_TE5AIRS.te05_air_stable_isotope.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "OXYGEN COMPOUNDS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -106.19,
+                  "EastBoundingCoordinate": -98.51,
+                  "NorthBoundingCoordinate": 55.92,
+                  "SouthBoundingCoordinate": 53.62
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_TE5AIRS_321",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/TE/te5airs/data/te05_air_stable_isotope.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/TE05_AIR_ST_ISO.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/321",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te5airs/comp/TE05_Air_Stable_Iso.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te5airs/comp/TE05_Air_Stable_Iso.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te5airs/comp/TE05_AIR_ST_ISO.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te5airs/comp/te5airs.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.046403,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "MASS SPECTROMETERS"
+              },
+              {
+                "ShortName": "IRGA"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

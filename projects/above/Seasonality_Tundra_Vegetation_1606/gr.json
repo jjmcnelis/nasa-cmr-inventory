@@ -1,0 +1,732 @@
+{
+  "hits": 6,
+  "took": 23,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1579375350-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Seasonality_Tundra_Vegetation.SWI_1982_2015_Fig4.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-12-20T16:46:53Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1982-01-01T00:00:00.000Z",
+            "EndingDateTime": "2015-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Seasonality_Tundra_Vegetation.SWI_1982_2015_Fig4.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "HEAT INDEX"
+          },
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          },
+          {
+            "ParameterName": "SEA ICE CONCENTRATION"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": 70.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-19T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-12-20T16:46:51.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Seasonality_Tundra_Vegetation_1606",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Seasonality_Tundra_Vegetation/data/SWI_1982_2015_Fig4.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Seasonality_Tundra_Vegetation.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1606",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Seasonality_Tundra_Vegetation/comp/Seasonality_Tundra_Vegetation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-19T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.003825,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOAA POES",
+            "Instruments": [
+              {
+                "ShortName": "SSM/I"
+              }
+            ]
+          },
+          {
+            "ShortName": "DMSP",
+            "Instruments": [
+              {
+                "ShortName": "AVHRR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1579375352-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Seasonality_Tundra_Vegetation.Sea_ice_concentration_1982_2015_Fig6.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-12-20T16:46:53Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1982-01-01T00:00:00.000Z",
+            "EndingDateTime": "2015-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Seasonality_Tundra_Vegetation.Sea_ice_concentration_1982_2015_Fig6.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "HEAT INDEX"
+          },
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          },
+          {
+            "ParameterName": "SEA ICE CONCENTRATION"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": 70.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-19T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-12-20T16:46:51.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Seasonality_Tundra_Vegetation_1606",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Seasonality_Tundra_Vegetation/data/Sea_ice_concentration_1982_2015_Fig6.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Seasonality_Tundra_Vegetation.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1606",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Seasonality_Tundra_Vegetation/comp/Seasonality_Tundra_Vegetation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-19T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.011496,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOAA POES",
+            "Instruments": [
+              {
+                "ShortName": "SSM/I"
+              }
+            ]
+          },
+          {
+            "ShortName": "DMSP",
+            "Instruments": [
+              {
+                "ShortName": "AVHRR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1579375353-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Seasonality_Tundra_Vegetation.MaxNDVI_1982_2015_Fig9.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-12-20T16:46:53Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1982-01-01T00:00:00.000Z",
+            "EndingDateTime": "2015-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Seasonality_Tundra_Vegetation.MaxNDVI_1982_2015_Fig9.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "HEAT INDEX"
+          },
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          },
+          {
+            "ParameterName": "SEA ICE CONCENTRATION"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": 70.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-19T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-12-20T16:46:51.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Seasonality_Tundra_Vegetation_1606",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Seasonality_Tundra_Vegetation/data/MaxNDVI_1982_2015_Fig9.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Seasonality_Tundra_Vegetation.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1606",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Seasonality_Tundra_Vegetation/comp/Seasonality_Tundra_Vegetation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-19T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.006272,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOAA POES",
+            "Instruments": [
+              {
+                "ShortName": "SSM/I"
+              }
+            ]
+          },
+          {
+            "ShortName": "DMSP",
+            "Instruments": [
+              {
+                "ShortName": "AVHRR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1579375354-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Seasonality_Tundra_Vegetation.Time_series_SWI_NDVI_1982_2015_Fig2.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-12-20T16:46:53Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1982-01-01T00:00:00.000Z",
+            "EndingDateTime": "2015-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Seasonality_Tundra_Vegetation.Time_series_SWI_NDVI_1982_2015_Fig2.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "HEAT INDEX"
+          },
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          },
+          {
+            "ParameterName": "SEA ICE CONCENTRATION"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": 70.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-19T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-12-20T16:46:51.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Seasonality_Tundra_Vegetation_1606",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Seasonality_Tundra_Vegetation/data/Time_series_SWI_NDVI_1982_2015_Fig2.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Seasonality_Tundra_Vegetation.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1606",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Seasonality_Tundra_Vegetation/comp/Seasonality_Tundra_Vegetation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-19T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.004969,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOAA POES",
+            "Instruments": [
+              {
+                "ShortName": "SSM/I"
+              }
+            ]
+          },
+          {
+            "ShortName": "DMSP",
+            "Instruments": [
+              {
+                "ShortName": "AVHRR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1579375355-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Seasonality_Tundra_Vegetation.Land_surface_temperature_1982_2015_Fig8.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-12-20T16:46:54Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1982-01-01T00:00:00.000Z",
+            "EndingDateTime": "2015-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Seasonality_Tundra_Vegetation.Land_surface_temperature_1982_2015_Fig8.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "HEAT INDEX"
+          },
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          },
+          {
+            "ParameterName": "SEA ICE CONCENTRATION"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": 70.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-19T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-12-20T16:46:51.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Seasonality_Tundra_Vegetation_1606",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Seasonality_Tundra_Vegetation/data/Land_surface_temperature_1982_2015_Fig8.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Seasonality_Tundra_Vegetation.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1606",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Seasonality_Tundra_Vegetation/comp/Seasonality_Tundra_Vegetation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-19T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.013815,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOAA POES",
+            "Instruments": [
+              {
+                "ShortName": "SSM/I"
+              }
+            ]
+          },
+          {
+            "ShortName": "DMSP",
+            "Instruments": [
+              {
+                "ShortName": "AVHRR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1579375351-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Seasonality_Tundra_Vegetation.Ocean_heat_content_1998_2013_Fig7.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-12-20T16:46:53Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1988-01-01T00:00:00.000Z",
+            "EndingDateTime": "2013-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Seasonality_Tundra_Vegetation.Ocean_heat_content_1998_2013_Fig7.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "HEAT INDEX"
+          },
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          },
+          {
+            "ParameterName": "SEA ICE CONCENTRATION"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": 70.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-12-19T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-12-20T16:46:51.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Seasonality_Tundra_Vegetation_1606",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Seasonality_Tundra_Vegetation/data/Ocean_heat_content_1998_2013_Fig7.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Seasonality_Tundra_Vegetation.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1606",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Seasonality_Tundra_Vegetation/comp/Seasonality_Tundra_Vegetation.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-12-19T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.012933,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOAA POES",
+            "Instruments": [
+              {
+                "ShortName": "SSM/I"
+              }
+            ]
+          },
+          {
+            "ShortName": "DMSP",
+            "Instruments": [
+              {
+                "ShortName": "AVHRR"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

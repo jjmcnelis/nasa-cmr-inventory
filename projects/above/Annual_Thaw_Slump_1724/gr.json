@@ -1,0 +1,123 @@
+{
+  "hits": 1,
+  "took": 17,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1674157299-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Annual_Thaw_Slump.thaw_slump_expansion.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-12-18T12:59:08Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2008-08-23T00:00:00.000Z",
+            "EndingDateTime": "2017-09-17T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Annual_Thaw_Slump.thaw_slump_expansion.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "EROSION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -146.067,
+                  "EastBoundingCoordinate": -146.058,
+                  "NorthBoundingCoordinate": 67.635,
+                  "SouthBoundingCoordinate": 67.6326
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-12-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-12-18T12:59:07.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Annual_Thaw_Slump_1724",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Annual_Thaw_Slump/data/thaw_slump_expansion.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Annual_Thaw_Slump.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1724",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Annual_Thaw_Slump/comp/Annual_Thaw_Slump.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Annual_Thaw_Slump/comp/thaw_slump_expansion.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Annual_Thaw_Slump/comp/Thaw_Slump_Images.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-12-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.007406,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LANDSAT",
+            "Instruments": [
+              {
+                "ShortName": "DIGITIZER"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

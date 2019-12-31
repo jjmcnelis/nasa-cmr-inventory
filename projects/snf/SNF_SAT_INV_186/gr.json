@@ -1,0 +1,166 @@
+{
+  "hits": 1,
+  "took": 69,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422737894-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "SNF_SAT_INV.sat_inv.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:20:01Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1986-01-01T00:00:00.000Z",
+            "EndingDateTime": "1986-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "SNF_SAT_INV.sat_inv.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "REFLECTANCE"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -92.5058,
+                  "EastBoundingCoordinate": -91.7658,
+                  "NorthBoundingCoordinate": 48.1697,
+                  "SouthBoundingCoordinate": 47.6575
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1996-10-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1996-10-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SNF_SAT_INV_186",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/snf/files/sat_inv.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/SNF/guides/satellite_image_inventory.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/186",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/snf/docs/satellite_image_inventory.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/snf/files/sat_inv.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/snf/docs/sat_inv.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "SNF"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1996-10-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.007165,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LANDSAT-1",
+            "Instruments": [
+              {
+                "ShortName": "MSS"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-2",
+            "Instruments": [
+              {
+                "ShortName": "MSS"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-3",
+            "Instruments": [
+              {
+                "ShortName": "MSS"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-4",
+            "Instruments": [
+              {
+                "ShortName": "MSS"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-5",
+            "Instruments": [
+              {
+                "ShortName": "TM"
+              },
+              {
+                "ShortName": "MSS"
+              }
+            ]
+          },
+          {
+            "ShortName": "SPOT-1",
+            "Instruments": [
+              {
+                "ShortName": "MULTI-SPECTRAL"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

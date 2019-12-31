@@ -1,0 +1,690 @@
+{
+  "hits": 6,
+  "took": 22,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422796576-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_RSS8BRDF.94-09-15_ssa-oa_160.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:24:00Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-09-15T00:00:00.000Z",
+            "EndingDateTime": "1994-09-17T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_RSS8BRDF.94-09-15_ssa-oa_160.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "REFLECTANCE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -106.2,
+                  "EastBoundingCoordinate": -105.12,
+                  "NorthBoundingCoordinate": 54.0,
+                  "SouthBoundingCoordinate": 53.63
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2000-02-21T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2000-02-21T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_RSS8BRDF_505",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/data/94-09-15_ssa-oa_160.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/RSS08_ASD.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/505",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "2000-02-21T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.165233,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SPECTRORADIOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422796616-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_RSS8BRDF.94-09-17_ssa-obs_230.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:24:01Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-09-15T00:00:00.000Z",
+            "EndingDateTime": "1994-09-17T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_RSS8BRDF.94-09-17_ssa-obs_230.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "REFLECTANCE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -106.2,
+                  "EastBoundingCoordinate": -105.12,
+                  "NorthBoundingCoordinate": 54.0,
+                  "SouthBoundingCoordinate": 53.63
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2000-02-21T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2000-02-21T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_RSS8BRDF_505",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/data/94-09-17_ssa-obs_230.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/RSS08_ASD.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/505",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "2000-02-21T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.028817,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SPECTRORADIOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422796663-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_RSS8BRDF.94-09-15_ssa-oa_140.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:24:01Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-09-15T00:00:00.000Z",
+            "EndingDateTime": "1994-09-17T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_RSS8BRDF.94-09-15_ssa-oa_140.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "REFLECTANCE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -106.2,
+                  "EastBoundingCoordinate": -105.12,
+                  "NorthBoundingCoordinate": 54.0,
+                  "SouthBoundingCoordinate": 53.63
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2000-02-21T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2000-02-21T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_RSS8BRDF_505",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/data/94-09-15_ssa-oa_140.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/RSS08_ASD.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/505",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "2000-02-21T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.136738,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SPECTRORADIOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422796708-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_RSS8BRDF.94-09-15_ssa-oa_165.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:24:02Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-09-15T00:00:00.000Z",
+            "EndingDateTime": "1994-09-17T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_RSS8BRDF.94-09-15_ssa-oa_165.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "REFLECTANCE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -106.2,
+                  "EastBoundingCoordinate": -105.12,
+                  "NorthBoundingCoordinate": 54.0,
+                  "SouthBoundingCoordinate": 53.63
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2000-02-21T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2000-02-21T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_RSS8BRDF_505",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/data/94-09-15_ssa-oa_165.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/RSS08_ASD.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/505",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "2000-02-21T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.132753,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SPECTRORADIOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422796753-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_RSS8BRDF.94-09-17_ssa-obs_170.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:24:02Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-09-15T00:00:00.000Z",
+            "EndingDateTime": "1994-09-17T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_RSS8BRDF.94-09-17_ssa-obs_170.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "REFLECTANCE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -106.2,
+                  "EastBoundingCoordinate": -105.12,
+                  "NorthBoundingCoordinate": 54.0,
+                  "SouthBoundingCoordinate": 53.63
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2000-02-21T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2000-02-21T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_RSS8BRDF_505",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/data/94-09-17_ssa-obs_170.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/RSS08_ASD.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/505",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "2000-02-21T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.028817,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SPECTRORADIOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422796807-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_RSS8BRDF.94-09-15_ssa-oa_172.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:24:03Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-09-15T00:00:00.000Z",
+            "EndingDateTime": "1994-09-17T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_RSS8BRDF.94-09-15_ssa-oa_172.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "REFLECTANCE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -106.2,
+                  "EastBoundingCoordinate": -105.12,
+                  "NorthBoundingCoordinate": 54.0,
+                  "SouthBoundingCoordinate": 53.63
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2000-02-21T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2000-02-21T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_RSS8BRDF_505",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/data/94-09-15_ssa-oa_172.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/RSS08_ASD.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/505",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/GRAB_BAG/rss8brdf/comp/RSS08_ASD.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "2000-02-21T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.165233,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SPECTRORADIOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

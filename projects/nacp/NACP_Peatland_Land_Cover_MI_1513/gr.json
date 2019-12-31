@@ -1,0 +1,262 @@
+{
+  "hits": 2,
+  "took": 14,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1461052364-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_Peatland_Land_Cover_MI.landsat_palsar_scenes_dates.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-03-26T16:04:05Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2007-03-01T00:00:00.000Z",
+            "EndingDateTime": "2011-10-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_Peatland_Land_Cover_MI.landsat_palsar_scenes_dates.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -91.0847,
+                  "EastBoundingCoordinate": -82.2881,
+                  "NorthBoundingCoordinate": 48.7456,
+                  "SouthBoundingCoordinate": 44.5422
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-09-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2017-09-27T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_Peatland_Land_Cover_MI_1513",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Peatland_Land_Cover_MI/data//landsat_palsar_scenes_dates.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Peatland_Land_Cover_MI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1513",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Peatland_Land_Cover_MI/comp/landsat_pulsar_scenes_dates.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Peatland_Land_Cover_MI/comp/NACP_Peatland_Land_Cover_MI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Peatland_Land_Cover_MI/comp/NACP_Peatland_Land_Cover_MI_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Peatland_Land_Cover_MI/comp/peatland_landcover_michigan_up_error.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2017-09-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.133243,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "ALOS",
+            "Instruments": [
+              {
+                "ShortName": "PALSAR"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-5"
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1461052366-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NACP_Peatland_Land_Cover_MI.peatland_landcover_michigan_up.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-03-26T16:04:05Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2007-03-01T00:00:00.000Z",
+            "EndingDateTime": "2011-10-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NACP_Peatland_Land_Cover_MI.peatland_landcover_michigan_up.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "WETLANDS"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -91.0847,
+                  "EastBoundingCoordinate": -82.2881,
+                  "NorthBoundingCoordinate": 48.7456,
+                  "SouthBoundingCoordinate": 44.5422
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-09-27T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2017-09-27T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NACP_Peatland_Land_Cover_MI_1513",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/NACP_Peatland_Land_Cover_MI/data//peatland_landcover_michigan_up.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/NACP_Peatland_Land_Cover_MI.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1513",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Peatland_Land_Cover_MI/comp/landsat_pulsar_scenes_dates.kmz",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Peatland_Land_Cover_MI/comp/NACP_Peatland_Land_Cover_MI.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Peatland_Land_Cover_MI/comp/NACP_Peatland_Land_Cover_MI_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/NACP_Peatland_Land_Cover_MI/comp/peatland_landcover_michigan_up_error.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1513_1.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "Peatland Landcover in Michigan Upper Peninsula",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2017-09-27T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 81.091959,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "ALOS",
+            "Instruments": [
+              {
+                "ShortName": "PALSAR"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-5"
+          }
+        ]
+      }
+    }
+  ]
+}

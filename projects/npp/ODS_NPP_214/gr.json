@@ -1,0 +1,378 @@
+{
+  "hits": 3,
+  "took": 42,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422739748-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ODS_NPP.ods_npp.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:21:15Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1937-01-01T00:00:00.000Z",
+            "EndingDateTime": "1981-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ODS_NPP.ods_npp.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOMASS DYNAMICS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -165.0,
+                  "EastBoundingCoordinate": 177.0,
+                  "NorthBoundingCoordinate": 75.67,
+                  "SouthBoundingCoordinate": -65.25
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-08-28T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-08-28T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ODS_NPP_214",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/npp/multi_biome/NPP_ODS/data/ods_npp.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NPP/guides/NPP_ODS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/214",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/npp/multi_biome/NPP_ODS/comp/NPP_ODS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/npp/multi_biome/NPP_ODS/comp/ORNL_TM_13485_Esser.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NPP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "2013-08-28T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.96877,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "CORING DEVICES"
+              },
+              {
+                "ShortName": "STEEL MEASURING TAPE"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422739749-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ODS_NPP.ods_cli_veg_soil.txt",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:21:15Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1937-01-01T00:00:00.000Z",
+            "EndingDateTime": "1981-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ODS_NPP.ods_cli_veg_soil.txt",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOMASS DYNAMICS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -165.0,
+                  "EastBoundingCoordinate": 177.0,
+                  "NorthBoundingCoordinate": 75.67,
+                  "SouthBoundingCoordinate": -65.25
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-08-28T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-08-28T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ODS_NPP_214",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/npp/multi_biome/NPP_ODS/data/ods_cli_veg_soil.txt",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NPP/guides/NPP_ODS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/214",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/npp/multi_biome/NPP_ODS/comp/NPP_ODS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/npp/multi_biome/NPP_ODS/comp/ORNL_TM_13485_Esser.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NPP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "2013-08-28T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.50523,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "CORING DEVICES"
+              },
+              {
+                "ShortName": "STEEL MEASURING TAPE"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422739750-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "ODS_NPP.ods_refs.txt",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:21:16Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1937-01-01T00:00:00.000Z",
+            "EndingDateTime": "1981-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "ODS_NPP.ods_refs.txt",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOMASS DYNAMICS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -165.0,
+                  "EastBoundingCoordinate": 177.0,
+                  "NorthBoundingCoordinate": 75.67,
+                  "SouthBoundingCoordinate": -65.25
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-08-28T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-08-28T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "ODS_NPP_214",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/npp/multi_biome/NPP_ODS/data/ods_refs.txt",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NPP/guides/NPP_ODS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/214",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/npp/multi_biome/NPP_ODS/comp/NPP_ODS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/npp/multi_biome/NPP_ODS/comp/ORNL_TM_13485_Esser.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NPP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "2013-08-28T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.96877,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "CORING DEVICES"
+              },
+              {
+                "ShortName": "STEEL MEASURING TAPE"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

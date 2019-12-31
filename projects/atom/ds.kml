@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ds" id="ds">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_title" type="string"></SimpleField>
+	<SimpleField name="coll_version" type="string"></SimpleField>
+	<SimpleField name="coll_doi" type="string"></SimpleField>
+	<SimpleField name="coll_abstract" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="coll_status" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl_desc" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>ds</name>
+  <Placemark>
+	<name>collection</name>
+	<description>C1546493468-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: Aircraft Flight Track and Navigational Data</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">6</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-04-15T18:55:45Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: Aircraft Flight Track and Navigational Data</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1613</SimpleData>
+		<SimpleData name="coll_version">This dataset provides flight track and aircraft navigation data from the NASA Atmospheric Tomography Mission (ATom). Flight track information is available for the four ATom campaigns: ATom-1, ATom-2, ATom-3, and ATom-4. Each ATom campaign consists of multiple individual flights and flight navigational information is recorded in 10-second intervals. Data available for each flight includes research flight number, date, and start and stop time of each 10-second interval. In addition, latitude, longitude, altitude, pressure and temperature is included at each 10-second interval. NASA's ATom campaign deploys an extensive gas and aerosol payload on the NASA DC-8 aircraft for systematic, global-scale sampling of the atmosphere, profiling continuously from 0.2 to 12 km altitude. Flights occurred in each of 4 seasons from 2016 to 2018. During each campaign, flights originate from the Armstrong Flight Research Center in Palmdale, California, fly north to the western Arctic, south to the South Pacific, east to the Atlantic, north to Greenland, and return to California across central North America. ATom establishes a single, contiguous, global-scale dataset. One intended use of this flight track data is to facilitate to mapping model results from global models onto the precise ATom flight tracks for comparison.</SimpleData>
+		<SimpleData name="coll_doi">ATom_nav_1613</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">1B</SimpleData>
+		<SimpleData name="coll_status">level 1A data processed to sensor units</SimpleData>
+		<SimpleData name="time_min">-86.18000000000001</SimpleData>
+		<SimpleData name="time_max">82.94</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-86.18 180.0,82.94 -180.0,82.94 -180.0,-86.18 180.0,-86.18</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1548593111-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: Black Carbon Mass Mixing Ratios from ATom-1 Flights</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-04-15T18:55:50Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: Black Carbon Mass Mixing Ratios from ATom-1 Flights</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1618</SimpleData>
+		<SimpleData name="coll_version">This dataset provides black carbon (BC) mass mixing ratios (in units of ng BC / kg air) measured during NASA's Atmospheric Tomography (ATom)-1 flight campaign during July and August 2016. The BC-core masses of BC-containing aerosol particles were measured using a Single Particle Soot Photometer (SP2). Conversion to mass mixing ratio (MMR) is achieved by monitoring sample flow. Influences in air mass composition were determined using the Particle Analysis by Laser Mass Spectrometry (PALMS) instruments. Also included here are data from the Cloud, Aerosol and Precipitation Spectrometer (CAPS) instrument which are used to identify measurements taken while in clouds. Finally, the associated latitude, longitude, altitude, and the timestamp of each measurement are included. All data are at ten seconds resolution. ATom-1 flights originated from the Armstrong Flight Research Center in Palmdale, California, fly north to the western Arctic, south to the South Pacific, east to the Atlantic, north to Greenland, and return to California across central North America.</SimpleData>
+		<SimpleData name="coll_doi">ATom_Carbon_Aerosol_Loadings_1618</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="coll_status">Derived geophysical variables at the same resolution as L1 source data</SimpleData>
+		<SimpleData name="time_min">-65.33</SimpleData>
+		<SimpleData name="time_max">80</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">178.99</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>178.99,-65.33 178.99,80.0 -180,80 -180.0,-65.33 178.99,-65.33</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1592243446-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: Column-Integrated Densities of Hydroxyl and Formaldehyde in Remote Troposphere</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-04-15T18:56:11Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: Column-Integrated Densities of Hydroxyl and Formaldehyde in Remote Troposphere</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1669</SimpleData>
+		<SimpleData name="coll_version">This dataset provides profile-integrated column densities of formaldehyde (HCHO), hydroxyl (OH), and OH production rates, diel tropospheric mean OH concentrations, and uncertainties that were derived from direct observation data from selected profiles of NASA Atmospheric Tomography (ATom) mission 1 and 2 flights for the period July 29, 2016 to February 21, 2017. These calculated products were combined with coincident HCHO column retrievals from the Ozone Monitoring Instrument (OMI) to scale and extend the profile results to a global gridded (0.5 deg latitude x 0.625 deg longitude) product. In addition to OMI formaldehyde column data, model output products from the Global Modeling Initiative (GMI) including average tropopause height, scaling factor, column air mass, and column-average formaldehyde photolysis frequency are provided. The GMI model output products were used in calculations and are included for user convenience.</SimpleData>
+		<SimpleData name="coll_doi">ATom_Mapping_OH_Troposphere_1669</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="coll_status">Variables mapped on uniform space-time grid scales with completeness and consistency</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">179.99</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>179.99,-90.0 179.99,90.0 -180,90 -180,-90 179.99,-90.0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1616834324-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: Global Modeled and CAFS Measured Cloudy and Clear Sky Photolysis Rates, 2016</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:42:54Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: Global Modeled and CAFS Measured Cloudy and Clear Sky Photolysis Rates, 2016</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1651</SimpleData>
+		<SimpleData name="coll_version">This dataset provides the results from nine global chemistry-climate or chemistry-transport models that estimated gridded values of atmospheric photolytic rates (J values) for ozone (O3), designated J-O1D, and nitrogen dioxide (NO2), designated J-NO2, under cloudy and clear sky scenarios. Each model produced global 4-D fields (latitude by longitude by pressure for 24 hours) for one day in mid-August 2016 (nominally) of results from two simulations: first using their standard treatment of clouds (all sky or cloudy) and a second with clouds and aerosols removed (clear sky). Model resolution ranges from 0.5 to 2.5 degrees. Observed J-O1D and J-NO2 values from the first ATom deployment (29 July - 23 August 2016) were collected with the Charged-coupled device Actinic Flux Spectroradiometer (CAFS) instrument. The ATom CAFS measurements are 3-second averages along the flight path for selected remote areas over the tropical and northern Pacific Ocean. Both all-sky (cloudy) and synthesized clear-sky J values are provided. Additional data are included for clouds and ozone column plus other cloudy and clear sky parameters for the same remote areas of the tropical and northern Pacific Ocean. These auxiliary data are provided for use with included MATLAB scripts to reproduce the plots and analyses performed in the related publication by Hall et al. (2018).  Note that while the analyses in the related publication were limited to the Pacific basin, the global model data are archived with this dataset.</SimpleData>
+		<SimpleData name="coll_doi">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">4</SimpleData>
+		<SimpleData name="coll_status">model products</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1646926072-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: In Situ Tropical Aerosol Properties and Comparable Global Model Outputs</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-20T19:37:07Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: In Situ Tropical Aerosol Properties and Comparable Global Model Outputs</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1684</SimpleData>
+		<SimpleData name="coll_version">This dataset provides (1) the results of in situ aerosol particle property measurements collected over remote tropical areas of both Pacific and Atlantic Oceans during the NASA airborne Atmospheric Tomography (ATom) campaigns for ATom-1 and ATom-2 and (2) modeled outputs of comparable aerosol properties, atmospheric chemistry and meteorology at 70 m resolution from four chemical-transport models matched to the location and time of the aircraft measurements.</SimpleData>
+		<SimpleData name="coll_doi">ATom_Aerosols_Meteorology_1684</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">4</SimpleData>
+		<SimpleData name="coll_status">model products</SimpleData>
+		<SimpleData name="time_min">-65.33</SimpleData>
+		<SimpleData name="time_max">80.52</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-65.33 180.0,80.52 -180.0,80.52 -180.0,-65.33 180.0,-65.33</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1625234059-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: L2 In Situ Atmospheric Water Vapor from the Diode Laser Hygrometer (DLH)</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-07-19T11:41:37Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: L2 In Situ Atmospheric Water Vapor from the Diode Laser Hygrometer (DLH)</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1710</SimpleData>
+		<SimpleData name="coll_version">This dataset provides the concentrations of water measured by the Diode Laser Hygrometer (DLH) during airborne campaigns conducted by NASA's Atmospheric Tomography (ATom) mission from 2016 - 2018. The DLH measures the water vapor (H2O(v)) in the atmosphere by wavelength modulated differential absorption spectroscopy of an isolated rovibrational line. The measurements include water vapor mixing ratio in parts-per-trillion-by-volume (pptv) and relative humidity in percent.</SimpleData>
+		<SimpleData name="coll_doi">ATom_DLH_Instrument_Data_1710</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="coll_status">Derived geophysical variables at the same resolution as L1 source data</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1643296768-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: L2 In Situ Data from Caltech Chemical Ionization Mass Spectrometer (CIT-CIMS)</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T11:58:09Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: L2 In Situ Data from Caltech Chemical Ionization Mass Spectrometer (CIT-CIMS)</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1713</SimpleData>
+		<SimpleData name="coll_version">This dataset provides the concentrations of gas phase organic and inorganic analytes measured by the California Institute of Technology (CIT) Chemical Ionization Mass Spectrometer (CIMS), or CIT-CIMS. The CIT-CIMS employs CF3O-ion chemistry with two independent mass spectrometers (compact time-of-flight and triple quadrupole) to enable sensitive and specific measurements of atmospheric trace gases. The measurements include hydrogen cyanide (HCN), nitric acid (HNO3), methyl hydrogen peroxide (CH3OOH), peroxyacetic acid (C2O3H4), peroxynitric acid (HO2NO2), and sulfur dioxide (SO2), in parts-per-trillion-by-volume (pptv).</SimpleData>
+		<SimpleData name="coll_doi">ATom_CIT_Instrument_Data_1713</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="coll_status">Derived geophysical variables at the same resolution as L1 source data</SimpleData>
+		<SimpleData name="time_min">-80.12</SimpleData>
+		<SimpleData name="time_max">80.52</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-80.12 180.0,80.52 -180.0,80.52 -180.0,-80.12 180.0,-80.12</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1643299181-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: L2 In Situ Measurements from NOAA Nitrogen Oxides and Ozone (NOyO3) Instrument</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T11:59:50Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: L2 In Situ Measurements from NOAA Nitrogen Oxides and Ozone (NOyO3) Instrument</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1734</SimpleData>
+		<SimpleData name="coll_version">This dataset provides in situ concentrations of nitric oxide (NO), nitrogen dioxide (NO2), total reactive nitrogen oxides (NOy), and ozone (O3) measured by the NOAA Nitrogen Oxides and Ozone (NOyO3) 4-channel chemiluminescence (CL) instrument during airborne campaigns conducted by NASA's Atmospheric Tomography (ATom) mission. NOyO3 provides fast-response, specific, high precision, and calibrated measurements of nitrogen oxides and ozone at a spatial resolution of better than 100 m. ATom deploys an extensive gas and aerosol payload on the NASA DC-8 aircraft for systematic, global-scale sampling of the atmosphere, profiling continuously from 0.2 to 12 km altitude. Flights occurred in each of 4 seasons from 2016 to 2018. Flights originate from the Armstrong Flight Research Center in Palmdale, California, fly north to the western Arctic, south to the South Pacific, east to the Atlantic, north to Greenland, and return to California across central North America. ATom establishes a single, contiguous, global-scale dataset. This comprehensive dataset will be used to improve the representation of chemically reactive gases and short-lived climate forcers in global models of atmospheric chemistry and climate.</SimpleData>
+		<SimpleData name="coll_doi">ATom_NOyO3_Instrument_Data_1734</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="coll_status">Derived geophysical variables at the same resolution as L1 source data</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1629393879-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: L2 In Situ Measurements from Single Particle Soot Photometer (SP2)</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-08-16T14:42:02Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: L2 In Situ Measurements from Single Particle Soot Photometer (SP2)</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1672</SimpleData>
+		<SimpleData name="coll_version">This dataset provides the refractory black carbon mass concentration at one-second resolution measured by the Single Particle Soot Photometer (NOAA SP2) instrument during airborne campaigns conducted by NASA's Atmospheric Tomography (ATom) mission. The SP2 is a laser-induced incandescence instrument primarily used for measuring the black carbon mass content of individual particles.</SimpleData>
+		<SimpleData name="coll_doi">ATom_SP2_Instrument_Data_1672</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="coll_status">Derived geophysical variables at the same resolution as L1 source data</SimpleData>
+		<SimpleData name="time_min">-86.18000000000001</SimpleData>
+		<SimpleData name="time_max">82.94</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-86.18 180.0,82.94 -180.0,82.94 -180.0,-86.18 180.0,-86.18</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1657940338-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: L2 In Situ Measurements from the NCAR Airborne Oxygen Instrument (AO2)</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-19T13:00:58Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: L2 In Situ Measurements from the NCAR Airborne Oxygen Instrument (AO2)</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1704</SimpleData>
+		<SimpleData name="coll_version">This dataset provides in situ atmospheric oxygen and carbon dioxide concentrations measured by the NCAR Airborne Oxygen Instrument (AO2) during airborne campaigns conducted by NASA's Atmospheric Tomography (ATom) mission. The AO2 Instrument measures O2 concentration using a vacuum-ultraviolet absorption technique. ATom deploys an extensive gas and aerosol payload on the NASA DC-8 aircraft for systematic, global-scale sampling of the atmosphere, profiling continuously from 0.2 to 12 km altitude. Flights occurred in each of 4 seasons from 2016 to 2018. Flights originate from the Armstrong Flight Research Center in Palmdale, California, fly north to the western Arctic, south to the South Pacific, east to the Atlantic, north to Greenland, and return to California across central North America. ATom establishes a single, contiguous, global-scale dataset. This comprehensive dataset will be used to improve the representation of chemically reactive gases and short-lived climate forcers in global models of atmospheric chemistry and climate.</SimpleData>
+		<SimpleData name="coll_doi">ATom_AO2_Instrument_Data_1704</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="coll_status">Derived geophysical variables at the same resolution as L1 source data</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1619764458-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: L2 In Situ Measurements of Aerosol Microphysical Properties (AMP)</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-17T23:49:25Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: L2 In Situ Measurements of Aerosol Microphysical Properties (AMP)</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1671</SimpleData>
+		<SimpleData name="coll_version">This dataset provides the number, surface area, and volume concentrations and size distributions of dry aerosol particles measured by the Aerosol Microphysical Properties (AMP) instrument package during airborne campaigns conducted by NASA's Atmospheric Tomography (ATom) mission. Five instruments--two nucleation-mode aerosol size spectrometers (NMASS), two ultra-high sensitivity aerosol spectrometers (UHSAS), and a laser aerosol spectrometer (LAS)--comprise the AMP package. The AMP payload provides size distributions with up to one-second time resolution for dry aerosol particles between 0.003 and 4.8 microns in diameter.</SimpleData>
+		<SimpleData name="coll_doi">ATom_AMP_Instrument_Data_1671</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="coll_status">Derived geophysical variables at the same resolution as L1 source data</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1643309634-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: L2 In Situ Peroxyacetyl Nitrate (PAN) Measurements from Georgia Tech CIMS</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:08:48Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: L2 In Situ Peroxyacetyl Nitrate (PAN) Measurements from Georgia Tech CIMS</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1715</SimpleData>
+		<SimpleData name="coll_version">This dataset provides measurements of two important components of photochemical smog - peroxyacetyl nitrate (PAN) and peroxyl propionyl nitrate (PPN)- measured by the Georgia Tech Chemical Ionization Mass Spectrometer (GT-CIMS) during airborne campaigns conducted by NASA's Atmospheric Tomography (ATom) mission. The GT-CIMS measures reactive nitrogen species in the lower atmosphere. ATom deploys an extensive gas and aerosol payload on the NASA DC-8 aircraft for systematic, global-scale sampling of the atmosphere, profiling continuously from 0.2 to 12 km altitude. Flights occurred in each of 4 seasons from 2016 to 2018. Flights originate from the Armstrong Flight Research Center in Palmdale, California, fly north to the western Arctic, south to the South Pacific, east to the Atlantic, north to Greenland, and return to California across central North America. ATom establishes a single, contiguous, global-scale dataset. This comprehensive dataset will be used to improve the representation of chemically reactive gases and short-lived climate forcers in global models of atmospheric chemistry and climate.</SimpleData>
+		<SimpleData name="coll_doi">ATom_GT_CIMS_Instrument_Data_1715</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="coll_status">Derived geophysical variables at the same resolution as L1 source data</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1625234338-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: L2 Measurements from Airborne Tropospheric Hydrogen Oxides Sensor (ATHOS)</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-07-19T11:44:00Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: L2 Measurements from Airborne Tropospheric Hydrogen Oxides Sensor (ATHOS)</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1709</SimpleData>
+		<SimpleData name="coll_version">This dataset provides the concentrations of hydrogen oxides measured by the Airborne Tropospheric Hydrogen Oxides Sensor (ATHOS) during airborne campaigns conducted by NASA's Atmospheric Tomography (ATom) mission from 2016 - 2018. ATHOS uses laser-induced fluorescence (LIF) to measure hydroxide (OH) and hydroperoxyl (HO2) simultaneously. The measurements include OH and HO2 mixing ratio in parts-per-trillion-by-volume (pptv), OH interference from chemical removal in pptv, and OH reactivity from discharge flow in hertz.</SimpleData>
+		<SimpleData name="coll_doi">ATom_ATHOS_Instrument_Data_1709</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="coll_status">Derived geophysical variables at the same resolution as L1 source data</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1643339990-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: L2 Measurements from CU High-Resolution Aerosol Mass Spectrometer (HR-AMS)</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:30:13Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: L2 Measurements from CU High-Resolution Aerosol Mass Spectrometer (HR-AMS)</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1716</SimpleData>
+		<SimpleData name="coll_version">This dataset provides the concentrations of separated ions from inorganic and organic species measured by the High-Resolution Aerosol Mass Spectrometer (HR-AMS). The HR-AMS detects non-refractory submicron aerosol composition by impaction on a vaporizer at 600 degrees C, followed by electron ionization and time-of-flight mass spectral analysis. The measurements include chemically speciated submicron non-refractory particulate mass at a one second and 60 second resolution, and the size distribution of chemically speciated submicron non-refractory particulate mass at 60 second resolution.</SimpleData>
+		<SimpleData name="coll_doi">ATom_HR-AMS_Instrument_Data_1716</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="coll_status">Derived geophysical variables at the same resolution as L1 source data</SimpleData>
+		<SimpleData name="time_min">-80.12</SimpleData>
+		<SimpleData name="time_max">80.52</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-80.12 180.0,80.52 -180.0,80.52 -180.0,-80.12 180.0,-80.12</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1661517078-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: L2 Measurements from Medusa Whole Air Sampler (Medusa)</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-27T12:55:12Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: L2 Measurements from Medusa Whole Air Sampler (Medusa)</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1729</SimpleData>
+		<SimpleData name="coll_version">This dataset provides O2/N2, CO2, Ar/N2, and stable isotope ratios of CO2 measured by the Medusa Whole Air Sampler during airborne campaigns conducted by NASA's Atmospheric Tomography (ATom) mission. ATom deploys an extensive gas and aerosol payload on the NASA DC-8 aircraft for systematic, global-scale sampling of the atmosphere, profiling continuously from 0.2 to 12 km altitude. Flights occurred in each of 4 seasons from 2016 to 2018. Medusa collected thirty two cryogenically dried, flow and pressure controlled samples per flight. Medusa provides discretely-sampled comparisons for onboard in situ O2/N2 ratio and CO2 measurements and unique measurements of Ar/N2 and 13C, 14C, and 18O isotopologues of CO2. The complementary measurements allow ground-truthing of onboard instrument measurements in a laboratory setting, where analysis conditions can often be more stringently controlled and carefully monitored. Isotope and argon measurements can provide additional information about land and ocean controls over the carbon cycle, and about the age and source of the air sampled.</SimpleData>
+		<SimpleData name="coll_doi">ATom_Medusa_Instrument_Data_1729</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="coll_status">Derived geophysical variables at the same resolution as L1 source data</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1674157301-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: L2 Measurements of In Situ Airborne Formaldehyde (ISAF)</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T12:59:16Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: L2 Measurements of In Situ Airborne Formaldehyde (ISAF)</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1730</SimpleData>
+		<SimpleData name="coll_version">This dataset provides the atmospheric volume mixing ratio of formaldehyde measured during airborne campaigns conducted by NASA's Atmospheric Tomography (ATom) mission. ATom deploys an extensive gas and aerosol payload on the NASA DC-8 aircraft for systematic, global-scale sampling of the atmosphere, profiling continuously from 0.2 to 12 km altitude. Flights occurred in each of 4 seasons from 2016 to 2018. The NASA In Situ Airborne Formaldehyde (ISAF) instrument, based at the Goddard Space Flight Center, measures formaldehyde on high-altitude NASA aircraft. The instrument uses laser-induced fluorescence (LIF) to obtain the high detection sensitivity needed to detect formaldehyde in the upper troposphere and lower stratosphere where abundances are 10 parts per trillion. LIF also enables a fast time response needed to measure the abundance of formaldehyde in the finely structured outflow of convective storms. These measurements of formaldehyde will be used elucidate mechanisms of convective transport and quantify the effects of boundary layer pollutants on the ozone photochemistry and cloud microphysics of the upper atmosphere.</SimpleData>
+		<SimpleData name="coll_doi">ATom_ISAF_Instrument_Data_1730</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="coll_status">Derived geophysical variables at the same resolution as L1 source data</SimpleData>
+		<SimpleData name="time_min">-80.12</SimpleData>
+		<SimpleData name="time_max">80.52</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-80.12 180.0,80.52 -180.0,80.52 -180.0,-80.12 180.0,-80.12</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1643341057-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: L2 Photolysis Frequencies from NCAR CCD Actinic Flux Spectroradiometers (CAFS)</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-02T12:30:50Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: L2 Photolysis Frequencies from NCAR CCD Actinic Flux Spectroradiometers (CAFS)</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1714</SimpleData>
+		<SimpleData name="coll_version">This dataset provides the photolysis frequencies for photodissociation reactions for a variety of species. Frequencies were calculated based on spectrally resolved down- and up-welling in situ ultraviolet and visible actinic flux from approximately 280-650 nm as measured by the CCD Actinic Flux Spectroradiometers (CAFS) during airborne campaigns conducted by NASA's Atmospheric Tomography (ATom) mission. ATom deploys an extensive gas and aerosol payload on the NASA DC-8 aircraft for systematic, global-scale sampling of the atmosphere, profiling continuously from 0.2 to 12 km altitude. Flights occurred in each of 4 seasons from 2016 to 2018. Flights originate from the Armstrong Flight Research Center in Palmdale, California, fly north to the western Arctic, south to the South Pacific, east to the Atlantic, north to Greenland, and return to California across central North America. ATom establishes a single, contiguous, global-scale dataset. This comprehensive dataset will be used to improve the representation of chemically reactive gases and short-lived climate forcers in global models of atmospheric chemistry and climate.</SimpleData>
+		<SimpleData name="coll_doi">ATom_CAFS_Instrument_Data_1714</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="coll_status">Derived geophysical variables at the same resolution as L1 source data</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1469009931-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: Merged Atmospheric Chemistry, Trace Gases, and Aerosols</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">33</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:00:53Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: Merged Atmospheric Chemistry, Trace Gases, and Aerosols</SimpleData>
+		<SimpleData name="cmr_publication_date">1.3</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1581</SimpleData>
+		<SimpleData name="coll_version">This dataset provides information on greenhouse gases and human-produced air pollution, including atmospheric concentrations of carbon dioxide (CO2), methane (CH4), tropospheric ozone (O3) and black carbon (BC) aerosols, collected during airborne campaigns conducted by NASA's Atmospheric Tomography (ATom) mission. This dataset includes merged data from all instruments plus additional data such as numbered profiles and distance flown. Merged data have been created for seven different sampling intervals. In the case of data obtained over longer time intervals (e.g. flask data), the merge files provide (weighted) averages to match the sampling intervals. ATom deploys an extensive gas and aerosol payload on the NASA DC-8 aircraft for systematic, global-scale sampling of the atmosphere, profiling continuously from 0.2 to 12 km altitude. Flights occurred in each of 4 seasons from 2016 to 2018. Flights originate from the Armstrong Flight Research Center in Palmdale, California, fly north to the western Arctic, south to the South Pacific, east to the Atlantic, north to Greenland, and return to California across central North America. ATom establishes a single, contiguous, global-scale dataset. This comprehensive dataset will be used to improve the representation of chemically reactive gases and short-lived climate forcers in global models of atmospheric chemistry and climate. Profiles of the reactive gases will also provide critical information for validation of satellite data, particularly in remote areas where in situ data is lacking. Complete aircraft flight information including, but not limited to, latitude, longitude, and altitude are also provided. This data release provides results from all four ATom flight campaigns.</SimpleData>
+		<SimpleData name="coll_doi">ATom_merge_1581</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="coll_status">Variables mapped on uniform space-time grid scales with completeness and consistency</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1544728023-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: Nucleation Mode Aerosol Size Spectrometer Calibration and Performance Data</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">6</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-04-15T18:55:40Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: Nucleation Mode Aerosol Size Spectrometer Calibration and Performance Data</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1607</SimpleData>
+		<SimpleData name="coll_version">This dataset provides extensive calibration and in-flight performance data for two nucleation mode aerosol size spectrometer (NMASS) instruments utilized in the NASA Atmospheric Tomography Mission (ATom). Each NMASS has five condensation particle counters (CPCs) that detect particles above a different minimum size, determined by the maximum vapor supersaturation encountered by the particles. Operated in parallel, the CPCs provide continuous concentrations of particles in different cumulative size classes between 3 and 60 nm. Knowing the response function of each CPC, numerical inversion techniques were applied to recover size distributions from the continuous concentrations. Data provided include: NMASS counting efficiencies and diameters of calibration aerosols, inverted particle size distributions; comparisons of NMASS and Scanning Mobility Particle Sizer (SMPS) results; and performance at flows, temperatures, and pressures measured by both NMASSs and comparison with Ultra-High Sensitivity Aerosol Spectrometer (UHSAS) concentrations collected on board the NASA DC-8 aircraft during an ATom flight in February 2017.</SimpleData>
+		<SimpleData name="coll_doi">ATom_NMASS_Data_1607</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="coll_status">Derived geophysical variables at the same resolution as L1 source data</SimpleData>
+		<SimpleData name="time_min">-65.33</SimpleData>
+		<SimpleData name="time_max">80.52</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-65.33 180.0,80.52 -180.0,80.52 -180.0,-65.33 180.0,-65.33</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1541087883-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: Observed and GEOS-5 Simulated CO Concentrations with Tagged Tracers for ATom-1</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">8</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-04-15T18:55:38Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: Observed and GEOS-5 Simulated CO Concentrations with Tagged Tracers for ATom-1</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1604</SimpleData>
+		<SimpleData name="coll_version">This dataset contains carbon monoxide (CO) observations at 10-second intervals from flights during the ATom-1 campaign in 2016 and simulated CO concentrations from the Goddard Earth Observing System version 5 (GEOS-5) model for the corresponding locations along the ATom flight tracks. The Atmospheric Tomography Mission (ATom) is a NASA Earth Venture Suborbital-2 mission studying the impact of human-produced air pollution on greenhouse gases and on chemically reactive gases in the atmosphere. The airborne observations were collected using the Quantum Cascade Laser System (QCLS) instrument, a high-frequency laser spectroscopy instrument for in situ atmospheric gas sampling. This dataset provides a direct comparison of observational and simulated CO that will be used to inform future atmospheric modeling experiments. The dataset also contains simulated tagged-CO tracer concentrations, which represent the contribution of specific regional sources to the total simulated CO. This dataset contributes to one of the ATom mission objectives to create an observation-based chemical climatology of important atmospheric constituents and their reactivity in the remote troposphere.</SimpleData>
+		<SimpleData name="coll_doi">ATom_CO_GEOS_1604</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="coll_status">Derived geophysical variables at the same resolution as L1 source data</SimpleData>
+		<SimpleData name="time_min">-65.33</SimpleData>
+		<SimpleData name="time_max">80.01000000000001</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">179.98</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>179.98,-65.33 179.98,80.01 -180.0,80.01 -180.0,-65.33 179.98,-65.33</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1542309013-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: Simulated Data Stream for Modeling ATom-like Measurements</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-04-15T18:55:32Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: Simulated Data Stream for Modeling ATom-like Measurements</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1597</SimpleData>
+		<SimpleData name="coll_version">This dataset provides a simulated data stream representative of an Atmospheric Tomography mission (ATom) data collection flight and also modeled reactivities for ozone (O3) production and loss and methane (CH4) loss from six global atmospheric chemistry models: CAM, GEOS-Chem, GFDL, GISS-E2.1, GMI, and UCI. The simulated data include concentrations of selected atmospheric trace gases for 14,880 air parcels along a simulated north-south ATom flight path along 180-degrees longitude over the Pacific basin. Each of the six models produced ozone production and loss and methane loss reactivities initialized using the simulated data beginning with five different days in August (8-01, 8-06, 8-11, 8-16, 8-21). Modeled years for each individual model varied from 1997 to 2016.</SimpleData>
+		<SimpleData name="coll_doi">ATom_Simulated_Data_1597</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">4</SimpleData>
+		<SimpleData name="coll_status">model products</SimpleData>
+		<SimpleData name="time_min">-59.8</SimpleData>
+		<SimpleData name="time_max">59.8</SimpleData>
+		<SimpleData name="lat_min">178.9</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-59.8 180.0,59.8 178.9,59.8 178.9,-59.8 180.0,-59.8</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1570129472-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ATom: Ultra-High Sensitivity Aerosol Spectrometer Calibration and Performance Data</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-04-15T18:55:51Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom: Ultra-High Sensitivity Aerosol Spectrometer Calibration and Performance Data</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_title">10.3334/ORNLDAAC/1619</SimpleData>
+		<SimpleData name="coll_version">This dataset provides extensive calibration and in-flight performance data for two Ultra-High Sensitivity Aerosol Spectrometers (UHSAS) used for particle size distribution and volatility measurements during the NASA Atmospheric Tomography Mission (ATom) airborne campaign. UHSAS-1 was equipped with a compact thermodenuder operating at 300 degrees C and UHSAS-2 was operated without a thermodenuder to determine the number and volume fraction of volatile particles. Laboratory studies utilized aerosols from limonene ozonolysis (limon), atomization of ammonium sulfate (AS), and atomization of 2-diethylhexyl (dioctyl) sebacate (DOS). Data include: UHSAS detection efficiency, sizing calibration, performance at a range of pressures and at a range of thermodenuder temperatures, comparison of UHSAS-2 and condensation particle counter (CPC) particle number concentrations, comparisons of UHSAS-1 and UHSAS-2 for dry particle number concentration, surface area and volume collected onboard of a NASA DC-8 aircraft during August 2016, and dry aerosol size distributions for thermodenuded and non-thermodenuded instrument collected in February 2017.</SimpleData>
+		<SimpleData name="coll_doi">ATom_UHSAS_Data_1619</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="coll_status">Derived geophysical variables at the same resolution as L1 source data</SimpleData>
+		<SimpleData name="time_min">-65.33</SimpleData>
+		<SimpleData name="time_max">80.52</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-65.33 180.0,80.52 -180.0,80.52 -180.0,-65.33 180.0,-65.33</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

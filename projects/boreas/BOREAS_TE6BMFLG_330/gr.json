@@ -1,0 +1,150 @@
+{
+  "hits": 1,
+  "took": 21,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422749783-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_TE6BMFLG.te06_biomass.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:34:19Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-06-12T00:00:00.000Z",
+            "EndingDateTime": "1995-10-14T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_TE6BMFLG.te06_biomass.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -106.198,
+                  "EastBoundingCoordinate": -97.3355,
+                  "NorthBoundingCoordinate": 55.974,
+                  "SouthBoundingCoordinate": 53.591
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_TE6BMFLG_330",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/TE/te6bmflg/data/te06_biomass.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/TE06_Biomass.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/330",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te6bmflg/comp/TE06_Biomass.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te6bmflg/comp/TE06_Biomass.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te6bmflg/comp/TE06_Biomass.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te6bmflg/comp/te13_boreas_canopy.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te6bmflg/comp/te13_boreas_site_loc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te6bmflg/comp/te6bmflg.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.066636,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "BALANCE"
+              },
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              },
+              {
+                "ShortName": "STEEL MEASURING TAPE"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "hits": 2,
+  "took": 14,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422813021-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NPP_SCH.sch_cli.txt",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:34:03Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1948-08-01T00:00:00.000Z",
+            "EndingDateTime": "1990-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NPP_SCH.sch_cli.txt",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOMASS DYNAMICS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "Points": [
+                {
+                  "Longitude": -67.7,
+                  "Latitude": 54.72
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-07-11T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-07-11T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NPP_SCH_573",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/npp/boreal_forest/NPP_SCH/data/sch_cli.txt",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NPP/guides/NPP_SCH.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/573",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/npp/boreal_forest/NPP_SCH/comp/NPP_SCH.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NPP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-07-11T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.017181,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "CORING DEVICES"
+              },
+              {
+                "ShortName": "STEEL MEASURING TAPE"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422813065-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "NPP_SCH.sch_npp.txt",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:34:04Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1974-06-01T00:00:00.000Z",
+            "EndingDateTime": "1974-08-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "NPP_SCH.sch_npp.txt",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOMASS DYNAMICS"
+          },
+          {
+            "ParameterName": "PRIMARY PRODUCTION"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "Points": [
+                {
+                  "Longitude": -67.7,
+                  "Latitude": 54.72
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-07-11T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-07-11T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "NPP_SCH_573",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/npp/boreal_forest/NPP_SCH/data/sch_npp.txt",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NPP/guides/NPP_SCH.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/573",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/npp/boreal_forest/NPP_SCH/comp/NPP_SCH.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NPP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-07-11T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.009503,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "CORING DEVICES"
+              },
+              {
+                "ShortName": "STEEL MEASURING TAPE"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

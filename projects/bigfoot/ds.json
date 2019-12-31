@@ -1,0 +1,1526 @@
+{
+  "hits": 6,
+  "took": 62,
+  "items": [
+    {
+      "meta": {
+        "revision-id": 33,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "BigFoot Field Data for North American Sites, 1999-2003",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003097-ORNL_DAAC",
+        "revision-date": "2019-04-15T17:43:46Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/868"
+            },
+            "OtherCitationDetails": "Gower, S.T., and A.A. Kirschbaum. 2008. BigFoot Field Data for North American Sites, 1999-2003. ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/868"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.61,
+                  "NorthBoundingCoordinate": 71.27,
+                  "EastBoundingCoordinate": -72.25,
+                  "SouthBoundingCoordinate": 34.32
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "ECOLOGICAL DYNAMICS",
+            "VariableLevel1": "ECOSYSTEM FUNCTIONS",
+            "VariableLevel2": "PRIMARY PRODUCTION"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "ECOLOGICAL DYNAMICS",
+            "VariableLevel1": "ECOSYSTEM FUNCTIONS",
+            "VariableLevel2": "RESPIRATION RATE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "BIOMASS"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "CANOPY CHARACTERISTICS"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1999-01-01T00:00:00.000Z",
+                "EndingDateTime": "2003-12-31T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "BIGFOOT_FD_868",
+        "EntryTitle": "BigFoot Field Data for North American Sites, 1999-2003",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/BIGFOOT_VAL/guides/BigFoot_Field_Data.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/868"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/AGRO_README.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/BigFoot_Field_Data.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/BigFoot_Field_Manual_1999.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/HARV_README.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/KONZ_README.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/NOBS_README.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/sevi_plot_pictures.zip"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/SEVI_README.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/tund_plot_pictures.zip"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/Field_Measurements/comp/TUND_README.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Example of .tif file provided for LAI (leaf area index) data.",
+            "URLs": [
+              "https://daac.ornl.gov/BIGFOOT_VAL/guides/bf_agro_lai_aug_11_2000_x10_them_with_defaults.gif"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2008-06-27T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T17:43:46.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The BigFoot project gathered field data for selected EOS Land Validation Sites in North America from 1999 to 2003. Data collected and derived for varying intervals at the BigFoot sites and archived with this data set include FPAR, nitrogen content, allometry equations, root biomass, LAI, tree biomass, soil respiration, NPP, landcover images, and vegetation inventories.Each site is representative of one or two distinct biomes, including the Arctic tundra; boreal evergreen needleleaf forest; temperate cropland, grassland, and deciduous broadleaf forest; desert grassland and shrubland. The project collected multi-year, in situ measurements of ecosystem structure and functional characteristics related to the terrestrial carbon cycle at the sites listed in Table 1. Companion files include documentation of measurement data, site and plot locations (Figure 2), and plot photographs for the SEVI and TUND sites (Figure 3).BigFoot Project Background: Reflectance data from MODIS, the Moderate Resolution Imaging Spectrometer onboard NASA's Earth Observing System (EOS) satellites Terra and Aqua ( http://landval.gsfc.nasa.gov/MODIS/index.php ), was used to produce several science products including land cover, leaf area index (LAI), gross primary production (GPP), and net primary production (NPP). The overall goal of the BigFoot Project was to provide validation of these products. To do this, BigFoot combined ground measurements, additional high-resolution remote-sensing data, and ecosystem process models at six flux tower sites representing different biomes to evaluate the effects of the spatial and temporal patterns of ecosystem characteristics on MODIS products. BigFoot characterized up to a 7 x 7 km area (49 1-km MODIS pixels) surrounding the CO2 flux towers located at six of the nine BigFoot sites. The sampling design allowed the Project to examine scales and spatial patterns of these properties, the inter-annual variability and validity of MODIS products, and provided for a field-based ecological characterization of the flux tower footprint. BigFoot was funded by NASA's Terrestrial Ecology Program.",
+        "MetadataDates": [
+          {
+            "Date": "2008-06-27T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "BIGFOOT",
+            "LongName": "BigFoot"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "IR CO2 ANALYZER",
+                "LongName": "Infrared Carbon Dioxide Analyzer"
+              },
+              {
+                "ShortName": "LICOR LEAF AREA METER"
+              },
+              {
+                "ShortName": "QUADRATS"
+              },
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 32,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "BigFoot GPP Surfaces for North and South American Sites, 2000-2004",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003155-ORNL_DAAC",
+        "revision-date": "2019-04-15T17:43:44Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/749"
+            },
+            "OtherCitationDetails": "Turner, D.P., W.D. Ritts, and M.J. Gregory. 2006. BigFoot GPP Surfaces for North and South American Sites, 2000-2004. ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/749"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.61,
+                  "NorthBoundingCoordinate": 71.27,
+                  "EastBoundingCoordinate": -54.96,
+                  "SouthBoundingCoordinate": -2.86
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "ECOLOGICAL DYNAMICS",
+            "VariableLevel1": "ECOSYSTEM FUNCTIONS",
+            "VariableLevel2": "PRIMARY PRODUCTION"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+                "EndingDateTime": "2004-12-31T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "bigfoot_gpp_surfaces_749",
+        "EntryTitle": "BigFoot GPP Surfaces for North and South American Sites, 2000-2004",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/GPP_surfaces/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/BIGFOOT_VAL/guides/bf_gpp_surf_guide.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/749"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/LAI_surfaces/comp/bf_gpp_surf_guide.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/LAI_surfaces/comp/BigFoot_readme.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/project/square/bigfoot_logo_square.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2006-03-23T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T17:43:43.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The BigFoot project gathered Gross Primary Production (GPP) data for nine EOS Land Validation Sites located from Alaska to Brazil from 2000 to 2004.  Each site is representative of one or two distinct biomes, including the Arctic tundra; boreal evergreen needleleaf forest; temperate cropland, grassland, evergreen needleleaf forest, and deciduous broadleaf forest; desert grassland and shrubland; and tropical evergreen broadleaf forest. BigFoot was funded by NASA's Terrestrial Ecology Program.For more details on the BigFoot Project, please visit the website: http://www.fsl.orst.edu/larse/bigfoot/index.html.",
+        "MetadataDates": [
+          {
+            "Date": "2006-03-23T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "BIGFOOT",
+            "LongName": "BigFoot"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIXED OBSERVATION STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              }
+            ]
+          },
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 32,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "BigFoot Land Cover Surfaces for North and South American Sites, 2000-2003",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003725-ORNL_DAAC",
+        "revision-date": "2019-04-15T17:43:43Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/748"
+            },
+            "OtherCitationDetails": "Cohen, W.B., T.K. Maiersperger, and D. Pflugmacher. 2006. BigFoot Land Cover Surfaces for North and South American Sites, 2000-2003. ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/748"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.61,
+                  "NorthBoundingCoordinate": 71.27,
+                  "EastBoundingCoordinate": -54.96,
+                  "SouthBoundingCoordinate": -2.86
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "LAND USE/LAND COVER",
+            "VariableLevel1": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+                "EndingDateTime": "2003-12-31T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "bigfoot_landcove_748",
+        "EntryTitle": "BigFoot Land Cover Surfaces for North and South American Sites, 2000-2003",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/Land_Cover_surfaces/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/BIGFOOT_VAL/guides/bf_landcover_surf_guide.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/748"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/Land_Cover_surfaces/comp/bf_landcover_surf_guide.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/Land_Cover_surfaces/comp/BigFoot_readme.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/748_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "Web Coverage Service for this collection.",
+            "URLs": [
+              "https://webmap.ornl.gov/wcsdown/dataset.jsp?ds_id=748"
+            ],
+            "MimeType": "application/gml+xml",
+            "Relation": [
+              "GET SERVICE",
+              "WEB COVERAGE SERVICE (WCS)"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2006-03-23T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T17:43:42.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The BigFoot project gathered data for nine EOS Land Validation Sites located from Alaska to Brazil from 2000 to 2003. Each site is representative of one or two distinct biomes, including the Arctic tundra; boreal evergreen needleleaf forest; temperate cropland, grassland, evergreen needleleaf forest, and deciduous broadleaf forest; desert grassland and shrubland; and tropical evergreen broadleaf forest. These surfaces were produced from Landsat ETM+ imagery to explicitly characterize the land cover at the BigFoot Sites to provide validation of the MODIS land cover product. BigFoot was funded by NASA's Terrestrial Ecology Program.",
+        "MetadataDates": [
+          {
+            "Date": "2006-03-23T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "BIGFOOT",
+            "LongName": "BigFoot"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Earth Observation Satellites",
+            "ShortName": "LANDSAT-7",
+            "Instruments": [
+              {
+                "ShortName": "ETM+",
+                "LongName": "Enhanced Thematic Mapper Plus"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 32,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "BigFoot Leaf Area Index Surfaces for North and South American Sites, 2000-2003",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003573-ORNL_DAAC",
+        "revision-date": "2019-04-15T17:43:41Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/747"
+            },
+            "OtherCitationDetails": "Cohen, W.B., T.K. Maiersperger, and D. Pflugmacher. 2006. BigFoot Leaf Area Index Surfaces for North and South American Sites, 2000-2003. ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/747"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.61,
+                  "NorthBoundingCoordinate": 71.27,
+                  "EastBoundingCoordinate": -54.96,
+                  "SouthBoundingCoordinate": -2.86
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "CANOPY CHARACTERISTICS"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+                "EndingDateTime": "2003-12-31T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "bigfoot_lai_747",
+        "EntryTitle": "BigFoot Leaf Area Index Surfaces for North and South American Sites, 2000-2003",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/LAI_surfaces/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/BIGFOOT_VAL/guides/bf_lai_surf_guide.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/747"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/LAI_surfaces/comp/bf_lai_surf_guide.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/LAI_surfaces/comp/BigFoot_readme.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/747_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "Web Coverage Service for this collection.",
+            "URLs": [
+              "https://webmap.ornl.gov/wcsdown/dataset.jsp?ds_id=747"
+            ],
+            "MimeType": "application/gml+xml",
+            "Relation": [
+              "GET SERVICE",
+              "WEB COVERAGE SERVICE (WCS)"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2006-03-23T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T17:43:39.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The BigFoot project gathered leaf area index (LAI) data for nine EOS Land Validation Sites located from Alaska to Brazil from 2000 to 2003.  Each site is representative of one or two distinct biomes, including the Arctic tundra; boreal evergreen needleleaf forest; temperate cropland, grassland, evergreen needleleaf forest, and deciduous broadleaf forest; desert grassland and shrubland; and tropical evergreen broadleaf forest. LAI was measured at plots within each site for at least two years using standard direct and optical methods at each site. BigFoot was funded by NASA's Terrestrial Ecology Program.",
+        "MetadataDates": [
+          {
+            "Date": "2006-03-23T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "BIGFOOT",
+            "LongName": "BigFoot"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Earth Observation Satellites",
+            "ShortName": "LANDSAT-7",
+            "Instruments": [
+              {
+                "ShortName": "ETM+",
+                "LongName": "Enhanced Thematic Mapper Plus"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 32,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "BIGFOOT Meteorological Data for North and South American Sites, 1991-2004",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003586-ORNL_DAAC",
+        "revision-date": "2019-04-15T17:43:47Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1065"
+            },
+            "OtherCitationDetails": "Turner, D.P., M.J. Gregory, and W.D. Ritts. 2012. BIGFOOT Meteorological Data for North and South American Sites, 1991-2004. ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/1065"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.61,
+                  "NorthBoundingCoordinate": 71.27,
+                  "EastBoundingCoordinate": -54.96,
+                  "SouthBoundingCoordinate": -2.87
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC RADIATION",
+            "VariableLevel1": "SHORTWAVE RADIATION"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC RADIATION",
+            "VariableLevel1": "SUNSHINE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC TEMPERATURE",
+            "VariableLevel1": "SURFACE TEMPERATURE",
+            "VariableLevel2": "MAXIMUM/MINIMUM TEMPERATURE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC WATER VAPOR",
+            "VariableLevel1": "WATER VAPOR PROCESSES",
+            "VariableLevel2": "EVAPOTRANSPIRATION"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "PRECIPITATION",
+            "VariableLevel1": "PRECIPITATION AMOUNT"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1991-01-01T00:00:00.000Z",
+                "EndingDateTime": "2004-12-31T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "BIGFOOT_METEOROLOGICAL_1065",
+        "EntryTitle": "BIGFOOT Meteorological Data for North and South American Sites, 1991-2004",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/Meteorological//"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/BIGFOOT_VAL/guides/bigfoot_meteorological_data.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1065"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/Meteorological//comp/BIGFOOT_met_companion.doc"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/Meteorological//comp/BIGFOOT_met_guide.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/project/square/bigfoot_logo_square.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2012-02-27T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T17:43:47.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The BigFoot Project has compiled daily meteorological measurements for nine EOS Land Validation Sites located from Alaska to Brazil from 1991 to 2004. Each site is representative of one or two distinct biomes, including the Arctic tundra; boreal evergreen needleleaf forest; temperate cropland, grassland, evergreen needleleaf forest, and deciduous broadleaf forest; desert grassland and shrubland; and tropical evergreen broadleaf forest.The BigFoot Project needed meteorological data to run the ecosystem process models used for scaling GPP and NPP products, for monitoring interannual variability, and for model testing. Meteorological data were obtained from various agencies collecting data in the vicinity of the BigFoot sites and for more recent years, collected on co-located CO2 flux measurement towers. A comparable set of original measurements from all sites were aggregated to a common daily time step for use in the BIOME-BGC model. ",
+        "MetadataDates": [
+          {
+            "Date": "2012-02-27T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "BIGFOOT",
+            "LongName": "BigFoot"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 31,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "BigFoot NPP Surfaces for North and South American Sites, 2000-2004",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C179003414-ORNL_DAAC",
+        "revision-date": "2019-04-15T17:43:45Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/750"
+            },
+            "OtherCitationDetails": "Turner, D.P., W.D. Ritts, and M.J. Gregory. 2006. BigFoot NPP Surfaces for North and South American Sites, 2000-2004. ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/750"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.61,
+                  "NorthBoundingCoordinate": 71.27,
+                  "EastBoundingCoordinate": -54.96,
+                  "SouthBoundingCoordinate": -2.86
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "ECOLOGICAL DYNAMICS",
+            "VariableLevel1": "ECOSYSTEM FUNCTIONS",
+            "VariableLevel2": "PRIMARY PRODUCTION"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+                "EndingDateTime": "2004-12-31T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "bigfoot_npp_surfaces_750",
+        "EntryTitle": "BigFoot NPP Surfaces for North and South American Sites, 2000-2004",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/NPP_surfaces/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/BIGFOOT_VAL/guides/bf_npp_surf_guide.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/750"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/LAI_surfaces/comp/bf_npp_surf_guide.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/bigfoot_val/LAI_surfaces/comp/BigFoot_readme.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/750_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "Web Coverage Service for this collection.",
+            "URLs": [
+              "https://webmap.ornl.gov/wcsdown/dataset.jsp?ds_id=750"
+            ],
+            "MimeType": "application/gml+xml",
+            "Relation": [
+              "GET SERVICE",
+              "WEB COVERAGE SERVICE (WCS)"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2006-03-23T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T17:43:44.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The BigFoot project gathered Net Primary Production (NPP) data for nine EOS Land Validation Sites located from Alaska to Brazil from 2000 to 2004. Each site is representative of one or two distinct biomes, including the Arctic tundra; boreal evergreen needleleaf forest; temperate cropland, grassland, evergreen needleleaf forest, and deciduous broadleaf forest; desert grassland and shrubland; and tropical evergreen broadleaf forest. BigFoot was funded by NASA's Terrestrial Ecology Program.For more details on the BigFoot Project, please visit the website: http://www.fsl.orst.edu/larse/bigfoot/index.html.",
+        "MetadataDates": [
+          {
+            "Date": "2006-03-23T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "BIGFOOT",
+            "LongName": "BigFoot"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIXED OBSERVATION STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              }
+            ]
+          },
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "BALANCE"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

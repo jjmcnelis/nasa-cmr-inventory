@@ -1,0 +1,137 @@
+{
+  "hits": 1,
+  "took": 75,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422748573-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_TE1FXOBS.te01_ch4_co2_flux.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:33:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-06-09T00:00:00.000Z",
+            "EndingDateTime": "1994-09-04T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_TE1FXOBS.te01_ch4_co2_flux.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL GAS/AIR"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "Points": [
+                {
+                  "Longitude": -105.118,
+                  "Latitude": 53.9872
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_TE1FXOBS_311",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/TE/te1fxobs/data/te01_ch4_co2_flux.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/TE01_CO2_CH4_FLUX.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/311",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te1fxobs/comp/TE01_CO2_CH4_FLUX.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te1fxobs/comp/TE01_CO2_CH4_FLUX.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te1fxobs/comp/TE01_CO2_CH4_FLUX.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te1fxobs/comp/te1fxobs.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.005775,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "GAS CHROMATOGRAPHS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "IR CO2 ANALYZER"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

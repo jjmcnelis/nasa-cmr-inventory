@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gr" id="gr">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="gran_name" type="string"></SimpleField>
+	<SimpleField name="gran_size_mb" type="float"></SimpleField>
+	<SimpleField name="gran_parameters" type="string"></SimpleField>
+	<SimpleField name="gran_day_night" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>gr</name>
+  <Placemark>
+	<name>granule</name>
+	<description>G1631354065-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">Profile_based_PBL_heights.Profile_Based_PBL_Heights.csv</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-08-29T10:06:10Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">Profile_based_PBL_heights_1706</SimpleData>
+		<SimpleData name="cmr_publication_date">Profile_based_PBL_heights.Profile_Based_PBL_Heights.csv</SimpleData>
+		<SimpleData name="coll_shortname">0.043045</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-07-18T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-05-20T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">27.23</SimpleData>
+		<SimpleData name="time_max">49.108</SimpleData>
+		<SimpleData name="lat_min">-106.494</SimpleData>
+		<SimpleData name="lat_max">-73.399</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.399,27.23 -73.399,49.108 -106.494,49.108 -106.494,27.23 -73.399,27.23</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

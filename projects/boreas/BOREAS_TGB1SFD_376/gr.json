@@ -1,0 +1,136 @@
+{
+  "hits": 1,
+  "took": 17,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755098-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_TGB1SFD.tgb01_sf6_flux.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:35:56Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-07-30T00:00:00.000Z",
+            "EndingDateTime": "1994-09-10T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_TGB1SFD.tgb01_sf6_flux.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "SULFUR COMPOUNDS"
+          },
+          {
+            "ParameterName": "SOIL GAS/AIR"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -98.624,
+                  "EastBoundingCoordinate": -98.2871,
+                  "NorthBoundingCoordinate": 55.9284,
+                  "SouthBoundingCoordinate": 55.8957
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_TGB1SFD_376",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/TGB/tgb1sfd/data/tgb01_sf6_flux.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/TGB01_SF6.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/376",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TGB/tgb1sfd/comp/TGB01_SF6.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TGB/tgb1sfd/comp/TGB01_SF6.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TGB/tgb1sfd/comp/TGB01_SF6.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TGB/tgb1sfd/comp/tgb1sfd.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.004338,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          },
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "GAS CHROMATOGRAPHS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

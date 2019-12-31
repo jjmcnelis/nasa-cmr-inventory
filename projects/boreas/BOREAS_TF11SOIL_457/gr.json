@@ -1,0 +1,135 @@
+{
+  "hits": 1,
+  "took": 13,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422761413-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_TF11SOIL.tf11_soil_surf_co2_flux.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:40:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-05-27T00:00:00.000Z",
+            "EndingDateTime": "1995-10-03T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_TF11SOIL.tf11_soil_surf_co2_flux.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "WATER TABLE"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "Points": [
+                {
+                  "Longitude": -104.618,
+                  "Latitude": 53.8021
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-12-07T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-12-07T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_TF11SOIL_457",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/TF/tf11soil/data/tf11_soil_surf_co2_flux.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/TF11_Soil_Surf_CO2.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/457",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf11soil/comp/tf11soil.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf11soil/comp/TF11_Soil_Surf_CO2.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf11soil/comp/TF11_Soil_Surf_CO2.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf11soil/comp/TF11_Soil_Surf_CO2.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-12-07T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.20457,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "WATER LEVEL GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "LICOR GAS EXCHANGE SYSTEM"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

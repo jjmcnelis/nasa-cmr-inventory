@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gr" id="gr">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="gran_name" type="string"></SimpleField>
+	<SimpleField name="gran_size_mb" type="float"></SimpleField>
+	<SimpleField name="gran_parameters" type="string"></SimpleField>
+	<SimpleField name="gran_day_night" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>gr</name>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364861-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER10_DC8_ATom-1.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER10_DC8_ATom-1.nc</SimpleData>
+		<SimpleData name="coll_shortname">79.76930299999999</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-07-29T14:33:10.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2016-08-23T20:00:50.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364873-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-1HZ_DC8_ATom-1.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:09Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-1HZ_DC8_ATom-1.nc</SimpleData>
+		<SimpleData name="coll_shortname">413.397166</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-07-29T14:33:17.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2016-08-23T20:00:42.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364859-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-TOGA_DC8_ATom-1.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-TOGA_DC8_ATom-1.nc</SimpleData>
+		<SimpleData name="coll_shortname">10.842223</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-07-29T14:36:05.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2016-08-23T19:58:39.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364856-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-WAS_DC8_ATom-1.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-WAS_DC8_ATom-1.nc</SimpleData>
+		<SimpleData name="coll_shortname">8.458119</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-07-29T14:45:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2016-08-23T19:38:39.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364863-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-MED_DC8_ATom-1.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-MED_DC8_ATom-1.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.502279</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-07-29T14:48:29.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2016-08-23T19:36:08.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364845-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-SAGA-AERO_DC8_ATom-1.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-SAGA-AERO_DC8_ATom-1.nc</SimpleData>
+		<SimpleData name="coll_shortname">4.086639</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-07-29T15:01:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2016-08-23T19:45:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364853-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-PFP_DC8_ATom-1.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-PFP_DC8_ATom-1.nc</SimpleData>
+		<SimpleData name="coll_shortname">4.122286</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-07-29T15:17:30.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2016-08-23T16:46:15.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364867-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER10_DC8_ATom-2.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:08Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER10_DC8_ATom-2.nc</SimpleData>
+		<SimpleData name="coll_shortname">80.16000200000001</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-01-26T17:11:50.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-02-21T23:48:50.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364875-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-1HZ_DC8_ATom-2.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:09Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-1HZ_DC8_ATom-2.nc</SimpleData>
+		<SimpleData name="coll_shortname">409.928019</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-01-26T17:11:50.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-02-21T23:48:48.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364848-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-TOGA_DC8_ATom-2.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-TOGA_DC8_ATom-2.nc</SimpleData>
+		<SimpleData name="coll_shortname">10.97573</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-01-26T17:12:05.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-02-21T23:48:40.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364851-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-WAS_DC8_ATom-2.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-WAS_DC8_ATom-2.nc</SimpleData>
+		<SimpleData name="coll_shortname">9.060980000000001</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-01-26T17:30:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-02-21T23:48:24.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364854-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-SAGA-AERO_DC8_ATom-2.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-SAGA-AERO_DC8_ATom-2.nc</SimpleData>
+		<SimpleData name="coll_shortname">4.193752</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-01-26T17:36:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-02-21T23:22:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364849-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-MED_DC8_ATom-2.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-MED_DC8_ATom-2.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.49756</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-01-26T17:41:05.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-02-21T23:32:02.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364850-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-PFP_DC8_ATom-2.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-PFP_DC8_ATom-2.nc</SimpleData>
+		<SimpleData name="coll_shortname">4.535014</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-01-26T18:24:49.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-02-21T21:32:33.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364870-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER10_DC8_ATom-3.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:08Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER10_DC8_ATom-3.nc</SimpleData>
+		<SimpleData name="coll_shortname">99.280984</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-09-28T14:36:10.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-28T00:53:20.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364872-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-1HZ_DC8_ATom-3.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:09Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-1HZ_DC8_ATom-3.nc</SimpleData>
+		<SimpleData name="coll_shortname">522.5101100000001</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-09-28T14:36:15.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-28T00:53:16.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364864-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-TOGA_DC8_ATom-3.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-TOGA_DC8_ATom-3.nc</SimpleData>
+		<SimpleData name="coll_shortname">13.003973</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-09-28T14:38:05.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-28T00:52:40.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364858-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-WAS_DC8_ATom-3.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-WAS_DC8_ATom-3.nc</SimpleData>
+		<SimpleData name="coll_shortname">10.01202</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-09-28T14:43:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-28T00:53:15.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364847-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-MED_DC8_ATom-3.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-MED_DC8_ATom-3.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.511938</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-09-28T14:47:14.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-28T00:29:01.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364843-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-SAGA-AERO_DC8_ATom-3.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-SAGA-AERO_DC8_ATom-3.nc</SimpleData>
+		<SimpleData name="coll_shortname">4.828033</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-09-28T15:02:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-28T00:30:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364846-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-PFP_DC8_ATom-3.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-PFP_DC8_ATom-3.nc</SimpleData>
+		<SimpleData name="coll_shortname">4.589027</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-09-28T16:16:26.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-25T22:05:22.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364869-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER10_DC8_ATom-4.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:08Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER10_DC8_ATom-4.nc</SimpleData>
+		<SimpleData name="coll_shortname">74.732682</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-04-24T14:45:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-05-21T23:38:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364871-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-1HZ_DC8_ATom-4.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:09Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-1HZ_DC8_ATom-4.nc</SimpleData>
+		<SimpleData name="coll_shortname">407.524656</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-04-24T14:45:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-05-21T23:37:58.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364857-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-MED_DC8_ATom-4.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-MED_DC8_ATom-4.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.434327</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-04-24T14:48:34.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-05-21T23:12:56.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364844-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-SAGA-AERO_DC8_ATom-4.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-SAGA-AERO_DC8_ATom-4.nc</SimpleData>
+		<SimpleData name="coll_shortname">2.433924</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-04-24T15:01:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-05-21T23:22:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1646364855-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_merge.MER-PFP_DC8_ATom-4.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-15T22:01:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_merge_1581</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_merge.MER-PFP_DC8_ATom-4.nc</SimpleData>
+		<SimpleData name="coll_shortname">2.303955</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-04-24T15:32:11.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-05-21T21:19:07.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

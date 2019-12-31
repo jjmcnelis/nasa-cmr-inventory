@@ -1,0 +1,332 @@
+{
+  "hits": 2,
+  "took": 19,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422800816-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_ECMWF2.afm08_ecmwf_surf.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:26:28Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-05-13T00:00:00.000Z",
+            "EndingDateTime": "1997-03-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_ECMWF2.afm08_ecmwf_surf.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "DEW POINT TEMPERATURE"
+          },
+          {
+            "ParameterName": "EVAPORATION"
+          },
+          {
+            "ParameterName": "CLOUD FREQUENCY"
+          },
+          {
+            "ParameterName": "SNOW"
+          },
+          {
+            "ParameterName": "RUNOFF"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -114.0,
+                  "EastBoundingCoordinate": -92.0,
+                  "NorthBoundingCoordinate": 62.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2000-03-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2000-03-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_ECMWF2_523",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/AFM/ecmwf2/data/afm08_ecmwf_surf.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AFM08_ECMWF.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/523",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/ecmwf2/comp/AFM08_ECMWF.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/ecmwf2/comp/AFM08_ECMWF.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/ecmwf2/comp/AFM08_ECMWF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/ecmwf2/comp/ECMWF.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/ecmwf2/comp/ecmwf2.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "2000-03-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.26663,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422800824-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_ECMWF2.afm08_ecmwf_atmos.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:26:28Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-05-13T00:00:00.000Z",
+            "EndingDateTime": "1997-03-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_ECMWF2.afm08_ecmwf_atmos.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "DEW POINT TEMPERATURE"
+          },
+          {
+            "ParameterName": "EVAPORATION"
+          },
+          {
+            "ParameterName": "CLOUD FREQUENCY"
+          },
+          {
+            "ParameterName": "SNOW"
+          },
+          {
+            "ParameterName": "RUNOFF"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -114.0,
+                  "EastBoundingCoordinate": -92.0,
+                  "NorthBoundingCoordinate": 62.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2000-03-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2000-03-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_ECMWF2_523",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/AFM/ecmwf2/data/afm08_ecmwf_atmos.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AFM08_ECMWF.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/523",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/ecmwf2/comp/AFM08_ECMWF.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/ecmwf2/comp/AFM08_ECMWF.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/ecmwf2/comp/AFM08_ECMWF.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/ecmwf2/comp/ECMWF.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/ecmwf2/comp/ecmwf2.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "2000-03-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 82.056872,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

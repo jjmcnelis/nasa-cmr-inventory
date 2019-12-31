@@ -1,0 +1,130 @@
+{
+  "hits": 1,
+  "took": 13,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755912-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_LTMPHYSS.02Sep1994.bin",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:38:39Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-09-02T00:00:00.000Z",
+            "EndingDateTime": "1994-09-02T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_LTMPHYSS.02Sep1994.bin",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -106.52,
+                  "EastBoundingCoordinate": -104.19,
+                  "NorthBoundingCoordinate": 54.44,
+                  "SouthBoundingCoordinate": 53.31
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-11-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-11-12T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_LTMPHYSS_432",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/TE/ltmphyss/data/02Sep1994.bin",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/TE18_SSA_Class_Traj.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/432",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/ltmphyss/comp/02Sep1994.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/ltmphyss/comp/README",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/ltmphyss/comp/TE18_SSA_Class_Traj.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/ltmphyss/comp/TE18_SSA_Class_Traj.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/ltmphyss/comp/TE18_SSA_Class_Traj.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-11-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 18.24,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LANDSAT-5",
+            "Instruments": [
+              {
+                "ShortName": "TM"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

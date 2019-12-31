@@ -1,0 +1,174 @@
+{
+  "hits": 1,
+  "took": 14,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422753287-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_TF5TFLXD.tf05_tower_flux.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:35:33Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-05-23T00:00:00.000Z",
+            "EndingDateTime": "1994-09-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_TF5TFLXD.tf05_tower_flux.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "OZONE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "Points": [
+                {
+                  "Longitude": -104.692,
+                  "Latitude": 53.9163
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_TF5TFLXD_364",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/TF/tf5tflxd/data/tf05_tower_flux.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/TF05_Flux.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/364",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf5tflxd/comp/TF05_Flux.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf5tflxd/comp/TF05_Flux.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf5tflxd/comp/TF05_Flux.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf5tflxd/comp/tf5tflxd.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1.25705,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIXED OBSERVATION STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "OZONE SENSOR"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "THERMOCOUPLES"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "SOIL HEAT FLUX TRANSDUCER"
+              },
+              {
+                "ShortName": "IR CO2 ANALYZER"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

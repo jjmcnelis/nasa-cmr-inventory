@@ -1,0 +1,671 @@
+{
+  "hits": 5,
+  "took": 16,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422744219-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_NSAFCOVR.nsa_cutting_class.gz",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:27:34Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1988-01-01T00:00:00.000Z",
+            "EndingDateTime": "1992-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_NSAFCOVR.nsa_cutting_class.gz",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "FOREST COMPOSITION/VEGETATION STRUCTURE"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -98.816,
+                  "EastBoundingCoordinate": -97.832,
+                  "NorthBoundingCoordinate": 56.074,
+                  "SouthBoundingCoordinate": 55.717
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_NSAFCOVR_252",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/data/nsa_cutting_class.gz",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/NSA_Forest_Cover.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/252",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/NSA_Forest_Cover.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/NSA_Forest_Cover.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/NSA_Forest_Cover.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/nsa_header.asc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.136936,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "AERIAL PHOTOGRAPHS",
+            "Instruments": [
+              {
+                "ShortName": "DIGITIZER"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422744221-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_NSAFCOVR.nsa_site_class.gz",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:27:34Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1988-01-01T00:00:00.000Z",
+            "EndingDateTime": "1992-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_NSAFCOVR.nsa_site_class.gz",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "FOREST COMPOSITION/VEGETATION STRUCTURE"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -98.816,
+                  "EastBoundingCoordinate": -97.832,
+                  "NorthBoundingCoordinate": 56.074,
+                  "SouthBoundingCoordinate": 55.717
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_NSAFCOVR_252",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/data/nsa_site_class.gz",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/NSA_Forest_Cover.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/252",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/NSA_Forest_Cover.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/NSA_Forest_Cover.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/NSA_Forest_Cover.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/nsa_header.asc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.151037,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "AERIAL PHOTOGRAPHS",
+            "Instruments": [
+              {
+                "ShortName": "DIGITIZER"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422744223-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_NSAFCOVR.nsa_forest_cover.doc.gz",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:27:35Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1988-01-01T00:00:00.000Z",
+            "EndingDateTime": "1992-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_NSAFCOVR.nsa_forest_cover.doc.gz",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "FOREST COMPOSITION/VEGETATION STRUCTURE"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -98.816,
+                  "EastBoundingCoordinate": -97.832,
+                  "NorthBoundingCoordinate": 56.074,
+                  "SouthBoundingCoordinate": 55.717
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_NSAFCOVR_252",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/data/nsa_forest_cover.doc.gz",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/NSA_Forest_Cover.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/252",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/NSA_Forest_Cover.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/NSA_Forest_Cover.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/NSA_Forest_Cover.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/nsa_header.asc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.013861,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "AERIAL PHOTOGRAPHS",
+            "Instruments": [
+              {
+                "ShortName": "DIGITIZER"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422744225-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_NSAFCOVR.nsa_species_cover.gz",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:27:35Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1988-01-01T00:00:00.000Z",
+            "EndingDateTime": "1992-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_NSAFCOVR.nsa_species_cover.gz",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "FOREST COMPOSITION/VEGETATION STRUCTURE"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -98.816,
+                  "EastBoundingCoordinate": -97.832,
+                  "NorthBoundingCoordinate": 56.074,
+                  "SouthBoundingCoordinate": 55.717
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_NSAFCOVR_252",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/data/nsa_species_cover.gz",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/NSA_Forest_Cover.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/252",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/NSA_Forest_Cover.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/NSA_Forest_Cover.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/NSA_Forest_Cover.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/nsa_header.asc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.168992,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "AERIAL PHOTOGRAPHS",
+            "Instruments": [
+              {
+                "ShortName": "DIGITIZER"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422744227-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_NSAFCOVR.nsa_crown_closure.gz",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:27:36Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1988-01-01T00:00:00.000Z",
+            "EndingDateTime": "1992-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_NSAFCOVR.nsa_crown_closure.gz",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "FOREST COMPOSITION/VEGETATION STRUCTURE"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -98.816,
+                  "EastBoundingCoordinate": -97.832,
+                  "NorthBoundingCoordinate": 56.074,
+                  "SouthBoundingCoordinate": 55.717
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_NSAFCOVR_252",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/data/nsa_crown_closure.gz",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/NSA_Forest_Cover.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/252",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/NSA_Forest_Cover.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/NSA_Forest_Cover.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/NSA_Forest_Cover.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/STAFF/nsafcovr/comp/nsa_header.asc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.126552,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "AERIAL PHOTOGRAPHS",
+            "Instruments": [
+              {
+                "ShortName": "DIGITIZER"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

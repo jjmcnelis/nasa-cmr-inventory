@@ -1,0 +1,5679 @@
+{
+  "hits": 31,
+  "took": 42,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825007-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-03-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:17Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-03-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-03-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.685302,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825013-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-07-00_nsa-obs-flxtr_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:17Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-07-00_nsa-obs-flxtr_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-07-00_nsa-obs-flxtr_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.176175,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825020-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-02-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-02-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-02-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.615234,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825027-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.98-02-00_nsa-obs-flxtr_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.98-02-00_nsa-obs-flxtr_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/98-02-00_nsa-obs-flxtr_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.685947,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825035-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-08-00_nsa-obs-flxtr_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:19Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-08-00_nsa-obs-flxtr_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-08-00_nsa-obs-flxtr_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.756782,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825044-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-06-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:19Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-06-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-06-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.72614,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825051-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.98-04-00_nsa-obs-flxtr_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:20Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.98-04-00_nsa-obs-flxtr_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/98-04-00_nsa-obs-flxtr_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.751049,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825059-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-04-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:20Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-04-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-04-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.659137,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825067-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-05-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:20Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-05-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-05-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.737379,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825075-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.98-05-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.98-05-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/98-05-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.698066,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825085-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.98-05-00_nsa-obs-flxtr_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:21Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.98-05-00_nsa-obs-flxtr_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/98-05-00_nsa-obs-flxtr_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.772533,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825093-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.98-06-00_nsa-obs-flxtr_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:22Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.98-06-00_nsa-obs-flxtr_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/98-06-00_nsa-obs-flxtr_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.62109,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825101-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.98-02-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:22Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.98-02-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/98-02-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.582031,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825109-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-09-00_nsa-obs-flxtr_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:23Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-09-00_nsa-obs-flxtr_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-09-00_nsa-obs-flxtr_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.725423,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825116-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.96-12-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:23Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.96-12-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/96-12-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.740342,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825124-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-12-00_nsa-obs-flxtr_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:24Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-12-00_nsa-obs-flxtr_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-12-00_nsa-obs-flxtr_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.750046,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825133-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-10-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:24Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-10-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-10-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.732123,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825140-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.98-04-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:25Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.98-04-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/98-04-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.717238,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825148-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.98-03-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:25Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.98-03-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/98-03-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.725413,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825157-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-01-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:25Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-01-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-01-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.673871,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825166-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-12-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:26Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-12-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-12-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.674918,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825173-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.98-03-00_nsa-obs-flxtr_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:26Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.98-03-00_nsa-obs-flxtr_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/98-03-00_nsa-obs-flxtr_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.777279,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825181-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.98-06-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.98-06-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/98-06-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.668443,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825189-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-07-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-07-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-07-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.741844,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825196-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-10-00_nsa-obs-flxtr_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:28Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-10-00_nsa-obs-flxtr_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-10-00_nsa-obs-flxtr_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.742632,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825204-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-09-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:28Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-09-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-09-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.701583,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825210-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-11-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:29Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-11-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-11-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.714009,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825216-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-11-00_nsa-obs-flxtr_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:29Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-11-00_nsa-obs-flxtr_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-11-00_nsa-obs-flxtr_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.724485,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825224-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.98-01-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:29Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.98-01-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/98-01-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.605356,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825230-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.98-01-00_nsa-obs-flxtr_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:30Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.98-01-00_nsa-obs-flxtr_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/98-01-00_nsa-obs-flxtr_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.759794,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422825239-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "hmet04_met.97-08-00_nsa-9bs-ythsa_src.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T17:41:30Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-01-01T00:00:00.000Z",
+            "EndingDateTime": "1999-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "hmet04_met.97-08-00_nsa-9bs-ythsa_src.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "EastBoundingCoordinate": -90.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": 48.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2001-10-02T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "hmet04_met_609",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/data/97-08-00_nsa-9bs-ythsa_src.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/FollowOn/guides/hmet04_src_nsa_met_doc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/609",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_readme.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/0_site_list.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas-follow-on/hmet04/src_nsa_96-98/comp/hmet04_src_nsa_met_doc.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2001-10-02T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.737093,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

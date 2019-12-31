@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gr" id="gr">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="gran_name" type="string"></SimpleField>
+	<SimpleField name="gran_size_mb" type="float"></SimpleField>
+	<SimpleField name="gran_parameters" type="string"></SimpleField>
+	<SimpleField name="gran_day_night" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>gr</name>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834336-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_O3col.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:42:59Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_O3col.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.027824</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2005-08-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2012-08-31T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834347-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_TPac_subsample.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:43:00Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_TPac_subsample.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.134045</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2005-08-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-08-31T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834326-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_RMcldyclr.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:42:59Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_RMcldyclr.nc</SimpleData>
+		<SimpleData name="coll_shortname">1.103207</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2005-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2005-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834327-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Cmodel_UCI_CFcompliant.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:42:59Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Cmodel_UCI_CFcompliant.nc</SimpleData>
+		<SimpleData name="coll_shortname">374.833732</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2005-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2005-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834346-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Imodel_UCIb_CFcompliant.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:43:00Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Imodel_UCIb_CFcompliant.nc</SimpleData>
+		<SimpleData name="coll_shortname">374.827583</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2005-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2005-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834351-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_ODmetUCI.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:43:00Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_ODmetUCI.nc</SimpleData>
+		<SimpleData name="coll_shortname">156.425311</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2005-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2005-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834330-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Dmodel_NCAR_CFcompliant.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:42:59Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Dmodel_NCAR_CFcompliant.nc</SimpleData>
+		<SimpleData name="coll_shortname">1364.430939</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2008-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2008-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834335-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Emodel_UKCA_CFcompliant.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:42:59Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Emodel_UKCA_CFcompliant.nc</SimpleData>
+		<SimpleData name="coll_shortname">133.158694</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2008-08-17T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2008-08-17T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834325-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Imodel_UCIb.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:42:59Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Imodel_UCIb.nc</SimpleData>
+		<SimpleData name="coll_shortname">374.796335</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834333-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Dmodel_NCAR.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:42:59Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Dmodel_NCAR.nc</SimpleData>
+		<SimpleData name="coll_shortname">1364.438759</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834334-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Fmodel_MOCA.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:42:59Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Fmodel_MOCA.nc</SimpleData>
+		<SimpleData name="coll_shortname">479.055808</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834337-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Gmodel_IFS.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:42:59Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Gmodel_IFS.nc</SimpleData>
+		<SimpleData name="coll_shortname">1097.944476</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834338-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Hmodel_GFDL_CFcompliant.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:42:59Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Hmodel_GFDL_CFcompliant.nc</SimpleData>
+		<SimpleData name="coll_shortname">1379.488772</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834339-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Amodel_GC.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:42:59Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Amodel_GC.nc</SimpleData>
+		<SimpleData name="coll_shortname">100.8892</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834341-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Kmodel_GMI.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:43:00Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Kmodel_GMI.nc</SimpleData>
+		<SimpleData name="coll_shortname">378.7949</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834342-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Emodel_UKCA.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:43:00Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Emodel_UKCA.nc</SimpleData>
+		<SimpleData name="coll_shortname">133.147257</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834343-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_cosSZA.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:43:00Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_cosSZA.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.029924</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834344-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Hmodel_GFDL.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:43:00Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Hmodel_GFDL.nc</SimpleData>
+		<SimpleData name="coll_shortname">1379.435186</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834345-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Bmodel_GISS_CFcompliant.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:43:00Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Bmodel_GISS_CFcompliant.nc</SimpleData>
+		<SimpleData name="coll_shortname">76.82226799999999</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834348-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_cloudODCF.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:43:00Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_cloudODCF.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.202582</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834349-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Amodel_GC_CFcompliant.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:43:00Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Amodel_GC_CFcompliant.nc</SimpleData>
+		<SimpleData name="coll_shortname">100.896173</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834350-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Cmodel_UCI.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:43:00Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Cmodel_UCI.nc</SimpleData>
+		<SimpleData name="coll_shortname">374.799401</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834332-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_obs_CAFS.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:42:59Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_obs_CAFS.nc</SimpleData>
+		<SimpleData name="coll_shortname">3.908529</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-08-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2016-08-31T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834340-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Gmodel_IFS_CFcompliant.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:43:00Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Gmodel_IFS_CFcompliant.nc</SimpleData>
+		<SimpleData name="coll_shortname">1097.935253</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-08-15T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2016-08-15T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834328-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Kmodel_GMI_CFcompliant.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:42:59Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Kmodel_GMI_CFcompliant.nc</SimpleData>
+		<SimpleData name="coll_shortname">378.838058</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2016-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834329-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Bmodel_GISS.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:42:59Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Bmodel_GISS.nc</SimpleData>
+		<SimpleData name="coll_shortname">76.81675300000001</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2016-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1616834331-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ATom_Photolysis_Rates.Jstat_Fmodel_MOCA_CFcompliant.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-06-02T16:42:59Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">ATom_Photolysis_Rates_1651</SimpleData>
+		<SimpleData name="cmr_publication_date">ATom_Photolysis_Rates.Jstat_Fmodel_MOCA_CFcompliant.nc</SimpleData>
+		<SimpleData name="coll_shortname">479.06327</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

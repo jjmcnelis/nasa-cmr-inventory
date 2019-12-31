@@ -1,0 +1,131 @@
+{
+  "hits": 1,
+  "took": 17,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422761393-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_TF08CEIL.tf08_ceilometer.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:40:49Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-05-31T00:00:00.000Z",
+            "EndingDateTime": "1996-11-10T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_TF08CEIL.tf08_ceilometer.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "CLOUD CEILING"
+          },
+          {
+            "ParameterName": "CLOUD FREQUENCY"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -105.118,
+                  "EastBoundingCoordinate": -98.624,
+                  "NorthBoundingCoordinate": 55.9284,
+                  "SouthBoundingCoordinate": 53.9872
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-12-07T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-12-07T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_TF08CEIL_453",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/TF/tf08ceil/data/tf08_ceilometer.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/TF08_Ceilometer.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/453",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf08ceil/comp/tf08ceil.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf08ceil/comp/TF08_Ceilometer.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf08ceil/comp/TF08_Ceilometer.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf08ceil/comp/TF08_Ceilometer.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-12-07T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1.476803,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "CEILOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

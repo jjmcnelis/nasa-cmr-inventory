@@ -4,22 +4,33 @@ PyABoVE: Generate KML inventory of ABoVE assets.
   version: {}
   author:  {}
   email:   {}
-
 '''.format( "0.1.0", "jjmcnelis", "jjmcn@gmail.com" )
+
 from os.path import join as pjoin
 from .cmr import *
 from . import *
 import sys
 import os
 
-try:  # Run config handler. Exit on error.
-    config = handle_config(sys.argv[1])
+# Enable fiona driver for writing KML files.
+gpd.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
+
+### Prepare to run. 
+
+# Check the argument (should be one, a valid CMR project).
+try:
+    project = sys.argv[1]
+except Exception as e:
+    print("ERROR: Missing argument 1 (project id)."); raise(e)
+
+# Run config handler. Exit on error.
+try:  
+    config = handle_config(project)
 except Exception as e:
     print("ERROR: Bad configuration file."); raise(e)
 
 # Select some items from the config.
 outputs = config['paths']['outputs']
-project = config['options']['project'] 
 
 ### DATASETS: Optionally retrieve new dataset reference files.
 if config['cmr']['datasets']['update']:
@@ -39,11 +50,11 @@ if config['cmr']['datasets']['update']:
     ddf = get_df(datasets, coll_fields)
     ddf.to_csv(pjoin(outputs, "ds.csv"), index=False)
 
-    # Get the pandas.DataFrame as a GeoDataFrame and write to ESRI Shapefile.
+    # Get pandas.DataFrame as a GeoDataFrame. Write ESRI Shapefile & GeoJSON.
     gdf = get_gdf(ddf)
-    gdf.to_file( driver="ESRI Shapefile", 
-                 #filename=pjoin(outputs, "ds.shp"))
-                 filename=pjoin(outputs, "ds.shp"))
+    gdf.to_file( driver="ESRI Shapefile", filename=pjoin(outputs, "ds.shp"))
+    gdf.to_file( driver="KML", filename=pjoin(outputs, "ds.kml"))
+    gdf.to_file( driver="GeoJSON", filename=pjoin(outputs, "ds.geojson"))
 
 else:  ### If update is false, open existing datasets reference.
     print("# READ REFERENCES [ DATASETS ]")
@@ -94,9 +105,10 @@ if config['cmr']['granules']['update']:
             # Get the pandas.DataFrame as a GeoDataFrame.
             grgdf = get_gdf(grdf)
             
-            # Write to ESRI Shapefile.
-            grgdf.to_file( driver="ESRI Shapefile", 
-                           filename=pjoin(dsgrdir, "gr.shp"))
+            # Write to ESRI Shapefile, KML, and GeoJSON.
+            grgdf.to_file(driver="ESRI Shapefile", filename=pjoin(dsgrdir, "gr.shp"))
+            grgdf.to_file(driver="KML", filename=pjoin(dsgrdir, "gr.kml"))
+            grgdf.to_file(driver="GeoJSON", filename=pjoin(dsgrdir, "gr.geojson"))
             
         # Add the granule count to the granule counter.
         gran_counter+=int(grdf.index.size)
@@ -107,7 +119,7 @@ with open(pjoin(config['paths']['projects'], "projects.json"), "r") as f:
 
 # Record some information about this run.
 proj_record = {
-    'timestamp': dt.now().__str__(), 
+    'timestamp': dt.now().__str__().split(".")[0], 
     'ndatasets': ddf.index.size, 
     'ngranules': gran_counter, }
 
@@ -119,5 +131,13 @@ else:
 
 ### Add project to the projects.json if it's not already there.
 with open(pjoin(config['paths']['projects'], "projects.json"), "w") as f:
+
     # Replace the content of the open file.
     f.write(json.dumps(proj_reference, indent=2))
+
+### Write a new README.md file if config says so.
+if config['replace_readme']:
+    write_readme(directory=config['paths']['projects'],
+                 readme_path="README.md",
+                 readme_project="above",
+                 readme_dataset="ABoVE_Arctic_CAP_1658", ) 

@@ -1,0 +1,1194 @@
+{
+  "hits": 9,
+  "took": 21,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1517446362-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "VPRM_North_America_Parameters.VPRM_parameters_pft_sites_all_data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-06T14:56:38Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+            "EndingDateTime": "2000-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "VPRM_North_America_Parameters.VPRM_parameters_pft_sites_all_data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.63,
+                  "EastBoundingCoordinate": -68.74,
+                  "NorthBoundingCoordinate": 71.32,
+                  "SouthBoundingCoordinate": 28.46
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-11-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-06T14:56:36.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "VPRM_North_America_Parameters_1349",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/data//VPRM_parameters_pft_sites_all_data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/VPRM_North_America_Parameters.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1349",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/comp/VPRM_North_America_Parameters.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2016-11-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.000677,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "METEOROLOGICAL STATIONS"
+          },
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1517446363-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "VPRM_North_America_Parameters.VPRM_parameters_individual_sites_all_data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-06T14:56:38Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+            "EndingDateTime": "2004-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "VPRM_North_America_Parameters.VPRM_parameters_individual_sites_all_data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.63,
+                  "EastBoundingCoordinate": -68.74,
+                  "NorthBoundingCoordinate": 71.32,
+                  "SouthBoundingCoordinate": 28.46
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-11-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-06T14:56:36.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "VPRM_North_America_Parameters_1349",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/data//VPRM_parameters_individual_sites_all_data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/VPRM_North_America_Parameters.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1349",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/comp/VPRM_North_America_Parameters.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2016-11-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.004443,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "METEOROLOGICAL STATIONS"
+          },
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1517446364-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "VPRM_North_America_Parameters.VPRM_parameters_individual_sites_annual_data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-06T14:56:38Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+            "EndingDateTime": "2006-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "VPRM_North_America_Parameters.VPRM_parameters_individual_sites_annual_data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.63,
+                  "EastBoundingCoordinate": -68.74,
+                  "NorthBoundingCoordinate": 71.32,
+                  "SouthBoundingCoordinate": 28.46
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-11-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-06T14:56:36.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "VPRM_North_America_Parameters_1349",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/data//VPRM_parameters_individual_sites_annual_data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/VPRM_North_America_Parameters.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1349",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/comp/VPRM_North_America_Parameters.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2016-11-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.018989,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "METEOROLOGICAL STATIONS"
+          },
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1517446365-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "VPRM_North_America_Parameters.VPRM_parameters_individual_sites_monthly_data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-06T14:56:38Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+            "EndingDateTime": "2006-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "VPRM_North_America_Parameters.VPRM_parameters_individual_sites_monthly_data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.63,
+                  "EastBoundingCoordinate": -68.74,
+                  "NorthBoundingCoordinate": 71.32,
+                  "SouthBoundingCoordinate": 28.46
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-11-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-06T14:56:36.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "VPRM_North_America_Parameters_1349",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/data//VPRM_parameters_individual_sites_monthly_data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/VPRM_North_America_Parameters.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1349",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/comp/VPRM_North_America_Parameters.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2016-11-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.222377,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "METEOROLOGICAL STATIONS"
+          },
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1517446366-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "VPRM_North_America_Parameters.VPRM_parameters_all_sites_all_data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-06T14:56:38Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "VPRM_North_America_Parameters.VPRM_parameters_all_sites_all_data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.63,
+                  "EastBoundingCoordinate": -68.74,
+                  "NorthBoundingCoordinate": 71.32,
+                  "SouthBoundingCoordinate": 28.46
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-11-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-06T14:56:36.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "VPRM_North_America_Parameters_1349",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/data//VPRM_parameters_all_sites_all_data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/VPRM_North_America_Parameters.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1349",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/comp/VPRM_North_America_Parameters.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2016-11-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.000191,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "METEOROLOGICAL STATIONS"
+          },
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1517446367-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "VPRM_North_America_Parameters.VPRM_parameters_all_sites_monthly_data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-06T14:56:38Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+            "EndingDateTime": "2006-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "VPRM_North_America_Parameters.VPRM_parameters_all_sites_monthly_data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.63,
+                  "EastBoundingCoordinate": -68.74,
+                  "NorthBoundingCoordinate": 71.32,
+                  "SouthBoundingCoordinate": 28.46
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-11-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-06T14:56:36.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "VPRM_North_America_Parameters_1349",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/data//VPRM_parameters_all_sites_monthly_data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/VPRM_North_America_Parameters.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1349",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/comp/VPRM_North_America_Parameters.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2016-11-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.005497,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "METEOROLOGICAL STATIONS"
+          },
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1517446368-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "VPRM_North_America_Parameters.VPRM_parameters_all_sites_annual_data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-06T14:56:38Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "VPRM_North_America_Parameters.VPRM_parameters_all_sites_annual_data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.63,
+                  "EastBoundingCoordinate": -68.74,
+                  "NorthBoundingCoordinate": 71.32,
+                  "SouthBoundingCoordinate": 28.46
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-11-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-06T14:56:36.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "VPRM_North_America_Parameters_1349",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/data//VPRM_parameters_all_sites_annual_data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/VPRM_North_America_Parameters.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1349",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/comp/VPRM_North_America_Parameters.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2016-11-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.000634,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "METEOROLOGICAL STATIONS"
+          },
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1517446369-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "VPRM_North_America_Parameters.VPRM_parameters_pft_sites_annual_data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-06T14:56:39Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+            "EndingDateTime": "2006-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "VPRM_North_America_Parameters.VPRM_parameters_pft_sites_annual_data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.63,
+                  "EastBoundingCoordinate": -68.74,
+                  "NorthBoundingCoordinate": 71.32,
+                  "SouthBoundingCoordinate": 28.46
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-11-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-06T14:56:36.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "VPRM_North_America_Parameters_1349",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/data//VPRM_parameters_pft_sites_annual_data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/VPRM_North_America_Parameters.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1349",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/comp/VPRM_North_America_Parameters.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2016-11-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.003862,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "METEOROLOGICAL STATIONS"
+          },
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1517446370-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "VPRM_North_America_Parameters.VPRM_parameters_pft_sites_monthly_data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-06T14:56:39Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+            "EndingDateTime": "2006-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "VPRM_North_America_Parameters.VPRM_parameters_pft_sites_monthly_data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "RESPIRATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -156.63,
+                  "EastBoundingCoordinate": -68.74,
+                  "NorthBoundingCoordinate": 71.32,
+                  "SouthBoundingCoordinate": 28.46
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-11-17T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-06T14:56:36.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "VPRM_North_America_Parameters_1349",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/data//VPRM_parameters_pft_sites_monthly_data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/VPRM_North_America_Parameters.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1349",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/VPRM_North_America_Parameters/comp/VPRM_North_America_Parameters.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2016-11-17T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.044559,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Terra",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "METEOROLOGICAL STATIONS"
+          },
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

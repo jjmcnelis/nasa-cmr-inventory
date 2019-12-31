@@ -1,0 +1,393 @@
+{
+  "hits": 3,
+  "took": 22,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1516725682-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "US_MODIS_Veg_Parameters.infrared_visible_bands_8day_2003-2010.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-01T13:58:12Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2003-01-01T00:00:00.000Z",
+            "EndingDateTime": "2010-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "US_MODIS_Veg_Parameters.infrared_visible_bands_8day_2003-2010.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "LEAF AREA INDEX (LAI)"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -139.051,
+                  "EastBoundingCoordinate": -51.9489,
+                  "NorthBoundingCoordinate": 49.1525,
+                  "SouthBoundingCoordinate": 15.1525
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-04-16T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-01T13:58:11.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "US_MODIS_Veg_Parameters_1539",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/US_MODIS_Veg_Parameters/data/infrared_visible_bands_8day_2003-2010.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/US_MODIS_Veg_Parameters.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1539",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/US_MODIS_Veg_Parameters/comp/US_MODIS_Veg_Parameters.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-04-16T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 88.335229,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "AQUA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "TERRA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1516725685-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "US_MODIS_Veg_Parameters.leaf_stem_area_index_monthly_climatology_2003-2010.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-01T13:58:12Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2003-01-01T00:00:00.000Z",
+            "EndingDateTime": "2010-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "US_MODIS_Veg_Parameters.leaf_stem_area_index_monthly_climatology_2003-2010.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "LEAF AREA INDEX (LAI)"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -139.051,
+                  "EastBoundingCoordinate": -51.9489,
+                  "NorthBoundingCoordinate": 49.1525,
+                  "SouthBoundingCoordinate": 15.1525
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-04-16T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-01T13:58:11.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "US_MODIS_Veg_Parameters_1539",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/US_MODIS_Veg_Parameters/data/leaf_stem_area_index_monthly_climatology_2003-2010.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/US_MODIS_Veg_Parameters.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1539",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/US_MODIS_Veg_Parameters/comp/US_MODIS_Veg_Parameters.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-04-16T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1.501143,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "AQUA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "TERRA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1516725686-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "US_MODIS_Veg_Parameters.leaf_stem_area_index_8day_2003-2010.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-05-01T13:58:12Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2003-01-01T00:00:00.000Z",
+            "EndingDateTime": "2010-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "US_MODIS_Veg_Parameters.leaf_stem_area_index_8day_2003-2010.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "LEAF AREA INDEX (LAI)"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "ALBEDO"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -139.051,
+                  "EastBoundingCoordinate": -51.9489,
+                  "NorthBoundingCoordinate": 49.1525,
+                  "SouthBoundingCoordinate": 15.1525
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-04-16T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-05-01T13:58:11.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "US_MODIS_Veg_Parameters_1539",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/nacp/US_MODIS_Veg_Parameters/data/leaf_stem_area_index_8day_2003-2010.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/NACP/guides/US_MODIS_Veg_Parameters.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1539",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/nacp/US_MODIS_Veg_Parameters/comp/US_MODIS_Veg_Parameters.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "NACP"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2018-04-16T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 36.227022,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "AQUA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          },
+          {
+            "ShortName": "TERRA",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

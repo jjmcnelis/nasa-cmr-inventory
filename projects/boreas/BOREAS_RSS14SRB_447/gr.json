@@ -1,0 +1,150 @@
+{
+  "hits": 1,
+  "took": 14,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422760650-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_RSS14SRB.rss14-gr3-05-16-1994-0030.img",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:40:32Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-05-16T00:00:00.000Z",
+            "EndingDateTime": "1994-05-16T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_RSS14SRB.rss14-gr3-05-16-1994-0030.img",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "REFLECTANCE"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.14,
+                  "EastBoundingCoordinate": -95.48,
+                  "NorthBoundingCoordinate": 56.58,
+                  "SouthBoundingCoordinate": 53.15
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-11-16T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-11-16T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_RSS14SRB_447",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/RSS/rss14srb/data/rss14-gr3-05-16-1994-0030.img",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/RSS14_L3_Gridded_SRB.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/447",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/RSS/rss14srb/comp/README",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/RSS/rss14srb/comp/RSS14_L3_Gridded_SRB.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/RSS/rss14srb/comp/RSS14_L3_Gridded_SRB.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/RSS/rss14srb/comp/RSS14_L3_Gridded_SRB.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-11-16T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.474029,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIXED OBSERVATION STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-8",
+            "Instruments": [
+              {
+                "ShortName": "GOES-8 IMAGER"
+              }
+            ]
+          },
+          {
+            "ShortName": "GOES-7",
+            "Instruments": [
+              {
+                "ShortName": "VISSR"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

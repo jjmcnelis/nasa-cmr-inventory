@@ -1,0 +1,942 @@
+{
+  "hits": 6,
+  "took": 18,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834194-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_Mangrove_Cover.mangrove_cover_2000-2016_gabon.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:41:23Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+            "EndingDateTime": "2016-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_Mangrove_Cover.mangrove_cover_2000-2016_gabon.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          },
+          {
+            "ParameterName": "COASTAL"
+          },
+          {
+            "ParameterName": "DEFORESTATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 7.99986,
+                  "EastBoundingCoordinate": 13.0001,
+                  "NorthBoundingCoordinate": 2.00014,
+                  "SouthBoundingCoordinate": -5.00014
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:41:22.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_Mangrove_Cover_1670",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/data/mangrove_cover_2000-2016_gabon.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Mangrove_Cover.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1670",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/comp/CMS_Mangrove_Cover.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/comp/CMS_Mangrove_Cover_ErrorMatrix.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 9.708461,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LANDSAT-7",
+            "Instruments": [
+              {
+                "ShortName": "ETM+"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-8",
+            "Instruments": [
+              {
+                "ShortName": "OLI"
+              }
+            ]
+          },
+          {
+            "ShortName": "SENTINEL-1A",
+            "Instruments": [
+              {
+                "ShortName": "SENTINEL-1 C-SAR"
+              }
+            ]
+          },
+          {
+            "ShortName": "STS-99",
+            "Instruments": [
+              {
+                "ShortName": "SRTM"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-5",
+            "Instruments": [
+              {
+                "ShortName": "TM"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834195-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_Mangrove_Cover.mangrove_cover_2000-2016_peru.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:41:23Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+            "EndingDateTime": "2016-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_Mangrove_Cover.mangrove_cover_2000-2016_peru.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          },
+          {
+            "ParameterName": "COASTAL"
+          },
+          {
+            "ParameterName": "DEFORESTATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -82.0002,
+                  "EastBoundingCoordinate": -69.9996,
+                  "NorthBoundingCoordinate": -2.99977,
+                  "SouthBoundingCoordinate": -19.0002
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:41:22.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_Mangrove_Cover_1670",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/data/mangrove_cover_2000-2016_peru.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Mangrove_Cover.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1670",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/comp/CMS_Mangrove_Cover.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/comp/CMS_Mangrove_Cover_ErrorMatrix.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 41.802592,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LANDSAT-7",
+            "Instruments": [
+              {
+                "ShortName": "ETM+"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-8",
+            "Instruments": [
+              {
+                "ShortName": "OLI"
+              }
+            ]
+          },
+          {
+            "ShortName": "SENTINEL-1A",
+            "Instruments": [
+              {
+                "ShortName": "SENTINEL-1 C-SAR"
+              }
+            ]
+          },
+          {
+            "ShortName": "STS-99",
+            "Instruments": [
+              {
+                "ShortName": "SRTM"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-5",
+            "Instruments": [
+              {
+                "ShortName": "TM"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834196-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_Mangrove_Cover.mangrove_cover_2000-2016_senegal.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:41:23Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+            "EndingDateTime": "2016-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_Mangrove_Cover.mangrove_cover_2000-2016_senegal.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          },
+          {
+            "ParameterName": "COASTAL"
+          },
+          {
+            "ParameterName": "DEFORESTATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -18.0001,
+                  "EastBoundingCoordinate": -13.9999,
+                  "NorthBoundingCoordinate": 17.0001,
+                  "SouthBoundingCoordinate": 11.9999
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:41:22.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_Mangrove_Cover_1670",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/data/mangrove_cover_2000-2016_senegal.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Mangrove_Cover.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1670",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/comp/CMS_Mangrove_Cover.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/comp/CMS_Mangrove_Cover_ErrorMatrix.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.459894,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LANDSAT-7",
+            "Instruments": [
+              {
+                "ShortName": "ETM+"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-8",
+            "Instruments": [
+              {
+                "ShortName": "OLI"
+              }
+            ]
+          },
+          {
+            "ShortName": "SENTINEL-1A",
+            "Instruments": [
+              {
+                "ShortName": "SENTINEL-1 C-SAR"
+              }
+            ]
+          },
+          {
+            "ShortName": "STS-99",
+            "Instruments": [
+              {
+                "ShortName": "SRTM"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-5",
+            "Instruments": [
+              {
+                "ShortName": "TM"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834197-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_Mangrove_Cover.mangrove_cover_2000-2016_jamaica.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:41:23Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+            "EndingDateTime": "2016-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_Mangrove_Cover.mangrove_cover_2000-2016_jamaica.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          },
+          {
+            "ParameterName": "COASTAL"
+          },
+          {
+            "ParameterName": "DEFORESTATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -79.0001,
+                  "EastBoundingCoordinate": -75.9999,
+                  "NorthBoundingCoordinate": 19.0001,
+                  "SouthBoundingCoordinate": 16.9999
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:41:22.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_Mangrove_Cover_1670",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/data/mangrove_cover_2000-2016_jamaica.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Mangrove_Cover.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1670",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/comp/CMS_Mangrove_Cover.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/comp/CMS_Mangrove_Cover_ErrorMatrix.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1.967649,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LANDSAT-7",
+            "Instruments": [
+              {
+                "ShortName": "ETM+"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-8",
+            "Instruments": [
+              {
+                "ShortName": "OLI"
+              }
+            ]
+          },
+          {
+            "ShortName": "SENTINEL-1A",
+            "Instruments": [
+              {
+                "ShortName": "SENTINEL-1 C-SAR"
+              }
+            ]
+          },
+          {
+            "ShortName": "STS-99",
+            "Instruments": [
+              {
+                "ShortName": "SRTM"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-5",
+            "Instruments": [
+              {
+                "ShortName": "TM"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834198-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_Mangrove_Cover.mangrove_cover_2000-2016_tanzania.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:41:23Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+            "EndingDateTime": "2016-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_Mangrove_Cover.mangrove_cover_2000-2016_tanzania.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          },
+          {
+            "ParameterName": "COASTAL"
+          },
+          {
+            "ParameterName": "DEFORESTATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 37.9999,
+                  "EastBoundingCoordinate": 41.0001,
+                  "NorthBoundingCoordinate": -2.99986,
+                  "SouthBoundingCoordinate": -11.0001
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:41:22.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_Mangrove_Cover_1670",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/data/mangrove_cover_2000-2016_tanzania.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Mangrove_Cover.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1670",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/comp/CMS_Mangrove_Cover.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/comp/CMS_Mangrove_Cover_ErrorMatrix.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 7.115858,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LANDSAT-7",
+            "Instruments": [
+              {
+                "ShortName": "ETM+"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-8",
+            "Instruments": [
+              {
+                "ShortName": "OLI"
+              }
+            ]
+          },
+          {
+            "ShortName": "SENTINEL-1A",
+            "Instruments": [
+              {
+                "ShortName": "SENTINEL-1 C-SAR"
+              }
+            ]
+          },
+          {
+            "ShortName": "STS-99",
+            "Instruments": [
+              {
+                "ShortName": "SRTM"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-5",
+            "Instruments": [
+              {
+                "ShortName": "TM"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1616834199-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_Mangrove_Cover.mangrove_cover_2000-2016_mozambique.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-06-02T16:41:23Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-01-01T00:00:00.000Z",
+            "EndingDateTime": "2016-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_Mangrove_Cover.mangrove_cover_2000-2016_mozambique.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+          },
+          {
+            "ParameterName": "COASTAL"
+          },
+          {
+            "ParameterName": "DEFORESTATION"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 31.9999,
+                  "EastBoundingCoordinate": 41.0001,
+                  "NorthBoundingCoordinate": -8.99986,
+                  "SouthBoundingCoordinate": -28.0001
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-05-31T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-06-02T16:41:22.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_Mangrove_Cover_1670",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/data/mangrove_cover_2000-2016_mozambique.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Mangrove_Cover.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1670",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/comp/CMS_Mangrove_Cover.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Mangrove_Cover/comp/CMS_Mangrove_Cover_ErrorMatrix.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-05-31T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 31.779072,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LANDSAT-7",
+            "Instruments": [
+              {
+                "ShortName": "ETM+"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-8",
+            "Instruments": [
+              {
+                "ShortName": "OLI"
+              }
+            ]
+          },
+          {
+            "ShortName": "SENTINEL-1A",
+            "Instruments": [
+              {
+                "ShortName": "SENTINEL-1 C-SAR"
+              }
+            ]
+          },
+          {
+            "ShortName": "STS-99",
+            "Instruments": [
+              {
+                "ShortName": "SRTM"
+              }
+            ]
+          },
+          {
+            "ShortName": "LANDSAT-5",
+            "Instruments": [
+              {
+                "ShortName": "TM"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

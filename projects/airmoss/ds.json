@@ -1,0 +1,4997 @@
+{
+  "hits": 21,
+  "took": 47,
+  "items": [
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: In Situ Soil Moisture and Tree Measurements, Harvard Forest, 2012-2013",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1649940892-ORNL_DAAC",
+        "revision-date": "2019-10-31T13:01:58Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1677"
+            },
+            "OtherCitationDetails": "Moghaddam, M., and R. Cuenca. 2019. AirMOSS: In Situ Soil Moisture and Tree Measurements, Harvard Forest, 2012-2013. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1677"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -72.18,
+                  "NorthBoundingCoordinate": 42.55,
+                  "EastBoundingCoordinate": -71.18,
+                  "SouthBoundingCoordinate": 42.54
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "ECOSYSTEMS",
+            "VariableLevel1": "TERRESTRIAL ECOSYSTEMS",
+            "VariableLevel2": "FORESTS"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "PLANT CHARACTERISTICS"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "VEGETATION SPECIES"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "SOILS",
+            "VariableLevel1": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "SOILS",
+            "VariableLevel1": "SOIL TEMPERATURE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2012-10-15T00:00:00.000Z",
+                "EndingDateTime": "2013-08-22T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "level 1A data processed to sensor units",
+          "Id": "1B"
+        },
+        "ShortName": "AirMOSS_Field_Data_Harvard_1677",
+        "EntryTitle": "AirMOSS: In Situ Soil Moisture and Tree Measurements, Harvard Forest, 2012-2013",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_Field_Data_Harvard/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_Field_Data_Harvard.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1677"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "AirMOSS: In Situ Soil Moisture and Tree Measurements, Harvard Forest, 2012-2013: AirMOSS_Field_Data_Harvard.pdf",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_Field_Data_Harvard/comp/AirMOSS_Field_Data_Harvard.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "AirMOSS: Soil Moisture Profiles and Tree Measurements, Harvard Forest, 2012-2013: Photos_2012-10-15.zip",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_Field_Data_Harvard/comp/Photos_2012-10-15.zip"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "AirMOSS: Soil Moisture Profiles and Tree Measurements, Harvard Forest, 2012-2013: Photos_2012-10-18.zip",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_Field_Data_Harvard/comp/Photos_2012-10-18.zip"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "AirMOSS: Soil Moisture Profiles and Tree Measurements, Harvard Forest, 2012-2013: Photos_2013-07-10.zip",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_Field_Data_Harvard/comp/Photos_2013-07-10.zip"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "AirMOSS: Soil Moisture Profiles and Tree Measurements, Harvard Forest, 2012-2013: Photos_2013-07-12.zip",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_Field_Data_Harvard/comp/Photos_2013-07-12.zip"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "AirMOSS: Soil Moisture Profiles and Tree Measurements, Harvard Forest, 2012-2013: Photos_2013-08-19.zip",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_Field_Data_Harvard/comp/Photos_2013-08-19.zip"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "AirMOSS: Soil Moisture Profiles and Tree Measurements, Harvard Forest, 2012-2013: Photos_2013-08-22.zip",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_Field_Data_Harvard/comp/Photos_2013-08-22.zip"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Canopy image taken at Harvard Forest, 2012-10-18, Transect 2, plot 56. Source: companion file Photos_2012-10-18.zip.",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_Field_Data_Harvard_Fig1.JPG"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "AirMOSS campaign site",
+            "URLs": [
+              "https://airmoss.ornl.gov"
+            ],
+            "Relation": [
+              "PROJECT HOME PAGE"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2019-10-30T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-10-31T13:01:52.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This dataset provides in situ measurements of soil temperature, moisture, conductivity, measured diameter of tree at breast height (DBH) and total height collected at the Harvard Forest, Petersham, Massachusetts, USA, during October 2012 and July - August 2013. These measurements were collected in support of the Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) project to validate root-zone soil measurements and carbon flux model estimates.",
+        "LocationKeywords": [
+          {
+            "Category": "CONTINENT",
+            "Type": "NORTH AMERICA",
+            "Subregion1": "UNITED STATES OF AMERICA",
+            "Subregion2": "MASSACHUSETTS"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-10-30T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SOIL MOISTURE PROBE"
+              },
+              {
+                "ShortName": "SOIL TEMPERATURE PROBE"
+              },
+              {
+                "ShortName": "STEEL MEASURING TAPE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 23,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, BERMS, Canada, 2012-2015",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1292501482-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:55:44Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1406"
+            },
+            "OtherCitationDetails": "Chapin, E., S. Flores, L. Harcke, B.P. Hawkins, S. Hensley, T.R. Michel, R.J. Muellerschoen, J.G. Shimada, W.W. Tung, and C. Veeramachaneni. 2018. AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, BERMS, Canada, 2012-2015. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1406"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -106.68,
+                  "NorthBoundingCoordinate": 54.02,
+                  "EastBoundingCoordinate": -104.14,
+                  "SouthBoundingCoordinate": 53.56
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SPECTRAL/ENGINEERING",
+            "Term": "RADAR",
+            "VariableLevel1": "SIGMA NAUGHT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2012-10-04T00:00:00.000Z",
+                "EndingDateTime": "2015-09-28T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "unprocessed instrument data with ancillary information",
+          "Id": "1A"
+        },
+        "ShortName": "AirMOSS_L1_Sigma0_BERMS_1406",
+        "EntryTitle": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, BERMS, Canada, 2012-2015",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_BERMS/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L1_Sigma0_BERMS.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1406"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, BERMS, Canada, 2012-2015: AirMOSS_L1_Sigma0_BERMS.pdf",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_BERMS/comp/AirMOSS_L1_Sigma0_BERMS.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/1406_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "The THREDDS location for this Collection.",
+            "URLs": [
+              "https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1406/catalog.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2018-05-01T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:55:43.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This data set provides level 1 (L1) polarimetric radar backscattering coefficient (sigma-0), multilook complex, polarimetrically calibrated, and georeferenced data products from the Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) radar instrument collected over the BERMS (Boreal Ecosystem Research and Monitoring Sites), in Saskatchewan, Canada. The AirMOSS radar is a P-band (UHF) fully polarimetric synthetic aperture radar (SAR) currently operating in the 420-440 MHz band designed to measure root-zone soil moisture (RZSM) and is flown on a NASA Gulfstream-III aircraft. Flight campaigns took place at least biannually from 2012 to 2015 at 10 study sites across North America. The acquired L1 P-band radar backscatter data will be used to retrieve the RZSM at the study sites. Subsequent analyses will investigate both seasonal and inter-annual variability in soil moisture and the relationships to carbon fluxes and their associated uncertainties on a continental scale.",
+        "MetadataDates": [
+          {
+            "Date": "2018-05-01T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "UAVSAR",
+                "LongName": "Uninhabited Aerial Vehicle Synthetic Aperture Radar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 23,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Chamela, Mexico, 2012-2015",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1292515411-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:55:45Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1407"
+            },
+            "OtherCitationDetails": "Chapin, E., S. Flores, L. Harcke, B.P. Hawkins, S. Hensley, T.R. Michel, R.J. Muellerschoen, J.G. Shimada, W.W. Tung, and C. Veeramachaneni. 2018. AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Chamela, Mexico, 2012-2015. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1407"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -105.25,
+                  "NorthBoundingCoordinate": 20.3,
+                  "EastBoundingCoordinate": -104.16,
+                  "SouthBoundingCoordinate": 19.29
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SPECTRAL/ENGINEERING",
+            "Term": "RADAR",
+            "VariableLevel1": "SIGMA NAUGHT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2013-06-15T00:00:00.000Z",
+                "EndingDateTime": "2015-04-21T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "unprocessed instrument data with ancillary information",
+          "Id": "1A"
+        },
+        "ShortName": "AirMOSS_L1_Sigma0_Chamel_1407",
+        "EntryTitle": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Chamela, Mexico, 2012-2015",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_Chamel/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L1_Sigma0_Chamel.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1407"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_Chamel/comp/AirMOSS_L1_Sigma0_Chamel.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/1407_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "The THREDDS location for this Collection.",
+            "URLs": [
+              "https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1407/catalog.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2018-04-25T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:55:45.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This data set provides level 1 (L1) polarimetric radar backscattering coefficient (sigma-0), multilook complex, polarimetrically calibrated, and georeferenced data products from the Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) radar instrument collected over the Chamela Biological Station, in Jalisco, Mexico. The AirMOSS radar is a P-band (UHF) fully polarimetric synthetic aperture radar (SAR) currently operating in the 420-440 MHz band designed to measure root-zone soil moisture (RZSM) and is flown on a NASA Gulfstream-III aircraft. Flight campaigns took place at least biannually from 2012 to 2015 at 10 study sites across North America. The acquired L1 P-band radar backscatter data will be used to retrieve the RZSM at the study sites. Subsequent analyses will investigate both seasonal and inter-annual variability in soil moisture and the relationships to carbon fluxes and their associated uncertainties on a continental scale.",
+        "MetadataDates": [
+          {
+            "Date": "2018-04-25T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "UAVSAR",
+                "LongName": "Uninhabited Aerial Vehicle Synthetic Aperture Radar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 22,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Duke Forest, 2012-2015",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1293032718-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:55:46Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1408"
+            },
+            "OtherCitationDetails": "Chapin, E., S. Flores, L. Harcke, B.P. Hawkins, S. Hensley, T.R. Michel, R.J. Muellerschoen, J.G. Shimada, W.W. Tung, and C. Veeramachaneni. 2018. AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Duke Forest, 2012-2015. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1408"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -80.04,
+                  "NorthBoundingCoordinate": 36.43,
+                  "EastBoundingCoordinate": -78.5,
+                  "SouthBoundingCoordinate": 35.39
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SPECTRAL/ENGINEERING",
+            "Term": "RADAR",
+            "VariableLevel1": "SIGMA NAUGHT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2012-10-13T00:00:00.000Z",
+                "EndingDateTime": "2015-09-10T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "unprocessed instrument data with ancillary information",
+          "Id": "1A"
+        },
+        "ShortName": "AirMOSS_L1_Sigma0_DukeFr_1408",
+        "EntryTitle": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Duke Forest, 2012-2015",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_DukeFr/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L1_Sigma0_DukeFr.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1408"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_DukeFr/comp/AirMOSS_L1_Sigma0_DukeFr.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/1408_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "The THREDDS location for this Collection.",
+            "URLs": [
+              "https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1408/catalog.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2018-04-25T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:55:45.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This data set provides level 1 (L1) polarimetric radar backscattering coefficient (sigma-0), multilook complex, polarimetrically calibrated, and georeferenced data products from the Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) radar instrument collected over the Duke Forest site in North Carolina. The AirMOSS radar is a P-band (UHF) fully polarimetric synthetic aperture radar (SAR) currently operating in the 420-440 MHz band designed to measure root-zone soil moisture (RZSM) and is flown on a NASA Gulfstream-III aircraft. Flight campaigns took place at least biannually from 2012 to 2015 at 10 study sites across North America. The acquired L1 P-band radar backscatter data will be used to retrieve the RZSM at the study sites. Subsequent analyses will investigate both seasonal and inter-annual variability in soil moisture and the relationships to carbon fluxes and their associated uncertainties on a continental scale.",
+        "MetadataDates": [
+          {
+            "Date": "2018-04-25T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "UAVSAR",
+                "LongName": "Uninhabited Aerial Vehicle Synthetic Aperture Radar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 24,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Harvard Forest, 2012-2015",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1293038144-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:55:47Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1409"
+            },
+            "OtherCitationDetails": "Chapin, E., S. Flores, L. Harcke, B.P. Hawkins, S. Hensley, T.R. Michel, R.J. Muellerschoen, J.G. Shimada, W.W. Tung, and C. Veeramachaneni. 2018. AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Harvard Forest, 2012-2015. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1409"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -72.39,
+                  "NorthBoundingCoordinate": 43.56,
+                  "EastBoundingCoordinate": -71.85,
+                  "SouthBoundingCoordinate": 42.18
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SPECTRAL/ENGINEERING",
+            "Term": "RADAR",
+            "VariableLevel1": "SIGMA NAUGHT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2012-10-15T00:00:00.000Z",
+                "EndingDateTime": "2015-09-09T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "unprocessed instrument data with ancillary information",
+          "Id": "1A"
+        },
+        "ShortName": "AirMOSS_L1_Sigma0_Harvrd_1409",
+        "EntryTitle": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Harvard Forest, 2012-2015",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_Harvrd/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L1_Sigma0_Harvrd.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1409"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_Harvrd/comp/AirMOSS_L1_Sigma0_Harvrd.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/1409_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "The THREDDS location for this Collection.",
+            "URLs": [
+              "https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1409/catalog.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2018-04-25T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:55:46.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This data set provides level 1 (L1) polarimetric radar backscattering coefficient (sigma-0), multilook complex, polarimetrically calibrated, and georeferenced data products from the Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) radar instrument collected over the Harvard Forest site in Massachusetts. The AirMOSS radar is a P-band (UHF) fully polarimetric synthetic aperture radar (SAR) currently operating in the 420-440 MHz band designed to measure root-zone soil moisture (RZSM) and is flown on a NASA Gulfstream-III aircraft. Flight campaigns took place at least biannually from 2012 to 2015 at 10 study sites across North America. The acquired L1 P-band radar backscatter data will be used to retrieve the RZSM at the study sites. Subsequent analyses will investigate both seasonal and inter-annual variability in soil moisture and the relationships to carbon fluxes and their associated uncertainties on a continental scale.",
+        "MetadataDates": [
+          {
+            "Date": "2018-04-25T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "UAVSAR",
+                "LongName": "Uninhabited Aerial Vehicle Synthetic Aperture Radar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 22,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Howland Forest, 2012-2015",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1293043787-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:55:48Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1410"
+            },
+            "OtherCitationDetails": "Chapin, E., S. Flores, L. Harcke, B.P. Hawkins, S. Hensley, T.R. Michel, R.J. Muellerschoen, J.G. Shimada, W.W. Tung, and C. Veeramachaneni. 2018. AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Howland Forest, 2012-2015. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1410"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -69.11,
+                  "NorthBoundingCoordinate": 46.02,
+                  "EastBoundingCoordinate": -68.25,
+                  "SouthBoundingCoordinate": 44.5
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SPECTRAL/ENGINEERING",
+            "Term": "RADAR",
+            "VariableLevel1": "SIGMA NAUGHT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2012-10-15T00:00:00.000Z",
+                "EndingDateTime": "2015-09-09T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "unprocessed instrument data with ancillary information",
+          "Id": "1A"
+        },
+        "ShortName": "AirMOSS_L1_Sigma0_Howlnd_1410",
+        "EntryTitle": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Howland Forest, 2012-2015",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_Howlnd/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L1_Sigma0_Howlnd.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1410"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_Howlnd/comp/AirMOSS_L1_Sigma0_Howlnd.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/1410_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "The THREDDS location for this Collection.",
+            "URLs": [
+              "https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1410/catalog.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2018-04-25T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:55:47.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This data set provides level 1 (L1) polarimetric radar backscattering coefficient (sigma-0), multilook complex, polarimetrically calibrated, and georeferenced data products from the Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) radar instrument collected over the Howland Forest site in Maine. The AirMOSS radar is a P-band (UHF) fully polarimetric synthetic aperture radar (SAR) currently operating in the 420-440 MHz band designed to measure root-zone soil moisture (RZSM) and is flown on a NASA Gulfstream-III aircraft. Flight campaigns took place at least biannually from 2012 to 2015 at 10 study sites across North America. The acquired L1 P-band radar backscatter data will be used to retrieve the RZSM at the study sites. Subsequent analyses will investigate both seasonal and inter-annual variability in soil moisture and the relationships to carbon fluxes and their associated uncertainties on a continental scale.",
+        "MetadataDates": [
+          {
+            "Date": "2018-04-25T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "UAVSAR",
+                "LongName": "Uninhabited Aerial Vehicle Synthetic Aperture Radar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 22,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, La Selva, 2012-2015",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1294935681-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:55:49Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1411"
+            },
+            "OtherCitationDetails": "Chapin, E., S. Flores, L. Harcke, B.P. Hawkins, S. Hensley, T.R. Michel, R.J. Muellerschoen, J.G. Shimada, W.W. Tung, and C. Veeramachaneni. 2018. AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, La Selva, 2012-2015. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1411"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -85.14,
+                  "NorthBoundingCoordinate": 11.05,
+                  "EastBoundingCoordinate": -83.27,
+                  "SouthBoundingCoordinate": 9.74
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SPECTRAL/ENGINEERING",
+            "Term": "RADAR",
+            "VariableLevel1": "SIGMA NAUGHT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2013-02-20T00:00:00.000Z",
+                "EndingDateTime": "2015-02-24T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "unprocessed instrument data with ancillary information",
+          "Id": "1A"
+        },
+        "ShortName": "AirMOSS_L1_Sigma0_LaSelv_1411",
+        "EntryTitle": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, La Selva, 2012-2015",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_LaSelv/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L1_Sigma0_LaSelv.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1411"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_LaSelv/comp/AirMOSS_L1_Sigma0_LaSelv.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/1411_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "The THREDDS location for this Collection.",
+            "URLs": [
+              "https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1411/catalog.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2018-04-25T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:55:48.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This data set provides level 1 (L1) polarimetric radar backscattering coefficient (sigma-0), multilook complex, polarimetrically calibrated, and georeferenced data products from the Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) radar instrument collected over the La Selva Biological Station in Costa Rica. The AirMOSS radar is a P-band (UHF) fully polarimetric synthetic aperture radar (SAR) currently operating in the 420-440 MHz band designed to measure root-zone soil moisture (RZSM) and is flown on a NASA Gulfstream-III aircraft. Flight campaigns took place at least biannually from 2012 to 2015 at 10 study sites across North America. The acquired L1 P-band radar backscatter data will be used to retrieve the RZSM at the study sites. Subsequent analyses will investigate both seasonal and inter-annual variability in soil moisture and the relationships to carbon fluxes and their associated uncertainties on a continental scale.",
+        "MetadataDates": [
+          {
+            "Date": "2018-04-25T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "UAVSAR",
+                "LongName": "Uninhabited Aerial Vehicle Synthetic Aperture Radar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 22,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Metolius, 2012-2015",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1294938577-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:55:50Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1412"
+            },
+            "OtherCitationDetails": "Chapin, E., S. Flores, L. Harcke, B.P. Hawkins, S. Hensley, T.R. Michel, R.J. Muellerschoen, J.G. Shimada, W.W. Tung, and C. Veeramachaneni. 2018. AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Metolius, 2012-2015. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1412"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -122.86,
+                  "NorthBoundingCoordinate": 44.69,
+                  "EastBoundingCoordinate": -120.89,
+                  "SouthBoundingCoordinate": 43.99
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SPECTRAL/ENGINEERING",
+            "Term": "RADAR",
+            "VariableLevel1": "SIGMA NAUGHT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2012-09-18T00:00:00.000Z",
+                "EndingDateTime": "2015-09-29T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "unprocessed instrument data with ancillary information",
+          "Id": "1A"
+        },
+        "ShortName": "AirMOSS_L1_Sigma0_Metoli_1412",
+        "EntryTitle": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Metolius, 2012-2015",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_Metoli/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L1_Sigma0_Metoli.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1412"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_Metoli/comp/AirMOSS_L1_Sigma0_Metoli.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/1412_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "The THREDDS location for this Collection.",
+            "URLs": [
+              "https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1412/catalog.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2018-04-25T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:55:49.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This data set provides level 1 (L1) polarimetric radar backscattering coefficient (sigma-0), multilook complex, polarimetrically calibrated, and georeferenced data products from the Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) radar instrument collected over the Metolius site in Oregon. The AirMOSS radar is a P-band (UHF) fully polarimetric synthetic aperture radar (SAR) currently operating in the 420-440 MHz band designed to measure root-zone soil moisture (RZSM) and is flown on a NASA Gulfstream-III aircraft. Flight campaigns took place at least biannually from 2012 to 2015 at 10 study sites across North America. The acquired L1 P-band radar backscatter data will be used to retrieve the RZSM at the study sites. Subsequent analyses will investigate both seasonal and inter-annual variability in soil moisture and the relationships to carbon fluxes and their associated uncertainties on a continental scale.",
+        "MetadataDates": [
+          {
+            "Date": "2018-04-25T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "UAVSAR",
+                "LongName": "Uninhabited Aerial Vehicle Synthetic Aperture Radar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 22,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, MOISST, 2012-2015",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1294943935-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:55:51Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1413"
+            },
+            "OtherCitationDetails": "Chapin, E., S. Flores, L. Harcke, B.P. Hawkins, S. Hensley, T.R. Michel, R.J. Muellerschoen, J.G. Shimada, W.W. Tung, and C. Veeramachaneni. 2018. AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, MOISST, 2012-2015. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1413"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -99.0,
+                  "NorthBoundingCoordinate": 36.89,
+                  "EastBoundingCoordinate": -96.82,
+                  "SouthBoundingCoordinate": 35.78
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SPECTRAL/ENGINEERING",
+            "Term": "RADAR",
+            "VariableLevel1": "SIGMA NAUGHT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2012-10-24T00:00:00.000Z",
+                "EndingDateTime": "2015-08-14T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "unprocessed instrument data with ancillary information",
+          "Id": "1A"
+        },
+        "ShortName": "AirMOSS_L1_Sigma0_Moisst_1413",
+        "EntryTitle": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, MOISST, 2012-2015",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_Moisst/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L1_Sigma0_Moisst.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1413"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, MOISST, 2012-2015: AirMOSS_L1_Sigma0_Moisst.pdf",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_Moisst/comp/AirMOSS_L1_Sigma0_Moisst.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/1413_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "The THREDDS location for this Collection.",
+            "URLs": [
+              "https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1413/catalog.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2018-05-01T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:55:50.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This data set provides level 1 (L1) polarimetric radar backscattering coefficient (sigma-0), multilook complex, polarimetrically calibrated, and georeferenced data products from the Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) radar instrument collected over the MOISST site in Oklahoma. The AirMOSS radar is a P-band (UHF) fully polarimetric synthetic aperture radar (SAR) currently operating in the 420-440 MHz band designed to measure root-zone soil moisture (RZSM) and is flown on a NASA Gulfstream-III aircraft. Flight campaigns took place at least biannually from 2012 to 2015 at 10 study sites across North America. The acquired L1 P-band radar backscatter data will be used to retrieve the RZSM at the study sites. Subsequent analyses will investigate both seasonal and inter-annual variability in soil moisture and the relationships to carbon fluxes and their associated uncertainties on a continental scale.",
+        "MetadataDates": [
+          {
+            "Date": "2018-05-01T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "UAVSAR",
+                "LongName": "Uninhabited Aerial Vehicle Synthetic Aperture Radar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 24,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Tonzi Ranch, 2012-2015",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1294950514-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:55:52Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1414"
+            },
+            "OtherCitationDetails": "Chapin, E., S. Flores, L. Harcke, B.P. Hawkins, S. Hensley, T.R. Michel, R.J. Muellerschoen, J.G. Shimada, W.W. Tung, and C. Veeramachaneni. 2018. AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Tonzi Ranch, 2012-2015. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1414"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -121.2,
+                  "NorthBoundingCoordinate": 38.59,
+                  "EastBoundingCoordinate": -119.93,
+                  "SouthBoundingCoordinate": 37.38
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SPECTRAL/ENGINEERING",
+            "Term": "RADAR",
+            "VariableLevel1": "SIGMA NAUGHT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2013-02-05T00:00:00.000Z",
+                "EndingDateTime": "2015-05-31T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "unprocessed instrument data with ancillary information",
+          "Id": "1A"
+        },
+        "ShortName": "AirMOSS_L1_Sigma0_TonziR_1414",
+        "EntryTitle": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Tonzi Ranch, 2012-2015",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_TonziR/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L1_Sigma0_TonziR.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1414"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Tonzi Ranch, 2012-2015: AirMOSS_L1_Sigma0_TonziR.pdf",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_TonziR/comp/AirMOSS_L1_Sigma0_TonziR.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/1414_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "The THREDDS location for this Collection.",
+            "URLs": [
+              "https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1414/catalog.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2018-05-01T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:55:52.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This data set provides level 1 (L1) polarimetric radar backscattering coefficient (sigma-0), multilook complex, polarimetrically calibrated, and georeferenced data products from the Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) radar instrument collected over the Tonzi Ranch site in California. The AirMOSS radar is a P-band (UHF) fully polarimetric synthetic aperture radar (SAR) currently operating in the 420-440 MHz band designed to measure root-zone soil moisture (RZSM) and is flown on a NASA Gulfstream-III aircraft. Flight campaigns took place at least biannually from 2012 to 2015 at 10 study sites across North America. The acquired L1 P-band radar backscatter data will be used to retrieve the RZSM at the study sites. Subsequent analyses will investigate both seasonal and inter-annual variability in soil moisture and the relationships to carbon fluxes and their associated uncertainties on a continental scale.",
+        "MetadataDates": [
+          {
+            "Date": "2018-05-01T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "UAVSAR",
+                "LongName": "Uninhabited Aerial Vehicle Synthetic Aperture Radar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 24,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Walnut Gulch, 2012-2015",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1294954391-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:55:54Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1415"
+            },
+            "OtherCitationDetails": "Chapin, E., S. Flores, L. Harcke, B.P. Hawkins, S. Hensley, T.R. Michel, R.J. Muellerschoen, J.G. Shimada, W.W. Tung, and C. Veeramachaneni. 2018. AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Walnut Gulch, 2012-2015. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1415"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.24,
+                  "NorthBoundingCoordinate": 32.08,
+                  "EastBoundingCoordinate": -109.48,
+                  "SouthBoundingCoordinate": 31.58
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SPECTRAL/ENGINEERING",
+            "Term": "RADAR",
+            "VariableLevel1": "SIGMA NAUGHT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2012-09-20T00:00:00.000Z",
+                "EndingDateTime": "2015-09-01T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "unprocessed instrument data with ancillary information",
+          "Id": "1A"
+        },
+        "ShortName": "AirMOSS_L1_Sigma0_Walnut_1415",
+        "EntryTitle": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Walnut Gulch, 2012-2015",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_Walnut/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L1_Sigma0_Walnut.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1415"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Walnut Gulch, 2012-2015: AirMOSS_L1_Sigma0_Walnut.pdf",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L1_Sigma0_Walnut/comp/AirMOSS_L1_Sigma0_Walnut.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/1415_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "The THREDDS location for this Collection.",
+            "URLs": [
+              "https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1415/catalog.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2018-05-01T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:55:52.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This data set provides level 1 (L1) polarimetric radar backscattering coefficient (sigma-0), multilook complex, polarimetrically calibrated, and georeferenced data products from the Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) radar instrument collected over the Walnut Gulch site in Arizona. The AirMOSS radar is a P-band (UHF) fully polarimetric synthetic aperture radar (SAR) currently operating in the 420-440 MHz band designed to measure root-zone soil moisture (RZSM) and is flown on a NASA Gulfstream-III aircraft. Flight campaigns took place at least biannually from 2012 to 2015 at 10 study sites across North America. The acquired L1 P-band radar backscatter data will be used to retrieve the RZSM at the study sites. Subsequent analyses will investigate both seasonal and inter-annual variability in soil moisture and the relationships to carbon fluxes and their associated uncertainties on a continental scale.",
+        "MetadataDates": [
+          {
+            "Date": "2018-05-01T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "UAVSAR",
+                "LongName": "Uninhabited Aerial Vehicle Synthetic Aperture Radar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 18,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: L2 Airborne Carbon Flux at Selected AirMOSS Sites, 2012-2014",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1336390805-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:56:00Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1420"
+            },
+            "OtherCitationDetails": "Caulton, D.R., O.E. Salmon, P.B. Shepson, and K.D. Hajny. 2016. AirMOSS: L2 Airborne Carbon Flux at Selected AirMOSS Sites, 2012-2014. ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/1420"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -79.5,
+                  "NorthBoundingCoordinate": 45.64,
+                  "EastBoundingCoordinate": -68.43,
+                  "SouthBoundingCoordinate": 35.77
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC CHEMISTRY",
+            "VariableLevel1": "CARBON AND HYDROCARBON COMPOUNDS",
+            "VariableLevel2": "CARBON DIOXIDE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC RADIATION",
+            "VariableLevel1": "HEAT FLUX"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2012-07-07T00:00:00.000Z",
+                "EndingDateTime": "2014-06-01T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Derived geophysical variables at the same resolution as L1 source data",
+          "Id": "2"
+        },
+        "ShortName": "AirMOSS_L2_Carbon_Flux_1420",
+        "EntryTitle": "AirMOSS: L2 Airborne Carbon Flux at Selected AirMOSS Sites, 2012-2014",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L2_Carbon_Flux/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L2_Carbon_Flux.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1420"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L2_Carbon_Flux/comp/AirMOSS_L2_Carbon_Flux.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L2_Carbon_Flux_Fig1.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2016-10-11T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:55:58.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This data set contains carbon flux measurements recorded by an aircraft at the Duke, Harvard, and Howland Forest sites during the summers of 2012-2014 as part of the Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) project. Frequent measurements of CO2 and H2O were obtained using a cavity ring down spectrometer on board the Airborne Laboratory for Atmospheric Research, operated by Purdue University. Estimates of surface CO2 flux, sensible and latent heat fluxes, their corresponding uncertainties, and average wind speed and direction are provided for each of the 26 flights.",
+        "MetadataDates": [
+          {
+            "Date": "2016-10-11T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "HUPCRS",
+                "LongName": "Harvard University Picarro Cavity Ring Down Spectrometer (HUPCRS)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 24,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: L2 Hourly In-Ground Soil Moisture at AirMOSS Sites, 2011-2015",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1299307064-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:55:55Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1416"
+            },
+            "OtherCitationDetails": "Hagimoto, Y., R. Cuenca, and  AirMOSS Science Team. 2016. AirMOSS: L2 Hourly In-Ground Soil Moisture at AirMOSS Sites, 2011-2015. ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/1416"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -121.56,
+                  "NorthBoundingCoordinate": 53.92,
+                  "EastBoundingCoordinate": -72.17,
+                  "SouthBoundingCoordinate": 19.51
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "SOILS",
+            "VariableLevel1": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2011-09-01T00:00:00.000Z",
+                "EndingDateTime": "2015-12-31T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Derived geophysical variables at the same resolution as L1 source data",
+          "Id": "2"
+        },
+        "ShortName": "AirMOSS_L2_Inground_Soil_Moist_1416",
+        "EntryTitle": "AirMOSS: L2 Hourly In-Ground Soil Moisture at AirMOSS Sites, 2011-2015",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L2_Inground_Soil_Moist/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L2_Inground_Soil_Moist.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1416"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L2_Inground_Soil_Moist/comp/AirMOSS_L2_Inground_Soil_Moist.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/1416_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "The THREDDS location for this Collection.",
+            "URLs": [
+              "https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1416/catalog.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2016-09-02T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:55:54.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This data set provides level 2 (L2) hourly volumetric (cm3/cm3) soil moisture profiles from in-ground sensors at seven North American sites as part of the Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) project. Three profiles were installed at each site, sampling at seven different depths per profile (2 cm to 80 cm). Initial sampling began at three sites in September 2011 and additional sites were added during 2012 and 2013. All sampling concluded in December 2015. The AirMOSS project used an airborne radar instrument to estimate root-zone soil moisture at 10 study sites across North America. These in-ground soil moisture data were collected to calibrate and validate the AirMOSS data.",
+        "MetadataDates": [
+          {
+            "Date": "2016-09-02T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "SOIL MOISTURE PROBE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 22,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: L2 Hourly Precipitation at AirMOSS Sites, 2011-2015",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1299307089-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:56:07Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1417"
+            },
+            "OtherCitationDetails": "Cuenca, R., Y. Hagimoto, and  AirMOSS Science Team. 2016. AirMOSS: L2 Hourly Precipitation at AirMOSS Sites, 2011-2015. ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/1417"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -121.56,
+                  "NorthBoundingCoordinate": 53.92,
+                  "EastBoundingCoordinate": -72.17,
+                  "SouthBoundingCoordinate": 19.51
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "PRECIPITATION",
+            "VariableLevel1": "PRECIPITATION AMOUNT",
+            "VariableLevel2": "HOURLY PRECIPITATION AMOUNT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2011-09-01T00:00:00.000Z",
+                "EndingDateTime": "2015-12-31T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Derived geophysical variables at the same resolution as L1 source data",
+          "Id": "2"
+        },
+        "ShortName": "AirMOSS_L2_Precipitation_1417",
+        "EntryTitle": "AirMOSS: L2 Hourly Precipitation at AirMOSS Sites, 2011-2015",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L2_Precipitation/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L2_Precipitation.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1417"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L2_Precipitation/comp/AirMOSS_L2_Precipitation.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/1417_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "The THREDDS location for this Collection.",
+            "URLs": [
+              "https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1417/catalog.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2016-09-02T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:56:07.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This data set provides level 2 (L2) calibrated hourly precipitation (cm/hr) from rain gauges at seven North American sites as part of the Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) project. Three gauges were installed at each site. Initial sampling began at three sites in September 2011 and additional sites were added during 2012 and 2013. All sampling concluded in December 2015. The AirMOSS project used an airborne radar instrument to estimate root-zone soil moisture at 10 study sites across North America. These precipitation data were collected in conjunction with in-ground soil moisture data in order to calibrate and validate the AirMOSS data.",
+        "MetadataDates": [
+          {
+            "Date": "2016-09-02T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIXED OBSERVATION STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "RAIN GAUGES"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 29,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: L2/3 Volumetric Soil Moisture Profiles Derived From Radar, 2012-2015",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1329921127-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:55:57Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1418"
+            },
+            "OtherCitationDetails": "Moghaddam, M., A. Tabatabaeenejad, R.H. Chen, S.S. Saatchi, S. Jaruwatanadilok, M. Burgin, X. Duan, and M.L. Truong-Loi. 2016. AirMOSS: L2/3 Volumetric Soil Moisture Profiles Derived From Radar, 2012-2015. ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/1418"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.28,
+                  "NorthBoundingCoordinate": 54.13,
+                  "EastBoundingCoordinate": -68.32,
+                  "SouthBoundingCoordinate": 9.88
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "SOILS",
+            "VariableLevel1": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2012-09-18T00:00:00.000Z",
+                "EndingDateTime": "2015-09-29T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "AirMOSS_L2_3_RZ_Soil_Moisture_1418",
+        "EntryTitle": "AirMOSS: L2/3 Volumetric Soil Moisture Profiles Derived From Radar, 2012-2015",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L2_3_RZ_Soil_Moisture/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L2_3_RZ_Soil_Moisture.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1418"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L2_3_RZ_Soil_Moisture/comp/AirMOSS_L2_3_RZ_Soil_Moisture.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L2_3_RZ_Soil_Moisture/comp/L23RZSM-ATBD-V3.2.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/1418_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "The THREDDS location for this Collection.",
+            "URLs": [
+              "https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1418/catalog.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2018-03-06T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:55:56.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This dataset provides level 2/3 root zone soil moisture (RZSM) estimates at multiple depths at 90-m spatial resolution from the Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) radar instrument collected over ten sites across North America. AirMOSS produces estimates of RZSM with data from a P-band synthetic aperture radar (SAR) flown on a NASA Gulfstream-III aircraft. The resulting soil moisture estimates capture the effects of gradients of soil, topography, and vegetation heterogeneity over an area of approximately 100km x 25km at each of the study sites. AirMOSS flight campaigns took place at least biannually from 2012 to 2015 at each site.",
+        "MetadataDates": [
+          {
+            "Date": "2018-03-06T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1.1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "RADAR",
+                "LongName": "Radio Detection and Ranging"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 23,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: L4 Daily Modeled Net Ecosystem Exchange (NEE), AirMOSS sites, 2012-2014",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1348236898-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:56:02Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1422"
+            },
+            "OtherCitationDetails": "Zhang, K., A.A. Ali, A. Antonarakis, and P.R. Moorcroft. 2016. AirMOSS: L4 Daily Modeled Net Ecosystem Exchange (NEE), AirMOSS sites, 2012-2014. ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/1422"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -122.88,
+                  "NorthBoundingCoordinate": 45.79,
+                  "EastBoundingCoordinate": -68.34,
+                  "SouthBoundingCoordinate": 31.49
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "ECOLOGICAL DYNAMICS",
+            "VariableLevel1": "ECOSYSTEM FUNCTIONS",
+            "VariableLevel2": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "ECOLOGICAL DYNAMICS",
+            "VariableLevel1": "ECOSYSTEM FUNCTIONS",
+            "VariableLevel2": "PRIMARY PRODUCTION"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "ECOSYSTEMS",
+            "VariableLevel1": "TERRESTRIAL ECOSYSTEMS"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "CARBON"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "SOILS",
+            "VariableLevel1": "CARBON"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2012-01-01T00:00:00.000Z",
+                "EndingDateTime": "2014-10-30T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "model products",
+          "Id": "4"
+        },
+        "ShortName": "AirMOSS_L4_Daily_NEE_1422",
+        "EntryTitle": "AirMOSS: L4 Daily Modeled Net Ecosystem Exchange (NEE), AirMOSS sites, 2012-2014",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L4_Daily_NEE.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1422"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/comp/AirMOSS_L4NEE_ATBD_V2.0_160928.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Daily_NEE/comp/AirMOSS_L4_Daily_NEE.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/1422_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "The THREDDS location for this Collection.",
+            "URLs": [
+              "https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1422/catalog.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2016-11-22T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:56:01.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This data set provides Level 4 daily estimates of Net Ecosystem Exchange (NEE) of CO2 at a spatial resolution of 30 arc-seconds (~1 km) for seven of the sites covered by the Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) flights, each site spanning ~2500 km2. The daily NEE estimates are generally available from October 2012 through October 2014, although the exact time ranges vary by site. The AirMOSS L4 daily NEE were produced by the Ecosystem Demography Biosphere Model (ED2) augmented by the AirMOSS-derived L2/3 root zone soil moisture data as an additional input. The AirMOSS soil moisture data were used to estimate the sensitivity of carbon fluxes to soil moisture and to diagnose and improve estimation and prediction of NEE by constraining the model's predictions of soil moisture and its impact on above- and below-ground fluxes.",
+        "MetadataDates": [
+          {
+            "Date": "2016-11-22T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Aircraft",
+            "ShortName": "C-130",
+            "LongName": "Lockheed C-130 Hercules",
+            "Instruments": [
+              {
+                "ShortName": "Computer",
+                "LongName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 19,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: L4 Modeled Net Ecosystem Exchange (NEE), Continental USA, 2012-2014",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1348236905-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:56:03Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1423"
+            },
+            "OtherCitationDetails": "Ali, A.A., K. Zhang, A. Antonarakis, and P.R. Moorcroft. 2016. AirMOSS: L4 Modeled Net Ecosystem Exchange (NEE), Continental USA, 2012-2014. ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/1423"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.94,
+                  "NorthBoundingCoordinate": 53.06,
+                  "EastBoundingCoordinate": -66.94,
+                  "SouthBoundingCoordinate": 25.06
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "ECOLOGICAL DYNAMICS",
+            "VariableLevel1": "ECOSYSTEM FUNCTIONS",
+            "VariableLevel2": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "ECOLOGICAL DYNAMICS",
+            "VariableLevel1": "ECOSYSTEM FUNCTIONS",
+            "VariableLevel2": "PRIMARY PRODUCTION"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "CARBON"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "SOILS",
+            "VariableLevel1": "CARBON"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2012-01-01T00:00:00.000Z",
+                "EndingDateTime": "2014-10-31T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "model products",
+          "Id": "4"
+        },
+        "ShortName": "AirMOSS_L4_Regional_NEE_1423",
+        "EntryTitle": "AirMOSS: L4 Modeled Net Ecosystem Exchange (NEE), Continental USA, 2012-2014",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Regional_NEE/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L4_Regional_NEE.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1423"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Regional_NEE/comp/AirMOSS_L4NEE_ATBD_V2.0_160928.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_Regional_NEE/comp/AirMOSS_L4_Regional_NEE.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/1423_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "The THREDDS location for this Collection.",
+            "URLs": [
+              "https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1423/catalog.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2016-11-30T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:56:02.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This data set provides Level 4 estimates of Net Ecosystem Exchange (NEE) of CO2 across the conterminous USA at a spatial resolution of 50 km. Modeled estimates are provided at hourly and monthly temporal resolutions, from January 2012 through October 2014. The AirMOSS L4 Regional NEE data were produced by the Ecosystem Demography Biosphere Model (ED2) augmented by the AirMOSS-derived L2/3 root zone soil moisture data as an additional input. The AirMOSS soil moisture data were used to estimate the sensitivity of carbon fluxes to soil moisture and to diagnose and improve estimation and prediction of NEE by constraining the model's predictions of soil moisture and its impact on above- and below-ground fluxes.",
+        "MetadataDates": [
+          {
+            "Date": "2016-11-30T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Models/Analyses",
+            "ShortName": "MODELS",
+            "Instruments": [
+              {
+                "ShortName": "Computer",
+                "LongName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 18,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "AirMOSS: L4 Modeled Volumetric Root Zone Soil Moisture, 2012-2015",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1358003849-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:56:01Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1421"
+            },
+            "OtherCitationDetails": "Crow, W.T., S. Milak, and R.H. Reichle. 2016. AirMOSS: L4 Modeled Volumetric Root Zone Soil Moisture, 2012-2015. ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/1421"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.28,
+                  "NorthBoundingCoordinate": 54.13,
+                  "EastBoundingCoordinate": -68.12,
+                  "SouthBoundingCoordinate": 19.12
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "AGRICULTURE",
+            "Term": "SOILS",
+            "VariableLevel1": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "CLIMATE INDICATORS",
+            "Term": "LAND SURFACE/AGRICULTURE INDICATORS",
+            "VariableLevel1": "SOIL MOISTURE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "SOILS",
+            "VariableLevel1": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2012-09-21T00:00:00.000Z",
+                "EndingDateTime": "2015-09-28T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "model products",
+          "Id": "4"
+        },
+        "ShortName": "AirMOSS_L4_RZ_Soil_Moisture_1421",
+        "EntryTitle": "AirMOSS: L4 Modeled Volumetric Root Zone Soil Moisture, 2012-2015",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_RZ_Soil_Moisture/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_L4_RZ_Soil_Moisture.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1421"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_RZ_Soil_Moisture/comp/AirMOSS_L4_RZ_Soil_Moisture.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/campaign/AirMOSS_L4_RZ_Soil_Moisture/comp/L4RZSM_ATBD_V10.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/1421_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "The THREDDS location for this Collection.",
+            "URLs": [
+              "https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1421/catalog.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2016-12-15T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:56:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This data set provides hourly gridded soil moisture estimates derived from hydrologic modeling at nine AirMOSS sites across North America. The AirMOSS L4 RZSM product represents a temporal interpolation of intermittent AirMOSS L2/3 RZSM retrievals into a temporally-continuous, multi-layer, hourly soil moisture product. The L4 RZSM data have the same spatial resolution (3-arcsecs or ~100 m), and the same temporal coverage (generally Fall 2012 through Fall 2015), as the underlying L2/3 RZSM data. The L4 RZSM data were produced by the integration of the Level 2/3 product and other ancillary information into the Penn State Integrated Hydrologic Model (PIHM). Many key applications for AirMOSS data products, including the calculation of net ecosystem exchange (NEE), require temporally continuous RZSM estimates such as those provided here.",
+        "MetadataDates": [
+          {
+            "Date": "2016-12-15T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Models/Analyses",
+            "ShortName": "Environmental Modeling",
+            "LongName": "Soil Characteristics",
+            "Instruments": [
+              {
+                "ShortName": "Computer",
+                "LongName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 174,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "Soil Moisture Profiles and Temperature Data from SoilSCAPE Sites, USA",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1322287478-ORNL_DAAC",
+        "revision-date": "2019-12-10T13:58:06Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1339"
+            },
+            "OtherCitationDetails": "Moghaddam, M., A.R. Silva, D. Clewley, R. Akbar, S.A. Hussaini, J. Whitcomb, R. Devarakonda, R. Shrestha, R.B. Cook, G. Prakash, S.K. Santhana Vannan, and A.G. Boyer. 2017. Soil Moisture Profiles and Temperature Data from SoilSCAPE Sites, USA. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1339"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -120.99,
+                  "NorthBoundingCoordinate": 42.3,
+                  "EastBoundingCoordinate": -83.66,
+                  "SouthBoundingCoordinate": 31.74
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "SOILS",
+            "VariableLevel1": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "SOILS",
+            "VariableLevel1": "SOIL TEMPERATURE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2011-08-03T00:00:00.000Z",
+                "EndingDateTime": "2019-12-05T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "SoilSCAPE_1339",
+        "EntryTitle": "Soil Moisture Profiles and Temperature Data from SoilSCAPE Sites, USA",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/eos_land_val/SoilSCAPE/"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/LAND_VAL/guides/SoilSCAPE.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1339"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/eos_land_val/SoilSCAPE/comp/NodePhotos.zip"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/eos_land_val/SoilSCAPE/comp/SoilSCAPE.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/eos_land_val/SoilSCAPE/comp/SoilScape_BLMLand3NTonzi_CA.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/eos_land_val/SoilSCAPE/comp/SoilScape_BLM_Land_STonzi_CA.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/eos_land_val/SoilSCAPE/comp/SoilScape_CantonOK.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/eos_land_val/SoilSCAPE/comp/SoilScape_KendallAZ.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/eos_land_val/SoilSCAPE/comp/SoilScape_LuckyHillsAZ.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/eos_land_val/SoilSCAPE/comp/SoilScape_MatthaeiGardensMI.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/eos_land_val/SoilSCAPE/comp/SoilScape_NewHoganLakeCA.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/eos_land_val/SoilSCAPE/comp/SoilScape_Terra_dOro_VineyardCA.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/eos_land_val/SoilSCAPE/comp/SoilScape_TonziCA.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/eos_land_val/SoilSCAPE/comp/SoilScape_VairaCA.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/graphics/browse/sdat-tds/1339_1_fit.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          },
+          {
+            "Description": "The THREDDS location for this Collection.",
+            "URLs": [
+              "https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1339/catalog.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2017-07-20T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-12-10T13:58:04.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This data set contains in-situ soil moisture profile and soil temperature data collected at 20-minute intervals at SoilSCAPE (Soil moisture Sensing Controller and oPtimal Estimator) project sites in four states (California, Arizona, Oklahoma, and Michigan) in the United States. SoilSCAPE used wireless sensor technology to acquire high temporal resolution soil moisture and temperature data at up to 12 sites over varying durations since August 2011. At its maximum, the network consisted of over 200 wireless sensor installations (nodes), with a range of 6 to 27 nodes per site. The soil moisture sensors (EC-5 and 5-TM from Decagon Devices) were installed at three to four depths, nominally at 5, 20, and 50 cm below the surface. Soil conditions (e.g., hard soil or rocks) may have limited sensor placement. Temperature sensors were installed at 5 cm depth at six of the sites. Data collection started in August 2011 and continues at eight sites through the present. The data enables estimation of local-scale soil moisture at high temporal resolution and validation of remote sensing estimates of soil moisture at regional (airborne, e.g. NASA's Airborne Microwave Observation of Subcanopy and Subsurface Mission - AirMOSS) and national (spaceborne, e.g. NASA's Soil Moisture Active Passive - SMAP) scales.",
+        "MetadataDates": [
+          {
+            "Date": "2017-07-20T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "EOS LAND VAL",
+            "LongName": "EOS Land Validation"
+          },
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIELD INVESTIGATION"
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "ORNL_DAAC",
+        "user-id": "ornl_daac",
+        "has-formats": false,
+        "associations": {
+          "services": [
+            "S1569163021-ORNL_DAAC"
+          ]
+        },
+        "has-spatial-subsetting": true,
+        "native-id": "Soil Moisture Visualizer",
+        "has-transforms": true,
+        "has-variables": true,
+        "concept-id": "C1607002549-ORNL_DAAC",
+        "revision-date": "2019-04-15T18:55:19Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "DOI": {
+              "Authority": "https://doi.org",
+              "DOI": "10.3334/ORNLDAAC/1366"
+            },
+            "OtherCitationDetails": "ORNL DAAC. 2017. Soil Moisture Visualizer. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1366"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -179.0,
+                  "NorthBoundingCoordinate": 83.0,
+                  "EastBoundingCoordinate": -52.0,
+                  "SouthBoundingCoordinate": 8.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "Distributions": [
+          {
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Not provided",
+            "Fees": "0"
+          }
+        ],
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "AGRICULTURE",
+            "Term": "SOILS",
+            "VariableLevel1": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "CLIMATE INDICATORS",
+            "Term": "LAND SURFACE/AGRICULTURE INDICATORS",
+            "VariableLevel1": "SOIL MOISTURE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "SOILS",
+            "VariableLevel1": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2011-08-03T00:00:00.000Z",
+                "EndingDateTime": "2016-12-31T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "ProcessingLevelDescription": "Variables mapped on uniform space-time grid scales with completeness and consistency",
+          "Id": "3"
+        },
+        "ShortName": "AirMOSS_Soil_Moist_Visualizer_1366",
+        "EntryTitle": "Soil Moisture Visualizer",
+        "RelatedUrls": [
+          {
+            "Description": "This link allows direct data access via Earthdata login",
+            "URLs": [
+              "0"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          },
+          {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_Soil_Moist_Visualizer.html"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Data set Landing Page DOI URL",
+            "URLs": [
+              "https://doi.org/10.3334/ORNLDAAC/1366"
+            ],
+            "Relation": [
+              "DATA SET LANDING PAGE"
+            ]
+          },
+          {
+            "Description": "Data Set Documentation",
+            "URLs": [
+              "https://daac.ornl.gov/daacdata/airmoss/AirMOSS_Soil_Moist_Visualizer/comp/AirMOSS_Soil_Moist_Visualizer.pdf"
+            ],
+            "Relation": [
+              "VIEW RELATED INFORMATION",
+              "GENERAL DOCUMENTATION"
+            ]
+          },
+          {
+            "Description": "Browse Image",
+            "URLs": [
+              "https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_Soil_Moist_Visualizer_Fig1.png"
+            ],
+            "Relation": [
+              "GET RELATED VISUALIZATION"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "DataDates": [
+          {
+            "Date": "2017-04-13T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-04-15T18:55:18.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The goal of the Soil Moisture Visualizer (SMV) is to bring together multiple sources of soil moisture data available for North America into a single platform for visualization and download. The visualizer harmonizes surface and root zone soil moisture data sets that are in diverse native data formats and encompass a range of spatial footprints, soil depths, and measurement frequencies. The SMV consists of a web-based application for visualization and spatial subsetting of the soil moisture data and accompanying REST-based services (being developed) for accessing the data.",
+        "MetadataDates": [
+          {
+            "Date": "2017-04-13T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AirMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "ContactPersons": [],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ORNL_DAAC",
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Direct Line",
+                    "Value": "(865) 241-3952"
+                  },
+                  {
+                    "Type": "Email",
+                    "Value": "uso@daac.ornl.gov"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "ORNL DAAC User Services Office, P.O. Box 2008, MS 6407, Oak Ridge National Laboratory"
+                    ],
+                    "City": "Oak Ridge",
+                    "StateProvince": "Tennessee",
+                    "Country": "USA",
+                    "PostalCode": "37831-6407"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "ContactGroups": [],
+            "ContactPersons": []
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Earth Observation Satellites",
+            "ShortName": "SMAP",
+            "LongName": "Soil Moisture Active and Passive Observatory"
+          },
+          {
+            "Type": "Aircraft",
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "UAVSAR",
+                "LongName": "Uninhabited Aerial Vehicle Synthetic Aperture Radar"
+              }
+            ]
+          },
+          {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "CONDUCTIVITY METERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 2,
+        "deleted": false,
+        "format": "application/dif10+xml",
+        "provider-id": "USGS_LTA",
+        "user-id": "mmorahan",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "airmoss_chamela_mexico",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1220567952-USGS_LTA",
+        "revision-date": "2019-03-25T10:54:51Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "DataLanguage": "eng",
+        "AncillaryKeywords": [
+          "imagery",
+          "AirMOSS",
+          "carbon",
+          "EROS"
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "NO_SPATIAL"
+        },
+        "Distributions": [
+          {
+            "DistributionMedia": "Digital",
+            "Sizes": [
+              {}
+            ],
+            "DistributionFormat": "Download",
+            "Fees": "This non-refundable fee  is $30 per scene/frame."
+          }
+        ],
+        "CollectionProgress": "IN WORK",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "EROSION/SEDIMENTATION",
+            "VariableLevel1": "EROSION"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "LAND USE/LAND COVER",
+            "VariableLevel1": "LAND USE/LAND COVER CLASSIFICATION"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "LANDSCAPE",
+            "VariableLevel1": "REFORESTATION"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "SOILS"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "SURFACE RADIATIVE PROPERTIES",
+            "VariableLevel1": "ALBEDO"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "GEOMORPHIC LANDFORMS/PROCESSES"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "TOPOGRAPHY",
+            "VariableLevel1": "TERRAIN ELEVATION"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "TOPOGRAPHY",
+            "VariableLevel1": "TOPOGRAPHIC EFFECTS"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "LAND SURFACE",
+            "Term": "TOPOGRAPHY",
+            "VariableLevel1": "TERRAIN ELEVATION",
+            "VariableLevel2": "TOPOGRAPHICAL RELIEF MAPS"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1970-01-01T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "Not provided"
+        },
+        "ShortName": "airmoss_chamela_mexico",
+        "EntryTitle": "USGS AirMOSS - Chamela, Mexico",
+        "ISOTopicCategories": [
+          "IMAGERY/BASE MAPS/EARTH COVER"
+        ],
+        "AccessConstraints": {
+          "Description": "\n      None\n   "
+        },
+        "RelatedUrls": [
+          {
+            "Description": "\n         Query and order satellite images, aerial photographs, and cartographic products through the U.S. Geological Survey. Log in as a guest or as a registered user. Registered users have access to more features than guests do. If you plan on using EarthExplorer frequently, you may wish to register. Please note that this site uses Session Cookies and Java applets.\n      ",
+            "URLs": [
+              "http://earthexplorer.usgs.gov"
+            ],
+            "Relation": [
+              "GET DATA"
+            ]
+          }
+        ],
+        "ContactGroups": [],
+        "Abstract": "North American ecosystems are critical components of the global carbon cycle, exchanging large amounts of carbon dioxide and other gases with the atmosphere. Net ecosystem exchange (NEE) quantifies these carbon fluxes, but current continental-scale estimates contain high levels of uncertainty. Root-zone soil moisture (RZSM) and its spatial and temporal hetergeneity influence NEE and contribute as much as 60-80 percent to the uncertainty.  Energy and CO2 Fluxes have been monitored from 1997 to 2007 using Bowen Ratio technique, and since spring of 2004 with eddy covariance.",
+        "Purpose": "The goal of the Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) project is to provide a new NEE estimate for North America with reduced uncertainty by (1) providing high-resolution observations of RZSM over regions representative of the major North American biomes, (2) quantifying the impact of RZSM on the estimation of regional carbon fluxes, and (3) upscaling the reduced uncertainty estimates of regional carbon fluxes to the continental scale of North America.",
+        "LocationKeywords": [
+          {
+            "Category": "CONTINENT",
+            "Type": "NORTH AMERICA",
+            "Subregion1": "MEXICO"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2013-12-30T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2016-01-29T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "DirectoryNames": [
+          {
+            "ShortName": "USA/USGS"
+          }
+        ],
+        "Version": "Not provided",
+        "Projects": [
+          {
+            "ShortName": "AIRMOSS",
+            "LongName": "Airborne Microwave Observatory of Subcanopy and Subsurface"
+          }
+        ],
+        "UseConstraints": "\n      There is no guarantee of warranty concerning the accuracy of these data.  Users should be aware that temporal changes may have occurred since the data was collected and that some parts of these data may no longer represent actual surface conditions.  Users should not use these data for critical applications without a full awareness of their limitations.  Acknowledgement of the originating agencies would be appreciated in products derived from these data.  Any user who modifies the data set is obligated to describe the types of modifications they perform.  User specifically agrees not to misrepresent the data set, nor to imply that changes made were approved or endorsed by the U.S. Geological Survey.  Please refer to http://www.usgs.gov/privacy.html for the USGS disclaimer.\n   ",
+        "ContactPersons": [
+          {
+            "Roles": [
+              "Metadata Author"
+            ],
+            "ContactInformation": [
+              {
+                "ContactMechanisms": [
+                  {
+                    "Type": "Email",
+                    "Value": "lta@usgs.gov"
+                  },
+                  {
+                    "Type": "Telephone",
+                    "Value": "605-594-6973"
+                  }
+                ],
+                "Addresses": [
+                  {
+                    "StreetAddresses": [
+                      "EROS"
+                    ],
+                    "City": "Sioux Falls",
+                    "StateProvince": "SD",
+                    "Country": "USA",
+                    "PostalCode": "57198"
+                  }
+                ],
+                "RelatedUrls": []
+              }
+            ],
+            "FirstName": "ANNIEPAT",
+            "LastName": "JOHNSON"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER",
+              "DISTRIBUTOR"
+            ],
+            "ShortName": "DOI/USGS/EROS",
+            "LongName": "Earth Resources Observation and Science Center, U.S. Geological Survey, U.S. Department of the Interior",
+            "Uuid": "7f108a54-e4e4-4630-a0fc-e3c1311623ef",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "ContactInformation": [
+                  {
+                    "ContactMechanisms": [
+                      {
+                        "Type": "Email",
+                        "Value": "lta@usgs.gov"
+                      },
+                      {
+                        "Type": "Telephone",
+                        "Value": "605-594-6973"
+                      }
+                    ],
+                    "Addresses": [
+                      {
+                        "StreetAddresses": [
+                          "EROS"
+                        ],
+                        "City": "Sioux Falls",
+                        "StateProvince": "SD",
+                        "Country": "USA",
+                        "PostalCode": "57198"
+                      }
+                    ],
+                    "RelatedUrls": []
+                  }
+                ],
+                "FirstName": "ANNIEPAT",
+                "LastName": "JOHNSON"
+              }
+            ],
+            "ContactInformation": [
+              {
+                "RelatedUrls": [
+                  {
+                    "URLs": [
+                      "http://eros.usgs.gov/"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "ContactGroups": []
+          }
+        ],
+        "Platforms": [
+          {
+            "ShortName": "UAV",
+            "LongName": "Unmanned Aerial Vehicle",
+            "Instruments": [
+              {
+                "ShortName": "SAR",
+                "LongName": "Synthetic Aperture Radar"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

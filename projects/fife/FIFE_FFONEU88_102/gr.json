@@ -1,0 +1,115 @@
+{
+  "hits": 1,
+  "took": 17,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422723226-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "FIFE_FFONEU88.ffoneu88.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:04:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1988-04-11T00:00:00.000Z",
+            "EndingDateTime": "1988-10-21T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_FFONEU88.ffoneu88.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -96.611,
+                  "EastBoundingCoordinate": -96.447,
+                  "NorthBoundingCoordinate": 39.1158,
+                  "SouthBoundingCoordinate": 38.9753
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_FFONEU88_102",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife-follow-on/files/ffoneu88.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/Follow_On/guides/Betts_neut_soil_mstr_88.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/102",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife-follow-on/docs/Betts_neut_soil_mstr_88.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife-follow-on/docs/ffo_sm.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.018902,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

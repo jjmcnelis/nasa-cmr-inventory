@@ -1,0 +1,156 @@
+{
+  "hits": 1,
+  "took": 16,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422750758-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_TE09NPD.te09_nitrogen_photo.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:34:42Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-05-24T00:00:00.000Z",
+            "EndingDateTime": "1994-09-19T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_TE09NPD.te09_nitrogen_photo.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "PHOTOSYNTHESIS"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "NITROGEN"
+          },
+          {
+            "ParameterName": "NUTRIENTS"
+          },
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -98.6748,
+                  "EastBoundingCoordinate": -98.2871,
+                  "NorthBoundingCoordinate": 55.9284,
+                  "SouthBoundingCoordinate": 55.8801
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_TE09NPD_343",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/TE/te09npd/data/te09_nitrogen_photo.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/TE09_NITROGEN_PHOTO.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/343",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te09npd/comp/te09npd.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te09npd/comp/TE09_NITROGEN_PHOTO.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te09npd/comp/TE09_NITROGEN_PHOTO.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TE/te09npd/comp/TE09_NITROGEN_PHOTO.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.038354,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "COLORIMETERS"
+              },
+              {
+                "ShortName": "LICOR GAS EXCHANGE SYSTEM"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          },
+          {
+            "ShortName": "PHOTOSYNTHESIS CHAMBER",
+            "Instruments": [
+              {
+                "ShortName": "LICOR GAS EXCHANGE SYSTEM"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

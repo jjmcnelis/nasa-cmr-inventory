@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gr" id="gr">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="gran_name" type="string"></SimpleField>
+	<SimpleField name="gran_size_mb" type="float"></SimpleField>
+	<SimpleField name="gran_parameters" type="string"></SimpleField>
+	<SimpleField name="gran_day_night" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>gr</name>
+  <Placemark>
+	<name>granule</name>
+	<description>G1546816353-ORNL_DAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">ABoVE_Concise_Experiment_Plan.Concise_Experiment_Plan_for_NASA_ABoVE.pdf</SimpleData>
+		<SimpleData name="cmr_concept_id">ORNL_DAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-09-10T13:48:39Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2018</SimpleData>
+		<SimpleData name="cmr_revision_date">ABoVE_Concise_Experiment_Plan_1617</SimpleData>
+		<SimpleData name="cmr_publication_date">ABoVE_Concise_Experiment_Plan.Concise_Experiment_Plan_for_NASA_ABoVE.pdf</SimpleData>
+		<SimpleData name="coll_shortname">10.40636</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2014-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2021-12-31T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">39.415</SimpleData>
+		<SimpleData name="time_max">81.6086</SimpleData>
+		<SimpleData name="lat_min">-176.125</SimpleData>
+		<SimpleData name="lat_max">-66.9178</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-66.9178,39.415 -66.9178,81.6086 -176.125,81.6086 -176.125,39.415 -66.9178,39.415</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,2718 @@
+{
+  "hits": 24,
+  "took": 30,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358219-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.vegetation_landcover.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1993-01-01T00:00:00.000Z",
+            "EndingDateTime": "2015-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.vegetation_landcover.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 85.0446,
+                  "SouthBoundingCoordinate": -84.6916
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/vegetation_landcover.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.182346,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358205-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.fractional_water.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2000-02-01T00:00:00.000Z",
+            "EndingDateTime": "2001-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.fractional_water.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 85.0446,
+                  "SouthBoundingCoordinate": -84.6916
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/fractional_water.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.523158,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358210-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.Baseline.Soil.CO2.Flux.2003-2017.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2003-09-01T00:00:00.000Z",
+            "EndingDateTime": "2017-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.Baseline.Soil.CO2.Flux.2003-2017.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/Baseline.Soil.CO2.Flux.2003-2017.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 24.441389,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358215-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.Baseline.Soil.CO2.QA.0310.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2003-10-01T00:00:00.000Z",
+            "EndingDateTime": "2010-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.Baseline.Soil.CO2.QA.0310.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/Baseline.Soil.CO2.QA.0310.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.216061,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358211-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.Baseline.RCP45.Soil.CO2.QA.1020.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2010-10-01T00:00:00.000Z",
+            "EndingDateTime": "2020-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.Baseline.RCP45.Soil.CO2.QA.1020.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/Baseline.RCP45.Soil.CO2.QA.1020.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.217938,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358216-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.Baseline.RCP85.Soil.CO2.QA.1020.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2010-10-01T00:00:00.000Z",
+            "EndingDateTime": "2020-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.Baseline.RCP85.Soil.CO2.QA.1020.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/Baseline.RCP85.Soil.CO2.QA.1020.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.215183,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358206-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.Flux.2017-2100.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2017-10-01T00:00:00.000Z",
+            "EndingDateTime": "2100-11-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.Flux.2017-2100.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP85.Soil.CO2.Flux.2017-2100.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 30.116381,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358221-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.Flux.2017-2100.nc4",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2017-10-01T00:00:00.000Z",
+            "EndingDateTime": "2100-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.Flux.2017-2100.nc4",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP45.Soil.CO2.Flux.2017-2100.nc4",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 114.664151,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358204-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.QA.2030.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:06Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2020-10-01T00:00:00.000Z",
+            "EndingDateTime": "2030-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.QA.2030.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP85.Soil.CO2.QA.2030.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.217587,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358222-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.QA.2030.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2020-10-01T00:00:00.000Z",
+            "EndingDateTime": "2030-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.QA.2030.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP45.Soil.CO2.QA.2030.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.216662,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358217-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.QA.3040.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2030-10-01T00:00:00.000Z",
+            "EndingDateTime": "2040-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.QA.3040.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP85.Soil.CO2.QA.3040.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2174,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358225-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.QA.3040.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2030-10-01T00:00:00.000Z",
+            "EndingDateTime": "2040-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.QA.3040.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP45.Soil.CO2.QA.3040.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.216388,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358218-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.QA.4050.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2040-10-01T00:00:00.000Z",
+            "EndingDateTime": "2050-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.QA.4050.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP45.Soil.CO2.QA.4050.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.216761,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358227-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.QA.4050.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2040-10-01T00:00:00.000Z",
+            "EndingDateTime": "2050-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.QA.4050.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP85.Soil.CO2.QA.4050.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.217203,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358209-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.QA.5060.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2050-10-01T00:00:00.000Z",
+            "EndingDateTime": "2060-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.QA.5060.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP85.Soil.CO2.QA.5060.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.216977,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358226-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.QA.5060.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2050-10-01T00:00:00.000Z",
+            "EndingDateTime": "2060-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.QA.5060.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP45.Soil.CO2.QA.5060.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.216494,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358207-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.QA.6070.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2060-10-01T00:00:00.000Z",
+            "EndingDateTime": "2070-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.QA.6070.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP45.Soil.CO2.QA.6070.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.216365,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358220-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.QA.6070.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2060-10-01T00:00:00.000Z",
+            "EndingDateTime": "2070-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.QA.6070.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP85.Soil.CO2.QA.6070.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.216951,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358208-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.QA.7080.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2070-10-01T00:00:00.000Z",
+            "EndingDateTime": "2080-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.QA.7080.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP45.Soil.CO2.QA.7080.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.216695,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358214-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.QA.7080.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2070-10-01T00:00:00.000Z",
+            "EndingDateTime": "2080-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.QA.7080.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP85.Soil.CO2.QA.7080.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.216967,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358223-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.QA.8090.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2080-10-01T00:00:00.000Z",
+            "EndingDateTime": "2090-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.QA.8090.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP85.Soil.CO2.QA.8090.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.216536,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358224-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.QA.8090.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2080-10-01T00:00:00.000Z",
+            "EndingDateTime": "2090-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.QA.8090.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP45.Soil.CO2.QA.8090.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.21679,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358212-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.QA.9000.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2090-10-01T00:00:00.000Z",
+            "EndingDateTime": "2100-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP85.Soil.CO2.QA.9000.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP85.Soil.CO2.QA.9000.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2158,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633358213-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.QA.9000.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-13T13:39:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2090-10-01T00:00:00.000Z",
+            "EndingDateTime": "2100-04-30T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "Soil_Carbon_Flux_Maps.RCP45.Soil.CO2.QA.9000.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "SOIL RESPIRATION"
+          },
+          {
+            "ParameterName": "PERMAFROST"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 179.896,
+                  "NorthBoundingCoordinate": 89.979,
+                  "SouthBoundingCoordinate": 48.8423
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-09-12T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-13T13:39:03.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Soil_Carbon_Flux_Maps_1683",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/data/RCP45.Soil.CO2.QA.9000.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Soil_Carbon_Flux_Maps.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1683",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Soil_Carbon_Flux_Maps/comp/Soil_Carbon_Flux_Maps.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-09-12T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.216789,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Environmental Modeling",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

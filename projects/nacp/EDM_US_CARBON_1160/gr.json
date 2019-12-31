@@ -1,0 +1,482 @@
+{
+  "hits": 4,
+  "took": 24,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1461014269-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "EDM_US_CARBON.inputs.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-03-26T13:05:16Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1700-01-01T00:00:00.000Z",
+            "EndingDateTime": "1990-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "EDM_US_CARBON.inputs.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LAND USE CLASSES"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -164.5,
+                  "EastBoundingCoordinate": -30.5,
+                  "NorthBoundingCoordinate": 52.0,
+                  "SouthBoundingCoordinate": 21.5
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-05-20T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-05-20T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "EDM_US_CARBON_1160",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/model_archive/EDM_US_Carbon//data/inputs.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/MODELS/guides/EDM_US_Carbon.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1160",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/model_archive/EDM_US_Carbon/comp/EDM_US_Carbon.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "model archive"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-05-20T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 44.02206,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1461014270-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "EDM_US_CARBON.code.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-03-26T13:05:16Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1700-01-01T00:00:00.000Z",
+            "EndingDateTime": "1990-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "EDM_US_CARBON.code.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LAND USE CLASSES"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -164.5,
+                  "EastBoundingCoordinate": -30.5,
+                  "NorthBoundingCoordinate": 52.0,
+                  "SouthBoundingCoordinate": 21.5
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-05-20T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-05-20T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "EDM_US_CARBON_1160",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/model_archive/EDM_US_Carbon//data/code.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/MODELS/guides/EDM_US_Carbon.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1160",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/model_archive/EDM_US_Carbon/comp/EDM_US_Carbon.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "model archive"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-05-20T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.083784,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1461014271-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "EDM_US_CARBON.published_output.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-03-26T13:05:16Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1700-01-01T00:00:00.000Z",
+            "EndingDateTime": "1990-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "EDM_US_CARBON.published_output.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LAND USE CLASSES"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -164.5,
+                  "EastBoundingCoordinate": -30.5,
+                  "NorthBoundingCoordinate": 52.0,
+                  "SouthBoundingCoordinate": 21.5
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-05-20T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-05-20T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "EDM_US_CARBON_1160",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/model_archive/EDM_US_Carbon//data/published_output.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/MODELS/guides/EDM_US_Carbon.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1160",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/model_archive/EDM_US_Carbon/comp/EDM_US_Carbon.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "model archive"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-05-20T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.048829,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1461014272-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "EDM_US_CARBON.cvode.zip",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-03-26T13:05:16Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1700-01-01T00:00:00.000Z",
+            "EndingDateTime": "1990-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "EDM_US_CARBON.cvode.zip",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AGRICULTURAL LANDS"
+          },
+          {
+            "ParameterName": "FORESTS"
+          },
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CARBON"
+          },
+          {
+            "ParameterName": "LAND USE CLASSES"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -164.5,
+                  "EastBoundingCoordinate": -30.5,
+                  "NorthBoundingCoordinate": 52.0,
+                  "SouthBoundingCoordinate": 21.5
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-05-20T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-05-20T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "EDM_US_CARBON_1160",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/model_archive/EDM_US_Carbon//data/cvode.zip",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/MODELS/guides/EDM_US_Carbon.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1160",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/model_archive/EDM_US_Carbon/comp/EDM_US_Carbon.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "model archive"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2013-05-20T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.113873,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "NOT APPLICABLE",
+            "Instruments": [
+              {
+                "ShortName": "NOT APPLICABLE"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

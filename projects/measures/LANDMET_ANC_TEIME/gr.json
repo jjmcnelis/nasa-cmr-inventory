@@ -1,0 +1,83 @@
+{
+  "hits": 1,
+  "took": 18,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1374350953-GES_DISC",
+        "revision-id": 3,
+        "native-id": "LANDMET_ANC_TEIME.1:LANDMET_ANC_TEIME_L3_19982007_v1.nc",
+        "provider-id": "GES_DISC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-03-21T10:19:03Z"
+      },
+      "umm": {
+        "RelatedUrls": [
+          {
+            "URL": "https://measures.gesdisc.eosdis.nasa.gov/data//LANDMET/LANDMET_ANC_TEIME.1/LANDMET_ANC_TEIME_L3_19982007_v1.nc",
+            "Type": "GET DATA"
+          },
+          {
+            "URL": "https://measures.gesdisc.eosdis.nasa.gov/opendap/LANDMET/LANDMET_ANC_TEIME.1/LANDMET_ANC_TEIME_L3_19982007_v1.nc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "application/x-netcdf"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-03-09T18:34:04.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2017-03-09T18:34:04.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "LANDMET_ANC_TEIME",
+          "Version": "1"
+        },
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "Identifiers": [
+            {
+              "Identifier": "LANDMET_ANC_TEIME_L3_19982007_v1.nc",
+              "IdentifierType": "ProducerGranuleId"
+            }
+          ],
+          "ProductionDateTime": "2016-11-22T11:28:04.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 16.3315935134888,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1998-01-01T00:00:00.000Z",
+            "EndingDateTime": "2007-12-31T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "LANDMET_ANC_TEIME.1:LANDMET_ANC_TEIME_L3_19982007_v1.nc"
+      }
+    }
+  ]
+}

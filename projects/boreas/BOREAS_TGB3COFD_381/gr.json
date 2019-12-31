@@ -1,0 +1,136 @@
+{
+  "hits": 1,
+  "took": 14,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755654-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_TGB3COFD.tgb03_co2_ch4_flux_uplnd.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:36:05Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1994-05-16T00:00:00.000Z",
+            "EndingDateTime": "1996-10-22T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_TGB3COFD.tgb03_co2_ch4_flux_uplnd.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SOIL GAS/AIR"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -98.947,
+                  "EastBoundingCoordinate": -97.497,
+                  "NorthBoundingCoordinate": 55.9284,
+                  "SouthBoundingCoordinate": 55.8801
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_TGB3COFD_381",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/TGB/tgb3cofd/data/tgb03_co2_ch4_flux_uplnd.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/TGB03_CO2_CH4_UplndFlux.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/381",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TGB/tgb3cofd/comp/TGB03_CO2_CH4_UplndFlux.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TGB/tgb3cofd/comp/TGB03_CO2_CH4_UplndFlux.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TGB/tgb3cofd/comp/TGB03_CO2_CH4_UplndFlux.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TGB/tgb3cofd/comp/tgb3cofd.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.120952,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "GAS CHROMATOGRAPHS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

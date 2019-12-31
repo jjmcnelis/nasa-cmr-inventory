@@ -1,0 +1,166 @@
+{
+  "hits": 1,
+  "took": 17,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422755712-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_TGB12SCD.tgb12_soil_carbon.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:36:46Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1993-08-01T00:00:00.000Z",
+            "EndingDateTime": "1996-07-21T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_TGB12SCD.tgb12_soil_carbon.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND USE/LAND COVER CLASSIFICATION"
+          },
+          {
+            "ParameterName": "SOIL BULK DENSITY"
+          },
+          {
+            "ParameterName": "SOIL CHEMISTRY"
+          },
+          {
+            "ParameterName": "SOIL GAS/AIR"
+          },
+          {
+            "ParameterName": "SOIL MOISTURE/WATER CONTENT"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -98.949,
+                  "EastBoundingCoordinate": -97.7003,
+                  "NorthBoundingCoordinate": 55.9287,
+                  "SouthBoundingCoordinate": 55.0667
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-01-30T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_TGB12SCD_402",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/TGB/tgb12scd/data/tgb12_soil_carbon.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/TGB12_Soil_Carbon.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/402",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TGB/tgb12scd/comp/tgb12scd.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TGB/tgb12scd/comp/TGB12_Soil_Carbon.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TGB/tgb12scd/comp/TGB12_Soil_Carbon.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TGB/tgb12scd/comp/TGB12_Soil_Carbon.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-01-30T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.159338,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "BALANCE"
+              },
+              {
+                "ShortName": "CHN ANALYZERS"
+              },
+              {
+                "ShortName": "MASS SPECTROMETERS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+              {
+                "ShortName": "THERMISTORS"
+              },
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              },
+              {
+                "ShortName": "THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

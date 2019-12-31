@@ -1,0 +1,122 @@
+{
+  "hits": 1,
+  "took": 15,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1633584786-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_Monthly_CO2_Gulf_of_Mexico.pco2_co2_flux.nc",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-09-15T13:16:52Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-01-01T00:00:00.000Z",
+            "EndingDateTime": "2011-01-01T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_Monthly_CO2_Gulf_of_Mexico.pco2_co2_flux.nc",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOGEOCHEMICAL CYCLES"
+          },
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "MARINE ECOSYSTEMS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -96.0,
+                  "EastBoundingCoordinate": -86.0,
+                  "NorthBoundingCoordinate": 32.0,
+                  "SouthBoundingCoordinate": 25.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-06-25T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-09-15T13:16:51.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_Monthly_CO2_Gulf_of_Mexico_1668",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_Monthly_CO2_Gulf_of_Mexico/data/pco2_co2_flux.nc",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_Monthly_CO2_Gulf_of_Mexico.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1668",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_Monthly_CO2_Gulf_of_Mexico/comp/CMS_Monthly_CO2_Gulf_of_Mexico.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-06-25T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 175.797427,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "Aqua",
+            "Instruments": [
+              {
+                "ShortName": "MODIS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

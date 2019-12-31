@@ -1,0 +1,2086 @@
+{
+  "hits": 10,
+  "took": 25,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422761444-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_SAMSA94D.afm7sra94_reg999skn01.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:41:06Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1993-12-15T00:00:00.000Z",
+            "EndingDateTime": "1994-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_SAMSA94D.afm7sra94_reg999skn01.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.509,
+                  "EastBoundingCoordinate": -97.874,
+                  "NorthBoundingCoordinate": 56.886,
+                  "SouthBoundingCoordinate": 52.15
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_SAMSA94D_462",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/AFM/samsa94d/data/afm7sra94_reg999skn01.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AFM07_SRC_AMS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/462",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/samsa94d.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-12-09T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 8.537233,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422761447-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_SAMSA94D.afm7sra94_reg999mdlsa.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:41:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1993-12-15T00:00:00.000Z",
+            "EndingDateTime": "1994-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_SAMSA94D.afm7sra94_reg999mdlsa.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.509,
+                  "EastBoundingCoordinate": -97.874,
+                  "NorthBoundingCoordinate": 56.886,
+                  "SouthBoundingCoordinate": 52.15
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_SAMSA94D_462",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/AFM/samsa94d/data/afm7sra94_reg999mdlsa.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AFM07_SRC_AMS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/462",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/samsa94d.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-12-09T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 8.906767,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422761448-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_SAMSA94D.afm7sra94_trn999ffn03.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:41:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1993-12-15T00:00:00.000Z",
+            "EndingDateTime": "1994-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_SAMSA94D.afm7sra94_trn999ffn03.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.509,
+                  "EastBoundingCoordinate": -97.874,
+                  "NorthBoundingCoordinate": 56.886,
+                  "SouthBoundingCoordinate": 52.15
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_SAMSA94D_462",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/AFM/samsa94d/data/afm7sra94_trn999ffn03.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AFM07_SRC_AMS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/462",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/samsa94d.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-12-09T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 9.648818,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422761449-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_SAMSA94D.afm7sra94_ssaojpflxtr.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:41:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1993-12-15T00:00:00.000Z",
+            "EndingDateTime": "1994-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_SAMSA94D.afm7sra94_ssaojpflxtr.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.509,
+                  "EastBoundingCoordinate": -97.874,
+                  "NorthBoundingCoordinate": 56.886,
+                  "SouthBoundingCoordinate": 52.15
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_SAMSA94D_462",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/AFM/samsa94d/data/afm7sra94_ssaojpflxtr.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AFM07_SRC_AMS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/462",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/samsa94d.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-12-09T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 9.818072,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422761450-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_SAMSA94D.afm7sra94_nsa9bsythsa.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:41:08Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1993-12-15T00:00:00.000Z",
+            "EndingDateTime": "1994-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_SAMSA94D.afm7sra94_nsa9bsythsa.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.509,
+                  "EastBoundingCoordinate": -97.874,
+                  "NorthBoundingCoordinate": 56.886,
+                  "SouthBoundingCoordinate": 52.15
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_SAMSA94D_462",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/AFM/samsa94d/data/afm7sra94_nsa9bsythsa.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AFM07_SRC_AMS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/462",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/samsa94d.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-12-09T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 9.874984,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422761451-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_SAMSA94D.afm7sra94_ssa9oaflxtr.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:41:08Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1993-12-15T00:00:00.000Z",
+            "EndingDateTime": "1994-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_SAMSA94D.afm7sra94_ssa9oaflxtr.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.509,
+                  "EastBoundingCoordinate": -97.874,
+                  "NorthBoundingCoordinate": 56.886,
+                  "SouthBoundingCoordinate": 52.15
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_SAMSA94D_462",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/AFM/samsa94d/data/afm7sra94_ssa9oaflxtr.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AFM07_SRC_AMS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/462",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/samsa94d.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-12-09T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 10.098717,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422761452-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_SAMSA94D.afm7sra94_trn999tpa03.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:41:09Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1993-12-15T00:00:00.000Z",
+            "EndingDateTime": "1994-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_SAMSA94D.afm7sra94_trn999tpa03.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.509,
+                  "EastBoundingCoordinate": -97.874,
+                  "NorthBoundingCoordinate": 56.886,
+                  "SouthBoundingCoordinate": 52.15
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_SAMSA94D_462",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/AFM/samsa94d/data/afm7sra94_trn999tpa03.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AFM07_SRC_AMS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/462",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/samsa94d.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-12-09T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 9.839705,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422761453-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_SAMSA94D.afm7sra94_nsaojpflxtr.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:41:09Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1993-12-15T00:00:00.000Z",
+            "EndingDateTime": "1994-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_SAMSA94D.afm7sra94_nsaojpflxtr.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.509,
+                  "EastBoundingCoordinate": -97.874,
+                  "NorthBoundingCoordinate": 56.886,
+                  "SouthBoundingCoordinate": 52.15
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_SAMSA94D_462",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/AFM/samsa94d/data/afm7sra94_nsaojpflxtr.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AFM07_SRC_AMS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/462",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/samsa94d.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-12-09T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 9.005896,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422761454-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_SAMSA94D.afm7sra94_reg999ronsa.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:41:10Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1993-12-15T00:00:00.000Z",
+            "EndingDateTime": "1994-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_SAMSA94D.afm7sra94_reg999ronsa.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.509,
+                  "EastBoundingCoordinate": -97.874,
+                  "NorthBoundingCoordinate": 56.886,
+                  "SouthBoundingCoordinate": 52.15
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_SAMSA94D_462",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/AFM/samsa94d/data/afm7sra94_reg999ronsa.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AFM07_SRC_AMS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/462",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/samsa94d.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-12-09T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 9.901091,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422761455-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_SAMSA94D.afm7sra94_reg999lynsa.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:41:10Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1993-12-15T00:00:00.000Z",
+            "EndingDateTime": "1994-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_SAMSA94D.afm7sra94_reg999lynsa.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "HUMIDITY"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "INCOMING SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "SOLAR RADIATION"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "PRECIPITATION RATE"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          },
+          {
+            "ParameterName": "LAND SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SNOW DEPTH"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -108.509,
+                  "EastBoundingCoordinate": -97.874,
+                  "NorthBoundingCoordinate": 56.886,
+                  "SouthBoundingCoordinate": 52.15
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-12-09T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_SAMSA94D_462",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/AFM/samsa94d/data/afm7sra94_reg999lynsa.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/AFM07_SRC_AMS.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/462",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_CS_Progs.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SoilMoist.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/AFM07_SRC_AMS.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/AFM/samsa94d/comp/samsa94d.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-12-09T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 9.99182,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "METEOROLOGICAL STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "BAROMETERS"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "TEMPERATURE PROBES"
+              },
+              {
+                "ShortName": "ULTRASONIC DEPTH GAUGE"
+              },
+              {
+                "ShortName": "WIND MONITOR"
+              },
+              {
+                "ShortName": "TEMPERATURE SENSORS"
+              },
+              {
+                "ShortName": "HUMIDITY SENSORS"
+              },
+              {
+                "ShortName": "INFRARED THERMOMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

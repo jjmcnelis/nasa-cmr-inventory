@@ -1,0 +1,1490 @@
+{
+  "hits": 4,
+  "took": 21,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1629379314-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Reflectance_Spectra_Alaska.sel_2017_spectral_library_svc_data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-08-16T11:24:41Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2017-07-18T19:00:00.000Z",
+            "EndingDateTime": "2017-08-19T22:46:00.000Z"
+          }
+        },
+        "GranuleUR": "Reflectance_Spectra_Alaska.sel_2017_spectral_library_svc_data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "REFLECTANCE"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -157.412,
+                  "EastBoundingCoordinate": -145.515,
+                  "NorthBoundingCoordinate": 71.3462,
+                  "SouthBoundingCoordinate": 65.4349
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-08-15T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-08-16T11:24:40.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Reflectance_Spectra_Alaska_1685",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/data/sel_2017_spectral_library_svc_data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Reflectance_Spectra_Alaska.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1685",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Atqasuk_CALM_All_Dates_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Atqasuk_Leaf_170805_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Atqasuk_MISP_All_Dates_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Coldfoot_Ecot_170727_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/EagleCreek_Ecot_170728_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/EagleCreek_Leaf_170729_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/NoName_Creek_Leaf_170731_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Atqasuk_CALM_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Atqasuk_LEAF_Spectral_Data.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Atqasuk_MISP_Spectral_Data.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Coldfoot_Ecotype_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_EagleCreek_Ecotype_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_EagleCreek_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Imnavait_MISP_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_NoNameCreek_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Sagwon_Ecotype_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Sagwon_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Toolik_Ecotype_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Toolik_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Toolik_MISP_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_BEO_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_CALM_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_Chukchi_Coast_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_DEM_Site_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_ITEX_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_MetStationD_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_Microtopo_Historical_Site_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_MISP_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_Mounds_Site_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_OSLEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_OSRW_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_Pfrigidus_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Reflectance_Spectra_Alaska.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Sagwon_Ecotype_170725_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Sagwon_Leaf_170725_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Toolik_Ecotype_170726_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Toolik_Leaf_170724_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_BEO_170809_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_BMBV_170816_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_BMDC_170816_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_CALM_All_Dates_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_Chukchi_Coast_170818_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_DEM_170814_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_Elson_Coast_170819_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_Leaf_170807_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_Met_Tower_170813_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_MISP_All_Dates_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_OSLEAF_170815_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_OSRW_170814_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_PetFri_170810_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-08-15T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 12.445759,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "SPECTROMETERS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SPECTROMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1629379317-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Reflectance_Spectra_Alaska.sel_2017_spectral_library_svc_metadata.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-08-16T11:24:41Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2017-07-18T19:00:00.000Z",
+            "EndingDateTime": "2017-08-19T22:46:00.000Z"
+          }
+        },
+        "GranuleUR": "Reflectance_Spectra_Alaska.sel_2017_spectral_library_svc_metadata.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "REFLECTANCE"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -157.412,
+                  "EastBoundingCoordinate": -145.515,
+                  "NorthBoundingCoordinate": 71.3462,
+                  "SouthBoundingCoordinate": 65.4349
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-08-15T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-08-16T11:24:40.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Reflectance_Spectra_Alaska_1685",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/data/sel_2017_spectral_library_svc_metadata.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Reflectance_Spectra_Alaska.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1685",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Atqasuk_CALM_All_Dates_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Atqasuk_Leaf_170805_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Atqasuk_MISP_All_Dates_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Coldfoot_Ecot_170727_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/EagleCreek_Ecot_170728_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/EagleCreek_Leaf_170729_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/NoName_Creek_Leaf_170731_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Atqasuk_CALM_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Atqasuk_LEAF_Spectral_Data.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Atqasuk_MISP_Spectral_Data.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Coldfoot_Ecotype_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_EagleCreek_Ecotype_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_EagleCreek_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Imnavait_MISP_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_NoNameCreek_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Sagwon_Ecotype_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Sagwon_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Toolik_Ecotype_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Toolik_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Toolik_MISP_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_BEO_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_CALM_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_Chukchi_Coast_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_DEM_Site_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_ITEX_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_MetStationD_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_Microtopo_Historical_Site_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_MISP_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_Mounds_Site_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_OSLEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_OSRW_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_Pfrigidus_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Reflectance_Spectra_Alaska.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Sagwon_Ecotype_170725_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Sagwon_Leaf_170725_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Toolik_Ecotype_170726_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Toolik_Leaf_170724_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_BEO_170809_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_BMBV_170816_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_BMDC_170816_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_CALM_All_Dates_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_Chukchi_Coast_170818_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_DEM_170814_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_Elson_Coast_170819_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_Leaf_170807_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_Met_Tower_170813_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_MISP_All_Dates_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_OSLEAF_170815_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_OSRW_170814_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_PetFri_170810_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-08-15T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1.988329,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "SPECTROMETERS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SPECTROMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1629379316-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Reflectance_Spectra_Alaska.sel_2018_spectral_library_svc_data.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-08-16T11:24:41Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-07-03T09:14:00.000Z",
+            "EndingDateTime": "2018-08-14T17:46:00.000Z"
+          }
+        },
+        "GranuleUR": "Reflectance_Spectra_Alaska.sel_2018_spectral_library_svc_data.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "REFLECTANCE"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -157.412,
+                  "EastBoundingCoordinate": -149.304,
+                  "NorthBoundingCoordinate": 71.3187,
+                  "SouthBoundingCoordinate": 68.6131
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-08-15T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-08-16T11:24:40.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Reflectance_Spectra_Alaska_1685",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/data/sel_2018_spectral_library_svc_data.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Reflectance_Spectra_Alaska.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1685",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Atqasuk_CALM_All_Dates_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Atqasuk_Leaf_170805_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Atqasuk_MISP_All_Dates_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Coldfoot_Ecot_170727_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/EagleCreek_Ecot_170728_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/EagleCreek_Leaf_170729_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/NoName_Creek_Leaf_170731_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Atqasuk_CALM_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Atqasuk_LEAF_Spectral_Data.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Atqasuk_MISP_Spectral_Data.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Coldfoot_Ecotype_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_EagleCreek_Ecotype_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_EagleCreek_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Imnavait_MISP_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_NoNameCreek_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Sagwon_Ecotype_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Sagwon_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Toolik_Ecotype_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Toolik_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Toolik_MISP_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_BEO_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_CALM_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_Chukchi_Coast_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_DEM_Site_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_ITEX_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_MetStationD_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_Microtopo_Historical_Site_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_MISP_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_Mounds_Site_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_OSLEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_OSRW_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_Pfrigidus_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Reflectance_Spectra_Alaska.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Sagwon_Ecotype_170725_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Sagwon_Leaf_170725_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Toolik_Ecotype_170726_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Toolik_Leaf_170724_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_BEO_170809_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_BMBV_170816_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_BMDC_170816_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_CALM_All_Dates_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_Chukchi_Coast_170818_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_DEM_170814_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_Elson_Coast_170819_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_Leaf_170807_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_Met_Tower_170813_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_MISP_All_Dates_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_OSLEAF_170815_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_OSRW_170814_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_PetFri_170810_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-08-15T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 6.159632,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "SPECTROMETERS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SPECTROMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1629379318-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "Reflectance_Spectra_Alaska.sel_2018_spectral_library_svc_metadata.csv",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-08-16T11:24:41Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-07-03T09:14:00.000Z",
+            "EndingDateTime": "2018-08-14T17:46:00.000Z"
+          }
+        },
+        "GranuleUR": "Reflectance_Spectra_Alaska.sel_2018_spectral_library_svc_metadata.csv",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "VEGETATION COVER"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "REFLECTANCE"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -157.412,
+                  "EastBoundingCoordinate": -149.304,
+                  "NorthBoundingCoordinate": 71.3187,
+                  "SouthBoundingCoordinate": 68.6131
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-08-15T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-08-16T11:24:40.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "Reflectance_Spectra_Alaska_1685",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/data/sel_2018_spectral_library_svc_metadata.csv",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/ABOVE/guides/Reflectance_Spectra_Alaska.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1685",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Atqasuk_CALM_All_Dates_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Atqasuk_Leaf_170805_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Atqasuk_MISP_All_Dates_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Coldfoot_Ecot_170727_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/EagleCreek_Ecot_170728_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/EagleCreek_Leaf_170729_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/NoName_Creek_Leaf_170731_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Atqasuk_CALM_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Atqasuk_LEAF_Spectral_Data.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Atqasuk_MISP_Spectral_Data.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Coldfoot_Ecotype_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_EagleCreek_Ecotype_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_EagleCreek_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Imnavait_MISP_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_NoNameCreek_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Sagwon_Ecotype_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Sagwon_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Toolik_Ecotype_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Toolik_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Toolik_MISP_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_BEO_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_CALM_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_Chukchi_Coast_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_DEM_Site_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_ITEX_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_LEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_MetStationD_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_Microtopo_Historical_Site_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_MISP_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_Mounds_Site_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_OSLEAF_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_OSRW_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/readme_Utqiagvik_Pfrigidus_Spectral_Data_Metadata.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Reflectance_Spectra_Alaska.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Sagwon_Ecotype_170725_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Sagwon_Leaf_170725_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Toolik_Ecotype_170726_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Toolik_Leaf_170724_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_BEO_170809_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_BMBV_170816_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_BMDC_170816_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_CALM_All_Dates_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_Chukchi_Coast_170818_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_DEM_170814_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_Elson_Coast_170819_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_Leaf_170807_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_Met_Tower_170813_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_MISP_All_Dates_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_OSLEAF_170815_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_OSRW_170814_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/above/Reflectance_Spectra_Alaska/comp/Utqiagvik_PetFri_170810_Images.zip",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "ABoVE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2019-08-15T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.878744,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "LABORATORY",
+            "Instruments": [
+              {
+                "ShortName": "SPECTROMETERS"
+              }
+            ]
+          },
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "SPECTROMETERS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "hits": 1,
+  "took": 87,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422732772-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "FIFE_VEG_REF.1987mult.vsr",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:14:53Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1989-10-31T00:00:00.000Z",
+            "EndingDateTime": "1989-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_VEG_REF.1987mult.vsr",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "VEGETATION SPECIES"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -102.0,
+                  "EastBoundingCoordinate": -95.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "SouthBoundingCoordinate": 37.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_VEG_REF_137",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife/data/biology/veg_ref/1987mult.vsr",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/guides/Vegetation_Species_Reference.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/137",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/biology/Vegetation_Species_Reference.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/biology/veg_ref.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/data/biology/veg_ref/veg_ref.tdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.038038,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+              {
+                "ShortName": "VISUAL OBSERVATIONS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

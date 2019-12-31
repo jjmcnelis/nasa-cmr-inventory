@@ -1,0 +1,666 @@
+{
+  "hits": 5,
+  "took": 17,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1461053134-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_LiDAR_Biomass_CanHt_Sonoma.sonoma_canopyheight.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-03-26T16:06:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-09-01T00:00:00.000Z",
+            "EndingDateTime": "2013-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_LiDAR_Biomass_CanHt_Sonoma.sonoma_canopyheight.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.542,
+                  "EastBoundingCoordinate": -122.339,
+                  "NorthBoundingCoordinate": 38.8642,
+                  "SouthBoundingCoordinate": 38.1017
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-08-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2017-08-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_LiDAR_Biomass_CanHt_Sonoma_1523",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_CanHt_Sonoma/data//sonoma_canopyheight.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_LiDAR_Biomass_CanHt_Sonoma.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1523",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_CanHt_Sonoma/comp/CMS_LiDAR_Biomass_CanHt_Sonoma.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_CanHt_Sonoma/comp/CMS_LiDAR_Biomass_CanHt_Sonoma_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1523_4.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR-derived canopy height, Sonoma County, California, 2013",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2017-08-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 20.394638,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          },
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "Environmental Modeling"
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1461053135-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_LiDAR_Biomass_CanHt_Sonoma.sonoma_biomass_predicted.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-03-26T16:06:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-09-01T00:00:00.000Z",
+            "EndingDateTime": "2013-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_LiDAR_Biomass_CanHt_Sonoma.sonoma_biomass_predicted.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.542,
+                  "EastBoundingCoordinate": -122.339,
+                  "NorthBoundingCoordinate": 38.8642,
+                  "SouthBoundingCoordinate": 38.1017
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-08-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2017-08-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_LiDAR_Biomass_CanHt_Sonoma_1523",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_CanHt_Sonoma/data//sonoma_biomass_predicted.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_LiDAR_Biomass_CanHt_Sonoma.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1523",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_CanHt_Sonoma/comp/CMS_LiDAR_Biomass_CanHt_Sonoma.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_CanHt_Sonoma/comp/CMS_LiDAR_Biomass_CanHt_Sonoma_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1523_3.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR-derived biomass predicted, Sonoma County, California, 2013",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2017-08-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.816652,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          },
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "Environmental Modeling"
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1461053137-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_LiDAR_Biomass_CanHt_Sonoma.sonoma_biomass_high.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-03-26T16:06:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-09-01T00:00:00.000Z",
+            "EndingDateTime": "2013-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_LiDAR_Biomass_CanHt_Sonoma.sonoma_biomass_high.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.542,
+                  "EastBoundingCoordinate": -122.339,
+                  "NorthBoundingCoordinate": 38.8642,
+                  "SouthBoundingCoordinate": 38.1017
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-08-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2017-08-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_LiDAR_Biomass_CanHt_Sonoma_1523",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_CanHt_Sonoma/data//sonoma_biomass_high.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_LiDAR_Biomass_CanHt_Sonoma.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1523",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_CanHt_Sonoma/comp/CMS_LiDAR_Biomass_CanHt_Sonoma.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_CanHt_Sonoma/comp/CMS_LiDAR_Biomass_CanHt_Sonoma_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1523_1.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR-derived biomass high confidence limit, Sonoma County, California, 2013",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2017-08-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 4.218076,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          },
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "Environmental Modeling"
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1461053138-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_LiDAR_Biomass_CanHt_Sonoma.sonoma_biomass_low.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-03-26T16:06:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-09-01T00:00:00.000Z",
+            "EndingDateTime": "2013-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_LiDAR_Biomass_CanHt_Sonoma.sonoma_biomass_low.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.542,
+                  "EastBoundingCoordinate": -122.339,
+                  "NorthBoundingCoordinate": 38.8642,
+                  "SouthBoundingCoordinate": 38.1017
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-08-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2017-08-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_LiDAR_Biomass_CanHt_Sonoma_1523",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_CanHt_Sonoma/data//sonoma_biomass_low.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_LiDAR_Biomass_CanHt_Sonoma.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1523",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_CanHt_Sonoma/comp/CMS_LiDAR_Biomass_CanHt_Sonoma.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_CanHt_Sonoma/comp/CMS_LiDAR_Biomass_CanHt_Sonoma_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1523_2.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR-derived biomass low confidence limit, Sonoma County, California, 2013",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2017-08-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.148104,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          },
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "Environmental Modeling"
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1461053139-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "CMS_LiDAR_Biomass_CanHt_Sonoma.sonoma_treecover_percent.tif",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-03-26T16:06:58Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-09-01T00:00:00.000Z",
+            "EndingDateTime": "2013-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "CMS_LiDAR_Biomass_CanHt_Sonoma.sonoma_treecover_percent.tif",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "BIOMASS"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.542,
+                  "EastBoundingCoordinate": -122.339,
+                  "NorthBoundingCoordinate": 38.8642,
+                  "SouthBoundingCoordinate": 38.1017
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-08-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2017-08-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "CMS_LiDAR_Biomass_CanHt_Sonoma_1523",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_CanHt_Sonoma/data//sonoma_treecover_percent.tif",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/CMS/guides/CMS_LiDAR_Biomass_CanHt_Sonoma.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/1523",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_CanHt_Sonoma/comp/CMS_LiDAR_Biomass_CanHt_Sonoma.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/cms/CMS_LiDAR_Biomass_CanHt_Sonoma/comp/CMS_LiDAR_Biomass_CanHt_Sonoma_Fig1.png",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https://webmap.ornl.gov/sdat/pimg/1523_5.png",
+            "Type": "GET RELATED VISUALIZATION",
+            "Description": "LiDAR-derived Percentage tree cover, Sonoma County, California, 2013",
+            "MimeType": "image/png"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "CMS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "2017-08-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 12.197041,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "AIRCRAFT",
+            "Instruments": [
+              {
+                "ShortName": "LIDAR"
+              }
+            ]
+          },
+          {
+            "ShortName": "COMPUTERS",
+            "Instruments": [
+              {
+                "ShortName": "Computer"
+              }
+            ]
+          },
+          {
+            "ShortName": "Environmental Modeling"
+          }
+        ]
+      }
+    }
+  ]
+}

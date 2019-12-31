@@ -1,0 +1,83 @@
+{
+  "hits": 1,
+  "took": 16,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1266112957-GES_DISC",
+        "revision-id": 2,
+        "native-id": "GSSTFYC.2c:GSSTFYC.2c.Year.1988_2008.he5",
+        "provider-id": "GES_DISC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-03-08T21:09:39Z"
+      },
+      "umm": {
+        "RelatedUrls": [
+          {
+            "URL": "https://measures.gesdisc.eosdis.nasa.gov/data//GSSTF/GSSTFYC.2c/GSSTFYC.2c.Year.1988_2008.he5",
+            "Type": "GET DATA"
+          },
+          {
+            "URL": "https://measures.gesdisc.eosdis.nasa.gov/opendap/GSSTF/GSSTFYC.2c/GSSTFYC.2c.Year.1988_2008.he5",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "application/x-hdf"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2011-10-05T18:24:35.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2011-10-05T18:24:35.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "GSSTFYC",
+          "Version": "2c"
+        },
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "Identifiers": [
+            {
+              "Identifier": "GSSTFYC.2c.Year.1988_2008.he5",
+              "IdentifierType": "ProducerGranuleId"
+            }
+          ],
+          "ProductionDateTime": "2011-10-04T19:24:22.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.260520935058594,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1988-01-01T00:00:00.000Z",
+            "EndingDateTime": "2008-12-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "GSSTFYC.2c:GSSTFYC.2c.Year.1988_2008.he5"
+      }
+    }
+  ]
+}

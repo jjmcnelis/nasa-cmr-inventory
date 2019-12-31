@@ -1,0 +1,414 @@
+{
+  "hits": 2,
+  "took": 13,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422761407-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_TF10FLUX.tf10_porometry.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:40:51Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1993-08-15T00:00:00.000Z",
+            "EndingDateTime": "1996-11-15T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_TF10FLUX.tf10_porometry.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "REFLECTANCE"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "Points": [
+                {
+                  "Longitude": -98.2871,
+                  "Latitude": 55.8957
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-12-07T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-12-07T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_TF10FLUX_454",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/TF/tf10flux/data/tf10_porometry.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/TF10_NSA-YJP_Flux.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/454",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf10flux/comp/tf10flux.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf10flux/comp/TF10_NSA-YJP_Flux.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf10flux/comp/TF10_NSA-YJP_Flux.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf10flux/comp/TF10_NSA-YJP_Flux.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-12-07T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.06634,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIXED OBSERVATION STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "LICOR PLANT CANOPY ANALYZER"
+              },
+              {
+                "ShortName": "PYRGEOMETER"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "SOIL HEAT FLUX TRANSDUCER"
+              },
+              {
+                "ShortName": "HYGROMETERS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "THERMOCOUPLES"
+              },
+              {
+                "ShortName": "ANEMOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "IRGA"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              },
+              {
+                "ShortName": "POROMETER"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422761408-ORNL_DAAC",
+        "revision-id": 1,
+        "native-id": "BOREAS_TF10FLUX.tf10_yjp_tower_flux.dat",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-09-28T16:40:51Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1993-08-15T00:00:00.000Z",
+            "EndingDateTime": "1996-11-15T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "BOREAS_TF10FLUX.tf10_yjp_tower_flux.dat",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "SURFACE PRESSURE"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "LONGWAVE RADIATION"
+          },
+          {
+            "ParameterName": "NET RADIATION"
+          },
+          {
+            "ParameterName": "REFLECTANCE"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "PRECIPITATION AMOUNT"
+          },
+          {
+            "ParameterName": "CANOPY CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "LEAF CHARACTERISTICS"
+          },
+          {
+            "ParameterName": "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+          },
+          {
+            "ParameterName": "SOIL HEAT BUDGET"
+          },
+          {
+            "ParameterName": "SOIL TEMPERATURE"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "Points": [
+                {
+                  "Longitude": -98.2871,
+                  "Latitude": 55.8957
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1999-12-07T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1999-12-07T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "BOREAS_TF10FLUX_454",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/boreas/TF/tf10flux/data/tf10_yjp_tower_flux.dat",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/BOREAS/guides/TF10_NSA-YJP_Flux.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/doi:10.3334/ORNLDAAC/454",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf10flux/comp/tf10flux.def",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf10flux/comp/TF10_NSA-YJP_Flux.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf10flux/comp/TF10_NSA-YJP_Flux.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/boreas/TF/tf10flux/comp/TF10_NSA-YJP_Flux.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "BOREAS"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "ProductionDateTime": "1999-12-07T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 7.175136,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "FIXED OBSERVATION STATIONS",
+            "Instruments": [
+              {
+                "ShortName": "LICOR PLANT CANOPY ANALYZER"
+              },
+              {
+                "ShortName": "PYRGEOMETER"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "SOIL HEAT FLUX TRANSDUCER"
+              },
+              {
+                "ShortName": "HYGROMETERS"
+              },
+              {
+                "ShortName": "RAIN GAUGES"
+              },
+              {
+                "ShortName": "THERMOCOUPLES"
+              },
+              {
+                "ShortName": "ANEMOMETERS"
+              },
+              {
+                "ShortName": "LICOR QUANTUM SENSOR"
+              },
+              {
+                "ShortName": "IRGA"
+              },
+              {
+                "ShortName": "NET RADIOMETERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              },
+              {
+                "ShortName": "POROMETER"
+              },
+              {
+                "ShortName": "PRESSURE SENSORS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

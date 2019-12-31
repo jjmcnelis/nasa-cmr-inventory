@@ -1,0 +1,2571 @@
+{
+  "hits": 15,
+  "took": 55,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422673874-ORNL_DAAC",
+        "revision-id": 11,
+        "native-id": "FIFE_AF_FLT_G.7146mult.nrf",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-12-14T19:59:43Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1987-05-26T00:00:00.000Z",
+            "EndingDateTime": "1989-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_AF_FLT_G.7146mult.nrf",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "POTENTIAL TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "BAROMETRIC ALTITUDE"
+          },
+          {
+            "ParameterName": "GEOPOTENTIAL HEIGHT"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -102.0,
+                  "EastBoundingCoordinate": -95.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "SouthBoundingCoordinate": 37.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_AF_FLT_G_8",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/ncar/y1987/7146mult.nrf",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/guides/air_flux_filt_col.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/8",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/aflux_gr.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/af_filtr.tdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/air_flux_filt_col.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.007261,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "KINGAIR",
+            "Instruments": [
+              {
+                "ShortName": "INFRARED RADIOMETERS"
+              },
+              {
+                "ShortName": "PRESSURE TRANSDUCERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              },
+              {
+                "ShortName": "NDIR GAS ANALYZER"
+              },
+              {
+                "ShortName": "RADAR ALTIMETERS"
+              },
+              {
+                "ShortName": "HYGROMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "WIND PROFILERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422673897-ORNL_DAAC",
+        "revision-id": 11,
+        "native-id": "FIFE_AF_FLT_G.7150mult.nrf",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-12-14T19:59:44Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1987-05-30T00:00:00.000Z",
+            "EndingDateTime": "1989-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_AF_FLT_G.7150mult.nrf",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "POTENTIAL TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "BAROMETRIC ALTITUDE"
+          },
+          {
+            "ParameterName": "GEOPOTENTIAL HEIGHT"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -102.0,
+                  "EastBoundingCoordinate": -95.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "SouthBoundingCoordinate": 37.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_AF_FLT_G_8",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/ncar/y1987/7150mult.nrf",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/guides/air_flux_filt_col.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/8",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/aflux_gr.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/af_filtr.tdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/air_flux_filt_col.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.007216,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "KINGAIR",
+            "Instruments": [
+              {
+                "ShortName": "INFRARED RADIOMETERS"
+              },
+              {
+                "ShortName": "PRESSURE TRANSDUCERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              },
+              {
+                "ShortName": "NDIR GAS ANALYZER"
+              },
+              {
+                "ShortName": "RADAR ALTIMETERS"
+              },
+              {
+                "ShortName": "HYGROMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "WIND PROFILERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422673913-ORNL_DAAC",
+        "revision-id": 11,
+        "native-id": "FIFE_AF_FLT_G.7152mult.nrf",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-12-14T19:59:44Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1987-06-01T00:00:00.000Z",
+            "EndingDateTime": "1989-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_AF_FLT_G.7152mult.nrf",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "POTENTIAL TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "BAROMETRIC ALTITUDE"
+          },
+          {
+            "ParameterName": "GEOPOTENTIAL HEIGHT"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -102.0,
+                  "EastBoundingCoordinate": -95.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "SouthBoundingCoordinate": 37.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_AF_FLT_G_8",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/ncar/y1987/7152mult.nrf",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/guides/air_flux_filt_col.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/8",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/aflux_gr.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/af_filtr.tdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/air_flux_filt_col.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.01776,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "KINGAIR",
+            "Instruments": [
+              {
+                "ShortName": "INFRARED RADIOMETERS"
+              },
+              {
+                "ShortName": "PRESSURE TRANSDUCERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              },
+              {
+                "ShortName": "NDIR GAS ANALYZER"
+              },
+              {
+                "ShortName": "RADAR ALTIMETERS"
+              },
+              {
+                "ShortName": "HYGROMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "WIND PROFILERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422673868-ORNL_DAAC",
+        "revision-id": 11,
+        "native-id": "FIFE_AF_FLT_G.7155mult.nrf",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-12-14T19:59:43Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1987-06-04T00:00:00.000Z",
+            "EndingDateTime": "1989-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_AF_FLT_G.7155mult.nrf",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "POTENTIAL TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "BAROMETRIC ALTITUDE"
+          },
+          {
+            "ParameterName": "GEOPOTENTIAL HEIGHT"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -102.0,
+                  "EastBoundingCoordinate": -95.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "SouthBoundingCoordinate": 37.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_AF_FLT_G_8",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/ncar/y1987/7155mult.nrf",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/guides/air_flux_filt_col.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/8",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/aflux_gr.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/af_filtr.tdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/air_flux_filt_col.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.017625,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "KINGAIR",
+            "Instruments": [
+              {
+                "ShortName": "INFRARED RADIOMETERS"
+              },
+              {
+                "ShortName": "PRESSURE TRANSDUCERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              },
+              {
+                "ShortName": "NDIR GAS ANALYZER"
+              },
+              {
+                "ShortName": "RADAR ALTIMETERS"
+              },
+              {
+                "ShortName": "HYGROMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "WIND PROFILERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422673908-ORNL_DAAC",
+        "revision-id": 11,
+        "native-id": "FIFE_AF_FLT_G.7157mult.nrf",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-12-14T19:59:44Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1987-06-06T00:00:00.000Z",
+            "EndingDateTime": "1989-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_AF_FLT_G.7157mult.nrf",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "POTENTIAL TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "BAROMETRIC ALTITUDE"
+          },
+          {
+            "ParameterName": "GEOPOTENTIAL HEIGHT"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -102.0,
+                  "EastBoundingCoordinate": -95.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "SouthBoundingCoordinate": 37.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_AF_FLT_G_8",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/ncar/y1987/7157mult.nrf",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/guides/air_flux_filt_col.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/8",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/aflux_gr.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/af_filtr.tdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/air_flux_filt_col.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.015316,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "KINGAIR",
+            "Instruments": [
+              {
+                "ShortName": "INFRARED RADIOMETERS"
+              },
+              {
+                "ShortName": "PRESSURE TRANSDUCERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              },
+              {
+                "ShortName": "NDIR GAS ANALYZER"
+              },
+              {
+                "ShortName": "RADAR ALTIMETERS"
+              },
+              {
+                "ShortName": "HYGROMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "WIND PROFILERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422673918-ORNL_DAAC",
+        "revision-id": 11,
+        "native-id": "FIFE_AF_FLT_G.9207mult.nrf",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-12-14T19:59:45Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1989-07-26T00:00:00.000Z",
+            "EndingDateTime": "1989-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_AF_FLT_G.9207mult.nrf",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "POTENTIAL TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "BAROMETRIC ALTITUDE"
+          },
+          {
+            "ParameterName": "GEOPOTENTIAL HEIGHT"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -102.0,
+                  "EastBoundingCoordinate": -95.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "SouthBoundingCoordinate": 37.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_AF_FLT_G_8",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/ncar/y1989/9207mult.nrf",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/guides/air_flux_filt_col.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/8",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/aflux_gr.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/af_filtr.tdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/air_flux_filt_col.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.011298,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "KINGAIR",
+            "Instruments": [
+              {
+                "ShortName": "INFRARED RADIOMETERS"
+              },
+              {
+                "ShortName": "PRESSURE TRANSDUCERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              },
+              {
+                "ShortName": "NDIR GAS ANALYZER"
+              },
+              {
+                "ShortName": "RADAR ALTIMETERS"
+              },
+              {
+                "ShortName": "HYGROMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "WIND PROFILERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422673929-ORNL_DAAC",
+        "revision-id": 11,
+        "native-id": "FIFE_AF_FLT_G.9208mult.nrf",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-12-14T19:59:45Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1989-07-27T00:00:00.000Z",
+            "EndingDateTime": "1989-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_AF_FLT_G.9208mult.nrf",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "POTENTIAL TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "BAROMETRIC ALTITUDE"
+          },
+          {
+            "ParameterName": "GEOPOTENTIAL HEIGHT"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -102.0,
+                  "EastBoundingCoordinate": -95.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "SouthBoundingCoordinate": 37.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_AF_FLT_G_8",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/ncar/y1989/9208mult.nrf",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/guides/air_flux_filt_col.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/8",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/aflux_gr.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/af_filtr.tdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/air_flux_filt_col.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.01115,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "KINGAIR",
+            "Instruments": [
+              {
+                "ShortName": "INFRARED RADIOMETERS"
+              },
+              {
+                "ShortName": "PRESSURE TRANSDUCERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              },
+              {
+                "ShortName": "NDIR GAS ANALYZER"
+              },
+              {
+                "ShortName": "RADAR ALTIMETERS"
+              },
+              {
+                "ShortName": "HYGROMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "WIND PROFILERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422673880-ORNL_DAAC",
+        "revision-id": 11,
+        "native-id": "FIFE_AF_FLT_G.9209mult.nrf",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-12-14T19:59:43Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1989-07-28T00:00:00.000Z",
+            "EndingDateTime": "1989-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_AF_FLT_G.9209mult.nrf",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "POTENTIAL TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "BAROMETRIC ALTITUDE"
+          },
+          {
+            "ParameterName": "GEOPOTENTIAL HEIGHT"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -102.0,
+                  "EastBoundingCoordinate": -95.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "SouthBoundingCoordinate": 37.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_AF_FLT_G_8",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/ncar/y1989/9209mult.nrf",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/guides/air_flux_filt_col.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/8",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/aflux_gr.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/af_filtr.tdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/air_flux_filt_col.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.008685,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "KINGAIR",
+            "Instruments": [
+              {
+                "ShortName": "INFRARED RADIOMETERS"
+              },
+              {
+                "ShortName": "PRESSURE TRANSDUCERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              },
+              {
+                "ShortName": "NDIR GAS ANALYZER"
+              },
+              {
+                "ShortName": "RADAR ALTIMETERS"
+              },
+              {
+                "ShortName": "HYGROMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "WIND PROFILERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422673863-ORNL_DAAC",
+        "revision-id": 11,
+        "native-id": "FIFE_AF_FLT_G.9214mult.nrf",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-12-14T19:59:43Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1989-08-02T00:00:00.000Z",
+            "EndingDateTime": "1989-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_AF_FLT_G.9214mult.nrf",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "POTENTIAL TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "BAROMETRIC ALTITUDE"
+          },
+          {
+            "ParameterName": "GEOPOTENTIAL HEIGHT"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -102.0,
+                  "EastBoundingCoordinate": -95.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "SouthBoundingCoordinate": 37.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_AF_FLT_G_8",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/ncar/y1989/9214mult.nrf",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/guides/air_flux_filt_col.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/8",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/aflux_gr.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/af_filtr.tdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/air_flux_filt_col.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.010177,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "KINGAIR",
+            "Instruments": [
+              {
+                "ShortName": "INFRARED RADIOMETERS"
+              },
+              {
+                "ShortName": "PRESSURE TRANSDUCERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              },
+              {
+                "ShortName": "NDIR GAS ANALYZER"
+              },
+              {
+                "ShortName": "RADAR ALTIMETERS"
+              },
+              {
+                "ShortName": "HYGROMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "WIND PROFILERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422673856-ORNL_DAAC",
+        "revision-id": 11,
+        "native-id": "FIFE_AF_FLT_G.9216mult.nrf",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-12-14T19:59:42Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1989-08-04T00:00:00.000Z",
+            "EndingDateTime": "1989-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_AF_FLT_G.9216mult.nrf",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "POTENTIAL TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "BAROMETRIC ALTITUDE"
+          },
+          {
+            "ParameterName": "GEOPOTENTIAL HEIGHT"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -102.0,
+                  "EastBoundingCoordinate": -95.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "SouthBoundingCoordinate": 37.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_AF_FLT_G_8",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/ncar/y1989/9216mult.nrf",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/guides/air_flux_filt_col.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/8",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/aflux_gr.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/af_filtr.tdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/air_flux_filt_col.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.021761,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "KINGAIR",
+            "Instruments": [
+              {
+                "ShortName": "INFRARED RADIOMETERS"
+              },
+              {
+                "ShortName": "PRESSURE TRANSDUCERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              },
+              {
+                "ShortName": "NDIR GAS ANALYZER"
+              },
+              {
+                "ShortName": "RADAR ALTIMETERS"
+              },
+              {
+                "ShortName": "HYGROMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "WIND PROFILERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422673886-ORNL_DAAC",
+        "revision-id": 11,
+        "native-id": "FIFE_AF_FLT_G.9218mult.nrf",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-12-14T19:59:43Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1989-08-06T00:00:00.000Z",
+            "EndingDateTime": "1989-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_AF_FLT_G.9218mult.nrf",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "POTENTIAL TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "BAROMETRIC ALTITUDE"
+          },
+          {
+            "ParameterName": "GEOPOTENTIAL HEIGHT"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -102.0,
+                  "EastBoundingCoordinate": -95.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "SouthBoundingCoordinate": 37.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_AF_FLT_G_8",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/ncar/y1989/9218mult.nrf",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/guides/air_flux_filt_col.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/8",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/aflux_gr.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/af_filtr.tdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/air_flux_filt_col.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.014069,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "KINGAIR",
+            "Instruments": [
+              {
+                "ShortName": "INFRARED RADIOMETERS"
+              },
+              {
+                "ShortName": "PRESSURE TRANSDUCERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              },
+              {
+                "ShortName": "NDIR GAS ANALYZER"
+              },
+              {
+                "ShortName": "RADAR ALTIMETERS"
+              },
+              {
+                "ShortName": "HYGROMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "WIND PROFILERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422673849-ORNL_DAAC",
+        "revision-id": 11,
+        "native-id": "FIFE_AF_FLT_G.9219mult.nrf",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-12-14T19:59:42Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1989-08-07T00:00:00.000Z",
+            "EndingDateTime": "1989-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_AF_FLT_G.9219mult.nrf",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "POTENTIAL TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "BAROMETRIC ALTITUDE"
+          },
+          {
+            "ParameterName": "GEOPOTENTIAL HEIGHT"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -102.0,
+                  "EastBoundingCoordinate": -95.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "SouthBoundingCoordinate": 37.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_AF_FLT_G_8",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/ncar/y1989/9219mult.nrf",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/guides/air_flux_filt_col.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/8",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/aflux_gr.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/af_filtr.tdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/air_flux_filt_col.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.009715,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "KINGAIR",
+            "Instruments": [
+              {
+                "ShortName": "INFRARED RADIOMETERS"
+              },
+              {
+                "ShortName": "PRESSURE TRANSDUCERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              },
+              {
+                "ShortName": "NDIR GAS ANALYZER"
+              },
+              {
+                "ShortName": "RADAR ALTIMETERS"
+              },
+              {
+                "ShortName": "HYGROMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "WIND PROFILERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422673892-ORNL_DAAC",
+        "revision-id": 11,
+        "native-id": "FIFE_AF_FLT_G.9220mult.nrf",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-12-14T19:59:44Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1989-08-08T00:00:00.000Z",
+            "EndingDateTime": "1989-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_AF_FLT_G.9220mult.nrf",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "POTENTIAL TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "BAROMETRIC ALTITUDE"
+          },
+          {
+            "ParameterName": "GEOPOTENTIAL HEIGHT"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -102.0,
+                  "EastBoundingCoordinate": -95.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "SouthBoundingCoordinate": 37.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_AF_FLT_G_8",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/ncar/y1989/9220mult.nrf",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/guides/air_flux_filt_col.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/8",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/aflux_gr.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/af_filtr.tdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/air_flux_filt_col.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.012576,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "KINGAIR",
+            "Instruments": [
+              {
+                "ShortName": "INFRARED RADIOMETERS"
+              },
+              {
+                "ShortName": "PRESSURE TRANSDUCERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              },
+              {
+                "ShortName": "NDIR GAS ANALYZER"
+              },
+              {
+                "ShortName": "RADAR ALTIMETERS"
+              },
+              {
+                "ShortName": "HYGROMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "WIND PROFILERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422673923-ORNL_DAAC",
+        "revision-id": 11,
+        "native-id": "FIFE_AF_FLT_G.9223mult.nrf",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-12-14T19:59:45Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1989-08-11T00:00:00.000Z",
+            "EndingDateTime": "1989-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_AF_FLT_G.9223mult.nrf",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "POTENTIAL TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "BAROMETRIC ALTITUDE"
+          },
+          {
+            "ParameterName": "GEOPOTENTIAL HEIGHT"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -102.0,
+                  "EastBoundingCoordinate": -95.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "SouthBoundingCoordinate": 37.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_AF_FLT_G_8",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/ncar/y1989/9223mult.nrf",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/guides/air_flux_filt_col.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/8",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/aflux_gr.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/af_filtr.tdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/air_flux_filt_col.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.018135,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "KINGAIR",
+            "Instruments": [
+              {
+                "ShortName": "INFRARED RADIOMETERS"
+              },
+              {
+                "ShortName": "PRESSURE TRANSDUCERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              },
+              {
+                "ShortName": "NDIR GAS ANALYZER"
+              },
+              {
+                "ShortName": "RADAR ALTIMETERS"
+              },
+              {
+                "ShortName": "HYGROMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "WIND PROFILERS"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1422673903-ORNL_DAAC",
+        "revision-id": 11,
+        "native-id": "FIFE_AF_FLT_G.9224mult.nrf",
+        "provider-id": "ORNL_DAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2017-12-14T19:59:44Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1989-08-12T00:00:00.000Z",
+            "EndingDateTime": "1989-10-31T00:00:00.000Z"
+          }
+        },
+        "GranuleUR": "FIFE_AF_FLT_G.9224mult.nrf",
+        "MeasuredParameters": [
+          {
+            "ParameterName": "CARBON DIOXIDE"
+          },
+          {
+            "ParameterName": "AIR TEMPERATURE"
+          },
+          {
+            "ParameterName": "POTENTIAL TEMPERATURE"
+          },
+          {
+            "ParameterName": "WATER VAPOR"
+          },
+          {
+            "ParameterName": "BAROMETRIC ALTITUDE"
+          },
+          {
+            "ParameterName": "GEOPOTENTIAL HEIGHT"
+          },
+          {
+            "ParameterName": "ATMOSPHERIC PRESSURE MEASUREMENTS"
+          },
+          {
+            "ParameterName": "HEAT FLUX"
+          },
+          {
+            "ParameterName": "SOLAR IRRADIANCE"
+          },
+          {
+            "ParameterName": "SURFACE TEMPERATURE"
+          },
+          {
+            "ParameterName": "SURFACE WINDS"
+          },
+          {
+            "ParameterName": "UPPER LEVEL WINDS"
+          },
+          {
+            "ParameterName": "VEGETATION COVER"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -102.0,
+                  "EastBoundingCoordinate": -95.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "SouthBoundingCoordinate": 37.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "1994-07-24T00:00:00.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "FIFE_AF_FLT_G_8",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/ncar/y1989/9224mult.nrf",
+            "Type": "GET DATA",
+            "Description": "This link provides direct download access to the granule."
+          },
+          {
+            "URL": "https://daac.ornl.gov/FIFE/guides/air_flux_filt_col.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "ORNL DAAC Data Set Documentation"
+          },
+          {
+            "URL": "https://dx.doi.org/10.3334/ORNLDAAC/8",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data set Landing Page DOI URL"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/aflux_gr.doc",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/data/air_flux/af_filtr/af_filtr.tdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          },
+          {
+            "URL": "https:/daac.ornl.gov/daacdata/fife/document/air_flux/air_flux_filt_col.pdf",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "Data Set Documentation"
+          }
+        ],
+        "Projects": [
+          {
+            "ShortName": "Not provided",
+            "Campaigns": [
+              "FIFE"
+            ]
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Both",
+          "ProductionDateTime": "1994-07-24T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.009684,
+              "SizeUnit": "NA"
+            }
+          ]
+        },
+        "Platforms": [
+          {
+            "ShortName": "KINGAIR",
+            "Instruments": [
+              {
+                "ShortName": "INFRARED RADIOMETERS"
+              },
+              {
+                "ShortName": "PRESSURE TRANSDUCERS"
+              },
+              {
+                "ShortName": "EDDY CORRELATION DEVICES"
+              },
+              {
+                "ShortName": "NDIR GAS ANALYZER"
+              },
+              {
+                "ShortName": "RADAR ALTIMETERS"
+              },
+              {
+                "ShortName": "HYGROMETERS"
+              },
+              {
+                "ShortName": "PYRANOMETERS"
+              },
+              {
+                "ShortName": "WIND PROFILERS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
