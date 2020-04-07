@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gr" id="gr">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="gran_name" type="string"></SimpleField>
+	<SimpleField name="gran_size_mb" type="float"></SimpleField>
+	<SimpleField name="gran_parameters" type="string"></SimpleField>
+	<SimpleField name="gran_day_night" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>gr</name>
+  <Placemark>
+	<name>granule</name>
+	<description>G1661567094-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS2_RR1610_USPS.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-27T15:58:42Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS2_USPS</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS2_RR1610_USPS.nc</SimpleData>
+		<SimpleData name="coll_shortname">133.7656297683716</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-08-15T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2016-09-22T23:59:55.000Z</SimpleData>
+		<SimpleData name="time_min">5.061</SimpleData>
+		<SimpleData name="time_max">18.629</SimpleData>
+		<SimpleData name="lat_min">-157.111</SimpleData>
+		<SimpleData name="lat_max">-123.377</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-123.377,5.061 -123.377,18.629 -157.111,18.629 -157.111,5.061 -123.377,5.061</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1661567084-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS2_RR1720_USPS.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-27T15:58:41Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS2_USPS</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS2_RR1720_USPS.nc</SimpleData>
+		<SimpleData name="coll_shortname">92.63281726837158</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-10-20T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-11-15T23:59:55.000Z</SimpleData>
+		<SimpleData name="time_min">5.055</SimpleData>
+		<SimpleData name="time_max">25.845</SimpleData>
+		<SimpleData name="lat_min">-125.573</SimpleData>
+		<SimpleData name="lat_max">-119.504</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-119.504,5.055 -119.504,25.845 -125.573,25.845 -125.573,5.055 -119.504,5.055</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

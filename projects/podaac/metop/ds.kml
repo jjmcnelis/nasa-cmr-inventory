@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ds" id="ds">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_title" type="string"></SimpleField>
+	<SimpleField name="coll_version" type="string"></SimpleField>
+	<SimpleField name="coll_doi" type="string"></SimpleField>
+	<SimpleField name="coll_abstract" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="coll_status" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl_desc" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>ds</name>
+  <Placemark>
+	<name>collection</name>
+	<description>C1648023797-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">MetOp-A+ASCAT+Level+2+12.5-km+Ocean+Surface+Wind+Vector+Climate+Data+Record+Optimized+for+Coastal+Ocean</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-28T21:23:02Z</SimpleData>
+		<SimpleData name="cmr_revision_date">MetOp-A ASCAT Level 2 12.5-km Ocean Surface Wind Vector Climate Data Record Optimized for Coastal Ocean</SimpleData>
+		<SimpleData name="cmr_publication_date">1.0</SimpleData>
+		<SimpleData name="coll_version">This dataset represents the first historically reprocessed Level 2 coastal ocean surface wind vector climate data record from the Advanced Scatterometer (ASCAT) on MetOp-A sampled on a 12.5 km grid. This coastal dataset utilizes a spatial box filter to generate a spatial average of the Sigma-0 retrievals from the Level 1B dataset and obtains additional winds near the coast. Since the full resolution L1B Sigma-0 retrievals are used, all non-sea retrievals are discarded prior to the Sigma-0 averaging. Each box average Sigma-0 is then used to compute the vector cell wind using the same CMOD7 geophysical model function as in the operational OSI SAF ASCAT wind vector datasets. With this enhanced coastal retrieval, winds are computed as close to ~15 km from the coast. Each file corresponds to one complete orbit and is provided in netCDF version 3 format. The beginning of the orbit files is defined near the South Pole. ASCAT is a C-band fan beam radar scatterometer, providing two independent swaths of backscatter retrievals, aboard the MetOp-A platform in sun-synchronous polar orbit. It is a product of the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT) Ocean and Sea Ice Satellite Application Facility (OSI SAF) provided through the Royal Netherlands Meteorological Institute (KNMI). For more information on the MetOp mission, please visit: https://podaac.jpl.nasa.gov/OceanWind/MetOp. For access to more contemporaneous and near-real-time MetOp-A ASCAT 12.5km data, please visit: https://podaac.jpl.nasa.gov/dataset/ASCATA-L2-Coastal. For more timely announcements, users are encouraged to register with the KNMI scatterometer email list: scat@knmi.nl. All intellectual property rights of the OSI SAF products belong to EUMETSAT. The use of these products is granted to every interested user, free of charge. If you wish to use these products, EUMETSAT's copyright credit must be shown by displaying the words &quot;copyright (year) EUMETSAT&quot; on each of the products used. Use cases and feedback on the products will be much appreciated and in fact helps to sustain the reprocessing capability.</SimpleData>
+		<SimpleData name="coll_doi">ASCATA_L2_COASTAL_CDR</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-89.59999999999999</SimpleData>
+		<SimpleData name="time_max">89.59999999999999</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.6 180.0,89.6 -180.0,89.6 -180.0,-89.6 180.0,-89.6</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1648582017-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">MetOp-A+ASCAT+Level+2+25-km+Ocean+Surface+Wind+Vector+Climate+Data+Record</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-29T17:40:51Z</SimpleData>
+		<SimpleData name="cmr_revision_date">MetOp-A ASCAT Level 2 25-km Ocean Surface Wind Vector Climate Data Record</SimpleData>
+		<SimpleData name="cmr_publication_date">1.0</SimpleData>
+		<SimpleData name="coll_version">This dataset represents the first historically reprocessed Level 2 ocean surface wind vector climate data record from the Advanced Scatterometer (ASCAT) on MetOp-A sampled on a 25 km grid.  Products at 25-km sampling are less noisy than 12.5-km products, but also contain less geophysical information on small scales and near the coasts. The wind vector retrievals are currently processed using the CMOD7 geophysical model function using a Hamming filter to spatially average the Level 1 Sigma-0 data over 25 km swath grid cells. Each file corresponds to one complete orbit and is provided in netCDF version 3 format. The beginning of the orbit files is defined near the South Pole. ASCAT is a C-band fan beam radar scatterometer, providing two independent swaths of backscatter retrievals, aboard the MetOp-A platform in sun-synchronous polar orbit. It is a product of the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT) Ocean and Sea Ice Satellite Application Facility (OSI SAF) provided through the Royal Netherlands Meteorological Institute (KNMI). For more information on the MetOp mission, please visit: https://podaac.jpl.nasa.gov/OceanWind/MetOp. For access to more contemporaneous and near-real-time MetOp-A ASCAT 25-km data, please visit: https://podaac.jpl.nasa.gov/dataset/ASCATA-L2-25km. For more timely announcements, users are encouraged to register with the KNMI scatterometer email list: scat@knmi.nl. All intellectual property rights of the OSI SAF products belong to EUMETSAT. The use of these products is granted to every interested user, free of charge. If you wish to use these products, EUMETSAT's copyright credit must be shown by displaying the words &quot;copyright (year) EUMETSAT&quot; on each of the products used. Use cases and feedback on the products will be much appreciated and in fact helps to sustain the reprocessing capability.</SimpleData>
+		<SimpleData name="coll_doi">ASCATA_L2_25KM_CDR</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-89.59999999999999</SimpleData>
+		<SimpleData name="time_max">89.59999999999999</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.6 180.0,89.6 -180.0,89.6 -180.0,-89.6 180.0,-89.6</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1674799468-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">MetOp-A+ASCAT+Level+2+25.0+km+Ocean+Surface+Wind+Vectors</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T21:25:14Z</SimpleData>
+		<SimpleData name="cmr_revision_date">MetOp-A ASCAT Level 2 25.0 km Ocean Surface Wind Vectors</SimpleData>
+		<SimpleData name="cmr_publication_date">Operational/Near-Real-Time</SimpleData>
+		<SimpleData name="coll_version">This dataset contains operational near-real-time Level 2 ocean surface wind vector retrievals from the Advanced Scatterometer (ASCAT) on MetOp-A at 25 km sampling resolution (note: the effective resolution is 50 km). It is a product of the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT) Ocean and Sea Ice Satellite Application Facility (OSI SAF) provided through the Royal Netherlands Meteorological Institute (KNMI). The wind vector retrievals are currently processed using the CMOD7.n geophysical model function using a Hamming filter to spatially average the Sigma-0 data in the ASCAT L1B data. Each file is provided in netCDF version 3 format, and contains one full orbit derived from 3-minute orbit granules. Latency is approximately 2 hours from the latest measurement. The beginning of the orbit is defined by the first wind vector cell measurement within the first 3-minute orbit granule that starts north of the Equator in the ascending node. ASCAT is a C-band dual fan beam radar scatterometer providing two independent swaths of backscatter retrievals in sun-synchronous polar orbit aboard the MetOp-A platform. For more information on the MetOp mission, please visit: http://podaac.jpl.nasa.gov/OceanWind/MetOp . For more timely announcements, users are encouraged to register with the KNMI scatterometer email list: scat@knmi.nl. Users are also highly advised to check the dataset user guide periodically for updates and new information on known problems and issues. All intellectual property rights of the OSI SAF products belong to EUMETSAT. The use of these products is granted to every interested user, free of charge. If you wish to use these products, EUMETSAT's copyright credit must be shown by displaying the words &quot;copyright (year) EUMETSAT&quot; on each of the products used.</SimpleData>
+		<SimpleData name="coll_doi">ASCATA-L2-25km</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-89.59999999999999</SimpleData>
+		<SimpleData name="time_max">89.59999999999999</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.6 180.0,89.6 -180.0,89.6 -180.0,-89.6 180.0,-89.6</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1667314372-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">MetOp-A+ASCAT+Level+2+Ocean+Surface+Wind+Vectors+Optimized+for+Coastal+Ocean</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-11T20:01:12Z</SimpleData>
+		<SimpleData name="cmr_revision_date">MetOp-A ASCAT Level 2 Ocean Surface Wind Vectors Optimized for Coastal Ocean</SimpleData>
+		<SimpleData name="cmr_publication_date">Operational/Near-Real-Time</SimpleData>
+		<SimpleData name="coll_version">This dataset contains operational near-real-time Level 2 coastal ocean surface wind vector retrievals from the Advanced Scatterometer (ASCAT) on MetOp-A at 12.5 km sampling resolution (note: the effective resolution is 25 km). It is a product of the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT) Ocean and Sea Ice Satellite Application Facility (OSI SAF) provided through the Royal Netherlands Meteorological Institute (KNMI). This coastal dataset differs from the standard 25 km datasets in that it utilizes a spatial box filter (rather than the Hamming filter) to generate a spatial average of the Sigma-0 retrievals from the Level 1B dataset; all full resolution Sigma-0 retrievals within a 15 km radius of the wind vector cell centroid are used in the averaging. Since the full resolution L1B Sigma-0 retrievals are used, all non-sea retrievals are discarded prior to the Sigma-0 averaging. Each box average Sigma-0 is then used to compute the wind vector cell using the same CMOD7.n geophysical model function as in the standard OSI SAF ASCAT wind vector datasets. With this enhanced coastal retrieval, winds can be computed as close to ~15 km from the coast, as compared to the static ~35 km land mask in the standard 12.5 km dataset. Each file is provided in netCDF version 3 format, and contains one full orbit derived from 3-minute orbit granules. Latency is approximately 2 hours from the latest measurement. The beginning of the orbit is defined by the first wind vector cell measurement within the first 3-minute orbit granule that starts north of the Equator in the ascending node. ASCAT is a C-band dual fan beam radar scatterometer providing two independent swaths of backscatter retrievals in sun-synchronous polar orbit aboard the MetOp-A platform. For more information on the MetOp mission, please visit: http://podaac.jpl.nasa.gov/OceanWind/MetOp . For more timely announcements, users are encouraged to register with the KNMI scatterometer email list: scat@knmi.nl. Users are also highly advised to check the dataset user guide periodically for updates and new information on known problems and issues. All intellectual property rights of the OSI SAF products belong to EUMETSAT. The use of these products is granted to every interested user, free of charge. If you wish to use these products, EUMETSAT's copyright credit must be shown by displaying the words &quot;copyright (year) EUMETSAT&quot; on each of the products used.</SimpleData>
+		<SimpleData name="coll_doi">ASCATA-L2-Coastal</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-89.59999999999999</SimpleData>
+		<SimpleData name="time_max">89.59999999999999</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.6 180.0,89.6 -180.0,89.6 -180.0,-89.6 180.0,-89.6</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1674798938-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">MetOp-B+ASCAT+Level+2+25.0km+Ocean+Surface+Wind+Vectors+in+Full+Orbit+Swath</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T21:23:12Z</SimpleData>
+		<SimpleData name="cmr_revision_date">MetOp-B ASCAT Level 2 25.0km Ocean Surface Wind Vectors in Full Orbit Swath</SimpleData>
+		<SimpleData name="cmr_publication_date">Operational/Near-Real-Time</SimpleData>
+		<SimpleData name="coll_version">This dataset contains operational near-real-time Level 2 ocean surface wind vector retrievals from the Advanced Scatterometer (ASCAT) on MetOp-B at 25 km sampling resolution (note: the effective resolution is 50 km). It is a product of the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT) Ocean and Sea Ice Satellite Application Facility (OSI SAF) provided through the Royal Netherlands Meteorological Institute (KNMI). The wind vector retrievals are currently processed using the CMOD.n geophysical model function using a Hamming filter to spatially average the Sigma-0 data in the ASCAT L1B data. Each file is provided in netCDF version 3 format, and contains one full orbit derived from 3-minute orbit granules. Latency is approximately 2 hours from the latest measurement. The beginning of the orbit is defined by the first wind vector cell measurement within the first 3-minute orbit granule that starts north of the Equator in the ascending node. ASCAT is a C-band dual swath fan beam radar scatterometer providing two independent swaths of backscatter retrievals in sun-synchronous polar orbit aboard the MetOp-B platform. For more information on the MetOp-B mission, please visit: http://podaac.jpl.nasa.gov/OceanWind/MetOp . For more timely announcements, users are encouraged to register with the KNMI scatterometer email list: scat@knmi.nl. Users are also highly advised to check the dataset user guide periodically for updates and new information on known problems and issues. All intellectual property rights of the OSI SAF products belong to EUMETSAT. The use of these products is granted to every interested user, free of charge. If you wish to use these products, EUMETSAT's copyright credit must be shown by displaying the words &quot;copyright (year) EUMETSAT&quot; on each of the products used.</SimpleData>
+		<SimpleData name="coll_doi">ASCATB-L2-25km</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-89.59999999999999</SimpleData>
+		<SimpleData name="time_max">89.59999999999999</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.6 180.0,89.6 -180.0,89.6 -180.0,-89.6 180.0,-89.6</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1667316554-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">MetOp-B+ASCAT+Level+2+Ocean+Surface+Wind+Vectors+Optimized+for+Coastal+Ocean</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-11T20:21:59Z</SimpleData>
+		<SimpleData name="cmr_revision_date">MetOp-B ASCAT Level 2 Ocean Surface Wind Vectors Optimized for Coastal Ocean</SimpleData>
+		<SimpleData name="cmr_publication_date">Operational/Near-Real-Time</SimpleData>
+		<SimpleData name="coll_version">This dataset contains operational near-real-time Level 2 coastal ocean surface wind vector retrievals from the Advanced Scatterometer (ASCAT) on MetOp-B at 12.5 km sampling resolution (note: the effective resolution is 25 km). It is a product of the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT) Ocean and Sea Ice Satellite Application Facility (OSI SAF) provided through the Royal Netherlands Meteorological Institute (KNMI). This coastal dataset differs from the standard 12.5 and 25 km datasets in that it utilizes a spatial box filter (rather than the Hamming filter) to generate a spatial average of the Sigma-0 retrievals from the Level 1B dataset; all full resolution Sigma-0 retrievals within a 15 km radius of the wind vector cell centroid are used in the averaging. Since the full resolution L1B Sigma-0 retrievals are used, all non-sea retrievals are discarded prior to the Sigma-0 averaging. Each box average Sigma-0 is then used to compute the wind vector cell using the same CMOD5.n geophysical model function as in the standard OSI SAF ASCAT wind vector datasets. With this enhanced coastal retrieval, winds can be computed as close to ~15 km from the coast, as compared to the static ~35 km land mask in the standard 12.5 km dataset. Each file is provided in netCDF version 3 format, and contains one full orbit derived from 3-minute orbit granules. Latency is approximately 2 hours from the latest measurement. The beginning of the orbit is defined by the first wind vector cell measurement within the first 3-minute orbit granule that starts north of the Equator in the ascending node. ASCAT is a C-band dual swath fan beam radar scatterometer providing two independent swaths of backscatter retrievals in sun-synchronous polar orbit aboard the MetOp-B platform. For more information on the MetOp-B mission, please visit: http://podaac.jpl.nasa.gov/OceanWind/MetOp . For more timely announcements, users are encouraged to register with the KNMI scatterometer email list: scat@knmi.nl. Users are also highly advised to check the dataset user guide periodically for updates and new information on known problems and issues. All intellectual property rights of the OSI SAF products belong to EUMETSAT. The use of these products is granted to every interested user, free of charge. If you wish to use these products, EUMETSAT's copyright credit must be shown by displaying the words &quot;copyright (year) EUMETSAT&quot; on each of the products used.</SimpleData>
+		<SimpleData name="coll_doi">ASCATB-L2-Coastal</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-89.59999999999999</SimpleData>
+		<SimpleData name="time_max">89.59999999999999</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.6 180.0,89.6 -180.0,89.6 -180.0,-89.6 180.0,-89.6</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1277698070-NOAA_NCEI</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">noaa_ncei_gov.noaa.ncdc.C00809___version_</SimpleData>
+		<SimpleData name="cmr_concept_id">NOAA_NCEI</SimpleData>
+		<SimpleData name="cmr_native_id">5</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-22T20:53:51Z</SimpleData>
+		<SimpleData name="cmr_revision_date">NOAA Climate Data Record (CDR) of Monthly Outgoing Longwave Radiation (OLR), Version 2.2-1</SimpleData>
+		<SimpleData name="cmr_publication_date">Version 2.2-1</SimpleData>
+		<SimpleData name="coll_version">This Climate Data Record (CDR) of monthly mean High Resolution Infrared Radiation Sounder (HIRS) Outgoing Longwave Radiation (OLR) flux at the top of the atmosphere in all sky conditions is on a 2.5 degree x 2.5 degree grid with global coverage from January 1979 to the present and continuing monthly. Grid dimensions are 144 x 72, with 10,368 total grids over the globe. The data set was derived using a multispectral HIRS OLR algorithm on the HIRS level 1b dataset from the TIROS-N to NOAA-19 series satellites with inter-satellite and radiance calibration adjustments employing an empirical diurnal model for the monthly mean derivation. The data file format is netCDF-4 with CF metadata, and it is accompanied by algorithm documentation, data flow diagram and source code for the NOAA CDR Program.</SimpleData>
+		<SimpleData name="coll_doi">gov.noaa.ncdc.C00809</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

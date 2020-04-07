@@ -1,0 +1,79 @@
+{
+  "hits": 1,
+  "took": 15,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1664740960-PODAAC",
+        "revision-id": 1,
+        "native-id": "vas_QuikSCAT_L2B_v20110531_199908-200910.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-12-06T15:45:06Z"
+      },
+      "umm": {
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2012-04-25T00:46:20.676Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-12-06T15:45:03.518Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "QSCAT_L3_SFC_EASTWARD_WIND_1DEG_1MO",
+          "Version": "1"
+        },
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2012-04-08T08:31:03.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 30.42850112915039,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1999-08-01T00:00:00.000Z",
+            "EndingDateTime": "2009-10-30T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "vas_QuikSCAT_L2B_v20110531_199908-200910.nc",
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    }
+  ]
+}

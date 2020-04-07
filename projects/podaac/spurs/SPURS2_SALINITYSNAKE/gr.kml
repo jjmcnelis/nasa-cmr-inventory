@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gr" id="gr">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="gran_name" type="string"></SimpleField>
+	<SimpleField name="gran_size_mb" type="float"></SimpleField>
+	<SimpleField name="gran_parameters" type="string"></SimpleField>
+	<SimpleField name="gran_day_night" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>gr</name>
+  <Placemark>
+	<name>granule</name>
+	<description>G1647541533-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS2_RR1610_Salinity_Snake.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-16T01:17:33Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS2_SALINITYSNAKE</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS2_RR1610_Salinity_Snake.nc</SimpleData>
+		<SimpleData name="coll_shortname">217.8166465759277</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-08-16T07:22:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2016-09-22T00:22:32.000Z</SimpleData>
+		<SimpleData name="time_min">5.061</SimpleData>
+		<SimpleData name="time_max">17.161</SimpleData>
+		<SimpleData name="lat_min">-155.828</SimpleData>
+		<SimpleData name="lat_max">-123.377</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-123.377,5.061 -123.377,17.161 -155.828,17.161 -155.828,5.061 -123.377,5.061</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1647541483-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS2_RR1610_SSP.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-24T19:30:50Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS2_SSP</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS2_RR1610_SSP.nc</SimpleData>
+		<SimpleData name="coll_shortname">62.88294410705566</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-08-27T07:52:24.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2016-09-18T02:41:31.000Z</SimpleData>
+		<SimpleData name="time_min">6.686</SimpleData>
+		<SimpleData name="time_max">11.548</SimpleData>
+		<SimpleData name="lat_min">-140.97</SimpleData>
+		<SimpleData name="lat_max">-123.387</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-123.387,6.686 -123.387,11.548 -140.97,11.548 -140.97,6.686 -123.387,6.686</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1647541535-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS2_RR1720_Salinity_Snake.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-16T01:17:34Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS2_SALINITYSNAKE</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS2_RR1720_Salinity_Snake.nc</SimpleData>
+		<SimpleData name="coll_shortname">302.8170642852783</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-10-17T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-11-16T22:45:15.000Z</SimpleData>
+		<SimpleData name="time_min">5.055</SimpleData>
+		<SimpleData name="time_max">32.326</SimpleData>
+		<SimpleData name="lat_min">-125.573</SimpleData>
+		<SimpleData name="lat_max">-117.347</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-117.347,5.055 -117.347,32.326 -125.573,32.326 -125.573,5.055 -117.347,5.055</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1647541484-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS2_RR1720_SSP.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-24T19:30:51Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS2_SSP</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS2_RR1720_SSP.nc</SimpleData>
+		<SimpleData name="coll_shortname">55.13778591156006</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-10-20T18:12:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-11-11T07:35:00.000Z</SimpleData>
+		<SimpleData name="time_min">6.546</SimpleData>
+		<SimpleData name="time_max">16.502</SimpleData>
+		<SimpleData name="lat_min">-125.567</SimpleData>
+		<SimpleData name="lat_max">-123.204</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-123.204,6.546 -123.204,16.502 -125.567,16.502 -125.567,6.546 -123.204,6.546</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

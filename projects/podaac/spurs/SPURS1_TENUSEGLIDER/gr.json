@@ -1,0 +1,166 @@
+{
+  "hits": 2,
+  "took": 16,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1652992972-PODAAC",
+        "revision-id": 1,
+        "native-id": "SPURS_Tenuse_Glider.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-06T18:18:11Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2012-08-21T00:00:00.000Z",
+            "EndingDateTime": "2012-10-04T00:00:00.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "SPURS_Tenuse_Glider.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -38.077,
+                  "EastBoundingCoordinate": -35.099,
+                  "NorthBoundingCoordinate": 26.407,
+                  "SouthBoundingCoordinate": 24.577
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-01-13T23:58:22.160Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-06T18:18:11.164Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SPURS1_TENUSEGLIDER",
+          "Version": "1.0"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/insitu/L2/spurs1/tenuseglider/SPURS_Tenuse_Glider.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/spurs1/tenuseglider/SPURS_Tenuse_Glider.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2014-06-05T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 21.71091079711914,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1652992895-PODAAC",
+        "revision-id": 1,
+        "native-id": "SPURS_Crate_Glider.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-06T18:18:10Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2012-08-22T00:00:00.000Z",
+            "EndingDateTime": "2012-08-27T00:00:00.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "SPURS_Crate_Glider.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -35.905,
+                  "EastBoundingCoordinate": -35.699,
+                  "NorthBoundingCoordinate": 26.417,
+                  "SouthBoundingCoordinate": 25.598
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-01-14T20:49:22.297Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-06T18:18:07.867Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SPURS1_TENUSEGLIDER",
+          "Version": "1.0"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/insitu/L2/spurs1/tenuseglider/SPURS_Crate_Glider.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/spurs1/tenuseglider/SPURS_Crate_Glider.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2015-12-11T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.4858589172363281,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "hits": 2,
+  "took": 23,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1647541509-PODAAC",
+        "revision-id": 1,
+        "native-id": "SPURS2_RR1610_Radiosonde.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-24T19:31:10Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-08-20T01:56:45.000Z",
+            "EndingDateTime": "2016-09-14T15:01:11.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "SPURS2_RR1610_Radiosonde.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -133.216,
+                  "EastBoundingCoordinate": -123.323,
+                  "NorthBoundingCoordinate": 13.539,
+                  "SouthBoundingCoordinate": 5.036
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-07-23T20:48:18.662Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-24T19:31:10.120Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SPURS2_RAWINSONDE",
+          "Version": "1.0"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/insitu/L2/spurs2/sonde//SPURS2_RR1610_Radiosonde.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/spurs2/sonde//SPURS2_RR1610_Radiosonde.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-05-29T12:25:49.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 137.6852045059204,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1647541507-PODAAC",
+        "revision-id": 1,
+        "native-id": "SPURS2_RR1720_Radiosonde.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-24T19:31:09Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2017-10-22T09:26:18.000Z",
+            "EndingDateTime": "2017-11-10T21:16:04.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "SPURS2_RR1720_Radiosonde.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -126.025,
+                  "EastBoundingCoordinate": -123.972,
+                  "NorthBoundingCoordinate": 12.35,
+                  "SouthBoundingCoordinate": 5.14
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-07-23T20:48:07.830Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-24T19:31:06.940Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SPURS2_RAWINSONDE",
+          "Version": "1.0"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/insitu/L2/spurs2/sonde//SPURS2_RR1720_Radiosonde.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/spurs2/sonde//SPURS2_RR1720_Radiosonde.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-05-29T12:24:53.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 76.98781108856201,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    }
+  ]
+}

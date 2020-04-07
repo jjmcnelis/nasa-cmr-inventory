@@ -1,0 +1,1342 @@
+{
+  "hits": 4,
+  "took": 17,
+  "items": [
+    {
+      "meta": {
+        "revision-id": 2,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "CYGNSS+Level+1+Science+Data+Record+Version+2.1",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1644157147-PODAAC",
+        "revision-date": "2019-11-01T16:26:43Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "CYGNSS, PO.DAAC, 2018-09-21, CYGNSS Level 1 Science Data Record Version 2.1, 10.5067/CYGNS-L1X21, http://clasp-research.engin.umich.edu/missions/cygnss/"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": 40.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Spectral/Engineering",
+            "Term": "Radar",
+            "VariableLevel1": "Radar Cross-section",
+            "DetailedVariable": "Bistatic Radar Cross-Section"
+          },
+          {
+            "Category": "Earth Science",
+            "Topic": "Spectral/Engineering",
+            "Term": "Radar",
+            "VariableLevel1": "Radar Reflectivity",
+            "DetailedVariable": "Zenith Signal Power"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2017-03-18T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "1"
+        },
+        "DOI": {
+          "DOI": "10.5067/CYGNS-L1X21"
+        },
+        "ShortName": "CYGNSS_L1_V2.1",
+        "EntryTitle": "CYGNSS Level 1 Science Data Record Version 2.1",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/cygnss/L1/v2.1",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Level 1A DDM Calibration Algorithm Theoretical Basis Document, S. Gleason, CYGNSS Project Document 148-0136, Rev 2, 20 Aug. 2018.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://clasp-research.engin.umich.edu/missions/cygnss/reference/148-0136_ATBD_L1A_DDMCalibration_Rev2_Aug2018_release.pdf"
+          },
+          {
+            "Description": "Updated Monthly",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/cygnss/L1/docs/att_tables/"
+          },
+          {
+            "Description": "Generic MATLAB netCDF Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/matlab/"
+          },
+          {
+            "Description": "Level 1B DDM Calibration Algorithm Theoretical Basis Document, S. Gleason, CYGNSS Project Document 148-0137, Rev 2, 20 Aug. 2018.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://clasp-research.engin.umich.edu/missions/cygnss/reference/148-0137_ATBD_L1B_DDMCalibration_Rev2_Aug2018_release.pdf"
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://clasp-research.engin.umich.edu/missions/cygnss/"
+          },
+          {
+            "Description": "Generic R netCDF Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/R/"
+          },
+          {
+            "Description": "Ruf, C., R. Atlas, P. Chang, M. Clarizia, J. Garrison, S. Gleason, S. Katzberg, Z. Jelenak, J. Johnson, S. Majumdar, A. O'Brien, D. Posselt, A. Ridley, R. Rose, V. Zavorotny (2015). New Ocean Winds Satellite Mission to Probe Hurricanes and Tropical Convection. Bull. Amer. Meteor. Soc., doi:10.1175/BAMS-D-14-00218.1.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "PUBLICATIONS",
+            "URL": "https://journals.ametsoc.org/doi/10.1175/BAMS-D-14-00218.1"
+          },
+          {
+            "Description": "Generic Python netCDF Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/python/"
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/cygnss/L1/docs/148-0346-6_L1_v2.1_netCDF_Data_Dictionary.xlsx"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "Gleason, S., C. Ruf, M. P. Clarizia, A. O'Brien, 'Calibration and Unwrapping of the Normalized Scattering Cross Section for the Cyclone Global Navigation Satellite System (CYGNSS)', IEEE Trans. Geosci. Remote Sens., doi:10.1109/TGRS.2015.2502245, 2016.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "PUBLICATIONS",
+            "URL": "https://doi.org/10.1109/TGRS.2015.2502245"
+          },
+          {
+            "Description": "Generic IDL netCDF Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/idl"
+          },
+          {
+            "Description": "Deriving Surface Winds from Tropical Cyclones",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://clasp-research.engin.umich.edu/missions/cygnss/reference/cygnss-mission/CYGNSS_Handbook_April2016.pdf"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/CYGNS-L1X21"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/cygnss/L1/v2.1/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2018-05-14T22:41:39.835Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2018-05-14T22:41:39.835Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This Level 1 (L1) dataset contains the Version 2.1 geo-located Delay Doppler Maps (DDMs) calibrated into Power Received (Watts) and Bistatic Radar Cross Section (BRCS) expressed in units of m2 from the Delay Doppler Mapping Instrument aboard the CYGNSS satellite constellation. This version supersedes Version 2.0. Other useful scientific and engineering measurement parameters include the DDM of Normalized Bistatic Radar Cross Section (NBRCS), the Delay Doppler Map Average (DDMA) of the NBRCS near the specular reflection point, and the Leading Edge Slope (LES) of the integrated delay waveform. The L1 dataset contains a number of other engineering and science measurement parameters, including sets of quality flags/indicators, error estimates, and bias estimates as well as a variety of orbital, spacecraft/sensor health, timekeeping, and geolocation parameters. At most, 8 netCDF data files (each file corresponding to a unique spacecraft in the CYGNSS constellation) are provided each day; under nominal conditions, there are typically 6-8 spacecraft retrieving data each day, but this can be maximized to 8 spacecraft under special circumstances in which higher than normal retrieval frequency is needed (i.e., during tropical storms and or hurricanes). Latency is approximately 6 days (or better) from the last recorded measurement time. The Version 2.1 release represents the second science-quality release. Here is a summary of improvements that reflect the quality of the Version 2.1 data release: 1) data is now available when the CYGNSS satellites are rolled away from nadir during orbital high beta-angle periods, resulting in a significant amount of additional data; 2) correction to coordinate frames result in more accurate estimates of receiver antenna gain at the specular point; 3) improved calibration for analog-to-digital conversion results in better consistency between CYGNSS satellites measurements at nearly the same location and time; 4) improved GPS EIRP and transmit antenna pattern calibration results in significantly reduced PRN-dependence in the observables;  5) improved estimation of the location of the specular point within the DDM; 6) an altitude-dependent scattering area is used to normalize the scattering cross section (v2.0 used a simpler  scattering area model that varied with incidence and azimuth angles but not altitude); 7) corrections added for noise floor-dependent biases in scattering cross section and leading edge slope of delay waveform observed in the v2.0 data. Users should also note that the receiver antenna pattern calibration is not applied per-DDM-bin in this v2.1 release.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-01T16:26:40.747Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "2.1",
+        "Projects": [
+          {
+            "ShortName": "CYGNSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "CYGNSS"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Cyclone Global Navigation Satellite System",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Tim",
+                "MiddleName": "null",
+                "LastName": "Butler"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "734-936-3105"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "butlerti@umich.edu"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SATELLITE CONSTELLATION",
+            "ShortName": "CYGNSS",
+            "LongName": "Cyclone Global Navigation Satellite System",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "94.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "35.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "DDMI",
+                "LongName": "Delay Doppler Mapping Instrument",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "25.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "CYGNSS+Level+2+Ocean+Surface+Heat+Flux+Science+Data+Record+Version+1.0",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1664741188-PODAAC",
+        "revision-date": "2019-12-06T15:46:08Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "CYGNSS, PO.DAAC, 2019-08-11, CYGNSS Level 2 Ocean Surface Heat Flux Science Data Record Version 1.0, 10.5067/CYGNS-L2H10, http://clasp-research.engin.umich.edu/missions/cygnss/"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": 40.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN HEAT BUDGET",
+            "VariableLevel1": "HEAT FLUX",
+            "DetailedVariable": "OCEAN SURFACE LATENT AND SENSIBLE HEAT FLUXES"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2017-03-18T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2"
+        },
+        "DOI": {
+          "DOI": "10.5067/CYGNS-L2H10"
+        },
+        "ShortName": "CYGNSS_L2_SURFACE_FLUX_V1.0",
+        "EntryTitle": "CYGNSS Level 2 Ocean Surface Heat Flux Science Data Record Version 1.0",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/cygnss/L2/fluxes/v1.0",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Clarizia, M. P., and C. S. Ruf, 'Wind Speed Retrieval Algorithm for the Cyclone Global Navigation Satellite System (CYGNSS) Mission', IEEE Trans Geosci. Remote Sens., doi:10.1109/TGRS.2016.2541343, 2016.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "PUBLICATIONS",
+            "URL": "https://doi.org/10.1109/TGRS.2016.2541343"
+          },
+          {
+            "Description": "User Guide for the CYGNSS Surface Flux Dataset",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/cygnss/L2/docs/cygnss_l2_heat_flux_user_guide_v1.pdf"
+          },
+          {
+            "Description": "Generic netCDF Python Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/python/"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://clasp-research.engin.umich.edu/missions/cygnss/"
+          },
+          {
+            "Description": "Level 2 Wind Speed Retrieval Algorithm Theoretical Basis Document, M. P. Clarizia, V. Zavarotny, C. Ruf, CYGNSS Project Document 148-0138, Rev 5, 17 Aug. 2018.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://clasp-research.engin.umich.edu/missions/cygnss/reference/148-0138%20ATBD%20L2%20Wind%20Speed%20Retrieval_Rev5_Aug2018_release.pdf"
+          },
+          {
+            "Description": "Ruf, C., R. Atlas, P. Chang, M. Clarizia, J. Garrison, S. Gleason, S. Katzberg, Z. Jelenak, J. Johnson, S. Majumdar, A. O'Brien, D. Posselt, A. Ridley, R. Rose, V. Zavorotny (2015). New Ocean Winds Satellite Mission to Probe Hurricanes and Tropical Convection. Bull. Amer. Meteor. Soc., doi:10.1175/BAMS-D-14-00218.1.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "PUBLICATIONS",
+            "URL": "https://doi.org/10.1175/BAMS-D-14-00218.1"
+          },
+          {
+            "Description": "Generic netCDF IDL Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/idl/"
+          },
+          {
+            "Description": "Data Variable Dictionary",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/cygnss/L2/docs/148-0382-1_Level2_Surface_Flux_netCDF_Data_Dictionary.xlsx"
+          },
+          {
+            "Description": "Ruf, C., S. Asharaf, R. Balasubramaniam, S. Gleason, T. Lang, D. McKague, D. Twigg, and D. Waliser. (2019). In-Orbit Performance of the Constellation of CYGNSS Hurricane Satellites. Bull. Amer. Meteor. Soc., 100, 2009 - 2023, https://doi.org/10.1175/BAMS-D-18-0337.1.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "PUBLICATIONS",
+            "URL": "https://doi.org/10.1175/BAMS-D-18-0337.1"
+          },
+          {
+            "Description": "Generic netCDF R Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/R/"
+          },
+          {
+            "Description": "Crespo, J. A., Posselt, D. J., & Asharaf, S. (2019). CYGNSS Surface Heat Flux Product Development. Remote Sens. 2019, 11, 2294. DOI: 10.3390/rs11192294.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "PUBLICATIONS",
+            "URL": "https://doi.org/10.3390/rs11192294"
+          },
+          {
+            "Description": "Updated Monthly",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/cygnss/L1/docs/att_tables/"
+          },
+          {
+            "Description": "Ruf, C., R. Balasubramaniam, 'Development of the CYGNSS Geophysical Model Function for Wind Speed', IEEE J. Sel. Topics Appl. Earth Obs. Remote Sens., doi: 10.1109/JSTARS.2018.2833075, 2018.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "PUBLICATIONS",
+            "URL": "https://doi.org/10.1109/JSTARS.2018.2833075"
+          },
+          {
+            "Description": "Generic netCDF MATLAB Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/matlab/"
+          },
+          {
+            "Description": "Deriving Surface Winds from Tropical Cyclones",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "http://clasp-research.engin.umich.edu/missions/cygnss/reference/cygnss-mission/CYGNSS_Handbook_April2016.pdf"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/CYGNS-L2H10"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/cygnss/L2/fluxes/v1.0/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2019-07-31T22:25:39.465Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-07-31T22:25:39.465Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This dataset contains the Version 1.0 CYGNSS Level 2 Ocean Surface Heat Flux Science Data Record, which provides the time-tagged and geolocated ocean surface heat flux parameters with 25x25 kilometer footprint resolution from the Delay Doppler Mapping Instrument (DDMI) aboard the CYGNSS satellite constellation. The reported sample locations are determined by the specular points corresponding to the Delay Doppler Maps (DDMs). Only one netCDF-4 data file is produced each day (each file containing data from a combination of up to 8 unique CYGNSS spacecraft) with a latency of approximately 1 to 2 months from the last recorded measurement time. Version 1.0 represents the first release. The Cyclone Global Navigation Satellite System (CYGNSS), launched on 15 December 2016, is a NASA Earth System Science Pathfinder Mission that was launched with the purpose to collect the first frequent space-based measurements of surface wind speeds in the inner core of tropical cyclones. Made up of a constellation of eight micro-satellites, the CYGNSS observatories provide nearly gap-free Earth coverage with a mean (i.e., average) revisit time of seven hours and a median revisit time of three hours. The 35 degree orbital inclination allows CYGNSS to measure ocean surface winds between approximately 38 degrees North and 38 degrees South latitude using an innovative combination of all-weather performance Global Positioning System (GPS) L-band ocean surface reflectometry to penetrate the clouds and heavy precipitation. The Coupled Ocean-Atmosphere Response Experiment (COARE) algorithm is what is used in this dataset to estimate the latent and sensible heat fluxes and their respective transfer coefficients. While COARE's initial intentions were for low to moderate wind speeds, the version used for this product, COARE 3.5, has been verified with direct in situ flux measurements for wind speeds up to 25 m/s. As CYGNSS does not provide air/sea temperature, humidity, surface pressure or density, the producer of this dataset obtains these values from the NASA Modern-Era Retrospective Analysis for Research and Applications Version 2 (MERRA-2), which uses data assimilation to combine all available in situ and satellite observation data with an initial estimate of the atmospheric state, provided by a global atmospheric model. Since the MERRA-2 data is only updated on monthly intervals, this corresponding heat flux dataset is likewise updated on a monthly interval to reflect the latest data available from MERRA-2, thus accounting for measurement latency, with respect to CYGNSS observables, ranging from 1 to 2 months. The data from this release compares well with in situ buoy data, including: Kuroshio Extension Observatory (KEO), National Data Buoy Center (NDBC), Ocean Sustained Interdisciplinary Time-series Environment observation System (OceanSITES), Prediction and Research Moored Array in the Tropical Atlantic (PIRATA), Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction (RAMA), and the Tropical Atmosphere Ocean (TAO) array. As this marks only the first data release, future work is expected to provide comparisons and validation with various field campaigns (e.g., PISTON, CAMP2Ex) as well as more buoy data, especially at higher flux estimates.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-12-06T15:46:05.134Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1.0",
+        "Projects": [
+          {
+            "ShortName": "CYGNSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "UMICH/ENG/CSSE"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Juan",
+                "MiddleName": "A",
+                "LastName": "Crespo"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "\ufffd8183540924"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "juan.a.crespo@jpl.nasa.gov"
+                }
+              ]
+            }
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Derek",
+                "LastName": "Posselt"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "8183548107"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "Derek.Posselt@jpl.nasa.gov"
+                }
+              ]
+            }
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Cyclone Global Navigation Satellite System",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Tim",
+                "MiddleName": "null",
+                "LastName": "Butler"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "734-936-3105"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "butlerti@umich.edu"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SATELLITE CONSTELLATION",
+            "ShortName": "CYGNSS",
+            "LongName": "Cyclone Global Navigation Satellite System",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "94.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "35.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "DDMI",
+                "LongName": "Delay Doppler Mapping Instrument",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "25.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF-4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "CYGNSS+Level+2+Science+Data+Record+Version+2.1",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1664741198-PODAAC",
+        "revision-date": "2019-12-06T15:46:12Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "CYGNSS, PO.DAAC, 2018-09-21, CYGNSS Level 2 Science Data Record Version 2.1, 10.5067/CYGNS-L2X21, http://clasp-research.engin.umich.edu/missions/cygnss/"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": 40.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SPECTRAL/ENGINEERING",
+            "Term": "RADAR",
+            "VariableLevel1": "RADAR CROSS-SECTION",
+            "DetailedVariable": "BISTATIC RADAR CROSS-SECTION"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN WINDS",
+            "VariableLevel1": "SURFACE WINDS",
+            "DetailedVariable": "OCEAN SURFACE WIND SPEED"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2017-03-18T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2"
+        },
+        "DOI": {
+          "DOI": "10.5067/CYGNS-L2X21"
+        },
+        "ShortName": "CYGNSS_L2_V2.1",
+        "EntryTitle": "CYGNSS Level 2 Science Data Record Version 2.1",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/cygnss/L2/v2.1",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Ruf, C., R. Atlas, P. Chang, M. Clarizia, J. Garrison, S. Gleason, S. Katzberg, Z. Jelenak, J. Johnson, S. Majumdar, A. O'Brien, D. Posselt, A. Ridley, R. Rose, V. Zavorotny (2015). New Ocean Winds Satellite Mission to Probe Hurricanes and Tropical Convection. Bull. Amer. Meteor. Soc., doi:10.1175/BAMS-D-14-00218.1.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "PUBLICATIONS",
+            "URL": "https://doi.org/10.1175/BAMS-D-14-00218.1"
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/cygnss/L2/docs/148-0348-9_L2_v2.1_netCDF_Data_Dictionary.xlsx"
+          },
+          {
+            "Description": "Generic netCDF MATLAB Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/matlab/"
+          },
+          {
+            "Description": "Generic netCDF IDL Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/idl/"
+          },
+          {
+            "Description": "Level 2 Mean-Square Slope Retrieval Algorithm Theoretical Basis Document, V. Zavorotny, CYGNSS Project Document 148-0139, Rev 3, 22 September 2016.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://clasp-research.engin.umich.edu/missions/cygnss/reference/148-0139%20L2%20MSS%20ATBD%20R3.pdf"
+          },
+          {
+            "Description": "Ruf, C., R. Balasubramaniam, 'Development of the CYGNSS Geophysical Model Function for Wind Speed', IEEE J. Sel. Topics Appl. Earth Obs. Remote Sens., doi: 10.1109/JSTARS.2018.2833075, 2018.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "PUBLICATIONS",
+            "URL": "https://doi.org/10.1109/JSTARS.2018.2833075"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "Deriving Surface Winds from Tropical Cyclones",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "http://clasp-research.engin.umich.edu/missions/cygnss/reference/cygnss-mission/CYGNSS_Handbook_April2016.pdf"
+          },
+          {
+            "Description": "Updated Monthly",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/cygnss/L1/docs/att_tables/"
+          },
+          {
+            "Description": "Generic netCDF R Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/R/"
+          },
+          {
+            "Description": "Ruf, C., S. Asharaf, R. Balasubramaniam, S. Gleason, T. Lang, D. McKague, D. Twigg, and D. Waliser. (2019). In-Orbit Performance of the Constellation of CYGNSS Hurricane Satellites. Bull. Amer. Meteor. Soc., 100, 2009 - 2023, https://doi.org/10.1175/BAMS-D-18-0337.1.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "PUBLICATIONS",
+            "URL": "https://doi.org/10.1175/BAMS-D-18-0337.1"
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://clasp-research.engin.umich.edu/missions/cygnss/"
+          },
+          {
+            "Description": "Level 2 Wind Speed Retrieval Algorithm Theoretical Basis Document, M. P. Clarizia, V. Zavarotny, C. Ruf, CYGNSS Project Document 148-0138, Rev 5, 17 Aug. 2018.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://clasp-research.engin.umich.edu/missions/cygnss/reference/148-0138%20ATBD%20L2%20Wind%20Speed%20Retrieval_Rev5_Aug2018_release.pdf"
+          },
+          {
+            "Description": "Generic netCDF Python Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/python/"
+          },
+          {
+            "Description": "Clarizia, M. P., and C. S. Ruf, 'Wind Speed Retrieval Algorithm for the Cyclone Global Navigation Satellite System (CYGNSS) Mission', IEEE Trans Geosci. Remote Sens., doi:10.1109/TGRS.2016.2541343, 2016.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "PUBLICATIONS",
+            "URL": "https://doi.org/10.1109/TGRS.2016.2541343"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/CYGNS-L2X21"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/cygnss/L2/v2.1/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2018-05-14T22:38:38.292Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2018-05-14T22:38:38.292Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This dataset contains the Version 2.1 CYGNSS Level 2 Science Data Record which provides the time-tagged and geolocated average wind speed (m/s) and mean square slope (MSS) with 25x25 kilometer resolution from the Delay Doppler Mapping Instrument aboard the CYGNSS satellite constellation. This version supersedes Version 2.0. The reported sample locations are determined by the specular points corresponding to the Delay Doppler Maps (DDMs). A subset of DDM data used in the direct processing of the average wind speed and MSS is co-located inside of the Level 2 data files. Only one netCDF data file is produced each day (each file containing data from up to 8 unique CYGNSS spacecraft) with a latency of approximately 6 days (or better) from the last recorded measurement time. The Version 2.1 release represents the second science-quality release. Here is a summary of improvements that reflect the quality of the Version 2.1 data release: 1) revised Geophysical Model Functions (GMFs) for both Fully Developed Seas (FDS) and Young Seas with Limited Fetch conditions, to be consistent with the calibration changes made to the v2.1 Level 1 science data products.; 2) Revised covariance matrix between DDMA and LES versions of the FDS wind speed retrieval, used by the minimum variance estimator, resulting from changes made to the v2.1 Level 1 science data products; 3) Revised debiasing algorithm coefficients used by the FDS L2 retrieval algorithm, resulting from changes made to the v2.1 Level 2 science data products; 4) revised quality control (Q/C) flags related to the required level of consistency between DDMA and LES versions of the FDS wind speed retrieval (the errors in the two retrievals are now less correlated so larger discrepancies are allowed; if either retrieval is not available, the sample receives a fatal Q/C flag); 5) new Q/C flag related to the block type of the GPS satellite which provided the transmitted signal. Samples using block II-F signals receive a fatal Q/C flag due to the higher level of uncertainty in their radiated power; 6) revised wind speed uncertainty values as a function of RCG and wind speed, plus a new dependence of the uncertainty on GPS block type to reflect the higher uncertainty in GPS radiated power for block II-F satellites.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-12-06T15:46:09.277Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "2.1",
+        "Projects": [
+          {
+            "ShortName": "CYGNSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "UMICH/ENG/CSSE"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Cyclone Global Navigation Satellite System",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Tim",
+                "MiddleName": "null",
+                "LastName": "Butler"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "734-936-3105"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "butlerti@umich.edu"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SATELLITE CONSTELLATION",
+            "ShortName": "CYGNSS",
+            "LongName": "Cyclone Global Navigation Satellite System",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "94.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "35.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "DDMI",
+                "LongName": "Delay Doppler Mapping Instrument",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "25.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "CYGNSS+Level+3+Science+Data+Record+Version+2.1",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1664741214-PODAAC",
+        "revision-date": "2019-12-06T15:46:15Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "CYGNSS, PO.DAAC, 2018-09-21, CYGNSS Level 3 Science Data Record Version 2.1, 10.5067/CYGNS-L3X21, http://clasp-research.engin.umich.edu/missions/cygnss/"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 40.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": 40.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN WINDS",
+            "VariableLevel1": "SURFACE WINDS",
+            "DetailedVariable": "OCEAN SURFACE WIND SPEED"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2017-03-18T00:30:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/CYGNS-L3X21"
+        },
+        "ShortName": "CYGNSS_L3_V2.1",
+        "EntryTitle": "CYGNSS Level 3 Science Data Record Version 2.1",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/cygnss/L3/v2.1",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Level 3 Gridded Wind Speed Algorithm Theoretical Basis Document, C. Ruf, CYGNSS Project Document 148-0319, Rev 1, 20 Aug. 2018.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://clasp-research.engin.umich.edu/missions/cygnss/reference/148-0319%20ATBD%20L3%20Gridded%20Wind%20Speed_Rev1_Aug2018_release.pdf"
+          },
+          {
+            "Description": "Generic netCDF R Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/R/"
+          },
+          {
+            "Description": "Generic netCDF MATLAB Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/matlab/"
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://clasp-research.engin.umich.edu/missions/cygnss/"
+          },
+          {
+            "Description": "Ruf, C., S. Asharaf, R. Balasubramaniam, S. Gleason, T. Lang, D. McKague, D. Twigg, and D. Waliser. (2019). In-Orbit Performance of the Constellation of CYGNSS Hurricane Satellites. Bull. Amer. Meteor. Soc., 100, 2009 - 2023, https://doi.org/10.1175/BAMS-D-18-0337.1.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "PUBLICATIONS",
+            "URL": "https://doi.org/10.1175/BAMS-D-18-0337.1"
+          },
+          {
+            "Description": "Ruf, C., R. Atlas, P. Chang, M. Clarizia, J. Garrison, S. Gleason, S. Katzberg, Z. Jelenak, J. Johnson, S. Majumdar, A. O'Brien, D. Posselt, A. Ridley, R. Rose, V. Zavorotny (2015). New Ocean Winds Satellite Mission to Probe Hurricanes and Tropical Convection. Bull. Amer. Meteor. Soc., doi:10.1175/BAMS-D-14-00218.1.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "PUBLICATIONS",
+            "URL": "https://doi.org/10.1175/BAMS-D-14-00218.1"
+          },
+          {
+            "Description": "Generic netCDF Python Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/python/"
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/cygnss/L3/docs/148-0351-2_L3_v2.1_netCDF_Data_Dictionary.xlsx"
+          },
+          {
+            "Description": "Updated Monthly",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/cygnss/L1/docs/att_tables/"
+          },
+          {
+            "Description": "Deriving Surface Winds from Tropical Cyclones",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "http://clasp-research.engin.umich.edu/missions/cygnss/reference/cygnss-mission/CYGNSS_Handbook_April2016.pdf"
+          },
+          {
+            "Description": "EOSDIS Worldview",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://worldview.earthdata.nasa.gov/?p=geographic&l=CYGNSS_L3_Wind_Speed_Daily"
+          },
+          {
+            "Description": "Generic netCDF IDL Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/idl/"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/CYGNS-L3X21"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/cygnss/L3/v2.1/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2018-05-14T22:44:23.442Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2018-05-14T22:44:23.442Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This dataset contains the Version 2.1 CYGNSS Level 3 Science Data Record which provides the average wind speed and mean square slope (MSS) on a 0.2x0.2 degree latitude by longitude equirectangular grid obtained from the Delay Doppler Mapping Instrument aboard the CYGNSS satellite constellation. The Level 2 Delay Doppler Map (DDM) data are used in the direct processing of the average wind speed and MSS data that are binned on the Level 3 grid. A subset of DDM data used in the direct processing of the average wind speed and MSS is co-located inside of the Level 2 data files. A single netCDF-4 data file is produced for each day of operation with an approximate 6 day latency. This version supersedes Version 2.0. The reported sample locations are determined by the specular points corresponding to the Delay Doppler Maps (DDMs). The Version 2.1 release represents the second science-quality release. Here is a summary of improvements that reflect the quality of the Version 2.1 data release: 1) first time availability of wind speeds using the Geophysical Model Function (GMF) calibrated for Young Seas with Limited Fetch (YSLF) conditions; 2) inherits all other improvements made to the version 2.1 Level 2 data intended to improve the quality of the wind speed retrievals and uncertainty estimates. For a full list of improvements to the version 2.1 Level 2 data, please refer to the following dataset information page: https://podaac.jpl.nasa.gov/dataset/CYGNSS_L2_V2.1",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-12-06T15:46:13.333Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "2.1",
+        "Projects": [
+          {
+            "ShortName": "CYGNSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "UMICH/ENG/CSSE"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Cyclone Global Navigation Satellite System",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Tim",
+                "MiddleName": "null",
+                "LastName": "Butler"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "734-936-3105"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "butlerti@umich.edu"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SATELLITE CONSTELLATION",
+            "ShortName": "CYGNSS",
+            "LongName": "Cyclone Global Navigation Satellite System",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "94.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "35.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "DDMI",
+                "LongName": "Delay Doppler Mapping Instrument",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "25.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

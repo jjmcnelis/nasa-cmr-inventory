@@ -1,0 +1,326 @@
+{
+  "hits": 4,
+  "took": 15,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1647541721-PODAAC",
+        "revision-id": 1,
+        "native-id": "SPURS2_PICOSP02.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-24T19:33:29Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-08-22T16:00:00.000Z",
+            "EndingDateTime": "2017-10-24T12:00:00.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "SPURS2_PICOSP02.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.997,
+                  "EastBoundingCoordinate": -124.997,
+                  "NorthBoundingCoordinate": 9.047,
+                  "SouthBoundingCoordinate": 9.047
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-08-23T19:51:17.364Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-24T19:33:28.504Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SPURS2_MOORING_PICO",
+          "Version": "1.0"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/insitu/L2/spurs2/mooring//SPURS2_PICOSP02.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/spurs2/mooring//SPURS2_PICOSP02.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-08-21T13:56:17.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.226073265075684,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1647541718-PODAAC",
+        "revision-id": 1,
+        "native-id": "SPURS2_PICOSP02_CTD.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-24T19:33:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-08-22T18:02:18.000Z",
+            "EndingDateTime": "2017-10-12T12:15:29.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "SPURS2_PICOSP02_CTD.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -125.0,
+                  "EastBoundingCoordinate": -125.0,
+                  "NorthBoundingCoordinate": 9.05,
+                  "SouthBoundingCoordinate": 9.05
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-08-23T19:26:14.749Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-24T19:33:25.355Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SPURS2_MOORING_PICO",
+          "Version": "1.0"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/insitu/L2/spurs2/mooring//SPURS2_PICOSP02_CTD.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/spurs2/mooring//SPURS2_PICOSP02_CTD.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-07-05T12:13:19.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 45.56434631347656,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1647541727-PODAAC",
+        "revision-id": 1,
+        "native-id": "SPURS2_PICOSP01.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-24T19:33:32Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-08-25T16:00:00.000Z",
+            "EndingDateTime": "2017-10-22T12:00:00.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "SPURS2_PICOSP01.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.959,
+                  "EastBoundingCoordinate": -124.959,
+                  "NorthBoundingCoordinate": 10.984,
+                  "SouthBoundingCoordinate": 10.984
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-08-23T19:46:52.432Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-24T19:33:32.022Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SPURS2_MOORING_PICO",
+          "Version": "1.0"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/insitu/L2/spurs2/mooring//SPURS2_PICOSP01.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/spurs2/mooring//SPURS2_PICOSP01.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-08-21T13:49:51.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 5.165648460388184,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1647541724-PODAAC",
+        "revision-id": 1,
+        "native-id": "SPURS2_PICOSP01_CTD.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-24T19:33:30Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-08-25T17:22:42.000Z",
+            "EndingDateTime": "2017-07-03T12:46:48.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "SPURS2_PICOSP01_CTD.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -125.0,
+                  "EastBoundingCoordinate": -125.0,
+                  "NorthBoundingCoordinate": 11.0,
+                  "SouthBoundingCoordinate": 11.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-08-23T19:26:11.105Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-24T19:33:30.185Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SPURS2_MOORING_PICO",
+          "Version": "1.0"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/insitu/L2/spurs2/mooring//SPURS2_PICOSP01_CTD.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/spurs2/mooring//SPURS2_PICOSP01_CTD.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-07-05T12:13:11.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 34.54625701904297,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    }
+  ]
+}

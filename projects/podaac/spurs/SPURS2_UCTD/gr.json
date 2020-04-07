@@ -1,0 +1,166 @@
+{
+  "hits": 2,
+  "took": 22,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1661566989-PODAAC",
+        "revision-id": 1,
+        "native-id": "SPURS2_RR1610_uCTD.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-27T15:58:22Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-08-21T21:50:36.000Z",
+            "EndingDateTime": "2016-09-12T16:10:21.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "SPURS2_RR1610_uCTD.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -123.5,
+                  "EastBoundingCoordinate": -126.509,
+                  "NorthBoundingCoordinate": 11.5,
+                  "SouthBoundingCoordinate": 5.113
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-07-25T22:25:08.246Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-27T15:58:19.823Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SPURS2_UCTD",
+          "Version": "1.0"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/insitu/L2/spurs2/uctd//SPURS2_RR1610_uCTD.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/spurs2/uctd//SPURS2_RR1610_uCTD.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-07-17T15:00:02.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 1.1492586135864258,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1661567003-PODAAC",
+        "revision-id": 1,
+        "native-id": "SPURS2_RR1720_uCTD.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-27T15:58:24Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2017-10-21T12:03:00.000Z",
+            "EndingDateTime": "2017-11-11T07:29:14.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "SPURS2_RR1720_uCTD.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -124.044,
+                  "EastBoundingCoordinate": -125.567,
+                  "NorthBoundingCoordinate": 13.971,
+                  "SouthBoundingCoordinate": 5.093
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-07-25T22:25:01.008Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-27T15:58:23.271Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SPURS2_UCTD",
+          "Version": "1.0"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/insitu/L2/spurs2/uctd//SPURS2_RR1720_uCTD.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/spurs2/uctd//SPURS2_RR1720_uCTD.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-07-17T14:59:11.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.14865779876709,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "hits": 1,
+  "took": 15,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1266147935-GES_DISC",
+        "revision-id": 2,
+        "native-id": "MSLERNNL3zm.1:MSLERNNL3zm_v01-02-2013m0701t214027.he5",
+        "provider-id": "GES_DISC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-03-21T10:19:19Z"
+      },
+      "umm": {
+        "RelatedUrls": [
+          {
+            "URL": "https://measures.gesdisc.eosdis.nasa.gov/data//LER/MSLERNNL3zm.1/MSLERNNL3zm_v01-02-2013m0701t214027.he5",
+            "Type": "GET DATA"
+          },
+          {
+            "URL": "https://measures.gesdisc.eosdis.nasa.gov/opendap/LER/MSLERNNL3zm.1/MSLERNNL3zm_v01-02-2013m0701t214027.he5",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "application/x-hdf"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 60.0,
+                  "SouthBoundingCoordinate": -60.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-08-06T15:23:53.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-08-06T15:23:53.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "MSLERNNL3zm",
+          "Version": "1"
+        },
+        "DataGranule": {
+          "DayNightFlag": "Day",
+          "Identifiers": [
+            {
+              "Identifier": "MSLERNNL3zm_v01-02-2013m0701t214027.he5",
+              "IdentifierType": "ProducerGranuleId"
+            }
+          ],
+          "ProductionDateTime": "2013-07-01T21:40:27.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.093022346496582,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1978-11-02T00:00:00.000Z",
+            "EndingDateTime": "2012-12-31T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "MSLERNNL3zm.1:MSLERNNL3zm_v01-02-2013m0701t214027.he5",
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    }
+  ]
+}

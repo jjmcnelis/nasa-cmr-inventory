@@ -1,0 +1,671 @@
+{
+  "hits": 2,
+  "took": 77,
+  "items": [
+    {
+      "meta": {
+        "revision-id": 2,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "Reconstructed+Sea+Level+Version+1",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1650311606-PODAAC",
+        "revision-date": "2019-11-01T17:04:25Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "CCAR, University of Colorado, Boulder, , 2013-06-11, Reconstructed Sea Level Version 1, 10.5067/RECSL-000V1, "
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "SEA SURFACE TOPOGRAPHY",
+            "VariableLevel1": "SEA SURFACE HEIGHT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1950-01-03T00:00:00.000Z",
+                "EndingDateTime": "2009-06-27T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "4"
+        },
+        "DOI": {
+          "DOI": "10.5067/RECSL-000V1"
+        },
+        "ShortName": "RECON_SEA_LEVEL_OST_L4_V1",
+        "EntryTitle": "Reconstructed Sea Level Version 1",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/recon_sea_level/preview/L4/tg_recon_sea_level",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Hamlington, B. D., R. R. Leben, R. S. Nerem, W. Han, and K.-Y. Kim (2011), Reconstructing sea level using cyclostationary empirical orthogonal functions, Journal of Geophysical Research, 116, C12015, doi:10.1029/2011JC007529",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "PUBLICATIONS",
+            "URL": "http://onlinelibrary.wiley.com/doi/10.1029/2011JC007529/full"
+          },
+          {
+            "Description": "Hamlington, B. D., Leben, R. R., Strassburg, M. W. and Kim, K.-Y. (2014), Cyclostationary empirical orthogonal function sea-level reconstruction. Geoscience Data Journal. doi: 10.1002/gdj3.6",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "PUBLICATIONS",
+            "URL": "http://onlinelibrary.wiley.com/doi/10.1002/gdj3.6/full"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-RECSL-000V1",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/RECSL-000V1"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/recon_sea_level/preview/L4/tg_recon_sea_level/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2012-08-09T00:33:46.387Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-04-28T05:01:46.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The Reconstructed Sea Level dataset contains sea level anomalies derived from satellite altimetry and tide gauges.  The satellite altimetric record provides accurate measurements of sea level with near-global coverage, but it has a relatively short time span, since 1993. Tide gauges have measured sea level over the last 200 years, with some records extending back to 1807, but they only provide regional coverage, not global.  Combining satellite altimetry with tide gauges, using a technique known as sea level reconstruction, results in a dataset with the record length of the tide gauges and the near-global coverage of satellite altimetry.  Cyclostationary empirical orthogonal functions (CSEOFs), derived from satellite altimetry, are combined with historical sea level measurements from tide gauges to create the Reconstructed Sea Level dataset spanning from 1950 through 2009. Combining the altimetric and tide gauge records alleviates the difficulties caused by the short record length and poor spatial distribution of the satellite altimetry and tide gauges, respectively.  Previous sea level reconstructions have utilized empirical orthogonal functions (EOFs) as basis functions, but by using CSEOFs and by addressing other aspects of the reconstruction procedure, an alternative sea level reconstruction can be computed. The resulting reconstructed sea level dataset has weekly temporal resolution and half-degree spatial resolution.  For specific information on the algorithm and how the CSEOFs are applied to the tide gauge data please see Hamlington et al. 2011.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-01T17:04:22.400Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "ROSES"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "University of Colorado, Boulder"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Colorado Center for Astrodynamics Research at University of Colorado, Boulder",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Benjamin",
+                "LastName": "Hamlington"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(303) 492-4289"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "benjamin.hamlington@colorado.edu"
+                }
+              ]
+            }
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Jessica",
+                "MiddleName": "none",
+                "LastName": "Hausman"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "818-354-4588"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "Jessica.K.Hausman@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "OSTM/JASON-2",
+            "LongName": "Ocean Surface Topography Mission/Jason-2",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "112.43",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "66.04",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AMR",
+                "LongName": "Advanced Microwave Radiometer"
+              },
+              {
+                "ShortName": "POSEIDON-3",
+                "LongName": "OSTM/Jason-2 RADAR alitmieter",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "5.1",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "Satellite",
+            "ShortName": "Jason-1 Geodetic",
+            "LongName": "Jason-1 Geodetic",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "99999.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "66.15",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "JASON-1 Microwave Radiometer",
+                "LongName": "JASON-1 MICROWAVE RADIOMETER",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "22.9",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "POSEIDON-2",
+                "LongName": "JASON-1 RADAR ALTIMETER"
+              }
+            ]
+          },
+          {
+            "Type": "spacecraft",
+            "ShortName": "JASON-1",
+            "LongName": "JASON-1",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "112.43",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "66.04",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "JASON-1 Microwave Radiometer",
+                "LongName": "JASON-1 MICROWAVE RADIOMETER",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "22.9",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "POSEIDON-2",
+                "LongName": "JASON-1 RADAR ALTIMETER"
+              }
+            ]
+          },
+          {
+            "Type": "spacecraft",
+            "ShortName": "TOPEX/POSEIDON",
+            "LongName": "Topography Experiment/Poseidon",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "112.43",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "66.04",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "TMR",
+                "LongName": "TOPEX MICROWAVE RADIOMETER",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "5.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "SSALT",
+                "LongName": "POSEIDON Solid State Radar Altimeter",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "5.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "SeaWinds+on+QuikSCAT+Arctic+Sea+Ice+Age+Classification+(BYU/SCP)",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1664741235-PODAAC",
+        "revision-date": "2019-12-06T15:46:23Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "David Long, BYU/SCP, 2013-01-01, SeaWinds on QuikSCAT Arctic Sea Ice Age Classification (BYU/SCP), 10.5067/QSSIA-BYU01, http://www.scp.byu.edu/data/Quikscat/iceage/Quikscat_iceage.html"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": 47.5
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Sea Ice",
+            "VariableLevel1": "Sea Ice Age"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2002-06-20T00:00:00.000Z",
+                "EndingDateTime": "2009-11-23T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/QSSIA-BYU01"
+        },
+        "ShortName": "QSCAT_ARCTIC_SEAICE_AGE_CLASS_BYUSCP_V1",
+        "EntryTitle": "SeaWinds on QuikSCAT Arctic Sea Ice Age Classification (BYU/SCP)",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/quikscat/preview/L3/byu_scp/sea_ice_age/arctic/v1",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Live Access Server",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/las"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-QSSIA-BYU01&apidoc",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Original Web Page",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://www.scp.byu.edu/data/Quikscat/iceage/Quikscat_iceage.html"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "THREDDS Server",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://thredds.jpl.nasa.gov/thredds/catalog/ncml_aggregation/SeaIce/qscat/catalog.html"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/QSSIA-BYU01"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/quikscat/preview/L3/byu_scp/sea_ice_age/arctic/v1/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2012-10-26T02:07:33.984Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-04-28T05:01:45.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This SeaWinds on QuikSCAT scatterometer-derived Arctic sea ice classification dataset is provided as a service to the ocean and sea ice research communities on behalf of Dr. David Long at Brigham Young University (BYU) and the Scatterometer Climate Record Pathfinder (SCP). This dataset provides nominal 4.45 km (pixel resolution at reference latitude 70 N) gridded fields that classify First-Year (FY) and Multi-Year (MY) sea ice  using SeaWinds on QuikSCAT scatterometer observations on a daily basis from 20 June 2002 through 23 November 2009. It is unique from other sea ice classification datasets primarily due to its utilization of passive microwave AMSR-E data to provide the initial ocean/ice masking edge and the use of a seasonal threshold for FY and MY sea ice classification from only SeaWinds data.The dataset is derived from daily gridded QuikSCAT vertically polarized (V-pol) egg backscatter data from the SCP, which is made available at the PO.DAAC: http://podaac.jpl.nasa.gov/dataset/QUIKSCAT_BYU_L3_OW_SIGMA0_ENHANCED . A seasonally varying threshold was derived by Swan and Long (2012) and used to discriminate between FY and MY sea ice based on QuikSCAT V-pol egg backscatter. The sea ice mask was derived by applying threshold constraints to the SCP AMSR-E 6 GHz images, which are made available by the BYU SCP: http://www.scp.byu.edu/data/AMSRE/SIR/AMSRE_sir.html . The data is provided in a CF-compliant, netCDF version 3 format. Further details on the algorithms and validation are described in further detail by Swan and Long (2012). The dataset, software readers and user guide documentation may all be accessed in PO.DAAC Drive at https://podaac-tools.jpl.nasa.gov/drive/files/allData/quikscat/preview/L3/byu_scp/sea_ice_age/arctic/ . For more information on the QuikSCAT platform and mission, please visit http://podaac.jpl.nasa.gov/OceanWind/QuikSCAT .",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "ARCTIC"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-12-06T15:46:21.050Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "ROSES"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "BYU/SCP"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "David",
+                "LastName": "Moroni"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "818-354-2038"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "David.F.Moroni@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "QUIKSCAT",
+            "LongName": "QUIKSCAT",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "100.93",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.6",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "SEAWINDS",
+                "LongName": "SeaWinds Scatterometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1800.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gr" id="gr">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="gran_name" type="string"></SimpleField>
+	<SimpleField name="gran_size_mb" type="float"></SimpleField>
+	<SimpleField name="gran_parameters" type="string"></SimpleField>
+	<SimpleField name="gran_day_night" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>gr</name>
+  <Placemark>
+	<name>granule</name>
+	<description>G1266182680-GES_DISC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">MSLERNNL3d10.1:MSLERNNL3d10_v01-02-2013m0701t213752.he5</SimpleData>
+		<SimpleData name="cmr_concept_id">GES_DISC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-03-21T10:19:19Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2013</SimpleData>
+		<SimpleData name="cmr_revision_date">MSLERNNL3d10</SimpleData>
+		<SimpleData name="cmr_publication_date">MSLERNNL3d10.1:MSLERNNL3d10_v01-02-2013m0701t213752.he5</SimpleData>
+		<SimpleData name="coll_shortname">8.276009559631348</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1980-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2012-12-31T23:59:59.000Z</SimpleData>
+		<SimpleData name="time_min">-58</SimpleData>
+		<SimpleData name="time_max">58</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-58 180,58 -180,58 -180,-58 180,-58</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

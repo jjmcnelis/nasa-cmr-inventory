@@ -7,7 +7,6 @@ from os.path import join, isdir
 from shapely.ops import cascaded_union
 from shapely.geometry import shape, mapping, box
 from datetime import datetime as dt
-import json
 
 
 coll_fields = {
@@ -206,7 +205,7 @@ def get_df(cmr_data: dict, cmr_keys: dict, max_proj: int=1):
     
     
 
-def get_gdf(df, crs: str="+init=epsg:4326", geom: str="geometry"):
+def get_gdf(df, crs: str="epsg:4326", geom: str="geometry"):
     """ 
     Convert DataFrame into GeoDataFrame.
 

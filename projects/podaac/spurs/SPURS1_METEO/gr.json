@@ -1,0 +1,166 @@
+{
+  "hits": 2,
+  "took": 16,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1652993806-PODAAC",
+        "revision-id": 1,
+        "native-id": "SPURS_Endeavor1_meteorological.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-06T18:18:27Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-03-14T00:00:00.000Z",
+            "EndingDateTime": "2013-04-15T00:00:00.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "SPURS_Endeavor1_meteorological.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -72.426,
+                  "EastBoundingCoordinate": -37.0,
+                  "NorthBoundingCoordinate": 41.492,
+                  "SouthBoundingCoordinate": 22.661
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2015-03-27T23:40:15.068Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-06T18:18:24.954Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SPURS1_METEO",
+          "Version": "1.0"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/insitu/L2/spurs1/meteo/SPURS_Endeavor1_meteorological.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/spurs1/meteo/SPURS_Endeavor1_meteorological.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2014-04-07T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 32.93122482299805,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1652993933-PODAAC",
+        "revision-id": 1,
+        "native-id": "SPURS_Endeavor2_meteorological.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-06T18:18:28Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2013-09-19T00:00:00.000Z",
+            "EndingDateTime": "2013-10-13T00:00:00.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "SPURS_Endeavor2_meteorological.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -70.946,
+                  "EastBoundingCoordinate": -25.652,
+                  "NorthBoundingCoordinate": 41.357,
+                  "SouthBoundingCoordinate": 20.01
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2015-03-27T23:40:20.191Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-06T18:18:27.981Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SPURS1_METEO",
+          "Version": "1.0"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/insitu/L2/spurs1/meteo/SPURS_Endeavor2_meteorological.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/insitu/L2/spurs1/meteo/SPURS_Endeavor2_meteorological.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2014-04-07T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 24.491348266601562,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    }
+  ]
+}

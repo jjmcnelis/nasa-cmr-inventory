@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ds" id="ds">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_title" type="string"></SimpleField>
+	<SimpleField name="coll_version" type="string"></SimpleField>
+	<SimpleField name="coll_doi" type="string"></SimpleField>
+	<SimpleField name="coll_abstract" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="coll_status" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl_desc" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>ds</name>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586720-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-CLKDAT</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:41:34Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Clock conversion parameters from receiver to GPS time for GRACE-A</SimpleData>
+		<SimpleData name="cmr_publication_date">1.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-CLKDAT</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1674800739-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE+ATMOSPHERE+AND+OCEAN+DE-ALIASING+GFZ+RELEASE+6.0</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T21:32:44Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE ATMOSPHERE AND OCEAN DE-ALIASING GFZ RELEASE 6.0</SimpleData>
+		<SimpleData name="cmr_publication_date">6.0</SimpleData>
+		<SimpleData name="coll_version">The GRACE Atmosphere and Ocean De-aliasing dataset contains spherical harmonic coefficients of combined barotropic or baroclinic sea level and vertical integrated pressure variations at 6-hour sample rate.  It is used as a correction product for the Level 2 GRACE datasets.</SimpleData>
+		<SimpleData name="coll_doi">GRACE_AOD1B_GRAV_GFZ_RL06</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">1B</SimpleData>
+		<SimpleData name="time_min">-75</SimpleData>
+		<SimpleData name="time_max">65</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-75 180,65 -180,65 -180,-75 180,-75</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1650311567-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE+FIELD+GEOPOTENTIAL+COEFFICIENTS+CSR+RELEASE+6.0</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">5</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T20:22:30Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE FIELD GEOPOTENTIAL COEFFICIENTS CSR RELEASE 6.0</SimpleData>
+		<SimpleData name="cmr_publication_date">6.0</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY.  This dataset contains estimates of static field geopotential of the Earth, derived from the Gravity Recovery and Climate Experiment (GRACE) mission measurements, produced by the Center for Space Research (CSR) at University of Texas at Austin.  The data are in spherical harmonics averaged over approximately a month.  The primary objective of the GRACE mission is to obtain accurate estimates of the mean and time-variable components of the gravity field variations.  This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 500 km altitude, near circular, polar orbit, spaced approximately 200 km apart, using a microwave ranging system.  In addition to these range change, the non-gravitional forces are measured on each satellite using a high accuracy electrostatic, room-temperature accelerometer.  The satellite orientation and position (and timing) are precisely measured using twin star cameras and a GPS receiver, respectively.  Spatial and temporal variations in the gravity field affect the orbits (or trajectories) of the twin spacecraft differently.  These differences are manifested as changes in the distance between the spacecraft, as they orbit the Earth.  This change in distance is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft.  The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals.  The so called dual-one-way range change measurements can be reconstructed from these phase measurements.  This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the parameters of an Earth gravity field model.</SimpleData>
+		<SimpleData name="coll_doi">GRACE_GSM_L2_GRAV_CSR_RL06</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-88</SimpleData>
+		<SimpleData name="time_max">88</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-88 180,88 -180,88 -180,-88 180,-88</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1650311568-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE+FIELD+GEOPOTENTIAL+COEFFICIENTS+GFZ+RELEASE+6.0</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T20:13:47Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE FIELD GEOPOTENTIAL COEFFICIENTS GFZ RELEASE 6.0</SimpleData>
+		<SimpleData name="cmr_publication_date">6.0</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY.  This dataset contains estimates of static field geopotential of the Earth, derived from the Gravity Recovery and Climate Experiment (GRACE) mission measurements, produced by the German Research Centre for Geosciences (GFZ).  The data are in spherical harmonics averaged over approximately a month.  The primary objective of the GRACE mission is to obtain accurate estimates of the mean and time-variable components of the gravity field variations.  This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 500 km altitude, near circular, polar orbit, spaced approximately 200 km apart, using a microwave ranging system.  In addition to these range change, the non-gravitional forces are measured on each satellite using a high accuracy electrostatic, room-temperature accelerometer.  The satellite orientation and position (and timing) are precisely measured using twin star cameras and a GPS receiver, respectively.  Spatial and temporal variations in the gravity field affect the orbits (or trajectories) of the twin spacecraft differently.  These differences are manifested as changes in the distance between the spacecraft, as they orbit the Earth.  This change in distance is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft.  The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals.  The so called dual-one-way range change measurements can be reconstructed from these phase measurements.  This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the parameters of an Earth gravity field model.</SimpleData>
+		<SimpleData name="coll_doi">GRACE_GSM_L2_GRAV_GFZ_RL06</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-88</SimpleData>
+		<SimpleData name="time_max">88</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-88 180,88 -180,88 -180,-88 180,-88</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1650311570-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE+FIELD+GEOPOTENTIAL+COEFFICIENTS+JPL+RELEASE+6.0</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T20:13:40Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE FIELD GEOPOTENTIAL COEFFICIENTS JPL RELEASE 6.0</SimpleData>
+		<SimpleData name="cmr_publication_date">6.0</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY.  This dataset contains estimates of static field geopotential of the Earth, derived from the Gravity Recovery and Climate Experiment (GRACE) mission measurements, produced by the NASA Jet Propulsion Laboratory (JPL).  The data are in spherical harmonics averaged over approximately a month.  The primary objective of the GRACE mission is to obtain accurate estimates of the mean and time-variable components of the gravity field variations.  This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 500 km altitude, near circular, polar orbit, spaced approximately 200 km apart, using a microwave ranging system.  In addition to these range change, the non-gravitional forces are measured on each satellite using a high accuracy electrostatic, room-temperature accelerometer.  The satellite orientation and position (and timing) are precisely measured using twin star cameras and a GPS receiver, respectively.  Spatial and temporal variations in the gravity field affect the orbits (or trajectories) of the twin spacecraft differently.  These differences are manifested as changes in the distance between the spacecraft, as they orbit the Earth.  This change in distance is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft.  The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals.  The so called dual-one-way range change measurements can be reconstructed from these phase measurements.  This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the parameters of an Earth gravity field model.</SimpleData>
+		<SimpleData name="coll_doi">GRACE_GSM_L2_GRAV_JPL_RL06</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-88</SimpleData>
+		<SimpleData name="time_max">88</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-88 180,88 -180,88 -180,-88 180,-88</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214595305-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE-Tellus-0001</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">5</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-08-22T13:05:07Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE grids destriped, version dpc200711, equivalent water thickness, 2003-2010</SimpleData>
+		<SimpleData name="cmr_publication_date">dpc200711</SimpleData>
+		<SimpleData name="coll_version">Grids of gravity field time change, expressed as changes in mass of a thin layer draping the surface of the Earth, in cm of equivalent water thickness. Over the oceans, they represent changes in bottom pressure, except where geophysical signals (postglacial rebound, strong earthquake displacement) obscure the ocean signal. Grids version dpc200711 are optimized for ocean applications, not land or cryosphere.  These data have been 'destriped', a filter that removes a specific error in the GRACE data, and spatially smoothed first by cutting off the spherical harmonic series at degree 40 ( approximately 1000 km resolution), then applying a spatial gaussian filter with 300 or 500 km half width. Note that the data are given on a 1 degree grid, but their true spatial resolution is no shorter than 1000 km.</SimpleData>
+		<SimpleData name="coll_doi">GRACE-Tellus-0001</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-89.5</SimpleData>
+		<SimpleData name="time_max">89.5</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.5 180.0,89.5 -180.0,89.5 -180.0,-89.5 180.0,-89.5</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1674812424-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE+LEVEL+1B+JPL+RELEASE+2.0</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T22:00:06Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE LEVEL 1B JPL RELEASE 2.0</SimpleData>
+		<SimpleData name="cmr_publication_date">2</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY.  The GRACE Level 1B data provide all necessary inputs to derive monthly time variations in the Earth's gravity field.  Level 1B data are also used for GRACE orbit and mean gravity field determination.  It contains K-Band Ranging Data Product (KBR1B), Star Camera Data Product (SCA1B), Accelerometer Data Product (ACC1B), GPS Data Product (GPS1B), Vector Products (VGN1B, VGO1B, VGB1B, VCM1B, VKB1B, VSL1B), Quaternion Products (QSA1B, QSB1B), and Housekeeping Products (AHK1B, IHK1B, THR1B, TNK1B, MAG1B, MAS1B, TIM1B)</SimpleData>
+		<SimpleData name="coll_doi">GRACE_L1B_GRAV_JPL_RL02</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">1B</SimpleData>
+		<SimpleData name="time_min">-88</SimpleData>
+		<SimpleData name="time_max">88</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-88 180,88 -180,88 -180,-88 180,-88</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1674812002-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE+LEVEL+1B+JPL+RELEASE+3.0</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T22:04:36Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE LEVEL 1B JPL RELEASE 3.0</SimpleData>
+		<SimpleData name="cmr_publication_date">3</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY.  The GRACE Level 1B data provide all necessary inputs to derive monthly time variations in the Earth's gravity field.  Level 1B data are also used for GRACE orbit and mean gravity field determination.  It contains K-Band Ranging Data Product (KBR1B), Star Camera Data Product (SCA1B), Accelerometer Data Product (ACC1B), GPS Data Product (GPS1B), Vector Products (VGN1B, VGO1B, VGB1B, VCM1B, VKB1B, VSL1B), Quaternion Products (QSA1B, QSB1B), and Housekeeping Products (AHK1B, IHK1B, THR1B, TNK1B, MAG1B, MAS1B, TIM1B)
+The GRACE Level-1B RL03 data consists only of updated spacecraft attitude (SCA1B) and K-band inter-satellite ranging (KBR1B) data. All other Level-1B were not changed and it is recommended to use the RL02 products with the updated RL03 KBR1B and SCA1B products. The RL03 SCA1B data were corrected for a stellar aberration error in the onboard star tracker software and incorrect data weighting in the star tracker combination software. For the RL03 SCA1B data a new software module was developed that uses Kalman filtering, field of view error modeling, relative alignment adjustment and the inclusion of angular spacecraft body acceleration measurements from the ACC instrument. This new processing resulted in a significant reduction in high frequency noise and the elimination of jumps during transitions between dual and single star tracker operation.  The KBR1B product is updated as well because the KBR antenna phase center range correction, range rate correction and range acceleration are computed using the spacecraft attitude information (SCA1B). Only these three correction values were updated in the KBR1B product. All other entries in the KBR1B remained the same.</SimpleData>
+		<SimpleData name="coll_doi">GRACE_L1B_GRAV_JPL_RL03</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">1B</SimpleData>
+		<SimpleData name="time_min">-88</SimpleData>
+		<SimpleData name="time_max">88</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-88 180,88 -180,88 -180,-88 180,-88</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1674784948-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE+NON-TIDAL+ATMOSPHERE+AND+OCEAN+GEOPOTENTIAL+COEFFICIENTS+CSR+RELEASE+6.0+GAC</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T20:19:59Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE NON-TIDAL ATMOSPHERE AND OCEAN GEOPOTENTIAL COEFFICIENTS CSR RELEASE 6.0 GAC</SimpleData>
+		<SimpleData name="cmr_publication_date">6.0</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY.  This dataset contains estimates of geopotential field derived from the Gravity Recovery and Climate Experiment (GRACE) mission measurements and a non-tidal oceanic and atmospheric model produced by the Center for Space Research (CSR) at University of Texas at Austin.  The data are in spherical harmonics averaged over approximately a month.  The primary objective of the GRACE mission is to obtain accurate estimates of the mean and time-variable components of the gravity field variations.  This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 500 km altitude, near circular, polar orbit, spaced approximately 200 km apart, using a microwave ranging system.  In addition to these range change, the non-gravitional forces are measured on each satellite using a high accuracy electrostatic, room-temperature accelerometer.  The satellite orientation and position (and timing) are precisely measured using twin star cameras and a GPS receiver, respectively.  Spatial and temporal variations in the gravity field affect the orbits (or trajectories) of the twin spacecraft differently.  These differences are manifested as changes in the distance between the spacecraft, as they orbit the Earth.  This change in distance is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft.  The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals.  The so called dual-one-way range change measurements can be reconstructed from these phase measurements.  This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the parameters of an Earth gravity field model.</SimpleData>
+		<SimpleData name="coll_doi">GRACE_GAC_L2_GRAV_CSR_RL06</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-88</SimpleData>
+		<SimpleData name="time_max">88</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-88 180,88 -180,88 -180,-88 180,-88</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1674784949-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE+NON-TIDAL+ATMOSPHERE+AND+OCEAN+GEOPOTENTIAL+COEFFICIENTS+GFZ+RELEASE+6.0+GAC</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T20:13:20Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE NON-TIDAL ATMOSPHERE AND OCEAN GEOPOTENTIAL COEFFICIENTS GFZ RELEASE 6.0 GAC</SimpleData>
+		<SimpleData name="cmr_publication_date">6.0</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY.  This dataset contains estimates of geopotential field derived from the Gravity Recovery and Climate Experiment (GRACE) mission measurements and a non-tidal oceanic and atmospheric model produced by the German Research Centre for Geosciences (GFZ).  The data are in spherical harmonics averaged over approximately a month.  The primary objective of the GRACE mission is to obtain accurate estimates of the mean and time-variable components of the gravity field variations.  This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 500 km altitude, near circular, polar orbit, spaced approximately 200 km apart, using a microwave ranging system.  In addition to these range change, the non-gravitional forces are measured on each satellite using a high accuracy electrostatic, room-temperature accelerometer.  The satellite orientation and position (and timing) are precisely measured using twin star cameras and a GPS receiver, respectively.  Spatial and temporal variations in the gravity field affect the orbits (or trajectories) of the twin spacecraft differently.  These differences are manifested as changes in the distance between the spacecraft, as they orbit the Earth.  This change in distance is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft.  The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals.  The so called dual-one-way range change measurements can be reconstructed from these phase measurements.  This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the parameters of an Earth gravity field model.</SimpleData>
+		<SimpleData name="coll_doi">GRACE_GAC_L2_GRAV_GFZ_RL06</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-88</SimpleData>
+		<SimpleData name="time_max">88</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-88 180,88 -180,88 -180,-88 180,-88</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1674784950-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE+NON-TIDAL+ATMOSPHERE+AND+OCEAN+GEOPOTENTIAL+COEFFICIENTS+JPL+RELEASE+6.0+GAC</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T20:13:24Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE NON-TIDAL ATMOSPHERE AND OCEAN GEOPOTENTIAL COEFFICIENTS JPL RELEASE 6.0 GAC</SimpleData>
+		<SimpleData name="cmr_publication_date">6.0</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY.  This dataset contains estimates of geopotential field derived from the Gravity Recovery and Climate Experiment (GRACE) mission measurements and a non-tidal oceanic and atmospheric model produced by the NASA Jet Propulsion Laboratory (JPL).  The data are in spherical harmonics averaged over approximately a month.  The primary objective of the GRACE mission is to obtain accurate estimates of the mean and time-variable components of the gravity field variations.  This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 500 km altitude, near circular, polar orbit, spaced approximately 200 km apart, using a microwave ranging system.  In addition to these range change, the non-gravitional forces are measured on each satellite using a high accuracy electrostatic, room-temperature accelerometer.  The satellite orientation and position (and timing) are precisely measured using twin star cameras and a GPS receiver, respectively.  Spatial and temporal variations in the gravity field affect the orbits (or trajectories) of the twin spacecraft differently.  These differences are manifested as changes in the distance between the spacecraft, as they orbit the Earth.  This change in distance is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft.  The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals.  The so called dual-one-way range change measurements can be reconstructed from these phase measurements.  This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the parameters of an Earth gravity field model.</SimpleData>
+		<SimpleData name="coll_doi">GRACE_GAC_L2_GRAV_JPL_RL06</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-88</SimpleData>
+		<SimpleData name="time_max">88</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-88 180,88 -180,88 -180,-88 180,-88</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1674784944-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE+NON-TIDAL+ATMOSPHERE+GEOPOTENTIAL+COEFFICIENTS+GFZ+RELEASE+6.0+GAA</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T20:13:01Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE NON-TIDAL ATMOSPHERE GEOPOTENTIAL COEFFICIENTS GFZ RELEASE 6.0 GAA</SimpleData>
+		<SimpleData name="cmr_publication_date">6.0</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY.  This dataset contains estimates of geopotential field derived from the Gravity Recovery and Climate Experiment (GRACE) mission measurements and a non-tidal atmospheric model produced by the German Research Centre for Geosciences (GFZ).  The data are in spherical harmonics averaged over approximately a month.  The primary objective of the GRACE mission is to obtain accurate estimates of the mean and time-variable components of the gravity field variations.  This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 500 km altitude, near circular, polar orbit, spaced approximately 200 km apart, using a microwave ranging system.  In addition to these range change, the non-gravitional forces are measured on each satellite using a high accuracy electrostatic, room-temperature accelerometer.  The satellite orientation and position (and timing) are precisely measured using twin star cameras and a GPS receiver, respectively.  Spatial and temporal variations in the gravity field affect the orbits (or trajectories) of the twin spacecraft differently.  These differences are manifested as changes in the distance between the spacecraft, as they orbit the Earth.  This change in distance is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft.  The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals.  The so called dual-one-way range change measurements can be reconstructed from these phase measurements.  This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the parameters of an Earth gravity field model.</SimpleData>
+		<SimpleData name="coll_doi">GRACE_GAA_L2_GRAV_GFZ_RL06</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-88</SimpleData>
+		<SimpleData name="time_max">88</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-88 180,88 -180,88 -180,-88 180,-88</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1674784945-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE+NON-TIDAL+ATMOSPHERE+GEOPOTENTIAL+COEFFICIENTS+JPL+RELEASE+6.0+GAA</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T20:13:05Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE NON-TIDAL ATMOSPHERE GEOPOTENTIAL COEFFICIENTS JPL RELEASE 6.0 GAA</SimpleData>
+		<SimpleData name="cmr_publication_date">6.0</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY.  This dataset contains estimates of geopotential field derived from the Gravity Recovery and Climate Experiment (GRACE) mission measurements and a non-tidal atmospheric model produced by the NASA Jet Propulsion Laboratory (JPL).  The data are in spherical harmonics averaged over approximately a month.  The primary objective of the GRACE mission is to obtain accurate estimates of the mean and time-variable components of the gravity field variations.  This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 500 km altitude, near circular, polar orbit, spaced approximately 200 km apart, using a microwave ranging system.  In addition to these range change, the non-gravitional forces are measured on each satellite using a high accuracy electrostatic, room-temperature accelerometer.  The satellite orientation and position (and timing) are precisely measured using twin star cameras and a GPS receiver, respectively.  Spatial and temporal variations in the gravity field affect the orbits (or trajectories) of the twin spacecraft differently.  These differences are manifested as changes in the distance between the spacecraft, as they orbit the Earth.  This change in distance is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft.  The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals.  The so called dual-one-way range change measurements can be reconstructed from these phase measurements.  This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the parameters of an Earth gravity field model.</SimpleData>
+		<SimpleData name="coll_doi">GRACE_GAA_L2_GRAV_JPL_RL06</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-88</SimpleData>
+		<SimpleData name="time_max">88</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-88 180,88 -180,88 -180,-88 180,-88</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1674784946-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE+NON-TIDAL+OCEAN+GEOPOTENTIAL+COEFFICIENTS+GFZ+RELEASE+6.0+GAB</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T20:13:09Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE NON-TIDAL OCEAN GEOPOTENTIAL COEFFICIENTS GFZ RELEASE 6.0 GAB</SimpleData>
+		<SimpleData name="cmr_publication_date">6.0</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY.  This dataset contains estimates of geopotential field derived from the Gravity Recovery and Climate Experiment (GRACE) mission measurements and a non-tidal oceanic model produced by the German Research Centre for Geosciences (GFZ).  The data are in spherical harmonics averaged over approximately a month.  The primary objective of the GRACE mission is to obtain accurate estimates of the mean and time-variable components of the gravity field variations.  This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 500 km altitude, near circular, polar orbit, spaced approximately 200 km apart, using a microwave ranging system.  In addition to these range change, the non-gravitional forces are measured on each satellite using a high accuracy electrostatic, room-temperature accelerometer.  The satellite orientation and position (and timing) are precisely measured using twin star cameras and a GPS receiver, respectively.  Spatial and temporal variations in the gravity field affect the orbits (or trajectories) of the twin spacecraft differently.  These differences are manifested as changes in the distance between the spacecraft, as they orbit the Earth.  This change in distance is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft.  The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals.  The so called dual-one-way range change measurements can be reconstructed from these phase measurements.  This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the parameters of an Earth gravity field model.</SimpleData>
+		<SimpleData name="coll_doi">GRACE_GAB_L2_GRAV_GFZ_RL06</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-88</SimpleData>
+		<SimpleData name="time_max">88</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-88 180,88 -180,88 -180,-88 180,-88</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1674784947-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE+NON-TIDAL+OCEAN+GEOPOTENTIAL+COEFFICIENTS+JPL+RELEASE+6.0+GAB</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T20:13:13Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE NON-TIDAL OCEAN GEOPOTENTIAL COEFFICIENTS JPL RELEASE 6.0 GAB</SimpleData>
+		<SimpleData name="cmr_publication_date">6.0</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY.  This dataset contains estimates of geopotential field derived from the Gravity Recovery and Climate Experiment (GRACE) mission measurements and a non-tidal oceanic model produced by the Jet Propulsion Laboratory (JPL).  The data are in spherical harmonics averaged over approximately a month.  The primary objective of the GRACE mission is to obtain accurate estimates of the mean and time-variable components of the gravity field variations.  This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 500 km altitude, near circular, polar orbit, spaced approximately 200 km apart, using a microwave ranging system.  In addition to these range change, the non-gravitional forces are measured on each satellite using a high accuracy electrostatic, room-temperature accelerometer.  The satellite orientation and position (and timing) are precisely measured using twin star cameras and a GPS receiver, respectively.  Spatial and temporal variations in the gravity field affect the orbits (or trajectories) of the twin spacecraft differently.  These differences are manifested as changes in the distance between the spacecraft, as they orbit the Earth.  This change in distance is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft.  The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals.  The so called dual-one-way range change measurements can be reconstructed from these phase measurements.  This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the parameters of an Earth gravity field model.</SimpleData>
+		<SimpleData name="coll_doi">GRACE_GAB_L2_GRAV_JPL_RL06</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-88</SimpleData>
+		<SimpleData name="time_max">88</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-88 180,88 -180,88 -180,-88 180,-88</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1674784951-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE+OCEAN+BOTTOM+GEOPOTENTIAL+COEFFICIENTS+CSR+RELEASE+6.0+GAD</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T20:21:18Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE OCEAN BOTTOM GEOPOTENTIAL COEFFICIENTS CSR RELEASE 6.0 GAD</SimpleData>
+		<SimpleData name="cmr_publication_date">6.0</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY.  This dataset contains estimates of ocean bottom pressure derived from the Gravity Recovery and Climate Experiment (GRACE) mission measurements, produced by the Center for Space Research (CSR) at University of Texas at Austin.  The data are in spherical harmonics averaged over approximately a month.  The primary objective of the GRACE mission is to obtain accurate estimates of the mean and time-variable components of the gravity field variations.  This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 500 km altitude, near circular, polar orbit, spaced approximately 200 km apart, using a microwave ranging system.  In addition to these range change, the non-gravitional forces are measured on each satellite using a high accuracy electrostatic, room-temperature accelerometer.  The satellite orientation and position (and timing) are precisely measured using twin star cameras and a GPS receiver, respectively.  Spatial and temporal variations in the gravity field affect the orbits (or trajectories) of the twin spacecraft differently.  These differences are manifested as changes in the distance between the spacecraft, as they orbit the Earth.  This change in distance is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft.  The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals.  The so called dual-one-way range change measurements can be reconstructed from these phase measurements.  This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the parameters of an Earth gravity field model.</SimpleData>
+		<SimpleData name="coll_doi">GRACE_GAD_L2_GRAV_CSR_RL06</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-88</SimpleData>
+		<SimpleData name="time_max">88</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-88 180,88 -180,88 -180,-88 180,-88</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1674784952-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE+OCEAN+BOTTOM+GEOPOTENTIAL+COEFFICIENTS+GFZ+RELEASE+6.0+GAD</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T20:13:32Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE OCEAN BOTTOM GEOPOTENTIAL COEFFICIENTS GFZ RELEASE 6.0 GAD</SimpleData>
+		<SimpleData name="cmr_publication_date">6.0</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY.  This dataset contains estimates of ocean bottom pressure derived from the Gravity Recovery and Climate Experiment (GRACE) mission measurements, produced by the German Research Centre for Geosciences (GFZ).  The data are in spherical harmonics averaged over approximately a month.  The primary objective of the GRACE mission is to obtain accurate estimates of the mean and time-variable components of the gravity field variations.  This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 500 km altitude, near circular, polar orbit, spaced approximately 200 km apart, using a microwave ranging system.  In addition to these range change, the non-gravitional forces are measured on each satellite using a high accuracy electrostatic, room-temperature accelerometer.  The satellite orientation and position (and timing) are precisely measured using twin star cameras and a GPS receiver, respectively.  Spatial and temporal variations in the gravity field affect the orbits (or trajectories) of the twin spacecraft differently.  These differences are manifested as changes in the distance between the spacecraft, as they orbit the Earth.  This change in distance is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft.  The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals.  The so called dual-one-way range change measurements can be reconstructed from these phase measurements.  This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the parameters of an Earth gravity field model.</SimpleData>
+		<SimpleData name="coll_doi">GRACE_GAD_L2_GRAV_GFZ_RL06</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-88</SimpleData>
+		<SimpleData name="time_max">88</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-88 180,88 -180,88 -180,-88 180,-88</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1674784955-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE+OCEAN+BOTTOM+GEOPOTENTIAL+COEFFICIENTS+JPL+RELEASE+6.0+GAD</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-19T20:13:36Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE OCEAN BOTTOM GEOPOTENTIAL COEFFICIENTS JPL RELEASE 6.0 GAD</SimpleData>
+		<SimpleData name="cmr_publication_date">6.0</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY.  This dataset contains estimates of ocean bottom pressure derived from the Gravity Recovery and Climate Experiment (GRACE) mission measurements, produced by the NASA Jet Propulsion Laboratory (JPL).  The data are in spherical harmonics averaged over approximately a month.  The primary objective of the GRACE mission is to obtain accurate estimates of the mean and time-variable components of the gravity field variations.  This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 500 km altitude, near circular, polar orbit, spaced approximately 200 km apart, using a microwave ranging system.  In addition to these range change, the non-gravitional forces are measured on each satellite using a high accuracy electrostatic, room-temperature accelerometer.  The satellite orientation and position (and timing) are precisely measured using twin star cameras and a GPS receiver, respectively.  Spatial and temporal variations in the gravity field affect the orbits (or trajectories) of the twin spacecraft differently.  These differences are manifested as changes in the distance between the spacecraft, as they orbit the Earth.  This change in distance is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft.  The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals.  The so called dual-one-way range change measurements can be reconstructed from these phase measurements.  This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the parameters of an Earth gravity field model.</SimpleData>
+		<SimpleData name="coll_doi">GRACE_GAD_L2_GRAV_JPL_RL06</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-88</SimpleData>
+		<SimpleData name="time_max">88</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-88 180,88 -180,88 -180,-88 180,-88</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586710-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-ACCHKP</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:41:30Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE-A Level-1B Accelerometer Housekeeping Data</SimpleData>
+		<SimpleData name="cmr_publication_date">1.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-ACCHKP</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586721-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-INTCLK</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:41:35Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE-A Level-1B Intermediate Satellite Clock Solution</SimpleData>
+		<SimpleData name="cmr_publication_date">1.0</SimpleData>
+		<SimpleData name="coll_version">GRACE-A Level-1B Intermediate Satellite Clock Solution</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-INTCLK</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1221420458-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-IPUHKP</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:43:14Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE-A Level-1B Intermediate Satellite Clock Solution - GA-OG-1B-IPUHKP</SimpleData>
+		<SimpleData name="cmr_publication_date">1.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-IPUHKP</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586727-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-USODAT</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:41:41Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE-A Level-1B Oscillator Frequency Data (derived from POD output)</SimpleData>
+		<SimpleData name="cmr_publication_date">0.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-USODAT</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586723-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-RSCTKB</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:41:38Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE-A Level-1B Rotation from Star Camera Frames into K-Band Frame</SimpleData>
+		<SimpleData name="cmr_publication_date">0.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-RSCTKB</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586724-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-RSCTSR</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:41:39Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE-A Level-1B Rotation from Star Camera Frames into Science Reference Frame</SimpleData>
+		<SimpleData name="cmr_publication_date">0.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples 
+        to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-RSCTSR</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586726-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-THRDAT</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:41:40Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE-A Level-1B Thruster Data</SimpleData>
+		<SimpleData name="cmr_publication_date">0.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-THRDAT</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586555-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-VOGPSB</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:40:55Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE-A Level-1B Vector Offset File for GPS Backup Antenna</SimpleData>
+		<SimpleData name="cmr_publication_date">0.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-VOGPSB</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586636-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-VOGPSN</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:41:23Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE-A Level-1B Vector Offset File for GPS Navigation Antenna</SimpleData>
+		<SimpleData name="cmr_publication_date">0.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-VOGPSN</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586556-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-VOGPSO</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:40:57Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE-A Level-1B Vector Offset File for GPS Occultation Antenna</SimpleData>
+		<SimpleData name="cmr_publication_date">0.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-VOGPSO</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586645-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-VOKBPC</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:41:27Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE-A Level-1B Vector Offset File for K-Band Phase Centers</SimpleData>
+		<SimpleData name="cmr_publication_date">0.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-VOKBPC</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586646-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-VOSLRR</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:41:28Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE-A Level-1B Vector Offset File for SLR Reflector</SimpleData>
+		<SimpleData name="cmr_publication_date">0.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-VOSLRR</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1664148252-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">JPL+GRACE+and+GRACE-FO+Mascon+Ocean,+Ice,+and+Hydrology+Equivalent+Water+Height+Coastal+Resolution+Improvement+(CRI)+Filtered+Release+06+Version+02</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-20T20:27:29Z</SimpleData>
+		<SimpleData name="cmr_revision_date">JPL GRACE and GRACE-FO Mascon Ocean, Ice, and Hydrology Equivalent Water Height Coastal Resolution Improvement (CRI) Filtered Release 06 Version 02</SimpleData>
+		<SimpleData name="cmr_publication_date">02</SimpleData>
+		<SimpleData name="coll_version">This dataset contains gridded monthly global water storage/height anomalies relative to a time-mean, derived from GRACE and GRACE-FO and processed at JPL using the Mascon approach (Version2/RL06). These data are provided in a single data file in netCDF format, and can be used for analysis for ocean, ice, and hydrology phenomena. This version of the data employs a Coastal Resolution Improvement (CRI) filter that reduces signal leakage errors across coastlines. The water storage/height anomalies are given in equivalent water thickness units (cm). The solution provided here is derived from solving for monthly gravity field variations in terms of geolocated spherical cap mass concentration functions, rather than global spherical harmonic coefficients. Additionally, realistic geophysical information is introduced during the solution inversion to intrinsically remove correlated error. Thus, these Mascon grids do not need to be destriped or smoothed, like traditional spherical harmonic gravity solutions. The complete Mascon solution consists of 4,551 relatively independent estimates of surface mass change that have been derived using an equal-area 3-degree grid of individual mascons. A subset of these individual mascons span coastlines, and contain mixed land and ocean mass change signals.  In a post-processing step, the CRI filter is applied to those mixed land/ocean Mascons to separate land and ocean mass. The land mask used to perform this separation is provided in the same directory as this dataset. Since the individual mascons act as an inherent smoother on the gravity field, a set of optional gain factors (for continental hydrology applications) that can be applied to the solution to study mass change signals at sub-mascon resolution is also provided within the same data directory as the Mascon data. Please refer to the 'Data Access' tab at the top of this page to gain direct access to the Mascon data. For more information, please visit https://grace.jpl.nasa.gov/data/get-data/jpl_global_mascons/. For a detailed description on the Mascon solution, including the mathematical derivation, implementation of geophysical constraints, and solution validation, please see Watkins et al., 2015, doi: 10.1002/2014JB011547.  For a detailed description of the CRI filter implementation, please see Wiese et al., 2016, doi:10.1002/2016WR019344.</SimpleData>
+		<SimpleData name="coll_doi">TELLUS_GRAC-GRFO_MASCON_CRI_GRID_RL06_V2</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1664148256-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">JPL+GRACE+and+GRACE-FO+Mascon+Ocean,+Ice,+and+Hydrology+Equivalent+Water+Height+JPL+Release+06+Version+02</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-20T20:23:44Z</SimpleData>
+		<SimpleData name="cmr_revision_date">JPL GRACE and GRACE-FO Mascon Ocean, Ice, and Hydrology Equivalent Water Height JPL Release 06 Version 02</SimpleData>
+		<SimpleData name="cmr_publication_date">2</SimpleData>
+		<SimpleData name="coll_version">This dataset contains gridded monthly global water storage/height anomalies relative to a time-mean, derived from GRACE and GRACE-FO and processed at JPL using the Mascon approach (Version2/RL06).  These data are provided in a single data file in netCDF format, and can be used for analysis for ocean, ice, and hydrology phenomena. The water storage/height anomalies are given in equivalent water thickness units (cm). The solution provided here is derived from solving for monthly gravity field variations in terms of geolocated spherical cap mass concentration functions, rather than global spherical harmonic coefficients. Additionally, realistic geophysical information is introduced during the solution inversion to intrinsically remove correlated error. Thus, these Mascon grids do not need to be destriped or smoothed, like traditional spherical harmonic gravity solutions. The complete Mascon solution consists of 4,551 relatively independent estimates of surface mass change that have been derived using an equal-area 3-degree grid of individual mascons. It should be noted that this dataset does not correct for leakage errors across coastlines; it is therefore recommended only for users who want to apply their own algorithm to separate between land and ocean mass very near coastlines. Please refer to the 'Data Access' tab at the top of this page to gain direct access to the Mascon data. For more information, please visit https://grace.jpl.nasa.gov/data/get-data/jpl_global_mascons/. For a detailed description on the Mascon solution, including the mathematical derivation, implementation of geophysical constraints, and solution validation, please see Watkins et al., 2015, doi: 10.1002/2014JB011547. This product is intended for expert use only; other users are encouraged to use the CRI-filtered Mascon dataset, which is available here: https://podaac.jpl.nasa.gov/dataset/TELLUS_GRACE_MASCON_CRI_GRID_RL06_V2.</SimpleData>
+		<SimpleData name="coll_doi">TELLUS_GRAC-GRFO_MASCON_GRID_RL06_V2</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586634-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-ACCDAT</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:41:21Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Preprocessed and calibrated GRACE-A Level-1B Accelerometer Data</SimpleData>
+		<SimpleData name="cmr_publication_date">1.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use
+      .</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-ACCDAT</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586712-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-SCAATT</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:41:32Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Preprocessed and calibrated GRACE-A Level-1B Star Camera Data</SimpleData>
+		<SimpleData name="cmr_publication_date">0.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-SCAATT</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586713-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-TNKDAT</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:41:33Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Preprocessed GRACE-A Level-1B Gas Tank and Ancillary Data</SimpleData>
+		<SimpleData name="cmr_publication_date">0.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-TNKDAT</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586635-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-GPSDAT</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:41:22Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Preprocessed GRACE-A Level-1B GPS Navigation or Occultation Antenna Data</SimpleData>
+		<SimpleData name="cmr_publication_date">1.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-GPSDAT</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586643-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-NAVSOL</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:41:26Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Preprocessed GRACE-A Level-1B GPS Navigation Solution</SimpleData>
+		<SimpleData name="cmr_publication_date">1.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-NAVSOL</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586554-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-MAGDAT</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:40:54Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Preprocessed GRACE-A Level-1B Magnetometer/Magnetorquer Data</SimpleData>
+		<SimpleData name="cmr_publication_date">1.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-MAGDAT</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586673-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-OBDHTM</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:41:29Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Preprocessed GRACE-A Level-1B OBDH Time Mapping Data</SimpleData>
+		<SimpleData name="cmr_publication_date">1.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-OBDHTM</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214586722-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GA-OG-1B-MASDAT</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">4</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:41:37Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Preprocessed GRACE-A Level-1B Spacecraft Mass Data</SimpleData>
+		<SimpleData name="cmr_publication_date">1.0</SimpleData>
+		<SimpleData name="coll_version">Edited and decimated from Instruments HR samples to LR samples for Science use.</SimpleData>
+		<SimpleData name="coll_doi">GA-OG-1B-MASDAT</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214585880-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GX-OG-_2-GSM</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-23T20:40:43Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Static Field Geopotential Coefficients estimated from Satellite Data only</SimpleData>
+		<SimpleData name="cmr_publication_date">0001 - 0003</SimpleData>
+		<SimpleData name="coll_version">Static Field Geopotential Coefficients estimated from Satellite Data only
+</SimpleData>
+		<SimpleData name="coll_doi">GX-OG-_2-GSM</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-89</SimpleData>
+		<SimpleData name="time_max">89</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-89 180,89 -180,89 -180,-89 180,-89</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1648022157-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">TELLUS+GRACE+Level-3+0.5-degree+Glacial+Isostatic+Adjustment+v1.0+datasets+produced+by+JPL</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-28T21:13:06Z</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS GRACE Level-3 0.5-degree Glacial Isostatic Adjustment v1.0 datasets produced by JPL</SimpleData>
+		<SimpleData name="cmr_publication_date">1.0</SimpleData>
+		<SimpleData name="coll_version">Glacial isostatic adjustment (GIA) is an ongoing geophysical process and is measured by gravimetry satellites like GRACE and GRACE-FO. To isolate signals of contemporary surface mass loss in the cumulative satellite gravimetry measurements, contemporary GIA rates are computed and subtracted from the satellite gravimetry observations. The GIA correction models provided here are filtered such that they are compatible with Level-3 post-processing filters applied to GRACE(-FO) data as indicated in the [product_id]. In this way, user can effectively assess the impact of the applied GIA correction, and substitute different GIA models should that be desired. This GIA dataset is mapped into 0.5-degree global grid compatible with the JPL Mascon solution, provided in netCDF format.</SimpleData>
+		<SimpleData name="coll_doi">TELLUS_GIA_L3_0.5-DEG_V1.0</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1648023985-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">TELLUS+GRACE+Level-3+1.0-degree+Glacial+Isostatic+Adjustment+v1.0+datasets+produced+by+JPL</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-28T21:26:21Z</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS GRACE Level-3 1.0-degree Glacial Isostatic Adjustment v1.0 datasets produced by JPL</SimpleData>
+		<SimpleData name="cmr_publication_date">1.0</SimpleData>
+		<SimpleData name="coll_version">Glacial isostatic adjustment (GIA) is an ongoing geophysical process and is measured by gravimetry satellites like GRACE and GRACE-FO. To isolate signals of contemporary surface mass loss in the cumulative satellite gravimetry measurements, contemporary GIA rates are computed and subtracted from the satellite gravimetry observations. The GIA correction models provided here are filtered such that they are compatible with Level-3 post-processing filters applied to GRACE(-FO) data as indicated in the [product_id]. In this way, user can effectively assess the impact of the applied GIA correction, and substitute different GIA models should that be desired. This GIA dataset is mapped into 1.0-degree global grid in netCDF format.</SimpleData>
+		<SimpleData name="coll_doi">TELLUS_GIA_L3_1-DEG_V1.0</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1703403055-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">Tellus+Level-4+Antarctica+Mass+Anomaly+Time+Series+from+JPL+GRACE/GRACE-FO+Mascon+CRI+Filtered+Release+06+version+02</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-18T16:58:49Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Tellus Level-4 Antarctica Mass Anomaly Time Series from JPL GRACE/GRACE-FO Mascon CRI Filtered Release 06 version 02</SimpleData>
+		<SimpleData name="cmr_publication_date">2</SimpleData>
+		<SimpleData name="coll_version">This dataset is a time series of mass variability averaged over all of Antarctica. It provides the ice mass changes of Antarctica over time. The mass variability are derived from JPL GRACE Mascon Ocean, Ice, and Hydrology Equivalent Water Height RL06Mv02 CRI Filtered Version 2, which can be found at https://podaac.jpl.nasa.gov/dataset/TELLUS_GRAC-GRFO_MASCON_CRI_GRID_RL06_V2. A more detailed description on the Mascon solution, including the mathematical derivation, implementation of geophysical constraints, and solution validation, please see Watkins et al., 2015, doi: 10.1002/2014JB011547. The mass variability are provided as an ASCII table.</SimpleData>
+		<SimpleData name="coll_doi">ANTARCTICA_MASS_TELLUS_MASCON_CRI_TIME_SERIES_RL06_V2</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">4</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">-70</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,-70 -180,-70 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1708607963-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">Tellus+Level-4+Greenland+Mass+Anomaly+Time+Series+from+JPL+GRACE/GRACE-FO+Mascon+CRI+Filtered+Release+06+version+02</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-18T17:01:05Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Tellus Level-4 Greenland Mass Anomaly Time Series from JPL GRACE/GRACE-FO Mascon CRI Filtered Release 06 version 02</SimpleData>
+		<SimpleData name="cmr_publication_date">2</SimpleData>
+		<SimpleData name="coll_version">This dataset is a time series of mass variability averaged over all of Greenland. It provides the ice mass changes of Greenland over time. The mass variability are derived from JPL GRACE Mascon Ocean, Ice, and Hydrology Equivalent Water Height RL06Mv2 CRI Filtered Version 2, which can be found at https://podaac.jpl.nasa.gov/dataset/TELLUS_GRAC-GRFO_MASCON_CRI_GRID_RL06_V2. A more detailed description on the Mascon solution, including the mathematical derivation, implementation of geophysical constraints, and solution validation, please see Watkins et al., 2015, doi: 10.1002/2014JB011547. The mass variability are provided as an ASCII table.</SimpleData>
+		<SimpleData name="coll_doi">GREENLAND_MASS_TELLUS_MASCON_CRI_TIME_SERIES_RL06_V2</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">4</SimpleData>
+		<SimpleData name="time_min">60</SimpleData>
+		<SimpleData name="time_max">85</SimpleData>
+		<SimpleData name="lat_min">-70</SimpleData>
+		<SimpleData name="lat_max">-15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-15,60 -15,85 -70,85 -70,60 -15,60</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1708606651-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">Tellus+Level-4+Ocean+Mass+Anomaly+Time+Series+from+JPL+GRACE/GRACE-FO+Mascon+CRI+Filtered+Release+06+version+02</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-18T16:59:47Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Tellus Level-4 Ocean Mass Anomaly Time Series from JPL GRACE/GRACE-FO Mascon CRI Filtered Release 06 version 02</SimpleData>
+		<SimpleData name="cmr_publication_date">2</SimpleData>
+		<SimpleData name="coll_version">This dataset is a time series of mass variability averaged over all of the global ocean. It provides the non-steric or mass only sea level changes over time. The mass variability are derived from JPL GRACE Mascon Ocean, Ice, and Hydrology Equivalent Water Height RL06Mv02 CRI Filtered Version 2, which can be found at https://podaac.jpl.nasa.gov/dataset/TELLUS_GRAC-GRFO_MASCON_CRI_GRID_RL06_V2. A more detailed description on the Mascon solution, including the mathematical derivation, implementation of geophysical constraints, and solution validation, please see Watkins et al., 2015, doi: 10.1002/2014JB011547. The mass variability are provided as an ASCII table.</SimpleData>
+		<SimpleData name="coll_doi">OCEAN_MASS_TELLUS_MASCON_CRI_TIME_SERIES_RL06_V2</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">4</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

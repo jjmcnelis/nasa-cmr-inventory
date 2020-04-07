@@ -1,0 +1,720 @@
+# ------------------------------------------------------------ 
+# [ 0 / 25 ]: ISS_RapidScat
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/15 ]    RSCAT_L1B_V1.1
+  - [ 2/15 ]    RSCAT_L1B_V1.2
+  - [ 3/15 ]    RSCAT_L1B_V1.3
+  - [ 4/15 ]    RSCAT_L2A_12KM_V1.1
+  - [ 5/15 ]    RSCAT_L2A_12KM_V1.2
+  - [ 6/15 ]    RSCAT_L2A_12KM_V1.3
+  - [ 7/15 ]    RSCAT_L2A_25KM_V1.1
+  - [ 8/15 ]    RSCAT_L2A_25KM_V1.2
+  - [ 9/15 ]    RSCAT_L2A_25KM_V1.3
+  - [ 10/15 ]   RSCAT_LEVEL_2B_OWV_CLIM_12_V1
+  - [ 11/15 ]   RSCAT_LEVEL_2B_OWV_CLIM_12_V2
+  - [ 12/15 ]   RSCAT_LEVEL_2B_OWV_COMP_12_V1.1
+  - [ 13/15 ]   RSCAT_LEVEL_2B_OWV_COMP_12_V1.2
+  - [ 14/15 ]   RSCAT_LEVEL_2B_OWV_COMP_12_V1.3
+  - [ 15/15 ]   RSCAT_COLOCATED_RSS_RADIOMETER_LEVEL_2B_V1
+# ------------------------------------------------------------ 
+# [ 1 / 25 ]: ROSES
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/2 ]     RECON_SEA_LEVEL_OST_L4_V1
+  - [ 2/2 ]     QSCAT_ARCTIC_SEAICE_AGE_CLASS_BYUSCP_V1
+# ------------------------------------------------------------ 
+# [ 2 / 25 ]: CIOSS
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/3 ]     ALT_TIDE_GAUGE_L4_OST_SLA_US_WEST_COAST
+  - [ 2/3 ]     ALT_TIDE_GAUGE_L4_OST_SLA_US_WEST_COAST_DAILY
+  - [ 3/3 ]     QSCAT_OSUCOAS_L3_OW_USWestCoast
+# ------------------------------------------------------------ 
+# [ 3 / 25 ]: POES
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/8 ]     gov.noaa.ncdc.C00951
+  - [ 2/8 ]     NOAA-19_Operational
+  - [ 3/8 ]     REYNOLDS_NCEP_L4_SST_OPT_INTERP_MONTHLY_V2
+  - [ 4/8 ]     REYNOLDS_NCEP_L4_SST_OPT_INTERP_WEEKLY_V2
+  - [ 5/8 ]     SBUV2N11O3
+  - [ 6/8 ]     SBUV2N16O3
+  - [ 7/8 ]     SBUV2N09O3
+  - [ 8/8 ]     NAVOCEANO_LAC_SST
+# ------------------------------------------------------------ 
+# [ 4 / 25 ]: OSTM
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/2 ]     ALES_L2_OST_JASON2_V1
+  - [ 2/2 ]     OSTM_L2_OST_OGDR_GPS
+# ------------------------------------------------------------ 
+# [ 5 / 25 ]: Saildrone Baja
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+Traceback (most recent call last):
+  File "/Users/jmcnelis/Software/miniconda/envs/geospatial/lib/python3.8/runpy.py", line 193, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/jmcnelis/Software/miniconda/envs/geospatial/lib/python3.8/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/jmcnelis/Documents/projects/nasa-cmr-inventory/cmr/__main__.py", line 55, in <module>
+    gdf.to_file( driver="ESRI Shapefile", filename=pjoin(outputs, "ds.shp"))
+  File "/Users/jmcnelis/Software/miniconda/envs/geospatial/lib/python3.8/site-packages/geopandas/geodataframe.py", line 533, in to_file
+    to_file(self, filename, driver, schema, index, **kwargs)
+  File "/Users/jmcnelis/Software/miniconda/envs/geospatial/lib/python3.8/site-packages/geopandas/io/file.py", line 179, in to_file
+    schema = infer_schema(df)
+  File "/Users/jmcnelis/Software/miniconda/envs/geospatial/lib/python3.8/site-packages/geopandas/io/file.py", line 231, in infer_schema
+    raise ValueError("Cannot write empty DataFrame to file.")
+ValueError: Cannot write empty DataFrame to file.
+# ------------------------------------------------------------ 
+# [ 6 / 25 ]: QUIKSCAT
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/9 ]     OS2_OSCAT_LEVEL_2B_OWV_COMP_12_V2
+  - [ 2/9 ]     QSCAT_L1C_NONSPINNING_SIGMA0_WINDS_V2
+  - [ 3/9 ]     QSCAT_LEVEL_2B_OWV_COMP_12
+  - [ 4/9 ]     QSCAT_LEVEL_2B_OWV_COMP_12_LCR_3.1
+  - [ 5/9 ]     QSCAT_LEVEL_2B_OWV_COMP_12_KUSST_LCRES_4.0
+  - [ 6/9 ]     QSCAT_L3_SFC_EASTWARD_WIND_1DEG_1MO
+  - [ 7/9 ]     QSCAT_L3_SFC_NORTHWARD_WIND_1DEG_1MO
+  - [ 8/9 ]     QSCAT_L3_SFC_WIND_SPEED_1DEG_1MO
+  - [ 9/9 ]     NCAR_DS744.2
+# ------------------------------------------------------------ 
+# [ 7 / 25 ]: SARAL
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/2 ]     CNES_http__cnes.fr_ark_68059_7b252f158625499a87bcd80db70d37a0_IDN
+  - [ 2/2 ]     ALTIKA_SARAL_L2_OST_XOGDR
+# ------------------------------------------------------------ 
+# [ 8 / 25 ]: JPL/PCMDI
+# ------------------------------------------------------------ 
+# CHECK CFG 
+ERROR: Bad configuration file.
+Traceback (most recent call last):
+  File "/Users/jmcnelis/Software/miniconda/envs/geospatial/lib/python3.8/runpy.py", line 193, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/jmcnelis/Software/miniconda/envs/geospatial/lib/python3.8/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/jmcnelis/Documents/projects/nasa-cmr-inventory/cmr/__main__.py", line 30, in <module>
+    print("ERROR: Bad configuration file."); raise(e)
+  File "/Users/jmcnelis/Documents/projects/nasa-cmr-inventory/cmr/__main__.py", line 28, in <module>
+    config = handle_config(project)
+  File "/Users/jmcnelis/Documents/projects/nasa-cmr-inventory/cmr/__init__.py", line 118, in handle_config
+    os.mkdir(d)
+FileNotFoundError: [Errno 2] No such file or directory: 'projects/podaac/jpl/pcmdi'
+# ------------------------------------------------------------ 
+# [ 9 / 25 ]: MetOp
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/7 ]     ASCATA_L2_COASTAL_CDR
+  - [ 2/7 ]     ASCATA_L2_25KM_CDR
+  - [ 3/7 ]     ASCATA-L2-25km
+  - [ 4/7 ]     ASCATA-L2-Coastal
+  - [ 5/7 ]     ASCATB-L2-25km
+  - [ 6/7 ]     ASCATB-L2-Coastal
+  - [ 7/7 ]     gov.noaa.ncdc.C00809
+# ------------------------------------------------------------ 
+# [ 10 / 25 ]: AVISO
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/1 ]     AVISO_L4_DYN_TOPO_1DEG_1MO
+# ------------------------------------------------------------ 
+# [ 11 / 25 ]: SPURS
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/35 ]    SPURS1_ARGO
+  - [ 2/35 ]    SPURS1_DRIFTER
+  - [ 3/35 ]    SPURS1_ECOMAPPER
+  - [ 4/35 ]    SPURS1_FLOAT_NEUTRALLYBUOYANT
+  - [ 5/35 ]    SPURS1_MOORING_PICO
+  - [ 6/35 ]    SPURS1_SEAGLIDER
+  - [ 7/35 ]    SPURS1_SEASOAR
+  - [ 8/35 ]    SPURS1_ADCP
+  - [ 9/35 ]    SPURS1_METEO
+  - [ 10/35 ]   SPURS1_CTD
+  - [ 11/35 ]   SPURS1_TSG
+  - [ 12/35 ]   SPURS1_UCTD
+  - [ 13/35 ]   SPURS2_ARGO
+  - [ 14/35 ]   SPURS2_CFT
+  - [ 15/35 ]   SPURS2_DRIFTER
+  - [ 16/35 ]   SPURS2_FLOAT_NEUTRALLYBUOYANT
+  - [ 17/35 ]   SPURS2_PALS
+  - [ 18/35 ]   SPURS2_MOORING_PICO
+  - [ 19/35 ]   SPURS2_RAWINSONDE
+  - [ 20/35 ]   SPURS2_RAINRADAR
+  - [ 21/35 ]   SPURS2_WAMOS
+  - [ 22/35 ]   SPURS2_CTD
+  - [ 23/35 ]   SPURS2_XBT
+  - [ 24/35 ]   SPURS2_METEO
+  - [ 25/35 ]   SPURS2_UCTD
+  - [ 26/35 ]   SPURS2_USPS
+  - [ 27/35 ]   SPURS2_LADYAMBER
+  - [ 28/35 ]   SPURS2_SAILDRONE
+  - [ 29/35 ]   SPURS2_SEAGLIDER
+  - [ 30/35 ]   SPURS2_ADCP
+  - [ 31/35 ]   SPURS2_SALINITYSNAKE
+  - [ 32/35 ]   SPURS2_WAVEGLIDER
+  - [ 33/35 ]   SPURS1_TENUSEGLIDER
+  - [ 34/35 ]   SPURS1_WAVEGLIDER
+  - [ 35/35 ]   SPURS1_MOORING_WHOI
+# ------------------------------------------------------------ 
+# [ 12 / 25 ]: SMAP-SSS
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/11 ]    SMAP_JPL_L2B_SSS_CAP_V42
+  - [ 2/11 ]    SMAP_JPL_L2B_SSS_CAP_V43
+  - [ 3/11 ]    SMAP_JPL_L2B_NRT_SSS_CAP_V42
+  - [ 4/11 ]    SMAP_JPL_L2B_NRT_SSS_CAP_V43
+  - [ 5/11 ]    SMAP_JPL_L3_SSS_CAP_8DAY-RUNNINGMEAN_V42
+  - [ 6/11 ]    SMAP_JPL_L3_SSS_CAP_8DAY-RUNNINGMEAN_V43
+  - [ 7/11 ]    SMAP_JPL_L3_SSS_CAP_MONTHLY_V42
+  - [ 8/11 ]    SMAP_JPL_L3_SSS_CAP_MONTHLY_V43
+  - [ 9/11 ]    SMAP_RSS_L2_SSS_V4
+  - [ 10/11 ]   SMAP_RSS_L3_SSS_SMI_8DAY-RUNNINGMEAN_V4
+  - [ 11/11 ]   SMAP_RSS_L3_SSS_SMI_MONTHLY_V4
+# ------------------------------------------------------------ 
+# [ 13 / 25 ]: GHRSST
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/91 ]    gov.noaa.nodc.AVHRR_Pathfinder-NODC-L3C-v5.2
+  - [ 2/91 ]    OISST_HR_NRT-GOS-L4-BLK-v2.0
+  - [ 3/91 ]    OISST_UHR_NRT-GOS-L4-BLK-v2.0
+  - [ 4/91 ]    AVHRR_SST_METOP_A_GLB-OSISAF-L3C-v1.0
+  - [ 5/91 ]    AVHRR_SST_METOP_B_GLB-OSISAF-L3C-v1.0
+  - [ 6/91 ]    SEVIRI_SST_DR-OSISAF-L3C-v1.0a
+  - [ 7/91 ]    GOES16-OSISAF-L3C-v1.0
+  - [ 8/91 ]    VIIRS_NPP-NAVO-L2P-v2.0
+  - [ 9/91 ]    VIIRS_NPP-NAVO-L2P-v3.0
+  - [ 10/91 ]   MSG03-OSPO-L2P-v1.0
+  - [ 11/91 ]   GOES15-OSPO-L2P-v1.0
+  - [ 12/91 ]   gov.noaa.nodc.GHRSST-GOES15-OSPO-L2P
+  - [ 13/91 ]   AVHRRMTA_G-NAVO-L2P-v1.0
+  - [ 14/91 ]   AVHRRMTB_G-NAVO-L2P-v1.0
+  - [ 15/91 ]   AVHRR18_G-NAVO-L2P-v1.0
+  - [ 16/91 ]   AVHRR19_G-NAVO-L2P-v1.0
+  - [ 17/91 ]   NAVO-L2P-AVHRRMTA_G
+  - [ 18/91 ]   NAVO-L2P-AVHRR18_G
+  - [ 19/91 ]   NAVO-L2P-AVHRR19_G
+  - [ 20/91 ]   VIIRS_NPP-JPL-L2P-v2016.2
+  - [ 21/91 ]   MODIS_A-JPL-L2P-v2019.0
+  - [ 22/91 ]   MODIS_T-JPL-L2P-v2019.0
+  - [ 23/91 ]   VIIRS_NPP-JPL-L2P-v2016.0
+  - [ 24/91 ]   UPA-L2P-ATS_NR_2P
+  - [ 25/91 ]   EUR-L2P-AVHRR_METOP_A
+  - [ 26/91 ]   IASI_SST_METOP_A-OSISAF-L2P-v1.0
+  - [ 27/91 ]   IASI_SST_METOP_B-OSISAF-L2P-v1.0
+  - [ 28/91 ]   MODIS_A-JPL-L2P-v2014.0
+  - [ 29/91 ]   MODIS_T-JPL-L2P-v2014.0
+  - [ 30/91 ]   AMSRE-REMSS-L2P-v7a
+  - [ 31/91 ]   TMI-REMSS-L2P-v4
+  - [ 32/91 ]   AMSR2-REMSS-L2P-v8a
+  - [ 33/91 ]   REMSS-L2P_GRIDDED_25-WSAT
+  - [ 34/91 ]   NEODAAS-L2P-AVHRR19_L
+  - [ 35/91 ]   VIIRS_NPP-OSPO-L2P-v2.61
+  - [ 36/91 ]   VIIRS_N20-OSPO-L2P-v2.61
+  - [ 37/91 ]   AVHRR19_L-NAVO-L2P-v1.0
+  - [ 38/91 ]   NAVO-L2P-AVHRR18_L
+  - [ 39/91 ]   NAVO-L2P-AVHRR19_L
+  - [ 40/91 ]   AVHRR_SST_METOP_A-OSISAF-L2P-v1.0
+  - [ 41/91 ]   AVHRR_SST_METOP_B-OSISAF-L2P-v1.0
+  - [ 42/91 ]   GOES13-OSPO-L2P-v1.0
+  - [ 43/91 ]   MTSAT2-OSPO-L2P-v1.0
+  - [ 44/91 ]   gov.noaa.nodc.GHRSST-MTSAT2-OSPO-L2P
+  - [ 45/91 ]   SEVIRI_SST-OSISAF-L3C-v1.0
+  - [ 46/91 ]   SEVIRI_IO_SST-OSISAF-L3C-v1.0
+  - [ 47/91 ]   AVHRR_SST_METOP_B_NAR-OSISAF-L3C-v1.0
+  - [ 48/91 ]   VIIRS_SST_NPP_NAR-OSISAF-L3C-v1.0
+  - [ 49/91 ]   AVHRR_SST_METOP_A_NAR-OSISAF-L3C-v1.0
+  - [ 50/91 ]   AVHRR_SST_NOAA19_NAR-OSISAF-L3C-v1.0
+  - [ 51/91 ]   GOES13-OSISAF-L3C-v1.0
+  - [ 52/91 ]   EUR-L3P-NAR_AVHRR_NOAA_19
+  - [ 53/91 ]   GMI-REMSS-L3U-v8.2a
+  - [ 54/91 ]   AMSRE-REMSS-L3U-v7a
+  - [ 55/91 ]   TMI-REMSS-L3U-v7.1a
+  - [ 56/91 ]   AMSR2-REMSS-L3U-v8a
+  - [ 57/91 ]   WindSat-REMSS-L3U-v7.0.1a
+  - [ 58/91 ]   VIIRS_N20-OSPO-L3U-v2.61
+  - [ 59/91 ]   VIIRS_NPP-OSPO-L3U-v2.61
+  - [ 60/91 ]   NCDC-L4LRblend-GLOB-AVHRR_AMSR_OI
+  - [ 61/91 ]   AVHRR_OI-NCEI-L4-GLOB-v2.0
+  - [ 62/91 ]   CMC0.1deg-CMC-L4-GLOB-v3.0
+  - [ 63/91 ]   CMC0.2deg-CMC-L4-GLOB-v2.0
+  - [ 64/91 ]   DMI-L4UHfnd-NSEABALTIC-DMI_OI
+  - [ 65/91 ]   DMI_OI-DMI-L4-GLOB-v1.0
+  - [ 66/91 ]   JPL_OUROCEAN-L4UHfnd-GLOB-G1SST
+  - [ 67/91 ]   gov.noaa.nodc.GHRSST-JPL_OUROCEAN-L4UHfnd-GLOB-G1SST
+  - [ 68/91 ]   ABOM-L4LRfnd-GLOB-GAMSSA_28km
+  - [ 69/91 ]   gov.noaa.nodc.GHRSST-ABOM-L4LRfnd-GLOB-GAMSSA_28km
+  - [ 70/91 ]   GAMSSA_28km-ABOM-L4-GLOB-v01
+  - [ 71/91 ]   NAVO-L4HR1m-GLOB-K10_SST
+  - [ 72/91 ]   gov.noaa.nodc.GHRSST-NAVO-L4HR1m-GLOB-K10_SST
+  - [ 73/91 ]   K10_SST-NAVO-L4-GLOB-v01
+  - [ 74/91 ]   MUR25-JPL-L4-GLOB-v04.2
+  - [ 75/91 ]   MW_IR_OI-REMSS-L4-GLOB-v5.0
+  - [ 76/91 ]   MW_OI-REMSS-L4-GLOB-v5.0
+  - [ 77/91 ]   gov.noaa.nodc.GHRSST-Geo_Polar_Blended-OSPO-L4-GLOB
+  - [ 78/91 ]   Geo_Polar_Blended-OSPO-L4-GLOB-v1.0
+  - [ 79/91 ]   gov.noaa.nodc.GHRSST-Geo_Polar_Blended_Night-OSPO-L4-GLOB
+  - [ 80/91 ]   Geo_Polar_Blended_Night-OSPO-L4-GLOB-v1.0
+  - [ 81/91 ]   UKMO-L4HRfnd-GLOB-OSTIA
+  - [ 82/91 ]   OSTIA-UKMO-L4-GLOB-v2.0
+  - [ 83/91 ]   ABOM-L4HRfnd-AUS-RAMSSA_09km
+  - [ 84/91 ]   gov.noaa.nodc.GHRSST-ABOM-L4HRfnd-AUS-RAMSSA_09km
+  - [ 85/91 ]   RAMSSA_09km-ABOM-L4-AUS-v01
+  - [ 86/91 ]   REMO_OI_SST_5km-UFRJ-L4-SAMERICA-v1.0
+  - [ 87/91 ]   ABI_G16-STAR-L3C-v2.70
+  - [ 88/91 ]   ABI_G16-STAR-L2P-v2.70
+  - [ 89/91 ]   NAVO-L2P-AVHRR17_L
+  - [ 90/91 ]   OISST_HR_NRT-GOS-L4-MED-v2.0
+  - [ 91/91 ]   OISST_UHR_NRT-GOS-L4-MED-v2.0
+# ------------------------------------------------------------ 
+# [ 14 / 25 ]: EOS
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/121 ]   CloudSat_2D-CLOUDSAT-TRMM
+  - [ 2/121 ]   CloudSat_1B-CPR
+  - [ 3/121 ]   CloudSat_2B-CLDCLASS
+  - [ 4/121 ]   Cloudsat_2B-GEOPROF-LIDAR
+  - [ 5/121 ]   CloudSat_2B-GEOPROF
+  - [ 6/121 ]   CloudSat_2B-TAU
+  - [ 7/121 ]   CloudSat_ECMWF-AUX
+  - [ 8/121 ]   Cloudsat_2B-FLXHR
+  - [ 9/121 ]   Cloudsat_2C-PRECIP-COLUMN
+  - [ 10/121 ]  CloudSat_MODIS_AUX
+  - [ 11/121 ]  CloudSat_2B-CWC-RO
+  - [ 12/121 ]  LANDVAL_MONGU
+  - [ 13/121 ]  LANDVAL_SKUKUZA
+  - [ 14/121 ]  ND01017
+  - [ 15/121 ]  ND01018
+  - [ 16/121 ]  TRFIC_ESIP_LANDSAT7
+  - [ 17/121 ]  Cloudsat_2B-CWC-RVOD
+  - [ 18/121 ]  MODIS_AQUA_L3_SST_MID-IR_8DAY_4KM_NIGHTTIME_V2014.0
+  - [ 19/121 ]  MODIS_AQUA_L3_SST_MID-IR_8DAY_4KM_NIGHTTIME_V2019.0
+  - [ 20/121 ]  MODIS_AQUA_L3_SST_MID-IR_8DAY_9KM_NIGHTTIME_V2014.0
+  - [ 21/121 ]  MODIS_AQUA_L3_SST_MID-IR_8DAY_9KM_NIGHTTIME_V2019.0
+  - [ 22/121 ]  MODIS_AQUA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2014.0
+  - [ 23/121 ]  MODIS_AQUA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0
+  - [ 24/121 ]  MODIS_AQUA_L3_SST_MID-IR_ANNUAL_9KM_NIGHTTIME_V2014.0
+  - [ 25/121 ]  MODIS_AQUA_L3_SST_MID-IR_ANNUAL_9KM_NIGHTTIME_V2019.0
+  - [ 26/121 ]  MODIS_AQUA_L3_SST_MID-IR_DAILY_4KM_NIGHTTIME_V2014.0
+  - [ 27/121 ]  MODIS_AQUA_L3_SST_MID-IR_DAILY_4KM_NIGHTTIME_V2019.0
+  - [ 28/121 ]  MODIS_AQUA_L3_SST_MID-IR_DAILY_9KM_NIGHTTIME_V2014.0
+  - [ 29/121 ]  MODIS_AQUA_L3_SST_MID-IR_DAILY_9KM_NIGHTTIME_V2019.0
+  - [ 30/121 ]  MODIS_AQUA_L3_SST_MID-IR_MONTHLY_4KM_NIGHTTIME_V2014.0
+  - [ 31/121 ]  MODIS_AQUA_L3_SST_MID-IR_MONTHLY_4KM_NIGHTTIME_V2019.0
+  - [ 32/121 ]  MODIS_AQUA_L3_SST_MID-IR_MONTHLY_9KM_NIGHTTIME_V2014.0
+  - [ 33/121 ]  MODIS_AQUA_L3_SST_MID-IR_MONTHLY_9KM_NIGHTTIME_V2019.0
+  - [ 34/121 ]  MODIS_AQUA_L3_SST_THERMAL_DAILY_4KM_DAYTIME_V2014.0
+  - [ 35/121 ]  MODIS_AQUA_L3_SST_THERMAL_DAILY_4KM_DAYTIME_V2019.0
+  - [ 36/121 ]  MODIS_AQUA_L3_SST_THERMAL_8DAY_4KM_DAYTIME_V2014.0
+  - [ 37/121 ]  MODIS_AQUA_L3_SST_THERMAL_8DAY_4KM_DAYTIME_V2019.0
+  - [ 38/121 ]  MODIS_AQUA_L3_SST_THERMAL_8DAY_4KM_NIGHTTIME_V2014.0
+  - [ 39/121 ]  MODIS_AQUA_L3_SST_THERMAL_8DAY_4KM_NIGHTTIME_V2019.0
+  - [ 40/121 ]  MODIS_AQUA_L3_SST_THERMAL_8DAY_9KM_DAYTIME_V2014.0
+  - [ 41/121 ]  MODIS_AQUA_L3_SST_THERMAL_8DAY_9KM_DAYTIME_V2019.0
+  - [ 42/121 ]  MODIS_AQUA_L3_SST_THERMAL_8DAY_9KM_NIGHTTIME_V2014.0
+  - [ 43/121 ]  MODIS_AQUA_L3_SST_THERMAL_8DAY_9KM_NIGHTTIME_V2019.0
+  - [ 44/121 ]  MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2014.0
+  - [ 45/121 ]  MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0
+  - [ 46/121 ]  MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_NIGHTTIME_V2014.0
+  - [ 47/121 ]  MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_NIGHTTIME_V2019.0
+  - [ 48/121 ]  MODIS_AQUA_L3_SST_THERMAL_ANNUAL_9KM_DAYTIME_V2014.0
+  - [ 49/121 ]  MODIS_AQUA_L3_SST_THERMAL_ANNUAL_9KM_DAYTIME_V2019.0
+  - [ 50/121 ]  MODIS_AQUA_L3_SST_THERMAL_ANNUAL_9KM_NIGHTTIME_V2014.0
+  - [ 51/121 ]  MODIS_AQUA_L3_SST_THERMAL_ANNUAL_9KM_NIGHTTIME_V2019.0
+  - [ 52/121 ]  MODIS_AQUA_L3_SST_THERMAL_DAILY_4KM_NIGHTTIME_V2014.0
+  - [ 53/121 ]  MODIS_AQUA_L3_SST_THERMAL_DAILY_4KM_NIGHTTIME_V2019.0
+  - [ 54/121 ]  MODIS_AQUA_L3_SST_THERMAL_DAILY_9KM_DAYTIME_V2014.0
+  - [ 55/121 ]  MODIS_AQUA_L3_SST_THERMAL_DAILY_9KM_DAYTIME_V2019.0
+  - [ 56/121 ]  MODIS_AQUA_L3_SST_THERMAL_DAILY_9KM_NIGHTTIME_V2014.0
+  - [ 57/121 ]  MODIS_AQUA_L3_SST_THERMAL_DAILY_9KM_NIGHTTIME_V2019.0
+  - [ 58/121 ]  MODIS_AQUA_L3_SST_THERMAL_MONTHLY_4KM_DAYTIME_V2014.0
+  - [ 59/121 ]  MODIS_AQUA_L3_SST_THERMAL_MONTHLY_4KM_DAYTIME_V2019.0
+  - [ 60/121 ]  MODIS_AQUA_L3_SST_THERMAL_MONTHLY_4KM_NIGHTTIME_V2014.0
+  - [ 61/121 ]  MODIS_AQUA_L3_SST_THERMAL_MONTHLY_4KM_NIGHTTIME_V2019.0
+  - [ 62/121 ]  MODIS_AQUA_L3_SST_THERMAL_MONTHLY_9KM_DAYTIME_V2014.0
+  - [ 63/121 ]  MODIS_AQUA_L3_SST_THERMAL_MONTHLY_9KM_DAYTIME_V2019.0
+  - [ 64/121 ]  MODIS_AQUA_L3_SST_THERMAL_MONTHLY_9KM_NIGHTTIME_V2014.0
+  - [ 65/121 ]  MODIS_AQUA_L3_SST_THERMAL_MONTHLY_9KM_NIGHTTIME_V2019.0
+  - [ 66/121 ]  MODIS_TERRA_L3_SST_THERMAL_DAILY_9KM_DAYTIME_V2014.0
+  - [ 67/121 ]  MODIS_TERRA_L3_SST_THERMAL_DAILY_9KM_DAYTIME_V2019.0
+  - [ 68/121 ]  MODIS_TERRA_L3_SST_MID-IR_8DAY_4KM_NIGHTTIME_V2014.0
+  - [ 69/121 ]  MODIS_TERRA_L3_SST_MID-IR_8DAY_4KM_NIGHTTIME_V2019.0
+  - [ 70/121 ]  MODIS_TERRA_L3_SST_MID-IR_8DAY_9KM_NIGHTTIME_V2014.0
+  - [ 71/121 ]  MODIS_TERRA_L3_SST_MID-IR_8DAY_9KM_NIGHTTIME_V2019.0
+  - [ 72/121 ]  MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2014.0
+  - [ 73/121 ]  MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0
+  - [ 74/121 ]  MODIS_TERRA_L3_SST_MID-IR_ANNUAL_9KM_NIGHTTIME_V2014.0
+  - [ 75/121 ]  MODIS_TERRA_L3_SST_MID-IR_ANNUAL_9KM_NIGHTTIME_V2019.0
+  - [ 76/121 ]  MODIS_TERRA_L3_SST_MID-IR_DAILY_4KM_NIGHTTIME_V2014.0
+  - [ 77/121 ]  MODIS_TERRA_L3_SST_MID-IR_DAILY_4KM_NIGHTTIME_V2019.0
+  - [ 78/121 ]  MODIS_TERRA_L3_SST_MID-IR_DAILY_9KM_NIGHTTIME_V2014.0
+  - [ 79/121 ]  MODIS_TERRA_L3_SST_MID-IR_DAILY_9KM_NIGHTTIME_V2019.0
+  - [ 80/121 ]  MODIS_TERRA_L3_SST_MID-IR_MONTHLY_4KM_NIGHTTIME_V2014.0
+  - [ 81/121 ]  MODIS_TERRA_L3_SST_MID-IR_MONTHLY_4KM_NIGHTTIME_V2019.0
+  - [ 82/121 ]  MODIS_TERRA_L3_SST_MID-IR_MONTHLY_9KM_NIGHTTIME_V2014.0
+  - [ 83/121 ]  MODIS_TERRA_L3_SST_MID-IR_MONTHLY_9KM_NIGHTTIME_V2019.0
+  - [ 84/121 ]  MODIS_TERRA_L3_SST_THERMAL_8DAY_4KM_DAYTIME_V2014.0
+  - [ 85/121 ]  MODIS_TERRA_L3_SST_THERMAL_8DAY_4KM_DAYTIME_V2019.0
+  - [ 86/121 ]  MODIS_TERRA_L3_SST_THERMAL_8DAY_4KM_NIGHTTIME_V2014.0
+  - [ 87/121 ]  MODIS_TERRA_L3_SST_THERMAL_8DAY_4KM_NIGHTTIME_V2019.0
+  - [ 88/121 ]  MODIS_TERRA_L3_SST_THERMAL_8DAY_9KM_DAYTIME_V2014.0
+  - [ 89/121 ]  MODIS_TERRA_L3_SST_THERMAL_8DAY_9KM_DAYTIME_V2019.0
+  - [ 90/121 ]  MODIS_TERRA_L3_SST_THERMAL_8DAY_9KM_NIGHTTIME_V2014.0
+  - [ 91/121 ]  MODIS_TERRA_L3_SST_THERMAL_8DAY_9KM_NIGHTTIME_V2019.0
+  - [ 92/121 ]  MODIS_TERRA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2014.0
+  - [ 93/121 ]  MODIS_TERRA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0
+  - [ 94/121 ]  MODIS_TERRA_L3_SST_THERMAL_ANNUAL_4KM_NIGHTTIME_V2014.0
+  - [ 95/121 ]  MODIS_TERRA_L3_SST_THERMAL_ANNUAL_4KM_NIGHTTIME_V2019.0
+  - [ 96/121 ]  MODIS_TERRA_L3_SST_THERMAL_ANNUAL_9KM_DAYTIME_V2014.0
+  - [ 97/121 ]  MODIS_TERRA_L3_SST_THERMAL_ANNUAL_9KM_DAYTIME_V2019.0
+  - [ 98/121 ]  MODIS_TERRA_L3_SST_THERMAL_ANNUAL_9KM_NIGHTTIME_V2014.0
+  - [ 99/121 ]  MODIS_TERRA_L3_SST_THERMAL_ANNUAL_9KM_NIGHTTIME_V2019.0
+  - [ 100/121 ] MODIS_TERRA_L3_SST_THERMAL_DAILY_4KM_DAYTIME_V2014.0
+  - [ 101/121 ] MODIS_TERRA_L3_SST_THERMAL_DAILY_4KM_DAYTIME_V2019.0
+  - [ 102/121 ] MODIS_TERRA_L3_SST_THERMAL_DAILY_4KM_NIGHTTIME_V2014.0
+  - [ 103/121 ] MODIS_TERRA_L3_SST_THERMAL_DAILY_4KM_NIGHTTIME_V2019.0
+  - [ 104/121 ] MODIS_TERRA_L3_SST_THERMAL_DAILY_9KM_NIGHTTIME_V2014.0
+  - [ 105/121 ] MODIS_TERRA_L3_SST_THERMAL_DAILY_9KM_NIGHTTIME_V2019.0
+  - [ 106/121 ] MODIS_TERRA_L3_SST_THERMAL_MONTHLY_4KM_DAYTIME_V2014.0
+  - [ 107/121 ] MODIS_TERRA_L3_SST_THERMAL_MONTHLY_4KM_DAYTIME_V2019.0
+  - [ 108/121 ] MODIS_TERRA_L3_SST_THERMAL_MONTHLY_4KM_NIGHTTIME_V2014.0
+  - [ 109/121 ] MODIS_TERRA_L3_SST_THERMAL_MONTHLY_4KM_NIGHTTIME_V2019.0
+  - [ 110/121 ] MODIS_TERRA_L3_SST_THERMAL_MONTHLY_9KM_DAYTIME_V2014.0
+  - [ 111/121 ] MODIS_TERRA_L3_SST_THERMAL_MONTHLY_9KM_DAYTIME_V2019.0
+  - [ 112/121 ] MODIS_TERRA_L3_SST_THERMAL_MONTHLY_9KM_NIGHTTIME_V2014.0
+  - [ 113/121 ] MODIS_TERRA_L3_SST_THERMAL_MONTHLY_9KM_NIGHTTIME_V2019.0
+  - [ 114/121 ] MYD35_L2
+  - [ 115/121 ] MYD00F
+  - [ 116/121 ] MYDTBGD
+  - [ 117/121 ] MOD35_L2
+  - [ 118/121 ] MODTBGD
+  - [ 119/121 ] SAFARI2K_NDMC
+  - [ 120/121 ] WP-ESIP_ASTER
+  - [ 121/121 ] S3B_SL_1_RBT
+# ------------------------------------------------------------ 
+# [ 15 / 25 ]: OMG
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/3 ]     OMG_L2_AXCTD
+  - [ 2/3 ]     OMG_L2_Bathy_MBES_Gridded
+  - [ 3/3 ]     OMG_L2_Bathy_SBES_Gridded
+# ------------------------------------------------------------ 
+# [ 16 / 25 ]: REYNOLDS_SST
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/5 ]     REYNOLDS_NCDC_L4_MONTHLY_V4
+  - [ 2/5 ]     REYNOLDS_NCDC_L4_MONTHLY_V5
+  - [ 3/5 ]     REYNOLDS_NCDC_L4_SST_HIST_RECON_MONTHLY_V2
+  - [ 4/5 ]     REYNOLDS_NCDC_L4_SST_HIST_RECON_MONTHLY_V3B_ASC
+  - [ 5/5 ]     REYNOLDS_NCDC_L4_SST_HIST_RECON_MONTHLY_V3B_NETCDF
+# ------------------------------------------------------------ 
+# [ 17 / 25 ]: GRACE-FO
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/16 ]    TELLUS_GRFO_L3_CSR_RL06_LND_v03
+  - [ 2/16 ]    TELLUS_GRFO_L3_CSR_RL06_OCN_v03
+  - [ 3/16 ]    TELLUS_GRFO_L3_CSR_RL06_OCN_v02
+  - [ 4/16 ]    TELLUS_GRFO_L3_GFZ_RL06_LND_v03
+  - [ 5/16 ]    TELLUS_GRFO_L3_GFZ_RL06_LND
+  - [ 6/16 ]    TELLUS_GRFO_L3_GFZ_RL06_OCN_v03
+  - [ 7/16 ]    TELLUS_GRFO_L3_GFZ_RL06_OCN_v02
+  - [ 8/16 ]    GRACEFO_L1A_ASCII_GRAV_JPL_RL04
+  - [ 9/16 ]    GRACEFO_L1B_ASCII_GRAV_JPL_RL04
+  - [ 10/16 ]   GRACEFO_L2_CSR_MONTHLY_0060
+  - [ 11/16 ]   GRACEFO_L2_JPL_MONTHLY_0060
+  - [ 12/16 ]   GRACEFO_L2_GFZ_MONTHLY_0060
+  - [ 13/16 ]   TELLUS_GRFO_L3_JPL_RL06_LND_v03
+  - [ 14/16 ]   TELLUS_GRFO_L3_JPL_RL06_LND
+  - [ 15/16 ]   TELLUS_GRFO_L3_JPL_RL06_OCN_v03
+  - [ 16/16 ]   TELLUS_GRFO_L3_JPL_RL06_OCN_v02
+# ------------------------------------------------------------ 
+# [ 18 / 25 ]: GEOS-3
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/1 ]     GEOS-3_ALT_GDR
+# ------------------------------------------------------------ 
+# [ 19 / 25 ]: CYGNSS
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/4 ]     CYGNSS_L1_V2.1
+  - [ 2/4 ]     CYGNSS_L2_SURFACE_FLUX_V1.0
+  - [ 3/4 ]     CYGNSS_L2_V2.1
+  - [ 4/4 ]     CYGNSS_L3_V2.1
+# ------------------------------------------------------------ 
+# [ 20 / 25 ]: OSCAR
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/2 ]     OSCAR_L4_OC_1deg
+  - [ 2/2 ]     OSCAR_L4_OC_third-deg
+# ------------------------------------------------------------ 
+# [ 21 / 25 ]: GRACE
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/46 ]    GA-OG-1B-CLKDAT
+  - [ 2/46 ]    GRACE_AOD1B_GRAV_GFZ_RL06
+  - [ 3/46 ]    GRACE_GSM_L2_GRAV_CSR_RL06
+  - [ 4/46 ]    GRACE_GSM_L2_GRAV_GFZ_RL06
+  - [ 5/46 ]    GRACE_GSM_L2_GRAV_JPL_RL06
+  - [ 6/46 ]    GRACE-Tellus-0001
+  - [ 7/46 ]    GRACE_L1B_GRAV_JPL_RL02
+  - [ 8/46 ]    GRACE_L1B_GRAV_JPL_RL03
+  - [ 9/46 ]    GRACE_GAC_L2_GRAV_CSR_RL06
+  - [ 10/46 ]   GRACE_GAC_L2_GRAV_GFZ_RL06
+  - [ 11/46 ]   GRACE_GAC_L2_GRAV_JPL_RL06
+  - [ 12/46 ]   GRACE_GAA_L2_GRAV_GFZ_RL06
+  - [ 13/46 ]   GRACE_GAA_L2_GRAV_JPL_RL06
+  - [ 14/46 ]   GRACE_GAB_L2_GRAV_GFZ_RL06
+  - [ 15/46 ]   GRACE_GAB_L2_GRAV_JPL_RL06
+  - [ 16/46 ]   GRACE_GAD_L2_GRAV_CSR_RL06
+  - [ 17/46 ]   GRACE_GAD_L2_GRAV_GFZ_RL06
+  - [ 18/46 ]   GRACE_GAD_L2_GRAV_JPL_RL06
+  - [ 19/46 ]   GA-OG-1B-ACCHKP
+  - [ 20/46 ]   GA-OG-1B-INTCLK
+  - [ 21/46 ]   GA-OG-1B-IPUHKP
+  - [ 22/46 ]   GA-OG-1B-USODAT
+  - [ 23/46 ]   GA-OG-1B-RSCTKB
+  - [ 24/46 ]   GA-OG-1B-RSCTSR
+  - [ 25/46 ]   GA-OG-1B-THRDAT
+  - [ 26/46 ]   GA-OG-1B-VOGPSB
+  - [ 27/46 ]   GA-OG-1B-VOGPSN
+  - [ 28/46 ]   GA-OG-1B-VOGPSO
+  - [ 29/46 ]   GA-OG-1B-VOKBPC
+  - [ 30/46 ]   GA-OG-1B-VOSLRR
+  - [ 31/46 ]   TELLUS_GRAC-GRFO_MASCON_CRI_GRID_RL06_V2
+  - [ 32/46 ]   TELLUS_GRAC-GRFO_MASCON_GRID_RL06_V2
+  - [ 33/46 ]   GA-OG-1B-ACCDAT
+  - [ 34/46 ]   GA-OG-1B-SCAATT
+  - [ 35/46 ]   GA-OG-1B-TNKDAT
+  - [ 36/46 ]   GA-OG-1B-GPSDAT
+  - [ 37/46 ]   GA-OG-1B-NAVSOL
+  - [ 38/46 ]   GA-OG-1B-MAGDAT
+  - [ 39/46 ]   GA-OG-1B-OBDHTM
+  - [ 40/46 ]   GA-OG-1B-MASDAT
+  - [ 41/46 ]   GX-OG-_2-GSM
+  - [ 42/46 ]   TELLUS_GIA_L3_0.5-DEG_V1.0
+  - [ 43/46 ]   TELLUS_GIA_L3_1-DEG_V1.0
+  - [ 44/46 ]   ANTARCTICA_MASS_TELLUS_MASCON_CRI_TIME_SERIES_RL06_V2
+  - [ 45/46 ]   GREENLAND_MASS_TELLUS_MASCON_CRI_TIME_SERIES_RL06_V2
+  - [ 46/46 ]   OCEAN_MASS_TELLUS_MASCON_CRI_TIME_SERIES_RL06_V2
+# ------------------------------------------------------------ 
+# [ 22 / 25 ]: MEaSUREs
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/147 ]   AIRSM_CPR_MAT
+  - [ 2/147 ]   AIRS_CPR_IND
+  - [ 3/147 ]   AIRS_CPR_MAT
+  - [ 4/147 ]   WC_LSMEM_SOILM_025
+  - [ 5/147 ]   AMDBLWV
+  - [ 6/147 ]   AMDBLWV
+  - [ 7/147 ]   AMMBLWV
+  - [ 8/147 ]   AMMBLWV
+  - [ 9/147 ]   AIRS_MLS_IND
+  - [ 10/147 ]  AIRS_MDS_IND
+  - [ 11/147 ]  BUVN04L2
+  - [ 12/147 ]  BUVN04L3zm
+  - [ 13/147 ]  CAM5K30CF
+  - [ 14/147 ]  CAM5K30CF
+  - [ 15/147 ]  CAM5K30EM
+  - [ 16/147 ]  CAM5K30EM
+  - [ 17/147 ]  CAM5K30UC
+  - [ 18/147 ]  CAM5K30UC
+  - [ 19/147 ]  TELLUS_GRAC_L3_CSR_RL06_LND_v03
+  - [ 20/147 ]  TELLUS_GRAC_L3_CSR_RL06_OCN_v03
+  - [ 21/147 ]  TELLUS_GRAC_L3_CSR_RL06_OCN_v02
+  - [ 22/147 ]  UMT_NTSG_FREEZETHAW
+  - [ 23/147 ]  GEOLST4KHR
+  - [ 24/147 ]  TELLUS_GRAC_L3_GFZ_RL06_LND_v03
+  - [ 25/147 ]  TELLUS_GRAC_L3_GFZ_RL06_OCN_v03
+  - [ 26/147 ]  TELLUS_GRAC_L3_GFZ_RL06_OCN_v02
+  - [ 27/147 ]  MUR-JPL-L4-GLOB-v4.1
+  - [ 28/147 ]  GFSAD1KCD
+  - [ 29/147 ]  GFSAD1KCM
+  - [ 30/147 ]  GFSAD30NACE
+  - [ 31/147 ]  GFSAD30AFCE
+  - [ 32/147 ]  GFSAD30AUNZCNMOCE
+  - [ 33/147 ]  GFSAD30EUCEARUMECE
+  - [ 34/147 ]  GFSAD30SACE
+  - [ 35/147 ]  GFSAD30SAAFGIRCE
+  - [ 36/147 ]  GFSAD30SEACE
+  - [ 37/147 ]  GFSAD30VAL
+  - [ 38/147 ]  GFCC30FCC
+  - [ 39/147 ]  GFCC30SR
+  - [ 40/147 ]  GFCC30TC
+  - [ 41/147 ]  GFCC30WC
+  - [ 42/147 ]  GSSTFMC
+  - [ 43/147 ]  GSSTFSC
+  - [ 44/147 ]  GSSTFYC
+  - [ 45/147 ]  GSSTF_F08
+  - [ 46/147 ]  GSSTF_F10
+  - [ 47/147 ]  GSSTF_F11
+  - [ 48/147 ]  GSSTF_F13
+  - [ 49/147 ]  GSSTF_F14
+  - [ 50/147 ]  GSSTF_F15
+  - [ 51/147 ]  GSSTF
+  - [ 52/147 ]  GSSTFM
+  - [ 53/147 ]  GSSTF_F08
+  - [ 54/147 ]  GSSTF_F10
+  - [ 55/147 ]  GSSTF_F11
+  - [ 56/147 ]  GSSTF_F13
+  - [ 57/147 ]  GSSTF_F14
+  - [ 58/147 ]  GSSTF_F15
+  - [ 59/147 ]  GSSTF
+  - [ 60/147 ]  GSSTFMC
+  - [ 61/147 ]  GSSTFM
+  - [ 62/147 ]  GSSTFSC
+  - [ 63/147 ]  GSSTFYC
+  - [ 64/147 ]  GozMmlpHCl
+  - [ 65/147 ]  GozMmlpHNO3
+  - [ 66/147 ]  GozMmlpN2O
+  - [ 67/147 ]  GozMmlpO3
+  - [ 68/147 ]  GozMmlpH2O
+  - [ 69/147 ]  GozSmlpHCl
+  - [ 70/147 ]  GozSmlpHNO3
+  - [ 71/147 ]  GozSmlpN2O
+  - [ 72/147 ]  GozSmlpO3
+  - [ 73/147 ]  GozSmlpT
+  - [ 74/147 ]  GozSmlpH2O
+  - [ 75/147 ]  GPCPMON
+  - [ 76/147 ]  GPSROZPBLA
+  - [ 77/147 ]  GPSROZPBLS
+  - [ 78/147 ]  GRACE-Tellus-0001
+  - [ 79/147 ]  MERGED_TP_J1_OSTM_OST_ALL_V4
+  - [ 80/147 ]  MERGED_TP_J1_OSTM_OST_ALL_V42
+  - [ 81/147 ]  MERGED_TP_J1_OSTM_OST_CYCLES_V4
+  - [ 82/147 ]  MERGED_TP_J1_OSTM_OST_CYCLES_V42
+  - [ 83/147 ]  TELLUS_GRAC_L3_JPL_RL06_LND_v03
+  - [ 84/147 ]  TELLUS_GRAC_L3_JPL_RL06_OCN_v03
+  - [ 85/147 ]  TELLUS_GRAC_L3_JPL_RL06_OCN_v02
+  - [ 86/147 ]  ERS2_GOME_SIF_1758
+  - [ 87/147 ]  LANDMET
+  - [ 88/147 ]  LANDMET_ANC_ST
+  - [ 89/147 ]  LANDMET_ANC_TESA
+  - [ 90/147 ]  LANDMET_ANC_TEIME
+  - [ 91/147 ]  LANDMET_ANC_SM
+  - [ 92/147 ]  SEA_SURFACE_HEIGHT_ALT_INTERIM_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL1812
+  - [ 93/147 ]  SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL1812
+  - [ 94/147 ]  JPL-RGPS-0001
+  - [ 95/147 ]  MSAQSO2L4
+  - [ 96/147 ]  MSLERLSTL3zm
+  - [ 97/147 ]  MSLERLSTL3d10
+  - [ 98/147 ]  MSLERNNL3zm
+  - [ 99/147 ]  MSLERNNL3d10
+  - [ 100/147 ] MSO3L3zm5
+  - [ 101/147 ] MSVOLSO2L4
+  - [ 102/147 ] MACLWP_diurnal
+  - [ 103/147 ] MACLWP_mean
+  - [ 104/147 ] MACTWP_mean
+  - [ 105/147 ] GWELDYR
+  - [ 106/147 ] GWELDYR
+  - [ 107/147 ] GWELDMO
+  - [ 108/147 ] GWELDMO
+  - [ 109/147 ] GSSTF_NCEP
+  - [ 110/147 ] GSSTFM_NCEP
+  - [ 111/147 ] GSSTF_NCEP
+  - [ 112/147 ] GSSTFM_NCEP
+  - [ 113/147 ] OMPS_NPP_NMSO2_PCA_L2
+  - [ 114/147 ] PRESWOT_HYDRO_L4_LAKE_STORAGE_TIME_SERIES_V2
+  - [ 115/147 ] PRESWOT_HYDRO_L3_LAKE_RESEVOIR_AREA_V2
+  - [ 116/147 ] PRESWOT_HYDRO_L2_GREALM_LAKE_HEIGHT_V2
+  - [ 117/147 ] PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2
+  - [ 118/147 ] PRESWOT_HYDRO_GRRATS_L2_VIRTUAL_STATION_HEIGHTS_V2
+  - [ 119/147 ] PET_PU_3H025
+  - [ 120/147 ] SBUVN07L2
+  - [ 121/147 ] SBUVN07L3zm
+  - [ 122/147 ] SBUV2N11L2
+  - [ 123/147 ] SBUV2N11L3zm
+  - [ 124/147 ] SBUV2N14L2
+  - [ 125/147 ] SBUV2N14L3zm
+  - [ 126/147 ] SBUV2N16L2
+  - [ 127/147 ] SBUV2N16L3zm
+  - [ 128/147 ] SBUV2N17L2
+  - [ 129/147 ] SBUV2N17L3zm
+  - [ 130/147 ] SBUV2N18L2
+  - [ 131/147 ] SBUV2N18L3zm
+  - [ 132/147 ] SBUV2N19L2
+  - [ 133/147 ] SBUV2N19L3zm
+  - [ 134/147 ] SBUV2N09L2
+  - [ 135/147 ] SBUV2N09L3zm
+  - [ 136/147 ] SWDB_L305
+  - [ 137/147 ] SWDB_L310
+  - [ 138/147 ] SWDB_L2
+  - [ 139/147 ] SWDB_L3M05
+  - [ 140/147 ] SWDB_L3M10
+  - [ 141/147 ] SWDB_L3MC05
+  - [ 142/147 ] SWDB_L3MC10
+  - [ 143/147 ] WC_PM_ET_050
+  - [ 144/147 ] WC_MULTISEN_PREC_025
+  - [ 145/147 ] TOMSN7SO2
+  - [ 146/147 ] TOMSN7SO2
+  - [ 147/147 ] TOMSN7AER
+# ------------------------------------------------------------ 
+# [ 23 / 25 ]: AQUARIUS SAC-D
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+Traceback (most recent call last):
+  File "/Users/jmcnelis/Software/miniconda/envs/geospatial/lib/python3.8/runpy.py", line 193, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/jmcnelis/Software/miniconda/envs/geospatial/lib/python3.8/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/jmcnelis/Documents/projects/nasa-cmr-inventory/cmr/__main__.py", line 55, in <module>
+    gdf.to_file( driver="ESRI Shapefile", filename=pjoin(outputs, "ds.shp"))
+  File "/Users/jmcnelis/Software/miniconda/envs/geospatial/lib/python3.8/site-packages/geopandas/geodataframe.py", line 533, in to_file
+    to_file(self, filename, driver, schema, index, **kwargs)
+  File "/Users/jmcnelis/Software/miniconda/envs/geospatial/lib/python3.8/site-packages/geopandas/io/file.py", line 179, in to_file
+    schema = infer_schema(df)
+  File "/Users/jmcnelis/Software/miniconda/envs/geospatial/lib/python3.8/site-packages/geopandas/io/file.py", line 231, in infer_schema
+    raise ValueError("Cannot write empty DataFrame to file.")
+ValueError: Cannot write empty DataFrame to file.
+# ------------------------------------------------------------ 
+# [ 24 / 25 ]: ENVISAT
+# ------------------------------------------------------------ 
+# CHECK CFG 
+# QUERY CMR [ DATASETS ]
+# QUERY CMR [ GRANULES ]
+  - [ 1/1 ]     ALES_L2_OST_ENVISAT_V1
+(geospatial) 

@@ -31,34 +31,6 @@ The first column (*project*) contains the strings passed to CMR collections API:
 {proj_rows}
 </table>
 
-## contents
-
-Each **project** has the following files (e.g. [`{proj_dir}/`]({proj_dir}/)):
-
-* [`{proj_dir}/ds.json`]({proj_dir}/ds.json): UMM-C records for all datasets (API response as JSON)
-* [`{proj_dir}/ds.csv`]({proj_dir}/ds.csv): UMM-C records parsed to a table
-* [`{proj_dir}/ds.geojson`]({proj_dir}/ds.geojson): UMM-C records table as a GeoJSON
-* [`{proj_dir}/ds.shp`]({proj_dir}/ds.shp): UMM-C records table as an ESRI Shapefile
-* [`{proj_dir}/ds.kml`]({proj_dir}/ds.kml): UMM-C records table as a KML
-
-And each **dataset** in a project has the following files (e.g. [`{dset_dir}/`]({dset_dir}/)):
-
-* [`{dset_dir}/gr.json`]({dset_dir}/gr.json): UMM-G records for all granules (API response as JSON)
-* [`{dset_dir}/gr.csv`]({dset_dir}/gr.csv): UMM-G records parsed to a table
-* [`{dset_dir}/gr.geojson`]({dset_dir}/gr.geojson): UMM-G records table as a GeoJSON
-* [`{dset_dir}/gr.shp`]({dset_dir}/gr.shp): UMM-G records table as an ESRI Shapefile
-* [`{dset_dir}/gr.kml`]({dset_dir}/gr.kml): UMM-G records table as a KML
-
-## usage
-
-*Optional: update path and query settings in [`config.json`](config.json).*
-
-Run as a module by passing a valid project name to [`cmr/__main__.py`](cmr/__main__.py):
-
-```shell
-python -m cmr above
-```
-
 ## updates
 
 Update history is tracked by project in [`{updates}`]({updates}).
@@ -69,7 +41,7 @@ Update history is tracked by project in [`{updates}`]({updates}).
 
 readme_row_template = '''  <tr>
     <td>{proj_name}</td>
-    <td><a href="{proj_dir}{proj_name}/">{proj_dir}{proj_name}/</a></td>
+    <td><a href="{proj_dir}/{proj_name}/">{proj_dir}/{proj_name}/</a></td>
     <td>{proj_dset}</td>
     <td>{proj_gran}</td>
     <td>{proj_last}</td>
@@ -77,16 +49,8 @@ readme_row_template = '''  <tr>
 '''
 
 
-def write_readme(
-    directory: str, 
-    readme_path: str="README.md",
-    readme_project: str="above", 
-    readme_dataset: str="ABoVE_Arctic_CAP_1658", ):
+def write_readme(directory: str, readme_path: str):
     """ """
-    
-    # Get paths to the example files and folders.format
-    proj_dir = os.path.join(directory, readme_project)
-    dset_dir = os.path.join(proj_dir, readme_dataset)
     
     # Get the projects reference json as a dictionary.
     with open(os.path.join(directory, "projects.json"), "r") as f:       
@@ -111,8 +75,6 @@ def write_readme(
     
     # Put the rows in a table and format the readme template.
     readme = readme_template.format(
-        proj_dir=proj_dir, 
-        dset_dir=dset_dir, 
         proj_rows="".join(proj_rows),
         updates=os.path.join(directory, "projects.json"),
         timestamp=dt.now().__str__().split(".")[0],

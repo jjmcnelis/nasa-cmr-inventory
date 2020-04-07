@@ -1,0 +1,103 @@
+{
+  "hits": 1,
+  "took": 14,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1438404902-LPDAAC_ECS",
+        "revision-id": 3,
+        "native-id": "SC:GFSAD30VAL.001:2281646870",
+        "provider-id": "LPDAAC_ECS",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-06-19T17:31:05Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2008-01-01T00:00:00.000Z",
+            "EndingDateTime": "2016-12-31T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "SC:GFSAD30VAL.001:2281646870",
+        "AdditionalAttributes": [
+          {
+            "Name": "identifier_product_doi_authority",
+            "Values": [
+              "http://dx.doi.org"
+            ]
+          },
+          {
+            "Name": "identifier_product_doi",
+            "Values": [
+              "10.5067/MEaSUREs/GFSAD/GFSAD30VAL.001"
+            ]
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2017-11-06T12:52:58.010Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-06-14T09:20:28.856Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "EntryTitle": "Global Food Security-support Analysis Data (GFSAD) Cropland Extent-Product 2015 Validation 30 m V001"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://e4ftl01.cr.usgs.gov//MODV6_Dal_G/MEASURES/GFSAD30VAL.001/2008.01.01/GFSAD30VAL_2015_001_2017303165408.zip",
+            "Type": "GET DATA",
+            "Description": "This file may be downloaded directly from this link",
+            "MimeType": "application/zip"
+          },
+          {
+            "URL": "https://e4ftl01.cr.usgs.gov//MODV6_Dal_G/MEASURES/GFSAD30VAL.001/2008.01.01/GFSAD30VAL_2015_001_2017303165408.zip.xml",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "This Metadata file may be downloaded directly from this link",
+            "MimeType": "text/xml"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "Identifiers": [
+            {
+              "Identifier": "GFSAD30VAL_2015_001_2017303165408.zip",
+              "IdentifierType": "ProducerGranuleId"
+            }
+          ],
+          "ProductionDateTime": "2017-10-30T16:54:08.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.586438,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "hits": 1,
+  "took": 17,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1657654116-PODAAC",
+        "revision-id": 1,
+        "native-id": "20160223000000-OSISAF-L3C_GHRSST-SSTsubskin-AVHRR_SST_METOP_A_GLB-sstglb_metop02_20160223_000000-v02.0-fv01.0.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-18T22:44:52Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-02-22T18:00:13.000Z",
+            "EndingDateTime": "2016-02-23T05:54:38.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "20160223000000-OSISAF-L3C_GHRSST-SSTsubskin-AVHRR_SST_METOP_A_GLB-sstglb_metop02_20160223_000000-v02.0-fv01.0.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2016-02-23T08:45:58.227Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-18T22:44:45.156Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "AVHRR_SST_METOP_A_GLB-OSISAF-L3C-v1.0",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://data.nodc.noaa.gov/ghrsst/GDS2/L3C/GLOB/AVHRR_SST_METOP_A_GLB/OSISAF/v1/2016/053/20160223000000-OSISAF-L3C_GHRSST-SSTsubskin-AVHRR_SST_METOP_A_GLB-sstglb_metop02_20160223_000000-v02.0-fv01.0.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ghrsst/data/GDS2/L3C/GLOB/AVHRR_SST_METOP_A_GLB/OSISAF/v1/2016/053/20160223000000-OSISAF-L3C_GHRSST-SSTsubskin-AVHRR_SST_METOP_A_GLB-sstglb_metop02_20160223_000000-v02.0-fv01.0.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/ghrsst/data/GDS2/L3C/GLOB/AVHRR_SST_METOP_A_GLB/OSISAF/v1/2016/053/20160223000000-OSISAF-L3C_GHRSST-SSTsubskin-AVHRR_SST_METOP_A_GLB-sstglb_metop02_20160223_000000-v02.0-fv01.0.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2016-02-23T07:55:37.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 26.13333797454834,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    }
+  ]
+}

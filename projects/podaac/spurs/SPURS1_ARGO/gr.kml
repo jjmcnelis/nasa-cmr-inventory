@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gr" id="gr">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="gran_name" type="string"></SimpleField>
+	<SimpleField name="gran_size_mb" type="float"></SimpleField>
+	<SimpleField name="gran_parameters" type="string"></SimpleField>
+	<SimpleField name="gran_day_night" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>gr</name>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652990301-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5903997.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:16Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5903997.nc</SimpleData>
+		<SimpleData name="coll_shortname">5.077121734619141</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-09T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-19T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">32.882</SimpleData>
+		<SimpleData name="time_max">40.974</SimpleData>
+		<SimpleData name="lat_min">-71.602</SimpleData>
+		<SimpleData name="lat_max">-55.796</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-55.796,32.882 -55.796,40.974 -71.602,40.974 -71.602,32.882 -55.796,32.882</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652991116-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5903996.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:33Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5903996.nc</SimpleData>
+		<SimpleData name="coll_shortname">2.609840393066406</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-09T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-17T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">26.039</SimpleData>
+		<SimpleData name="time_max">36.357</SimpleData>
+		<SimpleData name="lat_min">-75.736</SimpleData>
+		<SimpleData name="lat_max">-58.267</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-58.267,26.039 -58.267,36.357 -75.736,36.357 -75.736,26.039 -58.267,26.039</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652989759-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5904001.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:06Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5904001.nc</SimpleData>
+		<SimpleData name="coll_shortname">2.557041168212891</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-12T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">30.018</SimpleData>
+		<SimpleData name="time_max">33.924</SimpleData>
+		<SimpleData name="lat_min">-57.581</SimpleData>
+		<SimpleData name="lat_max">-46.691</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-46.691,30.018 -46.691,33.924 -57.581,33.924 -57.581,30.018 -46.691,30.018</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652989979-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5904008.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:11Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5904008.nc</SimpleData>
+		<SimpleData name="coll_shortname">2.688472747802734</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-12T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-15T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">26.252</SimpleData>
+		<SimpleData name="time_max">30.147</SimpleData>
+		<SimpleData name="lat_min">-44.628</SimpleData>
+		<SimpleData name="lat_max">-39.939</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-39.939,26.252 -39.939,30.147 -44.628,30.147 -44.628,26.252 -39.939,26.252</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652990968-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5904015.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:30Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5904015.nc</SimpleData>
+		<SimpleData name="coll_shortname">1.249111175537109</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-14T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-03-22T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">24.268</SimpleData>
+		<SimpleData name="time_max">25.142</SimpleData>
+		<SimpleData name="lat_min">-38.437</SimpleData>
+		<SimpleData name="lat_max">-37.914</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-37.914,24.268 -37.914,25.142 -38.437,25.142 -38.437,24.268 -37.914,24.268</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652990714-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5903999.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:21Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5903999.nc</SimpleData>
+		<SimpleData name="coll_shortname">2.595756530761719</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-15T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-18T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">23.354</SimpleData>
+		<SimpleData name="time_max">25.491</SimpleData>
+		<SimpleData name="lat_min">-37.79</SimpleData>
+		<SimpleData name="lat_max">-30.072</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-30.072,23.354 -30.072,25.491 -37.79,25.491 -37.79,23.354 -30.072,23.354</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652989815-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5904006.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:09Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5904006.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.03316879272460938</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2012-09-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">25.287</SimpleData>
+		<SimpleData name="time_max">25.287</SimpleData>
+		<SimpleData name="lat_min">-38.735</SimpleData>
+		<SimpleData name="lat_max">-38.735</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-38.735,25.287 -38.735,25.287 -38.735,25.287 -38.735,25.287</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652990898-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5903998.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:29Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5903998.nc</SimpleData>
+		<SimpleData name="coll_shortname">3.365028381347656</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-20T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">23.362</SimpleData>
+		<SimpleData name="time_max">25.64</SimpleData>
+		<SimpleData name="lat_min">-38.24</SimpleData>
+		<SimpleData name="lat_max">-30.274</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-30.274,23.362 -30.274,25.64 -38.24,25.64 -38.24,23.362 -30.274,23.362</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652989755-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5904002.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:03Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5904002.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.01871490478515625</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-17T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2012-09-17T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">25.268</SimpleData>
+		<SimpleData name="time_max">25.268</SimpleData>
+		<SimpleData name="lat_min">-37.202</SimpleData>
+		<SimpleData name="lat_max">-37.202</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-37.202,25.268 -37.202,25.268 -37.202,25.268 -37.202,25.268</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652989900-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5904009.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:10Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5904009.nc</SimpleData>
+		<SimpleData name="coll_shortname">2.587593078613281</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-17T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-21T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">24.466</SimpleData>
+		<SimpleData name="time_max">26.925</SimpleData>
+		<SimpleData name="lat_min">-39.652</SimpleData>
+		<SimpleData name="lat_max">-34.964</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-34.964,24.466 -34.964,26.925 -39.652,26.925 -39.652,24.466 -34.964,24.466</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652990109-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5904011.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:13Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5904011.nc</SimpleData>
+		<SimpleData name="coll_shortname">5.896022796630859</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-18T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-19T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">21.483</SimpleData>
+		<SimpleData name="time_max">25.015</SimpleData>
+		<SimpleData name="lat_min">-37.746</SimpleData>
+		<SimpleData name="lat_max">-33.478</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-33.478,21.483 -33.478,25.015 -37.746,25.015 -37.746,21.483 -33.478,21.483</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652990392-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5904005.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:17Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5904005.nc</SimpleData>
+		<SimpleData name="coll_shortname">2.688472747802734</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-18T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-20T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">22.408</SimpleData>
+		<SimpleData name="time_max">24.658</SimpleData>
+		<SimpleData name="lat_min">-38.549</SimpleData>
+		<SimpleData name="lat_max">-35</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-35.0,22.408 -35.0,24.658 -38.549,24.658 -38.549,22.408 -35.0,22.408</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652990502-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5904012.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:18Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5904012.nc</SimpleData>
+		<SimpleData name="coll_shortname">2.634841918945312</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-18T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-18T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">22.569</SimpleData>
+		<SimpleData name="time_max">25.227</SimpleData>
+		<SimpleData name="lat_min">-38.239</SimpleData>
+		<SimpleData name="lat_max">-31.075</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-31.075,22.569 -31.075,25.227 -38.239,25.227 -38.239,22.569 -31.075,22.569</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652990716-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5904010.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:24Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5904010.nc</SimpleData>
+		<SimpleData name="coll_shortname">17.02978134155273</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-18T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-04-14T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">24.268</SimpleData>
+		<SimpleData name="time_max">27.853</SimpleData>
+		<SimpleData name="lat_min">-40.707</SimpleData>
+		<SimpleData name="lat_max">-38.08</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-38.08,24.268 -38.08,27.853 -40.707,27.853 -40.707,24.268 -38.08,24.268</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652990729-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5904004.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:26Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5904004.nc</SimpleData>
+		<SimpleData name="coll_shortname">2.638008117675781</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-18T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-07T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">21.987</SimpleData>
+		<SimpleData name="time_max">24.989</SimpleData>
+		<SimpleData name="lat_min">-38.973</SimpleData>
+		<SimpleData name="lat_max">-36.245</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-36.245,21.987 -36.245,24.989 -38.973,24.989 -38.973,21.987 -36.245,21.987</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652990804-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5904003.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:28Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5904003.nc</SimpleData>
+		<SimpleData name="coll_shortname">2.620620727539062</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-18T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-16T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">22.418</SimpleData>
+		<SimpleData name="time_max">24.829</SimpleData>
+		<SimpleData name="lat_min">-40.803</SimpleData>
+		<SimpleData name="lat_max">-36.544</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-36.544,22.418 -36.544,24.829 -40.803,24.829 -40.803,22.418 -36.544,22.418</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652991167-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5904007.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:34Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5904007.nc</SimpleData>
+		<SimpleData name="coll_shortname">2.663284301757812</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-18T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-21T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">23.755</SimpleData>
+		<SimpleData name="time_max">25.651</SimpleData>
+		<SimpleData name="lat_min">-39.052</SimpleData>
+		<SimpleData name="lat_max">-35.198</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-35.198,23.755 -35.198,25.651 -39.052,25.651 -39.052,23.755 -35.198,23.755</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652990545-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5904017.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:20Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5904017.nc</SimpleData>
+		<SimpleData name="coll_shortname">1.177955627441406</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-20T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-03-22T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">23.776</SimpleData>
+		<SimpleData name="time_max">25.071</SimpleData>
+		<SimpleData name="lat_min">-37.813</SimpleData>
+		<SimpleData name="lat_max">-36.031</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-36.031,23.776 -36.031,25.071 -37.813,25.071 -37.813,23.776 -36.031,23.776</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652990717-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5904013.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:25Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5904013.nc</SimpleData>
+		<SimpleData name="coll_shortname">15.67259979248047</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-23T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-11-06T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">23.006</SimpleData>
+		<SimpleData name="time_max">25.325</SimpleData>
+		<SimpleData name="lat_min">-40.569</SimpleData>
+		<SimpleData name="lat_max">-35.38</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-35.38,23.006 -35.38,25.325 -40.569,25.325 -40.569,23.006 -35.38,23.006</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652989758-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5903751.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:04Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5903751.nc</SimpleData>
+		<SimpleData name="coll_shortname">2.210655212402344</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-10-06T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-19T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">25.266</SimpleData>
+		<SimpleData name="time_max">28.017</SimpleData>
+		<SimpleData name="lat_min">-39.558</SimpleData>
+		<SimpleData name="lat_max">-36.23</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-36.23,25.266 -36.23,28.017 -39.558,28.017 -39.558,25.266 -36.23,25.266</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652989760-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5903750.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5903750.nc</SimpleData>
+		<SimpleData name="coll_shortname">2.210655212402344</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-10-06T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-19T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">28.209</SimpleData>
+		<SimpleData name="time_max">31.229</SimpleData>
+		<SimpleData name="lat_min">-39.302</SimpleData>
+		<SimpleData name="lat_max">-31.374</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-31.374,28.209 -31.374,31.229 -39.302,31.229 -39.302,28.209 -31.374,28.209</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652990198-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5903995.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:14Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5903995.nc</SimpleData>
+		<SimpleData name="coll_shortname">2.210655212402344</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-10-07T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-19T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">27.88</SimpleData>
+		<SimpleData name="time_max">30.325</SimpleData>
+		<SimpleData name="lat_min">-33.788</SimpleData>
+		<SimpleData name="lat_max">-28.29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-28.29,27.88 -28.29,30.325 -33.788,30.325 -33.788,27.88 -28.29,27.88</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652990715-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5904000.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:22Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5904000.nc</SimpleData>
+		<SimpleData name="coll_shortname">2.209323883056641</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-10-07T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-18T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">29.301</SimpleData>
+		<SimpleData name="time_max">34.419</SimpleData>
+		<SimpleData name="lat_min">-39.893</SimpleData>
+		<SimpleData name="lat_max">-31.121</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-31.121,29.301 -31.121,34.419 -39.893,34.419 -39.893,29.301 -31.121,29.301</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652991056-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">argo-profiles-5904018.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:17:32Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ARGO</SimpleData>
+		<SimpleData name="cmr_publication_date">argo-profiles-5904018.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.1111412048339844</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2014-07-26T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-08-19T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">25.379</SimpleData>
+		<SimpleData name="time_max">25.515</SimpleData>
+		<SimpleData name="lat_min">-41.193</SimpleData>
+		<SimpleData name="lat_max">-41.089</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-41.089,25.379 -41.089,25.515 -41.193,25.515 -41.193,25.379 -41.089,25.379</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

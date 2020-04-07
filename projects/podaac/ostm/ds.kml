@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ds" id="ds">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_title" type="string"></SimpleField>
+	<SimpleField name="coll_version" type="string"></SimpleField>
+	<SimpleField name="coll_doi" type="string"></SimpleField>
+	<SimpleField name="coll_abstract" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="coll_status" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl_desc" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>ds</name>
+  <Placemark>
+	<name>collection</name>
+	<description>C1674794634-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ALES+Jason-2+Coastal+Altimetry+Version+1</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-23T16:53:51Z</SimpleData>
+		<SimpleData name="cmr_revision_date">ALES Jason-2 Coastal Altimetry Version 1</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_version">Adaptive Leading Edge Subwaveform (ALES) provides coastal and open ocean altimetric measurements by applying a specialized retracker to Jason-2 data. This is an along-track dataset that takes takes the high frequency SGDR data and retracks it to remove the waveforms that show land contamination. Therefore these data are provided at 20 Hz. It is similar to the Jason-2 SGDR data except that it also includes ALES variables for the range, significant wave height and sigma0 so that the user can calculate the retracked SSHA.</SimpleData>
+		<SimpleData name="coll_doi">ALES_L2_OST_JASON2_V1</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-66</SimpleData>
+		<SimpleData name="time_max">66</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-66 180,66 -180,66 -180,-66 180,-66</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1650311571-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">OSTM+GPS+based+orbit+and+SSHA+OGDR</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-01T16:27:27Z</SimpleData>
+		<SimpleData name="cmr_revision_date">OSTM GPS based orbit and SSHA OGDR</SimpleData>
+		<SimpleData name="cmr_publication_date">A</SimpleData>
+		<SimpleData name="coll_version">This dataset is similar to the OSTM/Jason-2 Operation Geophysical Data Record (OGDR) that is distributed at NOAA (ftp://data.nodc.noaa.gov/pub/data.nodc/jason2/ogdr/), but also includes a GPS based orbit and Sea Surface Height Anomalies (SSHA) calculated from that orbit, as supposed to the DORIS based orbit that is already available in the OGDR.  It has a 5 hour time lag due to the time needed to recalculate the orbit and SSHA.  The GPS orbits have been shown to be more accurate than the DORIS orbits on a near real time scale and therefore produces a more accurate SSHA.</SimpleData>
+		<SimpleData name="coll_doi">OSTM_L2_OST_OGDR_GPS</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-66</SimpleData>
+		<SimpleData name="time_max">66</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-66 180,66 -180,66 -180,-66 180,-66</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

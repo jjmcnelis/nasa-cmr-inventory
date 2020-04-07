@@ -1,0 +1,891 @@
+{
+  "hits": 3,
+  "took": 12,
+  "items": [
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "Gridded+Altimeter+Fields+with+Enhanced+Coastal+Coverage",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1652978127-PODAAC",
+        "revision-date": "2019-11-06T18:12:56Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "OSU/COAS, OSU/COAS, 2010-09-26, Gridded Altimeter Fields with Enhanced Coastal Coverage, 10.5067/USWCO-ALT01, N/A"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.5,
+                  "NorthBoundingCoordinate": 48.5,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": 35.25
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 48.5,
+                  "EastBoundingCoordinate": -132.25,
+                  "SouthBoundingCoordinate": 35.25
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Ocean Circulation",
+            "VariableLevel1": "Ocean Currents"
+          },
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Sea Surface Topography",
+            "VariableLevel1": "Sea Surface Height"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1992-10-14T00:00:00.000Z",
+                "EndingDateTime": "2012-04-18T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "4"
+        },
+        "DOI": {
+          "DOI": "10.5067/USWCO-ALT01"
+        },
+        "ShortName": "ALT_TIDE_GAUGE_L4_OST_SLA_US_WEST_COAST",
+        "EntryTitle": "Gridded Altimeter Fields with Enhanced Coastal Coverage",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/coastal_alt/preview/L4/OSU_COAS/weekly",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-USWCO-ALT01&apidoc",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/USWCO-ALT01"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/coastal_alt/preview/L4/OSU_COAS/weekly/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2010-08-12T00:51:48.954Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-04-28T05:01:45.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The Gridded Altimeter Fields with Enhanced Coastal Coverage data product contains Sea Surface Height Anomalies (SSHA or SLA) and zonal and meridional geostrophic velocities for the US west coast encompassing 35.25 deg-48.5 deg N latitude and 227.75 deg-248.5 deg E longitude.  This annually updated data product extends from October 14, 1992 through November 4, 2009.  SSHA and current velocities are derived from the AVISO quarter degree DT UPD MSLA version 3.0 grids, 0.75 deg and greater away from the coast.  Values within 0.75 deg of the coast are derived from tide gauge observations and interpolated out to the altimeter filled region.  Details on how these data are derived can be found in: Saraceno, M., P. T. Strub, and P. M. Kosro (2008), Estimates of sea surface height and near-surface alongshore coastal currents from combinations of altimeters and tide gauges, J. Geophys. Res., 113, C11013, doi:10.1029/2008JC004756.",
+        "LocationKeywords": [
+          {
+            "Category": "OCEAN",
+            "Type": "PACIFIC OCEAN",
+            "Subregion1": "EASTERN PACIFIC OCEAN"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-06T18:12:54.101Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "CIOSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "Craig Risin and P. Ted Strub"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Jessica",
+                "MiddleName": "none",
+                "LastName": "Hausman"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "818-354-4588"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "Jessica.K.Hausman@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "OSTM/JASON-2",
+            "LongName": "Ocean Surface Topography Mission/Jason-2",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "112.43",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "66.04",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "POSEIDON-3",
+                "LongName": "OSTM/Jason-2 RADAR alitmieter",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "5.1",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "spacecraft",
+            "ShortName": "TOPEX/POSEIDON",
+            "LongName": "Topography Experiment/Poseidon",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "112.43",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "66.04",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "SSALT",
+                "LongName": "POSEIDON Solid State Radar Altimeter",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "5.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "spacecraft",
+            "ShortName": "JASON-1",
+            "LongName": "JASON-1",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "112.43",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "66.04",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "POSEIDON-2",
+                "LongName": "JASON-1 RADAR ALTIMETER"
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "Gridded+Altimeter+Fields+with+Enhanced+Coastal+Coverage+Daily",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1652977867-PODAAC",
+        "revision-date": "2019-11-06T18:12:52Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "OSU/COAS, OSU/COAS, 2012-12-17, Gridded Altimeter Fields with Enhanced Coastal Coverage Daily, 10.5067/USWCD-ALT01, N/A"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -111.0,
+                  "NorthBoundingCoordinate": 49.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": 35.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 49.0,
+                  "EastBoundingCoordinate": -133.0,
+                  "SouthBoundingCoordinate": 35.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN CIRCULATION",
+            "VariableLevel1": "OCEAN CURRENTS"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "SEA SURFACE TOPOGRAPHY",
+            "VariableLevel1": "SEA SURFACE HEIGHT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1992-10-14T12:00:00.000Z",
+                "EndingDateTime": "2011-01-19T12:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "4"
+        },
+        "DOI": {
+          "DOI": "10.5067/USWCD-ALT01"
+        },
+        "ShortName": "ALT_TIDE_GAUGE_L4_OST_SLA_US_WEST_COAST_DAILY",
+        "EntryTitle": "Gridded Altimeter Fields with Enhanced Coastal Coverage Daily",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/coastal_alt/preview/L4/OSU_COAS/daily",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/USWCD-ALT01"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/coastal_alt/preview/L4/OSU_COAS/daily/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2012-11-09T23:11:24.494Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-04-28T05:01:45.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The Gridded Altimeter Fields with Enhanced Coastal Coverage data product contains Sea Surface Height Anomalies (SSHA or SLA) and zonal and meridional geostrophic velocities for the US west coast encompassing 35.25 deg-48.5 deg N latitude and 227.75 deg-248.5 deg E longitude.  This annually updated data product extends from October 14, 1992 through November 4, 2009.  SSHA and current velocities are derived from the AVISO quarter degree DT UPD MSLA version 3.0 grids, 0.75 deg and greater away from the coast.  Values within 0.75 deg of the coast are derived from tide gauge observations and interpolated out to the altimeter filled region.  Details on how these data are derived can be found in: Saraceno, M., P. T. Strub, and P. M. Kosro (2008), Estimates of sea surface height and near-surface alongshore coastal currents from combinations of altimeters and tide gauges, J. Geophys. Res., 113, C11013, doi:10.1029/2008JC004756.",
+        "LocationKeywords": [
+          {
+            "Category": "OCEAN",
+            "Type": "PACIFIC OCEAN",
+            "Subregion1": "EASTERN PACIFIC OCEAN"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-06T18:12:50.017Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "CIOSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "Craig Risin and P. Ted Strub"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Jessica",
+                "MiddleName": "none",
+                "LastName": "Hausman"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "818-354-4588"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "Jessica.K.Hausman@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "OSTM/JASON-2",
+            "LongName": "Ocean Surface Topography Mission/Jason-2",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "112.43",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "66.04",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "POSEIDON-3",
+                "LongName": "OSTM/Jason-2 RADAR alitmieter",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "5.1",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "spacecraft",
+            "ShortName": "TOPEX/POSEIDON",
+            "LongName": "Topography Experiment/Poseidon",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "112.43",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "66.04",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "SSALT",
+                "LongName": "POSEIDON Solid State Radar Altimeter",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "5.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "spacecraft",
+            "ShortName": "JASON-1",
+            "LongName": "JASON-1",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "112.43",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "66.04",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "POSEIDON-2",
+                "LongName": "JASON-1 RADAR ALTIMETER"
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 2,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "SeaWinds+on+QuikSCAT+Level+3+Near-Coast+Wind+and+Stress+Fields+with+Enhanced+Coverage+for+the+US+West+Coast+(OSU/COAS)",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1661292896-PODAAC",
+        "revision-date": "2019-11-27T15:59:22Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Barry Vanhoff, Craig Risien, and Ted Strub, Barry Vanhoff, Craig Risien, and Ted Strub, 2011-02-15, SeaWinds on QuikSCAT Level 3 Near-Coast Wind and Stress Fields with Enhanced Coverage for the US West Coast (OSU/COAS), 10.5067/QSOSU-L3WC0, https://podaac-tools.jpl.nasa.gov/drive/files/allData/quikscat/preview/L3/osu_coas/docs/qscat_vanhoff_uswc_userguide.pdf"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -135.0,
+                  "NorthBoundingCoordinate": 50.0,
+                  "EastBoundingCoordinate": -115.0,
+                  "SouthBoundingCoordinate": 30.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Ocean Winds",
+            "VariableLevel1": "Vorticity",
+            "DetailedVariable": "None"
+          },
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Ocean Winds",
+            "VariableLevel1": "Convergence/Divergence",
+            "DetailedVariable": "None"
+          },
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Ocean Winds",
+            "VariableLevel1": "Wind Stress",
+            "DetailedVariable": "None"
+          },
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Ocean Winds",
+            "VariableLevel1": "Surface Winds",
+            "DetailedVariable": "None"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1999-07-20T02:26:00.000Z",
+                "EndingDateTime": "2009-11-21T14:34:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/QSOSU-L3WC0"
+        },
+        "ShortName": "QSCAT_OSUCOAS_L3_OW_USWestCoast",
+        "EntryTitle": "SeaWinds on QuikSCAT Level 3 Near-Coast Wind and Stress Fields with Enhanced Coverage for the US West Coast (OSU/COAS)",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/quikscat/preview/L3/osu_coas/us_west_coast",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "Dataset User Guide",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/quikscat/preview/L3/osu_coas/docs/qscat_vanhoff_uswc_userguide.pdf"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-QSOSU-L3WC0",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/QSOSU-L3WC0"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/quikscat/preview/L3/osu_coas/us_west_coast/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2010-12-03T00:38:44.441Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-04-28T05:01:46.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This high-resolution, gridded QuikSCAT scatterometer dataset with enhanced coastal coverage of the United States West Coast contains ocean surface wind and stress vector retrievals (magnitude and direction and zonal/meridional components) and derived quantities (wind speed squared, wind speed cubed, surface relative vorticity, vector wind divergence, wind stress curl, and wind stress divergence). The spatial coverage domain extends from latitude 30 degrees North to 50 degrees North and longitude 135 degrees West to 115 degrees West. The coastal wind vector retrieval algorithm developed by Barry Vanhoff and Michael Freilich has been utilized to provide improved coastal wind vector retrievals from QuikSCAT, resulting in retrievals as close as 5 km from coastlines. This dataset was developed by Barry Vanhoff, Craig Risien and Ted Strub and is made possible by funding provided by the NASA Research Opportunities in Space and Earth Science (ROSES) program and NOAA funded, Cooperative Institute for Oceanographic Satellite Studies (CIOSS) at the Oregon State University (OSU) College of Earth, Ocean and Atmospheric Sciences (CEOAS). PO.DAAC has agreed to provide this dataset as a special service to its users with the mutual understanding that issues or problems may remain in the data set, as noted below. All new users considering this dataset are strongly encouraged to first read the user guide and then to take full advantage of all potential dataset announcements through registration with PO.DAAC by emailing podaac@podaac.jpl.nasa.gov. It is further suggested that users examine a sequence of multiple parameter fields for the region and period of interest to ensure sufficient data quality and continuity. At present, it is worth noting the following known issues with regard to this dataset: a) data fields were produced using a modification of QuikSCAT Version 2 (i.e., previous version) winds, b) median-pass filter ambiguity removal is employed, hence not achieving the potential improvements from DIRTH, which affect the directional quality of the wind vector and stress data, c) does not incorporate the latest QuikSCAT re-processing improvements (i.e., Version 3 is most recent), d) different model winds (improved compared to Version 2 QuikSCAT L2B) are used in the ambiguity removal process for the entire dataset, and e) because of the lack of usable rain flags within 30 km of the coast, the rain flag value closest to the coast from the standard processing is applied between that rain flag location and the coast.  There are some consequences in light of the above issues, notably: a) the wind vector fields should not be merged with any other existing QuikSCAT dataset, b) there is more inherent structure to the data (in both signal and noise) compared to Version 3 data, c) data fields are smoother in comparison to the Version 2 data, and d) potentially spurious wind vectors may arise within ~30 km of the coast due to unflagged rain contaminated data and/or residual land reflections. More information including known problems/issues and important dataset updates can be found in the dataset user guide in PO.DAAC Drive at https://podaac-tools.jpl.nasa.gov/drive/files/allData/quikscat/preview/L3/osu_coas/docs/qscat_vanhoff_uswc_userguide.pdf .",
+        "LocationKeywords": [
+          {
+            "Category": "OCEAN",
+            "Type": "PACIFIC OCEAN",
+            "Subregion1": "EASTERN PACIFIC OCEAN"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-27T15:59:19.458Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "CIOSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "OSU/COAS"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "QUIKSCAT",
+            "LongName": "QUIKSCAT",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "100.93",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.6",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "SEAWINDS",
+                "LongName": "SeaWinds Scatterometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1800.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

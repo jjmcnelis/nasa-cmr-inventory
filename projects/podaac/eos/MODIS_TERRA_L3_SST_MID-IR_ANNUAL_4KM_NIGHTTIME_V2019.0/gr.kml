@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gr" id="gr">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="gran_name" type="string"></SimpleField>
+	<SimpleField name="gran_size_mb" type="float"></SimpleField>
+	<SimpleField name="gran_parameters" type="string"></SimpleField>
+	<SimpleField name="gran_day_night" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>gr</name>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060493-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20000101_20001231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:42Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20000101_20001231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">23.89301013946533</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2000-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2000-12-31T11:45:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060222-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20010101_20011231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:31Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20010101_20011231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.14016151428223</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2001-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2001-12-31T11:59:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060619-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20020101_20021231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:47Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20020101_20021231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.19262504577637</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2002-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2002-12-31T11:39:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060054-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20030101_20031231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:23Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20030101_20031231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.20146179199219</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2003-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2003-12-31T11:40:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060082-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20040101_20041231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:25Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20040101_20041231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.08214473724365</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2004-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2004-12-31T11:50:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060296-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20050101_20051231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:34Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20050101_20051231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.3126392364502</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2005-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2005-12-31T11:19:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060426-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20060101_20061231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:39Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20060101_20061231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.4110279083252</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2006-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2006-12-31T11:55:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060588-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20070101_20071231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:46Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20070101_20071231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.45976543426514</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2007-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2007-12-31T11:59:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687059985-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20080101_20081231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:21Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20080101_20081231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.00732517242432</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2008-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2008-12-31T11:39:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060023-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20090101_20091231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:22Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20090101_20091231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.05291271209717</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2009-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2009-12-31T11:40:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060520-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20100101_20101231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:43Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20100101_20101231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.50311946868896</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2010-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2010-12-31T11:10:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060555-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20110101_20111231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:44Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20110101_20111231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.30190563201904</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2011-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2011-12-31T11:40:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060151-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20120101_20121231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:28Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20120101_20121231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.14901828765869</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2012-12-31T11:54:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060191-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20130101_20131231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:29Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20130101_20131231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.28369045257568</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-12-31T11:59:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060391-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20140101_20141231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:38Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20140101_20141231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.17433738708496</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2014-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-12-31T11:25:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060453-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20150101_20151231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:40Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20150101_20151231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.1450309753418</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2015-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2015-12-31T11:59:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060263-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20160101_20161231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:32Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20160101_20161231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.33512020111084</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2016-12-31T11:09:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060364-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20170101_20171231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:36Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20170101_20171231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.5383939743042</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-12-31T11:44:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060327-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20180101_20181231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:35Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20180101_20181231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.32284545898438</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-12-31T11:45:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687060121-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">TERRA_MODIS.20190101_20191231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:22:26Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_TERRA_L3_SST_MID-IR_ANNUAL_4KM_NIGHTTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">TERRA_MODIS.20190101_20191231.L3m.YR.SST4.sst4.4km</SimpleData>
+		<SimpleData name="coll_shortname">24.64240264892578</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-12-31T11:14:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

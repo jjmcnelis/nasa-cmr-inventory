@@ -1,0 +1,3259 @@
+{
+  "hits": 11,
+  "took": 70,
+  "items": [
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "JPL+SMAP+Level+2B+CAP+Sea+Surface+Salinity+V4.2+Validated+Dataset",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1666605406-PODAAC",
+        "revision-date": "2019-12-10T18:30:14Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "JPL Climate Oceans and Solid Earth group, JPL, 2019-01-24, JPL SMAP Level 2B CAP Sea Surface Salinity V4.2 Validated Dataset, 10.5067/SMP42-2TOCS, http://podaac.jpl.nasa.gov/smap"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "SALINITY/DENSITY",
+            "VariableLevel1": "SALINITY",
+            "DetailedVariable": "SALINITY"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN WINDS",
+            "VariableLevel1": "SURFACE WINDS"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2015-04-01T00:44:02.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2B"
+        },
+        "DOI": {
+          "DOI": "10.5067/SMP42-2TOCS"
+        },
+        "ShortName": "SMAP_JPL_L2B_SSS_CAP_V42",
+        "EntryTitle": "JPL SMAP Level 2B CAP Sea Surface Salinity V4.2 Validated Dataset",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/L2/JPL/V4.2",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "IDL Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/idl/"
+          },
+          {
+            "Description": "Information on Data Outages & Known Issues",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/README.KnownIssues.txt"
+          },
+          {
+            "Description": "ATBD, Validation Analysis, Product Specifications, etc",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/JPL-CAP_V42/"
+          },
+          {
+            "Description": "SMAP-SSS Project and Instrument Overview",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://podaac.jpl.nasa.gov/smap"
+          },
+          {
+            "Description": "MATLAB Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/matlab/"
+          },
+          {
+            "Description": "JPL CAP SMAP-SSS V4.2 Technical Guide (ATBD, Validation Analysis, Product Format Specification)",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/JPL-CAP_V42/SMAP-SSS_JPL_V4.2_Documentation.pdf"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "NASA SMAP Mission Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://smap.jpl.nasa.gov/"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/SMP42-2TOCS"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/smap/L2/JPL/V4.2/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2018-06-06T21:56:42.871Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2018-06-06T21:56:42.871Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This is the PI-produced JPL SMAP-SSS V4.2, level 2B CAP, validated sea surface salinity (SSS) and extreme winds orbital/swath product from the NASA Soil Moisture Active Passive (SMAP) observatory.  It is based on the Combined Active-Passive (CAP) retrieval algorithm developed at JPL originally in the context of Aquarius/SAC-D and now extended to SMAP. SMAP-SSS V4.2 is a complete reprocessing of the entire mission series following on from the reprocessing of the source L1B-TB data by the SMAP mission on 6/4/2018. Updates in v4.2 include: improvement in the brightness temperature (TB) calibration using an adjusted reflector emissivity, inclusion of a Sea Surface Temperature (SST) dependent flat surface emissivity model, use of updated land correction tables, and inclusion of averaged ice concentration ancillary data in the v4.2 product. The JPL SMAP-SSS L2B CAP product includes data for a range of parameters: derived SMAP sea surface salinity, SSS uncertainty and wind speed/direction data for extreme winds, brightness temperatures for each radiometer polarization, ancillary reference surface salinity, ice concentration, wind and wave height data, quality flags,  and navigation data. Each data file covers one 98-minute orbit (15 files per day).  Data begins on April 1,2015 and is ongoing, with a 3 day latency in processing and availability. Observations are global in extent and provided at 25km swath grid with an approximate spatial resolution of 60 km. \n\nThe SMAP satellite is in a near-polar orbit at an inclination of 98 degrees and an altitude of 685 km. It has an ascending node time of 6 pm and is sun-synchronous. With its 1000km swath, SMAP achieves global coverage in approximately 3 days, but has an exact orbit repeat cycle of 8 days.  On board Instruments include a highly sensitive L-band radiometer operating at 1.41GHz and an L-band 1.26GHz radar sensor providing complementary active and passive sensing capabilities.  Malfunction of the SMAP scatterometer on 7 July, 2015, has necessitated the use of collocated wind speed for the surface roughness correction required for the surface salinity retrieval.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-12-10T18:30:11.971Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "4.2",
+        "Projects": [
+          {
+            "ShortName": "SMAP-SSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "Jet Propulsion Laboratory (JPL) Climate Oceans and Solid Earth group"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "null",
+            "ShortName": "SMAP",
+            "LongName": "NASA Soil Moisture Active Passive (SMAP)",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "98.5",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "SMAP L-BAND RADIOMETER",
+                "LongName": "SMAP L-Band Radiometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1000.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "HDF5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "JPL+SMAP+Level+2B+CAP+Sea+Surface+Salinity+V4.3+Validated+Dataset",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1705218500-PODAAC",
+        "revision-date": "2020-03-11T15:23:31Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "JPL, JPL, 2020-02-13, JPL SMAP Level 2B CAP Sea Surface Salinity V4.3 Validated Dataset, 10.5067/SMP43-2TOCS, http://podaac.jpl.nasa.gov/smap"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN WINDS",
+            "VariableLevel1": "SURFACE WINDS"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "SALINITY/DENSITY",
+            "VariableLevel1": "SALINITY",
+            "DetailedVariable": "SALINITY"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2015-04-01T00:44:02.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2B"
+        },
+        "DOI": {
+          "DOI": "10.5067/SMP43-2TOCS"
+        },
+        "ShortName": "SMAP_JPL_L2B_SSS_CAP_V43",
+        "EntryTitle": "JPL SMAP Level 2B CAP Sea Surface Salinity V4.3 Validated Dataset",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/L2/JPL/V4.3",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "MATLAB Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/matlab/"
+          },
+          {
+            "Description": "Information on Data Outages and Known Issues",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/README.KnownIssues.txt"
+          },
+          {
+            "Description": "NASA SMAP Mission Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://smap.jpl.nasa.gov/"
+          },
+          {
+            "Description": "JPL CAP SMAP-SSS V4.3 Technical Guide (ATBD, Validation Analysis, Product Format Specification)",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/JPL-CAP_V43/SMAP-SSS_JPL_V4.3_Documentation.pdf"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "SMAP-SSS Project and Instrument Overview",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://podaac.jpl.nasa.gov/smap"
+          },
+          {
+            "Description": "IDL Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/idl/"
+          },
+          {
+            "Description": "ATBD, Validation Analysis, Product Specifications, etc",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/JPL-CAP_V43/"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/SMP43-2TOCS"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/smap/L2/JPL/V4.3/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2019-11-09T22:47:36.924Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-11-09T22:47:36.924Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This is the PI-produced JPL SMAP-SSS V4.3, level 2B CAP, validated sea surface salinity (SSS) and extreme winds orbital/swath product from the NASA Soil Moisture Active Passive (SMAP) observatory.  It is based on the Combined Active-Passive (CAP) retrieval algorithm developed at JPL originally in the context of Aquarius/SAC-D and now extended to SMAP. Improvements with V4.3 include: 1) New residual TB calibration which removes the ascending/descending bias issue observed for version 4.3; 2) Slightly modified criteria for aggregation from L2B to L3 based on TB for V-pol minus TB for H-pol. The JPL SMAP-SSS L2B CAP product includes data for a range of parameters: derived SMAP sea surface salinity, SSS uncertainty and wind speed/direction data for extreme winds, brightness temperatures for each radiometer polarization, ancillary reference surface salinity, ice concentration, wind and wave height data, quality flags,  and navigation data. Each data file covers one 98-minute orbit (15 files per day).  Data begins on April 1,2015 and is ongoing, with a 3 day latency in processing and availability. Observations are global in extent and provided at 25km swath grid with an approximate spatial resolution of 60 km. \nThe SMAP satellite is in a near-polar orbit at an inclination of 98 degrees and an altitude of 685 km. It has an ascending node time of 6 pm and is sun-synchronous. With its 1000km swath, SMAP achieves global coverage in approximately 3 days, but has an exact orbit repeat cycle of 8 days.  On board Instruments include a highly sensitive L-band radiometer operating at 1.41GHz and an L-band 1.26GHz radar sensor providing complementary active and passive sensing capabilities.  Malfunction of the SMAP scatterometer on 7 July, 2015, has necessitated the use of collocated wind speed for the surface roughness correction required for the surface salinity retrieval.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2020-03-11T15:23:28.804Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "4.3",
+        "Projects": [
+          {
+            "ShortName": "SMAP-SSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "NASA/JPL/SMAP"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "null",
+            "ShortName": "SMAP",
+            "LongName": "NASA Soil Moisture Active Passive (SMAP)",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "98.5",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "SMAP L-BAND RADIOMETER",
+                "LongName": "SMAP L-Band Radiometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1000.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "HDF5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "JPL+SMAP+Level+2B+Near+Real-time+CAP+Sea+Surface+Salinity+V4.2+Validated+Dataset",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1653649481-PODAAC",
+        "revision-date": "2019-11-07T19:03:29Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "JPL Climate Oceans and Solid Earth group, JPL, 2019-01-24, JPL SMAP Level 2B Near Real-time CAP Sea Surface Salinity V4.2 Validated Dataset, 10.5067/SMP42-2NOCS, http://podaac.jpl.nasa.gov/smap"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "SALINITY/DENSITY",
+            "VariableLevel1": "SALINITY",
+            "DetailedVariable": "SALINITY"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN WINDS",
+            "VariableLevel1": "SURFACE WINDS"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2015-04-01T00:44:02.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2B"
+        },
+        "DOI": {
+          "DOI": "10.5067/SMP42-2NOCS"
+        },
+        "ShortName": "SMAP_JPL_L2B_NRT_SSS_CAP_V42",
+        "EntryTitle": "JPL SMAP Level 2B Near Real-time CAP Sea Surface Salinity V4.2 Validated Dataset",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/L2/JPL/V4.2_NRT",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "IDL Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/idl/"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "MATLAB Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/matlab/"
+          },
+          {
+            "Description": "JPL CAP SMAP-SSS V4.2 Technical Guide (ATBD, Validation Analysis, Product Format Specification)",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/JPL-CAP_V42/SMAP-SSS_JPL_V4.2_Documentation.pdf"
+          },
+          {
+            "Description": "SMAP-SSS Project and Instrument Overview",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://podaac.jpl.nasa.gov/smap"
+          },
+          {
+            "Description": "ATBD, Validation Analysis, Product Specifications, etc",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/JPL-CAP_V42/"
+          },
+          {
+            "Description": "NASA SMAP Mission Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://smap.jpl.nasa.gov/"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/SMP42-2NOCS"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/smap/L2/JPL/V4.2_NRT/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2018-10-10T20:44:38.534Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2018-10-10T20:44:38.534Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This is the PI-produced JPL SMAP-SSS V4.2, level 2B NRT CAP, validated sea surface salinity (SSS) and extreme winds orbital/swath product from the NASA Soil Moisture Active Passive (SMAP) observatory available in near real-time with a latency of about 6 hours.  It is based on the Combined Active-Passive (CAP) retrieval algorithm developed at JPL originally in the context of Aquarius/SAC-D and now extended to SMAP. SMAP-SSS V4.2 is a complete reprocessing of the entire mission series following on from the reprocessing of the source L1B-TB data by the SMAP mission on 6/4/2018. Updates in v4.2 include: improvement in the brightness temperature (TB) calibration using an adjusted reflector emissivity, inclusion of a Sea Surface Temperature (SST) dependent flat surface emissivity model, use of updated land correction tables, and inclusion of averaged ice concentration ancillary data in the v4.2 product. The JPL SMAP-SSS L2B CAP NRT product includes data for a range of parameters: derived SMAP sea surface salinity, SSS uncertainty and wind speed/direction data for extreme winds, brightness temperatures for each radiometer polarization, ancillary reference surface salinity, ice concentration, wind and wave height data, quality flags,  and navigation data. Each data file covers one 98-minute orbit (15 files per day).  Data begins on April 1,2015 and is ongoing, with a 6 hour latency in processing and availability. Observations are global in extent and provided at 25km swath grid with an approximate spatial resolution of 60 km.\n\nThe SMAP satellite is in a near-polar orbit at an inclination of 98 degrees and an altitude of 685 km. It has an ascending node time of 6 pm and is sun-synchronous. With its 1000km swath, SMAP achieves global coverage in approximately 3 days, but has an exact orbit repeat cycle of 8 days.  On board Instruments include a highly sensitive L-band radiometer operating at 1.41GHz and an L-band 1.26GHz radar sensor providing complementary active and passive sensing capabilities.  Malfunction of the SMAP scatterometer on 7 July, 2015, has necessitated the use of collocated wind speed for the surface roughness correction required for the surface salinity retrieval.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-07T19:03:27.113Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "4.2",
+        "Projects": [
+          {
+            "ShortName": "SMAP-SSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "Jet Propulsion Laboratory (JPL) Climate Oceans and Solid Earth group"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "null",
+            "ShortName": "SMAP",
+            "LongName": "NASA Soil Moisture Active Passive (SMAP)",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "98.5",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "SMAP L-BAND RADIOMETER",
+                "LongName": "SMAP L-Band Radiometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1000.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "HDF5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 2,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "JPL+SMAP+Level+2B+Near+Real-time+CAP+Sea+Surface+Salinity+V4.3+Validated+Dataset",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1705218415-PODAAC",
+        "revision-date": "2020-03-11T22:12:47Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "JPL, JPL, 2020-02-13, JPL SMAP Level 2B Near Real-time CAP Sea Surface Salinity V4.3 Validated Dataset, 10.5067/SMP43-2NOCS, http://podaac.jpl.nasa.gov/smap"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN WINDS",
+            "VariableLevel1": "SURFACE WINDS"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "SALINITY/DENSITY",
+            "VariableLevel1": "SALINITY",
+            "DetailedVariable": "SALINITY"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2015-04-01T00:44:02.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2B"
+        },
+        "DOI": {
+          "DOI": "10.5067/SMP43-2NOCS"
+        },
+        "ShortName": "SMAP_JPL_L2B_NRT_SSS_CAP_V43",
+        "EntryTitle": "JPL SMAP Level 2B Near Real-time CAP Sea Surface Salinity V4.3 Validated Dataset",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/L2/JPL/V4.3_NRT",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "MATLAB Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/matlab/"
+          },
+          {
+            "Description": "SMAP-SSS Project and Instrument Overview",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://podaac.jpl.nasa.gov/smap"
+          },
+          {
+            "Description": "ATBD, Validation Analysis, Product Specifications, etc",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/JPL-CAP_V43/"
+          },
+          {
+            "Description": "NASA SMAP Mission Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://smap.jpl.nasa.gov/"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "Information on Data Outages & Known Issues",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/README.KnownIssues.txt"
+          },
+          {
+            "Description": "IDL Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/idl/"
+          },
+          {
+            "Description": "JPL CAP SMAP-SSS V4.3 Technical Guide (ATBD, Validation Analysis, Product Format Specification)",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/JPL-CAP_V43/SMAP-SSS_JPL_V4.3_Documentation.pdf"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/SMP43-2NOCS"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/smap/L2/JPL/V4.3_NRT/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2019-11-09T22:59:34.101Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-11-09T22:59:34.101Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This is the PI-produced JPL SMAP-SSS V4.3, level 2B NRT CAP, validated sea surface salinity (SSS) and extreme winds orbital/swath product from the NASA Soil Moisture Active Passive (SMAP) observatory available in near real-time with a latency of about 6 hours.  It is based on the Combined Active-Passive (CAP) retrieval algorithm developed at JPL originally in the context of Aquarius/SAC-D and now extended to SMAP. Improvements with V4.3 include: 1) New residual TB calibration which removes the ascending/descending bias issue observed for version 4.2; 2) Slightly modified criteria for aggregation from L2B to L3 based on TB for V-pol minus TB for H-pol. The JPL SMAP-SSS L2B CAP NRT product includes data for a range of parameters: derived SMAP sea surface salinity, SSS uncertainty and wind speed/direction data for extreme winds, brightness temperatures for each radiometer polarization, ancillary reference surface salinity, ice concentration, wind and wave height data, quality flags,  and navigation data. Each data file covers one 98-minute orbit (15 files per day).  Data begins on April 1,2015 and is ongoing, with a 6 hour latency in processing and availability. Observations are global in extent and provided at 25km swath grid with an approximate spatial resolution of 60 km.\n\nThe SMAP satellite is in a near-polar orbit at an inclination of 98 degrees and an altitude of 685 km. It has an ascending node time of 6 pm and is sun-synchronous. With its 1000km swath, SMAP achieves global coverage in approximately 3 days, but has an exact orbit repeat cycle of 8 days.  On board Instruments include a highly sensitive L-band radiometer operating at 1.41GHz and an L-band 1.26GHz radar sensor providing complementary active and passive sensing capabilities.  Malfunction of the SMAP scatterometer on 7 July, 2015, has necessitated the use of collocated wind speed for the surface roughness correction required for the surface salinity retrieval.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2020-03-11T22:12:44.837Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "4.3",
+        "Projects": [
+          {
+            "ShortName": "SMAP-SSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "NASA/JPL/SMAP"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "null",
+            "ShortName": "SMAP",
+            "LongName": "NASA Soil Moisture Active Passive (SMAP)",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "98.5",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "SMAP L-BAND RADIOMETER",
+                "LongName": "SMAP L-Band Radiometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1000.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "HDF5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "JPL+SMAP+Level+3+CAP+Sea+Surface+Salinity+Standard+Mapped+Image+8-Day+Running+Mean+V4.2+Validated+Dataset",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1666605161-PODAAC",
+        "revision-date": "2019-12-10T18:29:37Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "JPL Climate Oceans and Solid Earth group, JPL Climate Oceans and Solid Earth group, 2019-01-24, JPL SMAP Level 3 CAP Sea Surface Salinity Standard Mapped Image 8-Day Running Mean V4.2 Validated Dataset, 10.5067/SMP42-3TPCS, http://podaac.jpl.nasa.gov/smap"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN WINDS",
+            "VariableLevel1": "SURFACE WINDS"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "SALINITY/DENSITY",
+            "VariableLevel1": "SALINITY",
+            "DetailedVariable": "NONE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2015-03-31T12:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/SMP42-3TPCS"
+        },
+        "ShortName": "SMAP_JPL_L3_SSS_CAP_8DAY-RUNNINGMEAN_V42",
+        "EntryTitle": "JPL SMAP Level 3 CAP Sea Surface Salinity Standard Mapped Image 8-Day Running Mean V4.2 Validated Dataset",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/L3/JPL/V4.2/8day_running",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Live Access Server",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/las"
+          },
+          {
+            "Description": "Information on Data Outages & Known Issues",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/README.KnownIssues.txt"
+          },
+          {
+            "Description": "JPL CAP SMAP-SSS V4.0 Technical Guide (ATBD, Validation Analysis, Product Format Specification)",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/JPL-CAP_V42/SMAP-SSS_JPL_V4.2_Documentation.pdf"
+          },
+          {
+            "Description": "R Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/r/"
+          },
+          {
+            "Description": "NASA SMAP Mission Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://smap.jpl.nasa.gov/"
+          },
+          {
+            "Description": "THREDDS SERVER",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://thredds.jpl.nasa.gov/thredds/catalog/ncml_aggregation/SalinityDensity/smap/catalog.html?dataset=ncml_aggregation/SalinityDensity/smap/aggregate__SMAP_JPL_L3_SSS_CAP_8DAY-RUNNINGMEAN_V42.ncml",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "ATBD, Validation Analysis, Product Specifications, etc",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/JPL-CAP_V42/"
+          },
+          {
+            "Description": "SMAP-SSS Project and Instrument Overview",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://podaac.jpl.nasa.gov/smap"
+          },
+          {
+            "Description": "IDL Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/idl/"
+          },
+          {
+            "Description": "MATLAB Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/matlab/"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/SMP42-3TPCS"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/smap/L3/JPL/V4.2/8day_running/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2018-06-06T21:59:36.367Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2018-06-06T21:59:36.367Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This is the PI-produced JPL SMAP-SSS V4.2 CAP, 8-day running mean, level 3 mapped, sea surface salinity (SSS) product from the NASA Soil Moisture Active Passive (SMAP) observatory. It is based on the Combined Active-Passive (CAP) retrieval algorithm developed at JPL originally in the context of Aquarius/SAC-D and now extended to SMAP. SMAP-SSS V4.2 is a complete reprocessing of the entire mission series following on from the reprocessing of the source L1B-TB data by the SMAP mission on 6/4/2018. Updates in v4.2 include: improvement in the brightness temperature (TB) calibration using an adjusted reflector emissivity, inclusion of a Sea Surface Temperature (SST) dependent flat surface emissivity model, use of updated land correction tables, and inclusion of averaged ice concentration ancillary data in the v4.2 product. Daily data files for this L3 product are based on SSS averages spanning an 8-day moving time window.  Associated file variables include: derived SSS with associated uncertainties and wind speed data from SMAP, ancillary ice concentration and HYCOM surface salinity data.  SMAP data begins on April 1, 2015 and is ongoing, with a 7-day latency in processing and availability. L3 products are global in extent and gridded at 0.25degree x 0.25degree with an approximate spatial resolution of 60km.  \n\nThe SMAP satellite is in a near-polar orbit at an inclination of 98 degrees and an altitude of 685 km. It has an ascending node time of 6 pm and is sun-synchronous. With its 1000km swath, SMAP achieves global coverage in approximately 3 days, but has an exact orbit repeat cycle of 8 days.  On board instruments include a highly sensitive L-band radiometer operating at 1.41GHz and an L-band 1.26GHz radar sensor providing complementary active and passive sensing capabilities.  Malfunction of the SMAP scatterometer on 7 July, 2015, has necessitated the use of collocated wind speed for the surface roughness correction required for the surface salinity retrieval.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-12-10T18:29:34.105Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "4.2",
+        "Projects": [
+          {
+            "ShortName": "SMAP-SSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "Jet Propulsion Laboratory (JPL) Climate Oceans and Solid Earth group"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "null",
+            "ShortName": "SMAP",
+            "LongName": "NASA Soil Moisture Active Passive (SMAP)",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "98.5",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "SMAP L-BAND RADIOMETER",
+                "LongName": "SMAP L-Band Radiometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1000.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "JPL+SMAP+Level+3+CAP+Sea+Surface+Salinity+Standard+Mapped+Image+8-Day+Running+Mean+V4.3+Validated+Dataset",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1702143760-PODAAC",
+        "revision-date": "2020-02-28T17:43:39Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "JPL, JPL, 2020-02-13, JPL SMAP Level 3 CAP Sea Surface Salinity Standard Mapped Image 8-Day Running Mean V4.3 Validated Dataset, 10.5067/SMP43-3TPCS, http://podaac.jpl.nasa.gov/smap"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "SALINITY/DENSITY",
+            "VariableLevel1": "SALINITY",
+            "DetailedVariable": "NONE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN WINDS",
+            "VariableLevel1": "SURFACE WINDS"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2015-03-31T12:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/SMP43-3TPCS"
+        },
+        "ShortName": "SMAP_JPL_L3_SSS_CAP_8DAY-RUNNINGMEAN_V43",
+        "EntryTitle": "JPL SMAP Level 3 CAP Sea Surface Salinity Standard Mapped Image 8-Day Running Mean V4.3 Validated Dataset",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/L3/JPL/V4.3/8day_running",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "JPL CAP SMAP-SSS V4.3 Technical Guide (ATBD, Validation Analysis, Product Format Specification)",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/JPL-CAP_V43/SMAP-SSS_JPL_V4.3_Documentation.pdf"
+          },
+          {
+            "Description": "SMAP-SSS Project and Instrument Overview",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://podaac.jpl.nasa.gov/smap"
+          },
+          {
+            "Description": "IDL Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/idl/"
+          },
+          {
+            "Description": "NASA SMAP Mission Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://smap.jpl.nasa.gov/"
+          },
+          {
+            "Description": "ATBD, Validation Analysis, Product Specifications, etc",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/JPL-CAP_V43/"
+          },
+          {
+            "Description": "THREDDS SERVER",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://thredds.jpl.nasa.gov/thredds/catalog/ncml_aggregation/SalinityDensity/smap/catalog.html?dataset=ncml_aggregation/SalinityDensity/smap/aggregate__SMAP_JPL_L3_SSS_CAP_8DAY-RUNNINGMEAN_V43.ncml",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "MATLAB Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/matlab/"
+          },
+          {
+            "Description": "Live Access Server",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/las"
+          },
+          {
+            "Description": "R Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/r/"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "Information on Data Outages & Known Issues",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/README.KnownIssues.txt"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/SMP43-3TPCS"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/smap/L3/JPL/V4.3/8day_running/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2019-11-09T23:18:03.590Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-11-09T23:18:03.590Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This is the PI-produced JPL SMAP-SSS V4.3 CAP, 8-day running mean, level 3 mapped, sea surface salinity (SSS) product from the NASA Soil Moisture Active Passive (SMAP) observatory. It is based on the Combined Active-Passive (CAP) retrieval algorithm developed at JPL originally in the context of Aquarius/SAC-D and now extended to SMAP. Improvements with V4.3 include: 1) New residual TB calibration which removes the ascending/descending bias issue observed for version 4.2; 2) Slightly modified criteria for aggregation from L2B to L3 based on TB for V-pol minus TB for H-pol. Daily data files for this L3 product are based on SSS averages spanning an 8-day moving time window.  Associated file variables include: derived SSS with associated uncertainties and wind speed data from SMAP, ancillary ice concentration and HYCOM surface salinity data. SMAP data begins on April 1, 2015 and is ongoing, with a 7-day latency in processing and availability. L3 products are global in extent and gridded at 0.25degree x 0.25degree with an approximate spatial resolution of 60km.  \n\nThe SMAP satellite is in a near-polar orbit at an inclination of 98 degrees and an altitude of 685 km. It has an ascending node time of 6 pm and is sun-synchronous. With its 1000km swath, SMAP achieves global coverage in approximately 3 days, but has an exact orbit repeat cycle of 8 days.  On board instruments include a highly sensitive L-band radiometer operating at 1.41GHz and an L-band 1.26GHz radar sensor providing complementary active and passive sensing capabilities.  Malfunction of the SMAP scatterometer on 7 July, 2015, has necessitated the use of collocated wind speed for the surface roughness correction required for the surface salinity retrieval.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2020-02-28T17:43:36.882Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "4.3",
+        "Projects": [
+          {
+            "ShortName": "SMAP-SSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "NASA/JPL/SMAP"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "null",
+            "ShortName": "SMAP",
+            "LongName": "NASA Soil Moisture Active Passive (SMAP)",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "98.5",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "SMAP L-BAND RADIOMETER",
+                "LongName": "SMAP L-Band Radiometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1000.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "JPL+SMAP+Level+3+CAP+Sea+Surface+Salinity+Standard+Mapped+Image+Monthly+V4.2+Validated+Dataset",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1666605132-PODAAC",
+        "revision-date": "2019-12-10T18:29:32Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "JPL Climate Oceans and Solid Earth group, JPL Climate Oceans and Solid Earth group, 2019-01-24, JPL SMAP Level 3 CAP Sea Surface Salinity Standard Mapped Image Monthly V4.2 Validated Dataset, 10.5067/SMP42-3TMCS, http://podaac.jpl.nasa.gov/smap"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN WINDS",
+            "VariableLevel1": "SURFACE WINDS"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "SALINITY/DENSITY",
+            "VariableLevel1": "SALINITY",
+            "DetailedVariable": "NONE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2015-04-01T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/SMP42-3TMCS"
+        },
+        "ShortName": "SMAP_JPL_L3_SSS_CAP_MONTHLY_V42",
+        "EntryTitle": "JPL SMAP Level 3 CAP Sea Surface Salinity Standard Mapped Image Monthly V4.2 Validated Dataset",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/L3/JPL/V4.2/monthly",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "R Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/r/"
+          },
+          {
+            "Description": "JPL CAP SMAP-SSS V4.2 Technical Guide (ATBD, Validation Analysis, Product Format Specification)",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/JPL-CAP_V42/SMAP-SSS_JPL_V4.2_Documentation.pdf"
+          },
+          {
+            "Description": "Information on Data Outages & Known Issues",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/README.KnownIssues.txt"
+          },
+          {
+            "Description": "ATBD, Validation Analysis, Product Specifications, etc",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/JPL-CAP_V42/"
+          },
+          {
+            "Description": "IDL Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/idl/"
+          },
+          {
+            "Description": "SMAP-SSS Project and Instrument Overview",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://podaac.jpl.nasa.gov/smap"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "MATLAB Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/matlab/"
+          },
+          {
+            "Description": "NASA SMAP Mission Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://smap.jpl.nasa.gov/"
+          },
+          {
+            "Description": "Live Access Server",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/las"
+          },
+          {
+            "Description": "THREDDS SERVER",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://thredds.jpl.nasa.gov/thredds/catalog/ncml_aggregation/SalinityDensity/smap/catalog.html?dataset=ncml_aggregation/SalinityDensity/smap/aggregate__SMAP_JPL_L3_SSS_CAP_MONTHLY_V42.ncml",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/SMP42-3TMCS"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/smap/L3/JPL/V4.2/monthly/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2018-06-06T22:02:47.187Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2018-06-06T22:02:47.187Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This is the PI-produced JPL SMAP-SSS V4.2 CAP, level 3, monthly mapped sea surface salinity (SSS) product from the NASA Soil Moisture Active Passive (SMAP) observatory. It is based on the Combined Active-Passive (CAP) retrieval algorithm developed at JPL originally in the context of Aquarius/SAC-D and now extended to SMAP. SMAP-SSS V4.2 is a complete reprocessing of the entire mission series following on from the reprocessing of the source L1B-TB data by the SMAP mission on 6/4/2018. Updates in v4.2 include: improvement in the brightness temperature (TB) calibration using an adjusted reflector emissivity, inclusion of a Sea Surface Temperature (SST) dependent flat surface emissivity model, use of updated land correction tables, and inclusion of averaged ice concentration ancillary data in the v4.2 product. L3 monthly product file variables include:  derived SSS with associated uncertainties and wind speed from SMAP and ancillary surface salinity from HYCOM.  SMAP data begins on April 1, 2015 and is ongoing, with a 1 month latency in processing and availability. L3 products are global in extent and gridded at 0.25degree x 0.25degree with an approximate spatial resolution of 60km. The SMAP satellite is in a near-polar orbit at an inclination of 98 degrees and an altitude of 685 km. It has an ascending node time of 6 pm and is sun-synchronous. With its 1000km swath, SMAP achieves global coverage in approximately 3 days, but has an exact orbit repeat cycle of 8 days.  On board instruments include a highly sensitive L-band radiometer operating at 1.41GHz and an L-band 1.26GHz radar sensor providing complementary active and passive sensing capabilities.  Malfunction of the SMAP scatterometer on 7 July for the surface roughness correction required for the surface salinity retrieval.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-12-10T18:29:29.977Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "4.2",
+        "Projects": [
+          {
+            "ShortName": "SMAP-SSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "Jet Propulsion Laboratory (JPL) Climate Oceans and Solid Earth group"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "null",
+            "ShortName": "SMAP",
+            "LongName": "NASA Soil Moisture Active Passive (SMAP)",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "98.5",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "SMAP L-BAND RADIOMETER",
+                "LongName": "SMAP L-Band Radiometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1000.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "JPL+SMAP+Level+3+CAP+Sea+Surface+Salinity+Standard+Mapped+Image+Monthly+V4.3+Validated+Dataset",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1702143322-PODAAC",
+        "revision-date": "2020-02-28T17:42:43Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "JPL, JPL, 2020-02-13, JPL SMAP Level 3 CAP Sea Surface Salinity Standard Mapped Image Monthly V4.3 Validated Dataset, 10.5067/SMP43-3TMCS, http://podaac.jpl.nasa.gov/smap"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "SALINITY/DENSITY",
+            "VariableLevel1": "SALINITY",
+            "DetailedVariable": "NONE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN WINDS",
+            "VariableLevel1": "SURFACE WINDS"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2015-04-01T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/SMP43-3TMCS"
+        },
+        "ShortName": "SMAP_JPL_L3_SSS_CAP_MONTHLY_V43",
+        "EntryTitle": "JPL SMAP Level 3 CAP Sea Surface Salinity Standard Mapped Image Monthly V4.3 Validated Dataset",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/L3/JPL/V4.3/monthly",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "THREDDS SERVER",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://thredds.jpl.nasa.gov/thredds/catalog/ncml_aggregation/SalinityDensity/smap/catalog.html?dataset=ncml_aggregation/SalinityDensity/smap/aggregate__SMAP_JPL_L3_SSS_CAP_MONTHLY_V43.ncml",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "JPL CAP SMAP-SSS V4.3 Technical Guide (ATBD, Validation Analysis, Product Format Specification)",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/JPL-CAP_V43/SMAP-SSS_JPL_V4.3_Documentation.pdf"
+          },
+          {
+            "Description": "SMAP-SSS Project and Instrument Overview",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://podaac.jpl.nasa.gov/smap"
+          },
+          {
+            "Description": "ATBD, Validation Analysis, Product Specifications, etc",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/JPL-CAP_V43/"
+          },
+          {
+            "Description": "Live Access Server",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/las"
+          },
+          {
+            "Description": "MATLAB Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/matlab/"
+          },
+          {
+            "Description": "NASA SMAP Mission Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://smap.jpl.nasa.gov/"
+          },
+          {
+            "Description": "R Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/r/"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "IDL Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/idl/"
+          },
+          {
+            "Description": "Information on Data Outages & Known Issues",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/README.KnownIssues.txt"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/SMP43-3TMCS"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/smap/L3/JPL/V4.3/monthly/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2019-11-09T23:29:50.556Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-11-09T23:29:50.556Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This is the PI-produced JPL SMAP-SSS V4.3 CAP, level 3, monthly mapped sea surface salinity (SSS) product from the NASA Soil Moisture Active Passive (SMAP) observatory. It is based on the Combined Active-Passive (CAP) retrieval algorithm developed at JPL originally in the context of Aquarius/SAC-D and now extended to SMAP. Improvements with V4.3 include: 1) New residual TB calibration which removes the ascending/descending bias issue observed for version 4.2; 2) Slightly modified criteria for aggregation from L2B to L3 based on TB for V-pol minus TB for H-pol. L3 monthly product file variables include:  derived SSS with associated uncertainties and wind speed from SMAP and ancillary surface salinity from HYCOM.  SMAP data begins on April 1, 2015 and is ongoing, with a 1 month latency in processing and availability. L3 products are global in extent and gridded at 0.25degree x 0.25degree with an approximate spatial resolution of 60km. The SMAP satellite is in a near-polar orbit at an inclination of 98 degrees and an altitude of 685 km. It has an ascending node time of 6 pm and is sun-synchronous. With its 1000km swath, SMAP achieves global coverage in approximately 3 days, but has an exact orbit repeat cycle of 8 days.  On board instruments include a highly sensitive L-band radiometer operating at 1.41GHz and an L-band 1.26GHz radar sensor providing complementary active and passive sensing capabilities.  Malfunction of the SMAP scatterometer on 7 July for the surface roughness correction required for the surface salinity retrieval.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2020-02-28T17:42:40.978Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "4.3",
+        "Projects": [
+          {
+            "ShortName": "SMAP-SSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "NASA/JPL/SMAP"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "null",
+            "ShortName": "SMAP",
+            "LongName": "NASA Soil Moisture Active Passive (SMAP)",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "98.5",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "SMAP L-BAND RADIOMETER",
+                "LongName": "SMAP L-Band Radiometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1000.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "RSS+SMAP+Level+2C+Sea+Surface+Salinity+V4.0+Validated+Dataset",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1650311625-PODAAC",
+        "revision-date": "2019-11-01T16:27:46Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Remote Sensing Systems (RSS), Remote Sensing Systems (RSS), 2019-08-28, RSS SMAP Level 2C Sea Surface Salinity V4.0 Validated Dataset, 10.5067/SMP40-2SOCS, http://podaac.jpl.nasa.gov/smap"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Salinity/Density",
+            "VariableLevel1": "Salinity",
+            "DetailedVariable": "Salinity"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2015-04-01T00:43:12.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2C"
+        },
+        "DOI": {
+          "DOI": "10.5067/SMP40-2SOCS"
+        },
+        "ShortName": "SMAP_RSS_L2_SSS_V4",
+        "EntryTitle": "RSS SMAP Level 2C Sea Surface Salinity V4.0 Validated Dataset",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/L2/RSS/V4/SCI",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "SMAP-SSS V4.0 Technical Guide (ATBD, Validation Analysis, Product Format Specification)",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/V4/RSS_SMAP-SSS_V4.0_TechnicalDocumentation.pdf"
+          },
+          {
+            "Description": "IDL Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/idl/"
+          },
+          {
+            "Description": "Dynamically updated RSS webpage listing L2 files with missing ancillary inputs",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://images.remss.com/figures/missions/smap/bad_ancillaries.txt"
+          },
+          {
+            "Description": "SMAP-SSS Project and Instrument Overview",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://podaac.jpl.nasa.gov/smap"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "R Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/r/"
+          },
+          {
+            "Description": "MATLAB Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/matlab/"
+          },
+          {
+            "Description": "Known issues README",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/L2/RSS/README.txt"
+          },
+          {
+            "Description": "Dynamically updated RSS webpage listing L2 files with Bad Orbits",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://images.remss.com/figures/missions/smap/bad_orbits.txt"
+          },
+          {
+            "Description": "ATBD, Validation Analysis, Product Specifications, etc",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/V4/"
+          },
+          {
+            "Description": "Remote Sensing Systems SMAP Sea Surface Salinity Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://www.remss.com/missions/smap"
+          },
+          {
+            "Description": "NASA SMAP Mission Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://smap.jpl.nasa.gov/"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/SMP40-2SOCS"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/smap/L2/RSS/V4/SCI/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2019-05-06T23:46:07.715Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-05-06T23:46:07.715Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The version 4.0 SMAP-SSS, level 2C product contains the fourth release of the validated sea surface salinity orbital/swath data from the NASA Soil Moisture Active Passive (SMAP) observatory, and is produced operationally by Remote Sensing Systems (RSS). Enhancements with this release include:  use of an improved 0.125 degree land correction table with land emission based on SMAP TB; replacement of the previous NCEP sea-ice mask with one based on RSS AMSR-2 and implementing a sea-ice threshold of 0.3% (gain weighted sea-ice fraction); revised solar flagging that depends on glint angle and wind speed; inclusion of estimated SSS-uncertainty; consolidation of both 40KM and 70KM SMAP-SSS datasets as variable fields  in a single data product. The SMAP-SSS L2C product includes data for a range of parameters: derived sea surface salinity (SSS) with SSS-uncertainty, brightness temperatures for each radiometer polarization, antenna temperatures, collocated wind speed, data and ancillary reference surface salinity data from HYCOM, rain rate, quality flags, and navigation data. Each data file covers one 98-minute orbit (15 files per day).  Data begins on April 1,2015 and is ongoing. Observations are global in extent and provided at a 0.25 degree x 0.25 degree grid with an approximate spatial feature resolution of 40KM. Note that while a SSS 40KM variable is also included in the product, for most open ocean applications, the default SSS variable (70KM) is best used as they are significantly less noisy than the 40KM data.\n\nThe SMAP satellite is in a near-polar orbit at an inclination of 98 degrees and an altitude of 685 km. It has an ascending node time of 6 pm and is sun-synchronous. With its 1000km swath, SMAP achieves global coverage in approximately 3 days, but has an exact orbit repeat cycle of 8 days.  On board Instruments include a highly sensitive L-band radiometer operating at 1.41GHz and an L-band 1.26GHz radar sensor providing complementary active and passive sensing capabilities.  Malfunction of the SMAP scatterometer on 7 July, 2015, has necessitated the use of collocated wind speed, primarily from WindSat, for the surface roughness correction required for the surface salinity retrieval.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-01T16:27:44.138Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "4.0",
+        "Projects": [
+          {
+            "ShortName": "SMAP-SSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "Remote Sensing Sensing Systems (RSS)"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "null",
+            "ShortName": "SMAP",
+            "LongName": "NASA Soil Moisture Active Passive (SMAP)",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "98.5",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "SMAP L-BAND RADIOMETER",
+                "LongName": "SMAP L-Band Radiometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1000.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "RSS+SMAP+Level+3+Sea+Surface+Salinity+Standard+Mapped+Image+8-Day+Running+Mean+V4.0+Validated+Dataset",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1650311642-PODAAC",
+        "revision-date": "2019-11-01T16:27:54Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Remote Sensing Systems (RSS), Remote Sensing Systems (RSS), 2019-08-28, RSS SMAP Level 3 Sea Surface Salinity Standard Mapped Image 8-Day Running Mean V4.0 Validated Dataset, 10.5067/SMP40-3SPCS, http://podaac.jpl.nasa.gov/smap"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Salinity/Density",
+            "VariableLevel1": "Salinity",
+            "DetailedVariable": "None"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2015-03-27T12:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/SMP40-3SPCS"
+        },
+        "ShortName": "SMAP_RSS_L3_SSS_SMI_8DAY-RUNNINGMEAN_V4",
+        "EntryTitle": "RSS SMAP Level 3 Sea Surface Salinity Standard Mapped Image 8-Day Running Mean V4.0 Validated Dataset",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/L3/RSS/V4/8day_running/SCI",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Remote Sensing Systems SMAP Sea Surface Salinity Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://www.remss.com/missions/smap"
+          },
+          {
+            "Description": "R Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/r/"
+          },
+          {
+            "Description": "IDL Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/idl/"
+          },
+          {
+            "Description": "Dynamically updated RSS webpage listing L2 files with missing ancillary inputs",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://images.remss.com/figures/missions/smap/bad_ancillaries.txt"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "SMAP-SSS V4.0 Technical Guide (ATBD, Validation Analysis, Product Format Specification)",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/V4/RSS_SMAP-SSS_V4.0_TechnicalDocumentation.pdf"
+          },
+          {
+            "Description": "MATLAB Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/matlab/"
+          },
+          {
+            "Description": "NASA SMAP Mission Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://smap.jpl.nasa.gov/"
+          },
+          {
+            "Description": "Live Access Server",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/las"
+          },
+          {
+            "Description": "Dynamically updated RSS webpage listing L2 files with Bad Orbits",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://images.remss.com/figures/missions/smap/bad_orbits.txt"
+          },
+          {
+            "Description": "THREDDS SERVER",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://thredds.jpl.nasa.gov/thredds/catalog/ncml_aggregation/SalinityDensity/smap/catalog.html?dataset=ncml_aggregation/SalinityDensity/smap/aggregate__SMAP_RSS_L3_SSS_SMI_8DAY-RUNNINGMEAN_V4.ncml",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "SMAP-SSS Project and Instrument Overview",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://podaac.jpl.nasa.gov/smap"
+          },
+          {
+            "Description": "ATBD, Validation Analysis, Product Specifications, etc",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/V4/"
+          },
+          {
+            "Description": "Know issues README",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/L3/RSS/README.txt"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/SMP40-3SPCS"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/smap/L3/RSS/V4/8day_running/SCI/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2019-05-07T16:49:25.090Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-05-07T16:49:25.090Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The version 4.0 SMAP-SSS level 3, 8-Day running mean gridded product is based on the fourth release of the validated standard mapped sea surface salinity (SSS) data from the NASA Soil Moisture Active Passive (SMAP) observatory, produced operationally by Remote Sensing Systems (RSS). Enhancements with this release include:  use of an improved 0.125 degree land correction table with land emission based on SMAP TB; replacement of the previous NCEP sea-ice mask with one based on RSS AMSR-2 and implementing a sea-ice threshold of 0.3% (gain weighted sea-ice fraction); revised solar flagging that depends on glint angle and wind speed; inclusion of estimated SSS-uncertainty; consolidation of both 40KM and 70KM SMAP-SSS datasets as variable fields  in a single data product. Daily data files for this product are based on SSS averages spanning an 8-day moving time window.  SMAP data begins on April 1,2015 and is ongoing. L3 products are global in extent and gridded at 0.25degree x 0.25degree with a default spatial feature resolution of approximately 70KM. Note that while a SSS 40KM variable is also included in the product, for most open ocean applications, the  default SSS variable (70KM) is best used as they are significantly less noisy than the 40KM data.\n  \nThe SMAP satellite is in a near-polar orbit at an inclination of 98 degrees and an altitude of 685 km. It has an ascending node time of 6 pm and is sun-synchronous. With its 1000km swath, SMAP achieves global coverage in approximately 3 days, but has an exact orbit repeat cycle of 8 days.  On board instruments include a highly sensitive L-band radiometer operating at 1.41GHz and an L-band 1.26GHz radar sensor providing complementary active and passive sensing capabilities.  Malfunction of the SMAP scatterometer on 7 July, 2015, has necessitated the use of collocated wind speed, primarily from WindSat, for the surface roughness correction required for the surface salinity retrieval.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-01T16:27:51.934Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "4.0",
+        "Projects": [
+          {
+            "ShortName": "SMAP-SSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "Aquarius Project NASA/CONAE"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "null",
+            "ShortName": "SMAP",
+            "LongName": "NASA Soil Moisture Active Passive (SMAP)",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "98.5",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "SMAP L-BAND RADIOMETER",
+                "LongName": "SMAP L-Band Radiometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1000.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "RSS+SMAP+Level+3+Sea+Surface+Salinity+Standard+Mapped+Image+Monthly+V4.0+Validated+Dataset",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1650311629-PODAAC",
+        "revision-date": "2019-11-01T16:27:50Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Remote Sensing Systems (RSS), Remote Sensing Systems (RSS), 2019-08-28, RSS SMAP Level 3 Sea Surface Salinity Standard Mapped Image Monthly V4.0 Validated Dataset, 10.5067/SMP40-3SMCS, http://podaac.jpl.nasa.gov/smap"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Salinity/Density",
+            "VariableLevel1": "Salinity",
+            "DetailedVariable": "None"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2015-04-01T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/SMP40-3SMCS"
+        },
+        "ShortName": "SMAP_RSS_L3_SSS_SMI_MONTHLY_V4",
+        "EntryTitle": "RSS SMAP Level 3 Sea Surface Salinity Standard Mapped Image Monthly V4.0 Validated Dataset",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/L3/RSS/V4/monthly/SCI",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "NASA SMAP Mission Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://smap.jpl.nasa.gov/"
+          },
+          {
+            "Description": "IDL Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/idl/"
+          },
+          {
+            "Description": "Live Access Server",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/las"
+          },
+          {
+            "Description": "Remote Sensing Systems SMAP Sea Surface Salinity Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://www.remss.com/missions/smap"
+          },
+          {
+            "Description": "Known issues README",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/L3/RSS/README.txt"
+          },
+          {
+            "Description": "MATLAB Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/matlab/"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "SMAP-SSS Project and Instrument Overview",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://podaac.jpl.nasa.gov/smap"
+          },
+          {
+            "Description": "ATBD, Validation Analysis, Product Specifications, etc",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/V4/"
+          },
+          {
+            "Description": "SMAP-SSS V4.0 Technical Guide (ATBD, Validation Analysis, Product Format Specification)",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/docs/V4/RSS_SMAP-SSS_V4.0_TechnicalDocumentation.pdf"
+          },
+          {
+            "Description": "THREDDS SERVER",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://thredds.jpl.nasa.gov/thredds/catalog/ncml_aggregation/SalinityDensity/smap/catalog.html?dataset=ncml_aggregation/SalinityDensity/smap/aggregate__SMAP_RSS_L3_SSS_SMI_MONTHLY_V4.ncml",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "R Reader and calling routines",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/smap/sw/r/"
+          },
+          {
+            "Description": "Dynamically updated RSS webpage listing L2 files with Bad Orbits",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://images.remss.com/figures/missions/smap/bad_orbits.txt"
+          },
+          {
+            "Description": "Dynamically updated RSS webpage listing L2 files with missing ancillary data inputs",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://images.remss.com/figures/missions/smap/bad_ancillaries.txt"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/SMP40-3SMCS"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/smap/L3/RSS/V4/monthly/SCI/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2019-05-07T17:38:19.268Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-05-07T17:38:19.268Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The version 4.0 SMAP-SSS level 3, monthly gridded product is based on the fourth release of the validated standard mapped sea surface salinity (SSS) data from the NASA Soil Moisture Active Passive (SMAP) observatory, produced operationally by Remote Sensing Systems (RSS) with a one-month latency. Enhancements with this release include:  use of an improved 0.125 degree land correction table with land emission based on SMAP TB; replacement of the previous NCEP sea-ice mask with one based on RSS AMSR-2 and implementing a sea-ice threshold of 0.3% (gain weighted sea-ice fraction); revised solar flagging that depends on glint angle and wind speed; inclusion of estimated SSS-uncertainty; consolidation of both 40KM and 70KM SMAP-SSS datasets as variable fields  in a single data product. Monthly data files for this product are averages over one-month time intervals.  SMAP data begins on April 1,2015 and is ongoing, with a one-month latency in processing and availability. L3 products are global in extent and gridded at 0.25degree x 0.25degree with a default spatial feature resolution of approximately 70KM. Note that while a SSS 40KM variable is also included in the product, for most open ocean applications, the  default SSS variable (70KM) is best used as they are significantly less noisy than the 40KM data.\n  \nThe SMAP satellite is in a near-polar orbit at an inclination of 98 degrees and an altitude of 685 km. It has an ascending node time of 6 pm and is sun-synchronous. With its 1000km swath, SMAP achieves global coverage in approximately 3 days, but has an exact orbit repeat cycle of 8 days.  On board instruments include a highly sensitive L-band radiometer operating at 1.41GHz and an L-band 1.26GHz radar sensor providing complementary active and passive sensing capabilities.  Malfunction of the SMAP scatterometer on 7 July, 2015, has necessitated the use of collocated wind speed, primarily from WindSat, for the surface roughness correction required for the surface salinity retrieval.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-01T16:27:47.889Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "4.0",
+        "Projects": [
+          {
+            "ShortName": "SMAP-SSS"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "Aquarius Project NASA/CONAE"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "null",
+            "ShortName": "SMAP",
+            "LongName": "NASA Soil Moisture Active Passive (SMAP)",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "98.5",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "SMAP L-BAND RADIOMETER",
+                "LongName": "SMAP L-Band Radiometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1000.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

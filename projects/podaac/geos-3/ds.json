@@ -1,0 +1,250 @@
+{
+  "hits": 1,
+  "took": 13,
+  "items": [
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "GEOS-3+ALTIMETER+GEOPHYSICAL+DATA+RECORD+1975-1978",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1652971874-PODAAC",
+        "revision-date": "2019-11-06T18:10:58Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "DOC/NOAA/NESDIS/NODC, DOC/NOAA/NESDIS/NODC, 1998-09-23, GEOS-3 ALTIMETER GEOPHYSICAL DATA RECORD 1975-1978, 10.5067/GEOS3-AGDRA, https://podaac-tools.jpl.nasa.gov/drive/files/allData/geos3/L2/docs/geos3_alt.html"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Ocean Waves",
+            "VariableLevel1": "Significant Wave Height",
+            "DetailedVariable": "none"
+          },
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Sea Surface Topography",
+            "VariableLevel1": "Sea Surface Height",
+            "DetailedVariable": "none"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1975-04-14T00:00:00.000Z",
+                "EndingDateTime": "1978-12-02T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2"
+        },
+        "DOI": {
+          "DOI": "10.5067/GEOS3-AGDRA"
+        },
+        "ShortName": "GEOS-3_ALT_GDR",
+        "EntryTitle": "GEOS-3 ALTIMETER GEOPHYSICAL DATA RECORD 1975-1978",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/geos3/L2",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "Users' guide for GEOS-3 GDR",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/pub/documents/dataset_docs/geos3_gdr.html"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GEOS3-AGDRA",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/GEOS3-AGDRA"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2009-06-15T13:01:41.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2011-01-21T17:10:13.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "These data consist of Geos-3 altimeter measurements produced by NOAA/NODC/Laboratory for Satellite Altimetry. The dataset contains 5,006,956 altimetric sea surface heights and supporting information such as sea state, wind speed, Schwiderski ocean tide height, and Cartwright solid-tide height.  Corrections for altimeter bias, wet and dry troposheric delays, and electromagnetic bias are not included.  The corrections in this dataset (tides and even orbit height) are old and not very accurate.  This dataset should only be used by those with an expertise in altimetry. Measurements are compressed to a rate of 1 per second using a trim mean filter. Data values are written in binary format.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-06T18:10:55.816Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "GEOS-3"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "DOC/NOAA/NESDIS/NODC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Jessica",
+                "MiddleName": "none",
+                "LastName": "Hausman"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "818-354-4588"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "Jessica.K.Hausman@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "spacecraft",
+            "ShortName": "GEOS-3",
+            "LongName": "Geodetic Earth Orbiting Satellite-3",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "101.8",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "115.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GEOS-3 ALTIMETER",
+                "LongName": "Geodetic and Earth Orbiting Satellite 3",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "3.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "RAW"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

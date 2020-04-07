@@ -1,0 +1,532 @@
+{
+  "hits": 1,
+  "took": 98,
+  "items": [
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "AVISO+Level+4+Absolute+Dynamic+Topography+for+Climate+Model+Comparison",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1652971731-PODAAC",
+        "revision-date": "2019-11-06T18:10:54Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "AVISO, AVISO, 2011-03-01, AVISO Level 4 Absolute Dynamic Topography for Climate Model Comparison, 10.5067/DYNTO-1D1M1, https://podaac-tools.jpl.nasa.gov/drive/files/allData/aviso/L4/dynamic_topo_1deg_1mo/docs/zosTechNote_AVISO_L4_199210-201012.pdf"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "SEA SURFACE TOPOGRAPHY",
+            "VariableLevel1": "SEA SURFACE HEIGHT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1992-10-01T00:00:00.000Z",
+                "EndingDateTime": "2010-12-31T23:59:59.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "4"
+        },
+        "DOI": {
+          "DOI": "10.5067/DYNTO-1D1M1"
+        },
+        "ShortName": "AVISO_L4_DYN_TOPO_1DEG_1MO",
+        "EntryTitle": "AVISO Level 4 Absolute Dynamic Topography for Climate Model Comparison",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/aviso/L4/dynamic_topo_1deg_1mo",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Live Access Server",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/las"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "http://thredds.jpl.nasa.gov/thredds/catalog/ncml_aggregation/SeaSurfaceTopography/aviso/dynamic_topo_1deg_1mo/catalog.html",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "AVISO ADT webpage",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://www.aviso.oceanobs.com/en/data/products/sea-surface-height-products/global/adt.html"
+          },
+          {
+            "Description": "Link to JPL Earth System Grid",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "URL": "http://esg-gateway.jpl.nasa.gov/home.htm"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-DYNTO-1D1M1",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/DYNTO-1D1M1"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/aviso/L4/dynamic_topo_1deg_1mo/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2012-01-24T02:40:25.536Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-04-28T05:01:45.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This dataset contains absolute dynamic topography (similar to sea level but with respect to the geoid) binned and averaged monthly on 1 degree grids.  The coverage is from October 1992 to December 2010.  These data were provided by AVISO (French space agency data provider) to support the CMIP5 (Coupled Model Intercomparison Project Phase 5) under the World Climate Research Program (WCRP) and was first made available via the JPL Earth System Grid.  The dynamic topography are derived from sea surface height measured by several satellites including Envisat, TOPEX/Poseidon, Jason-1 and OSTM/Jason-2, and referenced to the geoid.  Along with this dataset, two additional ancillary data files are included in the same directory which contain the number of observations and standard error co-located on the same 1 degree grids.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-06T18:10:51.483Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "AVISO"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "AVISO"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Jessica",
+                "MiddleName": "none",
+                "LastName": "Hausman"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "818-354-4588"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "Jessica.K.Hausman@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "spacecraft",
+            "ShortName": "JASON-1",
+            "LongName": "JASON-1",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "112.43",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "66.04",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "JASON-1 Microwave Radiometer",
+                "LongName": "JASON-1 MICROWAVE RADIOMETER",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "22.9",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "POSEIDON-2",
+                "LongName": "JASON-1 RADAR ALTIMETER"
+              }
+            ]
+          },
+          {
+            "Type": "spacecraft",
+            "ShortName": "TOPEX/POSEIDON",
+            "LongName": "Topography Experiment/Poseidon",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "112.43",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "66.04",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "TMR",
+                "LongName": "TOPEX MICROWAVE RADIOMETER",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "5.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "ALT (TOPEX)",
+                "LongName": "TOPEX ALTIMETER",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "5.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "SSALT",
+                "LongName": "POSEIDON Solid State Radar Altimeter",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "5.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "spacecraft",
+            "ShortName": "ENVISAT",
+            "LongName": "Environmental Satellite",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "100.59",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.55",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "RA-2",
+                "LongName": "Radar Altimeter 2",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "5.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "GRACE",
+            "LongName": "Gravity Recovery and Climate Experiment",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "-1.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "89.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GRACE-FO ACC",
+                "LongName": "GRACE-FO SuperSTAR Accelerometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE SCA",
+                "LongName": "Star Camera Assembly"
+              },
+              {
+                "ShortName": "GRACE-FO KBR",
+                "LongName": "GRACE-FO K-Band Ranging System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "OSTM/JASON-2",
+            "LongName": "Ocean Surface Topography Mission/Jason-2",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "112.43",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "66.04",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AMR",
+                "LongName": "Advanced Microwave Radiometer"
+              },
+              {
+                "ShortName": "POSEIDON-3",
+                "LongName": "OSTM/Jason-2 RADAR alitmieter",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "5.1",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "spacecraft",
+            "ShortName": "ERS-1",
+            "LongName": "European Remote Sensing Satellite-1",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "100.3",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.5",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "ERS-1 ALTIMETER",
+                "LongName": "European Remote Sensing 1 altimeter",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "143.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "spacecraft",
+            "ShortName": "ERS-2",
+            "LongName": "European Remote Sensing Satellite-2",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "100.3",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.5",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "ERS-2 Altimeter",
+                "LongName": "European Remote Sensing 2 altimeter"
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

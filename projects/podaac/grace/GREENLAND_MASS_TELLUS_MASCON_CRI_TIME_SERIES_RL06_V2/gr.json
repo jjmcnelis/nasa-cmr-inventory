@@ -1,0 +1,80 @@
+{
+  "hits": 1,
+  "took": 21,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1708608105-PODAAC",
+        "revision-id": 1,
+        "native-id": "greenland_mass_200204_201911.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-18T17:01:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2002-04-01T00:00:00.000Z",
+            "EndingDateTime": "2019-11-30T23:59:59.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "greenland_mass_200204_201911.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-18T16:32:46.310Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-18T17:01:13.295Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "GREENLAND_MASS_TELLUS_MASCON_CRI_TIME_SERIES_RL06_V2",
+          "Version": "2"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L4/ice_mass/RL06/v02/mascon_CRI//greenland_mass_200204_201911.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-11-30T23:59:59.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.00728607177734375,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2877 @@
+{
+  "hits": 8,
+  "took": 15,
+  "items": [
+    {
+      "meta": {
+        "revision-id": 3,
+        "deleted": false,
+        "format": "application/dif+xml",
+        "provider-id": "NOAA_NCEI",
+        "user-id": "sritz",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "noaa_ncei_gov.noaa.ncdc.C00951___version_",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1362012135-NOAA_NCEI",
+        "revision-date": "2018-05-29T15:27:47Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "DataLanguage": "eng",
+        "AncillaryKeywords": [
+          "ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR",
+          "Atmospheric - Upper-air - Upper-air Water Vapour",
+          "\"VERTICAL LOCATION\",\"TROPOSPHERE\",\"\",\"\",\"\"",
+          "VERTICAL LOCATION > TROPOSPHERE",
+          "\"Earth Remote Sensing Instruments\",\"Passive Remote Sensing\",\"Profilers/Sounders\",\"\",\"HIRS\",\"High Resolution Infrared Radiation Sounder\"",
+          "\"Earth Observation Satellites\",\"NOAA POES (Polar Orbiting Environmental Satellites)\",\"NOAA POES\",\"NOAA Polar Orbiting Environmental Satellites\"",
+          "\"250 km - <  500 km  or approximately  2.5 degrees - < 5.0 degrees\"",
+          "\"Monthly - < Annual\"",
+          "\"GOVERNMENT AGENCIES-U.S. FEDERAL AGENCIES\",\"DOC\",\"NOAA\",\"\",\"DOC/NOAA/NESDIS/NCDC\",\"National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce\",\"http://www.ncdc.noaa.gov/\"",
+          "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce"
+        ],
+        "CollectionCitations": [
+          {
+            "Creator": "DOC/NOAA/NESDIS/NCDC > National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce",
+            "Title": "NOAA Climate Data Record (CDR) of Intersatellite Calibrated Clear-Sky High Resolution Infrared Radiation Sounder (HIRS) Channel 12 Brightness Temperature Version 3",
+            "ReleaseDate": "2016-01-01T00:00:00.000Z",
+            "DataPresentationForm": "imageDigital",
+            "Version": "Version 3"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "NO_SPATIAL"
+        },
+        "CollectionProgress": "ACTIVE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC WATER VAPOR"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1978-11-22T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "Not provided"
+        },
+        "DOI": {
+          "DOI": "doi:10.7289//V5N58JC9"
+        },
+        "ShortName": "gov.noaa.ncdc.C00951",
+        "EntryTitle": "NOAA Climate Data Record (CDR) of Intersatellite Calibrated Clear-Sky High Resolution Infrared Radiation Sounder (HIRS) Channel 12 Brightness Temperature Version 3",
+        "ISOTopicCategories": [
+          "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE"
+        ],
+        "RelatedUrls": [
+          {
+            "Description": "View Source Metadata",
+            "URLContentType": "CollectionURL",
+            "Type": "EXTENDED METADATA",
+            "URL": "http://www.ngdc.noaa.gov/nmmrview/xmls/xml-to-text.jsp?id=gov.noaa.ncdc:C00951"
+          }
+        ],
+        "Abstract": "The High-Resolution Infrared Radiation Sounder (HIRS) of intersatellite calibrated channel 12 brightness temperature (TB) product is a gridded global monthly time series product spanning from 1979 to the most current full year, updated monthly. Among the twenty channels in the HIRS instrument, channel 12 measures upper tropospheric water vapor (UTWV). Multiple polar orbiting satellites in the NOAA Polar-orbiting Operational Environmental Satellite (POES) series and MetOp-A have carried HIRS instruments. Due to the independence in calibration of the individual HIRS instruments, biases exist between satellites. Examination of the intersatellite biases shows that the biases are scene brightness temperature dependent. These HIRS channel 12 measurements from the NOAA POES and MetOp-A are calibrated to a baseline satellite based on intersatellite bias correction data. The differences from the last version include that the dataset is now provided as monthly mean 2.5x2.5 degree latitude/longitude in netcdf format. This CDR is key to understanding water vapor feedback climatology and has been used to study long-term water vapor variability, to evaluate climate models, and to study large-scale atmospheric circulations.",
+        "Purpose": "This dataset provides advanced scientific researchers a high quality Climate Data Record (CDR) of upper tropospheric water vapor along with HIRS brightness temperatures that are suitable for long-term global studies and climate monitoring of upper tropospheric water vapor. These global observations play an important role in better modeling and understanding of tropical convection and its role in weather-climate connections from intraseasonal to interannual time scales.",
+        "LocationKeywords": [
+          {
+            "Category": "VERTICAL LOCATION",
+            "Type": "TROPOSPHERE"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2016-11-28T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-04-27T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "DirectoryNames": [
+          {
+            "ShortName": "USA/NOAA"
+          },
+          {
+            "ShortName": "CEOS"
+          }
+        ],
+        "Version": "Version 3",
+        "Projects": [
+          {
+            "ShortName": "POES",
+            "LongName": "Polar-orbiting Operational Environmental Satellites"
+          }
+        ],
+        "UseConstraints": {
+          "Description": {
+            "Description": "Cite this dataset when used as a source: Shi, Lei; Bates, John; and NOAA CDR Program (2016). NOAA Climate Data Record (CDR) of Intersatellite Calibrated Clear-Sky HIRS Channel 12 Brightness Temperature, Version 3.0. [indicate subset used]. NOAA National Centers for Environmental Information. DOI:10.7289/V5N58JC9 [access date]."
+          }
+        },
+        "ContactPersons": [
+          {
+            "Roles": [
+              "Metadata Author"
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Email",
+                  "Value": "ncdc.metadata@noaa.gov"
+                },
+                {
+                  "Type": "Fax",
+                  "Value": "1-828-271-4876"
+                },
+                {
+                  "Type": "Telephone",
+                  "Value": "1-828-271-4800"
+                }
+              ],
+              "Addresses": [
+                {
+                  "StreetAddresses": [
+                    "151 Patton Avenue"
+                  ],
+                  "City": "Asheville",
+                  "StateProvince": "NC",
+                  "Country": "USA",
+                  "PostalCode": "28801-5001"
+                }
+              ]
+            },
+            "LastName": "Genazzio"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER",
+              "DISTRIBUTOR"
+            ],
+            "ShortName": "DOC/NOAA/NESDIS/NCDC",
+            "LongName": "National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "ContactInformation": {
+                  "ContactMechanisms": [
+                    {
+                      "Type": "Email",
+                      "Value": "ncdc.orders@noaa.gov"
+                    },
+                    {
+                      "Type": "Fax",
+                      "Value": "+1 828-271-4876"
+                    },
+                    {
+                      "Type": "Telephone",
+                      "Value": "+1 828-271-4800"
+                    }
+                  ],
+                  "Addresses": [
+                    {
+                      "StreetAddresses": [
+                        "151 Patton Avenue",
+                        "Federal Building, Room 468"
+                      ],
+                      "City": "Asheville",
+                      "StateProvince": "NC",
+                      "Country": "USA",
+                      "PostalCode": "28801-5001"
+                    }
+                  ]
+                },
+                "FirstName": "CUSTOMER ENGAGEMENT BRANCH",
+                "LastName": "DOC/NOAA/NESDIS/NCEI"
+              }
+            ],
+            "ContactInformation": {
+              "RelatedUrls": [
+                {
+                  "URLContentType": "DataCenterURL",
+                  "Type": "HOME PAGE",
+                  "URL": "http://www.ncdc.noaa.gov/"
+                }
+              ]
+            }
+          },
+          {
+            "Roles": [
+              "ARCHIVER",
+              "DISTRIBUTOR"
+            ],
+            "ShortName": "DOC/NOAA/NESDIS/NCEI",
+            "LongName": "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "ContactInformation": {
+                  "ContactMechanisms": [
+                    {
+                      "Type": "Email",
+                      "Value": "ncdc.orders@noaa.gov"
+                    },
+                    {
+                      "Type": "Fax",
+                      "Value": "+1 828-271-4876"
+                    },
+                    {
+                      "Type": "Telephone",
+                      "Value": "+1 828-271-4800"
+                    }
+                  ],
+                  "Addresses": [
+                    {
+                      "StreetAddresses": [
+                        "151 Patton Avenue",
+                        "Federal Building, Room 468"
+                      ],
+                      "City": "Asheville",
+                      "StateProvince": "NC",
+                      "Country": "USA",
+                      "PostalCode": "28801-5001"
+                    }
+                  ]
+                },
+                "FirstName": "CUSTOMER ENGAGEMENT BRANCH",
+                "LastName": "DOC/NOAA/NESDIS/NCEI"
+              }
+            ],
+            "ContactInformation": {
+              "RelatedUrls": [
+                {
+                  "URLContentType": "DataCenterURL",
+                  "Type": "HOME PAGE",
+                  "URL": "https://ncei.noaa.gov/"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "ShortName": "Not provided",
+            "Instruments": [
+              {
+                "ShortName": "HIRS",
+                "LongName": "High Resolution Infrared Radiation Sounder"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 3,
+        "deleted": false,
+        "format": "application/dif+xml",
+        "provider-id": "NOAA_NCEI",
+        "user-id": "sritz",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "NOAA-19_Operational",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1215202480-NOAA_NCEI",
+        "revision-date": "2018-05-22T20:52:33Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "DataLanguage": "eng",
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "NO_SPATIAL"
+        },
+        "CollectionProgress": "PLANNED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "CLOUDS",
+            "VariableLevel1": "CLOUD PROPERTIES",
+            "VariableLevel2": "CLOUD TOP TEMPERATURE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "CLOUDS",
+            "VariableLevel1": "CLOUD PROPERTIES",
+            "VariableLevel2": "CLOUD VERTICAL DISTRIBUTION"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SPECTRAL/ENGINEERING",
+            "Term": "INFRARED WAVELENGTHS",
+            "VariableLevel1": "INFRARED IMAGERY"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SPECTRAL/ENGINEERING",
+            "Term": "VISIBLE WAVELENGTHS",
+            "VariableLevel1": "VISIBLE IMAGERY"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1970-01-01T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "Not provided"
+        },
+        "ShortName": "NOAA-19_Operational",
+        "EntryTitle": "NOAA-19 Operational Data",
+        "ISOTopicCategories": [
+          "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE",
+          "IMAGERY/BASE MAPS/EARTH COVER"
+        ],
+        "RelatedUrls": [
+          {
+            "Description": "\n         Access NOAA-19 data through EUMETSAT Product Naviagator\n      ",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "http://www.eumetsat.int/Home/Main/DataProducts/index.htm?l=en"
+          },
+          {
+            "Description": "\n         Access NOAA-19 data products from the Office of Satellite Data Processing and Distribution (OSDPD)\n      ",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "http://www.osdpd.noaa.gov/ml/mspps/noaa19prd.html"
+          },
+          {
+            "Description": "\n         NASA Project Home Page\n      ",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://goespoes.gsfc.nasa.gov/poes/"
+          },
+          {
+            "Description": "\n         NOAA Project Home Page\n      ",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "http://www.osd.noaa.gov/POES/noaa_n_prime.htm"
+          }
+        ],
+        "Abstract": "[Source: NASA Portal, http://www.nasa.gov/mission_pages/NOAA-N-Prime/main/index.html ]\n      \n      The Delta II carrying NOAA-N Prime lifted off Feb. 6, 2009 at 2:22 a.m. Pacific time, 5:22 a.m. Eastern time from Space Launch Complex-2 at Vandenberg Air Force Base in California.\n      \n      [Image and Text Source: NOAA-N Prime Spacecraft web page, http://goespoes.gsfc.nasa.gov/poes/spacecraft/noaanprime_spacecraft.html. ]\n      \n      NOAA-N Prime will be the last in the series of TIROS ATN. NOAA-N' has a planned launch date of February 2009 from Vandenberg AFB, CA by a Delta II launch vehicle.\n      \n      The spacecraft will continue to provide a polar-orbiting platform to support (1) environmental monitoring instruments for imaging and measuring the Earth's atmosphere, its surface, and cloud cover, including Earth radiation, atmospheric ozone, aerosol distribution, sea surface temperature, and vertical temperature and water profiles in the troposphere and stratosphere; (2) measurement of proton and electron flux at orbit altitude; (3) data collection from remote platforms; and (4) the Search and Rescue Satellite-Aided Tracking (SARSAT) system.\n      \n      Additionally, NOAA-N' will be the fifth in the series of support dedicated microwave instruments for the generation of temperature, moisture, surface, and hydrological products in cloudy regions where visible and infrared (IR) instruments have decreased capability.\n      \n      This spacecraft will carry an Advanced - DCS instead of the previous DCS.\n      \n      More Information:\n      http://goespoes.gsfc.nasa.gov/poes/spacecraft/noaanprime_spacecraft.html.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2009-02-06T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-04-27T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "DirectoryNames": [
+          {
+            "ShortName": "USA/NOAA"
+          },
+          {
+            "ShortName": "CEOS"
+          }
+        ],
+        "Version": "Not provided",
+        "Projects": [
+          {
+            "ShortName": "POES",
+            "LongName": "Polar-orbiting Operational Environmental Satellites"
+          },
+          {
+            "ShortName": "IJPS",
+            "LongName": "Initial Joint Polar-Orbiting Operational Satellite System"
+          }
+        ],
+        "ContactPersons": [
+          {
+            "Roles": [
+              "Technical Contact"
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Fax",
+                  "Value": "+49 6151 807538"
+                },
+                {
+                  "Type": "Telephone",
+                  "Value": "+49 6151 807345"
+                }
+              ],
+              "Addresses": [
+                {
+                  "StreetAddresses": [
+                    "Am Kavalleriesand 31"
+                  ],
+                  "City": "Darmstadt",
+                  "StateProvince": "Hessen",
+                  "Country": "Germany",
+                  "PostalCode": "D-64295"
+                }
+              ]
+            },
+            "LastName": "EUMETSAT USER SERVICE"
+          },
+          {
+            "Roles": [
+              "Metadata Author"
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Email",
+                  "Value": "Scott.A.Ritz@nasa.gov"
+                },
+                {
+                  "Type": "Fax",
+                  "Value": "301-614-5268"
+                },
+                {
+                  "Type": "Telephone",
+                  "Value": "301-602-3890"
+                }
+              ],
+              "Addresses": [
+                {
+                  "StreetAddresses": [
+                    "NASA Goddard Space Flight Center",
+                    "Global Change Master Directory"
+                  ],
+                  "City": "Greenbelt",
+                  "StateProvince": "Maryland",
+                  "Country": "USA",
+                  "PostalCode": "20771"
+                }
+              ]
+            },
+            "FirstName": "SCOTT",
+            "MiddleName": "A.",
+            "LastName": "RITZ"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER",
+              "DISTRIBUTOR"
+            ],
+            "ShortName": "EUMETSAT",
+            "LongName": "European Meteorological Satellite Organisation",
+            "Uuid": "049cb720-9272-409a-b918-73742cf810d6",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "ContactInformation": {
+                  "ContactMechanisms": [
+                    {
+                      "Type": "Fax",
+                      "Value": "+49 6151 807538"
+                    },
+                    {
+                      "Type": "Telephone",
+                      "Value": "+49 6151 807345"
+                    }
+                  ],
+                  "Addresses": [
+                    {
+                      "StreetAddresses": [
+                        "Am Kavalleriesand 31"
+                      ],
+                      "City": "Darmstadt",
+                      "StateProvince": "Hessen",
+                      "Country": "Germany",
+                      "PostalCode": "D-64295"
+                    }
+                  ]
+                },
+                "LastName": "EUMETSAT USER SERVICE"
+              }
+            ],
+            "ContactInformation": {
+              "RelatedUrls": [
+                {
+                  "URLContentType": "DataCenterURL",
+                  "Type": "HOME PAGE",
+                  "URL": "http://www.eumetsat.int"
+                }
+              ]
+            }
+          },
+          {
+            "Roles": [
+              "ARCHIVER",
+              "DISTRIBUTOR"
+            ],
+            "ShortName": "DOC/NOAA/NESDIS/OSDPD",
+            "LongName": "Office of Satellite Data Processing and Distribution, NESDIS, NOAA, U.S. Department of Commerce",
+            "Uuid": "624b3f56-3572-4078-8614-98f15a7908ff",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "ContactInformation": {
+                  "ContactMechanisms": [
+                    {
+                      "Type": "Email",
+                      "Value": "Limin.Zhao@noaa.gov"
+                    }
+                  ]
+                },
+                "LastName": "OSDPD INFORMATION PROCESSING DIVISION"
+              }
+            ],
+            "ContactInformation": {
+              "RelatedUrls": [
+                {
+                  "URLContentType": "DataCenterURL",
+                  "Type": "HOME PAGE",
+                  "URL": "http://www.osdpd.noaa.gov/"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "ShortName": "NOAA-19",
+            "LongName": "National Oceanic & Atmospheric Administration-19",
+            "Instruments": [
+              {
+                "ShortName": "AMSU-A",
+                "LongName": "Advanced Microwave Sounding Unit-A"
+              },
+              {
+                "ShortName": "MHS",
+                "LongName": "Microwave Humidity Sounder"
+              },
+              {
+                "ShortName": "SBUV/2",
+                "LongName": "Solar Backscatter Ultraviolet/2"
+              },
+              {
+                "ShortName": "AVHRR-3",
+                "LongName": "Advanced Very High Resolution Radiometer-3"
+              },
+              {
+                "ShortName": "HIRS/4",
+                "LongName": "High Resolution Infrared Radiation Sounder/4"
+              },
+              {
+                "ShortName": "SEM-2",
+                "LongName": "Space Environment Monitor-2"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 2,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "Reynolds+NCEP+Level+4+Optimally+Interpolated+SST+Monthly+Version+2",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1645281597-PODAAC",
+        "revision-date": "2019-10-29T17:21:13Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Reynolds, R., Stokes, D., National Center for Environmental Prediction (NCEP), 1981-11-08, Reynolds NCEP Level 4 Optimally Interpolated SST Monthly Version 2, 10.5067/REYN2-OIMON, https://podaac-tools.jpl.nasa.gov/drive/files/allData/avhrr/L4/reynolds_oi/docs/"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Ocean Temperature",
+            "VariableLevel1": "Sea Surface Temperature",
+            "DetailedVariable": "None"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1981-11-01T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "4"
+        },
+        "DOI": {
+          "DOI": "10.5067/REYN2-OIMON"
+        },
+        "ShortName": "REYNOLDS_NCEP_L4_SST_OPT_INTERP_MONTHLY_V2",
+        "EntryTitle": "Reynolds NCEP Level 4 Optimally Interpolated SST Monthly Version 2",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/avhrr/L4/reynolds_oi/v2/monthly",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "NCEP Reynolds Optimally Interpolated SST description",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "http://www.esrl.noaa.gov/psd/data/gridded/data.noaa.oisst.v2.html"
+          },
+          {
+            "Description": "NCEP Reynolds Optimally Interpolated SST User Guide",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/avhrr/L4/reynolds_oi/docs/oisst.html"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/REYN2-OIMON"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2010-06-07T00:14:34.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2011-01-21T17:10:13.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The NOAA/NCEP Reynolds Optimally Interpolated (OI) Sea Surface Temperature monthly Level 4 product consists of aggregate global sea surface temperature fields on a 1 degree by 1 degree grid over a month time interval. The OI analysis employed uses both in-situ SSTs from ships and buoys and satellite derived SSTs from the NOAA Advanced Very High Resolution Radiometer (AVHRR). The satellite derived SSTs are from the Multichannel Sea Surface Temperature products that have been constructed operationally from the five-channel AVHRR by NOAA's Environmental Satellite, Data, and Information Service (NESDIS) since late 1981 through to present.  Monthly OI SST fields are derived by a linear interpolation of the weekly optimum interpolation (OI) fields to daily fields then averaging the daily values over a month. The monthly fields are in the same format and spatial resolution as the weekly fields, which have been widely used for weather and climate monitoring and forecasting.  Version 2.0 of this dataset utilizes an update and extension of the COADS in-situ data series providing enhanced ship data coverage through 1997 and reducing the residual satellite biases in otherwise data sparse regions.  This version also implements enhancements to the OI analysis utilizing simulations of SST observations from an improved sea ice algorithm and data following a technique developed at the UK Met Office, improvements that further reduce biases in the OI SST particularly at higher latitudes.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-10-29T17:21:10.709Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "2",
+        "Projects": [
+          {
+            "ShortName": "POES"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "NOAA/NCEP"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NOAA National Center for Environmental Prediction",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Diane",
+                "LastName": "Stokes"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "301-683-3713"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "Diane.Stokes@noaa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "NOAA-11",
+            "LongName": "National Oceanic & Atmospheric Administration-11",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "102.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "99.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AVHRR-2",
+                "LongName": "Advanced Very High Resolution Radiometer-2",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "2400.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "NOAA-14",
+            "LongName": "National Oceanic & Atmospheric Administration-14",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "102.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "99.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AVHRR-2",
+                "LongName": "Advanced Very High Resolution Radiometer-2",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "2400.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "NOAA-9",
+            "LongName": "National Oceanic & Atmospheric Administration-9",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "102.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AVHRR-2",
+                "LongName": "Advanced Very High Resolution Radiometer-2",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "2400.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "NOAA-16",
+            "LongName": "National Oceanic & Atmospheric Administration-16",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "102.1",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "99.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AVHRR-3",
+                "LongName": "Advanced Very High Resolution Radiometer-3",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "2400.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "NOAA-17",
+            "LongName": "National Oceanic & Atmospheric Administration-17",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "101.2",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.7",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AVHRR-3",
+                "LongName": "Advanced Very High Resolution Radiometer-3",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "2400.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "NOAA-7",
+            "LongName": "National Oceanic & Atmospheric Administration-7",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "102.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "99.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AVHRR-2",
+                "LongName": "Advanced Very High Resolution Radiometer-2",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "2400.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "RAW"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "Reynolds+NCEP+Level+4+Optimally+Interpolated+SST+Weekly+Version+2",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1652973931-PODAAC",
+        "revision-date": "2019-11-06T18:11:40Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Reynolds, R., Stokes, D., National Center for Environmental Prediction (NCEP), 1981-11-07, Reynolds NCEP Level 4 Optimally Interpolated SST Weekly Version 2, 10.5067/REYN2-OIMOW, https://podaac-tools.jpl.nasa.gov/drive/files/allData/avhrr/L4/reynolds_oi/docs/"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Ocean Temperature",
+            "VariableLevel1": "Sea Surface Temperature",
+            "DetailedVariable": "None"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1981-01-01T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "4"
+        },
+        "DOI": {
+          "DOI": "10.5067/REYN2-OIMOW"
+        },
+        "ShortName": "REYNOLDS_NCEP_L4_SST_OPT_INTERP_WEEKLY_V2",
+        "EntryTitle": "Reynolds NCEP Level 4 Optimally Interpolated SST Weekly Version 2",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/avhrr/L4/reynolds_oi/v2/weekly",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "NCEP Reynolds Optimally Interpolated SST description",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "http://www.esrl.noaa.gov/psd/data/gridded/data.noaa.oisst.v2.html"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "NCEP Reynolds Optimally Interpolated SST User Guide",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/avhrr/L4/reynolds_oi/docs/oisst.html"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/REYN2-OIMOW"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2010-06-07T00:13:29.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2011-01-21T17:10:13.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The NOAA/NCEP Reynolds Optimally Interpolated (OI) Sea Surface Temperature weekly Level 4 product consists of aggregate 7 day global sea surface temperature fields on a 1 degree by 1 degree grid. The OI analysis employed uses both in-situ SSTs from ships and buoys and satellite derived SSTs from the NOAA Advanced Very High Resolution Radiometer (AVHRR). The satellite derived SSTs are from the Multichannel Sea Surface Temperature products that have been constructed operationally from the five-channel AVHRR by NOAA's Environmental Satellite, Data, and Information Service (NESDIS) since late 1981 through to present.  The weekly product has been available since 1993 and is widely used for weather and climate monitoring and forecasting.  Version 2.0 of this dataset utilizes an update and extension of the COADS in-situ data series providing enhanced ship data coverage through 1997 and reducing the residual satellite biases in otherwise data sparse regions.  This version also implements enhancements to the OI analysis utilizing simulations of SST observations from an improved sea ice algorithm and data following a technique developed at the UK Met Office, improvements that further reduce biases in the OI SST particularly at higher latitudes.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-06T18:11:37.407Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "2",
+        "Projects": [
+          {
+            "ShortName": "POES"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "NOAA/NCEP"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NOAA National Center for Environmental Prediction",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Diane",
+                "LastName": "Stokes"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "301-683-3713"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "Diane.Stokes@noaa.gov"
+                }
+              ]
+            }
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "NOAA-11",
+            "LongName": "National Oceanic & Atmospheric Administration-11",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "102.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "99.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AVHRR-2",
+                "LongName": "Advanced Very High Resolution Radiometer-2",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "2400.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "NOAA-14",
+            "LongName": "National Oceanic & Atmospheric Administration-14",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "102.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "99.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AVHRR-2",
+                "LongName": "Advanced Very High Resolution Radiometer-2",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "2400.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "InSitu",
+            "ShortName": "NCEP GTS",
+            "LongName": "Global Telecommunication System Ship and Buoy In Situ Observations",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "0.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "0.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "InSitu",
+                "LongName": "Ships and Moored and Drifting Buoys",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-999.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "NOAA-9",
+            "LongName": "National Oceanic & Atmospheric Administration-9",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "102.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AVHRR-2",
+                "LongName": "Advanced Very High Resolution Radiometer-2",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "2400.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "NOAA-16",
+            "LongName": "National Oceanic & Atmospheric Administration-16",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "102.1",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "99.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AVHRR-3",
+                "LongName": "Advanced Very High Resolution Radiometer-3",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "2400.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "NOAA-17",
+            "LongName": "National Oceanic & Atmospheric Administration-17",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "101.2",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.7",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AVHRR-3",
+                "LongName": "Advanced Very High Resolution Radiometer-3",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "2400.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "NOAA-19",
+            "LongName": "National Oceanic & Atmospheric Administration-19",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "102.12",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.74",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AVHRR-3",
+                "LongName": "Advanced Very High Resolution Radiometer-3",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "2400.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "NOAA-20",
+            "LongName": "National Oceanic & Atmospheric Administration-20",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "102.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "99.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AVHRR-3",
+                "LongName": "Advanced Very High Resolution Radiometer-3",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "2400.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "NOAA-7",
+            "LongName": "National Oceanic & Atmospheric Administration-7",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "102.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "99.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AVHRR-2",
+                "LongName": "Advanced Very High Resolution Radiometer-2",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "2400.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "RAW"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 13,
+        "deleted": false,
+        "format": "application/dif10+xml",
+        "provider-id": "GES_DISC",
+        "user-id": "cloeser",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "SBUV2N11O3_008",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1273652223-GES_DISC",
+        "revision-date": "2019-12-11T19:42:09Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "DataLanguage": "eng",
+        "AncillaryKeywords": [
+          "O3"
+        ],
+        "CollectionCitations": [
+          {
+            "Creator": "Flynn, Lawrence E., et al.",
+            "DataPresentationForm": "Digital Science Data",
+            "OnlineResource": {
+              "Linkage": "https://disc.gsfc.nasa.gov/datacollection/SBUV2N11O3_008.html"
+            },
+            "Publisher": "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+            "Title": "SBUV2/NOAA-11 Level 2 Daily Ozone Profile and Total Column from CD-ROM V008",
+            "SeriesName": "SBUV2N11O3",
+            "ReleaseDate": "2004-06-01T00:00:00.000Z",
+            "Version": "008",
+            "ReleasePlace": "Greenbelt, MD, USA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "HorizontalDataResolution": {
+                "GenericResolutions": [
+                  {
+                    "XDimension": 160,
+                    "YDimension": 160,
+                    "Unit": "Not provided"
+                  }
+                ]
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC CHEMISTRY",
+            "VariableLevel1": "OXYGEN COMPOUNDS",
+            "VariableLevel2": "OZONE",
+            "DetailedVariable": "OZONE PROFILES AND TOTAL COLUMN"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC RADIATION",
+            "VariableLevel1": "REFLECTANCE",
+            "DetailedVariable": "UV REFLECTIVITY"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "AEROSOLS",
+            "VariableLevel1": "DUST/ASH/SMOKE",
+            "DetailedVariable": "UV AEROSOL INDEX"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1988-12-01T00:00:00.000Z",
+                "EndingDateTime": "2001-03-27T23:59:59.999Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2"
+        },
+        "ShortName": "SBUV2N11O3",
+        "EntryTitle": "SBUV2/NOAA-11 Level 2 Daily Ozone Profile and Total Column from CD-ROM V008 (SBUV2N11O3) at GES DISC",
+        "Quality": "See https://ozoneaq.gsfc.nasa.gov/V8_Data_Documentation.md",
+        "ISOTopicCategories": [
+          "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE"
+        ],
+        "RelatedUrls": [
+          {
+            "URLContentType": "VisualizationURL",
+            "Type": "GET RELATED VISUALIZATION",
+            "URL": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/SBUV2N11O3_008.png"
+          },
+          {
+            "Description": "Access the dataset landing page from the GES DISC website.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://disc.gsfc.nasa.gov/datacollection/SBUV2N11O3_008.html"
+          },
+          {
+            "Description": "Access the data via HTTPS.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DATA TREE",
+            "URL": "https://acdisc.gesdisc.eosdis.nasa.gov/data/NOAA_SBUV2_Level2/SBUV2N11O3.008/"
+          },
+          {
+            "Description": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "Earthdata Search",
+            "URL": "https://search.earthdata.nasa.gov/search?q=SBUV2N11O3"
+          },
+          {
+            "Description": "NOAA NESDIS SBUV/2 web site",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://www.star.nesdis.noaa.gov/smcd/spb/ozone/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "1970-01-01T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "1970-01-01T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The version 8 SBUV/2 NOAA-11 ozone data were first released at the 2004 Quadrennial Ozone Symposium on DVD. The DVD contained all of the SBUV/2 data from NOAA-9, NOAA-11 and NOAA-16 satellites as well as SBUV data from the Nimbus-7 satellite. The DVD is no longer available, however all the data are available on-line from the NASA GES DISC. The NOAA-11 SBUV/2 v8 data are available from 1988-12-01 to 2001-03-27. The instrument spatial resolution is 180 km x 180 km footprint at nadir. The ozone profiles are made at 21 pressure levels between 1000 and 0.1 hPa. Each data file contains a days worth of ozone measurements, and is written in an ASCII text format.\n\nThe SBUV/2 is a scanning double monochromator and a cloud cover radiometer (CCR) designed to measure ultraviolet (UV) spectral intensities. In its primary mode of operation, the monochromator measures solar radiation backscattered by the atmosphere in 12 discrete wavelength bands in the near-UV, ranging from 252.0 to 339.8 nanometers, each with a bandpass of 1.1 nm. The total-ozone algorithm uses the four longest wavelength bands (312.5, 317.5, 331.2 and 339.8 nm), whereas the profiling algorithm uses the shorter wavelengths. The cloud cover radiometer operates at 379 nm (i.e., outside the ozone absorption band) with a 3.0 nm bandpass and was designed to measure the reflectivity of the surface in the IFOV. The SBUV/2 also makes periodic measurements of the solar flux by deploying a diffuser plate into the FOV to reflect sunlight into the measurement.",
+        "Purpose": "From these data, the following atmospheric properties can be deduced:* The global and vertical distribution of stratospheric ozone.* The structure and dynamics of stratospheric ozone.* Photochemical processes and the influence of \"trace\" constituents on the ozone layer.* Long-term solar activity in the Ultraviolet spectrum.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          },
+          {
+            "Category": "VERTICAL LOCATION",
+            "Type": "STRATOSPHERE"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2012-03-13T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2018-11-30T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "008",
+        "Projects": [
+          {
+            "ShortName": "POES",
+            "LongName": "Polar-orbiting Operational Environmental Satellites"
+          }
+        ],
+        "ContactPersons": [
+          {
+            "Roles": [
+              "Investigator"
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Email",
+                  "Value": "Lawrence.E.Flynn@noaa.gov"
+                },
+                {
+                  "Type": "Telephone",
+                  "Value": "301-763-8136 x131"
+                }
+              ]
+            },
+            "FirstName": "LARRY",
+            "LastName": "FLYNN, PH. D"
+          },
+          {
+            "Roles": [
+              "Metadata Author"
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Email",
+                  "Value": "James.Johnson@nasa.gov"
+                },
+                {
+                  "Type": "Telephone",
+                  "Value": "301-614-5121"
+                }
+              ],
+              "Addresses": [
+                {
+                  "StreetAddresses": [
+                    "NASA Goddard Space Flight Center",
+                    "Code 610.2"
+                  ],
+                  "City": "Greenbelt",
+                  "StateProvince": "MD",
+                  "Country": "USA",
+                  "PostalCode": "20771"
+                }
+              ]
+            },
+            "FirstName": "JAMES",
+            "MiddleName": "EDWARD",
+            "LastName": "JOHNSON"
+          }
+        ],
+        "CollectionDataType": "SCIENCE_QUALITY",
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+            "LongName": "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+            "ContactGroups": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "ContactInformation": {
+                  "ContactMechanisms": [
+                    {
+                      "Type": "Email",
+                      "Value": "gsfc-help-disc@lists.nasa.gov"
+                    },
+                    {
+                      "Type": "Telephone",
+                      "Value": "301-614-5224"
+                    },
+                    {
+                      "Type": "Fax",
+                      "Value": "301-614-5268"
+                    }
+                  ],
+                  "Addresses": [
+                    {
+                      "StreetAddresses": [
+                        "Goddard Earth Sciences Data and Information Services Center",
+                        "Code 610.2",
+                        "NASA Goddard Space Flight Center"
+                      ],
+                      "City": "Greenbelt",
+                      "StateProvince": "MD",
+                      "Country": "USA",
+                      "PostalCode": "20771"
+                    }
+                  ]
+                },
+                "GroupName": "GES DISC HELP DESK SUPPORT GROUP"
+              }
+            ],
+            "ContactInformation": {
+              "RelatedUrls": [
+                {
+                  "URLContentType": "DataCenterURL",
+                  "Type": "HOME PAGE",
+                  "URL": "https://disc.gsfc.nasa.gov/"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Earth Observation Satellites",
+            "ShortName": "NOAA-11",
+            "LongName": "National Oceanic & Atmospheric Administration-11",
+            "Instruments": [
+              {
+                "ShortName": "SBUV/2",
+                "LongName": "Solar Backscatter Ultraviolet/2"
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "AverageFileSize": 330,
+              "Fees": "None",
+              "Format": "ASCII",
+              "AverageFileSizeUnit": "KB",
+              "Media": [
+                "Online Archive"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 13,
+        "deleted": false,
+        "format": "application/dif10+xml",
+        "provider-id": "GES_DISC",
+        "user-id": "cloeser",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "SBUV2N16O3_008",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1273652224-GES_DISC",
+        "revision-date": "2019-12-11T19:42:14Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "DataLanguage": "eng",
+        "AncillaryKeywords": [
+          "O3"
+        ],
+        "CollectionCitations": [
+          {
+            "Creator": "Flynn, Lawrence E., et al.",
+            "DataPresentationForm": "Digital Science Data",
+            "OnlineResource": {
+              "Linkage": "https://disc.gsfc.nasa.gov/datacollection/SBUV2N16O3_008.html"
+            },
+            "Publisher": "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+            "Title": "SBUV2/NOAA-16 Level 2 Daily Ozone Profile and Total Column from CD-ROM V008",
+            "SeriesName": "SBUV2N16O3",
+            "ReleaseDate": "2004-06-01T00:00:00.000Z",
+            "Version": "008",
+            "ReleasePlace": "Greenbelt, MD, USA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "HorizontalDataResolution": {
+                "GenericResolutions": [
+                  {
+                    "XDimension": 180,
+                    "YDimension": 180,
+                    "Unit": "Not provided"
+                  }
+                ]
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC CHEMISTRY",
+            "VariableLevel1": "OXYGEN COMPOUNDS",
+            "VariableLevel2": "OZONE",
+            "DetailedVariable": "OZONE PROFILES AND TOTAL COLUMN"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC RADIATION",
+            "VariableLevel1": "REFLECTANCE",
+            "DetailedVariable": "UV REFLECTIVITY"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "AEROSOLS",
+            "VariableLevel1": "DUST/ASH/SMOKE",
+            "DetailedVariable": "UV AEROSOL INDEX"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2000-10-03T00:00:00.000Z",
+                "EndingDateTime": "2003-12-31T23:59:59.999Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2"
+        },
+        "ShortName": "SBUV2N16O3",
+        "EntryTitle": "SBUV2/NOAA-16 Level 2 Daily Ozone Profile and Total Column from CD-ROM V008 (SBUV2N16O3) at GES DISC",
+        "Quality": "See https://ozoneaq.gsfc.nasa.gov/V8_Data_Documentation.md",
+        "ISOTopicCategories": [
+          "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE"
+        ],
+        "RelatedUrls": [
+          {
+            "URLContentType": "VisualizationURL",
+            "Type": "GET RELATED VISUALIZATION",
+            "URL": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/SBUV2N16O3_008.png"
+          },
+          {
+            "Description": "Access the dataset landing page from the GES DISC website.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://disc.gsfc.nasa.gov/datacollection/SBUV2N16O3_008.html"
+          },
+          {
+            "Description": "Access the data via HTTPS.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DATA TREE",
+            "URL": "https://acdisc.gesdisc.eosdis.nasa.gov/data/NOAA_SBUV2_Level2/SBUV2N16O3.008/"
+          },
+          {
+            "Description": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "Earthdata Search",
+            "URL": "https://search.earthdata.nasa.gov/search?q=SBUV2N16O3"
+          },
+          {
+            "Description": "NOAA NESDIS SBUV/2 web site",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://www.star.nesdis.noaa.gov/smcd/spb/ozone/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "1970-01-01T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "1970-01-01T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The version 8 SBUV/2 NOAA-16 ozone data were first released at the 2004 Quadrennial Ozone Symposium on DVD. The DVD contained all of the SBUV/2 data from NOAA-9, NOAA-11 and NOAA-16 satellites as well as SBUV data from the Nimbus-7 satellite. The DVD is no longer available, however all the data are available on-line from the NASA GES DISC. The NOAA-16 SBUV/2 v8 data are available from 2000-10-03 to 2003-12-31. The instrument spatial resolution is 180 km x 180 km footprint at nadir. The ozone profiles are made at 21 pressure levels between 1000 and 0.1 hPa. Each data file contains a days worth of ozone measurements, and is written in an ASCII text format.\n\nThe SBUV/2 is a scanning double monochromator and a cloud cover radiometer (CCR) designed to measure ultraviolet (UV) spectral intensities. In its primary mode of operation, the monochromator measures solar radiation backscattered by the atmosphere in 12 discrete wavelength bands in the near-UV, ranging from 252.0 to 339.8 nanometers, each with a bandpass of 1.1 nm. The total-ozone algorithm uses the four longest wavelength bands (312.5, 317.5, 331.2 and 339.8 nm), whereas the profiling algorithm uses the shorter wavelengths. The cloud cover radiometer operates at 379 nm (i.e., outside the ozone absorption band) with a 3.0 nm bandpass and was designed to measure the reflectivity of the surface in the IFOV. The SBUV/2 also makes periodic measurements of the solar flux by deploying a diffuser plate into the FOV to reflect sunlight into the measurement.",
+        "Purpose": "From these data, the following atmospheric properties can be deduced:* The global and vertical distribution of stratospheric ozone.* The structure and dynamics of stratospheric ozone.* Photochemical processes and the influence of \"trace\" constituents on the ozone layer.* Long-term solar activity in the Ultraviolet spectrum.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          },
+          {
+            "Category": "VERTICAL LOCATION",
+            "Type": "STRATOSPHERE"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2012-03-13T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2018-11-30T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "008",
+        "Projects": [
+          {
+            "ShortName": "POES",
+            "LongName": "Polar-orbiting Operational Environmental Satellites"
+          }
+        ],
+        "ContactPersons": [
+          {
+            "Roles": [
+              "Investigator"
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Email",
+                  "Value": "Lawrence.E.Flynn@noaa.gov"
+                },
+                {
+                  "Type": "Telephone",
+                  "Value": "301-763-8136 x131"
+                }
+              ]
+            },
+            "FirstName": "LARRY",
+            "LastName": "FLYNN, PH. D"
+          },
+          {
+            "Roles": [
+              "Metadata Author"
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Email",
+                  "Value": "James.Johnson@nasa.gov"
+                },
+                {
+                  "Type": "Telephone",
+                  "Value": "301-614-5121"
+                }
+              ],
+              "Addresses": [
+                {
+                  "StreetAddresses": [
+                    "NASA Goddard Space Flight Center",
+                    "Code 610.2"
+                  ],
+                  "City": "Greenbelt",
+                  "StateProvince": "MD",
+                  "Country": "USA",
+                  "PostalCode": "20771"
+                }
+              ]
+            },
+            "FirstName": "JAMES",
+            "MiddleName": "EDWARD",
+            "LastName": "JOHNSON"
+          }
+        ],
+        "CollectionDataType": "SCIENCE_QUALITY",
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+            "LongName": "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+            "ContactGroups": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "ContactInformation": {
+                  "ContactMechanisms": [
+                    {
+                      "Type": "Email",
+                      "Value": "gsfc-help-disc@lists.nasa.gov"
+                    },
+                    {
+                      "Type": "Telephone",
+                      "Value": "301-614-5224"
+                    },
+                    {
+                      "Type": "Fax",
+                      "Value": "301-614-5268"
+                    }
+                  ],
+                  "Addresses": [
+                    {
+                      "StreetAddresses": [
+                        "Goddard Earth Sciences Data and Information Services Center",
+                        "Code 610.2",
+                        "NASA Goddard Space Flight Center"
+                      ],
+                      "City": "Greenbelt",
+                      "StateProvince": "MD",
+                      "Country": "USA",
+                      "PostalCode": "20771"
+                    }
+                  ]
+                },
+                "GroupName": "GES DISC HELP DESK SUPPORT GROUP"
+              }
+            ],
+            "ContactInformation": {
+              "RelatedUrls": [
+                {
+                  "URLContentType": "DataCenterURL",
+                  "Type": "HOME PAGE",
+                  "URL": "https://disc.gsfc.nasa.gov/"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Earth Observation Satellites",
+            "ShortName": "NOAA-16",
+            "LongName": "National Oceanic & Atmospheric Administration-16",
+            "Instruments": [
+              {
+                "ShortName": "SBUV/2",
+                "LongName": "Solar Backscatter Ultraviolet/2"
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "AverageFileSize": 350,
+              "Fees": "None",
+              "Format": "ASCII",
+              "AverageFileSizeUnit": "KB",
+              "Media": [
+                "Online Archive"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 13,
+        "deleted": false,
+        "format": "application/dif10+xml",
+        "provider-id": "GES_DISC",
+        "user-id": "cloeser",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "SBUV2N09O3_008",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1273652205-GES_DISC",
+        "revision-date": "2019-12-11T19:42:05Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "DataLanguage": "eng",
+        "AncillaryKeywords": [
+          "O3"
+        ],
+        "CollectionCitations": [
+          {
+            "Creator": "Flynn, Lawrence E., et al.",
+            "DataPresentationForm": "Digital Science Data",
+            "OnlineResource": {
+              "Linkage": "https://disc.gsfc.nasa.gov/datacollection/SBUV2N09O3_008.html"
+            },
+            "Publisher": "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+            "Title": "SBUV2/NOAA-9 Level 2 Daily Ozone Profile and Total Column from CD-ROM V008",
+            "SeriesName": "SBUV2N09O3",
+            "ReleaseDate": "2004-06-01T00:00:00.000Z",
+            "Version": "008",
+            "ReleasePlace": "Greenbelt, MD, USA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "HorizontalDataResolution": {
+                "GenericResolutions": [
+                  {
+                    "XDimension": 160,
+                    "YDimension": 160,
+                    "Unit": "Not provided"
+                  }
+                ]
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC CHEMISTRY",
+            "VariableLevel1": "OXYGEN COMPOUNDS",
+            "VariableLevel2": "OZONE",
+            "DetailedVariable": "OZONE PROFILES AND TOTAL COLUMN"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC RADIATION",
+            "VariableLevel1": "REFLECTANCE",
+            "DetailedVariable": "UV REFLECTIVITY"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "AEROSOLS",
+            "VariableLevel1": "DUST/ASH/SMOKE",
+            "DetailedVariable": "UV AEROSOL INDEX"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1985-02-02T00:00:00.000Z",
+                "EndingDateTime": "1998-02-19T23:59:59.999Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2"
+        },
+        "ShortName": "SBUV2N09O3",
+        "EntryTitle": "SBUV2/NOAA-9 Level 2 Daily Ozone Profile and Total Column from CD-ROM V008 (SBUV2N09O3) at GES DISC",
+        "Quality": "See https://ozoneaq.gsfc.nasa.gov/V8_Data_Documentation.md",
+        "ISOTopicCategories": [
+          "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE"
+        ],
+        "RelatedUrls": [
+          {
+            "URLContentType": "VisualizationURL",
+            "Type": "GET RELATED VISUALIZATION",
+            "URL": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/SBUV2N09O3_008.png"
+          },
+          {
+            "Description": "Access the dataset landing page from the GES DISC website.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://disc.gsfc.nasa.gov/datacollection/SBUV2N09O3_008.html"
+          },
+          {
+            "Description": "Access the data via HTTPS.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DATA TREE",
+            "URL": "https://acdisc.gesdisc.eosdis.nasa.gov/data/NOAA_SBUV2_Level2/SBUV2N09O3.008/"
+          },
+          {
+            "Description": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "Earthdata Search",
+            "URL": "https://search.earthdata.nasa.gov/search?q=SBUV2N09O3"
+          },
+          {
+            "Description": "NOAA NESDIS SBUV/2 web site",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://www.star.nesdis.noaa.gov/smcd/spb/ozone/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "1970-01-01T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "1970-01-01T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The version 8 SBUV/2 NOAA-9 ozone data were first released at the 2004 Quadrennial Ozone Symposium on DVD. The DVD contained all of the SBUV/2 data from NOAA-9, NOAA-11 and NOAA-16 satellites as well as SBUV data from the Nimbus-7 satellite. The DVD is no longer available, however all the data are available on-line from the NASA GES DISC. The NOAA-9 SBUV/2 v8 data are available in two time periods from 1985-02-02 to 1989-12-31 (ascending orbits) and again from 1992-01-01 to 1998-02-19 (descending orbits) due to the drift of the NOAA-9 satellite. The instrument spatial resolution is 180 km x 180 km footprint at nadir. The ozone profiles are made at 21 pressure levels between 1000 and 0.1 hPa. Each data file contains a days worth of ozone measurements, and is written in an ASCII text format.\n\nThe SBUV/2 is a scanning double monochromator and a cloud cover radiometer (CCR) designed to measure ultraviolet (UV) spectral intensities. In its primary mode of operation, the monochromator measures solar radiation backscattered by the atmosphere in 12 discrete wavelength bands in the near-UV, ranging from 252.0 to 339.8 nanometers, each with a bandpass of 1.1 nm. The total-ozone algorithm uses the four longest wavelength bands (312.5, 317.5, 331.2 and 339.8 nm), whereas the profiling algorithm uses the shorter wavelengths. The cloud cover radiometer operates at 379 nm (i.e., outside the ozone absorption band) with a 3.0 nm bandpass and was designed to measure the reflectivity of the surface in the IFOV. The SBUV/2 also makes periodic measurements of the solar flux by deploying a diffuser plate into the FOV to reflect sunlight into the measurement.",
+        "Purpose": "From these data, the following atmospheric properties can be deduced:* The global and vertical distribution of stratospheric ozone.* The structure and dynamics of stratospheric ozone.* Photochemical processes and the influence of \"trace\" constituents on the ozone layer.* Long-term solar activity in the Ultraviolet spectrum.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          },
+          {
+            "Category": "VERTICAL LOCATION",
+            "Type": "STRATOSPHERE"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2012-03-09T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2018-11-30T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "008",
+        "Projects": [
+          {
+            "ShortName": "POES",
+            "LongName": "Polar-orbiting Operational Environmental Satellites"
+          }
+        ],
+        "ContactPersons": [
+          {
+            "Roles": [
+              "Investigator"
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Email",
+                  "Value": "Lawrence.E.Flynn@noaa.gov"
+                },
+                {
+                  "Type": "Telephone",
+                  "Value": "301-763-8136 x131"
+                }
+              ]
+            },
+            "FirstName": "LARRY",
+            "LastName": "FLYNN, PH. D"
+          },
+          {
+            "Roles": [
+              "Metadata Author"
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Email",
+                  "Value": "James.Johnson@nasa.gov"
+                },
+                {
+                  "Type": "Telephone",
+                  "Value": "301-614-5121"
+                }
+              ],
+              "Addresses": [
+                {
+                  "StreetAddresses": [
+                    "NASA Goddard Space Flight Center",
+                    "Code 610.2"
+                  ],
+                  "City": "Greenbelt",
+                  "StateProvince": "MD",
+                  "Country": "USA",
+                  "PostalCode": "20771"
+                }
+              ]
+            },
+            "FirstName": "JAMES",
+            "MiddleName": "EDWARD",
+            "LastName": "JOHNSON"
+          }
+        ],
+        "CollectionDataType": "SCIENCE_QUALITY",
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+            "LongName": "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+            "ContactGroups": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "ContactInformation": {
+                  "ContactMechanisms": [
+                    {
+                      "Type": "Email",
+                      "Value": "gsfc-help-disc@lists.nasa.gov"
+                    },
+                    {
+                      "Type": "Telephone",
+                      "Value": "301-614-5224"
+                    },
+                    {
+                      "Type": "Fax",
+                      "Value": "301-614-5268"
+                    }
+                  ],
+                  "Addresses": [
+                    {
+                      "StreetAddresses": [
+                        "Goddard Earth Sciences Data and Information Services Center",
+                        "Code 610.2",
+                        "NASA Goddard Space Flight Center"
+                      ],
+                      "City": "Greenbelt",
+                      "StateProvince": "MD",
+                      "Country": "USA",
+                      "PostalCode": "20771"
+                    }
+                  ]
+                },
+                "GroupName": "GES DISC HELP DESK SUPPORT GROUP"
+              }
+            ],
+            "ContactInformation": {
+              "RelatedUrls": [
+                {
+                  "URLContentType": "DataCenterURL",
+                  "Type": "HOME PAGE",
+                  "URL": "https://disc.gsfc.nasa.gov/"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Earth Observation Satellites",
+            "ShortName": "NOAA-9",
+            "LongName": "National Oceanic & Atmospheric Administration-9",
+            "Instruments": [
+              {
+                "ShortName": "SBUV/2",
+                "LongName": "Solar Backscatter Ultraviolet/2"
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "AverageFileSize": 330,
+              "Fees": "None",
+              "Format": "ASCII",
+              "AverageFileSizeUnit": "KB",
+              "Media": [
+                "Online Archive"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 6,
+        "deleted": false,
+        "format": "application/dif10+xml",
+        "provider-id": "SCIOPS",
+        "user-id": "sritz",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "NAVOCEANO_LAC_SST",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1214614798-SCIOPS",
+        "revision-date": "2019-01-17T01:48:51Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "DataLanguage": "eng",
+        "AncillaryKeywords": [
+          "OCEAN",
+          "SEA SURFACE TEMPERATURE",
+          "REAL TIME",
+          "SATELLITES"
+        ],
+        "AdditionalAttributes": [
+          {
+            "Value": "2015-12-02 13:07:53",
+            "Name": "metadata.extraction_date",
+            "Description": "Not provided",
+            "DataType": "STRING"
+          },
+          {
+            "Value": "8.1",
+            "Name": "metadata.keyword_version",
+            "Description": "Not provided",
+            "DataType": "FLOAT"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "NO_SPATIAL"
+        },
+        "CollectionProgress": "COMPLETE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN TEMPERATURE",
+            "VariableLevel1": "SEA SURFACE TEMPERATURE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SOLID EARTH",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "SATELLITE ORBITS/REVOLUTION"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1970-01-01T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "Not provided"
+        },
+        "ShortName": "NAVOCEANO_LAC_SST",
+        "EntryTitle": "U.S. Naval Oceanographic Office (NAVOCEANO)'s AVHRR MCSST high resolution (4km) Local Area Coverage (LAC) satellite Sea Surface Temperature (SST) retrievals",
+        "ISOTopicCategories": [
+          "GEOSCIENTIFIC INFORMATION",
+          "OCEANS"
+        ],
+        "RelatedUrls": [
+          {
+            "Description": "HTTP data access to high resolution (4km) Local Area Coverage (LAC) Sea Surface Temperature (SST) retrievals from NOAA-16 and NOAA-17 satellites.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "http://www.usgodae.org/ftp/outgoing/navo/sst/"
+          },
+          {
+            "Description": "NASA Jet Propulsion Laboratory (JPL) Physical Oceanography DAAC provides a continuation of the MCSST data (starting in August of 2001) is produced at a near real-time rate by the Naval Oceanographic Office (NAVOCEANO).",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "http://podaac.jpl.nasa.gov/sst/"
+          },
+          {
+            "Description": "This data set is part of the Global Ocean Data Assimilation Experiment data sets.  Under NAVO LAC SST data set, information can be found about data preview options (HTTP generator and FTP Images of most current data) and data format and operational processing of satellite SST retrievals at NAVOCEANO.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://www.usgodae.org/"
+          },
+          {
+            "Description": "Additional information about NOAA environmental satellites (geostationary and polar satellites) can be found at the NOAA Satellite Information System (NOAASIS) information gateway.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "URL": "http://noaasis.noaa.gov/NOAASIS/"
+          }
+        ],
+        "Abstract": "U.S. Naval Oceanographic Office (NAVOCEANO)'s AVHRR MCSST (Advanced Very High\nResolution Radiometer Multi-Channel Sea Surface Temperature) high resolution\n(4km) Local Area Coverage (LAC) Sea Surface Temperature (SST) retrievals from\nPOES NOAA-16 and NOAA-17 satellites.\n\nExtent of Coverage - The AVHRR sensor provides for global (pole to pole) on\nboard collection of data from all 5 spectral channels. Each pass of the\nsatellite provides a 2399 km wide swath. The satellite orbits the Earth 14\ntimes each day from 833 km above its surface.\n\nAVHRR data are acquired in three formats:\n\n1-High Resolution Picture Transmission (HRPT)-HRPT data are full resolution\nimage data transmitted to a ground station as they are collected.\n\n2-Local Area Coverage (LAC)-LAC are also full resolution data, but recorded\nwith an on-board tape recorder for subsequent transmission during a station\noverpass.\n\n3-Global Area Coverage (GAC)-GAC data provide daily subsampled global coverage\nrecorded on the tape recorders and then transmitted to a ground station.\n\nThe data are collected in several scientific centers:\n-USGS/Earth Resources Observation Systems (EROS) data center (EDC);\n-NOAA/NESDIS - National Environmental Satellite, Data and Information Service\nof National Oceanic and Atmospheric Administration;\n-NASA Jet Propulsion Laboratory (PO.DAAC)",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2004-10-27T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-01-16T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "DirectoryNames": [
+          {
+            "ShortName": "USA/NASA"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "POES",
+            "LongName": "Polar-orbiting Operational Environmental Satellites"
+          },
+          {
+            "ShortName": "GODAE",
+            "LongName": "Global Ocean Data Assimilation Experiment"
+          }
+        ],
+        "ContactPersons": [
+          {
+            "Roles": [
+              "Metadata Author"
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Email",
+                  "Value": "Scott.A.Ritz@nasa.gov"
+                }
+              ],
+              "Addresses": [
+                {
+                  "StreetAddresses": [
+                    "NASA Goddard Space Flight Center",
+                    "Global Change Master Directory"
+                  ],
+                  "City": "Greenbelt",
+                  "StateProvince": "Maryland",
+                  "Country": "USA",
+                  "PostalCode": "20771"
+                }
+              ]
+            },
+            "FirstName": "SCOTT",
+            "MiddleName": "A.",
+            "LastName": "RITZ"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER",
+              "DISTRIBUTOR"
+            ],
+            "ShortName": "DOD/USNAVY/NRL/OCEANOGRAPHY",
+            "LongName": "Oceanography Division, Naval Research Laboratory, U.S. Navy, U. S. Department of Defense",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "ContactInformation": {
+                  "ContactMechanisms": [
+                    {
+                      "Type": "Email",
+                      "Value": "wsc@navo.navy.mil"
+                    },
+                    {
+                      "Type": "Telephone",
+                      "Value": "228-688-5216"
+                    }
+                  ],
+                  "Addresses": [
+                    {
+                      "StreetAddresses": [
+                        "Naval Oceanographic Office",
+                        "Warfighting Support Center",
+                        "Fleet Interaction Office",
+                        "1002 Balch Blvd."
+                      ],
+                      "City": "Stennis Space Center",
+                      "StateProvince": "MS",
+                      "Country": "USA",
+                      "PostalCode": "39522-5001"
+                    }
+                  ]
+                },
+                "FirstName": "KEN",
+                "LastName": "INGRAM"
+              }
+            ],
+            "ContactInformation": {
+              "RelatedUrls": [
+                {
+                  "URLContentType": "DataCenterURL",
+                  "Type": "HOME PAGE",
+                  "URL": "http://www7300.nrlssc.navy.mil/"
+                }
+              ]
+            }
+          },
+          {
+            "Roles": [
+              "ARCHIVER",
+              "DISTRIBUTOR"
+            ],
+            "ShortName": "DOD/USNAVY/FNMOC",
+            "LongName": "Fleet Numerical Meteorology and Oceanography Center, U.S. Navy, U. S. Department of Defense",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "ContactInformation": {
+                  "ContactMechanisms": [
+                    {
+                      "Type": "Email",
+                      "Value": "cdo@fnmoc.navy.mil"
+                    },
+                    {
+                      "Type": "Telephone",
+                      "Value": "(831) 656-4325"
+                    }
+                  ],
+                  "Addresses": [
+                    {
+                      "StreetAddresses": [
+                        "Fleet Numerical Meteorology and Oceanography Center"
+                      ],
+                      "City": "Monterey",
+                      "StateProvince": "CA",
+                      "Country": "USA"
+                    }
+                  ]
+                },
+                "FirstName": "FNMOC",
+                "LastName": "COMMAND DUTY OFFICER"
+              }
+            ],
+            "ContactInformation": {
+              "RelatedUrls": [
+                {
+                  "URLContentType": "DataCenterURL",
+                  "Type": "HOME PAGE",
+                  "URL": "https://www.fnmoc.navy.mil/"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Earth Observation Satellites",
+            "ShortName": "NOAA POES",
+            "LongName": "NOAA Polar Orbiting Environmental Satellites",
+            "Instruments": [
+              {
+                "ShortName": "AVHRR",
+                "LongName": "Advanced Very High Resolution Radiometer"
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "ASCII Text",
+              "Media": [
+                "HTTP, FTP"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

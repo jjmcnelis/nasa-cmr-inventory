@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="gr" name="gr">
+      <SimpleField name="cmr_concept_type" type="string"/>
+      <SimpleField name="cmr_concept_id" type="string"/>
+      <SimpleField name="cmr_native_id" type="string"/>
+      <SimpleField name="cmr_provider_id" type="string"/>
+      <SimpleField name="cmr_revision_id" type="string"/>
+      <SimpleField name="cmr_revision_date" type="string"/>
+      <SimpleField name="cmr_publication_date" type="string"/>
+      <SimpleField name="coll_shortname" type="string"/>
+      <SimpleField name="gran_name" type="string"/>
+      <SimpleField name="gran_size_mb" type="float"/>
+      <SimpleField name="gran_parameters" type="string"/>
+      <SimpleField name="gran_day_night" type="string"/>
+      <SimpleField name="time_min" type="string"/>
+      <SimpleField name="time_max" type="string"/>
+      <SimpleField name="lat_min" type="float"/>
+      <SimpleField name="lat_max" type="float"/>
+      <SimpleField name="lon_min" type="float"/>
+      <SimpleField name="lon_max" type="float"/>
+    </Schema>
+    <Schema id="gr.schema">
+      <SimpleField name="cmr_concept_type" type="string"/>
+      <SimpleField name="cmr_concept_id" type="string"/>
+      <SimpleField name="cmr_native_id" type="string"/>
+      <SimpleField name="cmr_provider_id" type="string"/>
+      <SimpleField name="cmr_revision_id" type="string"/>
+      <SimpleField name="cmr_revision_date" type="string"/>
+      <SimpleField name="cmr_publication_date" type="string"/>
+      <SimpleField name="coll_shortname" type="string"/>
+      <SimpleField name="gran_name" type="string"/>
+      <SimpleField name="gran_size_mb" type="float"/>
+      <SimpleField name="gran_parameters" type="string"/>
+      <SimpleField name="gran_day_night" type="string"/>
+      <SimpleField name="time_min" type="string"/>
+      <SimpleField name="time_max" type="string"/>
+      <SimpleField name="lat_min" type="float"/>
+      <SimpleField name="lat_max" type="float"/>
+      <SimpleField name="lon_min" type="float"/>
+      <SimpleField name="lon_max" type="float"/>
+    </Schema>
+    <Document id="gr">
+      <name>gr</name>
+      <Placemark id="gr.1">
+        <ExtendedData>
+          <SchemaData schemaUrl="#gr.schema">
+            <SimpleData name="cmr_concept_type">granule</SimpleData>
+            <SimpleData name="cmr_concept_id">G1266112564-GES_DISC</SimpleData>
+            <SimpleData name="cmr_native_id">GSSTFSC.2c:GSSTFSC.2c.Mar_May.1988_2008.he5</SimpleData>
+            <SimpleData name="cmr_provider_id">GES_DISC</SimpleData>
+            <SimpleData name="cmr_revision_id">2</SimpleData>
+            <SimpleData name="cmr_revision_date">2018-03-08T20:56:35Z</SimpleData>
+            <SimpleData name="cmr_publication_date">2011-10-05T18:21:28.000Z</SimpleData>
+            <SimpleData name="coll_shortname">GSSTFSC</SimpleData>
+            <SimpleData name="gran_name">GSSTFSC.2c:GSSTFSC.2c.Mar_May.1988_2008.he5</SimpleData>
+            <SimpleData name="gran_size_mb">3.26058197021484</SimpleData>
+            <SimpleData name="gran_day_night">Unspecified</SimpleData>
+            <SimpleData name="time_min">1988-03-01T00:00:00.000Z</SimpleData>
+            <SimpleData name="time_max">2008-05-31T00:00:00.000Z</SimpleData>
+            <SimpleData name="lat_min">-90</SimpleData>
+            <SimpleData name="lat_max">90</SimpleData>
+            <SimpleData name="lon_min">-180</SimpleData>
+            <SimpleData name="lon_max">180</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                180,-90,0
+                180,90,0
+                -180,90,0
+                -180,-90,0
+                180,-90,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="gr.2">
+        <ExtendedData>
+          <SchemaData schemaUrl="#gr.schema">
+            <SimpleData name="cmr_concept_type">granule</SimpleData>
+            <SimpleData name="cmr_concept_id">G1266112582-GES_DISC</SimpleData>
+            <SimpleData name="cmr_native_id">GSSTFSC.2c:GSSTFSC.2c.Jun_Aug.1988_2008.he5</SimpleData>
+            <SimpleData name="cmr_provider_id">GES_DISC</SimpleData>
+            <SimpleData name="cmr_revision_id">2</SimpleData>
+            <SimpleData name="cmr_revision_date">2018-03-08T20:56:34Z</SimpleData>
+            <SimpleData name="cmr_publication_date">2011-10-05T18:35:42.000Z</SimpleData>
+            <SimpleData name="coll_shortname">GSSTFSC</SimpleData>
+            <SimpleData name="gran_name">GSSTFSC.2c:GSSTFSC.2c.Jun_Aug.1988_2008.he5</SimpleData>
+            <SimpleData name="gran_size_mb">3.26058197021484</SimpleData>
+            <SimpleData name="gran_day_night">Unspecified</SimpleData>
+            <SimpleData name="time_min">1988-06-01T00:00:00.000Z</SimpleData>
+            <SimpleData name="time_max">2008-08-31T00:00:00.000Z</SimpleData>
+            <SimpleData name="lat_min">-90</SimpleData>
+            <SimpleData name="lat_max">90</SimpleData>
+            <SimpleData name="lon_min">-180</SimpleData>
+            <SimpleData name="lon_max">180</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                180,-90,0
+                180,90,0
+                -180,90,0
+                -180,-90,0
+                180,-90,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="gr.3">
+        <ExtendedData>
+          <SchemaData schemaUrl="#gr.schema">
+            <SimpleData name="cmr_concept_type">granule</SimpleData>
+            <SimpleData name="cmr_concept_id">G1266112603-GES_DISC</SimpleData>
+            <SimpleData name="cmr_native_id">GSSTFSC.2c:GSSTFSC.2c.Sep_Nov.1988_2008.he5</SimpleData>
+            <SimpleData name="cmr_provider_id">GES_DISC</SimpleData>
+            <SimpleData name="cmr_revision_id">2</SimpleData>
+            <SimpleData name="cmr_revision_date">2018-03-08T20:56:36Z</SimpleData>
+            <SimpleData name="cmr_publication_date">2011-10-05T18:30:07.000Z</SimpleData>
+            <SimpleData name="coll_shortname">GSSTFSC</SimpleData>
+            <SimpleData name="gran_name">GSSTFSC.2c:GSSTFSC.2c.Sep_Nov.1988_2008.he5</SimpleData>
+            <SimpleData name="gran_size_mb">3.26058959960938</SimpleData>
+            <SimpleData name="gran_day_night">Unspecified</SimpleData>
+            <SimpleData name="time_min">1988-09-01T00:00:00.000Z</SimpleData>
+            <SimpleData name="time_max">2008-11-30T00:00:00.000Z</SimpleData>
+            <SimpleData name="lat_min">-90</SimpleData>
+            <SimpleData name="lat_max">90</SimpleData>
+            <SimpleData name="lon_min">-180</SimpleData>
+            <SimpleData name="lon_max">180</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                180,-90,0
+                180,90,0
+                -180,90,0
+                -180,-90,0
+                180,-90,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="gr.4">
+        <ExtendedData>
+          <SchemaData schemaUrl="#gr.schema">
+            <SimpleData name="cmr_concept_type">granule</SimpleData>
+            <SimpleData name="cmr_concept_id">G1266112559-GES_DISC</SimpleData>
+            <SimpleData name="cmr_native_id">GSSTFSC.2c:GSSTFSC.2c.Dec_Feb.1988_2008.he5</SimpleData>
+            <SimpleData name="cmr_provider_id">GES_DISC</SimpleData>
+            <SimpleData name="cmr_revision_id">2</SimpleData>
+            <SimpleData name="cmr_revision_date">2018-03-08T20:56:34Z</SimpleData>
+            <SimpleData name="cmr_publication_date">2011-10-05T18:18:35.000Z</SimpleData>
+            <SimpleData name="coll_shortname">GSSTFSC</SimpleData>
+            <SimpleData name="gran_name">GSSTFSC.2c:GSSTFSC.2c.Dec_Feb.1988_2008.he5</SimpleData>
+            <SimpleData name="gran_size_mb">3.26058959960938</SimpleData>
+            <SimpleData name="gran_day_night">Unspecified</SimpleData>
+            <SimpleData name="time_min">1988-12-01T00:00:00.000Z</SimpleData>
+            <SimpleData name="time_max">2008-02-28T00:00:00.000Z</SimpleData>
+            <SimpleData name="lat_min">-90</SimpleData>
+            <SimpleData name="lat_max">90</SimpleData>
+            <SimpleData name="lon_min">-180</SimpleData>
+            <SimpleData name="lon_max">180</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                180,-90,0
+                180,90,0
+                -180,90,0
+                -180,-90,0
+                180,-90,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

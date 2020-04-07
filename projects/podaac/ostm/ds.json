@@ -1,0 +1,491 @@
+{
+  "hits": 2,
+  "took": 11,
+  "items": [
+    {
+      "meta": {
+        "revision-id": 2,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "ALES+Jason-2+Coastal+Altimetry+Version+1",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1674794634-PODAAC",
+        "revision-date": "2019-12-23T16:53:51Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Passaro, M., P. Cipollini, S. Vignudelli, G. D. Quartly, and H. M. Snaith, NOC, 2015-08-31, ALES Jason-2 Coastal Altimetry Version 1, "
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 66.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -66.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "SEA SURFACE TOPOGRAPHY",
+            "VariableLevel1": "SEA SURFACE HEIGHT",
+            "DetailedVariable": "NONE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN WAVES",
+            "VariableLevel1": "SIGNIFICANT WAVE HEIGHT",
+            "DetailedVariable": "NONE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2008-07-12T01:20:05.000Z",
+                "EndingDateTime": "2015-05-15T19:08:38.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2"
+        },
+        "ShortName": "ALES_L2_OST_JASON2_V1",
+        "EntryTitle": "ALES Jason-2 Coastal Altimetry Version 1",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/coastal_alt/L2/ALES/jason-2",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/coastal_alt/L2/ALES/jason-2/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2015-06-18T07:56:24.600Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-04-28T05:01:46.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "Adaptive Leading Edge Subwaveform (ALES) provides coastal and open ocean altimetric measurements by applying a specialized retracker to Jason-2 data. This is an along-track dataset that takes takes the high frequency SGDR data and retracks it to remove the waveforms that show land contamination. Therefore these data are provided at 20 Hz. It is similar to the Jason-2 SGDR data except that it also includes ALES variables for the range, significant wave height and sigma0 so that the user can calculate the retracked SSHA.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-12-23T16:50:58.387Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OSTM"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "NOC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Jessica",
+                "MiddleName": "none",
+                "LastName": "Hausman"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "818-354-4588"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "Jessica.K.Hausman@jpl.nasa.gov"
+                }
+              ]
+            }
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "OSTM/JASON-2",
+            "LongName": "Ocean Surface Topography Mission/Jason-2",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft\u2019s single revolution on an orbital plane.",
+                "Value": "112.43",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "66.04",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AMR",
+                "LongName": "Advanced Microwave Radiometer"
+              },
+              {
+                "ShortName": "TRSR",
+                "LongName": "Turbo Rouge Space Receiver"
+              },
+              {
+                "ShortName": "POSEIDON-3",
+                "LongName": "OSTM/Jason-2 RADAR alitmieter",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "5.1",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "OSTM+GPS+based+orbit+and+SSHA+OGDR",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1650311571-PODAAC",
+        "revision-date": "2019-11-01T16:27:27Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Shailen Desai, JPL, 2009-06-10, OSTM GPS based orbit and SSHA OGDR, 10.5067/J2ODR-GPS00, https://podaac-tools.jpl.nasa.gov/drive/files/allData/ostm/preview/L2/GPS-OGDR/docs/"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 66.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -66.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN WAVES",
+            "VariableLevel1": "SIGNIFICANT WAVE HEIGHT"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "SEA SURFACE TOPOGRAPHY",
+            "VariableLevel1": "SEA SURFACE HEIGHT"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2009-05-30T22:33:28.000Z",
+                "EndingDateTime": "2019-10-01T08:05:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2"
+        },
+        "DOI": {
+          "DOI": "10.5067/J2ODR-GPS00"
+        },
+        "ShortName": "OSTM_L2_OST_OGDR_GPS",
+        "EntryTitle": "OSTM GPS based orbit and SSHA OGDR",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ostm/preview/L2/GPS-OGDR",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/J2ODR-GPS00"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/ostm/preview/L2/GPS-OGDR/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2010-04-15T00:33:10.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-04-28T05:01:45.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This dataset is similar to the OSTM/Jason-2 Operation Geophysical Data Record (OGDR) that is distributed at NOAA (ftp://data.nodc.noaa.gov/pub/data.nodc/jason2/ogdr/), but also includes a GPS based orbit and Sea Surface Height Anomalies (SSHA) calculated from that orbit, as supposed to the DORIS based orbit that is already available in the OGDR.  It has a 5 hour time lag due to the time needed to recalculate the orbit and SSHA.  The GPS orbits have been shown to be more accurate than the DORIS orbits on a near real time scale and therefore produces a more accurate SSHA.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-01T16:27:24.447Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "A",
+        "Projects": [
+          {
+            "ShortName": "OSTM"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "NASA/JPL"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Jessica",
+                "MiddleName": "none",
+                "LastName": "Hausman"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "818-354-4588"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "Jessica.K.Hausman@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "OSTM/JASON-2",
+            "LongName": "Ocean Surface Topography Mission/Jason-2",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "112.43",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "66.04",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AMR",
+                "LongName": "Advanced Microwave Radiometer"
+              },
+              {
+                "ShortName": "POSEIDON-3",
+                "LongName": "OSTM/Jason-2 RADAR alitmieter",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "5.1",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

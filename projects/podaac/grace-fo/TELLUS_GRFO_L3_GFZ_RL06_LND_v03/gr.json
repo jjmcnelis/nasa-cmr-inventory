@@ -1,0 +1,4650 @@
+{
+  "hits": 54,
+  "took": 56,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303283-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2018152-2018181_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:30:58Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-06-01T00:00:00.000Z",
+            "EndingDateTime": "2018-06-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2018152-2018181_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:43:51.745Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:30:57.613Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018152-2018181_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018152-2018181_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2018-06-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5132102966308594,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303435-PODAAC",
+        "revision-id": 2,
+        "native-id": "GRD-3_2018152-2018181_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-12T13:17:57Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-06-01T00:00:00.000Z",
+            "EndingDateTime": "2018-06-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2018152-2018181_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-11T17:43:58.456Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-12T13:17:56.641Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018152-2018181_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018152-2018181_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2018-06-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530403137207031,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303609-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2018152-2018181_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:42Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-06-01T00:00:00.000Z",
+            "EndingDateTime": "2018-06-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2018152-2018181_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:44:51.318Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:42.010Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018152-2018181_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018152-2018181_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2018-06-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.1568565368652344,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303284-PODAAC",
+        "revision-id": 2,
+        "native-id": "GRD-3_2018182-2018199_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-12T13:17:45Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-07-01T00:00:00.000Z",
+            "EndingDateTime": "2018-07-18T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2018182-2018199_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-11T17:42:53.938Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-12T13:17:44.668Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018182-2018199_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018182-2018199_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2018-07-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530403137207031,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303301-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2018182-2018199_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:14Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-07-01T00:00:00.000Z",
+            "EndingDateTime": "2018-07-18T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2018182-2018199_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:46:17.085Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:14.039Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018182-2018199_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018182-2018199_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2018-07-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5132102966308594,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303379-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2018182-2018199_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:26Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-07-01T00:00:00.000Z",
+            "EndingDateTime": "2018-07-18T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2018182-2018199_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:42:57.622Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:26.101Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018182-2018199_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018182-2018199_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2018-07-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.1568565368652344,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303290-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2018295-2018313_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:07Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-10-22T00:00:00.000Z",
+            "EndingDateTime": "2018-11-09T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2018295-2018313_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:45:20.579Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:07.166Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018295-2018313_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018295-2018313_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2018-10-22T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5132102966308594,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303308-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2018295-2018313_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:16Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-10-22T00:00:00.000Z",
+            "EndingDateTime": "2018-11-09T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2018295-2018313_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:46:22.180Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:15.385Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018295-2018313_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018295-2018313_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2018-10-22T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.1568565368652344,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303347-PODAAC",
+        "revision-id": 2,
+        "native-id": "GRD-3_2018295-2018313_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-12T13:17:55Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-10-22T00:00:00.000Z",
+            "EndingDateTime": "2018-11-09T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2018295-2018313_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-11T17:42:35.626Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-12T13:17:55.212Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018295-2018313_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018295-2018313_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2018-10-22T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530403137207031,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303279-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2018305-2018334_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:30:52Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-11-01T00:00:00.000Z",
+            "EndingDateTime": "2018-11-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2018305-2018334_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:42:06.947Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:30:51.834Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018305-2018334_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018305-2018334_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2018-11-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5132102966308594,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303493-PODAAC",
+        "revision-id": 2,
+        "native-id": "GRD-3_2018305-2018334_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-12T13:18:00Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-11-01T00:00:00.000Z",
+            "EndingDateTime": "2018-11-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2018305-2018334_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-11T17:42:04.325Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-12T13:17:59.682Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018305-2018334_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018305-2018334_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2018-11-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530403137207031,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303611-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2018305-2018334_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:45Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-11-01T00:00:00.000Z",
+            "EndingDateTime": "2018-11-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2018305-2018334_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:45:05.342Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:44.722Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018305-2018334_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018305-2018334_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2018-11-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.1568565368652344,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303313-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2018335-2018365_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:20Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-12-01T00:00:00.000Z",
+            "EndingDateTime": "2018-12-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2018335-2018365_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:46:38.172Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:19.390Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018335-2018365_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018335-2018365_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2018-12-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.1568565368652344,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303462-PODAAC",
+        "revision-id": 2,
+        "native-id": "GRD-3_2018335-2018365_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-12T13:17:58Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-12-01T00:00:00.000Z",
+            "EndingDateTime": "2018-12-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2018335-2018365_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-11T17:44:00.554Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-12T13:17:58.194Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018335-2018365_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018335-2018365_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2018-12-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530403137207031,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303571-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2018335-2018365_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:36Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-12-01T00:00:00.000Z",
+            "EndingDateTime": "2018-12-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2018335-2018365_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:44:06.351Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:35.565Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018335-2018365_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2018335-2018365_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2018-12-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5132102966308594,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303286-PODAAC",
+        "revision-id": 2,
+        "native-id": "GRD-3_2019001-2019031_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-12T13:17:46Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-01-01T00:00:00.000Z",
+            "EndingDateTime": "2019-01-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019001-2019031_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-11T17:43:04.520Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-12T13:17:46.214Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019001-2019031_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019001-2019031_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-01-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530403137207031,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303288-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019001-2019031_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:05Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-01-01T00:00:00.000Z",
+            "EndingDateTime": "2019-01-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019001-2019031_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:45:09.987Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:04.434Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019001-2019031_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019001-2019031_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-01-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5132102966308594,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303401-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019001-2019031_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:28Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-01-01T00:00:00.000Z",
+            "EndingDateTime": "2019-01-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019001-2019031_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:43:08.313Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:27.381Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019001-2019031_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019001-2019031_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-01-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.1568565368652344,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303280-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019026-2019063_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:30:54Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-01-26T00:00:00.000Z",
+            "EndingDateTime": "2019-03-04T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019026-2019063_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:42:15.995Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:30:53.349Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019026-2019063_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019026-2019063_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-01-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5132102966308594,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303318-PODAAC",
+        "revision-id": 2,
+        "native-id": "GRD-3_2019026-2019063_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-12T13:17:52Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-01-26T00:00:00.000Z",
+            "EndingDateTime": "2019-03-04T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019026-2019063_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-11T17:42:59.359Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-12T13:17:52.307Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019026-2019063_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019026-2019063_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-01-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530403137207031,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303518-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019026-2019063_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:33Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-01-26T00:00:00.000Z",
+            "EndingDateTime": "2019-03-04T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019026-2019063_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:43:58.072Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:32.768Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019026-2019063_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019026-2019063_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-01-26T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.1568565368652344,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303289-PODAAC",
+        "revision-id": 2,
+        "native-id": "GRD-3_2019060-2019090_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-12T13:17:49Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-03-01T00:00:00.000Z",
+            "EndingDateTime": "2019-03-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019060-2019090_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-11T17:43:41.148Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-12T13:17:49.157Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019060-2019090_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019060-2019090_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-03-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530403137207031,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303550-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019060-2019090_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:34Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-03-01T00:00:00.000Z",
+            "EndingDateTime": "2019-03-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019060-2019090_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:44:00.995Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:34.128Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019060-2019090_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019060-2019090_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-03-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.1568565368652344,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303608-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019060-2019090_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:41Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-03-01T00:00:00.000Z",
+            "EndingDateTime": "2019-03-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019060-2019090_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:44:32.573Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:40.763Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019060-2019090_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019060-2019090_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-03-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5132102966308594,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303291-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019091-2019120_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:09Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-04-01T00:00:00.000Z",
+            "EndingDateTime": "2019-04-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019091-2019120_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:45:29.638Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:08.584Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019091-2019120_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019091-2019120_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-04-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5132102966308594,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303294-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019091-2019120_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:13Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-04-01T00:00:00.000Z",
+            "EndingDateTime": "2019-04-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019091-2019120_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:45:56.110Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:12.764Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019091-2019120_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019091-2019120_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-04-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.1568565368652344,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303610-PODAAC",
+        "revision-id": 2,
+        "native-id": "GRD-3_2019091-2019120_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-12T13:18:01Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-04-01T00:00:00.000Z",
+            "EndingDateTime": "2019-04-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019091-2019120_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-11T17:43:16.959Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-12T13:18:01.222Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019091-2019120_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019091-2019120_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-04-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530403137207031,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303281-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019121-2019151_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:30:55Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-05-01T00:00:00.000Z",
+            "EndingDateTime": "2019-05-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019121-2019151_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:42:26.153Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:30:54.729Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019121-2019151_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019121-2019151_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-05-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5132102966308594,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303293-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019121-2019151_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:12Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-05-01T00:00:00.000Z",
+            "EndingDateTime": "2019-05-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019121-2019151_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:45:54.810Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:11.479Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019121-2019151_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019121-2019151_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-05-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.1568565368652344,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303323-PODAAC",
+        "revision-id": 2,
+        "native-id": "GRD-3_2019121-2019151_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-12T13:17:54Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-05-01T00:00:00.000Z",
+            "EndingDateTime": "2019-05-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019121-2019151_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-11T17:42:14.037Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-12T13:17:53.698Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019121-2019151_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019121-2019151_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-05-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530403137207031,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303256-PODAAC",
+        "revision-id": 2,
+        "native-id": "GRD-3_2019152-2019181_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-12T13:17:41Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-06-01T00:00:00.000Z",
+            "EndingDateTime": "2019-06-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019152-2019181_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-11T17:43:10.119Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-12T13:17:38.428Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019152-2019181_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019152-2019181_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-06-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530403137207031,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303277-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019152-2019181_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:30:49Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-06-01T00:00:00.000Z",
+            "EndingDateTime": "2019-06-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019152-2019181_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:41:49.856Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:30:48.397Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019152-2019181_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019152-2019181_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-06-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5132102966308594,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303615-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019152-2019181_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:51Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-06-01T00:00:00.000Z",
+            "EndingDateTime": "2019-06-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019152-2019181_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:46:06.530Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:50.112Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019152-2019181_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019152-2019181_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-06-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.156857490539551,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303278-PODAAC",
+        "revision-id": 2,
+        "native-id": "GRD-3_2019182-2019212_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-12T13:17:42Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-07-01T00:00:00.000Z",
+            "EndingDateTime": "2019-07-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019182-2019212_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-11T17:43:47.727Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-12T13:17:41.991Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019182-2019212_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019182-2019212_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-07-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530403137207031,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303606-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019182-2019212_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:38Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-07-01T00:00:00.000Z",
+            "EndingDateTime": "2019-07-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019182-2019212_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:44:17.705Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:38.239Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019182-2019212_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019182-2019212_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-07-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5132102966308594,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303617-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019182-2019212_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:52Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-07-01T00:00:00.000Z",
+            "EndingDateTime": "2019-07-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019182-2019212_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:46:11.723Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:51.600Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019182-2019212_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019182-2019212_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-07-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.156857490539551,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303292-PODAAC",
+        "revision-id": 2,
+        "native-id": "GRD-3_2019213-2019243_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-12T13:17:51Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-08-01T00:00:00.000Z",
+            "EndingDateTime": "2019-08-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019213-2019243_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-11T17:42:25.490Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-12T13:17:50.685Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019213-2019243_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019213-2019243_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-08-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530403137207031,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303310-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019213-2019243_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:17Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-08-01T00:00:00.000Z",
+            "EndingDateTime": "2019-08-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019213-2019243_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:46:27.297Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:16.753Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019213-2019243_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019213-2019243_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-08-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.156857490539551,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303311-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019213-2019243_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:18Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-08-01T00:00:00.000Z",
+            "EndingDateTime": "2019-08-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019213-2019243_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:46:32.527Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:18.104Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019213-2019243_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019213-2019243_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-08-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5132102966308594,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303285-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019244-2019273_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:01Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-09-01T00:00:00.000Z",
+            "EndingDateTime": "2019-09-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019244-2019273_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:44:38.251Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:00.344Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019244-2019273_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019244-2019273_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-09-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.156857490539551,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303607-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019244-2019273_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-09-01T00:00:00.000Z",
+            "EndingDateTime": "2019-09-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019244-2019273_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:44:27.924Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:39.492Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019244-2019273_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019244-2019273_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-09-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5132102966308594,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303612-PODAAC",
+        "revision-id": 2,
+        "native-id": "GRD-3_2019244-2019273_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-12T13:18:03Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-09-01T00:00:00.000Z",
+            "EndingDateTime": "2019-09-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019244-2019273_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-11T17:43:23.289Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-12T13:18:02.652Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019244-2019273_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019244-2019273_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-09-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530403137207031,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303287-PODAAC",
+        "revision-id": 2,
+        "native-id": "GRD-3_2019274-2019304_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-12T13:17:48Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-10-01T00:00:00.000Z",
+            "EndingDateTime": "2019-10-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019274-2019304_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-11T17:43:29.815Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-12T13:17:47.581Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019274-2019304_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019274-2019304_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530403137207031,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303328-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019274-2019304_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:24Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-10-01T00:00:00.000Z",
+            "EndingDateTime": "2019-10-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019274-2019304_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:43:18.774Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:23.488Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019274-2019304_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019274-2019304_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5132102966308594,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303614-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019274-2019304_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:49Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-10-01T00:00:00.000Z",
+            "EndingDateTime": "2019-10-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019274-2019304_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:45:59.830Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:48.723Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019274-2019304_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019274-2019304_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-10-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.156857490539551,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303282-PODAAC",
+        "revision-id": 2,
+        "native-id": "GRD-3_2019305-2019334_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-12T13:17:44Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-11-01T00:00:00.000Z",
+            "EndingDateTime": "2019-11-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019305-2019334_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-11T17:42:47.092Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-12T13:17:43.346Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019305-2019334_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019305-2019334_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-11-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530403137207031,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303605-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019305-2019334_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:37Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-11-01T00:00:00.000Z",
+            "EndingDateTime": "2019-11-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019305-2019334_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:44:11.702Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:36.825Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019305-2019334_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019305-2019334_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-11-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.156857490539551,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1684303613-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019305-2019334_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-01-23T18:31:48Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-11-01T00:00:00.000Z",
+            "EndingDateTime": "2019-11-30T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019305-2019334_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-23T04:45:42.239Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-01-23T18:31:47.367Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019305-2019334_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019305-2019334_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-11-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5132102966308594,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1688437296-PODAAC",
+        "revision-id": 2,
+        "native-id": "GRD-3_2019335-2019365_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-12T13:18:04Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-12-01T00:00:00.000Z",
+            "EndingDateTime": "2019-12-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019335-2019365_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-11T17:43:35.949Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-12T13:18:04.194Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019335-2019365_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019335-2019365_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-12-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530403137207031,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1688437318-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019335-2019365_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-02-04T12:59:31Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-12-01T00:00:00.000Z",
+            "EndingDateTime": "2019-12-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019335-2019365_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-02-04T00:30:03.856Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-02-04T12:59:31.224Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019335-2019365_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019335-2019365_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-12-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.156857490539551,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1688437341-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2019335-2019365_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-02-04T12:59:33Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2019-12-01T00:00:00.000Z",
+            "EndingDateTime": "2019-12-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2019335-2019365_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-02-04T00:29:53.879Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-02-04T12:59:32.512Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019335-2019365_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2019335-2019365_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-12-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5435295104980469,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1711912083-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2020001-2020031_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-26T13:07:39Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2020-01-01T00:00:00.000Z",
+            "EndingDateTime": "2020-01-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2020001-2020031_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-25T22:19:34.714Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-26T13:07:36.991Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2020001-2020031_GRFO_GFZOP_BA01_0600_LND_v03.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2020001-2020031_GRFO_GFZOP_BA01_0600_LND_v03.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2020-01-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.5435323715209961,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1711912102-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2020001-2020031_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-26T13:07:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2020-01-01T00:00:00.000Z",
+            "EndingDateTime": "2020-01-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2020001-2020031_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-25T22:19:30.681Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-26T13:07:40.010Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2020001-2020031_GRFO_GFZOP_BA01_0600_LND_v03.txt",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2020001-2020031_GRFO_GFZOP_BA01_0600_LND_v03.txt.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2020-01-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 3.156869888305664,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1711912121-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRD-3_2020001-2020031_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-26T13:07:42Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2020-01-01T00:00:00.000Z",
+            "EndingDateTime": "2020-01-31T23:59:59.999Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRD-3_2020001-2020031_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 0.0,
+                  "NorthBoundingCoordinate": 0.0,
+                  "SouthBoundingCoordinate": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-03-25T22:19:39.318Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-26T13:07:41.364Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+          "Version": "RL06 v03"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2020001-2020031_GRFO_GFZOP_BA01_0600_LND_v03.tif",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ//GRD-3_2020001-2020031_GRFO_GFZOP_BA01_0600_LND_v03.tif.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2020-01-01T00:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.2530527114868164,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    }
+  ]
+}

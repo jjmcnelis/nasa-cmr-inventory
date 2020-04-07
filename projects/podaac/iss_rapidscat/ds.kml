@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ds" id="ds">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_title" type="string"></SimpleField>
+	<SimpleField name="coll_version" type="string"></SimpleField>
+	<SimpleField name="coll_doi" type="string"></SimpleField>
+	<SimpleField name="coll_abstract" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="coll_status" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl_desc" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>ds</name>
+  <Placemark>
+	<name>collection</name>
+	<description>C1664741630-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">RapidScat+Level+1B+Time-Ordered+Geo-Located+Sigma-0+Version+1.1</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-06T22:02:43Z</SimpleData>
+		<SimpleData name="cmr_revision_date">RapidScat Level 1B Time-Ordered Geo-Located Sigma-0 Version 1.1</SimpleData>
+		<SimpleData name="cmr_publication_date">1.1</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the geo-located Sigma-0 measurements and antenna pulse  &quot;egg&quot; and &quot;slice&quot; geometries as derived from ephemeris and the Level 1A dataset. The pulse &quot;egg&quot; represents the complete footprint of the pulse, which has a spatial geometry of approximately 25 km by 35 km. There are 8 slices that constitute the range-binned components of a pulse each of which has a spatial geometry of approximately 25 km by 7 km. The orientation of the long dimension of the slices varies with the rotation of the antenna and thus does not align with the along/across track orientation of the wind vector grid in the L2B/L2A products. Data are provided in single-orbit files in HDF-4 format. RapidScat is a Ku-band dual beam circular rotating scatterometer retaining much of the same hardware and functionality of QuikSCAT, with exception of the antenna sub-system and digital interface to the International Space Station (ISS) Columbus module, which is where RapidScat is mounted. The NASA mission is officially referred to as ISS-RapidScat. Unlike QuikSCAT, ISS-RapidScat is not in sun-synchronous orbit, and flies at roughly half the altitude with a low inclination angle that restricts data coverage to the tropics and mid-latitude regions; the extent of latitudinal coverage stretches from approximately 61 degrees North to 61 degrees South. Furthermore, there is no consistent local time of day retrieval. Caution: this dataset is intended for expert use only. If you must use RapidScat Sigma-0 data but you are unsure about how to use the L1B data record, please consider using either of the following L2A datasets: 1) http://podaac.jpl.nasa.gov/dataset/RSCAT_L2A_12KM_V1.1 or 2) http://podaac.jpl.nasa.gov/dataset/RSCAT_L2A_25KM_V1.1.</SimpleData>
+		<SimpleData name="coll_doi">RSCAT_L1B_V1.1</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">1B</SimpleData>
+		<SimpleData name="time_min">-61</SimpleData>
+		<SimpleData name="time_max">61</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-61 180,61 -180,61 -180,-61 180,-61</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1664741245-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">RapidScat+Level+1B+Time-Ordered+Geo-Located+Sigma-0+Version+1.2</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-06T18:40:14Z</SimpleData>
+		<SimpleData name="cmr_revision_date">RapidScat Level 1B Time-Ordered Geo-Located Sigma-0 Version 1.2</SimpleData>
+		<SimpleData name="cmr_publication_date">1.2</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the ISS-RapidScat Version 1.2 Level 1B geo-located Sigma-0 measurements and antenna pulse &quot;egg&quot; and &quot;slice&quot; geometries as derived from ephemeris and the Level 1A dataset. Version 1.2 is intended as a replacement and continuation of the Version 1.1 data forward from orbital revolution number 5127, corresponding to 19 August 2015; the overlapping time period starting on 19 August 2015 corresponds to the first time period of the recorded low signal-to-noise ratio (SNR). This Version 1.2 dataset differs from the previous Version 1.1 dataset as follows: 1) L1B sigma-0 has been re-calibrated during the periods of low signal-to-noise ratio (SNR) and 2) during low SNR periods the L1B sigma-0 calibration is determined using re-pointed L1B QuikSCAT data. The pulse &quot;egg&quot; represents the complete footprint of the pulse, which has a spatial geometry of approximately 25 km by 35 km. There are 8 slices that constitute the range-binned components of a pulse each of which has a spatial geometry of approximately 25 km by 7 km. The orientation of the long dimension of the slices varies with the rotation of the antenna and thus does not align with the along/across track orientation of the wind vector grid in the L2B/L2A products. Data are provided in single-orbit files in HDF-4 format. RapidScat is a Ku-band dual beam circular rotating scatterometer retaining much of the same hardware and functionality of QuikSCAT, with exception of the antenna sub-system and digital interface to the ISS Columbus module, which is where RapidScat is mounted. The NASA mission is officially referred to as ISS-RapidScat. Unlike QuikSCAT, ISS-RapidScat is not in sun-synchronous orbit, and flies at roughly half the altitude with a low inclination angle that restricts data coverage to the tropics and mid-latitude regions; the extent of latitudinal coverage stretches from approximately 61 degrees North to 61 degrees South. Furthermore, there is no consistent local time of day retrieval. Caution: this dataset is intended for expert use only. If you must use RapidScat Sigma-0 data but you are unsure about how to use the L1B data record, please consider using either of the following L2A datasets: 1) http://podaac.jpl.nasa.gov/dataset/RSCAT_L2A_12KM_V1.2 or 2) http://podaac.jpl.nasa.gov/dataset/RSCAT_L2A_25KM_V1.2. If you have any questions or concerns, please visit our Forum at https://podaac.jpl.nasa.gov/forum/.</SimpleData>
+		<SimpleData name="coll_doi">RSCAT_L1B_V1.2</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">1B</SimpleData>
+		<SimpleData name="time_min">-61</SimpleData>
+		<SimpleData name="time_max">61</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-61 180,61 -180,61 -180,-61 180,-61</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1661292923-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">RapidScat+Level+1B+Time-Ordered+Geo-Located+Sigma-0+Version+1.3</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-27T18:45:13Z</SimpleData>
+		<SimpleData name="cmr_revision_date">RapidScat Level 1B Time-Ordered Geo-Located Sigma-0 Version 1.3</SimpleData>
+		<SimpleData name="cmr_publication_date">1.3</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the ISS-RapidScat Version 1.3 Level 1B geo-located Sigma-0 measurements and antenna pulse &quot;egg&quot; and &quot;slice&quot; geometries as derived from ephemeris and the Level 1A dataset. Version 1.3 is intended as a replacement and continuation of the Version 1.2 data forward from orbital revolution number 7873, corresponding to 11 February 2016; on 11 Feb 2016, RapidScat entered it's 3rd low signal to noise ratio (SNR) state and the initial calibration of low SNR 3 was preliminary during the Version 1.2 release. The fundamental difference between Version 1.3 and the previous Version 1.2 datasets is that the L1B sigma-0 has been re-calibrated during the periods of low SNR states 3 and 4 using re-pointed QuikSCAT data. The pulse &quot;egg&quot; represents the complete footprint of the pulse, which has a spatial geometry of approximately 25 km by 35 km. There are 8 slices that constitute the range-binned components of a pulse each of which has a spatial geometry of approximately 25 km by 7 km. The orientation of the long dimension of the slices varies with the rotation of the antenna and thus does not align with the along/across track orientation of the wind vector grid in the L2B/L2A products. Data are provided in single-orbit files in HDF-4 format. RapidScat is a Ku-band dual beam circular rotating scatterometer retaining much of the same hardware and functionality of QuikSCAT, with exception of the antenna sub-system and digital interface to the ISS Columbus module, which is where RapidScat is mounted. The NASA mission is officially referred to as ISS-RapidScat. Unlike QuikSCAT, ISS-RapidScat is not in sun-synchronous orbit, and flies at roughly half the altitude with a low inclination angle that restricts data coverage to the tropics and mid-latitude regions; the extent of latitudinal coverage stretches from approximately 61 degrees North to 61 degrees South. Furthermore, there is no consistent local time of day retrieval. Caution: this dataset is intended for expert use only. If you must use RapidScat Sigma-0 data but you are unsure about how to use the L1B data record, please consider using either of the following L2A datasets: 1) http://podaac.jpl.nasa.gov/dataset/RSCAT_L2A_12KM_V1.3 or 2) http://podaac.jpl.nasa.gov/dataset/RSCAT_L2A_25KM_V1.3. If you have any questions or concerns, please visit our Forum at https://podaac.jpl.nasa.gov/forum/.</SimpleData>
+		<SimpleData name="coll_doi">RSCAT_L1B_V1.3</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">1B</SimpleData>
+		<SimpleData name="time_min">-61</SimpleData>
+		<SimpleData name="time_max">61</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-61 180,61 -180,61 -180,-61 180,-61</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1664741639-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">RapidScat+Level+2A+Surface+Flagged+Sigma-0+and+Attenuations+in+12.5Km+Swath+Grid+Version+1.1</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-09T15:01:18Z</SimpleData>
+		<SimpleData name="cmr_revision_date">RapidScat Level 2A Surface Flagged Sigma-0 and Attenuations in 12.5Km Swath Grid Version 1.1</SimpleData>
+		<SimpleData name="cmr_publication_date">1.1</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the ISS-RapidScat on Level 2A 12.5 km science data record, which provides surface-flagged sigma-0 in 12.5 km Wind Vector Cells processed using the pulse &quot;slice&quot; Sigma-0 data provided by the Level 1B dataset. Due to the circular scan of the RapidScat instrument the expected number of Sigma-0 cells per WVC is not constant. To minimize the L2A data volume, the Sigma-0 cell data are stored as &quot;lists&quot; for each WVC row, with each list indexed by a &quot;cell_index&quot; array to indicate the cross-track WVC membership of the data. Each cell is then checked for land or ice and flagged accordingly. Attenuation corrections for each Sigma-0 measurement are also provided. Data are provided in single-orbit files in HDF-4 format. RapidScat is a Ku-band dual beam circular rotating scatterometer retaining much of the same hardware and functionality of QuikSCAT, with exception of the antenna sub-system and digital interface to the International Space Station (ISS) Columbus module, which is where RapidScat is mounted. The NASA mission is officially referred to as ISS-RapidScat. Unlike QuikSCAT, ISS-RapidScat is not in sun-synchronous orbit, and flies at roughly half the altitude with a low inclination angle that restricts data coverage to the tropics and mid-latitude regions; the extent of latitudinal coverage stretches from approximately 61 degrees North to 61 degrees South. Furthermore, there is no consistent local time of day retrieval.</SimpleData>
+		<SimpleData name="coll_doi">RSCAT_L2A_12KM_V1.1</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2A</SimpleData>
+		<SimpleData name="time_min">-61</SimpleData>
+		<SimpleData name="time_max">61</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-61 180,61 -180,61 -180,-61 180,-61</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1664741259-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">RapidScat+Level+2A+Surface+Flagged+Sigma-0+and+Attenuations+in+12.5Km+Swath+Grid+Version+1.2</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-06T21:51:24Z</SimpleData>
+		<SimpleData name="cmr_revision_date">RapidScat Level 2A Surface Flagged Sigma-0 and Attenuations in 12.5Km Swath Grid Version 1.2</SimpleData>
+		<SimpleData name="cmr_publication_date">1.2</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the Version 1.2 ISS-RapidScat on Level 2A 12.5 km science data record, which provides surface-flagged sigma-0 in 12.5 km Wind Vector Cells processed using the pulse &quot;slice&quot; Sigma-0 data provided by the Level 1B dataset. Version 1.2 is intended as a replacement and continuation of the Version 1.1 data forward from orbital revolution number 5127, corresponding to 19 August 2015; the overlapping time period starting on 19 August 2015 corresponds to the first time period of the recorded low signal-to-noise ratio (SNR). This Version 1.2 dataset differs from the previous Version 1.1 dataset as follows: 1) L1B sigma-0 has been re-calibrated during the periods of low signal-to-noise ratio (SNR) and 2) during low SNR periods the L1B sigma-0 calibration is determined using re-pointed L1B QuikSCAT data. Due to the circular scan of the RapidScat instrument the expected number of Sigma-0 cells per WVC is not constant. To minimize the L2A data volume, the Sigma-0 cell data are stored as &quot;lists&quot; for each WVC row, with each list indexed by a &quot;cell_index&quot; array to indicate the cross-track WVC membership of the data. Each cell is then checked for land or ice and flagged accordingly. Attenuation corrections for each Sigma-0 measurement are also provided. Data are provided in single-orbit files in HDF-4 format. RapidScat is a Ku-band dual beam circular rotating scatterometer retaining much of the same hardware and functionality of QuikSCAT, with exception of the antenna sub-system and digital interface to the International Space Station (ISS) Columbus module, which is where RapidScat is mounted. The NASA mission is officially referred to as ISS-RapidScat. Unlike QuikSCAT, ISS-RapidScat is not in sun-synchronous orbit, and flies at roughly half the altitude with a low inclination angle that restricts data coverage to the tropics and mid-latitude regions; the extent of latitudinal coverage stretches from approximately 61 degrees North to 61 degrees South. Furthermore, there is no consistent local time of day retrieval. If you have any questions or concerns, please visit our Forum at https://podaac.jpl.nasa.gov/forum/.</SimpleData>
+		<SimpleData name="coll_doi">RSCAT_L2A_12KM_V1.2</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2A</SimpleData>
+		<SimpleData name="time_min">-61</SimpleData>
+		<SimpleData name="time_max">61</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-61 180,61 -180,61 -180,-61 180,-61</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1664741223-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">RapidScat+Level+2A+Surface+Flagged+Sigma-0+and+Attenuations+in+12.5Km+Swath+Grid+Version+1.3</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-06T18:42:05Z</SimpleData>
+		<SimpleData name="cmr_revision_date">RapidScat Level 2A Surface Flagged Sigma-0 and Attenuations in 12.5Km Swath Grid Version 1.3</SimpleData>
+		<SimpleData name="cmr_publication_date">1.3</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the Version 1.3 ISS-RapidScat on Level 2A 12.5 km science data record, which provides surface-flagged sigma-0 in 12.5 km Wind Vector Cells processed using the pulse &quot;slice&quot; Sigma-0 data provided by the Level 1B dataset. Version 1.3 is intended as a replacement and continuation of the Version 1.1 and Version 1.2 data forward from orbital revolution number 7873, corresponding to 11 February 2016; on 11 Feb 2016, RapidScat entered it's 3rd low signal to noise ratio (SNR) state and the initial calibration of low SNR 3 was preliminary during the Version 1.2 release. The fundamental difference between Version 1.3 and the previous Version 1.2 datasets is that the L1B sigma-0 has been re-calibrated during the periods of low SNR states 3 and 4 using re-pointed QuikSCAT data. Due to the circular scan of the RapidScat instrument the expected number of Sigma-0 cells per WVC is not constant. To minimize the L2A data volume, the Sigma-0 cell data are stored as &quot;lists&quot; for each WVC row, with each list indexed by a &quot;cell_index&quot; array to indicate the cross-track WVC membership of the data. Each cell is then checked for land or ice and flagged accordingly. Attenuation corrections for each Sigma-0 measurement are also provided. Data are provided in single-orbit files in HDF-4 format. RapidScat is a Ku-band dual beam circular rotating scatterometer retaining much of the same hardware and functionality of QuikSCAT, with exception of the antenna sub-system and digital interface to the International Space Station (ISS) Columbus module, which is where RapidScat is mounted. The NASA mission is officially referred to as ISS-RapidScat. Unlike QuikSCAT, ISS-RapidScat is not in sun-synchronous orbit, and flies at roughly half the altitude with a low inclination angle that restricts data coverage to the tropics and mid-latitude regions; the extent of latitudinal coverage stretches from approximately 61 degrees North to 61 degrees South. Furthermore, there is no consistent local time of day retrieval. If you have any questions or concerns, please visit our Forum at https://podaac.jpl.nasa.gov/forum/.</SimpleData>
+		<SimpleData name="coll_doi">RSCAT_L2A_12KM_V1.3</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2A</SimpleData>
+		<SimpleData name="time_min">-61</SimpleData>
+		<SimpleData name="time_max">61</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-61 180,61 -180,61 -180,-61 180,-61</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1666605250-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">RapidScat+Level+2A+Surface+Flagged+Sigma-0+and+Attenuations+in+25Km+Swath+Grid+Version+1.1</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-10T23:18:49Z</SimpleData>
+		<SimpleData name="cmr_revision_date">RapidScat Level 2A Surface Flagged Sigma-0 and Attenuations in 25Km Swath Grid Version 1.1</SimpleData>
+		<SimpleData name="cmr_publication_date">1.1</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the ISS-RapidScat on Level 2A 25km science data record, which provides surface-flagged sigma-0 in 25km Wind Vector Cells processed using the pulse &quot;egg&quot; Sigma-0 data provided by the Level 1B dataset. Due to the circular scan of the SeaWinds instrument the expected number of Sigma-0 cells per WVC is not constant. To minimize the L2A data volume, the Sigma-0 cell data are stored as &quot;lists&quot; for each WVC row, with each list indexed by a &quot;cell_index&quot; array to indicate the cross-track WVC membership of the data. Each cell is then checked for land or ice and flagged accordingly. Attenuation corrections for each Sigma-0 measurement are also provided. Data are provided in single-orbit files in HDF-4 format. RapidScat is a Ku-band dual beam circular rotating scatterometer retaining much of the same hardware and functionality of QuikSCAT, with exception of the antenna sub-system and digital interface to the International Space Station (ISS) Columbus module, which is where RapidScat is mounted. The NASA mission is officially referred to as ISS-RapidScat. Unlike QuikSCAT, ISS-RapidScat is not in sun-synchronous orbit, and flies at roughly half the altitude with a low inclination angle that restricts data coverage to the tropics and mid-latitude regions; the extent of latitudinal coverage stretches from approximately 61 degrees North to 61 degrees South. Furthermore, there is no consistent local time of day retrieval.</SimpleData>
+		<SimpleData name="coll_doi">RSCAT_L2A_25KM_V1.1</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2A</SimpleData>
+		<SimpleData name="time_min">-61</SimpleData>
+		<SimpleData name="time_max">61</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-61 180,61 -180,61 -180,-61 180,-61</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1666605213-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">RapidScat+Level+2A+Surface+Flagged+Sigma-0+and+Attenuations+in+25Km+Swath+Grid+Version+1.2</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-10T23:07:46Z</SimpleData>
+		<SimpleData name="cmr_revision_date">RapidScat Level 2A Surface Flagged Sigma-0 and Attenuations in 25Km Swath Grid Version 1.2</SimpleData>
+		<SimpleData name="cmr_publication_date">1.2</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the Version 1.2 ISS-RapidScat Level 2A 25km science data record, which provides surface-flagged sigma-0 in 25km Wind Vector Cells processed using the pulse &quot;egg&quot; Sigma-0 data provided by the Level 1B dataset. Version 1.2 is intended as a replacement and continuation of the Version 1.1 data forward from orbital revolution number 5127, corresponding to 19 August 2015; the overlapping time period starting on 19 August 2015 corresponds to the first time period of the recorded low signal-to-noise ratio (SNR). This Version 1.2 dataset differs from the previous Version 1.1 dataset as follows: 1) L1B sigma-0 has been re-calibrated during the periods of low signal-to-noise ratio (SNR) and 2) during low SNR periods the L1B sigma-0 calibration is determined using re-pointed L1B QuikSCAT data. Due to the circular scan of the SeaWinds instrument the expected number of Sigma-0 cells per WVC is not constant. To minimize the L2A data volume, the Sigma-0 cell data are stored as &quot;lists&quot; for each WVC row, with each list indexed by a &quot;cell_index&quot; array to indicate the cross-track WVC membership of the data. Each cell is then checked for land or ice and flagged accordingly. Attenuation corrections for each Sigma-0 measurement are also provided. Data are provided in single-orbit files in HDF-4 format. RapidScat is a Ku-band dual beam circular rotating scatterometer retaining much of the same hardware and functionality of QuikSCAT, with exception of the antenna sub-system and digital interface to the International Space Station (ISS) Columbus module, which is where RapidScat is mounted. The NASA mission is officially referred to as ISS-RapidScat. Unlike QuikSCAT, ISS-RapidScat is not in sun-synchronous orbit, and flies at roughly half the altitude with a low inclination angle that restricts data coverage to the tropics and mid-latitude regions; the extent of latitudinal coverage stretches from approximately 56 degrees North to 56 degrees South. Furthermore, there is no consistent local time of day retrieval. If you have any questions or concerns, please visit our Forum at https://podaac.jpl.nasa.gov/forum/.</SimpleData>
+		<SimpleData name="coll_doi">RSCAT_L2A_25KM_V1.2</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2A</SimpleData>
+		<SimpleData name="time_min">-61</SimpleData>
+		<SimpleData name="time_max">61</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-61 180,61 -180,61 -180,-61 180,-61</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1661292957-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">RapidScat+Level+2A+Surface+Flagged+Sigma-0+and+Attenuations+in+25Km+Swath+Grid+Version+1.3</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-27T19:22:28Z</SimpleData>
+		<SimpleData name="cmr_revision_date">RapidScat Level 2A Surface Flagged Sigma-0 and Attenuations in 25Km Swath Grid Version 1.3</SimpleData>
+		<SimpleData name="cmr_publication_date">1.3</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the Version 1.3 ISS-RapidScat Level 2A 25km science data record, which provides surface-flagged sigma-0 in 25km Wind Vector Cells processed using the pulse &quot;egg&quot; Sigma-0 data provided by the Level 1B dataset. Version 1.3 is intended as a replacement and continuation of the Version 1.1 and 1.2 data forward from orbital revolution number 7873, corresponding to 11 February 2016; on 11 Feb 2016, RapidScat entered it's 3rd low signal to noise ratio (SNR) state and the initial calibration of low SNR 3 was preliminary during the Version 1.2 release. The fundamental difference between Version 1.3 and the previous Version 1.2 datasets is that the L1B sigma-0 has been re-calibrated during the periods of low SNR states 3 and 4 using re-pointed QuikSCAT data. Due to the circular scan of the SeaWinds instrument the expected number of Sigma-0 cells per WVC is not constant. To minimize the L2A data volume, the Sigma-0 cell data are stored as &quot;lists&quot; for each WVC row, with each list indexed by a &quot;cell_index&quot; array to indicate the cross-track WVC membership of the data. Each cell is then checked for land or ice and flagged accordingly. Attenuation corrections for each Sigma-0 measurement are also provided. Data are provided in single-orbit files in HDF-4 format. RapidScat is a Ku-band dual beam circular rotating scatterometer retaining much of the same hardware and functionality of QuikSCAT, with exception of the antenna sub-system and digital interface to the International Space Station (ISS) Columbus module, which is where RapidScat is mounted. The NASA mission is officially referred to as ISS-RapidScat. Unlike QuikSCAT, ISS-RapidScat is not in sun-synchronous orbit, and flies at roughly half the altitude with a low inclination angle that restricts data coverage to the tropics and mid-latitude regions; the extent of latitudinal coverage stretches from approximately 61 degrees North to 61 degrees South. Furthermore, there is no consistent local time of day retrieval. If you have any questions or concerns, please visit our Forum at https://podaac.jpl.nasa.gov/forum/.</SimpleData>
+		<SimpleData name="coll_doi">RSCAT_L2A_25KM_V1.3</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2A</SimpleData>
+		<SimpleData name="time_min">-61</SimpleData>
+		<SimpleData name="time_max">61</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-61 180,61 -180,61 -180,-61 180,-61</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1666605353-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">RapidScat+Level+2B+Climate+Ocean+Wind+Vectors+in+12.5km+Footprints</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-10T23:22:16Z</SimpleData>
+		<SimpleData name="cmr_revision_date">RapidScat Level 2B Climate Ocean Wind Vectors in 12.5km Footprints</SimpleData>
+		<SimpleData name="cmr_publication_date">1.0</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the RapidScat Level 2B 12.5km Version 1.0 Climate quality ocean surface wind vectors. The Level 2B wind vectors are binned on a 12.5 km Wind Vector Cell (WVC) grid and processed using the using the &quot;full aperture&quot; normalized radar cross-section (NRCS, a.k.a. Sigma-0) from the L1B dataset. RapidScat is a Ku-band dual beam circular rotating scatterometer retaining much of the same hardware and functionality of QuikSCAT, with exception of the antenna sub-system and digital interface to the International Space Station (ISS) Columbus module, which is where RapidScat is mounted. The NASA mission is officially referred to as ISS-RapidScat. Unlike QuikSCAT, ISS-RapidScat is not in sun-synchronous orbit, and flies at roughly half the altitude with a low inclination angle that restricts data coverage to the tropics and mid-latitude regions; the extent of latitudinal coverage stretches from approximately 61 degrees North to 61 degrees South. Furthermore, there is no consistent local time of day retrieval. This dataset is provided in a netCDF-3 file format that follows the netCDF-4 classic model (i.e., generated by the netCDF-4 API) and made available via PO.DAAC Drive and OPeNDAP. For data access, please click on the &quot;Data Access&quot; tab above. This climate quality data set differs from the nominal &quot;slice&quot; L2B dataset as follows: 1) it uses full antenna footprint measurements (~20-km) without subdividing by range (~7-km) and 2) the absolute calibration has been modified for the two different low signal-to-noise ratio (SNR) mode data sets: LowSNR1 14 August 2015 to 18 September 2015; LowSNR2 6 October 2015 to 7 February 2016. The above enhancements allow this dataset to provide consistent calibration across all SNR states. Low SNR periods and other key quality control (QC) issues are tracked and kept up-to-date in PO.DAAC Drive at https://podaac-tools.jpl.nasa.gov/drive/files/allData/rapidscat/ancillary/revtime.csv. If you have any questions, please visit our user forums: https://podaac.jpl.nasa.gov/forum/.</SimpleData>
+		<SimpleData name="coll_doi">RSCAT_LEVEL_2B_OWV_CLIM_12_V1</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-61</SimpleData>
+		<SimpleData name="time_max">61</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-61 180,61 -180,61 -180,-61 180,-61</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1666605338-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">RapidScat+Level+2B+Climate+Ocean+Wind+Vectors+in+12.5km+Footprints+Version+2.0</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-10T18:30:01Z</SimpleData>
+		<SimpleData name="cmr_revision_date">RapidScat Level 2B Climate Ocean Wind Vectors in 12.5km Footprints Version 2.0</SimpleData>
+		<SimpleData name="cmr_publication_date">2.0</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the RapidScat Level 2B 12.5km Version 2.0 Climate quality ocean surface wind vectors. The Level 2B wind vectors are binned on a 12.5 km Wind Vector Cell (WVC) grid and processed using the using the &quot;full aperture&quot; normalized radar cross-section (NRCS, a.k.a. Sigma-0) from the L1B dataset. RapidScat is a Ku-band dual beam circular rotating scatterometer retaining much of the same hardware and functionality of QuikSCAT, with exception of the antenna sub-system and digital interface to the International Space Station (ISS) Columbus module, which is where RapidScat is mounted. The NASA mission is officially referred to as ISS-RapidScat. Unlike QuikSCAT, ISS-RapidScat is not in sun-synchronous orbit, and flies at roughly half the altitude with a low inclination angle that restricts data coverage to the tropics and mid-latitude regions; the extent of latitudinal coverage stretches from approximately 61 degrees North to 61 degrees South. Furthermore, there is no consistent local time of day retrieval. The new version has two important improvements over the previous version 1.0. First, an SST-dependent GMF developed by Lucrezia Ricciardulli of Remote Sensing Systems is used in wind retrieval in order to fix persistent speed biases in Ku-band data over cold ocean.  Second, flagging is simplified and extra flags are provided. All the previously existing flags are still there and still reflect the same meaning and purpose. A new single bit wind_retrieval_likely_corrupted_flag specifies the approximately 3% of the data which is known to have suboptimal performance due to rain, ice, or a few other rare anomalous cases. Another bit wind_retrieval_possibly_corrupted_flag specifies the approximately 15% of the data near rain, near ice, or near the coast, that is thought to be high quality but may not match up well with numerical wind models due to either remaining rain/ice/land contamination or variability in the winds near ice, rain, and coasts that are not reflected in the NWPs.  In addition to these two new bits, copious quality information is provided in the data to allow users to tailor flags to meet their own needs. There is also an added a global attribute called rev_status that specifies whether the RapidScat Instrument was in the original (highest data quality) high SNR mode, or one of the four low SNR time periods, the latter of which indicates the accuracy of winds below 5 m/s is degraded. This attribute also serves to identify MARGINAL orbits in which there are large gaps in the data record due to suboptimal spacecraft attitude. Other than gaps in the data, the accuracy of the winds in the MARGINAL orbits are similar to other orbits. This dataset is provided in netCDF-4 format and made available via FTP and OPeNDAP. For data access, please click on the &quot;Data Access&quot; tab above.</SimpleData>
+		<SimpleData name="coll_doi">RSCAT_LEVEL_2B_OWV_CLIM_12_V2</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-61</SimpleData>
+		<SimpleData name="time_max">61</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-61 180,61 -180,61 -180,-61 180,-61</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1664741621-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">RapidScat+Level+2B+Ocean+Wind+Vectors+in+12.5km+Slice+Composites+Version+1.1</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-06T18:47:04Z</SimpleData>
+		<SimpleData name="cmr_revision_date">RapidScat Level 2B Ocean Wind Vectors in 12.5km Slice Composites Version 1.1</SimpleData>
+		<SimpleData name="cmr_publication_date">1.1</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the RapidScat Level 2B 12.5km Version 1.1 science-quality ocean surface wind vectors. The Level 2B wind vectors are binned on a 12.5 km Wind Vector Cell (WVC) grid and processed using the Level 2A Sigma-0 dataset. RapidScat is a Ku-band dual beam circular rotating scatterometer retaining much of the same hardware and functionality of QuikSCAT, with exception of the antenna sub-system and digital interface to the International Space Station (ISS) Columbus module, which is where RapidScat is mounted. The NASA mission is officially referred to as ISS-RapidScat. Unlike QuikSCAT, ISS-RapidScat is not in sun-synchronous orbit, and flies at roughly half the altitude with a low inclination angle that restricts data coverage to the tropics and mid-latitude regions; the extent of latitudinal coverage stretches from approximately 61 degrees North to 61 degrees South. Furthermore, there is no consistent local time of day retrieval. This dataset is provided in a netCDF-3 file format that follows the netCDF-4 classic model (i.e., generated by the netCDF-4 API) and made available via FTP and OPeNDAP. For data access, please click on the &quot;Data Access&quot; tab above. This Version 1.1 dataset differs from the previous Version 1 dataset as follows: 1) A new neural network approach for high wind speeds provided rain corrections for the &quot;retrieve_wind_speed&quot; variable for wind speeds in excess of 15 m/s. 2) The data variables containing the number of measurements of each type for each wind vector cell have been corrected; these variables include &quot;number_in_aft&quot;, &quot;number_in_fore&quot;, &quot;number_out_aft&quot;, and &quot;number_out_fore&quot;. 3) The &quot;wind_obj&quot; data variable has been corrected to include the proper data for the conditional probability for the objective DIRTH function values. It is advised for users to avoid using the &quot;wind_obj&quot; variable in this dataset since it is minimally applicable and meant primarily for quality assurance; for users who wish to access the objective function values for each ambiguity, it is suggested to use only the &quot;ambiguity_obj&quot; variable. The &quot;wind_obj&quot; variable contains DIRTH probabilities (which are derived form the &quot;ambiguity_obj&quot; objective function values) in the range of 0 to 1 indicating the conditional probability that the true direction is within + or - 2.5 degrees of the retrieved wind direction given the observed backscatter measurements in the cell. If you have any questions, please contact podaac@podaac.jpl.nasa.gov</SimpleData>
+		<SimpleData name="coll_doi">RSCAT_LEVEL_2B_OWV_COMP_12_V1.1</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-61</SimpleData>
+		<SimpleData name="time_max">61</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-61 180,61 -180,61 -180,-61 180,-61</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1664741360-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">RapidScat+Level+2B+Ocean+Wind+Vectors+in+12.5km+Slice+Composites+Version+1.2</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-06T21:49:39Z</SimpleData>
+		<SimpleData name="cmr_revision_date">RapidScat Level 2B Ocean Wind Vectors in 12.5km Slice Composites Version 1.2</SimpleData>
+		<SimpleData name="cmr_publication_date">1.2</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the RapidScat Level 2B 12.5km Version 1.2 science-quality ocean surface wind vectors, which are intended as a replacement and continuation of the Version 1.1 data forward from orbital revolution number 5127, corresponding to 19 August 2015; the overlapping time period starting on 19 August 2015 corresponds to the first time period of the recorded low signal-to-noise ratio (SNR). The Level 2B wind vectors are binned on a 12.5 km Wind Vector Cell (WVC) grid and processed using the Level 2A Sigma-0 dataset. RapidScat is a Ku-band dual beam circular rotating scatterometer retaining much of the same hardware and functionality of QuikSCAT, with exception of the antenna sub-system and digital interface to the International Space Station (ISS) Columbus module, which is where RapidScat is mounted. The NASA mission is officially referred to as ISS-RapidScat. Unlike QuikSCAT, ISS-RapidScat is not in sun-synchronous orbit, and flies at roughly half the altitude with a low inclination angle that restricts data coverage to the tropics and mid-latitude regions; the extent of latitudinal coverage stretches from approximately 61 degrees North to 61 degrees South. Furthermore, there is no consistent local time of day retrieval. This dataset is provided in a netCDF-3 file format that follows the netCDF-4 classic model (i.e., generated by the netCDF-4 API) and made available via FTP and OPeNDAP. For data access, please click on the &quot;Data Access&quot; tab above. This Version 1.2 dataset differs from the previous Version 1.1 dataset as follows: 1) L1B sigma-0 has been re-calibrated during the periods of low signal-to-noise ratio (SNR) and 2) during low SNR periods the L1B sigma-0 calibration is determined using re-pointed L1B QuikSCAT data. It is advised for users to avoid using the &quot;wind_obj&quot; variable in this dataset since it is minimally applicable and meant primarily for quality assurance; for users who wish to access the objective function values for each ambiguity, it is suggested to use only the &quot;ambiguity_obj&quot; variable. The &quot;wind_obj&quot; variable contains DIRTH probabilities (which are derived form the &quot;ambiguity_obj&quot; objective function values) in the range of 0 to 1 indicating the conditional probability that the true direction is within + or - 2.5 degrees of the retrieved wind direction given the observed backscatter measurements in the cell. If you have any questions or concerns, please visit our Forum at https://podaac.jpl.nasa.gov/forum/.</SimpleData>
+		<SimpleData name="coll_doi">RSCAT_LEVEL_2B_OWV_COMP_12_V1.2</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-61</SimpleData>
+		<SimpleData name="time_max">61</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-61 180,61 -180,61 -180,-61 180,-61</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1653649477-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">RapidScat+Level+2B+Ocean+Wind+Vectors+in+12.5km+Slice+Composites+Version+1.3</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-26T19:07:47Z</SimpleData>
+		<SimpleData name="cmr_revision_date">RapidScat Level 2B Ocean Wind Vectors in 12.5km Slice Composites Version 1.3</SimpleData>
+		<SimpleData name="cmr_publication_date">1.3</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the RapidScat Level 2B 12.5km Version 1.3 science-quality ocean surface wind vectors, which are intended as a replacement and continuation of the Version 1.1 and 1.2 data forward from orbital revolution number 7873, corresponding to 11 February 2016; on 11 Feb 2016, RapidScat entered it's 3rd low signal to noise ratio (SNR) state and the initial calibration of low SNR 3 was preliminary during the Version 1.2 release. The fundamental difference between Version 1.3 and the previous Version 1.2 datasets is that the L1B sigma-0 has been re-calibrated during the periods of low SNR states 3 and 4 using re-pointed QuikSCAT data.  The Version 1.1 should still be considered valid up to the first rev of version 1.2 (5127), and similarly version 1.2 shall be considered valid up to the first rev of version 1.3 (7873). The Level 2B wind vectors are binned on a 12.5 km Wind Vector Cell (WVC) grid and processed using the Level 2A Sigma-0 dataset. RapidScat is a Ku-band dual beam circular rotating scatterometer retaining much of the same hardware and functionality of QuikSCAT, with exception of the antenna sub-system and digital interface to the International Space Station (ISS) Columbus module, which is where RapidScat is mounted. The NASA mission is officially referred to as ISS-RapidScat. Unlike QuikSCAT, ISS-RapidScat is not in sun-synchronous orbit, and flies at roughly half the altitude with a low inclination angle that restricts data coverage to the tropics and mid-latitude regions; the extent of latitudinal coverage stretches from approximately 61 degrees North to 61 degrees South. Furthermore, there is no consistent local time of day retrieval. This dataset is provided in a netCDF-3 file format that follows the netCDF-4 classic model (i.e., generated by the netCDF-4 API) and made available via FTP and OPeNDAP. For data access, please click on the &quot;Data Access&quot; tab above. It is advised for users to avoid using the &quot;wind_obj&quot; variable in this dataset since it is minimally applicable and meant primarily for quality assurance; for users who wish to access the objective function values for each ambiguity, it is suggested to use only the &quot;ambiguity_obj&quot; variable. The &quot;wind_obj&quot; variable contains DIRTH probabilities (which are derived form the &quot;ambiguity_obj&quot; objective function values) in the range of 0 to 1 indicating the conditional probability that the true direction is within + or - 2.5 degrees of the retrieved wind direction given the observed backscatter measurements in the cell. If you have any questions or concerns, please visit our Forum at https://podaac.jpl.nasa.gov/forum/.</SimpleData>
+		<SimpleData name="coll_doi">RSCAT_LEVEL_2B_OWV_COMP_12_V1.3</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-61</SimpleData>
+		<SimpleData name="time_max">61</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-61 180,61 -180,61 -180,-61 180,-61</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1664741558-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">Remote+Sensing+Systems+Radiometer+Rain+Collocations+with+JPL+RapidScat+L2B+Swath+Grid</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-06T21:55:01Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Remote Sensing Systems Radiometer Rain Collocations with JPL RapidScat L2B Swath Grid</SimpleData>
+		<SimpleData name="cmr_publication_date">1.0</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the multi-sourced microwave radiometer wind speed, rain and cloud liquid water data collocated to RapidScat Level 2B wind vector cell (WVC) locations. The corresponding NASA mission is officially referred to as ISS-RapidScat. This dataset is produced by Remote Sensing Systems (RSS) with direct funding from the JPL RapidScat project. All of the collocated radiometer data is produced by RSS. The co-located radiometer sources include: 1) DMSP SSM/I (F15) and SSMIS (F16/F17), 2) Coriolis WindSat, 3) GCOM-W1 AMSR2 and 4) GPM Core GMI; more details on these radiometer sources and sensors can be extracted by scrolling down to the &quot;Platform/Sensor&quot; section below this description. RapidScat is a Ku-band dual beam circular rotating scatterometer retaining much of the same hardware and functionality of QuikSCAT, with exception of the antenna sub-system and digital interface to the International Space Station (ISS) Columbus module, which is where RapidScat is mounted. Unlike QuikSCAT, ISS-RapidScat is not in sun-synchronous orbit, and flies at roughly half the altitude with a low inclination angle that restricts data coverage to the tropics and mid-latitude regions; the extent of latitudinal coverage stretches from approximately 61 degrees North to 61 degrees South. Furthermore, there is no consistent local time of day retrieval. This dataset is provided in a netCDF-4 file format that follows the netCDF &quot;classic&quot; model and made available via FTP and OPeNDAP. For data access, please click on the &quot;Data Access&quot; tab above.</SimpleData>
+		<SimpleData name="coll_doi">RSCAT_COLOCATED_RSS_RADIOMETER_LEVEL_2B_V1</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-61</SimpleData>
+		<SimpleData name="time_max">61</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-61 180,61 -180,61 -180,-61 180,-61</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,82 @@
+{
+  "hits": 1,
+  "took": 16,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1563041701-GES_DISC",
+        "revision-id": 1,
+        "native-id": "GPSROZPBLA.1:pblh_gps_2006-2015_2x2_annual.nc",
+        "provider-id": "GES_DISC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-10-19T15:05:52Z"
+      },
+      "umm": {
+        "RelatedUrls": [
+          {
+            "URL": "https://measures.gesdisc.eosdis.nasa.gov/data//BoundaryLayerDepth/GPSROZPBLA.1/pblh_gps_2006-2015_2x2_annual.nc",
+            "Type": "GET DATA"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2018-10-19T15:04:21.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2018-10-19T15:04:21.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "GPSROZPBLA",
+          "Version": "1"
+        },
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "Identifiers": [
+            {
+              "Identifier": "pblh_gps_2006-2015_2x2_annual.nc",
+              "IdentifierType": "ProducerGranuleId"
+            }
+          ],
+          "ProductionDateTime": "2018-07-02T16:37:29.167Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.262482643127441,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2006-06-01T00:00:00.000Z",
+            "EndingDateTime": "2015-12-31T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "GPSROZPBLA.1:pblh_gps_2006-2015_2x2_annual.nc",
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    }
+  ]
+}

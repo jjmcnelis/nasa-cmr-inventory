@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ds" id="ds">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_title" type="string"></SimpleField>
+	<SimpleField name="coll_version" type="string"></SimpleField>
+	<SimpleField name="coll_doi" type="string"></SimpleField>
+	<SimpleField name="coll_abstract" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="coll_status" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl_desc" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>ds</name>
+  <Placemark>
+	<name>collection</name>
+	<description>C1362012135-NOAA_NCEI</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">noaa_ncei_gov.noaa.ncdc.C00951___version_</SimpleData>
+		<SimpleData name="cmr_concept_id">NOAA_NCEI</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-29T15:27:47Z</SimpleData>
+		<SimpleData name="cmr_revision_date">NOAA Climate Data Record (CDR) of Intersatellite Calibrated Clear-Sky High Resolution Infrared Radiation Sounder (HIRS) Channel 12 Brightness Temperature Version 3</SimpleData>
+		<SimpleData name="cmr_publication_date">Version 3</SimpleData>
+		<SimpleData name="coll_version">The High-Resolution Infrared Radiation Sounder (HIRS) of intersatellite calibrated channel 12 brightness temperature (TB) product is a gridded global monthly time series product spanning from 1979 to the most current full year, updated monthly. Among the twenty channels in the HIRS instrument, channel 12 measures upper tropospheric water vapor (UTWV). Multiple polar orbiting satellites in the NOAA Polar-orbiting Operational Environmental Satellite (POES) series and MetOp-A have carried HIRS instruments. Due to the independence in calibration of the individual HIRS instruments, biases exist between satellites. Examination of the intersatellite biases shows that the biases are scene brightness temperature dependent. These HIRS channel 12 measurements from the NOAA POES and MetOp-A are calibrated to a baseline satellite based on intersatellite bias correction data. The differences from the last version include that the dataset is now provided as monthly mean 2.5x2.5 degree latitude/longitude in netcdf format. This CDR is key to understanding water vapor feedback climatology and has been used to study long-term water vapor variability, to evaluate climate models, and to study large-scale atmospheric circulations.</SimpleData>
+		<SimpleData name="coll_doi">gov.noaa.ncdc.C00951</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1215202480-NOAA_NCEI</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">NOAA-19_Operational</SimpleData>
+		<SimpleData name="cmr_concept_id">NOAA_NCEI</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-05-22T20:52:33Z</SimpleData>
+		<SimpleData name="cmr_revision_date">NOAA-19 Operational Data</SimpleData>
+		<SimpleData name="cmr_publication_date">Not provided</SimpleData>
+		<SimpleData name="coll_version">[Source: NASA Portal, http://www.nasa.gov/mission_pages/NOAA-N-Prime/main/index.html ]
+      
+      The Delta II carrying NOAA-N Prime lifted off Feb. 6, 2009 at 2:22 a.m. Pacific time, 5:22 a.m. Eastern time from Space Launch Complex-2 at Vandenberg Air Force Base in California.
+      
+      [Image and Text Source: NOAA-N Prime Spacecraft web page, http://goespoes.gsfc.nasa.gov/poes/spacecraft/noaanprime_spacecraft.html. ]
+      
+      NOAA-N Prime will be the last in the series of TIROS ATN. NOAA-N' has a planned launch date of February 2009 from Vandenberg AFB, CA by a Delta II launch vehicle.
+      
+      The spacecraft will continue to provide a polar-orbiting platform to support (1) environmental monitoring instruments for imaging and measuring the Earth's atmosphere, its surface, and cloud cover, including Earth radiation, atmospheric ozone, aerosol distribution, sea surface temperature, and vertical temperature and water profiles in the troposphere and stratosphere; (2) measurement of proton and electron flux at orbit altitude; (3) data collection from remote platforms; and (4) the Search and Rescue Satellite-Aided Tracking (SARSAT) system.
+      
+      Additionally, NOAA-N' will be the fifth in the series of support dedicated microwave instruments for the generation of temperature, moisture, surface, and hydrological products in cloudy regions where visible and infrared (IR) instruments have decreased capability.
+      
+      This spacecraft will carry an Advanced - DCS instead of the previous DCS.
+      
+      More Information:
+      http://goespoes.gsfc.nasa.gov/poes/spacecraft/noaanprime_spacecraft.html.</SimpleData>
+		<SimpleData name="coll_doi">NOAA-19_Operational</SimpleData>
+		<SimpleData name="coll_abstract">PLANNED</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1645281597-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">Reynolds+NCEP+Level+4+Optimally+Interpolated+SST+Monthly+Version+2</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-29T17:21:13Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Reynolds NCEP Level 4 Optimally Interpolated SST Monthly Version 2</SimpleData>
+		<SimpleData name="cmr_publication_date">2</SimpleData>
+		<SimpleData name="coll_version">The NOAA/NCEP Reynolds Optimally Interpolated (OI) Sea Surface Temperature monthly Level 4 product consists of aggregate global sea surface temperature fields on a 1 degree by 1 degree grid over a month time interval. The OI analysis employed uses both in-situ SSTs from ships and buoys and satellite derived SSTs from the NOAA Advanced Very High Resolution Radiometer (AVHRR). The satellite derived SSTs are from the Multichannel Sea Surface Temperature products that have been constructed operationally from the five-channel AVHRR by NOAA's Environmental Satellite, Data, and Information Service (NESDIS) since late 1981 through to present.  Monthly OI SST fields are derived by a linear interpolation of the weekly optimum interpolation (OI) fields to daily fields then averaging the daily values over a month. The monthly fields are in the same format and spatial resolution as the weekly fields, which have been widely used for weather and climate monitoring and forecasting.  Version 2.0 of this dataset utilizes an update and extension of the COADS in-situ data series providing enhanced ship data coverage through 1997 and reducing the residual satellite biases in otherwise data sparse regions.  This version also implements enhancements to the OI analysis utilizing simulations of SST observations from an improved sea ice algorithm and data following a technique developed at the UK Met Office, improvements that further reduce biases in the OI SST particularly at higher latitudes.</SimpleData>
+		<SimpleData name="coll_doi">REYNOLDS_NCEP_L4_SST_OPT_INTERP_MONTHLY_V2</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">4</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1652973931-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">Reynolds+NCEP+Level+4+Optimally+Interpolated+SST+Weekly+Version+2</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:11:40Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Reynolds NCEP Level 4 Optimally Interpolated SST Weekly Version 2</SimpleData>
+		<SimpleData name="cmr_publication_date">2</SimpleData>
+		<SimpleData name="coll_version">The NOAA/NCEP Reynolds Optimally Interpolated (OI) Sea Surface Temperature weekly Level 4 product consists of aggregate 7 day global sea surface temperature fields on a 1 degree by 1 degree grid. The OI analysis employed uses both in-situ SSTs from ships and buoys and satellite derived SSTs from the NOAA Advanced Very High Resolution Radiometer (AVHRR). The satellite derived SSTs are from the Multichannel Sea Surface Temperature products that have been constructed operationally from the five-channel AVHRR by NOAA's Environmental Satellite, Data, and Information Service (NESDIS) since late 1981 through to present.  The weekly product has been available since 1993 and is widely used for weather and climate monitoring and forecasting.  Version 2.0 of this dataset utilizes an update and extension of the COADS in-situ data series providing enhanced ship data coverage through 1997 and reducing the residual satellite biases in otherwise data sparse regions.  This version also implements enhancements to the OI analysis utilizing simulations of SST observations from an improved sea ice algorithm and data following a technique developed at the UK Met Office, improvements that further reduce biases in the OI SST particularly at higher latitudes.</SimpleData>
+		<SimpleData name="coll_doi">REYNOLDS_NCEP_L4_SST_OPT_INTERP_WEEKLY_V2</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">4</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1273652223-GES_DISC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">SBUV2N11O3_008</SimpleData>
+		<SimpleData name="cmr_concept_id">GES_DISC</SimpleData>
+		<SimpleData name="cmr_native_id">13</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-11T19:42:09Z</SimpleData>
+		<SimpleData name="cmr_revision_date">SBUV2/NOAA-11 Level 2 Daily Ozone Profile and Total Column from CD-ROM V008 (SBUV2N11O3) at GES DISC</SimpleData>
+		<SimpleData name="cmr_publication_date">008</SimpleData>
+		<SimpleData name="coll_version">The version 8 SBUV/2 NOAA-11 ozone data were first released at the 2004 Quadrennial Ozone Symposium on DVD. The DVD contained all of the SBUV/2 data from NOAA-9, NOAA-11 and NOAA-16 satellites as well as SBUV data from the Nimbus-7 satellite. The DVD is no longer available, however all the data are available on-line from the NASA GES DISC. The NOAA-11 SBUV/2 v8 data are available from 1988-12-01 to 2001-03-27. The instrument spatial resolution is 180 km x 180 km footprint at nadir. The ozone profiles are made at 21 pressure levels between 1000 and 0.1 hPa. Each data file contains a days worth of ozone measurements, and is written in an ASCII text format.
+
+The SBUV/2 is a scanning double monochromator and a cloud cover radiometer (CCR) designed to measure ultraviolet (UV) spectral intensities. In its primary mode of operation, the monochromator measures solar radiation backscattered by the atmosphere in 12 discrete wavelength bands in the near-UV, ranging from 252.0 to 339.8 nanometers, each with a bandpass of 1.1 nm. The total-ozone algorithm uses the four longest wavelength bands (312.5, 317.5, 331.2 and 339.8 nm), whereas the profiling algorithm uses the shorter wavelengths. The cloud cover radiometer operates at 379 nm (i.e., outside the ozone absorption band) with a 3.0 nm bandpass and was designed to measure the reflectivity of the surface in the IFOV. The SBUV/2 also makes periodic measurements of the solar flux by deploying a diffuser plate into the FOV to reflect sunlight into the measurement.</SimpleData>
+		<SimpleData name="coll_doi">SBUV2N11O3</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1273652224-GES_DISC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">SBUV2N16O3_008</SimpleData>
+		<SimpleData name="cmr_concept_id">GES_DISC</SimpleData>
+		<SimpleData name="cmr_native_id">13</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-11T19:42:14Z</SimpleData>
+		<SimpleData name="cmr_revision_date">SBUV2/NOAA-16 Level 2 Daily Ozone Profile and Total Column from CD-ROM V008 (SBUV2N16O3) at GES DISC</SimpleData>
+		<SimpleData name="cmr_publication_date">008</SimpleData>
+		<SimpleData name="coll_version">The version 8 SBUV/2 NOAA-16 ozone data were first released at the 2004 Quadrennial Ozone Symposium on DVD. The DVD contained all of the SBUV/2 data from NOAA-9, NOAA-11 and NOAA-16 satellites as well as SBUV data from the Nimbus-7 satellite. The DVD is no longer available, however all the data are available on-line from the NASA GES DISC. The NOAA-16 SBUV/2 v8 data are available from 2000-10-03 to 2003-12-31. The instrument spatial resolution is 180 km x 180 km footprint at nadir. The ozone profiles are made at 21 pressure levels between 1000 and 0.1 hPa. Each data file contains a days worth of ozone measurements, and is written in an ASCII text format.
+
+The SBUV/2 is a scanning double monochromator and a cloud cover radiometer (CCR) designed to measure ultraviolet (UV) spectral intensities. In its primary mode of operation, the monochromator measures solar radiation backscattered by the atmosphere in 12 discrete wavelength bands in the near-UV, ranging from 252.0 to 339.8 nanometers, each with a bandpass of 1.1 nm. The total-ozone algorithm uses the four longest wavelength bands (312.5, 317.5, 331.2 and 339.8 nm), whereas the profiling algorithm uses the shorter wavelengths. The cloud cover radiometer operates at 379 nm (i.e., outside the ozone absorption band) with a 3.0 nm bandpass and was designed to measure the reflectivity of the surface in the IFOV. The SBUV/2 also makes periodic measurements of the solar flux by deploying a diffuser plate into the FOV to reflect sunlight into the measurement.</SimpleData>
+		<SimpleData name="coll_doi">SBUV2N16O3</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1273652205-GES_DISC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">SBUV2N09O3_008</SimpleData>
+		<SimpleData name="cmr_concept_id">GES_DISC</SimpleData>
+		<SimpleData name="cmr_native_id">13</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-11T19:42:05Z</SimpleData>
+		<SimpleData name="cmr_revision_date">SBUV2/NOAA-9 Level 2 Daily Ozone Profile and Total Column from CD-ROM V008 (SBUV2N09O3) at GES DISC</SimpleData>
+		<SimpleData name="cmr_publication_date">008</SimpleData>
+		<SimpleData name="coll_version">The version 8 SBUV/2 NOAA-9 ozone data were first released at the 2004 Quadrennial Ozone Symposium on DVD. The DVD contained all of the SBUV/2 data from NOAA-9, NOAA-11 and NOAA-16 satellites as well as SBUV data from the Nimbus-7 satellite. The DVD is no longer available, however all the data are available on-line from the NASA GES DISC. The NOAA-9 SBUV/2 v8 data are available in two time periods from 1985-02-02 to 1989-12-31 (ascending orbits) and again from 1992-01-01 to 1998-02-19 (descending orbits) due to the drift of the NOAA-9 satellite. The instrument spatial resolution is 180 km x 180 km footprint at nadir. The ozone profiles are made at 21 pressure levels between 1000 and 0.1 hPa. Each data file contains a days worth of ozone measurements, and is written in an ASCII text format.
+
+The SBUV/2 is a scanning double monochromator and a cloud cover radiometer (CCR) designed to measure ultraviolet (UV) spectral intensities. In its primary mode of operation, the monochromator measures solar radiation backscattered by the atmosphere in 12 discrete wavelength bands in the near-UV, ranging from 252.0 to 339.8 nanometers, each with a bandpass of 1.1 nm. The total-ozone algorithm uses the four longest wavelength bands (312.5, 317.5, 331.2 and 339.8 nm), whereas the profiling algorithm uses the shorter wavelengths. The cloud cover radiometer operates at 379 nm (i.e., outside the ozone absorption band) with a 3.0 nm bandpass and was designed to measure the reflectivity of the surface in the IFOV. The SBUV/2 also makes periodic measurements of the solar flux by deploying a diffuser plate into the FOV to reflect sunlight into the measurement.</SimpleData>
+		<SimpleData name="coll_doi">SBUV2N09O3</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214614798-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">NAVOCEANO_LAC_SST</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">6</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-01-17T01:48:51Z</SimpleData>
+		<SimpleData name="cmr_revision_date">U.S. Naval Oceanographic Office (NAVOCEANO)'s AVHRR MCSST high resolution (4km) Local Area Coverage (LAC) satellite Sea Surface Temperature (SST) retrievals</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_version">U.S. Naval Oceanographic Office (NAVOCEANO)'s AVHRR MCSST (Advanced Very High
+Resolution Radiometer Multi-Channel Sea Surface Temperature) high resolution
+(4km) Local Area Coverage (LAC) Sea Surface Temperature (SST) retrievals from
+POES NOAA-16 and NOAA-17 satellites.
+
+Extent of Coverage - The AVHRR sensor provides for global (pole to pole) on
+board collection of data from all 5 spectral channels. Each pass of the
+satellite provides a 2399 km wide swath. The satellite orbits the Earth 14
+times each day from 833 km above its surface.
+
+AVHRR data are acquired in three formats:
+
+1-High Resolution Picture Transmission (HRPT)-HRPT data are full resolution
+image data transmitted to a ground station as they are collected.
+
+2-Local Area Coverage (LAC)-LAC are also full resolution data, but recorded
+with an on-board tape recorder for subsequent transmission during a station
+overpass.
+
+3-Global Area Coverage (GAC)-GAC data provide daily subsampled global coverage
+recorded on the tape recorders and then transmitted to a ground station.
+
+The data are collected in several scientific centers:
+-USGS/Earth Resources Observation Systems (EROS) data center (EDC);
+-NOAA/NESDIS - National Environmental Satellite, Data and Information Service
+of National Oceanic and Atmospheric Administration;
+-NASA Jet Propulsion Laboratory (PO.DAAC)</SimpleData>
+		<SimpleData name="coll_doi">NAVOCEANO_LAC_SST</SimpleData>
+		<SimpleData name="coll_abstract">COMPLETE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

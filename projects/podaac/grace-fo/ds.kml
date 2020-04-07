@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ds" id="ds">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_title" type="string"></SimpleField>
+	<SimpleField name="coll_version" type="string"></SimpleField>
+	<SimpleField name="coll_doi" type="string"></SimpleField>
+	<SimpleField name="coll_abstract" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="coll_status" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl_desc" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>ds</name>
+  <Placemark>
+	<name>collection</name>
+	<description>C1684267762-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">CSR+TELLUS+GRACE-FO+Level-3+Monthly+Land+Water-Equivalent-Thickness+Surface+Mass+Anomaly+Release+6.0+version+03+in+netCDF/ASCII/GeoTIFF+Formats</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T17:17:24Z</SimpleData>
+		<SimpleData name="cmr_revision_date">CSR TELLUS GRACE-FO Level-3 Monthly Land Water-Equivalent-Thickness Surface Mass Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats</SimpleData>
+		<SimpleData name="cmr_publication_date">RL06 v03</SimpleData>
+		<SimpleData name="coll_version">The CSR monthly land mass grids contain land water mass anomaly given as equivalent water thickness derived from GRACE time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats.  The Equivalent water thickness represents the total terrestrial water storage anomalies from soil moisture, snow, surface water (incl. rivers, lakes, reservoirs etc.), as well as groundwater and aquifers.  A glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated. Post-processing filters have been applied to reduce correlated errors. From the RL06 version, all GRACE-FO products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices.</SimpleData>
+		<SimpleData name="coll_doi">TELLUS_GRFO_L3_CSR_RL06_LND_v03</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-89.5</SimpleData>
+		<SimpleData name="time_max">89.5</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.5 180.0,89.5 -180.0,89.5 -180.0,-89.5 180.0,-89.5</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1684267689-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">CSR+TELLUS+GRACE-FO+Level-3+Monthly+Ocean+Bottom+Pressure+Anomaly+Release+6.0+version+03+in+netCDF/ASCII/GeoTIFF+Formats</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T17:17:12Z</SimpleData>
+		<SimpleData name="cmr_revision_date">CSR TELLUS GRACE-FO Level-3 Monthly Ocean Bottom Pressure Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats</SimpleData>
+		<SimpleData name="cmr_publication_date">RL06 v03</SimpleData>
+		<SimpleData name="coll_version">The CSR monthly ocean bottom pressure grids are given as equivalent water thickness changes derived from GRACE-FO time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats. The Equivalent water thickness represent sea floor pressure changes due to the integral effect of ocean and atmosphere processes, including global mean ocean bottom pressure changes (mean ocean mass and mean atmosphere mass over the global oceans). The Level-2 GAD product has been added back, a glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated. Post-processing filters (i.e., de-striping and spatial smoothing) have been applied to reduce correlated errors. For the RL06 version, all GRACE products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices. Version 02 (v02) of the ocean bottom pressure data has resolved a processing inconsistency issue in the version 01 files for both GRACE and GRACE-FO. This inconsistency resulted in erroneous leakage corrections, in particular near GIA-affected regions. Interior ocean data points (i.e., more than 1000 km away from coastlines) were minimally affected.</SimpleData>
+		<SimpleData name="coll_doi">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-89.5</SimpleData>
+		<SimpleData name="time_max">89.5</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.5 180.0,89.5 -180.0,89.5 -180.0,-89.5 180.0,-89.5</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1647444711-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">CSR+TELLUS+GRACE-FO+Level-3+Monthly+Ocean+Water-Equivalent-Thickness+Surface-Mass+Anomaly+Release+6.0+version+02+in+netCDF/ASCII/GeoTIFF+Formats</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-23T19:25:11Z</SimpleData>
+		<SimpleData name="cmr_revision_date">CSR TELLUS GRACE-FO Level-3 Monthly Ocean Water-Equivalent-Thickness Surface-Mass Anomaly Release 6.0 version 02 in netCDF/ASCII/GeoTIFF Formats</SimpleData>
+		<SimpleData name="cmr_publication_date">RL06 v02</SimpleData>
+		<SimpleData name="coll_version">The CSR monthly ocean mass grids contain ocean water mass anomaly given as equivalent water thickness derived from GRACE-FO time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats.  The Equivalent water thickness is used to represent the water mass so it can be comparable to sea level anomalies due to water mass changes.  These mass grids represent the full magnitude of ocean processes, including the global mean ocean bottom pressure change (ocean mass and mean atmosphere mass over the global oceans).  The Level-2 GAD product has been added back, a glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated.  Post-processing filters have been applied to reduce correlated errors. From the RL06 version, all GRACE products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices. Version 02 (v02) of the Ocean mass data has resolved a processing inconsistency issue in the version 01 files for both GRACE and GRACE-FO. This inconsistency resulted in erroneous leakage corrections, in particular near GIA-affected regions. Interior ocean data points (i.e., more than 1000 km away from coastlines) are minimally affected.</SimpleData>
+		<SimpleData name="coll_doi">TELLUS_GRFO_L3_CSR_RL06_OCN_v02</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-89.5</SimpleData>
+		<SimpleData name="time_max">89.5</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.5 180.0,89.5 -180.0,89.5 -180.0,-89.5 180.0,-89.5</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1684267775-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GFZ+TELLUS+GRACE-FO+Level-3+Monthly+Land+Water-Equivalent-Thickness+Surface+Mass+Anomaly+Release+6.0+version+03+in+netCDF/ASCII/GeoTIFF+Formats</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T17:17:28Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GFZ TELLUS GRACE-FO Level-3 Monthly Land Water-Equivalent-Thickness Surface Mass Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats</SimpleData>
+		<SimpleData name="cmr_publication_date">RL06 v03</SimpleData>
+		<SimpleData name="coll_version">The CSR monthly land mass grids contain land water mass anomaly given as equivalent water thickness derived from GRACE time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats.  The Equivalent water thickness represents the total terrestrial water storage anomalies from soil moisture, snow, surface water (incl. rivers, lakes, reservoirs etc.), as well as groundwater and aquifers.  A glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated. Post-processing filters have been applied to reduce correlated errors. From the RL06 version, all GRACE-FO products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices.</SimpleData>
+		<SimpleData name="coll_doi">TELLUS_GRFO_L3_GFZ_RL06_LND_v03</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-89.5</SimpleData>
+		<SimpleData name="time_max">89.5</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.5 180.0,89.5 -180.0,89.5 -180.0,-89.5 180.0,-89.5</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1681896877-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GFZ+TELLUS+GRACE-FO+Level-3+Monthly+Land+Water-Equivalent-Thickness+Surface-Mass+Anomaly+Release+6.0+in+netCDF/ASCII/GeoTIFF+Formats</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-13T18:32:32Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GFZ TELLUS GRACE-FO Level-3 Monthly Land Water-Equivalent-Thickness Surface-Mass Anomaly Release 6.0 in netCDF/ASCII/GeoTIFF Formats</SimpleData>
+		<SimpleData name="cmr_publication_date">6.0</SimpleData>
+		<SimpleData name="coll_version">The GFZ monthly land mass grids contain land water mass anomaly given as equivalent water thickness derived from GRACE time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats.  The Equivalent water thickness represents the total terrestrial water storage anomalies from soil moisture, snow, surface water (incl. rivers, lakes, reservoirs etc.), as well as groundwater and aquifers.  A glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated. Post-processing filters have been applied to reduce correlated errors. From the RL06 version, all GRACE-FO products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices.</SimpleData>
+		<SimpleData name="coll_doi">TELLUS_GRFO_L3_GFZ_RL06_LND</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-89.5</SimpleData>
+		<SimpleData name="time_max">89.5</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.5 180.0,89.5 -180.0,89.5 -180.0,-89.5 180.0,-89.5</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1684267691-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GFZ+TELLUS+GRACE-FO+Level-3+Monthly+Ocean+Bottom+Pressure+Anomaly+Release+6.0+version+03+in+netCDF/ASCII/GeoTIFF+Formats</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T17:17:16Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GFZ TELLUS GRACE-FO Level-3 Monthly Ocean Bottom Pressure Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats</SimpleData>
+		<SimpleData name="cmr_publication_date">RL06 v03</SimpleData>
+		<SimpleData name="coll_version">The GFZ monthly ocean bottom pressure grids are given as equivalent water thickness changes derived from GRACE-FO time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats. The Equivalent water thickness represent sea floor pressure changes due to the integral effect of ocean and atmosphere processes, including global mean ocean bottom pressure changes (mean ocean mass and mean atmosphere mass over the global oceans). The Level-2 GAD product has been added back, a glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated. Post-processing filters (i.e., de-striping and spatial smoothing) have been applied to reduce correlated errors. For the RL06 version, all GRACE products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices. Version 02 (v02) of the ocean bottom pressure data has resolved a processing inconsistency issue in the version 01 files for both GRACE and GRACE-FO. This inconsistency resulted in erroneous leakage corrections, in particular near GIA-affected regions. Interior ocean data points (i.e., more than 1000 km away from coastlines) were minimally affected.</SimpleData>
+		<SimpleData name="coll_doi">TELLUS_GRFO_L3_GFZ_RL06_OCN_v03</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-89.5</SimpleData>
+		<SimpleData name="time_max">89.5</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.5 180.0,89.5 -180.0,89.5 -180.0,-89.5 180.0,-89.5</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1647445911-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GFZ+TELLUS+GRACE-FO+Level-3+Monthly+Ocean+Water-Equivalent-Thickness+Surface-Mass+Anomaly+Release+6.0+version+02+in+netCDF/ASCII/GeoTIFF+Formats</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-23T19:41:39Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GFZ TELLUS GRACE-FO Level-3 Monthly Ocean Water-Equivalent-Thickness Surface-Mass Anomaly Release 6.0 version 02 in netCDF/ASCII/GeoTIFF Formats</SimpleData>
+		<SimpleData name="cmr_publication_date">RL06 v02</SimpleData>
+		<SimpleData name="coll_version">The GFZ monthly ocean mass grids contain ocean water mass anomaly given as equivalent water thickness derived from GRACE-FO time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats.  The Equivalent water thickness is used to represent the water mass so it can be comparable to sea level anomalies due to water mass changes.  These mass grids represent the full magnitude of ocean processes, including the global mean ocean bottom pressure change (ocean mass and mean atmosphere mass over the global oceans).  The Level-2 GAD product has been added back, a glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated.  Post-processing filters have been applied to reduce correlated errors. From the RL06 version, all GRACE products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices. Version 02 (v02) of the Ocean mass data has resolved a processing inconsistency issue in the version 01 files for both GRACE and GRACE-FO. This inconsistency resulted in erroneous leakage corrections, in particular near GIA-affected regions. Interior ocean data points (i.e., more than 1000 km away from coastlines) are minimally affected.</SimpleData>
+		<SimpleData name="coll_doi">TELLUS_GRFO_L3_GFZ_RL06_OCN_v02</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-89.5</SimpleData>
+		<SimpleData name="time_max">89.5</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.5 180.0,89.5 -180.0,89.5 -180.0,-89.5 180.0,-89.5</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1650311548-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE-FO+Level-1A+Release+version+4.0+from+JPL+in+ASCII</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-01T16:26:47Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE-FO Level-1A Release version 4.0 from JPL in ASCII</SimpleData>
+		<SimpleData name="cmr_publication_date">4</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY. The GRACE-FO Level-1A data contains telemetry data that has been converted to engineering units, from which Level-1B data products are derived. For a detailed description, please see the GRACE-FO Level-1 documentation.</SimpleData>
+		<SimpleData name="coll_doi">GRACEFO_L1A_ASCII_GRAV_JPL_RL04</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">1A</SimpleData>
+		<SimpleData name="time_min">-89</SimpleData>
+		<SimpleData name="time_max">89</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-89 180,89 -180,89 -180,-89 180,-89</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1650311549-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE-FO+Level-1B+Release+version+4.0+from+JPL+in+ASCII</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-01T16:26:51Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE-FO Level-1B Release version 4.0 from JPL in ASCII</SimpleData>
+		<SimpleData name="cmr_publication_date">4</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY. The GRACE-FO Level-1B data provide all necessary inputs to derive monthly time variations in the Earth gravity field. Level-1B data are also used for GRACE orbit and mean gravity field determination. For a detailed description, please see the GRACE-FO Level-1 documentation.</SimpleData>
+		<SimpleData name="coll_doi">GRACEFO_L1B_ASCII_GRAV_JPL_RL04</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">1B</SimpleData>
+		<SimpleData name="time_min">-89</SimpleData>
+		<SimpleData name="time_max">89</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-89 180,89 -180,89 -180,-89 180,-89</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1650311550-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE-FO+Level-2++Monthly+Geopotential+Spherical+Harmonics+CSR+Release+6.0+(RL06)</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-01T16:26:55Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE-FO Level-2  Monthly Geopotential Spherical Harmonics CSR Release 6.0 (RL06)</SimpleData>
+		<SimpleData name="cmr_publication_date">6</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY. This dataset contains estimates of the total month-by-month geopotential of the Earth, derived from the Gravity Recovery and Climate Experiment Follow-On (GRACE-FO) mission measurements, produced by the Center for Space Research (CSR) at University of Texas at Austin. The data are provided in spherical harmonic coefficients, averaged over approximately a month. The primary objective of the GRACE-FO mission is to obtain accurate estimates of the mean and time-variable components of the gravity field and corresponding Earth mass change variations, such as from polar ice sheets and mountain glaciers; total water storage on land (from groundwater changes in deep aquifers to changes in soil moisture and surface water); changes in deep ocean currents; and changes within the solid Earth itself, such as postglacial rebound and the impact of major earthquakes. This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 490 km altitude, near circular, polar orbit, spaced approximately 220+/-50 km apart, using a microwave ranging system. In addition to these inter-satellite range changes, the non-gravitational forces acting on each satellite are measured using a high accuracy electrostatic accelerometer. The satellite orientation and position (and timing) are precisely measured using star cameras (with three heads per satellite) and a GPS receiver. Spatial and temporal variations in the gravity field perturb the orbits (or trajectories) of the twin spacecraft differently. These differences lead to minute changes (on the order of tens of micrometers per second) in the distance between the spacecraft as they orbit the Earth. This change in distance (or range rate) is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft. The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals. The so called dual-one-way range change measurements can be reconstructed from these phase measurements. This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the geopotential coefficients of an Earth gravity field model, typically on a per-month basis.</SimpleData>
+		<SimpleData name="coll_doi">GRACEFO_L2_CSR_MONTHLY_0060</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-89</SimpleData>
+		<SimpleData name="time_max">89</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-89 180,89 -180,89 -180,-89 180,-89</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1650311563-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE-FO+Level-2++Monthly+Geopotential+Spherical+Harmonics+JPL+Release+6.0+(RL06)</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-01T16:27:03Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE-FO Level-2  Monthly Geopotential Spherical Harmonics JPL Release 6.0 (RL06)</SimpleData>
+		<SimpleData name="cmr_publication_date">6</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY. This dataset contains estimates of the total month-by-month geopotential of the Earth, derived from the Gravity Recovery and Climate Experiment Follow-On (GRACE-FO) mission measurements, produced by the NASA Jet Propulsion Laboratory (JPL). The data are provided in spherical harmonic coefficients, averaged over approximately a month. The primary objective of the GRACE-FO mission is to obtain accurate estimates of the mean and time-variable components of the gravity field and corresponding Earth mass change variations, such as from polar ice sheets and mountain glaciers; total water storage on land (from groundwater changes in deep aquifers to changes in soil moisture and surface water); changes in deep ocean currents; and changes within the solid Earth itself, such as postglacial rebound and the impact of major earthquakes. This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 490 km altitude, near circular, polar orbit, spaced approximately 220+/-50 km apart, using a microwave ranging system. In addition to these inter-satellite range changes, the non-gravitational forces acting on each satellite are measured using a high accuracy electrostatic accelerometer. The satellite orientation and position (and timing) are precisely measured using star cameras (with three heads per satellite) and a GPS receiver. Spatial and temporal variations in the gravity field perturb the orbits (or trajectories) of the twin spacecraft differently. These differences lead to minute changes (on the order of tens of micrometers per second) in the distance between the spacecraft as they orbit the Earth. This change in distance (or range rate) is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft. The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals. The so called dual-one-way range change measurements can be reconstructed from these phase measurements. This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the geopotential coefficients of an Earth gravity field model, typically on a per-month basis.</SimpleData>
+		<SimpleData name="coll_doi">GRACEFO_L2_JPL_MONTHLY_0060</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-89</SimpleData>
+		<SimpleData name="time_max">89</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-89 180,89 -180,89 -180,-89 180,-89</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1650311562-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">GRACE-FO+Level-2+Monthly+Geopotential+Spherical+Harmonics+GFZ+Release+6.0+(RL06)</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-01T16:26:59Z</SimpleData>
+		<SimpleData name="cmr_revision_date">GRACE-FO Level-2 Monthly Geopotential Spherical Harmonics GFZ Release 6.0 (RL06)</SimpleData>
+		<SimpleData name="cmr_publication_date">6</SimpleData>
+		<SimpleData name="coll_version">FOR EXPERT USE ONLY. This dataset contains estimates of the total month-by-month geopotential of the Earth, derived from the Gravity Recovery and Climate Experiment Follow-On (GRACE-FO) mission measurements, produced by the German Research Centre for Geosciences (GFZ). The data are provided in spherical harmonic coefficients, averaged over approximately a month. The primary objective of the GRACE-FO mission is to obtain accurate estimates of the mean and time-variable components of the gravity field and corresponding Earth mass change variations, such as from polar ice sheets and mountain glaciers; total water storage on land (from groundwater changes in deep aquifers to changes in soil moisture and surface water); changes in deep ocean currents; and changes within the solid Earth itself, such as postglacial rebound and the impact of major earthquakes. This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 490 km altitude, near circular, polar orbit, spaced approximately 220+/-50 km apart, using a microwave ranging system. In addition to these inter-satellite range changes, the non-gravitational forces acting on each satellite are measured using a high accuracy electrostatic accelerometer. The satellite orientation and position (and timing) are precisely measured using star cameras (with three heads per satellite) and a GPS receiver. Spatial and temporal variations in the gravity field perturb the orbits (or trajectories) of the twin spacecraft differently. These differences lead to minute changes (on the order of tens of micrometers per second) in the distance between the spacecraft as they orbit the Earth. This change in distance (or range rate) is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft. The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals. The so called dual-one-way range change measurements can be reconstructed from these phase measurements. This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the geopotential coefficients of an Earth gravity field model, typically on a per-month basis.</SimpleData>
+		<SimpleData name="coll_doi">GRACEFO_L2_GFZ_MONTHLY_0060</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-89</SimpleData>
+		<SimpleData name="time_max">89</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-89 180,89 -180,89 -180,-89 180,-89</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1684267776-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">JPL+TELLUS+GRACE-FO+Level-3+Monthly+Land+Water-Equivalent-Thickness+Surface+Mass+Anomaly+Release+6.0+version+03+in+netCDF/ASCII/GeoTIFF+Formats</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T17:17:32Z</SimpleData>
+		<SimpleData name="cmr_revision_date">JPL TELLUS GRACE-FO Level-3 Monthly Land Water-Equivalent-Thickness Surface Mass Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats</SimpleData>
+		<SimpleData name="cmr_publication_date">RL06 v03</SimpleData>
+		<SimpleData name="coll_version">The CSR monthly land mass grids contain land water mass anomaly given as equivalent water thickness derived from GRACE time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats.  The Equivalent water thickness represents the total terrestrial water storage anomalies from soil moisture, snow, surface water (incl. rivers, lakes, reservoirs etc.), as well as groundwater and aquifers.  A glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated. Post-processing filters have been applied to reduce correlated errors. From the RL06 version, all GRACE-FO products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices.</SimpleData>
+		<SimpleData name="coll_doi">TELLUS_GRFO_L3_JPL_RL06_LND_v03</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-89.5</SimpleData>
+		<SimpleData name="time_max">89.5</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.5 180.0,89.5 -180.0,89.5 -180.0,-89.5 180.0,-89.5</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1681896927-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">JPL+TELLUS+GRACE-FO+Level-3+Monthly+Land+Water-Equivalent-Thickness+Surface-Mass+Anomaly+Release+6.0+in+netCDF/ASCII/GeoTIFF+Formats</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-13T18:19:30Z</SimpleData>
+		<SimpleData name="cmr_revision_date">JPL TELLUS GRACE-FO Level-3 Monthly Land Water-Equivalent-Thickness Surface-Mass Anomaly Release 6.0 in netCDF/ASCII/GeoTIFF Formats</SimpleData>
+		<SimpleData name="cmr_publication_date">6.0</SimpleData>
+		<SimpleData name="coll_version">The JPL monthly land mass grids contain land water mass anomaly given as equivalent water thickness derived from GRACE time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats.  The Equivalent water thickness represents the total terrestrial water storage anomalies from soil moisture, snow, surface water (incl. rivers, lakes, reservoirs etc.), as well as groundwater and aquifers.  A glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated. Post-processing filters have been applied to reduce correlated errors. From the RL06 version, all GRACE-FO products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices.</SimpleData>
+		<SimpleData name="coll_doi">TELLUS_GRFO_L3_JPL_RL06_LND</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-89.5</SimpleData>
+		<SimpleData name="time_max">89.5</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.5 180.0,89.5 -180.0,89.5 -180.0,-89.5 180.0,-89.5</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1684267720-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">JPL+TELLUS+GRACE-FO+Level-3+Monthly+Ocean+Bottom+Pressure+Anomaly+Release+6.0+version+03+in+netCDF/ASCII/GeoTIFF+Formats</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T17:17:20Z</SimpleData>
+		<SimpleData name="cmr_revision_date">JPL TELLUS GRACE-FO Level-3 Monthly Ocean Bottom Pressure Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats</SimpleData>
+		<SimpleData name="cmr_publication_date">RL06 v03</SimpleData>
+		<SimpleData name="coll_version">The JPL monthly ocean bottom pressure grids are given as equivalent water thickness changes derived from GRACE-FO time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats. The Equivalent water thickness represent sea floor pressure changes due to the integral effect of ocean and atmosphere processes, including global mean ocean bottom pressure changes (mean ocean mass and mean atmosphere mass over the global oceans). The Level-2 GAD product has been added back, a glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated. Post-processing filters (i.e., de-striping and spatial smoothing) have been applied to reduce correlated errors. For the RL06 version, all GRACE products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices. Version 02 (v02) of the ocean bottom pressure data has resolved a processing inconsistency issue in the version 01 files for both GRACE and GRACE-FO. This inconsistency resulted in erroneous leakage corrections, in particular near GIA-affected regions. Interior ocean data points (i.e., more than 1000 km away from coastlines) were minimally affected.</SimpleData>
+		<SimpleData name="coll_doi">TELLUS_GRFO_L3_JPL_RL06_OCN_v03</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-89.5</SimpleData>
+		<SimpleData name="time_max">89.5</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.5 180.0,89.5 -180.0,89.5 -180.0,-89.5 180.0,-89.5</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1647431705-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">JPL+TELLUS+GRACE-FO+Level-3+Monthly+Ocean+Water-Equivalent-Thickness+Surface-Mass+Anomaly+Release+6.0+version+02+in+netCDF/ASCII/GeoTIFF+Formats</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-23T17:44:23Z</SimpleData>
+		<SimpleData name="cmr_revision_date">JPL TELLUS GRACE-FO Level-3 Monthly Ocean Water-Equivalent-Thickness Surface-Mass Anomaly Release 6.0 version 02 in netCDF/ASCII/GeoTIFF Formats</SimpleData>
+		<SimpleData name="cmr_publication_date">RL06 v02</SimpleData>
+		<SimpleData name="coll_version">The JPL monthly ocean mass grids contain ocean water mass anomaly given as equivalent water thickness derived from GRACE-FO time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats.  The Equivalent water thickness is used to represent the water mass so it can be comparable to sea level anomalies due to water mass changes.  These mass grids represent the full magnitude of ocean processes, including the global mean ocean bottom pressure change (ocean mass and mean atmosphere mass over the global oceans).  The Level-2 GAD product has been added back, a glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated.  Post-processing filters have been applied to reduce correlated errors. From the RL06 version, all GRACE products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices. Version 02 (v02) of the Ocean mass data has resolved a processing inconsistency issue in the version 01 files for both GRACE and GRACE-FO. This inconsistency resulted in erroneous leakage corrections, in particular near GIA-affected regions. Interior ocean data points (i.e., more than 1000 km away from coastlines) are minimally affected.</SimpleData>
+		<SimpleData name="coll_doi">TELLUS_GRFO_L3_JPL_RL06_OCN_v02</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-89.5</SimpleData>
+		<SimpleData name="time_max">89.5</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.5 180.0,89.5 -180.0,89.5 -180.0,-89.5 180.0,-89.5</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

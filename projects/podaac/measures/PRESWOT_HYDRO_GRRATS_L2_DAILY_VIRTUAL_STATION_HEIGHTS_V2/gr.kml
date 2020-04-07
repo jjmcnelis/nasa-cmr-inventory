@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gr" id="gr">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="gran_name" type="string"></SimpleField>
+	<SimpleField name="gran_size_mb" type="float"></SimpleField>
+	<SimpleField name="gran_parameters" type="string"></SimpleField>
+	<SimpleField name="gran_day_night" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>gr</name>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170319-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">Asia_Ganges1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:38Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">Asia_Ganges1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">144.7371349334717</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-04-08T05:08:41.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-04-19T04:28:00.000Z</SimpleData>
+		<SimpleData name="time_min">23.786</SimpleData>
+		<SimpleData name="time_max">25.773</SimpleData>
+		<SimpleData name="lat_min">82.722</SimpleData>
+		<SimpleData name="lat_max">89.667</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>89.667,23.786 89.667,25.773 82.722,25.773 82.722,23.786 89.667,23.786</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170304-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">South_America_Amazon1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:34Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">South_America_Amazon1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">478.8960914611816</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-04-08T15:20:40.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-04-20T03:39:13.000Z</SimpleData>
+		<SimpleData name="time_min">-4.38</SimpleData>
+		<SimpleData name="time_max">-0.655</SimpleData>
+		<SimpleData name="lat_min">-73.354</SimpleData>
+		<SimpleData name="lat_max">-51.043</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-51.043,-4.38 -51.043,-0.655 -73.354,-0.655 -73.354,-4.38 -51.043,-4.38</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170345-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">North_America_Mississippi1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:46Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">North_America_Mississippi1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">398.9097509384155</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-04-14T17:00:38.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-04-18T15:38:57.000Z</SimpleData>
+		<SimpleData name="time_min">29.274</SimpleData>
+		<SimpleData name="time_max">44.567</SimpleData>
+		<SimpleData name="lat_min">-92.427</SimpleData>
+		<SimpleData name="lat_max">-89.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.1,29.274 -89.1,44.567 -92.427,44.567 -92.427,29.274 -89.1,29.274</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170287-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">Asia_Yangtze1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:28Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">Asia_Yangtze1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">341.7864198684692</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-04-15T03:06:52.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-04-19T16:36:21.000Z</SimpleData>
+		<SimpleData name="time_min">28.919</SimpleData>
+		<SimpleData name="time_max">32.319</SimpleData>
+		<SimpleData name="lat_min">105.821</SimpleData>
+		<SimpleData name="lat_max">120.742</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>120.742,28.919 120.742,32.319 105.821,32.319 105.821,28.919 120.742,28.919</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170299-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">Asia_Ayeyarwada1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:32Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">Asia_Ayeyarwada1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">154.8937854766846</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-04-16T04:19:11.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-04-20T03:18:52.000Z</SimpleData>
+		<SimpleData name="time_min">18.007</SimpleData>
+		<SimpleData name="time_max">25.092</SimpleData>
+		<SimpleData name="lat_min">94.691</SimpleData>
+		<SimpleData name="lat_max">97.231</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>97.231,18.007 97.231,25.092 94.691,25.092 94.691,18.007 97.231,18.007</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170283-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">North_America_StLawrence1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:27Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">North_America_StLawrence1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">63.01253509521484</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-04-16T15:55:21.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-04-18T13:16:55.000Z</SimpleData>
+		<SimpleData name="time_min">44.716</SimpleData>
+		<SimpleData name="time_max">46.773</SimpleData>
+		<SimpleData name="lat_min">-75.476</SimpleData>
+		<SimpleData name="lat_max">-71.232</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.232,44.716 -71.232,46.773 -75.476,46.773 -75.476,44.716 -71.232,44.716</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170260-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">South_America_Orinoco1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:18Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">South_America_Orinoco1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">187.0766496658325</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-04-18T15:03:30.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-04-20T14:39:25.000Z</SimpleData>
+		<SimpleData name="time_min">3.953</SimpleData>
+		<SimpleData name="time_max">8.704000000000001</SimpleData>
+		<SimpleData name="lat_min">-67.856</SimpleData>
+		<SimpleData name="lat_max">-61.064</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-61.064,3.953 -61.064,8.704 -67.856,8.704 -67.856,3.953 -61.064,3.953</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170323-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">South_America_Parana1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:39Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">South_America_Parana1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">327.8866367340088</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-04-20T14:10:55.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-04-17T16:02:35.000Z</SimpleData>
+		<SimpleData name="time_min">-34.043</SimpleData>
+		<SimpleData name="time_max">-21.132</SimpleData>
+		<SimpleData name="lat_min">-60.779</SimpleData>
+		<SimpleData name="lat_max">-51.846</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-51.846,-34.043 -51.846,-21.132 -60.779,-21.132 -60.779,-34.043 -51.846,-34.043</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170331-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">Asia_Brahmaputra1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:42Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">Asia_Brahmaputra1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">120.7472772598267</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-04-22T04:28:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-04-17T02:52:23.000Z</SimpleData>
+		<SimpleData name="time_min">23.994</SimpleData>
+		<SimpleData name="time_max">27.572</SimpleData>
+		<SimpleData name="lat_min">89.601</SimpleData>
+		<SimpleData name="lat_max">95.026</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>95.026,23.994 95.026,27.572 89.601,27.572 89.601,23.994 95.026,23.994</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170327-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">Asia_Indus1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:40Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">Asia_Indus1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">37.04293537139893</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-04-22T06:07:22.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2010-10-15T08:35:07.000Z</SimpleData>
+		<SimpleData name="time_min">28.381</SimpleData>
+		<SimpleData name="time_max">32.547</SimpleData>
+		<SimpleData name="lat_min">69.667</SimpleData>
+		<SimpleData name="lat_max">71.423</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>71.423,28.381 71.423,32.547 69.667,32.547 69.667,28.381 71.423,28.381</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170271-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">Europe_Volga1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:22Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">Europe_Volga1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">183.7496366500854</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-04-23T18:34:02.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-04-20T05:01:07.000Z</SimpleData>
+		<SimpleData name="time_min">46.596</SimpleData>
+		<SimpleData name="time_max">53.454</SimpleData>
+		<SimpleData name="lat_min">44.443</SimpleData>
+		<SimpleData name="lat_max">50.184</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>50.184,46.596 50.184,53.454 44.443,53.454 44.443,46.596 50.184,46.596</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170279-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">Asia_Mekong1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:25Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">Asia_Mekong1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">177.5730314254761</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-04-27T03:34:46.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-04-06T22:32:46.000Z</SimpleData>
+		<SimpleData name="time_min">9.994999999999999</SimpleData>
+		<SimpleData name="time_max">18.448</SimpleData>
+		<SimpleData name="lat_min">101.945</SimpleData>
+		<SimpleData name="lat_max">106.047</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>106.047,9.995 106.047,18.448 101.945,18.448 101.945,9.995 106.047,9.995</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170295-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">South_America_Tocantins1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:31Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">South_America_Tocantins1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">158.8326864242554</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-04-27T13:43:18.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-04-15T01:20:14.000Z</SimpleData>
+		<SimpleData name="time_min">-9.728999999999999</SimpleData>
+		<SimpleData name="time_max">-2.621</SimpleData>
+		<SimpleData name="lat_min">-50.174</SimpleData>
+		<SimpleData name="lat_max">-48.134</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.134,-9.729 -48.134,-2.621 -50.174,-2.621 -50.174,-9.729 -48.134,-9.729</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170251-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">South_America_Uruguay1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:15Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">South_America_Uruguay1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">134.3661985397339</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-04-30T13:55:41.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-04-17T15:14:45.000Z</SimpleData>
+		<SimpleData name="time_min">-33.762</SimpleData>
+		<SimpleData name="time_max">-27.856</SimpleData>
+		<SimpleData name="lat_min">-58.495</SimpleData>
+		<SimpleData name="lat_max">-55.168</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-55.168,-33.762 -55.168,-27.856 -58.495,-27.856 -58.495,-33.762 -55.168,-33.762</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170341-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">Africa_Congo1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:45Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">Africa_Congo1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">376.2503576278687</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-05-01T20:48:54.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-04-19T22:01:11.000Z</SimpleData>
+		<SimpleData name="time_min">-6.013</SimpleData>
+		<SimpleData name="time_max">2.185</SimpleData>
+		<SimpleData name="lat_min">12.708</SimpleData>
+		<SimpleData name="lat_max">25.948</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>25.948,-6.013 25.948,2.185 12.708,2.185 12.708,-6.013 25.948,-6.013</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170309-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">Africa_Niger1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:35Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">Africa_Niger1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">58.71109199523926</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-05-26T10:07:23.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2010-10-19T06:18:28.000Z</SimpleData>
+		<SimpleData name="time_min">5.307</SimpleData>
+		<SimpleData name="time_max">9.170999999999999</SimpleData>
+		<SimpleData name="lat_min">5.057</SimpleData>
+		<SimpleData name="lat_max">6.791</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>6.791,5.307 6.791,9.171 5.057,9.171 5.057,5.307 6.791,5.307</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170348-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">Africa_Zambezi1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:48Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">Africa_Zambezi1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">68.05923748016357</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-05-27T08:01:45.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-04-08T16:01:29.000Z</SimpleData>
+		<SimpleData name="time_min">-18.701</SimpleData>
+		<SimpleData name="time_max">-15.85</SimpleData>
+		<SimpleData name="lat_min">33.26</SimpleData>
+		<SimpleData name="lat_max">36.257</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.257,-18.701 36.257,-15.85 33.26,-15.85 33.26,-18.701 36.257,-18.701</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170264-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">North_America_Yukon1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:19Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">North_America_Yukon1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">182.8052988052368</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-06-06T22:30:30.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-13T16:56:50.000Z</SimpleData>
+		<SimpleData name="time_min">61.559</SimpleData>
+		<SimpleData name="time_max">66.279</SimpleData>
+		<SimpleData name="lat_min">-163.971</SimpleData>
+		<SimpleData name="lat_max">-147.709</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-147.709,61.559 -147.709,66.279 -163.971,66.279 -163.971,61.559 -147.709,61.559</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170247-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">Asia_Yenisei1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:14Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">Asia_Yenisei1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">237.4040098190308</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-06-09T05:49:53.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-09-25T22:30:01.000Z</SimpleData>
+		<SimpleData name="time_min">58.122</SimpleData>
+		<SimpleData name="time_max">69.774</SimpleData>
+		<SimpleData name="lat_min">84.222</SimpleData>
+		<SimpleData name="lat_max">92.904</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>92.904,58.122 92.904,69.774 84.222,69.774 84.222,58.122 92.904,58.122</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170255-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">Asia_Lena1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:16Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">Asia_Lena1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">336.2216262817383</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-06-09T12:20:17.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-09-25T20:38:37.000Z</SimpleData>
+		<SimpleData name="time_min">59.463</SimpleData>
+		<SimpleData name="time_max">72.09699999999999</SimpleData>
+		<SimpleData name="lat_min">112.556</SimpleData>
+		<SimpleData name="lat_max">130.063</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>130.063,59.463 130.063,72.097 112.556,72.097 112.556,59.463 130.063,59.463</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170291-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">Asia_Ob1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:29Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">Asia_Ob1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">329.936092376709</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-06-10T16:47:38.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-09-25T22:26:49.000Z</SimpleData>
+		<SimpleData name="time_min">57.122</SimpleData>
+		<SimpleData name="time_max">66.825</SimpleData>
+		<SimpleData name="lat_min">64.953</SimpleData>
+		<SimpleData name="lat_max">84.444</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>84.444,57.122 84.444,66.825 64.953,66.825 64.953,57.122 84.444,57.122</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170352-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">Asia_Kolyma1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:49Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">Asia_Kolyma1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">132.0492362976074</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-06-11T01:23:50.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-08-19T11:40:55.000Z</SimpleData>
+		<SimpleData name="time_min">64.324</SimpleData>
+		<SimpleData name="time_max">68.928</SimpleData>
+		<SimpleData name="lat_min">150.699</SimpleData>
+		<SimpleData name="lat_max">161.53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>161.53,64.324 161.53,68.928 150.699,68.928 150.699,64.324 161.53,64.324</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170314-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">North_America_Mackenzie1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:36Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">North_America_Mackenzie1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">200.5853929519653</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-06-11T19:52:07.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-09-28T14:40:01.000Z</SimpleData>
+		<SimpleData name="time_min">61.09</SimpleData>
+		<SimpleData name="time_max">67.58199999999999</SimpleData>
+		<SimpleData name="lat_min">-134.024</SimpleData>
+		<SimpleData name="lat_max">-116.959</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-116.959,61.09 -116.959,67.582 -134.024,67.582 -134.024,61.09 -116.959,61.09</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170337-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">Asia_Amur1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:43Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">Asia_Amur1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">253.4627952575684</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-06-17T13:02:25.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-09-26T16:43:48.000Z</SimpleData>
+		<SimpleData name="time_min">47.662</SimpleData>
+		<SimpleData name="time_max">53.253</SimpleData>
+		<SimpleData name="lat_min">127.488</SimpleData>
+		<SimpleData name="lat_max">140.44</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>140.44,47.662 140.44,53.253 127.488,53.253 127.488,47.662 140.44,47.662</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170268-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">North_America_Columbia1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:21Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">North_America_Columbia1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">25.69292068481445</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1992-12-31T00:38:02.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-04-20T07:10:59.000Z</SimpleData>
+		<SimpleData name="time_min">45.549</SimpleData>
+		<SimpleData name="time_max">46.253</SimpleData>
+		<SimpleData name="lat_min">-123.855</SimpleData>
+		<SimpleData name="lat_max">-122.251</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-122.251,45.549 -122.251,46.253 -123.855,46.253 -123.855,45.549 -122.251,45.549</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1674170275-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">South_America_SaoFrancisco1kmdaily.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-18T16:29:24Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">PRESWOT_HYDRO_GRRATS_L2_DAILY_VIRTUAL_STATION_HEIGHTS_V2</SimpleData>
+		<SimpleData name="cmr_publication_date">South_America_SaoFrancisco1kmdaily.nc</SimpleData>
+		<SimpleData name="coll_shortname">56.73680591583252</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">1995-07-30T16:28:29.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-04-10T00:30:03.000Z</SimpleData>
+		<SimpleData name="time_min">-10.296</SimpleData>
+		<SimpleData name="time_max">-8.526999999999999</SimpleData>
+		<SimpleData name="lat_min">-40.262</SimpleData>
+		<SimpleData name="lat_max">-36.59</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-36.59,-10.296 -36.59,-8.527 -40.262,-8.527 -40.262,-10.296 -36.59,-10.296</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

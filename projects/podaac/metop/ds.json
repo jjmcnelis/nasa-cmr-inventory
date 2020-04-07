@@ -1,0 +1,2216 @@
+{
+  "hits": 7,
+  "took": 70,
+  "items": [
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "MetOp-A+ASCAT+Level+2+12.5-km+Ocean+Surface+Wind+Vector+Climate+Data+Record+Optimized+for+Coastal+Ocean",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1648023797-PODAAC",
+        "revision-date": "2019-10-28T21:23:02Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "EUMETSAT/OSI SAF, KNMI, 2018-04-23, MetOp-A ASCAT Level 2 12.5-km Ocean Surface Wind Vector Climate Data Record Optimized for Coastal Ocean, 10.15770/EUM_SAF_OSI_0007, http://projects.knmi.nl/scatterometer/ascat_cdr/"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.6,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.6
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN WINDS",
+            "VariableLevel1": "SURFACE WINDS",
+            "DetailedVariable": "OCEAN SURFACE WIND VECTORS"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2007-01-01T01:03:00.000Z",
+                "EndingDateTime": "2014-04-01T00:43:46.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2"
+        },
+        "DOI": {
+          "DOI": "10.15770/EUM_SAF_OSI_0007"
+        },
+        "ShortName": "ASCATA_L2_COASTAL_CDR",
+        "EntryTitle": "MetOp-A ASCAT Level 2 12.5-km Ocean Surface Wind Vector Climate Data Record Optimized for Coastal Ocean",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/L2/metop_a/cdr/12km",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Matlab Data Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/MATLAB/"
+          },
+          {
+            "Description": "SOTO (State Of The Ocean) Visualization (wind vectors, day)",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/soto/#b=BlueMarble_ShadedRelief_Bathymetry&l=ascata_l2_coastal___wind_dir_color_day_(la=true)"
+          },
+          {
+            "Description": "Scatterometry Training Material from KNMI",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.knmi.nl/scatterometer/training_material/"
+          },
+          {
+            "Description": "Verhoef, A., J. Vogelzang and A. Stoffelen, 2016: ASCAT L2 Winds Data Record Validation Report Version 1.2. Technical Note, SAF/OSI/CDOP2/KNMI/TEC/RP/239, EUMETSAT.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://projects.knmi.nl/scatterometer/publications/pdf/ascat_a_cdr_validation.pdf"
+          },
+          {
+            "Description": "SOTO (State Of The Ocean) Visualization (wind speed, day)",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/soto/#b=BlueMarble_ShadedRelief_Bathymetry&l=ascata_l2_coastal___wind_speed___2880_x_1440___day(la=true)"
+          },
+          {
+            "Description": "Reports and Publications",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.knmi.nl/scatterometer/publications/"
+          },
+          {
+            "Description": "ASCAT Level 2 CDR User Guide",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://projects.knmi.nl/scatterometer/publications/pdf/ascat_a_cdr_product_manual.pdf"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-ASCDR-12C01&apidoc",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Python Data Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/Python/"
+          },
+          {
+            "Description": "SOTO (State Of The Ocean) Visualization  (wind vectors, night)",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/soto/#b=BlueMarble_ShadedRelief_Bathymetry&l=ascata_l2_coastal___wind_dir_color_night_(la=true)"
+          },
+          {
+            "Description": "IDL Data Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/IDL/"
+          },
+          {
+            "Description": "R Data Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/R/"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "SOTO (State Of The Ocean) Visualization  (wind speed, night)",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/soto/#b=BlueMarble_ShadedRelief_Bathymetry&l=ascata_l2_coastal___wind_speed___2880_x_1440___night(la=true)"
+          },
+          {
+            "Description": "Mission and Instrument Overview",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.eumetsat.int/website/home/Satellites/CurrentSatellites/Metop/index.html"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.15770/EUM_SAF_OSI_0007"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/ascat/L2/metop_a/cdr/12km/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2017-05-11T18:02:29.947Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-05-11T18:02:29.947Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This dataset represents the first historically reprocessed Level 2 coastal ocean surface wind vector climate data record from the Advanced Scatterometer (ASCAT) on MetOp-A sampled on a 12.5 km grid. This coastal dataset utilizes a spatial box filter to generate a spatial average of the Sigma-0 retrievals from the Level 1B dataset and obtains additional winds near the coast. Since the full resolution L1B Sigma-0 retrievals are used, all non-sea retrievals are discarded prior to the Sigma-0 averaging. Each box average Sigma-0 is then used to compute the vector cell wind using the same CMOD7 geophysical model function as in the operational OSI SAF ASCAT wind vector datasets. With this enhanced coastal retrieval, winds are computed as close to ~15 km from the coast. Each file corresponds to one complete orbit and is provided in netCDF version 3 format. The beginning of the orbit files is defined near the South Pole. ASCAT is a C-band fan beam radar scatterometer, providing two independent swaths of backscatter retrievals, aboard the MetOp-A platform in sun-synchronous polar orbit. It is a product of the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT) Ocean and Sea Ice Satellite Application Facility (OSI SAF) provided through the Royal Netherlands Meteorological Institute (KNMI). For more information on the MetOp mission, please visit: https://podaac.jpl.nasa.gov/OceanWind/MetOp. For access to more contemporaneous and near-real-time MetOp-A ASCAT 12.5km data, please visit: https://podaac.jpl.nasa.gov/dataset/ASCATA-L2-Coastal. For more timely announcements, users are encouraged to register with the KNMI scatterometer email list: scat@knmi.nl. All intellectual property rights of the OSI SAF products belong to EUMETSAT. The use of these products is granted to every interested user, free of charge. If you wish to use these products, EUMETSAT's copyright credit must be shown by displaying the words \"copyright (year) EUMETSAT\" on each of the products used. Use cases and feedback on the products will be much appreciated and in fact helps to sustain the reprocessing capability.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-10-28T21:22:58.555Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1.0",
+        "Projects": [
+          {
+            "ShortName": "MetOp"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "EUMETSAT/OSISAF"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ROYAL NETHERLANDS METEOROLOGICAL INSTITUTE",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Scatterometry Team",
+                "MiddleName": "null",
+                "LastName": "Primary - Anton Verhoef"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "None"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "scat@knmi.nl"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "METOP-A",
+            "LongName": "Meteorological Operational Satellite - A",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "101.3",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.7",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "ASCAT",
+                "LongName": "Advanced Scatterometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1800.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "MetOp-A+ASCAT+Level+2+25-km+Ocean+Surface+Wind+Vector+Climate+Data+Record",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1648582017-PODAAC",
+        "revision-date": "2019-10-29T17:40:51Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "EUMETSAT/OSI SAF, KNMI, 2018-04-23, MetOp-A ASCAT Level 2 25-km Ocean Surface Wind Vector Climate Data Record, 10.15770/EUM_SAF_OSI_0006, http://projects.knmi.nl/scatterometer/ascat_cdr/"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.6,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.6
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Ocean Winds",
+            "VariableLevel1": "Surface Winds",
+            "DetailedVariable": "Ocean Surface Wind Vectors"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2007-01-01T01:03:00.000Z",
+                "EndingDateTime": "2014-04-01T00:43:48.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2"
+        },
+        "DOI": {
+          "DOI": "10.15770/EUM_SAF_OSI_0006"
+        },
+        "ShortName": "ASCATA_L2_25KM_CDR",
+        "EntryTitle": "MetOp-A ASCAT Level 2 25-km Ocean Surface Wind Vector Climate Data Record",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/L2/metop_a/cdr/25km",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Verhoef, A., J. Vogelzang and A. Stoffelen, 2016: ASCAT L2 Winds Data Record Validation Report Version 1.2. Technical Note, SAF/OSI/CDOP2/KNMI/TEC/RP/239, EUMETSAT.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://projects.knmi.nl/scatterometer/publications/pdf/ascat_a_cdr_validation.pdf"
+          },
+          {
+            "Description": "ASCAT Level 2 CDR User Guide",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://projects.knmi.nl/scatterometer/publications/pdf/ascat_a_cdr_product_manual.pdf"
+          },
+          {
+            "Description": "IDL Data Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/IDL/"
+          },
+          {
+            "Description": "Reports and Publications",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.knmi.nl/scatterometer/publications/"
+          },
+          {
+            "Description": "Python Data Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/Python/"
+          },
+          {
+            "Description": "Mission and Instrument Overview",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.eumetsat.int/website/home/Satellites/CurrentSatellites/Metop/index.html"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-ASCDR-12C01&apidoc",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Scatterometry Training Material from KNMI",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.knmi.nl/scatterometer/training_material/"
+          },
+          {
+            "Description": "Matlab Data Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/MATLAB/"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "R Data Reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/R/"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.15770/EUM_SAF_OSI_0006"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/ascat/L2/metop_a/cdr/25km/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2017-05-11T18:18:53.202Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-05-11T18:18:53.202Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This dataset represents the first historically reprocessed Level 2 ocean surface wind vector climate data record from the Advanced Scatterometer (ASCAT) on MetOp-A sampled on a 25 km grid.  Products at 25-km sampling are less noisy than 12.5-km products, but also contain less geophysical information on small scales and near the coasts. The wind vector retrievals are currently processed using the CMOD7 geophysical model function using a Hamming filter to spatially average the Level 1 Sigma-0 data over 25 km swath grid cells. Each file corresponds to one complete orbit and is provided in netCDF version 3 format. The beginning of the orbit files is defined near the South Pole. ASCAT is a C-band fan beam radar scatterometer, providing two independent swaths of backscatter retrievals, aboard the MetOp-A platform in sun-synchronous polar orbit. It is a product of the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT) Ocean and Sea Ice Satellite Application Facility (OSI SAF) provided through the Royal Netherlands Meteorological Institute (KNMI). For more information on the MetOp mission, please visit: https://podaac.jpl.nasa.gov/OceanWind/MetOp. For access to more contemporaneous and near-real-time MetOp-A ASCAT 25-km data, please visit: https://podaac.jpl.nasa.gov/dataset/ASCATA-L2-25km. For more timely announcements, users are encouraged to register with the KNMI scatterometer email list: scat@knmi.nl. All intellectual property rights of the OSI SAF products belong to EUMETSAT. The use of these products is granted to every interested user, free of charge. If you wish to use these products, EUMETSAT's copyright credit must be shown by displaying the words \"copyright (year) EUMETSAT\" on each of the products used. Use cases and feedback on the products will be much appreciated and in fact helps to sustain the reprocessing capability.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-10-29T17:40:48.809Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1.0",
+        "Projects": [
+          {
+            "ShortName": "MetOp"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "EUMETSAT/OSI SAF/KNMI"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "ROYAL NETHERLANDS METEOROLOGICAL INSTITUTE",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Scatterometry Team",
+                "MiddleName": "null",
+                "LastName": "Primary - Anton Verhoef"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "None"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "scat@knmi.nl"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "METOP-A",
+            "LongName": "Meteorological Operational Satellite - A",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "101.3",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.7",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "ASCAT",
+                "LongName": "Advanced Scatterometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1800.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "MetOp-A+ASCAT+Level+2+25.0+km+Ocean+Surface+Wind+Vectors",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1674799468-PODAAC",
+        "revision-date": "2019-12-19T21:25:14Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "EUMETSAT/OSI SAF, KNMI, 2010-01-21, MetOp-A ASCAT Level 2 25.0 km Ocean Surface Wind Vectors, https://projects.knmi.nl/scatterometer/publications/pdf/ASCAT_Product_Manual.pdf"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.6,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.6
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Ocean Winds",
+            "VariableLevel1": "Surface Winds",
+            "DetailedVariable": "Ocean Surface Wind Vectors"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2007-03-27T17:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2"
+        },
+        "ShortName": "ASCATA-L2-25km",
+        "EntryTitle": "MetOp-A ASCAT Level 2 25.0 km Ocean Surface Wind Vectors",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/metop_a/25km",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/Python/"
+          },
+          {
+            "Description": "Reports and Publications",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.knmi.nl/scatterometer/publications/"
+          },
+          {
+            "Description": "Calibration, Validation, etc...",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/docs/"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/IDL/"
+          },
+          {
+            "Description": "ASCAT Level 2 User's Guide",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://projects.knmi.nl/scatterometer/publications/pdf/ASCAT_Product_Manual.pdf"
+          },
+          {
+            "Description": "Mission and Instrument Overview",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.eumetsat.int/website/home/Satellites/CurrentSatellites/Metop/index.html"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-ASOP2-25X01&apidoc",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "HIgh-level Tool for Interactive Data Extraction",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/hitide/"
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.knmi.nl/scatterometer/training_material/"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "History of Reported Modifications, Anomalies, etc...",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://www.knmi.nl/scatterometer/ascat_osi_25_prod/ascat_app.cgi#modifications"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/R/"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/MATLAB/"
+          },
+          {
+            "Description": "Historical Listing of Inter-orbit Datagaps",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/metop_a/25km/README.datagap"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/ascat/preview/L2/metop_a/25km/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2009-10-01T13:24:36.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-04-28T05:01:46.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This dataset contains operational near-real-time Level 2 ocean surface wind vector retrievals from the Advanced Scatterometer (ASCAT) on MetOp-A at 25 km sampling resolution (note: the effective resolution is 50 km). It is a product of the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT) Ocean and Sea Ice Satellite Application Facility (OSI SAF) provided through the Royal Netherlands Meteorological Institute (KNMI). The wind vector retrievals are currently processed using the CMOD7.n geophysical model function using a Hamming filter to spatially average the Sigma-0 data in the ASCAT L1B data. Each file is provided in netCDF version 3 format, and contains one full orbit derived from 3-minute orbit granules. Latency is approximately 2 hours from the latest measurement. The beginning of the orbit is defined by the first wind vector cell measurement within the first 3-minute orbit granule that starts north of the Equator in the ascending node. ASCAT is a C-band dual fan beam radar scatterometer providing two independent swaths of backscatter retrievals in sun-synchronous polar orbit aboard the MetOp-A platform. For more information on the MetOp mission, please visit: http://podaac.jpl.nasa.gov/OceanWind/MetOp . For more timely announcements, users are encouraged to register with the KNMI scatterometer email list: scat@knmi.nl. Users are also highly advised to check the dataset user guide periodically for updates and new information on known problems and issues. All intellectual property rights of the OSI SAF products belong to EUMETSAT. The use of these products is granted to every interested user, free of charge. If you wish to use these products, EUMETSAT's copyright credit must be shown by displaying the words \"copyright (year) EUMETSAT\" on each of the products used.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-12-19T21:19:13.500Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "Operational/Near-Real-Time",
+        "Projects": [
+          {
+            "ShortName": "MetOp"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "EUMETSAT/OSI SAF/KNMI"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "METOP-A",
+            "LongName": "Meteorological Operational Satellite - A",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft\u2019s single revolution on an orbital plane.",
+                "Value": "101.3",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.7",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "ASCAT",
+                "LongName": "Advanced Scatterometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1800.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "MetOp-A+ASCAT+Level+2+Ocean+Surface+Wind+Vectors+Optimized+for+Coastal+Ocean",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1667314372-PODAAC",
+        "revision-date": "2019-12-11T20:01:12Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "EUMETSAT/OSI SAF, KNMI, 2010-05-24, MetOp-A ASCAT Level 2 Ocean Surface Wind Vectors Optimized for Coastal Ocean, https://projects.knmi.nl/scatterometer/publications/pdf/ASCAT_Product_Manual.pdf"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.6,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.6
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Ocean Winds",
+            "VariableLevel1": "Surface Winds",
+            "DetailedVariable": "Ocean Surface Wind Vectors"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2010-08-18T00:21:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2"
+        },
+        "ShortName": "ASCATA-L2-Coastal",
+        "EntryTitle": "MetOp-A ASCAT Level 2 Ocean Surface Wind Vectors Optimized for Coastal Ocean",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/metop_a/coastal_opt",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/MATLAB/"
+          },
+          {
+            "Description": "ASCAT Level 2 User's Guide",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://projects.knmi.nl/scatterometer/publications/pdf/ASCAT_Product_Manual.pdf"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/IDL/"
+          },
+          {
+            "Description": "SOTO (State Of The Ocean) Visualization  (wind speed, night)",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/soto/#b=BlueMarble_ShadedRelief_Bathymetry&l=ascata_l2_coastal___wind_speed___2880_x_1440___night(la=true)"
+          },
+          {
+            "Description": "Mission and Instrument Overview",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.eumetsat.int/website/home/Satellites/CurrentSatellites/Metop/index.html"
+          },
+          {
+            "Description": "HIgh-level Tool for Interactive Data Extraction",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/hitide/"
+          },
+          {
+            "Description": "Historical Listing of Inter-orbit Datagaps",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/metop_a/coastal_opt/README.datagap"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/R/"
+          },
+          {
+            "Description": "History of Reported Modifications, Anomalies, etc...",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://www.knmi.nl/scatterometer/ascat_osi_co_prod/ascat_app.cgi#modifications"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-ASOP2-12C01&apidoc",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "SOTO (State Of The Ocean) Visualization  (wind vectors, night)",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/soto/#b=BlueMarble_ShadedRelief_Bathymetry&l=ascata_l2_coastal___wind_dir_color_night_(la=true)"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "Reports and Publications",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.knmi.nl/scatterometer/publications/"
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.knmi.nl/scatterometer/training_material/"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/Python/"
+          },
+          {
+            "Description": "Calibration, Validation, etc...",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/docs/"
+          },
+          {
+            "Description": "SOTO (State Of The Ocean) Visualization (wind vectors, day)",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/soto/#b=BlueMarble_ShadedRelief_Bathymetry&l=ascata_l2_coastal___wind_dir_color_day_(la=true)"
+          },
+          {
+            "Description": "SOTO (State Of The Ocean) Visualization (wind speed, day)",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/soto/#b=BlueMarble_ShadedRelief_Bathymetry&l=ascata_l2_coastal___wind_speed___2880_x_1440___day(la=true)"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/ascat/preview/L2/metop_a/coastal_opt/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2011-05-19T18:09:46.041Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-04-28T05:01:45.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This dataset contains operational near-real-time Level 2 coastal ocean surface wind vector retrievals from the Advanced Scatterometer (ASCAT) on MetOp-A at 12.5 km sampling resolution (note: the effective resolution is 25 km). It is a product of the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT) Ocean and Sea Ice Satellite Application Facility (OSI SAF) provided through the Royal Netherlands Meteorological Institute (KNMI). This coastal dataset differs from the standard 25 km datasets in that it utilizes a spatial box filter (rather than the Hamming filter) to generate a spatial average of the Sigma-0 retrievals from the Level 1B dataset; all full resolution Sigma-0 retrievals within a 15 km radius of the wind vector cell centroid are used in the averaging. Since the full resolution L1B Sigma-0 retrievals are used, all non-sea retrievals are discarded prior to the Sigma-0 averaging. Each box average Sigma-0 is then used to compute the wind vector cell using the same CMOD7.n geophysical model function as in the standard OSI SAF ASCAT wind vector datasets. With this enhanced coastal retrieval, winds can be computed as close to ~15 km from the coast, as compared to the static ~35 km land mask in the standard 12.5 km dataset. Each file is provided in netCDF version 3 format, and contains one full orbit derived from 3-minute orbit granules. Latency is approximately 2 hours from the latest measurement. The beginning of the orbit is defined by the first wind vector cell measurement within the first 3-minute orbit granule that starts north of the Equator in the ascending node. ASCAT is a C-band dual fan beam radar scatterometer providing two independent swaths of backscatter retrievals in sun-synchronous polar orbit aboard the MetOp-A platform. For more information on the MetOp mission, please visit: http://podaac.jpl.nasa.gov/OceanWind/MetOp . For more timely announcements, users are encouraged to register with the KNMI scatterometer email list: scat@knmi.nl. Users are also highly advised to check the dataset user guide periodically for updates and new information on known problems and issues. All intellectual property rights of the OSI SAF products belong to EUMETSAT. The use of these products is granted to every interested user, free of charge. If you wish to use these products, EUMETSAT's copyright credit must be shown by displaying the words \"copyright (year) EUMETSAT\" on each of the products used.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-12-05T17:01:19.440Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "Operational/Near-Real-Time",
+        "Projects": [
+          {
+            "ShortName": "MetOp"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "EUMETSAT/OSI SAF/KNMI"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "METOP-A",
+            "LongName": "Meteorological Operational Satellite - A",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft\u2019s single revolution on an orbital plane.",
+                "Value": "101.3",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.7",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "ASCAT",
+                "LongName": "Advanced Scatterometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1800.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "MetOp-B+ASCAT+Level+2+25.0km+Ocean+Surface+Wind+Vectors+in+Full+Orbit+Swath",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1674798938-PODAAC",
+        "revision-date": "2019-12-19T21:23:12Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "EUMETSAT/OSI SAF, KNMI, 2013-06-03, MetOp-B ASCAT Level 2 25.0km Ocean Surface Wind Vectors in Full Orbit Swath, https://projects.knmi.nl/scatterometer/publications/pdf/ASCAT_Product_Manual.pdf"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.6,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.6
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Ocean Winds",
+            "VariableLevel1": "Surface Winds",
+            "DetailedVariable": "Ocean Surface Wind Vectors"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2012-10-29T01:00:01.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2"
+        },
+        "ShortName": "ASCATB-L2-25km",
+        "EntryTitle": "MetOp-B ASCAT Level 2 25.0km Ocean Surface Wind Vectors in Full Orbit Swath",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/metop_b/25km",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/Python/"
+          },
+          {
+            "Description": "History of Reported Modifications, Anomalies, etc...",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://www.knmi.nl/scatterometer/ascat_b_osi_25_prod/ascat_app.cgi#modifications"
+          },
+          {
+            "Description": "Reports and Publications",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.knmi.nl/scatterometer/publications/"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/MATLAB/"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/IDL/"
+          },
+          {
+            "Description": "Calibration, Validation, etc...",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/docs/"
+          },
+          {
+            "Description": "HIgh-level Tool for Interactive Data Extraction",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/hitide/"
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.knmi.nl/scatterometer/training_material/"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "Historical Listing of Inter-orbit Datagaps",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/metop_b/25km/README.datagap"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-ASOP2-25B01&apidoc",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Mission and Instrument Overview",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.eumetsat.int/website/home/Satellites/CurrentSatellites/Metop/index.html"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/R/"
+          },
+          {
+            "Description": "ASCAT Level 2 User's Guide",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://projects.knmi.nl/scatterometer/publications/pdf/ASCAT_Product_Manual.pdf"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/ascat/preview/L2/metop_b/25km/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2013-05-24T23:31:59.059Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-04-28T05:01:45.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This dataset contains operational near-real-time Level 2 ocean surface wind vector retrievals from the Advanced Scatterometer (ASCAT) on MetOp-B at 25 km sampling resolution (note: the effective resolution is 50 km). It is a product of the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT) Ocean and Sea Ice Satellite Application Facility (OSI SAF) provided through the Royal Netherlands Meteorological Institute (KNMI). The wind vector retrievals are currently processed using the CMOD.n geophysical model function using a Hamming filter to spatially average the Sigma-0 data in the ASCAT L1B data. Each file is provided in netCDF version 3 format, and contains one full orbit derived from 3-minute orbit granules. Latency is approximately 2 hours from the latest measurement. The beginning of the orbit is defined by the first wind vector cell measurement within the first 3-minute orbit granule that starts north of the Equator in the ascending node. ASCAT is a C-band dual swath fan beam radar scatterometer providing two independent swaths of backscatter retrievals in sun-synchronous polar orbit aboard the MetOp-B platform. For more information on the MetOp-B mission, please visit: http://podaac.jpl.nasa.gov/OceanWind/MetOp . For more timely announcements, users are encouraged to register with the KNMI scatterometer email list: scat@knmi.nl. Users are also highly advised to check the dataset user guide periodically for updates and new information on known problems and issues. All intellectual property rights of the OSI SAF products belong to EUMETSAT. The use of these products is granted to every interested user, free of charge. If you wish to use these products, EUMETSAT's copyright credit must be shown by displaying the words \"copyright (year) EUMETSAT\" on each of the products used.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-12-19T21:19:07.017Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "Operational/Near-Real-Time",
+        "Projects": [
+          {
+            "ShortName": "MetOp"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "EUMETSAT/OSI SAF/KNMI"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "METOP-B",
+            "LongName": "Meteorological Operational Satellite - B",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft\u2019s single revolution on an orbital plane.",
+                "Value": "101.3",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.7",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "ASCAT",
+                "LongName": "Advanced Scatterometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1800.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "MetOp-B+ASCAT+Level+2+Ocean+Surface+Wind+Vectors+Optimized+for+Coastal+Ocean",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1667316554-PODAAC",
+        "revision-date": "2019-12-11T20:21:59Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "EUMETSAT/OSI SAF, KNMI, 2013-06-07, MetOp-B ASCAT Level 2 Ocean Surface Wind Vectors Optimized for Coastal Ocean, https://projects.knmi.nl/scatterometer/publications/pdf/ASCAT_Product_Manual.pdf"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.6,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.6
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Ocean Winds",
+            "VariableLevel1": "Surface Winds",
+            "DetailedVariable": "Ocean Surface Wind Vectors"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2012-10-29T01:03:01.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2"
+        },
+        "ShortName": "ASCATB-L2-Coastal",
+        "EntryTitle": "MetOp-B ASCAT Level 2 Ocean Surface Wind Vectors Optimized for Coastal Ocean",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/metop_b/coastal_opt",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/R/"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-ASOP2-COB01&apidoc",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.knmi.nl/scatterometer/training_material/"
+          },
+          {
+            "Description": "History of Reported Modifications, Anomalies, etc...",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "http://www.knmi.nl/scatterometer/ascat_b_osi_co_prod/ascat_app.cgi#modifications"
+          },
+          {
+            "Description": "ASCAT Level 2 User's Guide",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://projects.knmi.nl/scatterometer/publications/pdf/ASCAT_Product_Manual.pdf"
+          },
+          {
+            "Description": "HIgh-level Tool for Interactive Data Extraction",
+            "URLContentType": "DistributionURL",
+            "Type": "GOTO WEB TOOL",
+            "URL": "https://podaac-tools.jpl.nasa.gov/hitide/"
+          },
+          {
+            "Description": "History of Reported Modifications, Anomalies, etc...",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/metop_b/coastal_opt/README.datagap"
+          },
+          {
+            "Description": "Mission and Instrument Overview",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.eumetsat.int/website/home/Satellites/CurrentSatellites/Metop/index.html"
+          },
+          {
+            "Description": "Calibration, Validation, etc...",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/docs/"
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/IDL/"
+          },
+          {
+            "Description": "Reports and Publications",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://www.knmi.nl/scatterometer/publications/"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/MATLAB/"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ascat/preview/L2/sw/Python/"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/ascat/preview/L2/metop_b/coastal_opt/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2013-05-24T23:48:37.904Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-04-28T05:01:45.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This dataset contains operational near-real-time Level 2 coastal ocean surface wind vector retrievals from the Advanced Scatterometer (ASCAT) on MetOp-B at 12.5 km sampling resolution (note: the effective resolution is 25 km). It is a product of the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT) Ocean and Sea Ice Satellite Application Facility (OSI SAF) provided through the Royal Netherlands Meteorological Institute (KNMI). This coastal dataset differs from the standard 12.5 and 25 km datasets in that it utilizes a spatial box filter (rather than the Hamming filter) to generate a spatial average of the Sigma-0 retrievals from the Level 1B dataset; all full resolution Sigma-0 retrievals within a 15 km radius of the wind vector cell centroid are used in the averaging. Since the full resolution L1B Sigma-0 retrievals are used, all non-sea retrievals are discarded prior to the Sigma-0 averaging. Each box average Sigma-0 is then used to compute the wind vector cell using the same CMOD5.n geophysical model function as in the standard OSI SAF ASCAT wind vector datasets. With this enhanced coastal retrieval, winds can be computed as close to ~15 km from the coast, as compared to the static ~35 km land mask in the standard 12.5 km dataset. Each file is provided in netCDF version 3 format, and contains one full orbit derived from 3-minute orbit granules. Latency is approximately 2 hours from the latest measurement. The beginning of the orbit is defined by the first wind vector cell measurement within the first 3-minute orbit granule that starts north of the Equator in the ascending node. ASCAT is a C-band dual swath fan beam radar scatterometer providing two independent swaths of backscatter retrievals in sun-synchronous polar orbit aboard the MetOp-B platform. For more information on the MetOp-B mission, please visit: http://podaac.jpl.nasa.gov/OceanWind/MetOp . For more timely announcements, users are encouraged to register with the KNMI scatterometer email list: scat@knmi.nl. Users are also highly advised to check the dataset user guide periodically for updates and new information on known problems and issues. All intellectual property rights of the OSI SAF products belong to EUMETSAT. The use of these products is granted to every interested user, free of charge. If you wish to use these products, EUMETSAT's copyright credit must be shown by displaying the words \"copyright (year) EUMETSAT\" on each of the products used.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-12-11T20:03:19.420Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "Operational/Near-Real-Time",
+        "Projects": [
+          {
+            "ShortName": "MetOp"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "EUMETSAT/OSI SAF/KNMI"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "User",
+                "MiddleName": "null",
+                "LastName": "Services"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-7165"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "podaac@podaac.jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "METOP-B",
+            "LongName": "Meteorological Operational Satellite - B",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft\u2019s single revolution on an orbital plane.",
+                "Value": "101.3",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "98.7",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "ASCAT",
+                "LongName": "Advanced Scatterometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "1800.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 5,
+        "deleted": false,
+        "format": "application/dif+xml",
+        "provider-id": "NOAA_NCEI",
+        "user-id": "sritz",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "noaa_ncei_gov.noaa.ncdc.C00809___version_",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1277698070-NOAA_NCEI",
+        "revision-date": "2018-05-22T20:53:51Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "DataLanguage": "eng",
+        "AncillaryKeywords": [
+          "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > OUTGOING LONGWAVE RADIATION",
+          "TIROS-N > Television Infrared Observation Satellite - N",
+          "NOAA-6 > National Oceanic & Atmospheric Administration - 6",
+          "NOAA-7 > National Oceanic & Atmospheric Administration - 7",
+          "NOAA-8 > National Oceanic & Atmospheric Administration - 8",
+          "NOAA-9 > National Oceanic & Atmospheric Administration - 9",
+          "NOAA-10 > National Oceanic & Atmospheric Administration - 10",
+          "NOAA-11 > National Oceanic & Atmospheric Administration - 11",
+          "NOAA-12 > National Oceanic & Atmospheric Administration - 12",
+          "NOAA-14 > National Oceanic & Atmospheric Administration - 14",
+          "NOAA-15 > National Oceanic & Atmospheric Administration - 15",
+          "NOAA-16 > National Oceanic & Atmospheric Administration - 16",
+          "NOAA-17 > National Oceanic & Atmospheric Administration - 17",
+          "NOAA-18 > National Oceanic & Atmospheric Administration - 18",
+          "NOAA-19 > National Oceanic & Atmospheric Administration - 19",
+          "MetOp-A > Meteorological Operational Polar Satellite - A",
+          "HIRS-2 > High Resolution Infra-red Sounder/2",
+          "HIRS-3 > High Resolution Infra-red Sounder/3",
+          "HIRS-4 > High Resolution Infra-red Sounder/4",
+          "GEOGRAPHIC REGION > GLOBAL",
+          "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce",
+          "DOC/NOAA/NESDIS/NCDC > National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce"
+        ],
+        "CollectionCitations": [
+          {
+            "Creator": "UMD/ESSIC > Earth System Science Interdisciplinary Center, University of Maryland",
+            "Title": "NOAA Climate Data Record (CDR) of Monthly Outgoing Longwave Radiation (OLR), Version 2.2-1",
+            "ReleaseDate": "2011-08-26T00:00:00.000Z",
+            "DataPresentationForm": "imageDigital",
+            "Version": "Version 2.2-1"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "NO_SPATIAL"
+        },
+        "CollectionProgress": "ACTIVE",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "ATMOSPHERE",
+            "Term": "ATMOSPHERIC RADIATION",
+            "VariableLevel1": "OUTGOING LONGWAVE RADIATION"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "1979-01-01T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "Not provided"
+        },
+        "DOI": {
+          "DOI": "doi:10.7289/V5222RQP"
+        },
+        "ShortName": "gov.noaa.ncdc.C00809",
+        "EntryTitle": "NOAA Climate Data Record (CDR) of Monthly Outgoing Longwave Radiation (OLR), Version 2.2-1",
+        "ISOTopicCategories": [
+          "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE"
+        ],
+        "RelatedUrls": [
+          {
+            "Description": "THREDDS Catalog for the CDR product. Data and metadata access for the dataset using OPeNDAP, WMS, WCS, HTTP, and other data access protocols.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "http://www.ncdc.noaa.gov/thredds/catalog.html?dataset=olr"
+          },
+          {
+            "Description": "View Source Metadata",
+            "URLContentType": "CollectionURL",
+            "Type": "EXTENDED METADATA",
+            "URL": "http://www.ngdc.noaa.gov/nmmrview/xmls/xml-to-text.jsp?id=gov.noaa.ncdc:C00809"
+          }
+        ],
+        "Abstract": "This Climate Data Record (CDR) of monthly mean High Resolution Infrared Radiation Sounder (HIRS) Outgoing Longwave Radiation (OLR) flux at the top of the atmosphere in all sky conditions is on a 2.5 degree x 2.5 degree grid with global coverage from January 1979 to the present and continuing monthly. Grid dimensions are 144 x 72, with 10,368 total grids over the globe. The data set was derived using a multispectral HIRS OLR algorithm on the HIRS level 1b dataset from the TIROS-N to NOAA-19 series satellites with inter-satellite and radiance calibration adjustments employing an empirical diurnal model for the monthly mean derivation. The data file format is netCDF-4 with CF metadata, and it is accompanied by algorithm documentation, data flow diagram and source code for the NOAA CDR Program.",
+        "Purpose": "The purpose of the High Resolution Infrared Radiation Sounder (HIRS) Outgoing Longwave Radiation (OLR) Climate Data Record is to provide a continuous and long-term OLR data record, and to provide a climate data record for global change studies.",
+        "MetadataDates": [
+          {
+            "Date": "2017-01-25T00:00:00.000Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-04-27T00:00:00.000Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "DirectoryNames": [
+          {
+            "ShortName": "USA/NOAA"
+          },
+          {
+            "ShortName": "CEOS"
+          }
+        ],
+        "Version": "Version 2.2-1",
+        "Projects": [
+          {
+            "ShortName": "MetOp",
+            "LongName": "Meteorological Operational"
+          }
+        ],
+        "UseConstraints": {
+          "Description": {
+            "Description": "Cite dataset when used as a source: Hai-Tien Lee and NOAA CDR Program (2011): NOAA Climate Data Record (CDR) of Monthly Outgoing Longwave Radiation (OLR), Version 2.2-1. [indicate subset used]. NOAA National Climatic Data Center. doi:10.7289/V5222RQP [access date]."
+          }
+        },
+        "ContactPersons": [
+          {
+            "Roles": [
+              "Metadata Author"
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Email",
+                  "Value": "ncdc.metadata@noaa.gov"
+                },
+                {
+                  "Type": "Fax",
+                  "Value": "+1 828-271-4876"
+                },
+                {
+                  "Type": "Telephone",
+                  "Value": "+1 828-271-4800"
+                }
+              ],
+              "Addresses": [
+                {
+                  "StreetAddresses": [
+                    "Federal Building, Room 468"
+                  ],
+                  "City": "Asheville",
+                  "StateProvince": "NC",
+                  "Country": "USA",
+                  "PostalCode": "28801-5001"
+                }
+              ]
+            },
+            "FirstName": "Philip",
+            "LastName": "Jones"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "ARCHIVER",
+              "DISTRIBUTOR"
+            ],
+            "ShortName": "DOC/NOAA/NESDIS/NCDC",
+            "LongName": "National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "ContactInformation": {
+                  "ContactMechanisms": [
+                    {
+                      "Type": "Email",
+                      "Value": "ncdc.orders@noaa.gov"
+                    },
+                    {
+                      "Type": "Fax",
+                      "Value": "+1 828-271-4876"
+                    },
+                    {
+                      "Type": "Telephone",
+                      "Value": "+1 828-271-4800"
+                    }
+                  ],
+                  "Addresses": [
+                    {
+                      "StreetAddresses": [
+                        "151 Patton Avenue",
+                        "Federal Building, Room 468"
+                      ],
+                      "City": "Asheville",
+                      "StateProvince": "NC",
+                      "Country": "USA",
+                      "PostalCode": "28801-5001"
+                    }
+                  ]
+                },
+                "FirstName": "CUSTOMER ENGAGEMENT BRANCH",
+                "LastName": "DOC/NOAA/NESDIS/NCEI"
+              }
+            ],
+            "ContactInformation": {
+              "RelatedUrls": [
+                {
+                  "URLContentType": "DataCenterURL",
+                  "Type": "HOME PAGE",
+                  "URL": "http://www.ncdc.noaa.gov/"
+                }
+              ]
+            }
+          },
+          {
+            "Roles": [
+              "ARCHIVER",
+              "DISTRIBUTOR"
+            ],
+            "ShortName": "DOC/NOAA/NESDIS/NCEI",
+            "LongName": "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "ContactInformation": {
+                  "ContactMechanisms": [
+                    {
+                      "Type": "Email",
+                      "Value": "ncdc.orders@noaa.gov"
+                    },
+                    {
+                      "Type": "Fax",
+                      "Value": "+1 828-271-4876"
+                    },
+                    {
+                      "Type": "Telephone",
+                      "Value": "+1 828-271-4800"
+                    }
+                  ],
+                  "Addresses": [
+                    {
+                      "StreetAddresses": [
+                        "151 Patton Avenue",
+                        "Federal Building, Room 468"
+                      ],
+                      "City": "Asheville",
+                      "StateProvince": "NC",
+                      "Country": "USA",
+                      "PostalCode": "28801-5001"
+                    }
+                  ]
+                },
+                "FirstName": "CUSTOMER ENGAGEMENT BRANCH",
+                "LastName": "DOC/NOAA/NESDIS/NCEI"
+              }
+            ],
+            "ContactInformation": {
+              "RelatedUrls": [
+                {
+                  "URLContentType": "DataCenterURL",
+                  "Type": "HOME PAGE",
+                  "URL": "https://ncei.noaa.gov/"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "ShortName": "Not provided",
+            "Instruments": [
+              {
+                "ShortName": "TIROS-N",
+                "LongName": "TIROS-N OPERATIONAL VERTICAL SOUNDER"
+              },
+              {
+                "ShortName": "HIRS/2",
+                "LongName": "High Resolution Infrared Radiation Sounder/2"
+              },
+              {
+                "ShortName": "HIRS/3",
+                "LongName": "High Resolution Infrared Radiation Sounder/3"
+              },
+              {
+                "ShortName": "HIRS/4",
+                "LongName": "High Resolution Infrared Radiation Sounder/4"
+              }
+            ]
+          },
+          {
+            "ShortName": "NOAA-6",
+            "LongName": "National Oceanic &amp; Atmospheric Administration-6"
+          },
+          {
+            "ShortName": "NOAA-19",
+            "LongName": "National Oceanic &amp; Atmospheric Administration-19"
+          },
+          {
+            "ShortName": "NOAA-18",
+            "LongName": "National Oceanic &amp; Atmospheric Administration-18"
+          },
+          {
+            "ShortName": "NOAA-17",
+            "LongName": "National Oceanic &amp; Atmospheric Administration-17"
+          },
+          {
+            "ShortName": "NOAA-16",
+            "LongName": "National Oceanic &amp; Atmospheric Administration-16"
+          },
+          {
+            "ShortName": "NOAA-15",
+            "LongName": "National Oceanic &amp; Atmospheric Administration-15"
+          },
+          {
+            "ShortName": "NOAA-14",
+            "LongName": "National Oceanic &amp; Atmospheric Administration-14"
+          },
+          {
+            "ShortName": "NOAA-12",
+            "LongName": "National Oceanic &amp; Atmospheric Administration-12"
+          },
+          {
+            "ShortName": "NOAA-11",
+            "LongName": "National Oceanic &amp; Atmospheric Administration-11"
+          },
+          {
+            "ShortName": "NOAA-10",
+            "LongName": "National Oceanic &amp; Atmospheric Administration-10"
+          },
+          {
+            "ShortName": "NOAA-9",
+            "LongName": "National Oceanic &amp; Atmospheric Administration-9"
+          },
+          {
+            "ShortName": "NOAA-8",
+            "LongName": "National Oceanic &amp; Atmospheric Administration-8"
+          },
+          {
+            "ShortName": "NOAA-7",
+            "LongName": "National Oceanic &amp; Atmospheric Administration-7"
+          }
+        ]
+      }
+    }
+  ]
+}

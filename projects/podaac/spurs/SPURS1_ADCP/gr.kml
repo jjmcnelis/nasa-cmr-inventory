@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gr" id="gr">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="gran_name" type="string"></SimpleField>
+	<SimpleField name="gran_size_mb" type="float"></SimpleField>
+	<SimpleField name="gran_parameters" type="string"></SimpleField>
+	<SimpleField name="gran_day_night" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>gr</name>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652989346-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS_knorr_ADCP_wh300.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:16:54Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ADCP</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS_knorr_ADCP_wh300.nc</SimpleData>
+		<SimpleData name="coll_shortname">31.16314697265625</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-06T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2012-10-08T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">23.747</SimpleData>
+		<SimpleData name="time_max">41.501</SimpleData>
+		<SimpleData name="lat_min">-70.881</SimpleData>
+		<SimpleData name="lat_max">-28.215</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-28.215,23.747 -28.215,41.501 -70.881,41.501 -70.881,23.747 -28.215,23.747</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652989543-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS_knorr_ADCP_os75nb.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:16:57Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ADCP</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS_knorr_ADCP_os75nb.nc</SimpleData>
+		<SimpleData name="coll_shortname">10.73049926757812</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-06T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2012-10-08T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">23.747</SimpleData>
+		<SimpleData name="time_max">41.49</SimpleData>
+		<SimpleData name="lat_min">-70.881</SimpleData>
+		<SimpleData name="lat_max">-28.201</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-28.201,23.747 -28.201,41.49 -70.881,41.49 -70.881,23.747 -28.201,23.747</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652989629-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS_knorr_ADCP_os75bb.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:16:58Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ADCP</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS_knorr_ADCP_os75bb.nc</SimpleData>
+		<SimpleData name="coll_shortname">14.21061706542969</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-09-06T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2012-10-08T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">23.747</SimpleData>
+		<SimpleData name="time_max">41.49</SimpleData>
+		<SimpleData name="lat_min">-70.881</SimpleData>
+		<SimpleData name="lat_max">-28.212</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-28.212,23.747 -28.212,41.49 -70.881,41.49 -70.881,23.747 -28.212,23.747</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652988950-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS_Endeavor_ADCP_os75nb.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:16:49Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ADCP</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS_Endeavor_ADCP_os75nb.nc</SimpleData>
+		<SimpleData name="coll_shortname">10.13247299194336</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-03-15T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-04-15T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">22.661</SimpleData>
+		<SimpleData name="time_max">41.264</SimpleData>
+		<SimpleData name="lat_min">-72.426</SimpleData>
+		<SimpleData name="lat_max">-37</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-37.0,22.661 -37.0,41.264 -72.426,41.264 -72.426,22.661 -37.0,22.661</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652989179-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS_Endeavor_ADCP_os75bb.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:16:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ADCP</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS_Endeavor_ADCP_os75bb.nc</SimpleData>
+		<SimpleData name="coll_shortname">13.41997909545898</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-03-15T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-04-15T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">22.661</SimpleData>
+		<SimpleData name="time_max">41.264</SimpleData>
+		<SimpleData name="lat_min">-72.426</SimpleData>
+		<SimpleData name="lat_max">-37</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-37.0,22.661 -37.0,41.264 -72.426,41.264 -72.426,22.661 -37.0,22.661</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652989217-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS_Endeavor_ADCP_wh300.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:16:53Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ADCP</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS_Endeavor_ADCP_wh300.nc</SimpleData>
+		<SimpleData name="coll_shortname">29.42330551147461</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-03-15T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-04-15T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">22.661</SimpleData>
+		<SimpleData name="time_max">41.27</SimpleData>
+		<SimpleData name="lat_min">-72.426</SimpleData>
+		<SimpleData name="lat_max">-37</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-37.0,22.661 -37.0,41.27 -72.426,41.27 -72.426,22.661 -37.0,22.661</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652988890-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS_endeavor2_ADCP_os75bb.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:16:48Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ADCP</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS_endeavor2_ADCP_os75bb.nc</SimpleData>
+		<SimpleData name="coll_shortname">10.66670989990234</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-09-19T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-10-13T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">20.011</SimpleData>
+		<SimpleData name="time_max">41.299</SimpleData>
+		<SimpleData name="lat_min">-70.934</SimpleData>
+		<SimpleData name="lat_max">-25.78</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-25.78,20.011 -25.78,41.299 -70.934,41.299 -70.934,20.011 -25.78,20.011</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652989061-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS_endeavor2_ADCP_wh300.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:16:50Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ADCP</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS_endeavor2_ADCP_wh300.nc</SimpleData>
+		<SimpleData name="coll_shortname">23.38980865478516</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-09-19T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-10-13T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">20.01</SimpleData>
+		<SimpleData name="time_max">41.298</SimpleData>
+		<SimpleData name="lat_min">-70.934</SimpleData>
+		<SimpleData name="lat_max">-25.773</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-25.773,20.01 -25.773,41.298 -70.934,41.298 -70.934,20.01 -25.773,20.01</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652989454-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS_endeavor2_ADCP_os75nb.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:16:56Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2015</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_ADCP</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS_endeavor2_ADCP_os75nb.nc</SimpleData>
+		<SimpleData name="coll_shortname">8.054023742675781</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-09-19T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-10-13T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">20.011</SimpleData>
+		<SimpleData name="time_max">41.299</SimpleData>
+		<SimpleData name="lat_min">-70.934</SimpleData>
+		<SimpleData name="lat_max">-25.78</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-25.78,20.011 -25.78,41.299 -70.934,41.299 -70.934,20.011 -25.78,20.011</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

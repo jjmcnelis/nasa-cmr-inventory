@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ds" id="ds">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_title" type="string"></SimpleField>
+	<SimpleField name="coll_version" type="string"></SimpleField>
+	<SimpleField name="coll_doi" type="string"></SimpleField>
+	<SimpleField name="coll_abstract" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="coll_status" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl_desc" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>ds</name>
+  <Placemark>
+	<name>collection</name>
+	<description>C1655116781-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">NOAA+Smith+and+Reynolds+Extended+Reconstructed+Sea+Surface+Temperature+(ERSST)+Level+4+Monthly+Version+4+Dataset+in+netCDF</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-10T18:29:41Z</SimpleData>
+		<SimpleData name="cmr_revision_date">NOAA Smith and Reynolds Extended Reconstructed Sea Surface Temperature (ERSST) Level 4 Monthly Version 4 Dataset in netCDF</SimpleData>
+		<SimpleData name="cmr_publication_date">4</SimpleData>
+		<SimpleData name="coll_version">The Smith &amp; Reynolds Extended Reconstructed Sea Surface Temperature (ERSST) Level 4 dataset provides a historical reconstruction of monthly global ocean surface temperatures and temperature anomalies over a 2 degree spatial grid since 1854 from in-situ observations based on a consistent statistical methodology that accounts for uneven sampling distributions over time and related observational biases. Version 4 of this dataset implements release 2.5 of ICOADS (International Comprehensive Ocean-Atmosphere Data Set) and is supplemented by monthly GTS (Global Telecommunications Ship and buoy) system data.  As for the prior ERSST version, v4 implements Empirical Orthogonal Teleconnection analysis (EOT) but with an improved tuning method for sparsely sampled regions and periods. ERSST anomalies are computed with respect to a 1971-2000 monthly climatology.  The version 4 has been improved from previous version 3b. Major revisions include updated and substantially more complete input data from the ICOADS release 2.5, revised EOTs and EOT acceptance criterion, updated SST quality control procedures, revised SST anomaly evaluation methods, updated bias adjustments of ship SSTs using the Hadley Centre Nighttime Marine Air Temperature dataset version 2 (HadNMAT2), and buoy SST bias adjustment not previously made in v3b. The ERSST v4 in netCDF format contains extended reconstructed sea surface temperature, SST anomaly, and associated estimated SST error standard deviation fields, incompliance with CF1.6 standard metadata.</SimpleData>
+		<SimpleData name="coll_doi">REYNOLDS_NCDC_L4_MONTHLY_V4</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">4</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1655116806-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">NOAA+Smith+and+Reynolds+Extended+Reconstructed+Sea+Surface+Temperature+(ERSST)+Level+4+Monthly+Version+5+Dataset+in+netCDF</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">3</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-10T18:29:45Z</SimpleData>
+		<SimpleData name="cmr_revision_date">NOAA Smith and Reynolds Extended Reconstructed Sea Surface Temperature (ERSST) Level 4 Monthly Version 5 Dataset in netCDF</SimpleData>
+		<SimpleData name="cmr_publication_date">5</SimpleData>
+		<SimpleData name="coll_version">The Smith &amp; Reynolds Extended Reconstructed Sea Surface Temperature (ERSST) Level 4 dataset provides a historical reconstruction of monthly global ocean surface temperatures and temperature anomalies over a 2 degree spatial grid since 1854 from in-situ observations based on a consistent statistical methodology that accounts for uneven sampling distributions over time and related observational biases. Version 5 of this dataset implements release 3.0 of ICOADS (International Comprehensive Ocean-Atmosphere Data Set) and is supplemented by monthly GTS (Global Telecommunications Ship and buoy) system data.  As for the prior ERSST version, v5 implements Empirical Orthogonal Teleconnection analysis (EOT) but with an improved tuning method for sparsely sampled regions and periods. ERSST anomalies are computed with respect to a 1971-2000 monthly climatology.  The version 5 has been improved from previous version 4. Major improvements in v5 include: 1) Inclusion and use of new sources and new versions of input datasets, such as data from Argo floats (new source), ICOADS R3.0 (from R2.5), HadISST2 (from HadISST1) sea ice concentration, and 2) Improved methodologies, such as inclusion of additional statistical modes, less spatial-temporal smoothing, better quality control method, and bias correction with baseline to modern buoy observations. The new version improves the spatial structures and magnitudes of El Nino and La Nina events. The ERSST v5 in netCDF format contains extended reconstructed sea surface temperature, SST anomaly, and associated estimated SST error standard deviation fields, incompliance with CF1.6 standard metadata.</SimpleData>
+		<SimpleData name="coll_doi">REYNOLDS_NCDC_L4_MONTHLY_V5</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">4</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1652973820-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">Smith+and+Reynolds+NCDC+Level+4+Historical+Reconstructed+SST+Monthly+Version+2</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:11:36Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Smith and Reynolds NCDC Level 4 Historical Reconstructed SST Monthly Version 2</SimpleData>
+		<SimpleData name="cmr_publication_date">2</SimpleData>
+		<SimpleData name="coll_version">The Smith &amp; Reynolds Extended Reconstructed Sea Surface Temperature (ERSST) Level 4 dataset provides a historical reconstruction of monthly global ocean surface temperatures and temperature anomalies on a 2 degree spatial grid from 1854-2009 from in-situ observations based on a consistent statistical methodology that accounts for uneven sampling distributions over time and related observational biases. Version 2 of this dataset implements release 2 of ICOADS (International Comprehensive Ocean-Atmosphere Data Set) and utilizes Empirical Orthogonal Teleconnections (EOT) in reconstruction analyses to estimate both surface temperature and associated standard deviation error fields. ERSST v2 presents extended reconstructed sea surface temperature and associated estimated SST error standard deviation fields as 2 similarly structured ASCII flat files.</SimpleData>
+		<SimpleData name="coll_doi">REYNOLDS_NCDC_L4_SST_HIST_RECON_MONTHLY_V2</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">4</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1652973478-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">Smith+and+Reynolds+NCDC+Level+4+Historical+Reconstructed+SST+Monthly+Version+3b+Ascii</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:11:28Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Smith and Reynolds NCDC Level 4 Historical Reconstructed SST Monthly Version 3b Ascii</SimpleData>
+		<SimpleData name="cmr_publication_date">3b</SimpleData>
+		<SimpleData name="coll_version">The Smith &amp; Reynolds Extended Reconstructed Sea Surface Temperature (ERSST) Level 4 dataset provides a historical reconstruction of monthly global ocean surface temperatures and temperature anomalies on a 2 degree spatial grid since 1854 from in-situ observations based on a consistent statistical methodology that accounts for uneven sampling distributions over time and related observational biases. Version 3b of this dataset implements release 2.4 of ICOADS (International Comprehensive Ocean-Atmosphere Data Set) and is supplemented by monthly GTS (Global Telecommunications Ship and buoy) system data.  As for the prior ERSST version, v3b implements Empirical Orthogonal Teleconnection analysis (EOT) but with an improved tuning method for sparsely sampled regions and periods. ERSST anomalies are computed with respect to a 1971-2000 month climatology.  The ASCII text file version of ERSST v3b contains extended reconstructed sea surface temperature and associated estimated SST error standard deviation fields as 2 similarly structured ASCII flat files.</SimpleData>
+		<SimpleData name="coll_doi">REYNOLDS_NCDC_L4_SST_HIST_RECON_MONTHLY_V3B_ASC</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">4</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1652973774-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">Smith+and+Reynolds+NCDC+Level+4+Historical+Reconstructed+SST+Monthly+Version+3b+netCDF</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:11:32Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Smith and Reynolds NCDC Level 4 Historical Reconstructed SST Monthly Version 3b netCDF</SimpleData>
+		<SimpleData name="cmr_publication_date">3b</SimpleData>
+		<SimpleData name="coll_version">The Smith &amp; Reynolds Extended Reconstructed Sea Surface Temperature (ERSST) Level 4 dataset provides a historical reconstruction of monthly global ocean surface temperatures and temperature anomalies over a 2 degree spatial grid since 1854 from in-situ observations based on a consistent statistical methodology that accounts for uneven sampling distributions over time and related observational biases. Version 3b of this dataset implements release 2.4 of ICOADS (International Comprehensive Ocean-Atmosphere Data Set) and is supplemented by monthly GTS (Global Telecommunications Ship and buoy) system data.  As for the prior ERSST version, v3b implements Empirical Orthogonal Teleconnection analysis (EOT) but with an improved tuning method for sparsely sampled regions and periods. ERSST anomalies are computed with respect to a 1971-2000 month climatology.  The netCDF version of ERSST v3b contains extended reconstructed sea surface temperature, SST anomaly, and associated estimated SST error standard deviation fields in netCDF classic format with CF1.0 standard metadata.</SimpleData>
+		<SimpleData name="coll_doi">REYNOLDS_NCDC_L4_SST_HIST_RECON_MONTHLY_V3B_NETCDF</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">4</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

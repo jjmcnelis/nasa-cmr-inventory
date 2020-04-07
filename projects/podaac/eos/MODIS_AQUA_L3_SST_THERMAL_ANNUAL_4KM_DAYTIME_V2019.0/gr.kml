@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gr" id="gr">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="gran_name" type="string"></SimpleField>
+	<SimpleField name="gran_size_mb" type="float"></SimpleField>
+	<SimpleField name="gran_parameters" type="string"></SimpleField>
+	<SimpleField name="gran_day_night" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>gr</name>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687056785-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">AQUA_MODIS.20020101_20021231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:18:42Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">AQUA_MODIS.20020101_20021231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="coll_shortname">25.67064762115479</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2002-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2003-01-01T02:49:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687056782-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">AQUA_MODIS.20030101_20031231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:18:41Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">AQUA_MODIS.20030101_20031231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="coll_shortname">25.90382671356201</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2003-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2004-01-01T02:24:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687056773-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">AQUA_MODIS.20040101_20041231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:18:37Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">AQUA_MODIS.20040101_20041231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="coll_shortname">25.73608207702637</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2004-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2005-01-01T02:34:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687056801-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">AQUA_MODIS.20050101_20051231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:18:47Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">AQUA_MODIS.20050101_20051231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="coll_shortname">25.93388271331787</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2005-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2006-01-01T02:09:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687056779-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">AQUA_MODIS.20060101_20061231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:18:39Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">AQUA_MODIS.20060101_20061231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="coll_shortname">25.96854591369629</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2006-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2007-01-01T03:00:01.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687056788-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">AQUA_MODIS.20070101_20071231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:18:43Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">AQUA_MODIS.20070101_20071231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="coll_shortname">26.02328681945801</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2007-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2008-01-01T02:39:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687056794-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">AQUA_MODIS.20080101_20081231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:18:46Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">AQUA_MODIS.20080101_20081231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="coll_shortname">25.75565147399902</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2008-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2009-01-01T02:54:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687056753-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">AQUA_MODIS.20090101_20091231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:18:29Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">AQUA_MODIS.20090101_20091231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="coll_shortname">25.76306247711182</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2009-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2010-01-01T02:29:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687056770-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">AQUA_MODIS.20100101_20101231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:18:35Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">AQUA_MODIS.20100101_20101231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="coll_shortname">26.0360050201416</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2010-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2011-01-01T02:09:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687056776-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">AQUA_MODIS.20110101_20111231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:18:38Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">AQUA_MODIS.20110101_20111231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="coll_shortname">25.82367706298828</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2011-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2012-01-01T02:59:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687056810-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">AQUA_MODIS.20120101_20121231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:18:50Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">AQUA_MODIS.20120101_20121231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="coll_shortname">25.80955505371094</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2013-01-01T02:59:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687056805-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">AQUA_MODIS.20130101_20131231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:18:48Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">AQUA_MODIS.20130101_20131231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="coll_shortname">25.95652389526367</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2013-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2014-01-01T02:44:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687056767-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">AQUA_MODIS.20140101_20141231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:18:34Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">AQUA_MODIS.20140101_20141231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="coll_shortname">25.90756034851074</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2014-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2015-01-01T02:20:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687056746-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">AQUA_MODIS.20150101_20151231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:18:28Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">AQUA_MODIS.20150101_20151231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="coll_shortname">25.8331937789917</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2015-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2016-01-01T02:05:00.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687056758-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">AQUA_MODIS.20160101_20161231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:18:31Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">AQUA_MODIS.20160101_20161231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="coll_shortname">25.95594596862793</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-01-01T02:09:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687056760-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">AQUA_MODIS.20170101_20171231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:18:33Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">AQUA_MODIS.20170101_20171231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="coll_shortname">25.94087028503418</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-01-01T02:59:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1687056791-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">AQUA_MODIS.20180101_20181231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-30T17:18:45Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">MODIS_AQUA_L3_SST_THERMAL_ANNUAL_4KM_DAYTIME_V2019.0</SimpleData>
+		<SimpleData name="cmr_publication_date">AQUA_MODIS.20180101_20181231.L3m.YR.SST.sst.4km</SimpleData>
+		<SimpleData name="coll_shortname">25.82269191741943</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-01-01T02:34:59.000Z</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

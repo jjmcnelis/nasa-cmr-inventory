@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ds" id="ds">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_title" type="string"></SimpleField>
+	<SimpleField name="coll_version" type="string"></SimpleField>
+	<SimpleField name="coll_doi" type="string"></SimpleField>
+	<SimpleField name="coll_abstract" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="coll_status" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl_desc" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>ds</name>
+  <Placemark>
+	<name>collection</name>
+	<description>C1652973160-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">Oceansat-2+Scatterometer+Level+2B+Ocean+Wind+Vectors+in+12.5km+Slice+Composites+Version+2</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:11:24Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Oceansat-2 Scatterometer Level 2B Ocean Wind Vectors in 12.5km Slice Composites Version 2</SimpleData>
+		<SimpleData name="cmr_publication_date">2</SimpleData>
+		<SimpleData name="coll_version">This dataset consists of the version 2 Level 2B science-quality ocean surface wind vector retrievals from the Oceansat-2 scatterometer (OSCAT), which was designed and launched by the Indian Space Research Organization (ISRO) 23 September 2009. This Level 2B dataset is produced by the Jet Propulsion Laboratory (JPL) QuikSCAT Project in cooperation with ISRO. The retrievals are provided on a non-uniform grid within the swath at 12.5 km pixel resolution. This resolution is achieved through a slice composite technique in which high resolution slice measurements from L1B data are composited into a 12.5 km wind vector cell. This newest version contains an improved geophysical model function (GMF), known as QSCAT12, consistent with the Remote Sensing Systems Ku2011 GMF, and an improved rain detection and flagging algorithm; these algorithms are consistent with the latest reprocessed version 3 QuikSCAT L2B dataset. Each L2B file corresponds to a specific orbital revolution (rev) number, which begins at the southernmost point of the ascending orbit. As a Ku-band dual pencil-beam rotating scatterometer, OSCAT design specs bear a strong resemblence of the Ku-band SeaWinds scatterometers on QuikSCAT and Midori-II (ADEOS-II). The primary difference between OSCAT and SeaWinds is the ~4 degree increase in the OSCAT incidence angle, which acts as an offset to the relatively lower altitude of Oceansat-2 to help provide a nearly identical swath width to SeaWinds. In the early phase of cal/val, the JPL QuikSCAT Project identified several problems, most of which have been corrected in this latest L2B version. This dataset release is expected to have an accuracy similar to that of the version 3 L2B QuikSCAT product, with minor caveats, all of which are described by Jaruwatanadilok et al. (2014) and summarized in the User Guide document which is made available in PO.DAAC Drive at https://podaac-tools.jpl.nasa.gov/drive/files/allData/oceansat2/L2B/oscat/jpl/docs/ . Read software is made available in MATLAB, Python, R, and IDL and is accessible in PO.DAAC Drive at https://podaac-tools.jpl.nasa.gov/drive/files/allData/oceansat2/L2B/oscat/jpl/sw/ .</SimpleData>
+		<SimpleData name="coll_doi">OS2_OSCAT_LEVEL_2B_OWV_COMP_12_V2</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 0,90 0,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1661293047-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">QuikSCAT+Level+1C+Averaged+Sigma-0+and+Winds+from+Non-spinning+Antenna+Version+2.0</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-26T19:08:14Z</SimpleData>
+		<SimpleData name="cmr_revision_date">QuikSCAT Level 1C Averaged Sigma-0 and Winds from Non-spinning Antenna Version 2.0</SimpleData>
+		<SimpleData name="cmr_publication_date">2.0</SimpleData>
+		<SimpleData name="coll_version">This dataset is Version 2 of the geo-located and averaged Level 1B Sigma-0 measurements and wind retrievals from the SeaWinds on QuikSCAT platform, initiated in the months following the failure of the rotating antenna motor on 22 November 2009, using the various incidence angles at which QuikSCAT was pointed during the time period from November 2009 until present. Incidence angles were varied in order to cross-calibrate the Oceansat-2 and RapidScat scatterometers and to extend the known Ku-band geophysical model function. The averaging of the L1B input data combined with the wind vector processing results are both contained in this product referred to hereafter as Level 1C (L1C). The fixed and repointed beam processing is relative to either the one corresponding to the vertically polarized &quot;outer&quot; beam or the other corresponding to the horizontally polarized &quot;inner&quot; beam. The Sigma-0 values from the fixed operating beam for each frame are averaged to a single value representing approximately 50 samples. The data points are land flagged, collocated with ECMWF surface winds, and have climatological nadir attenuations provided for the location and time of the data (not applied to the sigma0). The following enhancements have been applied in the Version 2 re-processing: 1) the GMF has been updated (QNS2016a) to make use of ECMWF nowcast 1x1 degree resolution wind direction information for the entire historical data record; 2) the new QNS2016a GMF leverages a calibration adjustment from Remote Sensing Systems (RSS) resulting in a consistently lower Normalized Radar Cross Section (NRCS or Sigma-0) measurements that establishes a Sigma-0 bias of -0.25 dB (-5.9% linear scale) compared to the L1C Version 1 data; 3) the new QNS2016a GMF also applies an azimuthal modulation that is decreased by several tenths of a dB (for Sigma-0) in variation with wind speed; this results in a more consistent wind speed retrieval comparison between &quot;non-spinning&quot; and &quot;spinning&quot; modes of the QuikSCAT instrument; 4) spacecraft attitude was re-estimated using slice data over multiple orbits as a replacement for lost echo-tracking capability during the &quot;non-spinning&quot; mode of the instrument; this new attitude estimation follows an unpublished manual technique that leverages the echo power of individual slice observations; since only a small subset of slice observations are analyzed, rapid variations in attitude are not captured; 5) continues data production beyond October 2016 through the end of mission on 30 August 2018. Retrieved wind directions are only slightly different from ECMWF values and should not be considered an independent measurement of wind direction. Retrieved wind speeds do not depend significantly on ECMWF speeds as evidenced by the fact that they agree closely with WindSAT polarimetric radiometer speeds whenever WindSAT and ECMWF disagree. The Sigma0 values have also been corrected for scan loss (due to the fact that the antenna does not scan) and for X-factor changes due to repointing.</SimpleData>
+		<SimpleData name="coll_doi">QSCAT_L1C_NONSPINNING_SIGMA0_WINDS_V2</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">1C</SimpleData>
+		<SimpleData name="time_min">-89.875</SimpleData>
+		<SimpleData name="time_max">89.875</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.875 180.0,89.875 -180.0,89.875 -180.0,-89.875 180.0,-89.875</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1666605475-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">QuikSCAT+Level+2B+Ocean+Wind+Vectors+in+12.5km+Slice+Composites+Version+3</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-13T16:11:40Z</SimpleData>
+		<SimpleData name="cmr_revision_date">QuikSCAT Level 2B Ocean Wind Vectors in 12.5km Slice Composites Version 3</SimpleData>
+		<SimpleData name="cmr_publication_date">3</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the latest reprocessed version 3 of the Level 2B science-quality ocean surface wind vector retrievals from the QuikSCAT scatterometer. The retrievals are provided on a non-uniform grid within the swath at 12.5 km pixel resolution. Higher resolution is achieved through a slice composite technique in which high resolution slice measurements from L1B data are composited into a 12.5 km wind vector cell. Version 3 processing begins with the same L1B (time-ordered backscatter) data as used in the previous processing. Version 3 has several improvements over the previous JPL processing of the QuikSCAT L2B winds: 1) changes to measurement binning, which was done in order to decrease noise and reduce gaps in the 12.5 km L2B wind retrievals, 2) an improved geophysical model function (GMF) to model the effect of wind on backscatter, 3) a neural network approach to correct rain contaminated winds speeds, 4) cross-track dependent wind speed biases were estimated and removed from the wind retrievals. The 12.5 km binning resolution enables users to obtain wind vector retrievals 10 km closer to shore when compared to the 25 km L2B dataset (only available in versions 1 and 2). More details to the processing changes and improvements are noted by Fore et al. (2014): PO.DAAC Drive at https://podaac-tools.jpl.nasa.gov/drive/files/allData/quikscat/L2B12/docs/fore_et_al_ieee_2014.pdf . Each L2B file corresponds to a specific orbital revolution (rev) number, which begins at the southernmost point of the ascending orbit. This is the official dataset produced by the QuikSCAT Project through the SeaWinds Processing and Analysis Center (SeaPAC). The Version 3 User Guide document is accessible in PO.DAAC Drive at https://podaac-tools.jpl.nasa.gov/drive/files/allData/quikscat/L2B12/docs/qscat_l2b_v3_ug_v1_0.pdf . Read software is made available in MATLAB, Python, R, and IDL and is accessible in PO.DAAC Drive at https://podaac-tools.jpl.nasa.gov/drive/files/allData/quikscat/L2B12/sw/ .</SimpleData>
+		<SimpleData name="coll_doi">QSCAT_LEVEL_2B_OWV_COMP_12</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1664741649-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">QuikSCAT+Level+2B+Ocean+Wind+Vectors+in+12.5km+Slice+Composites+Version+3.1</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-06T15:47:00Z</SimpleData>
+		<SimpleData name="cmr_revision_date">QuikSCAT Level 2B Ocean Wind Vectors in 12.5km Slice Composites Version 3.1</SimpleData>
+		<SimpleData name="cmr_publication_date">3.1</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the latest reprocessed version 3.1 of the Level 2B science-quality ocean surface wind vector retrievals from the QuikSCAT scatterometer. The retrievals are provided on a non-uniform grid within the swath at 12.5 km pixel resolution. Higher resolution is achieved through a slice composite technique in which high resolution slice measurements from L1B data are composited into a 12.5 km wind vector cell. Version 3.1 processing begins with the same L1B (time-ordered backscatter) data as used in the previous Version 3.0 processing. Version 3.1 improves upon the previous Version 3.0 processing by incorporating enhanced coastal processing using a Land Contamination Ratio (LCR) method with a fixed threshold. The 12.5 km binning resolution combined with the LCR processing enables this dataset to provide wind vector retrievals with approximately half the coastal gap as compared to the Version 3.0 12.5 km L2B dataset. The geophysical model function used to produce the wind vector cell retrievals remains unchanged between Version 3.0 and 3.1. Each L2B file corresponds to a specific orbital revolution (rev) number, which begins at the southernmost point of the ascending orbit. This is the official dataset produced by the NASA QuikSCAT Project through the SeaWinds Processing and Analysis Center (SeaPAC). More details to the processing changes and improvements are to be published in the near future, but for now can be referenced by the following presentation: https://mdc.coaps.fsu.edu/scatterometry/meeting/docs/2016/Thu_AM/coastal-poster.pdf.</SimpleData>
+		<SimpleData name="coll_doi">QSCAT_LEVEL_2B_OWV_COMP_12_LCR_3.1</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1666605454-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">QuikSCAT+Level+2B+Ocean+Wind+Vectors+in+12.5km+Slice+Composites+Version+4.0</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-10T18:30:22Z</SimpleData>
+		<SimpleData name="cmr_revision_date">QuikSCAT Level 2B Ocean Wind Vectors in 12.5km Slice Composites Version 4.0</SimpleData>
+		<SimpleData name="cmr_publication_date">4.0</SimpleData>
+		<SimpleData name="coll_version">This dataset contains the latest reprocessed version 4.0 of the Level 2B science-quality ocean surface wind vector retrievals from the QuikSCAT scatterometer. The retrievals are provided on a non-uniform grid within the swath at 12.5 km pixel resolution. Higher resolution is achieved through a slice composite technique in which high resolution slice measurements from L1B data are composited into a 12.5 km wind vector cell. Each L2B file corresponds to a specific orbital revolution (rev) number, which begins at the southernmost point of the ascending orbit. This is an official dataset produced by the NASA QuikSCAT Project through the SeaWinds Processing and Analysis Center (SeaPAC). Version 4.0 processing begins with the same L1B (time-ordered backscatter) data as used in the previous Version 3.1 processing. The new version has three important improvements over the previous version 3.1. First, a sea-surface temperature (SST) dependent geophysical model function (GMF) developed by Lucrezia Ricciardulli of Remote Sensing Systems is used in wind retrieval in order to fix persistent speed biases in Ku-band data over cold ocean.  Second, near coastal winds are retrieved using the Land Contamination Ratio with Expected Sigma-0 (LCRES) technique which retrieves winds significantly closer to the coast than has been done before. Third, flagging is simplified and extra flags are provided. All of the legacy quality flags are preserved with the same meaning. A new single bit wind_retrieval_likely_corrupted_flag is established for conditions in which approximately 3% (or greater) of the data comprising a wind vector cell (WVC) exhibits suboptimal performance due to rain, ice, or a few other rare anomalous cases. Another bit wind_retrieval_possibly_corrupted_flag is established for conditions in which approximately 15% of the data comprising a WVC near rain, ice, or a coastal boundary is thought to be high quality but may not match up well with numerical wind models due to either remaining rain/ice/land contamination or variability in the winds near ice, rain, and coasts that are not reflected in the numerical weather prediction (NWP) matchups. In addition to these two new bits, copious quality information is provided in the flags and eflags variables to allow users to tailor flags to meet their own needs. New and legacy flag bits are described in more detail in the user guide.</SimpleData>
+		<SimpleData name="coll_doi">QSCAT_LEVEL_2B_OWV_COMP_12_KUSST_LCRES_4.0</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1664737172-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">SeaWinds+on+QuikSCAT+Level+3+Surface+Eastward+Wind+for+Climate+Model+Comparison</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-06T15:45:59Z</SimpleData>
+		<SimpleData name="cmr_revision_date">SeaWinds on QuikSCAT Level 3 Surface Eastward Wind for Climate Model Comparison</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_version">This dataset contains ocean surface Eastward wind from SeaWinds on QuikSCAT binned and averaged monthly on 1 degree grids. The coverage is from August 1999 through October 2009. The QuikSCAT Project produced this dataset in support of the CMIP5 (Coupled Model Intercomparison Project Phase 5) under the World Climate Research Program (WCRP) and was first made available via the Earth System Grid. This dataset was derived directly from the Version 2 QuikSCAT Level 2B 25-km dataset, which can be accessed here: https://podaac.jpl.nasa.gov/dataset/QSCAT_LEVEL_2B_V2. The SeaWinds instrument is a conical scanning pencil-beam radar, with dual-beam and dual-polarization capability, operating at Ku-band to provide all-weather ocean surface wind vector retrievals. Along with this dataset, two additional ancillary data files are included in the same directory which contain the number of observations and standard error co-located on the same 1 degree grids. This wind vector dataset is designed to be used in conjunction with the complete wind vector dataset, which include separate dataset files for both the Northward component and total wind speed of the wind vector. All corresponding dataset and ancillary data files are included in a common directory. For more information on the QuikSCAT platform and mission, please visit https://podaac.jpl.nasa.gov/OceanWind/QuikSCAT.</SimpleData>
+		<SimpleData name="coll_doi">QSCAT_L3_SFC_EASTWARD_WIND_1DEG_1MO</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-89.59999999999999</SimpleData>
+		<SimpleData name="time_max">89.59999999999999</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.6 180.0,89.6 -180.0,89.6 -180.0,-89.6 180.0,-89.6</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1664740997-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">SeaWinds+on+QuikSCAT+Level+3+Surface+Northward+Wind+for+Climate+Model+Comparison</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-12-06T15:46:03Z</SimpleData>
+		<SimpleData name="cmr_revision_date">SeaWinds on QuikSCAT Level 3 Surface Northward Wind for Climate Model Comparison</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_version">This dataset contains ocean surface Northward wind from SeaWinds on QuikSCAT binned and averaged monthly on 1 degree grids. The coverage is from August 1999 through October 2009. The QuikSCAT Project produced this dataset in support of the CMIP5 (Coupled Model Intercomparison Project Phase 5) under the World Climate Research Program (WCRP) and was first made available via the Earth System Grid. This dataset was derived directly from the Version 2 QuikSCAT Level 2B 25-km dataset, which can be accessed here: https://podaac.jpl.nasa.gov/dataset/QSCAT_LEVEL_2B_V2. The SeaWinds instrument is a conical scanning pencil-beam radar, with dual-beam and dual-polarization capability, operating at Ku-band to provide all-weather ocean surface wind vector retrievals. Along with this dataset, two additional ancillary data files are included in the same directory which contain the number of observations and standard error co-located on the same 1 degree grids. This wind vector dataset is designed to be used in conjunction with the complete wind vector dataset, which include separate dataset files for both the Eastward component and total wind speed of the wind vector. All corresponding dataset and ancillary data files are included in a common directory. For more information on the QuikSCAT platform and mission, please visit https://podaac.jpl.nasa.gov/OceanWind/QuikSCAT.</SimpleData>
+		<SimpleData name="coll_doi">QSCAT_L3_SFC_NORTHWARD_WIND_1DEG_1MO</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-89.59999999999999</SimpleData>
+		<SimpleData name="time_max">89.59999999999999</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.6 180.0,89.6 -180.0,89.6 -180.0,-89.6 180.0,-89.6</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1653649386-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">SeaWinds+on+QuikSCAT+Level+3+Surface+Wind+Speed+for+Climate+Model+Comparison</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-07T19:03:01Z</SimpleData>
+		<SimpleData name="cmr_revision_date">SeaWinds on QuikSCAT Level 3 Surface Wind Speed for Climate Model Comparison</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_version">This dataset contains ocean surface wind speed from SeaWinds on QuikSCAT binned and averaged monthly on 1 degree grids. The coverage is from August 1999 through October 2009. The QuikSCAT Project produced this dataset in support of the CMIP5 (Coupled Model Intercomparison Project Phase 5) portion of under the World Climate Research Program (WCRP) and was first made available via the Earth System Grid. This dataset was derived directly from the Version 2 QuikSCAT Level 2B 25-km dataset, which can be accessed here: https://podaac.jpl.nasa.gov/dataset/QSCAT_LEVEL_2B_V2. The SeaWinds instrument is a conical scanning pencil-beam radar, with dual-beam and dual-polarization capability, operating at Ku-band to provide all-weather ocean surface wind vector retrievals. Along with this dataset, two additional ancillary data files are included in the same directory which contain the number of observations and standard error co-located on the same 1 degree grids. This wind speed dataset is designed to be used in conjunction with the complete wind vector dataset, which include separate dataset files for both the Northward and Eastward components of the wind vector. All corresponding dataset and ancillary data files are included in a common directory. For more information on the QuikSCAT platform and mission, please visit https://podaac.jpl.nasa.gov/OceanWind/QuikSCAT.</SimpleData>
+		<SimpleData name="coll_doi">QSCAT_L3_SFC_WIND_SPEED_1DEG_1MO</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">-89.59999999999999</SimpleData>
+		<SimpleData name="time_max">89.59999999999999</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,-89.6 180.0,89.6 -180.0,89.6 -180.0,-89.6 180.0,-89.6</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1214055340-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">NCAR_DS744.2</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">5</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-08-07T21:52:50Z</SimpleData>
+		<SimpleData name="cmr_revision_date">The SeaWinds QuikSCAT L2B Scatterometer Ocean Winds, Version 3.0</SimpleData>
+		<SimpleData name="cmr_publication_date">Not provided</SimpleData>
+		<SimpleData name="coll_version">The SeaWinds instrument on QuikSCAT is an active microwave radar             designed to measure electromagnetic backscatter from the wind             roughened ocean surface. The L2B data are presented as orbit swaths             of wind speed and direction at a 25 km resolution. The satellite is             in a sun synchronous orbit with a 101 minute period and a repeat             cycle of 4 days (57 orbits).              
+
+Notice of potential satellite failure from JPL.PODAAC 10 December             2000. The QuikSCAT antenna remains in a stalled position.             Near-real-time data have not been available since 0700 UTC on 23             November 2009 (orbital revolution number 54315), and science-quality             data have not been available since 00 UTC 22 November 2009 (orbital             revolution 54296).</SimpleData>
+		<SimpleData name="coll_doi">NCAR_DS744.2</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">Not provided</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

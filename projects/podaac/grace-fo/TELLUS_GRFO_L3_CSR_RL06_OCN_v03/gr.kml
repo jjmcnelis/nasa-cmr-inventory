@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gr" id="gr">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="gran_name" type="string"></SimpleField>
+	<SimpleField name="gran_size_mb" type="float"></SimpleField>
+	<SimpleField name="gran_parameters" type="string"></SimpleField>
+	<SimpleField name="gran_day_night" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>gr</name>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300508-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2018152-2018181_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:14Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2018152-2018181_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156709671020508</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-06-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-06-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300519-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2018152-2018181_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:26Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2018152-2018181_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5130691528320312</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-06-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-06-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300564-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2018152-2018181_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-12T13:16:08Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2018152-2018181_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528762817382812</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-06-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-06-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300505-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2018182-2018199_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-12T13:15:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2018182-2018199_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528762817382812</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-07-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-07-18T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300506-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2018182-2018199_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:11Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2018182-2018199_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156709671020508</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-07-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-07-18T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300536-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2018182-2018199_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:40Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2018182-2018199_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5130691528320312</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-07-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-07-18T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300537-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2018295-2018313_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-12T13:16:04Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2018295-2018313_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528762817382812</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-10-22T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-11-09T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300546-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2018295-2018313_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:51Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2018295-2018313_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5130691528320312</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-10-22T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-11-09T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300761-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2018295-2018313_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:27:09Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2018295-2018313_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156709671020508</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-10-22T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-11-09T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300510-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2018305-2018334_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:17Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2018305-2018334_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156709671020508</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-11-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-11-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300516-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2018305-2018334_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-12T13:15:55Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2018305-2018334_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528762817382812</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-11-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-11-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300530-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2018305-2018334_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:32Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2018305-2018334_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5130691528320312</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-11-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-11-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300539-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2018335-2018365_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:44Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2018335-2018365_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5130691528320312</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-12-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-12-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300757-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2018335-2018365_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-12T13:16:12Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2018335-2018365_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528762817382812</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-12-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-12-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300760-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2018335-2018365_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:27:08Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2018335-2018365_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156709671020508</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2018-12-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2018-12-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300509-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019001-2019031_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:16Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019001-2019031_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156709671020508</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-01-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300538-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019001-2019031_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:43Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019001-2019031_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5130691528320312</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-01-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300541-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019001-2019031_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-12T13:16:06Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019001-2019031_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528762817382812</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-01-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300540-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019026-2019065_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:45Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019026-2019065_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5130691528320312</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-01-26T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-03-06T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300762-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019026-2019065_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-12T13:16:13Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019026-2019065_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528762817382812</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-01-26T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-03-06T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300765-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019026-2019065_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:27:11Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019026-2019065_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156709671020508</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-01-26T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-03-06T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300520-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019060-2019090_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:28Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019060-2019090_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156709671020508</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-03-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-03-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300521-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019060-2019090_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-12T13:15:57Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019060-2019090_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528762817382812</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-03-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-03-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300744-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019060-2019090_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:27:01Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019060-2019090_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5130691528320312</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-03-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-03-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300531-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019091-2019120_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-12T13:15:58Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019091-2019120_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528762817382812</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-04-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-04-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300535-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019091-2019120_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:39Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019091-2019120_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156709671020508</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-04-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-04-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300746-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019091-2019120_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:27:04Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019091-2019120_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5130691528320312</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-04-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-04-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300515-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019121-2019151_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:20Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019121-2019151_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5130691528320312</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-05-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-05-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300518-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019121-2019151_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:25Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019121-2019151_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156709671020508</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-05-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-05-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300543-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019121-2019151_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-12T13:16:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019121-2019151_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528753280639648</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-05-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-05-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300532-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019152-2019181_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-12T13:16:00Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019152-2019181_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528753280639648</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-06-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-06-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300549-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019152-2019181_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:52Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019152-2019181_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5130691528320312</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-06-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-06-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300681-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019152-2019181_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:56Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019152-2019181_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156709671020508</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-06-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-06-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300511-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019182-2019212_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:19Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019182-2019212_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5130691528320312</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-07-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-07-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300542-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019182-2019212_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:48Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019182-2019212_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156709671020508</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-07-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-07-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300747-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019182-2019212_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-12T13:16:11Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019182-2019212_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528753280639648</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-07-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-07-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300534-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019213-2019243_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-12T13:16:03Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019213-2019243_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528753280639648</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-08-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-08-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300743-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019213-2019243_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:27:00Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019213-2019243_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156709671020508</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-08-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-08-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300745-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019213-2019243_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:27:03Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019213-2019243_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5130691528320312</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-08-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-08-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300517-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019244-2019273_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:23Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019244-2019273_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156709671020508</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-09-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-09-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300609-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019244-2019273_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:55Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019244-2019273_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5130691528320312</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-09-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-09-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300741-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019244-2019273_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-12T13:16:10Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019244-2019273_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528753280639648</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-09-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-09-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300502-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019274-2019304_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:09Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019274-2019304_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5130691528320312</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-10-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-10-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300533-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019274-2019304_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-12T13:16:01Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019274-2019304_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528753280639648</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-10-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-10-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300742-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019274-2019304_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:59Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019274-2019304_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156709671020508</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-10-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-10-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300501-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019305-2019334_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:07Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019305-2019334_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5130691528320312</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-11-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-11-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300507-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019305-2019334_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-12T13:15:54Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019305-2019334_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528753280639648</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-11-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-11-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1684300529-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019305-2019334_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-01-23T18:26:31Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019305-2019334_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156709671020508</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-11-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-11-30T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1688436977-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019335-2019365_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-02-04T12:58:59Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019335-2019365_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156709671020508</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-12-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-12-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1688436982-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019335-2019365_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-12T13:16:15Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019335-2019365_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528753280639648</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-12-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-12-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1688436994-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2019335-2019365_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-02-04T12:59:04Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2019335-2019365_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5435314178466797</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2019-12-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2019-12-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1711911851-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2020001-2020031_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-26T13:07:11Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2020001-2020031_GRFO_UTCSR_BA01_0600_OCN_v03.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.5435342788696289</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2020-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2020-01-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1711911868-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2020001-2020031_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-26T13:07:12Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2020001-2020031_GRFO_UTCSR_BA01_0600_OCN_v03.txt</SimpleData>
+		<SimpleData name="coll_shortname">3.156722068786621</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2020-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2020-01-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1711911894-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">GRD-3_2020001-2020031_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2020-03-26T13:07:13Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2020</SimpleData>
+		<SimpleData name="cmr_revision_date">TELLUS_GRFO_L3_CSR_RL06_OCN_v03</SimpleData>
+		<SimpleData name="cmr_publication_date">GRD-3_2020001-2020031_GRFO_UTCSR_BA01_0600_OCN_v03.tif</SimpleData>
+		<SimpleData name="coll_shortname">0.2528877258300781</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2020-01-01T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2020-01-31T23:59:59.999Z</SimpleData>
+		<SimpleData name="time_min">0</SimpleData>
+		<SimpleData name="time_max">0</SimpleData>
+		<SimpleData name="lat_min">0</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,0 180,0 0,0 0,0 180,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

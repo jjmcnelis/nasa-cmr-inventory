@@ -1,0 +1,819 @@
+{
+  "hits": 3,
+  "took": 10,
+  "items": [
+    {
+      "meta": {
+        "revision-id": 2,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "OMG+Airborne+eXpendable+Conductivity+Temperature+Depth+(AXCTD)+Profiles",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1661292912-PODAAC",
+        "revision-date": "2020-03-17T18:47:03Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "OMG, , 2019-07-31, OMG Airborne eXpendable Conductivity Temperature Depth (AXCTD) Profiles, 10.5067/OMGEV-AXCT1, "
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 73.6,
+                  "NorthBoundingCoordinate": 83.6,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": 59.1
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 83.6,
+                  "EastBoundingCoordinate": -6.9,
+                  "SouthBoundingCoordinate": 59.1
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "SALINITY/DENSITY",
+            "VariableLevel1": "DENSITY"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN TEMPERATURE",
+            "VariableLevel1": "TEMPERATURE PROFILES",
+            "DetailedVariable": "NONE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "SALINITY/DENSITY",
+            "VariableLevel1": "SALINITY"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "SALINITY/DENSITY",
+            "VariableLevel1": "CONDUCTIVITY"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2016-09-13T15:26:43.000Z",
+                "EndingDateTime": "2019-09-05T17:56:18.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "L2"
+        },
+        "DOI": {
+          "DOI": "10.5067/OMGEV-AXCT1"
+        },
+        "ShortName": "OMG_L2_AXCTD",
+        "EntryTitle": "OMG Airborne eXpendable Conductivity Temperature Depth (AXCTD) Profiles",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/CTD/AXCTD",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "IDL generic netCDF reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/idl"
+          },
+          {
+            "Description": "2015 Field Reports",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/docs/2015"
+          },
+          {
+            "Description": "R generic netCDF reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/R"
+          },
+          {
+            "Description": "Python generic netCDF reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://github.com/nasa/podaac_tools_and_services/tree/master/read_nc_py"
+          },
+          {
+            "Description": "Matlab generic netCDF reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/matlab"
+          },
+          {
+            "Description": "2016 Field Reports",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/docs/2016"
+          },
+          {
+            "Description": "User Guide",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/docs/omg-ocean-axctd-users-guide.pdf"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/OMGEV-AXCT1"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/omg/L2/CTD/AXCTD/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2019-07-01T23:55:45.351Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-07-01T23:55:45.351Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This dataset contains in situ measurements from Airborne eXpendable Conductivity Temperature Depth (AXCTD) probes. It provides salinity, density, temperature and sound velocity of the water column. The AXCTDs were jettisoned from a plane, once the AXCTD hit the water a probe released to measure the physical properties of the water. This provided measurements of the ocean's physical characteristics around Greenland, where a ship would have had difficulties maneuvering. The AXCTDs are part of the Oceans Melting Greenland (OMG) project. The goal of the project is to find out what contributions the ocean has on Greenland's melting glaciers.",
+        "LocationKeywords": [
+          {
+            "Category": "CONTINENT",
+            "Type": "NORTH AMERICA"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2020-03-17T18:46:58.524Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OMG"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "NASA/JPL/OMG"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Jessica",
+                "MiddleName": "none",
+                "LastName": "Hausman"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "818-354-4588"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "Jessica.K.Hausman@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Aircraft",
+            "ShortName": "Aircraft",
+            "LongName": "Aircraft",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "0.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "90.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "AXCTD",
+                "LongName": "Airborne eXpendable Conductivity Temperature Depth",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "0.01",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "OMG+Swath+Gridded+Multibeam+Echo+Sounding+(MBES)+Bathymetry",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1653649445-PODAAC",
+        "revision-date": "2019-11-07T19:03:05Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "OMG, , 2019-06-07, OMG Swath Gridded Multibeam Echo Sounding (MBES) Bathymetry, 10.5067/OMGEV-MBES1, "
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -73.6,
+                  "NorthBoundingCoordinate": 83.6,
+                  "EastBoundingCoordinate": -6.9,
+                  "SouthBoundingCoordinate": 59.1
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Oceans",
+            "Term": "Bathymetry/Seafloor Topography",
+            "VariableLevel1": "Bathymetry"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2015-07-25T00:00:00.000Z",
+                "EndingDateTime": "2018-08-21T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "L2"
+        },
+        "DOI": {
+          "DOI": "10.5067/OMGEV-MBES1"
+        },
+        "ShortName": "OMG_L2_Bathy_MBES_Gridded",
+        "EntryTitle": "OMG Swath Gridded Multibeam Echo Sounding (MBES) Bathymetry",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/bathymetry/MBES",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "OMG 2016 Field Reports",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/docs/2016"
+          },
+          {
+            "Description": "Python generic netCDF reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://github.com/nasa/podaac_tools_and_services/tree/master/read_nc_py"
+          },
+          {
+            "Description": "User Guide",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/docs/omg-bathy-mbes-users-guide.pdf"
+          },
+          {
+            "Description": "Matlab generic netCDF reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/matlab"
+          },
+          {
+            "Description": "IDL generic netCDF reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/idl"
+          },
+          {
+            "Description": "OMG 2015 Field Reports",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/docs/2015"
+          },
+          {
+            "Description": "R generic netCDF reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/R"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/OMGEV-MBES1"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/omg/L2/bathymetry/MBES/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2018-08-14T07:56:27.774Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2018-08-14T07:56:27.774Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This dataset contains in situ depth measurements from Multibeam Echo Sounder System (MBES) instruments. These depths were used to map the bathymetry around ocean terminating glaciers of Greenland. The bathymetry mapping is part of the Oceans Melting Greenland (OMG) project. The goal of the project is to find out what contributions the ocean has on Greenland's melting glaciers. The MBES was onboard a ship so the tracks are not of a swath, but less regularly patterned as the ship is limited as to where it can traverse due to floating glaciers, ice cover and general weather conditions. Bathymetry was also measured with the Singlebeam Echo Sounder System (SBES) in areas where the MBES could not go, but has less spatial coverage.",
+        "LocationKeywords": [
+          {
+            "Category": "CONTINENT",
+            "Type": "NORTH AMERICA"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-07T19:03:03.023Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OMG"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "NASA/JPL/OMG"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Jessica",
+                "MiddleName": "none",
+                "LastName": "Hausman"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "818-354-4588"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "Jessica.K.Hausman@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Vessel",
+            "ShortName": "OMGSHIP_MBES",
+            "LongName": "OMG Vessels",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "0.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "0.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "MBES",
+                "LongName": "Multibeam Echo Sounder System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "55.8",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "OMG+Swath+Gridded+Singlebeam+Echo+Sounding+(SBES)+Bathymetry",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1661292881-PODAAC",
+        "revision-date": "2019-11-26T19:07:32Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "OMG, , 2019-06-07, OMG Swath Gridded Singlebeam Echo Sounding (SBES) Bathymetry, 10.5067/OMGEV-SBES1, "
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 73.6,
+                  "NorthBoundingCoordinate": 83.6,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": 59.1
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 83.6,
+                  "EastBoundingCoordinate": -6.9,
+                  "SouthBoundingCoordinate": 59.1
+                }
+              ]
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "BATHYMETRY/SEAFLOOR TOPOGRAPHY",
+            "VariableLevel1": "BATHYMETRY",
+            "DetailedVariable": "NONE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2015-08-04T00:00:00.000Z",
+                "EndingDateTime": "2016-08-16T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "L2"
+        },
+        "DOI": {
+          "DOI": "10.5067/OMGEV-SBES1"
+        },
+        "ShortName": "OMG_L2_Bathy_SBES_Gridded",
+        "EntryTitle": "OMG Swath Gridded Singlebeam Echo Sounding (SBES) Bathymetry",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/bathymetry/SBES",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "User Guide",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/docs/omg-bathy-sbes-users-guide.pdf"
+          },
+          {
+            "Description": "Python generic netCDF reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://github.com/nasa/podaac_tools_and_services/tree/master/read_nc_py"
+          },
+          {
+            "Description": "IDL generic netCDF reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/idl"
+          },
+          {
+            "Description": "2016 Field Reports",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/docs/2016"
+          },
+          {
+            "Description": "Matlab generic netCDF reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/matlab"
+          },
+          {
+            "Description": "2015 Field Reports",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/docs/2015"
+          },
+          {
+            "Description": "R generic netCDF reader",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/common/sw/generic_nc_readers/R"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/OMGEV-SBES1"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/omg/L2/bathymetry/SBES/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2018-08-14T07:56:03.432Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2018-08-14T07:56:03.432Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "This dataset contains in situ depth measurements from Singlebeam Echo Sounder System (SBES) instruments. These depths were used to map the bathymetry around ocean terminating glaciers of Greenland. The bathymetry mapping is part of the Oceans Melting Greenland (OMG) project. The goal of the project is to find out what contributions the ocean has on Greenland's melting glaciers. The SBES was onboard a ship so the tracks are not of a swath, but less regularly patterned as the ship is limited as to where it can traverse due to floating glaciers, ice cover and general weather conditions.",
+        "LocationKeywords": [
+          {
+            "Category": "CONTINENT",
+            "Type": "NORTH AMERICA"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-26T19:07:29.369Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "1",
+        "Projects": [
+          {
+            "ShortName": "OMG"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "NASA/JPL/OMG"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+            "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Technical Contact"
+                ],
+                "FirstName": "Vardis",
+                "LastName": "Tsontos"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "+1-818-3541419"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "vardis.m.tsontos@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "Vessel",
+            "ShortName": "OMGSHIP_SBES",
+            "LongName": "OMG Vessels",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "0.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "0.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "SBES",
+                "LongName": "Multiple Singlebeam Echo Sounder Systems (SBES)",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "55.8",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

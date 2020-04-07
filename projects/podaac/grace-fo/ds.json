@@ -1,0 +1,4745 @@
+{
+  "hits": 16,
+  "took": 52,
+  "items": [
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "CSR+TELLUS+GRACE-FO+Level-3+Monthly+Land+Water-Equivalent-Thickness+Surface+Mass+Anomaly+Release+6.0+version+03+in+netCDF/ASCII/GeoTIFF+Formats",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1684267762-PODAAC",
+        "revision-date": "2020-01-23T17:17:24Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Felix Landerer, TELLUS, 2020-01-22, CSR TELLUS GRACE-FO Level-3 Monthly Land Water-Equivalent-Thickness Surface Mass Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats, 10.5067/GFLND-3AC63, Landerer F. W. and S. C. Swenson, 2012, Accuracy of scaled GRACE terrestrial water storage estimates. Water Resources Research, Vol 48, W04531, 11 PP, doi:10.1029/2011WR011453."
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.5,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.5
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SOLID EARTH",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "GRAVITY"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN PRESSURE",
+            "VariableLevel1": "WATER PRESSURE",
+            "DetailedVariable": "OCEAN BOTTOM PRESSURE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2018-05-22T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/GFLND-3AC63"
+        },
+        "ShortName": "TELLUS_GRFO_L3_CSR_RL06_LND_v03",
+        "EntryTitle": "CSR TELLUS GRACE-FO Level-3 Monthly Land Water-Equivalent-Thickness Surface Mass Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/CSR",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GFLND-3AC63",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "GRACE-FO Project Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://gracefo.jpl.nasa.gov/"
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L3_Handbook_JPL-D-103133_20190327.pdf"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ghrsst/sw/generic_nc_readers"
+          },
+          {
+            "Description": "NASA approved YAML encoding technical Note",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://earthdata.nasa.gov/esdis/eso/standards-and-references/yaml-encoding-ascii-format-for-grace-grace-fo-mission-data"
+          },
+          {
+            "Description": "PODAAC GRACE-FO Mission-Page",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://podaac.jpl.nasa.gov/GRACE-FO"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/GFLND-3AC63"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/CSR/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2020-01-16T18:07:04.417Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2020-01-16T18:07:04.417Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The CSR monthly land mass grids contain land water mass anomaly given as equivalent water thickness derived from GRACE time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats.  The Equivalent water thickness represents the total terrestrial water storage anomalies from soil moisture, snow, surface water (incl. rivers, lakes, reservoirs etc.), as well as groundwater and aquifers.  A glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated. Post-processing filters have been applied to reduce correlated errors. From the RL06 version, all GRACE-FO products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2020-01-23T17:17:21.800Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "RL06 v03",
+        "Projects": [
+          {
+            "ShortName": "GRACE-FO"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "NASA/JPL/GRACE-TELLUS-0001"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "FirstName": "Wen-Hao",
+                "LastName": "Li"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-1176"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "wen-hao.li@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "GRACE-FO",
+            "LongName": "Gravity Recovery and Climate Experiment Follow-On",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "-1.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "89.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GRACE-FO KBR",
+                "LongName": "GRACE-FO K-Band Ranging System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO SCA",
+                "LongName": "GRACE-FO Star Camera Assembly",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO ACC",
+                "LongName": "GRACE-FO SuperSTAR Accelerometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "CSR+TELLUS+GRACE-FO+Level-3+Monthly+Ocean+Bottom+Pressure+Anomaly+Release+6.0+version+03+in+netCDF/ASCII/GeoTIFF+Formats",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1684267689-PODAAC",
+        "revision-date": "2020-01-23T17:17:12Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Felix Landerer, TELLUS, 2020-01-22, CSR TELLUS GRACE-FO Level-3 Monthly Ocean Bottom Pressure Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats, 10.5067/GFOCN-3AC63, Landerer F. W. and S. C. Swenson, 2012, Accuracy of scaled GRACE terrestrial water storage estimates. Water Resources Research, Vol 48, W04531, 11 PP, doi:10.1029/2011WR011453"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.5,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.5
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN PRESSURE",
+            "VariableLevel1": "WATER PRESSURE",
+            "DetailedVariable": "OCEAN BOTTOM PRESSURE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SOLID EARTH",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "GRAVITY"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2018-05-22T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/GFOCN-3AC63"
+        },
+        "ShortName": "TELLUS_GRFO_L3_CSR_RL06_OCN_v03",
+        "EntryTitle": "CSR TELLUS GRACE-FO Level-3 Monthly Ocean Bottom Pressure Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/ocean_mass/RL06/v03/CSR",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "PODAAC GRACE-FO Mission-Page",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://podaac.jpl.nasa.gov/GRACE-FO"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GFOCN-3AC63",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "NASA approved YAML encoding technical Note",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://earthdata.nasa.gov/esdis/eso/standards-and-references/yaml-encoding-ascii-format-for-grace-grace-fo-mission-data"
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L3_Handbook_JPL-D-103133_20190327.pdf"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ghrsst/sw/generic_nc_readers"
+          },
+          {
+            "Description": "GRACE-FO Project Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://gracefo.jpl.nasa.gov/"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/GFOCN-3AC63"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/ocean_mass/RL06/v03/CSR/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2020-01-16T02:08:46.999Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2020-01-16T02:08:46.999Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The CSR monthly ocean bottom pressure grids are given as equivalent water thickness changes derived from GRACE-FO time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats. The Equivalent water thickness represent sea floor pressure changes due to the integral effect of ocean and atmosphere processes, including global mean ocean bottom pressure changes (mean ocean mass and mean atmosphere mass over the global oceans). The Level-2 GAD product has been added back, a glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated. Post-processing filters (i.e., de-striping and spatial smoothing) have been applied to reduce correlated errors. For the RL06 version, all GRACE products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices. Version 02 (v02) of the ocean bottom pressure data has resolved a processing inconsistency issue in the version 01 files for both GRACE and GRACE-FO. This inconsistency resulted in erroneous leakage corrections, in particular near GIA-affected regions. Interior ocean data points (i.e., more than 1000 km away from coastlines) were minimally affected.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2020-01-23T17:17:09.912Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "RL06 v03",
+        "Projects": [
+          {
+            "ShortName": "GRACE-FO"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "NASA/JPL/GRACE-TELLUS-0001"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "FirstName": "Wen-Hao",
+                "LastName": "Li"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-1176"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "wen-hao.li@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "GRACE-FO",
+            "LongName": "Gravity Recovery and Climate Experiment Follow-On",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "-1.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "89.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GRACE-FO KBR",
+                "LongName": "GRACE-FO K-Band Ranging System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO SCA",
+                "LongName": "GRACE-FO Star Camera Assembly",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO ACC",
+                "LongName": "GRACE-FO SuperSTAR Accelerometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "CSR+TELLUS+GRACE-FO+Level-3+Monthly+Ocean+Water-Equivalent-Thickness+Surface-Mass+Anomaly+Release+6.0+version+02+in+netCDF/ASCII/GeoTIFF+Formats",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1647444711-PODAAC",
+        "revision-date": "2019-10-23T19:25:11Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Felix Landerer, TELLUS, 2019-10-30, CSR TELLUS GRACE-FO Level-3 Monthly Ocean Water-Equivalent-Thickness Surface-Mass Anomaly Release 6.0 version 02 in netCDF/ASCII/GeoTIFF Formats, 10.5067/GFOCN-3AC62, Landerer F. W. and S. C. Swenson, 2012, Accuracy of scaled GRACE terrestrial water storage estimates. Water Resources Research, Vol 48, W04531, 11 PP, doi:10.1029/2011WR011453"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.5,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.5
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SOLID EARTH",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "GRAVITY"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN PRESSURE",
+            "VariableLevel1": "WATER PRESSURE",
+            "DetailedVariable": "OCEAN BOTTOM PRESSURE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2018-05-22T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/GFOCN-3AC62"
+        },
+        "ShortName": "TELLUS_GRFO_L3_CSR_RL06_OCN_v02",
+        "EntryTitle": "CSR TELLUS GRACE-FO Level-3 Monthly Ocean Water-Equivalent-Thickness Surface-Mass Anomaly Release 6.0 version 02 in netCDF/ASCII/GeoTIFF Formats",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/ocean_mass/RL06/v02/CSR",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ghrsst/sw/generic_nc_readers"
+          },
+          {
+            "Description": "GRACE-FO Project Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://gracefo.jpl.nasa.gov/"
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L3_Handbook_JPL-D-103133_20190327.pdf"
+          },
+          {
+            "Description": "NASA approved YAML encoding technical Note",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://earthdata.nasa.gov/esdis/eso/standards-and-references/yaml-encoding-ascii-format-for-grace-grace-fo-mission-data"
+          },
+          {
+            "Description": "PODAAC GRACE-FO Mission-Page",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://podaac.jpl.nasa.gov/GRACE-FO"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GFOCN-3AC62",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/GFOCN-3AC62"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/ocean_mass/RL06/v02/CSR/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2019-10-01T23:25:30.356Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-10-01T23:25:30.356Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The CSR monthly ocean mass grids contain ocean water mass anomaly given as equivalent water thickness derived from GRACE-FO time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats.  The Equivalent water thickness is used to represent the water mass so it can be comparable to sea level anomalies due to water mass changes.  These mass grids represent the full magnitude of ocean processes, including the global mean ocean bottom pressure change (ocean mass and mean atmosphere mass over the global oceans).  The Level-2 GAD product has been added back, a glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated.  Post-processing filters have been applied to reduce correlated errors. From the RL06 version, all GRACE products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices. Version 02 (v02) of the Ocean mass data has resolved a processing inconsistency issue in the version 01 files for both GRACE and GRACE-FO. This inconsistency resulted in erroneous leakage corrections, in particular near GIA-affected regions. Interior ocean data points (i.e., more than 1000 km away from coastlines) are minimally affected.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-10-23T19:25:08.012Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "RL06 v02",
+        "Projects": [
+          {
+            "ShortName": "GRACE-FO"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "JPL"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "FirstName": "Wen-Hao",
+                "LastName": "Li"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-1176"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "wen-hao.li@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "GRACE-FO",
+            "LongName": "Gravity Recovery and Climate Experiment Follow-On",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "-1.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "89.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GRACE-FO KBR",
+                "LongName": "GRACE-FO K-Band Ranging System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO SCA",
+                "LongName": "GRACE-FO Star Camera Assembly",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO ACC",
+                "LongName": "GRACE-FO SuperSTAR Accelerometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "GFZ+TELLUS+GRACE-FO+Level-3+Monthly+Land+Water-Equivalent-Thickness+Surface+Mass+Anomaly+Release+6.0+version+03+in+netCDF/ASCII/GeoTIFF+Formats",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1684267775-PODAAC",
+        "revision-date": "2020-01-23T17:17:28Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Felix Landerer, TELLUS, 2020-01-22, GFZ TELLUS GRACE-FO Level-3 Monthly Land Water-Equivalent-Thickness Surface Mass Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats, 10.5067/GFLND-3AG63, Landerer F. W. and S. C. Swenson, 2012, Accuracy of scaled GRACE terrestrial water storage estimates. Water Resources Research, Vol 48, W04531, 11 PP, doi:10.1029/2011WR011453."
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.5,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.5
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SOLID EARTH",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "GRAVITY"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN PRESSURE",
+            "VariableLevel1": "WATER PRESSURE",
+            "DetailedVariable": "OCEAN BOTTOM PRESSURE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2018-05-22T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/GFLND-3AG63"
+        },
+        "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND_v03",
+        "EntryTitle": "GFZ TELLUS GRACE-FO Level-3 Monthly Land Water-Equivalent-Thickness Surface Mass Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L3_Handbook_JPL-D-103133_20190327.pdf"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GFLND-3AG63",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ghrsst/sw/generic_nc_readers"
+          },
+          {
+            "Description": "GRACE-FO Project Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://gracefo.jpl.nasa.gov/"
+          },
+          {
+            "Description": "PODAAC GRACE-FO Mission-Page",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://podaac.jpl.nasa.gov/GRACE-FO"
+          },
+          {
+            "Description": "NASA approved YAML encoding technical Note",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://earthdata.nasa.gov/esdis/eso/standards-and-references/yaml-encoding-ascii-format-for-grace-grace-fo-mission-data"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/GFLND-3AG63"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/GFZ/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2020-01-16T18:10:37.284Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2020-01-16T18:10:37.284Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The CSR monthly land mass grids contain land water mass anomaly given as equivalent water thickness derived from GRACE time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats.  The Equivalent water thickness represents the total terrestrial water storage anomalies from soil moisture, snow, surface water (incl. rivers, lakes, reservoirs etc.), as well as groundwater and aquifers.  A glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated. Post-processing filters have been applied to reduce correlated errors. From the RL06 version, all GRACE-FO products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2020-01-23T17:17:25.579Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "RL06 v03",
+        "Projects": [
+          {
+            "ShortName": "GRACE-FO"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "NASA/JPL/GRACE-TELLUS-0001"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "FirstName": "Wen-Hao",
+                "LastName": "Li"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-1176"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "wen-hao.li@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "GRACE-FO",
+            "LongName": "Gravity Recovery and Climate Experiment Follow-On",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "-1.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "89.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GRACE-FO KBR",
+                "LongName": "GRACE-FO K-Band Ranging System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO SCA",
+                "LongName": "GRACE-FO Star Camera Assembly",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO ACC",
+                "LongName": "GRACE-FO SuperSTAR Accelerometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 2,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "GFZ+TELLUS+GRACE-FO+Level-3+Monthly+Land+Water-Equivalent-Thickness+Surface-Mass+Anomaly+Release+6.0+in+netCDF/ASCII/GeoTIFF+Formats",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1681896877-PODAAC",
+        "revision-date": "2020-01-13T18:32:32Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Felix Landerer, TELLUS, 2019-07-19, GFZ TELLUS GRACE-FO Level-3 Monthly Land Water-Equivalent-Thickness Surface-Mass Anomaly Release 6.0 in netCDF/ASCII/GeoTIFF Formats, 10.5067/GFLND-3AG06, Landerer F. W. and S. C. Swenson, 2012, Accuracy of scaled GRACE terrestrial water storage estimates. Water Resources Research, Vol 48, W04531, 11 PP, doi:10.1029/2011WR011453."
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.5,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.5
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SOLID EARTH",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "GRAVITY"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN PRESSURE",
+            "VariableLevel1": "WATER PRESSURE",
+            "DetailedVariable": "Ocean Bottom Pressure"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2018-05-22T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/GFLND-3AG06"
+        },
+        "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_LND",
+        "EntryTitle": "GFZ TELLUS GRACE-FO Level-3 Monthly Land Water-Equivalent-Thickness Surface-Mass Anomaly Release 6.0 in netCDF/ASCII/GeoTIFF Formats",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/GFZ",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L3_Handbook_JPL-D-103133_20190327.pdf"
+          },
+          {
+            "Description": "NASA approved YAML encoding technical Note",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://earthdata.nasa.gov/esdis/eso/standards-and-references/yaml-encoding-ascii-format-for-grace-grace-fo-mission-data"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GFLND-3AG06",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "PODAAC GRACE-FO Mission-Page",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://podaac.jpl.nasa.gov/GRACE-FO"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ghrsst/sw/generic_nc_readers"
+          },
+          {
+            "Description": "GRACE-FO Project Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://gracefo.jpl.nasa.gov/"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/GFLND-3AG06"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/GFZ/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2019-07-05T18:47:17.023Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-07-05T18:47:17.023Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The GFZ monthly land mass grids contain land water mass anomaly given as equivalent water thickness derived from GRACE time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats.  The Equivalent water thickness represents the total terrestrial water storage anomalies from soil moisture, snow, surface water (incl. rivers, lakes, reservoirs etc.), as well as groundwater and aquifers.  A glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated. Post-processing filters have been applied to reduce correlated errors. From the RL06 version, all GRACE-FO products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2020-01-13T18:32:29.051Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "6.0",
+        "Projects": [
+          {
+            "ShortName": "GRACE-FO"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "GFZ"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "FirstName": "Wen-Hao",
+                "LastName": "Li"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-1176"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "wen-hao.li@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "GRACE-FO",
+            "LongName": "Gravity Recovery and Climate Experiment Follow-On",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "-1.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "89.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GRACE-FO KBR",
+                "LongName": "GRACE-FO K-Band Ranging System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO SCA",
+                "LongName": "GRACE-FO Star Camera Assembly",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO ACC",
+                "LongName": "GRACE-FO SuperSTAR Accelerometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "GFZ+TELLUS+GRACE-FO+Level-3+Monthly+Ocean+Bottom+Pressure+Anomaly+Release+6.0+version+03+in+netCDF/ASCII/GeoTIFF+Formats",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1684267691-PODAAC",
+        "revision-date": "2020-01-23T17:17:16Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Felix Landerer, TELLUS, 2020-01-22, GFZ TELLUS GRACE-FO Level-3 Monthly Ocean Bottom Pressure Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats, 10.5067/GFOCN-3AG63, Landerer F. W. and S. C. Swenson, 2012, Accuracy of scaled GRACE terrestrial water storage estimates. Water Resources Research, Vol 48, W04531, 11 PP, doi:10.1029/2011WR011453"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.5,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.5
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN PRESSURE",
+            "VariableLevel1": "WATER PRESSURE",
+            "DetailedVariable": "OCEAN BOTTOM PRESSURE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SOLID EARTH",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "GRAVITY"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2018-05-22T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/GFOCN-3AG63"
+        },
+        "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_OCN_v03",
+        "EntryTitle": "GFZ TELLUS GRACE-FO Level-3 Monthly Ocean Bottom Pressure Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/ocean_mass/RL06/v03/GFZ",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L3_Handbook_JPL-D-103133_20190327.pdf"
+          },
+          {
+            "Description": "PODAAC GRACE-FO Mission-Page",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://podaac.jpl.nasa.gov/GRACE-FO"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ghrsst/sw/generic_nc_readers"
+          },
+          {
+            "Description": "NASA approved YAML encoding technical Note",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://earthdata.nasa.gov/esdis/eso/standards-and-references/yaml-encoding-ascii-format-for-grace-grace-fo-mission-data"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GFOCN-3AG63",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "GRACE-FO Project Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://gracefo.jpl.nasa.gov/"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/GFOCN-3AG63"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/ocean_mass/RL06/v03/GFZ/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2020-01-16T02:13:15.016Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2020-01-16T02:13:15.016Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The GFZ monthly ocean bottom pressure grids are given as equivalent water thickness changes derived from GRACE-FO time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats. The Equivalent water thickness represent sea floor pressure changes due to the integral effect of ocean and atmosphere processes, including global mean ocean bottom pressure changes (mean ocean mass and mean atmosphere mass over the global oceans). The Level-2 GAD product has been added back, a glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated. Post-processing filters (i.e., de-striping and spatial smoothing) have been applied to reduce correlated errors. For the RL06 version, all GRACE products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices. Version 02 (v02) of the ocean bottom pressure data has resolved a processing inconsistency issue in the version 01 files for both GRACE and GRACE-FO. This inconsistency resulted in erroneous leakage corrections, in particular near GIA-affected regions. Interior ocean data points (i.e., more than 1000 km away from coastlines) were minimally affected.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2020-01-23T17:17:13.917Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "RL06 v03",
+        "Projects": [
+          {
+            "ShortName": "GRACE-FO"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "NASA/JPL/GRACE-TELLUS-0001"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "FirstName": "Wen-Hao",
+                "LastName": "Li"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-1176"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "wen-hao.li@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "GRACE-FO",
+            "LongName": "Gravity Recovery and Climate Experiment Follow-On",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "-1.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "89.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GRACE-FO KBR",
+                "LongName": "GRACE-FO K-Band Ranging System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO SCA",
+                "LongName": "GRACE-FO Star Camera Assembly",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO ACC",
+                "LongName": "GRACE-FO SuperSTAR Accelerometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "GFZ+TELLUS+GRACE-FO+Level-3+Monthly+Ocean+Water-Equivalent-Thickness+Surface-Mass+Anomaly+Release+6.0+version+02+in+netCDF/ASCII/GeoTIFF+Formats",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1647445911-PODAAC",
+        "revision-date": "2019-10-23T19:41:39Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Felix Landerer, TELLUS, 2019-10-30, GFZ TELLUS GRACE-FO Level-3 Monthly Ocean Water-Equivalent-Thickness Surface-Mass Anomaly Release 6.0 version 02 in netCDF/ASCII/GeoTIFF Formats, 10.5067/GFOCN-3AG62, Landerer F. W. and S. C. Swenson, 2012, Accuracy of scaled GRACE terrestrial water storage estimates. Water Resources Research, Vol 48, W04531, 11 PP, doi:10.1029/2011WR011453"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.5,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.5
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SOLID EARTH",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "GRAVITY"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN PRESSURE",
+            "VariableLevel1": "WATER PRESSURE",
+            "DetailedVariable": "OCEAN BOTTOM PRESSURE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2018-05-22T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/GFOCN-3AG62"
+        },
+        "ShortName": "TELLUS_GRFO_L3_GFZ_RL06_OCN_v02",
+        "EntryTitle": "GFZ TELLUS GRACE-FO Level-3 Monthly Ocean Water-Equivalent-Thickness Surface-Mass Anomaly Release 6.0 version 02 in netCDF/ASCII/GeoTIFF Formats",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/ocean_mass/RL06/v02/GFZ",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ghrsst/sw/generic_nc_readers"
+          },
+          {
+            "Description": "NASA approved YAML encoding technical Note",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://earthdata.nasa.gov/esdis/eso/standards-and-references/yaml-encoding-ascii-format-for-grace-grace-fo-mission-data"
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L3_Handbook_JPL-D-103133_20190327.pdf"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GFOCN-3AG62",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "GRACE-FO Project Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://gracefo.jpl.nasa.gov/"
+          },
+          {
+            "Description": "PODAAC GRACE-FO Mission-Page",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://podaac.jpl.nasa.gov/GRACE-FO"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/GFOCN-3AG62"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/ocean_mass/RL06/v02/GFZ/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2019-10-01T23:22:03.295Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-10-01T23:22:03.295Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The GFZ monthly ocean mass grids contain ocean water mass anomaly given as equivalent water thickness derived from GRACE-FO time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats.  The Equivalent water thickness is used to represent the water mass so it can be comparable to sea level anomalies due to water mass changes.  These mass grids represent the full magnitude of ocean processes, including the global mean ocean bottom pressure change (ocean mass and mean atmosphere mass over the global oceans).  The Level-2 GAD product has been added back, a glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated.  Post-processing filters have been applied to reduce correlated errors. From the RL06 version, all GRACE products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices. Version 02 (v02) of the Ocean mass data has resolved a processing inconsistency issue in the version 01 files for both GRACE and GRACE-FO. This inconsistency resulted in erroneous leakage corrections, in particular near GIA-affected regions. Interior ocean data points (i.e., more than 1000 km away from coastlines) are minimally affected.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-10-23T19:41:36.338Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "RL06 v02",
+        "Projects": [
+          {
+            "ShortName": "GRACE-FO"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "JPL"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "FirstName": "Wen-Hao",
+                "LastName": "Li"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-1176"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "wen-hao.li@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "GRACE-FO",
+            "LongName": "Gravity Recovery and Climate Experiment Follow-On",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "-1.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "89.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GRACE-FO KBR",
+                "LongName": "GRACE-FO K-Band Ranging System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO SCA",
+                "LongName": "GRACE-FO Star Camera Assembly",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO ACC",
+                "LongName": "GRACE-FO SuperSTAR Accelerometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "GRACE-FO+Level-1A+Release+version+4.0+from+JPL+in+ASCII",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1650311548-PODAAC",
+        "revision-date": "2019-11-01T16:26:47Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "JPL GRACE-FO project, JPL, 2019-05-30, GRACE-FO Level-1A Release version 4.0 from JPL in ASCII, 10.5067/GFL1A-ASJ04, https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Solid Earth",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "Gravity"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2018-05-22T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "1A"
+        },
+        "DOI": {
+          "DOI": "10.5067/GFL1A-ASJ04"
+        },
+        "ShortName": "GRACEFO_L1A_ASCII_GRAV_JPL_RL04",
+        "EntryTitle": "GRACE-FO Level-1A Release version 4.0 from JPL in ASCII",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/L1A/JPL/RL04/ASCII",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "GRACE-FO Level 1B Data Product User Handbook",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L1_Handbook_JPL-D-56935_20190521.pdf"
+          },
+          {
+            "Description": "GRACE-FO Mission Page",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://gracefo.jpl.nasa.gov/"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GFL1A-ASJ04",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/GFL1A-ASJ04"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2019-05-14T23:32:09.192Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-05-14T23:32:09.192Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "FOR EXPERT USE ONLY. The GRACE-FO Level-1A data contains telemetry data that has been converted to engineering units, from which Level-1B data products are derived. For a detailed description, please see the GRACE-FO Level-1 documentation.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-01T16:26:44.814Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "4",
+        "Projects": [
+          {
+            "ShortName": "GRACE-FO"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "GRACE-FO/JPL"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "FirstName": "Wen-Hao",
+                "LastName": "Li"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-1176"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "wen-hao.li@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "GRACE-FO",
+            "LongName": "Gravity Recovery and Climate Experiment Follow-On",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "-1.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "89.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GRACE-FO KBR",
+                "LongName": "GRACE-FO K-Band Ranging System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO SCA",
+                "LongName": "GRACE-FO Star Camera Assembly",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO ACC",
+                "LongName": "GRACE-FO SuperSTAR Accelerometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO LRI",
+                "LongName": "GRACE-FO Laser Ranging Interferometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "ASCII"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "GRACE-FO+Level-1B+Release+version+4.0+from+JPL+in+ASCII",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1650311549-PODAAC",
+        "revision-date": "2019-11-01T16:26:51Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "GRACE-FO, JPL, 2019-05-30, GRACE-FO Level-1B Release version 4.0 from JPL in ASCII, 10.5067/GFL1B-ASJ04, https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SOLID EARTH",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "GRAVITY"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2018-05-22T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "1B"
+        },
+        "DOI": {
+          "DOI": "10.5067/GFL1B-ASJ04"
+        },
+        "ShortName": "GRACEFO_L1B_ASCII_GRAV_JPL_RL04",
+        "EntryTitle": "GRACE-FO Level-1B Release version 4.0 from JPL in ASCII",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/L1B/JPL/RL04/ASCII",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "GRACE-FO Mission Page",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://gracefo.jpl.nasa.gov/"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GFL1B-ASJ04",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Thumbnail image for Website",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "/data/export/web/thumbnails"
+          },
+          {
+            "Description": "GRACE-FO Level 1B Data Product User Handbook",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L1_Handbook.pdf"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/GFL1B-ASJ04"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2019-05-08T18:40:41.272Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-05-08T18:40:41.272Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "FOR EXPERT USE ONLY. The GRACE-FO Level-1B data provide all necessary inputs to derive monthly time variations in the Earth gravity field. Level-1B data are also used for GRACE orbit and mean gravity field determination. For a detailed description, please see the GRACE-FO Level-1 documentation.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-01T16:26:49.008Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "4",
+        "Projects": [
+          {
+            "ShortName": "GRACE-FO"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "GRACE-FO/JPL"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "FirstName": "Wen-Hao",
+                "LastName": "Li"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-1176"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "wen-hao.li@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "GRACE-FO",
+            "LongName": "Gravity Recovery and Climate Experiment Follow-On",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "-1.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "89.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GRACE-FO KBR",
+                "LongName": "GRACE-FO K-Band Ranging System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO SCA",
+                "LongName": "GRACE-FO Star Camera Assembly",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO ACC",
+                "LongName": "GRACE-FO SuperSTAR Accelerometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO LRI",
+                "LongName": "GRACE-FO Laser Ranging Interferometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "ASCII"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "GRACE-FO+Level-2++Monthly+Geopotential+Spherical+Harmonics+CSR+Release+6.0+(RL06)",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1650311550-PODAAC",
+        "revision-date": "2019-11-01T16:26:55Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "GRACE-FO, JPL, 2019-06-10, GRACE-FO Level-2  Monthly Geopotential Spherical Harmonics CSR Release 6.0 (RL06), 10.5067/GFL20-MC060, https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Solid Earth",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "Gravity"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2018-05-22T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2"
+        },
+        "DOI": {
+          "DOI": "10.5067/GFL20-MC060"
+        },
+        "ShortName": "GRACEFO_L2_CSR_MONTHLY_0060",
+        "EntryTitle": "GRACE-FO Level-2  Monthly Geopotential Spherical Harmonics CSR Release 6.0 (RL06)",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/L2/CSR/RL06",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "GRACE-FO Mission Page",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://podaac.jpl.nasa.gov/GRACE-FO"
+          },
+          {
+            "Description": "GRACE-FO JPL Release Notes",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L2-ReleaseNotes_CSR_RL06.txt"
+          },
+          {
+            "Description": "GRACE-FO Project",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://gracefo.jpl.nasa.gov/"
+          },
+          {
+            "Description": "Level-2 Gravity Field Product User Handbook",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L2-UserHandbook_v1.0.pdf"
+          },
+          {
+            "Description": "GRACE-FO JPL Level-2 Processing Standards Document",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L2-CSR_ProcStds_v1.1.pdf"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GFL20-MC060",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/GFL20-MC060"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2017-10-04T23:08:06.988Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-10-04T23:08:06.988Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "FOR EXPERT USE ONLY. This dataset contains estimates of the total month-by-month geopotential of the Earth, derived from the Gravity Recovery and Climate Experiment Follow-On (GRACE-FO) mission measurements, produced by the Center for Space Research (CSR) at University of Texas at Austin. The data are provided in spherical harmonic coefficients, averaged over approximately a month. The primary objective of the GRACE-FO mission is to obtain accurate estimates of the mean and time-variable components of the gravity field and corresponding Earth mass change variations, such as from polar ice sheets and mountain glaciers; total water storage on land (from groundwater changes in deep aquifers to changes in soil moisture and surface water); changes in deep ocean currents; and changes within the solid Earth itself, such as postglacial rebound and the impact of major earthquakes. This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 490 km altitude, near circular, polar orbit, spaced approximately 220+/-50 km apart, using a microwave ranging system. In addition to these inter-satellite range changes, the non-gravitational forces acting on each satellite are measured using a high accuracy electrostatic accelerometer. The satellite orientation and position (and timing) are precisely measured using star cameras (with three heads per satellite) and a GPS receiver. Spatial and temporal variations in the gravity field perturb the orbits (or trajectories) of the twin spacecraft differently. These differences lead to minute changes (on the order of tens of micrometers per second) in the distance between the spacecraft as they orbit the Earth. This change in distance (or range rate) is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft. The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals. The so called dual-one-way range change measurements can be reconstructed from these phase measurements. This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the geopotential coefficients of an Earth gravity field model, typically on a per-month basis.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-01T16:26:53.112Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "6",
+        "Projects": [
+          {
+            "ShortName": "GRACE-FO"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "GRACE-FO/JPL"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "FirstName": "Wen-Hao",
+                "LastName": "Li"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-1176"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "wen-hao.li@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "GRACE-FO",
+            "LongName": "Gravity Recovery and Climate Experiment Follow-On",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "-1.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "89.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GRACE-FO KBR",
+                "LongName": "GRACE-FO K-Band Ranging System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO SCA",
+                "LongName": "GRACE-FO Star Camera Assembly",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO ACC",
+                "LongName": "GRACE-FO SuperSTAR Accelerometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO LRI",
+                "LongName": "GRACE-FO Laser Ranging Interferometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "ASCII"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "GRACE-FO+Level-2++Monthly+Geopotential+Spherical+Harmonics+JPL+Release+6.0+(RL06)",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1650311563-PODAAC",
+        "revision-date": "2019-11-01T16:27:03Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "GRACE-FO, JPL, 2019-06-10, GRACE-FO Level-2  Monthly Geopotential Spherical Harmonics JPL Release 6.0 (RL06), 10.5067/GFL20-MJ060, https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Solid Earth",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "Gravity"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2018-05-22T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2"
+        },
+        "DOI": {
+          "DOI": "10.5067/GFL20-MJ060"
+        },
+        "ShortName": "GRACEFO_L2_JPL_MONTHLY_0060",
+        "EntryTitle": "GRACE-FO Level-2  Monthly Geopotential Spherical Harmonics JPL Release 6.0 (RL06)",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/L2/JPL/RL06",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "GRACE-FO JPL Release Notes",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L2-ReleaseNotes_JPL_RL06.pdf"
+          },
+          {
+            "Description": "GRACE-FO JPL Level-2 Processing Standards Document",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L2-JPL_ProcStds_v1.0.pdf"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GFL20-MJ060",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "GRACE-FO Mission",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://podaac.jpl.nasa.gov/GRACE-FO"
+          },
+          {
+            "Description": "GRACE-FO Project",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://gracefo.jpl.nasa.gov/"
+          },
+          {
+            "Description": "Level-2 Gravity Field Product User Handbook",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L2-UserHandbook_v1.0.pdf"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/GFL20-MJ060"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2017-10-04T23:13:44.128Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-10-04T23:13:44.128Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "FOR EXPERT USE ONLY. This dataset contains estimates of the total month-by-month geopotential of the Earth, derived from the Gravity Recovery and Climate Experiment Follow-On (GRACE-FO) mission measurements, produced by the NASA Jet Propulsion Laboratory (JPL). The data are provided in spherical harmonic coefficients, averaged over approximately a month. The primary objective of the GRACE-FO mission is to obtain accurate estimates of the mean and time-variable components of the gravity field and corresponding Earth mass change variations, such as from polar ice sheets and mountain glaciers; total water storage on land (from groundwater changes in deep aquifers to changes in soil moisture and surface water); changes in deep ocean currents; and changes within the solid Earth itself, such as postglacial rebound and the impact of major earthquakes. This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 490 km altitude, near circular, polar orbit, spaced approximately 220+/-50 km apart, using a microwave ranging system. In addition to these inter-satellite range changes, the non-gravitational forces acting on each satellite are measured using a high accuracy electrostatic accelerometer. The satellite orientation and position (and timing) are precisely measured using star cameras (with three heads per satellite) and a GPS receiver. Spatial and temporal variations in the gravity field perturb the orbits (or trajectories) of the twin spacecraft differently. These differences lead to minute changes (on the order of tens of micrometers per second) in the distance between the spacecraft as they orbit the Earth. This change in distance (or range rate) is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft. The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals. The so called dual-one-way range change measurements can be reconstructed from these phase measurements. This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the geopotential coefficients of an Earth gravity field model, typically on a per-month basis.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-01T16:27:00.839Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "6",
+        "Projects": [
+          {
+            "ShortName": "GRACE-FO"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "JPL"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "FirstName": "Wen-Hao",
+                "LastName": "Li"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-1176"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "wen-hao.li@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "GRACE-FO",
+            "LongName": "Gravity Recovery and Climate Experiment Follow-On",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "-1.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "89.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GRACE-FO KBR",
+                "LongName": "GRACE-FO K-Band Ranging System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO SCA",
+                "LongName": "GRACE-FO Star Camera Assembly",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO ACC",
+                "LongName": "GRACE-FO SuperSTAR Accelerometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO LRI",
+                "LongName": "GRACE-FO Laser Ranging Interferometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "ASCII"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "GRACE-FO+Level-2+Monthly+Geopotential+Spherical+Harmonics+GFZ+Release+6.0+(RL06)",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1650311562-PODAAC",
+        "revision-date": "2019-11-01T16:26:59Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "GRACE-FO, JPL, 2019-06-10, GRACE-FO Level-2 Monthly Geopotential Spherical Harmonics GFZ Release 6.0 (RL06), 10.5067/GFL20-MG060, https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.0
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "Earth Science",
+            "Topic": "Solid Earth",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "Gravity"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2018-05-22T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "2"
+        },
+        "DOI": {
+          "DOI": "10.5067/GFL20-MG060"
+        },
+        "ShortName": "GRACEFO_L2_GFZ_MONTHLY_0060",
+        "EntryTitle": "GRACE-FO Level-2 Monthly Geopotential Spherical Harmonics GFZ Release 6.0 (RL06)",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/L2/GFZ/RL06",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "GRACE-FO JPL Level-2 Processing Standards Document",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L2-GFZ_ProcStds_v1.0.pdf"
+          },
+          {
+            "Description": "GRACE-FO Mission Page",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://podaac.jpl.nasa.gov/GRACE-FO"
+          },
+          {
+            "Description": "GRACE-FO Project",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://gracefo.jpl.nasa.gov/"
+          },
+          {
+            "Description": "Level-2 Gravity Field Product User Handbook",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L2-UserHandbook_v1.0.pdf"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GFL20-MG060",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "GRACE-FO JPL Release Notes",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L2-ReleaseNotes_GFZ_RL06.pdf"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/GFL20-MG060"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2017-10-04T23:11:07.373Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2017-10-04T23:11:07.373Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "FOR EXPERT USE ONLY. This dataset contains estimates of the total month-by-month geopotential of the Earth, derived from the Gravity Recovery and Climate Experiment Follow-On (GRACE-FO) mission measurements, produced by the German Research Centre for Geosciences (GFZ). The data are provided in spherical harmonic coefficients, averaged over approximately a month. The primary objective of the GRACE-FO mission is to obtain accurate estimates of the mean and time-variable components of the gravity field and corresponding Earth mass change variations, such as from polar ice sheets and mountain glaciers; total water storage on land (from groundwater changes in deep aquifers to changes in soil moisture and surface water); changes in deep ocean currents; and changes within the solid Earth itself, such as postglacial rebound and the impact of major earthquakes. This objective is achieved by making continuous measurements of the change in distance between twin spacecraft, co-orbiting in about 490 km altitude, near circular, polar orbit, spaced approximately 220+/-50 km apart, using a microwave ranging system. In addition to these inter-satellite range changes, the non-gravitational forces acting on each satellite are measured using a high accuracy electrostatic accelerometer. The satellite orientation and position (and timing) are precisely measured using star cameras (with three heads per satellite) and a GPS receiver. Spatial and temporal variations in the gravity field perturb the orbits (or trajectories) of the twin spacecraft differently. These differences lead to minute changes (on the order of tens of micrometers per second) in the distance between the spacecraft as they orbit the Earth. This change in distance (or range rate) is reflected in the time-of-flight of microwave signals transmitted and received nearly simultaneously between the two spacecraft. The change in this time of fight is continuously measured by tracking the phase of the microwave carrier signals. The so called dual-one-way range change measurements can be reconstructed from these phase measurements. This range change (or its numerically derived derivatives), along with other mission and ancillary data, is subsequently analyzed to extract the geopotential coefficients of an Earth gravity field model, typically on a per-month basis.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-11-01T16:26:56.958Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "6",
+        "Projects": [
+          {
+            "ShortName": "GRACE-FO"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "GRACE-FO/GFZ"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "FirstName": "Wen-Hao",
+                "LastName": "Li"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-1176"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "wen-hao.li@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "GRACE-FO",
+            "LongName": "Gravity Recovery and Climate Experiment Follow-On",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "-1.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "89.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GRACE-FO KBR",
+                "LongName": "GRACE-FO K-Band Ranging System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO SCA",
+                "LongName": "GRACE-FO Star Camera Assembly",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO ACC",
+                "LongName": "GRACE-FO SuperSTAR Accelerometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO LRI",
+                "LongName": "GRACE-FO Laser Ranging Interferometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "ASCII"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "JPL+TELLUS+GRACE-FO+Level-3+Monthly+Land+Water-Equivalent-Thickness+Surface+Mass+Anomaly+Release+6.0+version+03+in+netCDF/ASCII/GeoTIFF+Formats",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1684267776-PODAAC",
+        "revision-date": "2020-01-23T17:17:32Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Felix Landerer, TELLUS, 2020-01-22, JPL TELLUS GRACE-FO Level-3 Monthly Land Water-Equivalent-Thickness Surface Mass Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats, 10.5067/GFLND-3AJ63, Landerer F. W. and S. C. Swenson, 2012, Accuracy of scaled GRACE terrestrial water storage estimates. Water Resources Research, Vol 48, W04531, 11 PP, doi:10.1029/2011WR011453."
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.5,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.5
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN PRESSURE",
+            "VariableLevel1": "WATER PRESSURE",
+            "DetailedVariable": "OCEAN BOTTOM PRESSURE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SOLID EARTH",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "GRAVITY"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2018-05-22T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/GFLND-3AJ63"
+        },
+        "ShortName": "TELLUS_GRFO_L3_JPL_RL06_LND_v03",
+        "EntryTitle": "JPL TELLUS GRACE-FO Level-3 Monthly Land Water-Equivalent-Thickness Surface Mass Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/v03/JPL",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ghrsst/sw/generic_nc_readers"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GFLND-3AJ63",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L3_Handbook_JPL-D-103133_20190327.pdf"
+          },
+          {
+            "Description": "GRACE-FO Project Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://gracefo.jpl.nasa.gov/"
+          },
+          {
+            "Description": "PODAAC GRACE-FO Mission-Page",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://podaac.jpl.nasa.gov/GRACE-FO"
+          },
+          {
+            "Description": "NASA approved YAML encoding technical Note",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://earthdata.nasa.gov/esdis/eso/standards-and-references/yaml-encoding-ascii-format-for-grace-grace-fo-mission-data"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/GFLND-3AJ63"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/v03/JPL/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2020-01-16T18:14:30.841Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2020-01-16T18:14:30.841Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The CSR monthly land mass grids contain land water mass anomaly given as equivalent water thickness derived from GRACE time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats.  The Equivalent water thickness represents the total terrestrial water storage anomalies from soil moisture, snow, surface water (incl. rivers, lakes, reservoirs etc.), as well as groundwater and aquifers.  A glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated. Post-processing filters have been applied to reduce correlated errors. From the RL06 version, all GRACE-FO products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2020-01-23T17:17:29.656Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "RL06 v03",
+        "Projects": [
+          {
+            "ShortName": "GRACE-FO"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "NASA/JPL/GRACE-TELLUS-0001"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "FirstName": "Wen-Hao",
+                "LastName": "Li"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-1176"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "wen-hao.li@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "GRACE-FO",
+            "LongName": "Gravity Recovery and Climate Experiment Follow-On",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "-1.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "89.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GRACE-FO KBR",
+                "LongName": "GRACE-FO K-Band Ranging System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO SCA",
+                "LongName": "GRACE-FO Star Camera Assembly",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO ACC",
+                "LongName": "GRACE-FO SuperSTAR Accelerometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "JPL+TELLUS+GRACE-FO+Level-3+Monthly+Land+Water-Equivalent-Thickness+Surface-Mass+Anomaly+Release+6.0+in+netCDF/ASCII/GeoTIFF+Formats",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1681896927-PODAAC",
+        "revision-date": "2020-01-13T18:19:30Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Felix Landerer, TELLUS, 2019-07-19, JPL TELLUS GRACE-FO Level-3 Monthly Land Water-Equivalent-Thickness Surface-Mass Anomaly Release 6.0 in netCDF/ASCII/GeoTIFF Formats, 10.5067/GFLND-3AJ06, Landerer F. W. and S. C. Swenson, 2012, Accuracy of scaled GRACE terrestrial water storage estimates. Water Resources Research, Vol 48, W04531, 11 PP, doi:10.1029/2011WR011453."
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.5,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.5
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SOLID EARTH",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "GRAVITY ANOMALIES"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SOLID EARTH",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "GRAVITY"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2018-05-22T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/GFLND-3AJ06"
+        },
+        "ShortName": "TELLUS_GRFO_L3_JPL_RL06_LND",
+        "EntryTitle": "JPL TELLUS GRACE-FO Level-3 Monthly Land Water-Equivalent-Thickness Surface-Mass Anomaly Release 6.0 in netCDF/ASCII/GeoTIFF Formats",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/land_mass/RL06/JPL",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "GRACE-FO Project Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://gracefo.jpl.nasa.gov/"
+          },
+          {
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L3_Handbook_JPL-D-103133_20190327.pdf"
+          },
+          {
+            "Description": "NASA approved YAML encoding technical Note",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://earthdata.nasa.gov/esdis/eso/standards-and-references/yaml-encoding-ascii-format-for-grace-grace-fo-mission-data"
+          },
+          {
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ghrsst/sw/generic_nc_readers"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GFLND-3AJ06",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "PODAAC GRACE-FO Mission-Page",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://podaac.jpl.nasa.gov/GRACE-FO"
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/GFLND-3AJ06"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/land_mass/RL06/JPL/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2019-07-05T19:19:12.768Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-07-05T19:19:12.768Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The JPL monthly land mass grids contain land water mass anomaly given as equivalent water thickness derived from GRACE time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats.  The Equivalent water thickness represents the total terrestrial water storage anomalies from soil moisture, snow, surface water (incl. rivers, lakes, reservoirs etc.), as well as groundwater and aquifers.  A glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated. Post-processing filters have been applied to reduce correlated errors. From the RL06 version, all GRACE-FO products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2020-01-13T18:19:28.449Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "6.0",
+        "Projects": [
+          {
+            "ShortName": "GRACE-FO"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "JPL"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "FirstName": "Wen-Hao",
+                "LastName": "Li"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-1176"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "wen-hao.li@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "GRACE-FO",
+            "LongName": "Gravity Recovery and Climate Experiment Follow-On",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "-1.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "89.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GRACE-FO KBR",
+                "LongName": "GRACE-FO K-Band Ranging System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO SCA",
+                "LongName": "GRACE-FO Star Camera Assembly",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO ACC",
+                "LongName": "GRACE-FO SuperSTAR Accelerometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "JPL+TELLUS+GRACE-FO+Level-3+Monthly+Ocean+Bottom+Pressure+Anomaly+Release+6.0+version+03+in+netCDF/ASCII/GeoTIFF+Formats",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1684267720-PODAAC",
+        "revision-date": "2020-01-23T17:17:20Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Felix Landerer, TELLUS, 2020-01-22, JPL TELLUS GRACE-FO Level-3 Monthly Ocean Bottom Pressure Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats, 10.5067/GFOCN-3AJ63, Landerer F. W. and S. C. Swenson, 2012, Accuracy of scaled GRACE terrestrial water storage estimates. Water Resources Research, Vol 48, W04531, 11 PP, doi:10.1029/2011WR011453"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.5,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.5
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN PRESSURE",
+            "VariableLevel1": "WATER PRESSURE",
+            "DetailedVariable": "OCEAN BOTTOM PRESSURE"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SOLID EARTH",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "GRAVITY"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2018-05-22T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/GFOCN-3AJ63"
+        },
+        "ShortName": "TELLUS_GRFO_L3_JPL_RL06_OCN_v03",
+        "EntryTitle": "JPL TELLUS GRACE-FO Level-3 Monthly Ocean Bottom Pressure Anomaly Release 6.0 version 03 in netCDF/ASCII/GeoTIFF Formats",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/ocean_mass/RL06/v03/JPL",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "NASA approved YAML encoding technical Note",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://earthdata.nasa.gov/esdis/eso/standards-and-references/yaml-encoding-ascii-format-for-grace-grace-fo-mission-data"
+          },
+          {
+            "Description": "netCDF Read Software",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ghrsst/sw/generic_nc_readers"
+          },
+          {
+            "Description": "GRACE-FO Project Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://gracefo.jpl.nasa.gov/"
+          },
+          {
+            "Description": "User's Guide",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L3_Handbook_JPL-D-103133_20190327.pdf"
+          },
+          {
+            "Description": "PODAAC GRACE-FO Mission-Page",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://podaac.jpl.nasa.gov/GRACE-FO"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GFOCN-3AJ63",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/GFOCN-3AJ63"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/ocean_mass/RL06/v03/JPL/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2020-01-16T02:15:46.118Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2020-01-16T02:15:46.118Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The JPL monthly ocean bottom pressure grids are given as equivalent water thickness changes derived from GRACE-FO time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats. The Equivalent water thickness represent sea floor pressure changes due to the integral effect of ocean and atmosphere processes, including global mean ocean bottom pressure changes (mean ocean mass and mean atmosphere mass over the global oceans). The Level-2 GAD product has been added back, a glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated. Post-processing filters (i.e., de-striping and spatial smoothing) have been applied to reduce correlated errors. For the RL06 version, all GRACE products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices. Version 02 (v02) of the ocean bottom pressure data has resolved a processing inconsistency issue in the version 01 files for both GRACE and GRACE-FO. This inconsistency resulted in erroneous leakage corrections, in particular near GIA-affected regions. Interior ocean data points (i.e., more than 1000 km away from coastlines) were minimally affected.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2020-01-23T17:17:17.995Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "RL06 v03",
+        "Projects": [
+          {
+            "ShortName": "GRACE-FO"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "NASA/JPL/GRACE-TELLUS-0001"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "FirstName": "Wen-Hao",
+                "LastName": "Li"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-1176"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "wen-hao.li@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "GRACE-FO",
+            "LongName": "Gravity Recovery and Climate Experiment Follow-On",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "-1.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "89.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GRACE-FO KBR",
+                "LongName": "GRACE-FO K-Band Ranging System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO SCA",
+                "LongName": "GRACE-FO Star Camera Assembly",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO ACC",
+                "LongName": "GRACE-FO SuperSTAR Accelerometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "meta": {
+        "revision-id": 1,
+        "deleted": false,
+        "format": "application/echo10+xml",
+        "provider-id": "PODAAC",
+        "user-id": "cia001",
+        "has-formats": false,
+        "has-spatial-subsetting": false,
+        "native-id": "JPL+TELLUS+GRACE-FO+Level-3+Monthly+Ocean+Water-Equivalent-Thickness+Surface-Mass+Anomaly+Release+6.0+version+02+in+netCDF/ASCII/GeoTIFF+Formats",
+        "has-transforms": false,
+        "has-variables": false,
+        "concept-id": "C1647431705-PODAAC",
+        "revision-date": "2019-10-23T17:44:23Z",
+        "granule-count": 0,
+        "has-temporal-subsetting": false,
+        "concept-type": "collection"
+      },
+      "umm": {
+        "CollectionCitations": [
+          {
+            "OtherCitationDetails": "Felix Landerer, TELLUS, 2019-10-30, JPL TELLUS GRACE-FO Level-3 Monthly Ocean Water-Equivalent-Thickness Surface-Mass Anomaly Release 6.0 version 02 in netCDF/ASCII/GeoTIFF Formats, 10.5067/GFOCN-3AJ62, Landerer F. W. and S. C. Swenson, 2012, Accuracy of scaled GRACE terrestrial water storage estimates. Water Resources Research, Vol 48, W04531, 11 PP, doi:10.1029/2011WR011453"
+          }
+        ],
+        "SpatialExtent": {
+          "SpatialCoverageType": "HORIZONTAL",
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "CoordinateSystem": "CARTESIAN",
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "NorthBoundingCoordinate": 89.5,
+                  "EastBoundingCoordinate": 180.0,
+                  "SouthBoundingCoordinate": -89.5
+                }
+              ]
+            },
+            "ResolutionAndCoordinateSystem": {
+              "GeodeticModel": {
+                "HorizontalDatumName": "World Geodetic System 1984",
+                "EllipsoidName": "WGS 84",
+                "SemiMajorAxis": 6378137,
+                "DenominatorOfFlatteningRatio": 298.2572236
+              }
+            }
+          },
+          "GranuleSpatialRepresentation": "CARTESIAN"
+        },
+        "CollectionProgress": "NOT PROVIDED",
+        "ScienceKeywords": [
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "SOLID EARTH",
+            "Term": "GRAVITY/GRAVITATIONAL FIELD",
+            "VariableLevel1": "GRAVITY"
+          },
+          {
+            "Category": "EARTH SCIENCE",
+            "Topic": "OCEANS",
+            "Term": "OCEAN PRESSURE",
+            "VariableLevel1": "WATER PRESSURE",
+            "DetailedVariable": "OCEAN BOTTOM PRESSURE"
+          }
+        ],
+        "TemporalExtents": [
+          {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+              {
+                "BeginningDateTime": "2018-05-22T00:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "ProcessingLevel": {
+          "Id": "3"
+        },
+        "DOI": {
+          "DOI": "10.5067/GFOCN-3AJ62"
+        },
+        "ShortName": "TELLUS_GRFO_L3_JPL_RL06_OCN_v02",
+        "EntryTitle": "JPL TELLUS GRACE-FO Level-3 Monthly Ocean Water-Equivalent-Thickness Surface-Mass Anomaly Release 6.0 version 02 in netCDF/ASCII/GeoTIFF Formats",
+        "RelatedUrls": [
+          {
+            "Description": "The HTTP location for the collection.",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/gracefo/ocean_mass/RL06/v02/JPL",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "text/html",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "NASA approved YAML encoding technical Note",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://earthdata.nasa.gov/esdis/eso/standards-and-references/yaml-encoding-ascii-format-for-grace-grace-fo-mission-data"
+          },
+          {
+            "Description": "netCDF Read Software",
+            "URLContentType": "DistributionURL",
+            "Type": "DOWNLOAD SOFTWARE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ghrsst/sw/generic_nc_readers"
+          },
+          {
+            "Description": "GRACE-FO Project Website",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://gracefo.jpl.nasa.gov/"
+          },
+          {
+            "Description": "PODAAC GRACE-FO Mission-Page",
+            "URLContentType": "CollectionURL",
+            "Type": "PROJECT HOME PAGE",
+            "URL": "https://podaac.jpl.nasa.gov/GRACE-FO"
+          },
+          {
+            "Description": "User's Guide",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "USER'S GUIDE",
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L3_Handbook_JPL-D-103133_20190327.pdf"
+          },
+          {
+            "Description": "(Search Granule)",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "Subtype": "DIRECT DOWNLOAD",
+            "URL": "https://podaac.jpl.nasa.gov/ws/search/granule/?datasetId=PODAAC-GFOCN-3AJ62",
+            "GetData": {
+              "Format": "Not provided",
+              "MimeType": "application/xml",
+              "Size": 0.0,
+              "Unit": "KB"
+            }
+          },
+          {
+            "Description": "Access the data set landing page for the collection.",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.5067/GFOCN-3AJ62"
+          },
+          {
+            "Description": "The OPeNDAP base directory location for the collection.",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/gracefo/ocean_mass/RL06/v02/JPL/"
+          }
+        ],
+        "DataDates": [
+          {
+            "Date": "2019-10-01T23:11:28.375Z",
+            "Type": "CREATE"
+          },
+          {
+            "Date": "2019-10-01T23:11:28.375Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Abstract": "The JPL monthly ocean mass grids contain ocean water mass anomaly given as equivalent water thickness derived from GRACE-FO time-variable gravity observations during the specified timespan in ASCII/netCDF/GeoTIFF formats.  The Equivalent water thickness is used to represent the water mass so it can be comparable to sea level anomalies due to water mass changes.  These mass grids represent the full magnitude of ocean processes, including the global mean ocean bottom pressure change (ocean mass and mean atmosphere mass over the global oceans).  The Level-2 GAD product has been added back, a glacial isostatic adjustment (GIA) correction has been applied, and standard corrections for geocenter (degree-1) and C20 (degree-20) are incorporated.  Post-processing filters have been applied to reduce correlated errors. From the RL06 version, all GRACE products in the ASCII format have adopted the YAML encoding header, which is in full compliance with the PO.DAAC metadata best practices. Version 02 (v02) of the Ocean mass data has resolved a processing inconsistency issue in the version 01 files for both GRACE and GRACE-FO. This inconsistency resulted in erroneous leakage corrections, in particular near GIA-affected regions. Interior ocean data points (i.e., more than 1000 km away from coastlines) are minimally affected.",
+        "LocationKeywords": [
+          {
+            "Category": "GEOGRAPHIC REGION",
+            "Type": "GLOBAL"
+          }
+        ],
+        "MetadataDates": [
+          {
+            "Date": "2019-10-23T17:44:20.852Z",
+            "Type": "UPDATE"
+          }
+        ],
+        "Version": "RL06 v02",
+        "Projects": [
+          {
+            "ShortName": "GRACE-FO"
+          }
+        ],
+        "DataCenters": [
+          {
+            "Roles": [
+              "PROCESSOR"
+            ],
+            "ShortName": "JPL"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "NASA/JPL/PODAAC"
+          },
+          {
+            "Roles": [
+              "ARCHIVER"
+            ],
+            "ShortName": "Jet Propulsion Laboratory",
+            "ContactPersons": [
+              {
+                "Roles": [
+                  "Data Center Contact"
+                ],
+                "FirstName": "Wen-Hao",
+                "LastName": "Li"
+              }
+            ],
+            "ContactInformation": {
+              "ContactMechanisms": [
+                {
+                  "Type": "Primary",
+                  "Value": "(818) 393-1176"
+                },
+                {
+                  "Type": "Email",
+                  "Value": "wen-hao.li@jpl.nasa.gov"
+                }
+              ]
+            }
+          }
+        ],
+        "Platforms": [
+          {
+            "Type": "SPACECRAFT",
+            "ShortName": "GRACE-FO",
+            "LongName": "Gravity Recovery and Climate Experiment Follow-On",
+            "Characteristics": [
+              {
+                "Name": "OrbitPeriod",
+                "Description": "Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value": "-1.0",
+                "Unit": "Minutes",
+                "DataType": "FLOAT"
+              },
+              {
+                "Name": "InclinationAngle",
+                "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value": "89.0",
+                "Unit": "Degrees",
+                "DataType": "FLOAT"
+              }
+            ],
+            "Instruments": [
+              {
+                "ShortName": "GRACE-FO KBR",
+                "LongName": "GRACE-FO K-Band Ranging System",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO SCA",
+                "LongName": "GRACE-FO Star Camera Assembly",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              },
+              {
+                "ShortName": "GRACE-FO ACC",
+                "LongName": "GRACE-FO SuperSTAR Accelerometer",
+                "Characteristics": [
+                  {
+                    "Name": "SwathWidth",
+                    "Description": "Spacecraft angular distance from orbital plane relative to the Equator.",
+                    "Value": "-1.0",
+                    "Unit": "Meters",
+                    "DataType": "FLOAT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ArchiveAndDistributionInformation": {
+          "FileDistributionInformation": [
+            {
+              "FormatType": "Native",
+              "Format": "NETCDF"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

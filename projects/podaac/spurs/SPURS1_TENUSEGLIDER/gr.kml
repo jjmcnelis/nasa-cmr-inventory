@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gr" id="gr">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="gran_name" type="string"></SimpleField>
+	<SimpleField name="gran_size_mb" type="float"></SimpleField>
+	<SimpleField name="gran_parameters" type="string"></SimpleField>
+	<SimpleField name="gran_day_night" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>gr</name>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652992972-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS_Tenuse_Glider.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:18:11Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2016</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_TENUSEGLIDER</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS_Tenuse_Glider.nc</SimpleData>
+		<SimpleData name="coll_shortname">21.71091079711914</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-08-21T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2012-10-04T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">24.577</SimpleData>
+		<SimpleData name="time_max">26.407</SimpleData>
+		<SimpleData name="lat_min">-38.077</SimpleData>
+		<SimpleData name="lat_max">-35.099</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-35.099,24.577 -35.099,26.407 -38.077,26.407 -38.077,24.577 -35.099,24.577</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1652992895-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS_Crate_Glider.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:18:10Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2016</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS1_TENUSEGLIDER</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS_Crate_Glider.nc</SimpleData>
+		<SimpleData name="coll_shortname">0.4858589172363281</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2012-08-22T00:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2012-08-27T00:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">25.598</SimpleData>
+		<SimpleData name="time_max">26.417</SimpleData>
+		<SimpleData name="lat_min">-35.905</SimpleData>
+		<SimpleData name="lat_max">-35.699</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-35.699,25.598 -35.699,26.417 -35.905,26.417 -35.905,25.598 -35.699,25.598</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gr" id="gr">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="gran_name" type="string"></SimpleField>
+	<SimpleField name="gran_size_mb" type="float"></SimpleField>
+	<SimpleField name="gran_parameters" type="string"></SimpleField>
+	<SimpleField name="gran_day_night" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>gr</name>
+  <Placemark>
+	<name>granule</name>
+	<description>G1647542048-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS2_Seaglider_RR1610_220.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-24T19:36:04Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS2_SEAGLIDER</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS2_Seaglider_RR1610_220.nc</SimpleData>
+		<SimpleData name="coll_shortname">78.79375076293945</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-08-24T16:18:24.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-05-03T07:48:33.000Z</SimpleData>
+		<SimpleData name="time_min">9.667999999999999</SimpleData>
+		<SimpleData name="time_max">10.47</SimpleData>
+		<SimpleData name="lat_min">-126.032</SimpleData>
+		<SimpleData name="lat_max">-124.655</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-124.655,9.668 -124.655,10.47 -126.032,10.47 -126.032,9.668 -124.655,9.668</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1647542055-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS2_Seaglider_RR1610_190.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-24T19:36:06Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS2_SEAGLIDER</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS2_Seaglider_RR1610_190.nc</SimpleData>
+		<SimpleData name="coll_shortname">56.16662979125977</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-08-26T15:49:48.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-01-31T17:35:20.000Z</SimpleData>
+		<SimpleData name="time_min">8.994999999999999</SimpleData>
+		<SimpleData name="time_max">12.023</SimpleData>
+		<SimpleData name="lat_min">-125.026</SimpleData>
+		<SimpleData name="lat_max">-122.128</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-122.128,8.995 -122.128,12.023 -125.026,12.023 -125.026,8.995 -122.128,8.995</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1647542061-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS2_Seaglider_RR1610_191.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-24T19:36:08Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS2_SEAGLIDER</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS2_Seaglider_RR1610_191.nc</SimpleData>
+		<SimpleData name="coll_shortname">74.40383529663086</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-08-26T16:11:14.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-04-29T06:03:43.000Z</SimpleData>
+		<SimpleData name="time_min">9.755000000000001</SimpleData>
+		<SimpleData name="time_max">10.243</SimpleData>
+		<SimpleData name="lat_min">-126.122</SimpleData>
+		<SimpleData name="lat_max">-124.736</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-124.736,9.755 -124.736,10.243 -126.122,10.243 -126.122,9.755 -124.736,9.755</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1647542045-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS2_Seaglider_RR1720_144.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-24T19:36:03Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS2_SEAGLIDER</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS2_Seaglider_RR1720_144.nc</SimpleData>
+		<SimpleData name="coll_shortname">26.62833881378174</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-08-29T19:45:54.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-11-06T23:52:34.000Z</SimpleData>
+		<SimpleData name="time_min">9.737</SimpleData>
+		<SimpleData name="time_max">11.209</SimpleData>
+		<SimpleData name="lat_min">-125.287</SimpleData>
+		<SimpleData name="lat_max">-124.726</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-124.726,9.737 -124.726,11.209 -125.287,11.209 -125.287,9.737 -124.726,9.737</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1647542051-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS2_Seaglider_RR1720_219.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-24T19:36:05Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS2_SEAGLIDER</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS2_Seaglider_RR1720_219.nc</SimpleData>
+		<SimpleData name="coll_shortname">25.80590534210205</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2017-08-30T01:31:31.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-11-07T00:03:55.000Z</SimpleData>
+		<SimpleData name="time_min">9.679</SimpleData>
+		<SimpleData name="time_max">11.223</SimpleData>
+		<SimpleData name="lat_min">-125.329</SimpleData>
+		<SimpleData name="lat_max">-124.653</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-124.653,9.679 -124.653,11.223 -125.329,11.223 -125.329,9.679 -124.653,9.679</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

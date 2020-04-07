@@ -1,14 +1,13 @@
 {
-  "replace_readme": true,
   "paths": {
-    "readme": "README.md",
-    "projects": "projects/"
+    "readme": "PODAAC.md",
+    "projects": "projects/podaac"
   },
   "cmr": {
     "datasets": {
       "update": true,
       "search": {
-        "endpoint": "collections.umm_json_v1_4?",
+        "endpoint": "collections.umm_json?",
         "parameters": {
           "page_size": "1000",
           "project": null
@@ -18,7 +17,7 @@
     "granules": {
       "update": true,
       "search": {
-        "endpoint": "granules.umm_json_v1_4?",
+        "endpoint": "granules.umm_json?",
         "parameters": {
           "page_size": "2000",
           "collection_concept_id": null

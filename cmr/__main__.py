@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-__doc__ = '''
-PyABoVE: Generate KML inventory of ABoVE assets.
-  version: {}
-  author:  {}
-  email:   {}
-'''.format( "0.1.0", "jjmcnelis", "jjmcn@gmail.com" )
+"""
+Generate KML inventory of ABoVE assets.
+- contact: jmcnelis@jpl.nasa.gov
+- updated: 2020-06-06
+"""
 
 from os.path import join as pjoin
 from .cmr import *
@@ -14,12 +13,13 @@ import os
 
 # Enable fiona driver for writing KML files.
 gpd.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
+gpd.io.file.fiona.drvsupport.supported_drivers['LIBKML'] = 'rw'
 
 ### Prepare to run. 
 
 # Check the argument (should be one, a valid CMR project).
 try:
-    project = sys.argv[1]
+    project = sys.argv[1].lower()
 except Exception as e:
     print("ERROR: Missing argument 1 (project id)."); raise(e)
 
@@ -114,14 +114,18 @@ if config['cmr']['granules']['update']:
         gran_counter+=int(grdf.index.size)
 
 ### Document what happened this run. Read the projects file.
-with open(pjoin(config['paths']['projects'], "projects.json"), "r") as f:
-    proj_reference = json.load(f)
+try:
+    with open(pjoin(config['paths']['projects'], "projects.json"), "r") as f:
+        proj_reference = json.load(f)
+except FileNotFoundError as e:
+    proj_reference = {}
 
 # Record some information about this run.
 proj_record = {
     'timestamp': dt.now().__str__().split(".")[0], 
     'ndatasets': ddf.index.size, 
-    'ngranules': gran_counter, }
+    'ngranules': gran_counter,
+}
 
 # If the project already exists, append this run.
 if project in list(proj_reference.keys()):
@@ -136,8 +140,7 @@ with open(pjoin(config['paths']['projects'], "projects.json"), "w") as f:
     f.write(json.dumps(proj_reference, indent=2))
 
 ### Write a new README.md file if config says so.
-if config['replace_readme']:
-    write_readme(directory=config['paths']['projects'],
-                 readme_path="README.md",
-                 readme_project="above",
-                 readme_dataset="ABoVE_Arctic_CAP_1658", ) 
+write_readme(
+    directory=config['paths']['projects'],
+    readme_path=config['paths']['readme'],
+) 

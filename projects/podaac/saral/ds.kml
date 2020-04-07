@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ds" id="ds">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_title" type="string"></SimpleField>
+	<SimpleField name="coll_version" type="string"></SimpleField>
+	<SimpleField name="coll_doi" type="string"></SimpleField>
+	<SimpleField name="coll_abstract" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="coll_status" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl_desc" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>ds</name>
+  <Placemark>
+	<name>collection</name>
+	<description>C1406142500-SCIOPS</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">ceos_idn_CNES_http__cnes.fr_ark_68059_7b252f158625499a87bcd80db70d37a0_IDN___version_</SimpleData>
+		<SimpleData name="cmr_concept_id">SCIOPS</SimpleData>
+		<SimpleData name="cmr_native_id">8</SimpleData>
+		<SimpleData name="cmr_provider_id">2018-12-05T20:26:10Z</SimpleData>
+		<SimpleData name="cmr_revision_date">SARAL experiment: Altika</SimpleData>
+		<SimpleData name="cmr_publication_date">1.3</SimpleData>
+		<SimpleData name="coll_version">The SARAL-AltiKa project is a collaboration between France and India in the environment monitoring domain. On a platform developed by the indian space agency (ISRO), two independant payloads have been embarked, ARGOS-3 and AltiKa (+DORIS, +LRA), whose missions have the same objective: to promote the study of the environment from space.ARGOS-3 is an element of the ARGOS system, dedicated to localisation, acquisition and distribution of environmental data.AltiKa is an innovating Ka-band altimeter system, dedicated to accurate measurement of ocean surface topography. It is envisioned as a successor of RA-2 instrument on board ESA's satellite EnviSat.The SARAL satellite is made up of:a spacecraft bus IMS-2 (Small Satellite Bus). This platform, developed by the Indian space agency ISRO, is designed for satellites in the range of about 500 kg at launch.a payload developed by CNES including the following instruments:An altimeter-radiometer AltiKa (CNES contribution),A DORIS system for precise orbit determination (CNES contribution),A LRA (Laser Retro-reflector Array) instrument used for precise calibration of other POD instruments, through analysis of laser shots from the ground then reflected by the LRA mirrors (CNES contribution),The ARGOS-3 instrumentFor more informations about ARGOS and DORIS, please to use &quot;metadata ARGOS Mission&quot; and &quot;DORIS Mission&quot;
+The AltiKa project is part of a French program of operational oceanography development including in situ measurements deployment (CORIOLIS project) and implementation of an analysis and forecasting center (MERCATOR project). These two programmes are the French contribution to GODAE (Global Ocean Data Assimilation Experiment), first international operational oceanography experiment. Thanks to the work of the French and international community, diverse applications of modeling/assimilation systems such as MERCATOR are in operation to begin to answer the scientific needs as well as civil or defense operational applications. Altimetry is a key observation parameter of the system and continuity of observations is a critical factor of its efficiency. A participation to the permanent observation system that will feed operational oceanography thus constitutes a major objective of AltiKa. The perspective of Marine Core Services (MCS) implementation within the GMES framework and the MERSEA project continuity, gives even more importance to this goal.The data processing is integrated to the CNES ground segment SALP (Système d'Altimétrie et de Localisation Précise), which already operates other altimetry missions like Jason-2, Jason-3, HY-2A.Until July 2016, SARAL-AltiKa has been flying on the same orbit than ENVISAT, in order to ensure a continuity of long term altimetry observations. The local time of equator crossing was however different due to specific cover requirements for the instruments constellation of ARGOS system. 
+[https://aviso-data-center.cnes.fr/]</SimpleData>
+		<SimpleData name="coll_doi">CNES_http__cnes.fr_ark_68059_7b252f158625499a87bcd80db70d37a0_IDN</SimpleData>
+		<SimpleData name="coll_abstract">ACTIVE</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-90</SimpleData>
+		<SimpleData name="time_max">90</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-90 180,90 -180,90 -180,-90 180,-90</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1650311543-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">SARAL+Near-Real-Time+Value-added+Operational+Geophysical+Data+Record+Sea+Surface+Height+Anomaly</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-01T16:26:39Z</SimpleData>
+		<SimpleData name="cmr_revision_date">SARAL Near-Real-Time Value-added Operational Geophysical Data Record Sea Surface Height Anomaly</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_version">These data are near-real-time (NRT) (within 7-9 hours of measurement) sea surface height anomalies (SSHA) from the AltiKa altimeter onboard the Satellite with ARgos and ALtiKa (SARAL).  SARAL is a French(CNES)/Indian(SARAL) collaborative mission to measure sea surface height using the Ka-band AltiKa altimeter and was launched February 25, 2013. The major difference between these data and the Operational Geophysical Data Record (OGDR) data produced by the project is that the orbit from SARAL has been adjusted using SSHA differences with those from the OSTM/Jason-2 GPS-OGDR-SSHA product at inter-satellite crossover locations. This produces a more accurate NRT orbit altitude for SARAL with accuracy of 1.5 cm (RMS), taking advantage of the 1 cm (radial RMS) accuracy of the GPS-based orbit used for the OSTM/Jason-2 GPS-OGDR-SSHA product. This dataset also contains all data from the project (reduced) OGDR, and improved altimeter wind speeds and sea state bias correction. More information on the SARAL mission can be found at: http://www.aviso.oceanobs.com/en/missions/current-missions/saral.html</SimpleData>
+		<SimpleData name="coll_doi">ALTIKA_SARAL_L2_OST_XOGDR</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">2</SimpleData>
+		<SimpleData name="time_min">-82</SimpleData>
+		<SimpleData name="time_max">82</SimpleData>
+		<SimpleData name="lat_min">-180</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,-82 180,82 -180,82 -180,-82 180,-82</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

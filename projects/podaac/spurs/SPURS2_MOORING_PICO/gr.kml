@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gr" id="gr">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="gran_name" type="string"></SimpleField>
+	<SimpleField name="gran_size_mb" type="float"></SimpleField>
+	<SimpleField name="gran_parameters" type="string"></SimpleField>
+	<SimpleField name="gran_day_night" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>gr</name>
+  <Placemark>
+	<name>granule</name>
+	<description>G1647541721-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS2_PICOSP02.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-24T19:33:29Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS2_MOORING_PICO</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS2_PICOSP02.nc</SimpleData>
+		<SimpleData name="coll_shortname">5.226073265075684</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-08-22T16:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-24T12:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">9.047000000000001</SimpleData>
+		<SimpleData name="time_max">9.047000000000001</SimpleData>
+		<SimpleData name="lat_min">-124.997</SimpleData>
+		<SimpleData name="lat_max">-124.997</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-124.997,9.047 -124.997,9.047 -124.997,9.047 -124.997,9.047</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1647541718-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS2_PICOSP02_CTD.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-24T19:33:27Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS2_MOORING_PICO</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS2_PICOSP02_CTD.nc</SimpleData>
+		<SimpleData name="coll_shortname">45.56434631347656</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-08-22T18:02:18.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-12T12:15:29.000Z</SimpleData>
+		<SimpleData name="time_min">9.050000000000001</SimpleData>
+		<SimpleData name="time_max">9.050000000000001</SimpleData>
+		<SimpleData name="lat_min">-125</SimpleData>
+		<SimpleData name="lat_max">-125</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-125.0,9.05 -125.0,9.05 -125.0,9.05 -125.0,9.05</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1647541727-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS2_PICOSP01.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-24T19:33:32Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS2_MOORING_PICO</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS2_PICOSP01.nc</SimpleData>
+		<SimpleData name="coll_shortname">5.165648460388184</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-08-25T16:00:00.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-10-22T12:00:00.000Z</SimpleData>
+		<SimpleData name="time_min">10.984</SimpleData>
+		<SimpleData name="time_max">10.984</SimpleData>
+		<SimpleData name="lat_min">-124.959</SimpleData>
+		<SimpleData name="lat_max">-124.959</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-124.959,10.984 -124.959,10.984 -124.959,10.984 -124.959,10.984</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>granule</name>
+	<description>G1647541724-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gr">
+		<SimpleData name="cmr_concept_type">SPURS2_PICOSP01_CTD.nc</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-10-24T19:33:30Z</SimpleData>
+		<SimpleData name="cmr_revision_id">2019</SimpleData>
+		<SimpleData name="cmr_revision_date">SPURS2_MOORING_PICO</SimpleData>
+		<SimpleData name="cmr_publication_date">SPURS2_PICOSP01_CTD.nc</SimpleData>
+		<SimpleData name="coll_shortname">34.54625701904297</SimpleData>
+		<SimpleData name="gran_size_mb">0</SimpleData>
+		<SimpleData name="gran_parameters">2016-08-25T17:22:42.000Z</SimpleData>
+		<SimpleData name="gran_day_night">2017-07-03T12:46:48.000Z</SimpleData>
+		<SimpleData name="time_min">11</SimpleData>
+		<SimpleData name="time_max">11</SimpleData>
+		<SimpleData name="lat_min">-125</SimpleData>
+		<SimpleData name="lat_max">-125</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-125,11 -125,11 -125,11 -125,11</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

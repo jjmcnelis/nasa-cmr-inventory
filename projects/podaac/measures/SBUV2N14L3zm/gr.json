@@ -1,0 +1,88 @@
+{
+  "hits": 1,
+  "took": 20,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1266221711-GES_DISC",
+        "revision-id": 2,
+        "native-id": "SBUV2N14L3zm.1:SBUV2-NOAA14_L3zm_v01-02-2013m0422t101841.h5",
+        "provider-id": "GES_DISC",
+        "format": "application/echo10+xml",
+        "revision-date": "2018-03-21T12:19:56Z"
+      },
+      "umm": {
+        "RelatedUrls": [
+          {
+            "URL": "https://measures.gesdisc.eosdis.nasa.gov/data//Ozone/SBUV2N14L3zm.1/SBUV2-NOAA14_L3zm_v01-02-2013m0422t101841.h5",
+            "Type": "GET DATA"
+          },
+          {
+            "URL": "https://measures.gesdisc.eosdis.nasa.gov/opendap/Ozone/SBUV2N14L3zm.1/SBUV2-NOAA14_L3zm_v01-02-2013m0422t101841.h5",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "application/x-hdf"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 90.0,
+                  "SouthBoundingCoordinate": -90.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2013-06-13T17:44:38.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2013-06-13T17:44:38.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "SBUV2N14L3zm",
+          "Version": "1"
+        },
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "Identifiers": [
+            {
+              "Identifier": "SBUV2-NOAA14_L3zm_v01-02-2013m0422t101841.h5",
+              "IdentifierType": "ProducerGranuleId"
+            }
+          ],
+          "ProductionDateTime": "2013-04-22T10:18:41.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 9.2918119430542,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1995-03-01T00:00:00.000Z",
+            "EndingDateTime": "2006-09-28T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "SBUV2N14L3zm.1:SBUV2-NOAA14_L3zm_v01-02-2013m0422t101841.h5",
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    }
+  ]
+}

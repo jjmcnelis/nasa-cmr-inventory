@@ -1,0 +1,486 @@
+{
+  "hits": 6,
+  "took": 72,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1653649543-PODAAC",
+        "revision-id": 1,
+        "native-id": "OMG_Bathy_MBES_L2_20150725000000.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-07T19:05:40Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2015-07-25T00:00:00.000Z",
+            "EndingDateTime": "2015-09-21T00:00:00.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "OMG_Bathy_MBES_L2_20150725000000.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -67.504,
+                  "EastBoundingCoordinate": -50.253,
+                  "NorthBoundingCoordinate": 76.427,
+                  "SouthBoundingCoordinate": 68.71
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-08-13T16:15:05.713Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-07T19:05:39.386Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "OMG_L2_Bathy_MBES_Gridded",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/bathymetry/MBES//OMG_Bathy_MBES_L2_20150725000000.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/omg/L2/bathymetry/MBES//OMG_Bathy_MBES_L2_20150725000000.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-08-05T20:19:06.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 745.4295978546143,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1653649542-PODAAC",
+        "revision-id": 1,
+        "native-id": "OMG_Bathy_MBES_L2_20160907000000.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-07T19:05:38Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-09-07T00:00:00.000Z",
+            "EndingDateTime": "2016-10-07T00:00:00.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "OMG_Bathy_MBES_L2_20160907000000.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -44.199,
+                  "EastBoundingCoordinate": -18.412,
+                  "NorthBoundingCoordinate": 68.556,
+                  "SouthBoundingCoordinate": 60.34
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-08-13T16:15:16.931Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-07T19:05:38.017Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "OMG_L2_Bathy_MBES_Gridded",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/bathymetry/MBES//OMG_Bathy_MBES_L2_20160907000000.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/omg/L2/bathymetry/MBES//OMG_Bathy_MBES_L2_20160907000000.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-08-05T21:25:15.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 407.42967796325684,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1653649541-PODAAC",
+        "revision-id": 1,
+        "native-id": "OMG_Bathy_MBES_L2_20160914000000.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-07T19:05:37Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2016-09-14T00:00:00.000Z",
+            "EndingDateTime": "2016-09-25T00:00:00.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "OMG_Bathy_MBES_L2_20160914000000.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -55.961,
+                  "EastBoundingCoordinate": -50.234,
+                  "NorthBoundingCoordinate": 73.417,
+                  "SouthBoundingCoordinate": 69.627
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-08-13T16:15:48.640Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-07T19:05:34.543Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "OMG_L2_Bathy_MBES_Gridded",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/bathymetry/MBES//OMG_Bathy_MBES_L2_20160914000000.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/omg/L2/bathymetry/MBES//OMG_Bathy_MBES_L2_20160914000000.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-08-05T21:11:20.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 17.88990592956543,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1653649544-PODAAC",
+        "revision-id": 1,
+        "native-id": "OMG_Bathy_MBES_L2_20170822000000.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-07T19:05:41Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2017-08-22T00:00:00.000Z",
+            "EndingDateTime": "2017-09-03T00:00:00.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "OMG_Bathy_MBES_L2_20170822000000.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -59.589,
+                  "EastBoundingCoordinate": -55.379,
+                  "NorthBoundingCoordinate": 75.876,
+                  "SouthBoundingCoordinate": 73.41
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-08-13T16:15:22.609Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-07T19:05:40.893Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "OMG_L2_Bathy_MBES_Gridded",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/bathymetry/MBES//OMG_Bathy_MBES_L2_20170822000000.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/omg/L2/bathymetry/MBES//OMG_Bathy_MBES_L2_20170822000000.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-08-05T21:13:06.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 120.61337089538574,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1653649545-PODAAC",
+        "revision-id": 1,
+        "native-id": "OMG_Bathy_MBES_L2_20180802000000.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-07T19:05:43Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-08-02T00:00:00.000Z",
+            "EndingDateTime": "2018-08-21T00:00:00.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "OMG_Bathy_MBES_L2_20180802000000.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -46.181,
+                  "EastBoundingCoordinate": -32.853,
+                  "NorthBoundingCoordinate": 67.691,
+                  "SouthBoundingCoordinate": 60.962
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-10-08T19:52:46.768Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-07T19:05:42.277Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "OMG_L2_Bathy_MBES_Gridded",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/bathymetry/MBES//OMG_Bathy_MBES_L2_20180802000000.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/omg/L2/bathymetry/MBES//OMG_Bathy_MBES_L2_20180802000000.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-10-07T16:06:58.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 56.02871513366699,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    },
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1653649546-PODAAC",
+        "revision-id": 1,
+        "native-id": "OMG_Bathy_MBES_L2_20180814000000.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-11-07T19:05:44Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2018-08-14T00:00:00.000Z",
+            "EndingDateTime": "2018-08-16T00:00:00.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "OMG_Bathy_MBES_L2_20180814000000.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -37.99,
+                  "EastBoundingCoordinate": -36.827,
+                  "NorthBoundingCoordinate": 66.407,
+                  "SouthBoundingCoordinate": 65.837
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-10-08T19:52:52.093Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-11-07T19:05:43.597Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "OMG_L2_Bathy_MBES_Gridded",
+          "Version": "1"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/omg/L2/bathymetry/MBES//OMG_Bathy_MBES_L2_20180814000000.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/omg/L2/bathymetry/MBES//OMG_Bathy_MBES_L2_20180814000000.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2019-10-07T14:19:32.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 2.0970592498779297,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    }
+  ]
+}

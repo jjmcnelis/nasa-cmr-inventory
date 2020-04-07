@@ -1,0 +1,92 @@
+{
+  "hits": 1,
+  "took": 22,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1709333131-PODAAC",
+        "revision-id": 1,
+        "native-id": "GRCTellus.JPL.200204_201911.GLO.RL06M.MSCNv02CRI.nc",
+        "provider-id": "PODAAC",
+        "format": "application/echo10+xml",
+        "revision-date": "2020-03-20T20:27:36Z"
+      },
+      "umm": {
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "2002-04-16T00:00:00.000Z",
+            "EndingDateTime": "2019-11-16T23:59:59.000Z"
+          }
+        },
+        "OrbitCalculatedSpatialDomains": [
+          {}
+        ],
+        "GranuleUR": "GRCTellus.JPL.200204_201911.GLO.RL06M.MSCNv02CRI.nc",
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": 0.25,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 89.75,
+                  "SouthBoundingCoordinate": -89.75
+                },
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": -0.25,
+                  "NorthBoundingCoordinate": 89.75,
+                  "SouthBoundingCoordinate": -89.75
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2020-01-24T17:39:57.769Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2020-03-20T20:27:34.045Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "TELLUS_GRAC-GRFO_MASCON_CRI_GRID_RL06_V2",
+          "Version": "02"
+        },
+        "RelatedUrls": [
+          {
+            "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/tellus/L3/mascon/RL06/JPL/v02/CRI/netcdf//GRCTellus.JPL.200204_201911.GLO.RL06M.MSCNv02CRI.nc",
+            "Type": "GET DATA",
+            "Description": "The HTTP location for the granule."
+          },
+          {
+            "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/tellus/L3/mascon/RL06/JPL/v02/CRI/netcdf//GRCTellus.JPL.200204_201911.GLO.RL06M.MSCNv02CRI.nc.html",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/html"
+          }
+        ],
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "ProductionDateTime": "2020-01-23T12:01:59.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 707.9951858520508,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    }
+  ]
+}

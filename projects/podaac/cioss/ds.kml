@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ds" id="ds">
+	<SimpleField name="cmr_concept_type" type="string"></SimpleField>
+	<SimpleField name="cmr_concept_id" type="string"></SimpleField>
+	<SimpleField name="cmr_native_id" type="string"></SimpleField>
+	<SimpleField name="cmr_provider_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_id" type="string"></SimpleField>
+	<SimpleField name="cmr_revision_date" type="string"></SimpleField>
+	<SimpleField name="cmr_publication_date" type="string"></SimpleField>
+	<SimpleField name="coll_title" type="string"></SimpleField>
+	<SimpleField name="coll_version" type="string"></SimpleField>
+	<SimpleField name="coll_doi" type="string"></SimpleField>
+	<SimpleField name="coll_abstract" type="string"></SimpleField>
+	<SimpleField name="coll_shortname" type="string"></SimpleField>
+	<SimpleField name="coll_status" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl" type="string"></SimpleField>
+	<SimpleField name="coll_proclvl_desc" type="string"></SimpleField>
+	<SimpleField name="time_min" type="string"></SimpleField>
+	<SimpleField name="time_max" type="string"></SimpleField>
+	<SimpleField name="lat_min" type="float"></SimpleField>
+	<SimpleField name="lat_max" type="float"></SimpleField>
+	<SimpleField name="lon_min" type="float"></SimpleField>
+	<SimpleField name="lon_max" type="float"></SimpleField>
+</Schema>
+<Folder><name>ds</name>
+  <Placemark>
+	<name>collection</name>
+	<description>C1652978127-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">Gridded+Altimeter+Fields+with+Enhanced+Coastal+Coverage</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:12:56Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Gridded Altimeter Fields with Enhanced Coastal Coverage</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_version">The Gridded Altimeter Fields with Enhanced Coastal Coverage data product contains Sea Surface Height Anomalies (SSHA or SLA) and zonal and meridional geostrophic velocities for the US west coast encompassing 35.25 deg-48.5 deg N latitude and 227.75 deg-248.5 deg E longitude.  This annually updated data product extends from October 14, 1992 through November 4, 2009.  SSHA and current velocities are derived from the AVISO quarter degree DT UPD MSLA version 3.0 grids, 0.75 deg and greater away from the coast.  Values within 0.75 deg of the coast are derived from tide gauge observations and interpolated out to the altimeter filled region.  Details on how these data are derived can be found in: Saraceno, M., P. T. Strub, and P. M. Kosro (2008), Estimates of sea surface height and near-surface alongshore coastal currents from combinations of altimeters and tide gauges, J. Geophys. Res., 113, C11013, doi:10.1029/2008JC004756.</SimpleData>
+		<SimpleData name="coll_doi">ALT_TIDE_GAUGE_L4_OST_SLA_US_WEST_COAST</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">4</SimpleData>
+		<SimpleData name="time_min">35.25</SimpleData>
+		<SimpleData name="time_max">48.5</SimpleData>
+		<SimpleData name="lat_min">-111.5</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180.0,35.25 180.0,48.5 -111.5,48.5 -111.5,35.25 180.0,35.25</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1652977867-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">Gridded+Altimeter+Fields+with+Enhanced+Coastal+Coverage+Daily</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">1</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-06T18:12:52Z</SimpleData>
+		<SimpleData name="cmr_revision_date">Gridded Altimeter Fields with Enhanced Coastal Coverage Daily</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_version">The Gridded Altimeter Fields with Enhanced Coastal Coverage data product contains Sea Surface Height Anomalies (SSHA or SLA) and zonal and meridional geostrophic velocities for the US west coast encompassing 35.25 deg-48.5 deg N latitude and 227.75 deg-248.5 deg E longitude.  This annually updated data product extends from October 14, 1992 through November 4, 2009.  SSHA and current velocities are derived from the AVISO quarter degree DT UPD MSLA version 3.0 grids, 0.75 deg and greater away from the coast.  Values within 0.75 deg of the coast are derived from tide gauge observations and interpolated out to the altimeter filled region.  Details on how these data are derived can be found in: Saraceno, M., P. T. Strub, and P. M. Kosro (2008), Estimates of sea surface height and near-surface alongshore coastal currents from combinations of altimeters and tide gauges, J. Geophys. Res., 113, C11013, doi:10.1029/2008JC004756.</SimpleData>
+		<SimpleData name="coll_doi">ALT_TIDE_GAUGE_L4_OST_SLA_US_WEST_COAST_DAILY</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">4</SimpleData>
+		<SimpleData name="time_min">35</SimpleData>
+		<SimpleData name="time_max">49</SimpleData>
+		<SimpleData name="lat_min">-111</SimpleData>
+		<SimpleData name="lat_max">180</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>180,35 180,49 -111,49 -111,35 180,35</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>collection</name>
+	<description>C1661292896-PODAAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ds">
+		<SimpleData name="cmr_concept_type">SeaWinds+on+QuikSCAT+Level+3+Near-Coast+Wind+and+Stress+Fields+with+Enhanced+Coverage+for+the+US+West+Coast+(OSU/COAS)</SimpleData>
+		<SimpleData name="cmr_concept_id">PODAAC</SimpleData>
+		<SimpleData name="cmr_native_id">2</SimpleData>
+		<SimpleData name="cmr_provider_id">2019-11-27T15:59:22Z</SimpleData>
+		<SimpleData name="cmr_revision_date">SeaWinds on QuikSCAT Level 3 Near-Coast Wind and Stress Fields with Enhanced Coverage for the US West Coast (OSU/COAS)</SimpleData>
+		<SimpleData name="cmr_publication_date">1</SimpleData>
+		<SimpleData name="coll_version">This high-resolution, gridded QuikSCAT scatterometer dataset with enhanced coastal coverage of the United States West Coast contains ocean surface wind and stress vector retrievals (magnitude and direction and zonal/meridional components) and derived quantities (wind speed squared, wind speed cubed, surface relative vorticity, vector wind divergence, wind stress curl, and wind stress divergence). The spatial coverage domain extends from latitude 30 degrees North to 50 degrees North and longitude 135 degrees West to 115 degrees West. The coastal wind vector retrieval algorithm developed by Barry Vanhoff and Michael Freilich has been utilized to provide improved coastal wind vector retrievals from QuikSCAT, resulting in retrievals as close as 5 km from coastlines. This dataset was developed by Barry Vanhoff, Craig Risien and Ted Strub and is made possible by funding provided by the NASA Research Opportunities in Space and Earth Science (ROSES) program and NOAA funded, Cooperative Institute for Oceanographic Satellite Studies (CIOSS) at the Oregon State University (OSU) College of Earth, Ocean and Atmospheric Sciences (CEOAS). PO.DAAC has agreed to provide this dataset as a special service to its users with the mutual understanding that issues or problems may remain in the data set, as noted below. All new users considering this dataset are strongly encouraged to first read the user guide and then to take full advantage of all potential dataset announcements through registration with PO.DAAC by emailing podaac@podaac.jpl.nasa.gov. It is further suggested that users examine a sequence of multiple parameter fields for the region and period of interest to ensure sufficient data quality and continuity. At present, it is worth noting the following known issues with regard to this dataset: a) data fields were produced using a modification of QuikSCAT Version 2 (i.e., previous version) winds, b) median-pass filter ambiguity removal is employed, hence not achieving the potential improvements from DIRTH, which affect the directional quality of the wind vector and stress data, c) does not incorporate the latest QuikSCAT re-processing improvements (i.e., Version 3 is most recent), d) different model winds (improved compared to Version 2 QuikSCAT L2B) are used in the ambiguity removal process for the entire dataset, and e) because of the lack of usable rain flags within 30 km of the coast, the rain flag value closest to the coast from the standard processing is applied between that rain flag location and the coast.  There are some consequences in light of the above issues, notably: a) the wind vector fields should not be merged with any other existing QuikSCAT dataset, b) there is more inherent structure to the data (in both signal and noise) compared to Version 3 data, c) data fields are smoother in comparison to the Version 2 data, and d) potentially spurious wind vectors may arise within ~30 km of the coast due to unflagged rain contaminated data and/or residual land reflections. More information including known problems/issues and important dataset updates can be found in the dataset user guide in PO.DAAC Drive at https://podaac-tools.jpl.nasa.gov/drive/files/allData/quikscat/preview/L3/osu_coas/docs/qscat_vanhoff_uswc_userguide.pdf .</SimpleData>
+		<SimpleData name="coll_doi">QSCAT_OSUCOAS_L3_OW_USWestCoast</SimpleData>
+		<SimpleData name="coll_abstract">NOT PROVIDED</SimpleData>
+		<SimpleData name="coll_shortname">3</SimpleData>
+		<SimpleData name="time_min">30</SimpleData>
+		<SimpleData name="time_max">50</SimpleData>
+		<SimpleData name="lat_min">-135</SimpleData>
+		<SimpleData name="lat_max">-115</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-115,30 -115,50 -135,50 -135,30 -115,30</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,88 @@
+{
+  "hits": 1,
+  "took": 17,
+  "items": [
+    {
+      "meta": {
+        "concept-type": "granule",
+        "concept-id": "G1591578942-GES_DISC",
+        "revision-id": 2,
+        "native-id": "MSVOLSO2L4.3:MSVOLSO2L4_v03-00-2019m0207.txt",
+        "provider-id": "GES_DISC",
+        "format": "application/echo10+xml",
+        "revision-date": "2019-10-15T17:41:54Z"
+      },
+      "umm": {
+        "RelatedUrls": [
+          {
+            "URL": "https://measures.gesdisc.eosdis.nasa.gov/data//SO2/MSVOLSO2L4.3/MSVOLSO2L4_v03-00-2019m0207.txt",
+            "Type": "GET DATA"
+          },
+          {
+            "URL": "https://measures.gesdisc.eosdis.nasa.gov/opendap/SO2/MSVOLSO2L4.3/MSVOLSO2L4_v03-00-2019m0207.txt",
+            "Type": "VIEW RELATED INFORMATION",
+            "Description": "The OPENDAP location for the granule.",
+            "MimeType": "text/plain"
+          }
+        ],
+        "SpatialExtent": {
+          "HorizontalSpatialDomain": {
+            "Geometry": {
+              "BoundingRectangles": [
+                {
+                  "WestBoundingCoordinate": -180.0,
+                  "EastBoundingCoordinate": 180.0,
+                  "NorthBoundingCoordinate": 80.0,
+                  "SouthBoundingCoordinate": -80.0
+                }
+              ]
+            }
+          }
+        },
+        "ProviderDates": [
+          {
+            "Date": "2019-10-15T17:41:29.000Z",
+            "Type": "Insert"
+          },
+          {
+            "Date": "2019-10-15T17:41:29.000Z",
+            "Type": "Update"
+          }
+        ],
+        "CollectionReference": {
+          "ShortName": "MSVOLSO2L4",
+          "Version": "3"
+        },
+        "DataGranule": {
+          "DayNightFlag": "Unspecified",
+          "Identifiers": [
+            {
+              "Identifier": "MSVOLSO2L4_v03-00-2019m0207.txt",
+              "IdentifierType": "ProducerGranuleId"
+            }
+          ],
+          "ProductionDateTime": "2019-02-07T12:00:00.000Z",
+          "ArchiveAndDistributionInformation": [
+            {
+              "Name": "Not provided",
+              "Size": 0.100924491882324,
+              "SizeUnit": "MB"
+            }
+          ]
+        },
+        "TemporalExtent": {
+          "RangeDateTime": {
+            "BeginningDateTime": "1978-10-31T00:00:00.000Z",
+            "EndingDateTime": "2019-12-31T23:59:59.000Z"
+          }
+        },
+        "GranuleUR": "MSVOLSO2L4.3:MSVOLSO2L4_v03-00-2019m0207.txt",
+        "MetadataSpecification": {
+          "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6",
+          "Name": "UMM-G",
+          "Version": "1.6"
+        }
+      }
+    }
+  ]
+}
